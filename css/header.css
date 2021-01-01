@@ -1,80 +1,104 @@
 /* ----------------------------------------------------------------
 	header block
 ------------------------------------------------------------------*/
+.logo{
+    position: absolute;
+    width: 120.68px;
+    height: 80px;
+    
+    background: url(../images/logo.png);
+}
+.block{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FAFAFA;
+}
 .menuCources{
-	position: absolute;
-	width: 103px;
-	height: 80px;
-	
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 21px;
-	display: flex;
-	align-items: center;
-	text-transform: uppercase;
-	
-	color: #333333;
+    position: absolute;
+    width: 103px;
+    height: 80px;
+    left: 291px;
+    top: 0px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #333333;
+    
 }
 
 .menuContacts{
-	position: absolute;
-	width: 103px;
-	height: 80px;
-	
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 21px;
-	display: flex;
-	align-items: center;
-	text-transform: uppercase;
-	
-	color: #333333;
+    position: absolute;
+    width: 103px;
+    height: 80px;
+    left: 414px;
+    top: 0px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #333333;
 }
 .language{
-	position: absolute;
-	width: 93px;
-	height: 80px;
-
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 21px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-
-	color: #333333;
+    position: absolute;
+    width: 93px;
+    height: 80px;
+    left: 1056px;
+    top: 0px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #333333;
 }
 .sendButton{
-	position: absolute;
-	width: 220px;
-	height: 48px;
-	left: 1150px;
-	top: 44px;
-	
-	border: 1px solid #EF5B48;
-	box-sizing: border-box;
-	border-radius: 30px;
+    position: absolute;
+    width: 203px;
+    height: 44px;
+    left: 1165px;
+    top: 18px;
+    
+    border: 1px solid #F66F5D;
+    box-sizing: border-box;
 }
 .sendButtonText{
-	position: absolute;
-	width: 108px;
-	height: 28px;
-	left: 1206px;
-	top: 54px;
-	
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 28px;
-	display: flex;
-	align-items: center;
-	
-	color: #EF5B48;
+    position: absolute;
+    width: 121px;
+    height: 21px;
+    left: 1206px;
+    top: 29px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #EF5B48;
+    
 }
