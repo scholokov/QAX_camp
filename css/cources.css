@@ -1,0 +1,294 @@
+/* ----------------------------------------------------------------
+	cources block
+------------------------------------------------------------------*/
+.cources-title{
+	position: absolute;
+	width: 328px;
+	height: 31px;
+	left: 119px;
+	top: 914px;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 130%;
+	/* or 31px */
+	
+	letter-spacing: 0.02em;
+	
+	color: #FFFFFF;
+}
+
+
+
+.cources-qa-block{
+	position: absolute;
+	width: 421px;
+	height: 435px;
+	left: 72px;
+	top: 894px;
+	
+	background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
+}
+.cources-qa-block-title{
+	position: absolute;
+	width: 137px;
+	height: 125px;
+	left: 201px;
+	top: 1100px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 130%;
+	/* identical to box height, or 125px */
+	color: #FFFFFF;
+}
+.cources-qa-cources-number{
+	position: absolute;
+	width: 62px;
+	height: 21px;
+	left: 102px;
+	top: 1288px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+	/* identical to box height, or 21px */
+	
+	
+	color: #FFFFFF;
+}
+.cources-qa-details{
+	position: absolute;
+	width: 103px;
+	height: 18px;
+	left: 333px;
+	top: 1291px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 130%;
+	/* or 18px */
+	
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	
+	color: #FFFFFF;
+}
+.cources-qa-text{
+	position: static;
+	width: 371px;
+	height: 216px;
+	left: 25px;
+	top: 15px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	/* or 27px */
+	
+	
+	color: #FFFFFF;
+	
+	
+	/* Inside Auto Layout */
+	
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 10px 0px;
+}
+
+
+
+
+
+.cources-ba-block{
+	position: absolute;
+	width: 421px;
+	height: 435px;
+	left: 72px;
+	top: 894px;
+	
+	background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
+}
+.cources-ba-block-title{
+	position: absolute;
+	width: 137px;
+	height: 125px;
+	left: 201px;
+	top: 1100px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 130%;
+	/* identical to box height, or 125px */
+	color: #FFFFFF;
+}
+.cources-ba-cources-number{
+	position: absolute;
+	width: 62px;
+	height: 21px;
+	left: 102px;
+	top: 1288px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+	/* identical to box height, or 21px */
+	
+	
+	color: #FFFFFF;
+}
+.cources-ba-details{
+	position: absolute;
+	width: 103px;
+	height: 18px;
+	left: 333px;
+	top: 1291px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 130%;
+	/* or 18px */
+	
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	
+	color: #FFFFFF;
+}
+.cources-ba-text{
+	position: static;
+	width: 371px;
+	height: 216px;
+	left: 25px;
+	top: 15px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	/* or 27px */
+	
+	
+	color: #FFFFFF;
+	
+	
+	/* Inside Auto Layout */
+	
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.cources-pm-block{
+	position: absolute;
+	width: 421px;
+	height: 435px;
+	left: 72px;
+	top: 894px;
+	
+	background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
+}
+.cources-pm-block-title{
+	position: absolute;
+	width: 137px;
+	height: 125px;
+	left: 201px;
+	top: 1100px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 130%;
+	/* identical to box height, or 125px */
+	color: #FFFFFF;
+}
+.cources-pm-cources-number{
+	position: absolute;
+	width: 62px;
+	height: 21px;
+	left: 102px;
+	top: 1288px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+	/* identical to box height, or 21px */
+	
+	
+	color: #FFFFFF;
+}
+.cources-pm-details{
+	position: absolute;
+	width: 103px;
+	height: 18px;
+	left: 333px;
+	top: 1291px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 130%;
+	/* or 18px */
+	
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	
+	color: #FFFFFF;
+}
+.cources-pm-text{
+	position: static;
+	width: 371px;
+	height: 216px;
+	left: 25px;
+	top: 15px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	/* or 27px */
+	
+	
+	color: #FFFFFF;
+	
+	
+	/* Inside Auto Layout */
+	
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 10px 0px;
+}

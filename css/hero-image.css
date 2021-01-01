@@ -1,0 +1,50 @@
+/* ----------------------------------------------------------------
+	hero image block
+------------------------------------------------------------------*/
+.hero-image{
+	position: absolute;
+	width: 870px;
+	height: 571px;
+	left: 636px;
+	top: 68px;
+	
+	background: url(../images/hero-image.jpg);
+}
+.hero-text{
+	position: absolute;
+	width: 765px;
+	height: 172px;
+	left: 72px;
+	top: 185px;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 120%;
+	/* or 86px */
+	
+	display: flex;
+	align-items: center;
+	
+	color: #EF5B48;
+}
+
+.hero-text-longread{
+	position: absolute;
+	width: 640px;
+	height: 145px;
+	left: 72px;
+	top: 407px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	/* or 27px */
+	
+	
+	color: #333333;
+	
+}
