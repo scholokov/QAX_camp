@@ -1,12 +1,85 @@
 /* ----------------------------------------------------------------
 	footer
 ------------------------------------------------------------------*/
-/*
-.footer-city{}
-.footer-phone{}
-.footer-mail{}
+.footer-city{
+	position: absolute;
+	width: 98px;
+	height: 27px;
+	left: 181px;
+	top: 4094px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	/* identical to box height, or 27px */
+	
+	text-transform: capitalize;
+	
+	color: #333333;	
+}
+.footer-phone{
+	position: absolute;
+	width: 176px;
+	height: 27px;
+	left: 181px;
+	top: 4131px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	/* identical to box height, or 27px */
+	
+	
+	color: #333333;
+	
+}
+.footer-mail{
+	position: absolute;
+	width: 214px;
+	height: 27px;
+	left: 181px;
+	top: 4168px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	/* identical to box height, or 27px */
+	
+	
+	color: #333333;	
+}
 .footer-linked{}
 .footer-telegram{}
 .footer-skype{}
-.footer-rights{}
-*/
+.footer-rights{
+	position: absolute;
+	width: 120px;
+	height: 21px;
+	left: 660px;
+	top: 4223px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+	/* identical to box height, or 21px */
+	
+	
+	color: #777777;	
+}
+.footer-line{
+	position: absolute;
+	width: 1440px;
+	height: 0px;
+	left: 0px;
+	top: 4061px;
+	
+	border: 1px solid #777777;	
+}
