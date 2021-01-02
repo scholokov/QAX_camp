@@ -1,0 +1,392 @@
+/* ----------------------------------------------------------------
+	why we block
+------------------------------------------------------------------*/
+
+.why_we-title{
+	position: absolute;
+	width: 461px;
+	height: 56px;
+	left: 490px;
+	top: 1549px;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	display: flex;
+	align-items: center;
+	
+	color: #333333;
+
+}
+
+.why_we-round1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 232px;
+	top: 1711px;
+
+	background: linear-gradient(135deg, #EE9AE5 0%, #5961F9 100%);
+}
+.why_we-number1{
+	position: absolute;
+	width: 19px;
+	height: 59px;
+	left: 272px;
+	top: 1732px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+	
+	display: flex;
+	align-items: center;
+	
+	color: #FFFFFF;	
+}
+.why_we-sub-title1{
+	position: absolute;
+	width: 421px;
+	height: 60px;
+	left: 72px;
+	top: 1858px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #333333;	
+}
+.why_we-text1{
+	position: absolute;
+	width: 421px;
+	height: 47px;
+	left: 72px;
+	top: 1898px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	
+	color: #333333;
+	
+}
+
+.why_we-round2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 669px;
+	top: 1711px;
+	
+	background: linear-gradient(180deg, #EE9AE5 0%, #5961F9 100%);	
+}
+.why_we-number2{
+	position: absolute;
+	width: 29px;
+	height: 59px;
+	left: 705px;
+	top: 1732px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+	
+	display: flex;
+	align-items: center;
+	
+	color: #FFFFFF;
+	
+}
+.why_we-sub-title2{
+	position: absolute;
+	width: 421px;
+	height: 60px;
+	left: 509px;
+	top: 1858px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #333333;	
+}
+.why_we-text2{
+	position: absolute;
+	width: 421px;
+	height: 47px;
+	left: 509px;
+	top: 1898px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	
+	color: #333333;	
+}
+
+.why_we-round3{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 1107px;
+	top: 1711px;
+	
+	background: linear-gradient(225deg, #EE9AE5 0%, #5961F9 100%);	
+}
+.why_we-number3{
+	position: absolute;
+	width: 29px;
+	height: 59px;
+	left: 1143px;
+	top: 1732px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+	
+	display: flex;
+	align-items: center;
+	
+	color: #FFFFFF;	
+}
+.why_we-sub-title3{
+	position: absolute;
+	width: 421px;
+	height: 60px;
+	left: 947px;
+	top: 1858px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #333333;	
+}
+.why_we-text3{
+	position: absolute;
+	width: 421px;
+	height: 47px;
+	left: 947px;
+	top: 1898px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	
+	color: #333333;
+	
+}
+
+.why_we-round4{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 232px;
+	top: 2045px;
+	
+	background: linear-gradient(45deg, #EE9AE5 0%, #5961F9 100%);	
+}
+.why_we-number4{
+	position: absolute;
+	width: 34px;
+	height: 59px;
+	left: 265px;
+	top: 2066px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+	
+	display: flex;
+	align-items: center;
+	
+	color: #FFFFFF;	
+}
+.why_we-sub-title4{
+	position: absolute;
+	width: 421px;
+	height: 60px;
+	left: 72px;
+	top: 2192px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #333333;	
+}
+.why_we-text4{
+	position: absolute;
+	width: 421px;
+	height: 47px;
+	left: 72px;
+	top: 2232px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	
+	color: #333333;	
+}
+
+.why_we-round5{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 669px;
+	top: 2045px;
+	
+	background: linear-gradient(360deg, #EE9AE5 0%, #5961F9 100%);	
+}
+.why_we-number5{
+	position: absolute;
+	width: 29px;
+	height: 59px;
+	left: 705px;
+	top: 2066px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+	
+	display: flex;
+	align-items: center;
+	
+	color: #FFFFFF;
+	
+}
+.why_we-sub-title5{
+	position: absolute;
+	width: 421px;
+	height: 60px;
+	left: 509px;
+	top: 2192px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #333333;	
+}
+.why_we-text5{
+	position: absolute;
+	width: 421px;
+	height: 47px;
+	left: 509px;
+	top: 2232px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	
+	color: #333333;
+}
+
+.why_we-round6{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 1107px;
+	top: 2045px;
+	
+	background: linear-gradient(315deg, #EE9AE5 0%, #5961F9 100%);	
+}
+.why_we-number6{
+	position: absolute;
+	width: 31px;
+	height: 59px;
+	left: 1142px;
+	top: 2066px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+	
+	display: flex;
+	align-items: center;
+	
+	color: #FFFFFF;
+}
+.why_we-sub-title6{
+	position: absolute;
+	width: 421px;
+	height: 60px;
+	left: 947px;
+	top: 2192px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #333333;	
+}
+.why_we-text6{
+	position: absolute;
+	width: 421px;
+	height: 47px;
+	left: 947px;
+	top: 2232px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	
+	color: #333333;	
+}
