@@ -510,19 +510,19 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 5px 0px 10px 30px;
-
+    
     position: static;
-    width: 310px;
-    height: 176px;
+    width: 280px;
+    height: 26px;
     left: 0px;
-    top: 68px;
-
+    top: 34px;
+    
     background: #5BBAFF;
-
+    
     /* Inside Auto Layout */
-
+    
     flex: none;
-    order: 2;
+    order: 1;
     flex-grow: 0;
     margin: 0px 0px;
 }
@@ -711,8 +711,8 @@
     position: absolute;
     width: 1000px;
     height: 0px;
-    left: 385px;
-    top: 130px;
+    left: -120px;
+    top: 630px;
     
     border: 2px solid rgba(102, 102, 102, 0.2);
     transform: rotate(90deg);
