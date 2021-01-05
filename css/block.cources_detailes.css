@@ -728,3 +728,34 @@
     
     border: 2px solid rgba(102, 102, 102, 0.2);
 }
+
+.table-topics{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 35px 0px 0px 0px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+    font-size: 16px;
+
+    border-collapse: collapse;
+}
+
+.table-topics-caption{
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-topics tbody tr:nth-child(odd) {
+    background-color: #eceaea;
+}
+    
+.table-topics tbody tr:nth-child(even) {
+    background-color: #dfdddd;
+}
