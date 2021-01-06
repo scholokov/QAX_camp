@@ -742,7 +742,7 @@
     flex-grow: 0;
     margin: 0px 0px;
 
-    font-size: 16px;
+    font-size: 14px;
 
     border-collapse: collapse;
 }
@@ -750,11 +750,19 @@
 .table-topics-caption{
     font-weight: bold;
     text-align: center;
+    height: 100;
+}
+.table-topics td:first-child {
+    text-align: center;
 }
 
 .table-topics tbody tr:nth-child(odd) {
     background-color: #eceaea;
 }
+
+.table-topics th, td {
+    padding: 4px;
+  }
     
 .table-topics tbody tr:nth-child(even) {
     background-color: #dfdddd;
