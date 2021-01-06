@@ -85,3 +85,92 @@
 	
 	border: 1px solid #777777;	
 }
+
+
+/* ----------------------------------------------------------------
+	footer contacts
+------------------------------------------------------------------*/
+.footer-city-cources{
+	position: absolute;
+	width: 98px;
+	height: 27px;
+	left: 181px;
+	top: 2659px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	/* identical to box height, or 27px */
+	
+	text-transform: capitalize;
+	
+	color: #333333;	
+}
+.footer-phone-cources{
+	position: absolute;
+	width: 176px;
+	height: 27px;
+	left: 181px;
+	top: 2696px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	/* identical to box height, or 27px */
+	
+	
+	color: #333333;
+	
+}
+.footer-mail-cources{
+	position: absolute;
+	width: 214px;
+	height: 27px;
+	left: 181px;
+	top: 2733px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	/* identical to box height, or 27px */
+	
+	
+	color: #333333;	
+}
+/*
+.footer-linked{}
+.footer-telegram{}
+.footer-skype{}
+*/
+.footer-rights-cources{
+	position: absolute;
+	width: 120px;
+	height: 21px;
+	left: 660px;
+	top: 2788px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+	/* identical to box height, or 21px */
+	
+	
+	color: #777777;	
+}
+.footer-line-cources{
+	position: absolute;
+	width: 1440px;
+	height: 0px;
+	left: 0px;
+	top: 2726px;
+	
+	border: 1px solid #777777;	
+}
