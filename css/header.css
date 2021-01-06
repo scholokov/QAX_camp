@@ -2,10 +2,8 @@
 	header block
 ------------------------------------------------------------------*/
 .logo{
-    width: 120.68px;
-    height: 80px;
-    
-    background: url(../images/logo.png);
+    margin-top: 14px;
+    margin-left: 14px;
 }
 .block{
  
