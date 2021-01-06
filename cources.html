@@ -6,6 +6,11 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap"
+		rel="stylesheet">
+		
 	<!-- Stylesheets
 	============================================= -->
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
@@ -36,20 +41,20 @@
 		<!-- Header
 		============================================= -->
 		<header>
+			<div class="block">
+				<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+				
+				<div><a href="cources.html" class="menuCources">курси</a></div>
+				<div><a href="#contacts" class="menuContacts">контакты</a></div>
 
-			<div class="block"></div>
-			<div class="logo"></div>
+					<!--
+				<div><a href="#" class="language">UA|RU</a></div>
+				-->
 
-			<div><a href="#" class="menuCources">курси</a></div>
-			<div><a href="#" class="menuContacts">контакты</a></div>
+				<div id="send_contact" class="sendButton"></div>
+				<div><a href="#write_to_us" class="sendButtonText">Записатися</a></div>
 
-			<!--
-			<div><a href="#" class="language">UA|RU</a></div>
-			-->
-
-			<div id="send_contact" class="sendButton"></div>
-			<div><a href="#" class="sendButtonText">Записатися</a></div>
-
+			</div>
 		</header><!-- #header end -->
 
 		<!-- Page Title
@@ -345,9 +350,9 @@
 
 		</section>
 
-		<section id=write_to_us>
+		<section>
 			<!----------------------------------------->
-			<div class="write_to_us-block">
+			<div class="write_to_us-block" id="write_to_us">
 				<!-- <div class="write_to_us-block-block"></div> -->
 			</div>
 
@@ -371,7 +376,7 @@
 		<!-- Footer
 		============================================= -->
 		<footer>
-			<div class="footer-line"></div>
+			<div class="footer-line" id="contacts"></div>
 			<div class="footer-city">місто Київ</div>
 			<div class="footer-phone">+38(067) 446 23 83</div>
 			<div class="footer-mail">scholokov@gmail.com </div>
