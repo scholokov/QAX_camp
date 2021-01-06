@@ -5,3 +5,10 @@ html * {
 a { 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 } 
+
+a:hover {
+    color: #EF5B48;
+    /*
+    background-color: yellow; 
+    */
+  }

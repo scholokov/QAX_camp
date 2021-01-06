@@ -76,14 +76,17 @@
     
     border: 1px solid #F66F5D;
     box-sizing: border-box;
+    background: #FAFAFA;
 }
+
+.sendButton:hover{
+    filter:saturate(4);
+}
+
 .sendButtonText{
-    position: absolute;
-    width: 121px;
-    height: 21px;
-    left: 1206px;
-    top: 29px;
-    
+    margin-top: 10px;
+    margin-left: 32px;
+   
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
@@ -94,5 +97,5 @@
     text-transform: uppercase;
     
     color: #EF5B48;
-    
+    /*filter: invert(100%);*/
 }
