@@ -2,18 +2,14 @@
 	header block
 ------------------------------------------------------------------*/
 .logo{
-    position: absolute;
     width: 120.68px;
     height: 80px;
     
     background: url(../images/logo.png);
 }
 .block{
-    position: absolute;
-    width: 1440px;
+ 
     height: 80px;
-    left: 0px;
-    top: 0px;
 
     background: #FAFAFA;
 }

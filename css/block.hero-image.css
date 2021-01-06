@@ -4,11 +4,11 @@
 .hero-image{
 	position: absolute;
 	width: 870px;
-	height: 571px;
+	height: 471px;
 	left: 636px;
-	top: 68px;
+	top: 168px;
 	
-	background: url(../images/hero-image.jpg);
+	background: url(../images/hero-image.svg);
 }
 .hero-text{
 	position: absolute;
