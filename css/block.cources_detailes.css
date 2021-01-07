@@ -757,7 +757,9 @@
 }
 
 .table-topics tbody tr:nth-child(odd) {
-    background-color: #eceaea;
+    background-color: #ffc6a6;
+
+    /* background-color: #eceaea; */
 }
 
 .table-topics th, td {
@@ -765,5 +767,6 @@
   }
     
 .table-topics tbody tr:nth-child(even) {
-    background-color: #dfdddd;
+    background-color: #ffe4d4;
+    /* background-color: #dfdddd; */
 }
