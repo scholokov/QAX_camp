@@ -1,53 +1,37 @@
 /* ----------------------------------------------------------------
 	header block
 ------------------------------------------------------------------*/
+.header-block{
+    height: 80px;
+    background: #FAFAFA;
+}
 .logo{
+    float: left;
     margin-top: 14px;
     margin-left: 14px;
 }
-.block{
- 
-    height: 80px;
-
-    background: #FAFAFA;
-}
-.menuCources{
-    position: absolute;
-    width: 103px;
-    height: 80px;
-    left: 291px;
-    top: 0px;
-    
+.header-font{
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
+    
     align-items: center;
     text-transform: uppercase;
     
     color: #333333;
-    
+}
+.menuCources{
+    float: left;
+    margin-left: 184px;
+    margin-top: 22px;
 }
 
 .menuContacts{
-    position: absolute;
-    width: 103px;
-    height: 80px;
-    left: 414px;
-    top: 0px;
-    
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    
-    color: #333333;
+    float: left;
+    margin-left: 64px;
+    margin-top: 22px;
 }
 .language{
     position: absolute;
@@ -55,24 +39,14 @@
     height: 80px;
     left: 1056px;
     top: 0px;
-    
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
     display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #333333;
 }
 .sendButton{
-    position: absolute;
+    float: right;
+    margin-right: 104px;
+    margin-top: 12px;
     width: 203px;
     height: 44px;
-    left: 1165px;
-    top: 18px;
     
     border: 1px solid #F66F5D;
     box-sizing: border-box;
@@ -86,16 +60,7 @@
 .sendButtonText{
     margin-top: 10px;
     margin-left: 32px;
-   
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    
+       
     color: #EF5B48;
     /*filter: invert(100%);*/
 }
