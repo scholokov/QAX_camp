@@ -334,3 +334,40 @@ color: #FFFFFF;
 	
 	color: #FFFFFF;
 }
+
+input[type=text] {
+	border: none;
+	border-bottom: 2px solid red;
+  }
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	write to us without ABSOLUTE
+------------------------------------------------------------------*/
+  .write_to_us-title-form{
+	margin-top: 15px;
+	text-align: center;
+	
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.write_to_us-edit-text{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+
+	height: 40px;
+	background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
+	font-size: 18px;
+}
