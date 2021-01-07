@@ -21,8 +21,6 @@
 }
 .footer-phone{
 	position: absolute;
-	width: 176px;
-	height: 27px;
 	left: 181px;
 	top: 3296px;
 	
@@ -39,8 +37,6 @@
 }
 .footer-mail{
 	position: absolute;
-	width: 214px;
-	height: 27px;
 	left: 181px;
 	top: 3333px;
 	
@@ -61,8 +57,6 @@
 */
 .footer-rights{
 	position: absolute;
-	width: 120px;
-	height: 21px;
 	left: 660px;
 	top: 3388px;
 	
@@ -110,8 +104,6 @@
 }
 .footer-phone-cources{
 	position: absolute;
-	width: 176px;
-	height: 27px;
 	left: 181px;
 	top: 2696px;
 	
@@ -128,8 +120,6 @@
 }
 .footer-mail-cources{
 	position: absolute;
-	width: 214px;
-	height: 27px;
 	left: 181px;
 	top: 2733px;
 	
@@ -150,8 +140,6 @@
 */
 .footer-rights-cources{
 	position: absolute;
-	width: 120px;
-	height: 21px;
 	left: 660px;
 	top: 2788px;
 	
