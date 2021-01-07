@@ -78,7 +78,7 @@
 }
 .footer-line{
 	position: absolute;
-	width: 1440px;
+	width: 99%;
 	height: 0px;
 	left: 0px;
 	top: 3226px;
@@ -167,7 +167,7 @@
 }
 .footer-line-cources{
 	position: absolute;
-	width: 1440px;
+	width: 99%;
 	height: 0px;
 	left: 0px;
 	top: 2626px;
