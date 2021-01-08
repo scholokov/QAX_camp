@@ -1,0 +1,107 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sidebar-toggle {
+  margin-left: -240px;
+}
+
+.sidebar {
+  width: 300px;
+  margin-left: 70px;
+
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.sidebar #leftside-navigation ul,
+.sidebar #leftside-navigation ul ul {
+  margin: -2px 0 0;
+  padding: 0;
+}
+
+.sidebar #leftside-navigation ul li {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sidebar #leftside-navigation ul li.active>a {
+  font-weight: bold;
+}
+
+.sidebar #leftside-navigation ul li.active ul {
+  display: block;
+}
+
+.sidebar #leftside-navigation ul li a {
+  color:white;
+  text-decoration: none;
+  display: block;
+  padding: 18px 0 18px 25px;
+  font-size: 18px;
+  outline: 0;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.sidebar #leftside-navigation ul li a:hover {
+  color: black;
+}
+
+.sidebar #leftside-navigation ul li a span {
+  display: inline-block;
+}
+
+.sidebar #leftside-navigation ul li a i {
+  width: 20px;
+}
+
+.sidebar #leftside-navigation ul li a i .fa-angle-left,
+.sidebar #leftside-navigation ul li a i .fa-angle-right {
+  padding-top: 3px;
+}
+
+.sidebar #leftside-navigation ul ul {
+  display: none;
+}
+
+.sidebar #leftside-navigation ul ul li {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: none;
+}
+
+.sidebar #leftside-navigation ul ul li a {
+  font-size: 16px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.menu-item-BA{
+  background: linear-gradient(120.52deg, #FEB692 0%, #EA5455 100%);
+}
+.menu-sub-item-BA{
+  background:linear-gradient(120.52deg, #FEB692 0%, #eb9393 100%);
+}
+.menu-item-QA{
+  background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
+}
+.menu-sub-item-QA{
+  background: linear-gradient(120.52deg, #ABDCFF 0%, #60bcfd 100%);
+}
+.menu-item-PM{
+  background: linear-gradient(120.52deg, #CE9FFC 0%, #7367F0 100%);
+}
+.menu-sub-item-PM{
+  background: linear-gradient(120.52deg, #CE9FFC 0%, #9e96f3 100%);
+}
