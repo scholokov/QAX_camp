@@ -26,6 +26,24 @@
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
 
+	<script>
+		var xmlhttp = new XMLHttpRequest();
+		var url = "content.json";
+
+		xmlhttp.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+				var myArr = JSON.parse(this.responseText);
+				myFunction(myArr);
+			}
+		};
+
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
+
+		/*mydata = JSON.parse(requestURL);   */
+		alert(myArr);
+	</script>
+
 	<!-- Document Title
 	============================================= -->
 	<title>QAX Camp - Cources</title>
@@ -124,7 +142,8 @@
 								</ul>
 							</li>
 							<li class="sub-menu active">
-								<a href="javascript:void(0);" class="menu-item-QA"><span>Quality Assurance Engineer</span></a>
+								<a href="javascript:void(0);" class="menu-item-QA"><span>Quality Assurance
+										Engineer</span></a>
 								<ul>
 									<li class="active menu-sub-item-QA"><a href="#">Автоматизація</a>
 									</li>
@@ -192,7 +211,7 @@
 
 			</div>
 
-			
+
 
 			<!--
 				<div>
