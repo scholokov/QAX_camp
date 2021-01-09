@@ -40,7 +40,7 @@ body {
 }
 
 .sidebar #leftside-navigation ul li a {
-  color:white;
+  color: white;
   text-decoration: none;
   display: block;
   padding: 18px 0 18px 25px;
@@ -87,21 +87,26 @@ body {
   padding-bottom: 13px;
 }
 
-.menu-item-BA{
+.menu-item-BA {
   background: linear-gradient(120.52deg, #FEB692 0%, #EA5455 100%);
 }
-.menu-sub-item-BA{
-  background:linear-gradient(120.52deg, #FEB692 0%, #eb9393 100%);
+
+.menu-sub-item-BA {
+  background: linear-gradient(120.52deg, #FEB692 0%, #eb9393 100%);
 }
-.menu-item-QA{
+
+.menu-item-QA {
   background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
 }
-.menu-sub-item-QA{
+
+.menu-sub-item-QA {
   background: linear-gradient(120.52deg, #ABDCFF 0%, #60bcfd 100%);
 }
-.menu-item-PM{
+
+.menu-item-PM {
   background: linear-gradient(120.52deg, #CE9FFC 0%, #7367F0 100%);
 }
-.menu-sub-item-PM{
+
+.menu-sub-item-PM {
   background: linear-gradient(120.52deg, #CE9FFC 0%, #9e96f3 100%);
 }
