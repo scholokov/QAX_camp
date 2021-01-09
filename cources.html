@@ -26,24 +26,6 @@
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
 
-	<script>
-		var xmlhttp = new XMLHttpRequest();
-		var url = "content.json";
-
-		xmlhttp.onreadystatechange = function () {
-			if (this.readyState == 4 && this.status == 200) {
-				var myArr = JSON.parse(this.responseText);
-				myFunction(myArr);
-			}
-		};
-
-		xmlhttp.open("GET", url, true);
-		xmlhttp.send();
-
-		/*mydata = JSON.parse(requestURL);   */
-		alert(myArr);
-	</script>
-
 	<!-- Document Title
 	============================================= -->
 	<title>QAX Camp - Cources</title>
@@ -133,6 +115,7 @@
 				<aside class="sidebar">
 					<div id="leftside-navigation">
 						<ul>
+							<!--
 							<li class="sub-menu">
 								<a href="javascript:void(0);" class="menu-item-BA"><span>BA</span></a>
 								<ul>
@@ -141,16 +124,20 @@
 									</li>
 								</ul>
 							</li>
+							-->
 							<li class="sub-menu active">
 								<a href="javascript:void(0);" class="menu-item-QA"><span>Quality Assurance
 										Engineer</span></a>
 								<ul>
 									<li class="active menu-sub-item-QA"><a href="#">Автоматизація</a>
 									</li>
+									<!--
 									<li class="menu-sub-item-QA"><a href="#">Практика</a>
 									</li>
+									-->
 								</ul>
 							</li>
+							<!--
 							<li class="sub-menu">
 								<a href="javascript:void(0);" class="menu-item-PM"><span>PM</span></a>
 								<ul>
@@ -158,6 +145,7 @@
 									</li>
 								</ul>
 							</li>
+							-->
 						</ul>
 					</div>
 				</aside>
@@ -276,7 +264,7 @@
 
 
 				<h2>Опис курсу:</h2>
-				Практичний курс що складається з основ програмування на Java а також базових засад написання
+				Практичний курс що складається з основ програмування на Java, а також базових засад написання
 				UI-автотестів для Web-додатків.
 				Курс розроблено для спеціалістів що вже мають досвід у мануальному тестуванні та хотіли б
 				розвиватися в автоматизації, але поки не знають з чого почати.
@@ -288,12 +276,12 @@
 				● Встановлене ПЗ: Intellij IDEA, Java 8+, Maven.<br>
 
 				<h2>Після курсу ви сможете:</h2>
-				● Створювати UI-автотестів на Java та стеку найактуальніших та найзатребуваніших технологій для
+				● Створювати UI-автотести на Java та стеку найактуальніших та найзатребуваніших технологій для
 				автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG<br>
 				● Створювати власний фреймворк з нуля<br>
 				● Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та налаштовувати CI/CD систему с Docker
 				и Selenoid<br>
-				● Генерувати чіткі, зрозумілі та презентабельні звіти з-за допомогою Allure Framework<br>
+				● Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure Framework<br>
 				● Автоматизувати рутинні задачі імітуючи дії користувача в браузері <br>
 				● Претендувати на позицію Junior QA Automation Engineer<br>
 
