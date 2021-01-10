@@ -2,13 +2,21 @@ html * {
     font-family: 'Montserrat', sans-serif;
 }
 
-a { 
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-} 
+a {
+    text-decoration: none;
+    /* Отменяем подчеркивание у ссылки */
+}
 
 a:hover {
     color: #EF5B48;
     /*
     background-color: yellow; 
     */
-  }
+}
+
+.main {
+    margin: 0 auto;
+    /* сайт располагается по центру экрана */
+    max-width: 1440px;
+    /* резиновая, растягивается до значения в 1440px */
+}
