@@ -22,19 +22,19 @@
 .cources-qa-block:hover{
     -ms-transform: translate(0px, -8px); /* IE 9 */
     transform: translate(0px, -8px); /* Standard syntax */
-    box-shadow: 8px 8px 8px  #ABDCFF;
-    transition: 250ms;
+    box-shadow: 8px 8px 8px  #cfcfcf;
+    transition: 350ms;
     transition-timing-function: ease-out;
 }
 
 .cources-qa-block{
-    transition: 400ms;
+    transition: 350ms;
+    transition-timing-function: linear;
     position: absolute;
     width: 421px;
     height: 435px;
     left: 72px;
     top: 694px;
-    
     background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
 }
 .cources-qa-block-title{
