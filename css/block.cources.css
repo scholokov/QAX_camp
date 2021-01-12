@@ -23,6 +23,7 @@
     -ms-transform: translate(0px, -20px); /* IE 9 */
     transform: translate(0px, -20px); /* Standard syntax */
     box-shadow: 10px 10px #ABDCFF;
+    transition: 1s;
 }
 
 .cources-qa-block{
