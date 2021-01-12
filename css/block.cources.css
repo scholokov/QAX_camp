@@ -24,7 +24,7 @@
     transform: translate(0px, -8px); /* Standard syntax */
     box-shadow: 8px 8px 8px  #ABDCFF;
     transition: 250ms;
-    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
 }
 
 .cources-qa-block{
