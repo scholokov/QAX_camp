@@ -7,12 +7,12 @@
 }
 .hero-image{
 	position: absolute;
-	width: 60%; /* 870px; */
+	width: 55%; /* 870px; */
 	height: 471px;
 	left: 636px;
 	top: 168px;
-	
 	background: url(../images/hero-image.svg);
+	background-repeat: repeat-y;
 }
 .hero-text{
 	position: absolute;
