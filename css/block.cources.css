@@ -23,12 +23,12 @@
     -ms-transform: translate(0px, -8px); /* IE 9 */
     transform: translate(0px, -8px); /* Standard syntax */
     box-shadow: 8px 8px 8px  #ABDCFF;
-    transition: 400ms;
+    transition: 250ms;
     transition-timing-function: linear;
 }
 
 .cources-qa-block{
-    transition: 250ms;
+    transition: 400ms;
     position: absolute;
     width: 421px;
     height: 435px;
