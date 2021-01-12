@@ -19,7 +19,11 @@
     color: #333333;
 }
 
-
+.cources-qa-block:hover{
+    -ms-transform: translate(0px, -20px); /* IE 9 */
+    transform: translate(0px, -20px); /* Standard syntax */
+    box-shadow: 10px 10px #ABDCFF;
+}
 
 .cources-qa-block{
     position: absolute;
