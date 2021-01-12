@@ -3,10 +3,11 @@
 ------------------------------------------------------------------*/
 .hero-block{
 	margin-top: 100px;
+	width: 100%;
 }
 .hero-image{
 	position: absolute;
-	width: 870px;
+	width: 60%; /* 870px; */
 	height: 471px;
 	left: 636px;
 	top: 168px;
