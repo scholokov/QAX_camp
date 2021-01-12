@@ -1,11 +1,11 @@
 /* ----------------------------------------------------------------
 	hero image block
 ------------------------------------------------------------------*/
-.hero-block{
+#hero-block{
 	margin-top: 100px;
 	width: 100%;
 }
-.hero-image{
+#hero-image{
 	position: absolute;
 	width: 55%; /* 870px; */
 	height: 471px;
@@ -14,7 +14,7 @@
 	background: url(../images/hero-image.svg);
 	background-repeat: repeat-n;
 }
-.hero-text{
+#hero-text{
 	position: absolute;
 	width: 765px;
 	height: 172px;
@@ -34,7 +34,7 @@
 	color: #EF5B48;
 }
 
-.hero-text-longread{
+#hero-text-longread{
 	position: absolute;
 	width: 640px;
 	height: 145px;
