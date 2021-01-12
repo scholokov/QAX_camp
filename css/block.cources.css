@@ -20,8 +20,8 @@
 }
 
 .cources-qa-block:hover{
-    -ms-transform: translate(0px, -4px); /* IE 9 */
-    transform: translate(0px, -4px); /* Standard syntax */
+    -ms-transform: translate(0px, -8px); /* IE 9 */
+    transform: translate(0px, -8px); /* Standard syntax */
     box-shadow: 8px 8px 8px  #ABDCFF;
     transition: 250ms;
     transition-timing-function: linear;
