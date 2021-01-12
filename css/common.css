@@ -5,6 +5,7 @@ html * {
 a {
     text-decoration: none;
     /* Отменяем подчеркивание у ссылки */
+    color: black;
 }
 
 a:hover {
@@ -12,6 +13,11 @@ a:hover {
     /*
     background-color: yellow; 
     */
+}
+
+A:visited {
+    color: black;
+    /* Цвет посещенных ссылок */
 }
 
 .main {
