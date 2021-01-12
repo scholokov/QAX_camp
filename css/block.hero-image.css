@@ -12,7 +12,7 @@
 	left: 636px;
 	top: 168px;
 	background: url(../images/hero-image.svg);
-	background-repeat: repeat-y;
+	background-repeat: repeat-n;
 }
 .hero-text{
 	position: absolute;
