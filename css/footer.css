@@ -52,9 +52,21 @@
 }
 /*
 .footer-linked{}
-.footer-telegram{}
+
 .footer-skype{}
 */
+.footer-telegram{
+	position: absolute;
+	left: 1000px;
+	top: 3296px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+}
+
 .footer-rights{
 	position: absolute;
 	left: 660px;
@@ -135,9 +147,11 @@
 }
 /*
 .footer-linked{}
-.footer-telegram{}
 .footer-skype{}
 */
+.footer-telegram{
+
+}
 .footer-rights-cources{
 	position: absolute;
 	left: 660px;
