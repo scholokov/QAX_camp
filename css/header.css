@@ -1,19 +1,11 @@
 /* ----------------------------------------------------------------
 	header block
 ------------------------------------------------------------------*/
-.header-block {
+#header-block {
     height: 80px;
     background: #FAFAFA;
     width: 100%;
-}
 
-.logo {
-    float: left;
-    margin-top: 14px;
-    margin-left: 14px;
-}
-
-.header-font {
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
@@ -26,35 +18,32 @@
     color: #333333;
 }
 
-.menuCources {
+#logo {
+    float: left;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+#menuCources {
     float: left;
     margin-left: 12%;
     /* 184px; */
     margin-top: 22px;
 }
 
-.menuContacts {
+#menuContacts {
     float: left;
     margin-left: 5%;
     /* 64px; */
     margin-top: 22px;
 }
 
-.language {
-    position: absolute;
-    width: 93px;
-    height: 80px;
-    left: 1056px;
-    top: 0px;
-    display: flex;
-}
-
-.sendButtonText:hover {
+#sendButtonText:hover {
     background: #F66F5D;
     color: white;
 }
 
-.sendButtonText {
+#sendButtonText {
     float: right;
     margin-right: 8%;
 
@@ -84,19 +73,19 @@
 @media (max-width: 710px) {
 
     /* если максимальное разрешение экрана составит 469 пикселей */
-    .header-block {
+    #header-block {
         height: 110px;
     }
 
-    .sendButtonText {
+    #sendButtonText {
         width: 63%;
     }
 
-    .menuCources{
+    #menuCources{
         width: 25%;
 
     } 
-    .menuContacts {
+    #menuContacts {
         width: 25%;
 
 
