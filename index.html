@@ -13,6 +13,12 @@
 
 	<!-- Stylesheets
 	============================================= -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
@@ -21,6 +27,7 @@
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -35,25 +42,24 @@
 
 	<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix main">
+	<div id="wrapper" class="clearfix">
 
 		<!-- Header
 		============================================= -->
 		<header>
-			<div class="header-block header-font">
-				<a href="index.html"><img src="images/logo.svg" alt="Logo" class="logo"></a>
+			<div id="header-block">
+				<a href="index.html"><img src="images/logo.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.html" class="menuCources">курси</a>
-				<a href="#contacts" class="menuContacts">контакти</a>
+				<a href="cources.html" id="menuCources">курси</a>
+				<a href="#contacts" id="menuContacts">контакти</a>
 
 				<!--
 				<div><a href="#" class="language">UA|RU</a></div>
 				-->
 
 				<a href="#write_to_us">
-					<div class="sendButtonText">Записатися</div>
+					<div id="sendButtonText">Записатися</div>
 				</a>
-
 			</div>
 		</header><!-- #header end -->
 
@@ -65,14 +71,14 @@
 		<section id="content">
 			<section id="heroImage">
 				<!-- ------------------------------------- -->
-				<div class="hero-block">
-					<div id="hero-image" class="hero-image"></div>
+				<div id="hero-block">
+					<div id="hero-image"></div>
 
-					<div id="hero-text-slogan" class="hero-text">
+					<div id="hero-text">
 						Онлайн-навчання для реального життя
 					</div>
 
-					<div id="hero-text-longread" class="hero-text-longread">
+					<div id="hero-text-longread">
 						Запорука успіху – наполегливість у вивченні нового та відточування вмінь. Професійні коучери QAX
 						CAMP допоможуть прокачати необхідні навички. Сьогодні теорія – завтра практика і нічого зайвого.
 					</div>
@@ -83,35 +89,40 @@
 			<section id="cources">
 				<!----------------------------------------->
 				<div class="cources-block">
+
 					<div class="cources-title">
 						Обери професію майбутнього
 					</div>
+					<a href="cources.html">
+						<div class="cources-qa-block">
+							<div class="cources-qa-block-title">Quality Assurance Engineer</div>
+							<div class="cources-qa-block-line"></div>
+							<div class="cources-qa-text">
+								Вмієш критично мислити? Помічаєш багато недоліків у програмах чи пристроях у
+								повсякденному
+								житті? Знаєш що можна було б зробити краще? У тебе є хист до QA! QA Engineer – людина що
+								має
+								право критикувати будь що на проекті.
+								Наші фахівці розробили програму що поєднує поглиблене опрацьовування теоретичного
+								матеріалу
+								та
+								практичні заняття, аби критика та ідеї QA були професійними, влучними, обґрунтованими та
+								коректно оформленими.
+							</div>
 
-					<div class="cources-qa-block">
-						<div class="cources-qa-block-title">Quality Assurance Engineer</div>
-						<div class="cources-qa-block-line"></div>
-						<div class="cources-qa-text">
-							Вмієш критично мислити? Помічаєш багато недоліків у програмах чи пристроях у повсякденному
-							житті? Знаєш що можна було б зробити краще? У тебе є хист до QA! QA Engineer – людина що має
-							право критикувати будь що на проекті.
-							Наші фахівці розробили програму що поєднує поглиблене опрацьовування теоретичного матеріалу
-							та
-							практичні заняття, аби критика та ідеї QA були професійними, влучними, обґрунтованими та
-							коректно оформленими.
+							<div>
+								<a href="cources.html" class="cources-qa-cources-number">
+									1 Курс
+								</a>
+							</div>
+							<div>
+								<a href="cources.html" class="cources-qa-details">
+									переглянути
+								</a>
+							</div>
 						</div>
 
-						<div>
-							<a href="cources.html" class="cources-qa-cources-number">
-								1 Курс
-							</a>
-						</div>
-						<div>
-							<a href="cources.html" class="cources-qa-details">
-								переглянути
-							</a>
-						</div>
-					</div>
-
+					</a>
 				</div>
 
 
@@ -303,13 +314,15 @@
 
 	<!-- Go To Top
 	============================================= -->
-	<!--
-		<div id="gotoTop"></div>
-	-->
+	<div id="gotoTop" class="icon-angle-up1"></div>
 
 	<!-- JavaScripts
 	============================================= -->
-	<script src="js/jquery.js"></script>
+	<!-- <script src="js/jquery.js"></script> -->
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
 
 	<!-- Footer Scripts

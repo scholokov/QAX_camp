@@ -5,6 +5,7 @@ html * {
 a {
     text-decoration: none;
     /* Отменяем подчеркивание у ссылки */
+    color: black;
 }
 
 a:hover {
@@ -14,9 +15,41 @@ a:hover {
     */
 }
 
-.main {
-    margin: 0 auto;
-    /* сайт располагается по центру экрана */
-    max-width: 1440px;
-    /* резиновая, растягивается до значения в 1440px */
+A:visited {
+    color: black;
+    /* Цвет посещенных ссылок */
 }
+
+/* ----------------------------------------------------------------
+	Go To Top
+-----------------------------------------------------------------*/
+#gotoTop {
+    background: #F66F5D;
+	display: none;
+	z-index: 599;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	background-color: #333;
+	background-color: rgba(212, 17, 17, 0.219);
+	font-size: 1.25rem;
+	line-height: 36px;
+	text-align: center;
+	color: #FFF;
+	top: auto;
+	left: auto;
+	right: 30px;
+	bottom: 50px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+body:not(.device-touch) #gotoTop {
+	transition: background-color .2s linear;
+	-webkit-transition: background-color .2s linear;
+	-o-transition: background-color .2s linear;
+}
+
+.stretched #gotoTop { bottom: 30px; }
+
+#gotoTop:hover { background-color: #F66F5D; }
