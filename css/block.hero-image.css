@@ -1,6 +1,42 @@
 /* ----------------------------------------------------------------
 	hero image block
 ------------------------------------------------------------------*/
+
+#heroImage-block-2{
+	margin-top: 50px;
+}
+#hero-image-2{
+
+}
+#hero-text-2{
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 60px;
+	color: #EF5B48;
+	align-items: center;
+}
+
+#hero-text-longread-2{
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 150%;
+	color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #hero-block{
 	margin-top: 100px;
 	width: 100%;
