@@ -53,3 +53,14 @@ body:not(.device-touch) #gotoTop {
 .stretched #gotoTop { bottom: 30px; }
 
 #gotoTop:hover { background-color: #F66F5D; }
+
+
+.box-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    align-items: center;
+    color: #333333;
+}

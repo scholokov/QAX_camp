@@ -1,7 +1,51 @@
 /* ----------------------------------------------------------------
 	why we block
 ------------------------------------------------------------------*/
+#why_we-box{
+	margin-top: 180px;
+}
+#why_we-card-box{
+	margin-top: 100px;
+}
 
+.why_we-number{
+	background: linear-gradient(135deg, #EE9AE5 0%, #5961F9 100%);
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	color: #FFFFFF;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/* width: 110px; */
+}
+
+.why_we-subtitle{
+	margin-top: 50px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #333333;	
+}
+
+.why_we-text{
+	margin-top: 15px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+}
+
+
+
+
+/*
 .why_we-title{
 	position: absolute;
 	left: 490px;
@@ -40,8 +84,7 @@
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 59px;
-	/* identical to box height */
-	
+
 	display: flex;
 	align-items: center;
 	
@@ -102,7 +145,6 @@
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 59px;
-	/* identical to box height */
 	
 	display: flex;
 	align-items: center;
@@ -164,7 +206,6 @@
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 59px;
-	/* identical to box height */
 	
 	display: flex;
 	align-items: center;
@@ -226,7 +267,6 @@
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 59px;
-	/* identical to box height */
 	
 	display: flex;
 	align-items: center;
@@ -287,7 +327,6 @@
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 59px;
-	/* identical to box height */
 	
 	display: flex;
 	align-items: center;
@@ -349,7 +388,6 @@
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 59px;
-	/* identical to box height */
 	
 	display: flex;
 	align-items: center;
@@ -388,3 +426,4 @@
 	
 	color: #333333;	
 }
+*/
