@@ -6,7 +6,7 @@
 	width: 98px;
 	height: 27px;
 	left: 181px;
-	top: 3259px;
+	top: 2659px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -22,7 +22,7 @@
 .footer-phone{
 	position: absolute;
 	left: 181px;
-	top: 3296px;
+	top: 2696px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -38,7 +38,7 @@
 .footer-mail{
 	position: absolute;
 	left: 181px;
-	top: 3333px;
+	top: 2733px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -58,7 +58,7 @@
 .footer-telegram{
 	position: absolute;
 	left: 1000px;
-	top: 3296px;
+	top: 2696px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -70,7 +70,7 @@
 .footer-rights{
 	position: absolute;
 	left: 660px;
-	top: 3388px;
+	top: 2788px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -83,7 +83,6 @@
 	color: #777777;	
 }
 .footer-line{
-	position: absolute;
 	width: 100%;
 	height: 0px;
 	left: 0px;
@@ -101,7 +100,7 @@
 	width: 98px;
 	height: 27px;
 	left: 181px;
-	top: 2659px;
+	top: 2059px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -117,7 +116,7 @@
 .footer-phone-cources{
 	position: absolute;
 	left: 181px;
-	top: 2696px;
+	top: 2096px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -133,7 +132,7 @@
 .footer-mail-cources{
 	position: absolute;
 	left: 181px;
-	top: 2733px;
+	top: 2133px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -149,13 +148,21 @@
 .footer-linked{}
 .footer-skype{}
 */
-.footer-telegram{
-
+.footer-telegram-cources{
+	position: absolute;
+	left: 1000px;
+	top: 2096px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
 }
 .footer-rights-cources{
 	position: absolute;
 	left: 660px;
-	top: 2788px;
+	top: 2188px;
 	
 	font-family: Montserrat;
 	font-style: normal;
@@ -172,7 +179,7 @@
 	width: 100%;
 	height: 0px;
 	left: 0px;
-	top: 2626px;
+	top: 2026px;
 	
 	border: 1px solid #777777;	
 }
