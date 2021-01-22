@@ -21,7 +21,7 @@
 #logo {
     float: left;
     margin-top: 14px;
-    margin-left: 14px;
+    margin-left: 1%;
 }
 
 #menuCources {
@@ -48,7 +48,7 @@
     margin-right: 8%;
 
     margin-top: 10px;
-    margin-left: 32px;
+    margin-left: 2%;
     padding-top: 12px;
 
     border-width: 1px;
@@ -67,27 +67,4 @@
 
 
     /*filter: invert(100%);*/
-}
-
-
-@media (max-width: 710px) {
-
-    /* если максимальное разрешение экрана составит 469 пикселей */
-    #header-block {
-        height: 110px;
-    }
-
-    #sendButtonText {
-        width: 63%;
-    }
-
-    #menuCources{
-        width: 25%;
-
-    } 
-    #menuContacts {
-        width: 25%;
-
-
-    }
 }
