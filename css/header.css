@@ -17,32 +17,20 @@
 
     color: #333333;
 }
-
 #logo {
     float: left;
     margin-top: 14px;
     margin-left: 1%;
 }
-
 #menuCources {
     float: left;
     margin-left: 12%;
-    /* 184px; */
     margin-top: 22px;
 }
-
-#menuContacts {
-    float: left;
-    margin-left: 5%;
-    /* 64px; */
-    margin-top: 22px;
-}
-
 #sendButtonText:hover {
     background: #F66F5D;
     color: white;
 }
-
 #sendButtonText {
     float: right;
     margin-right: 8%;
@@ -64,7 +52,4 @@
     border: 1px solid #F66F5D;
     box-sizing: border-box;
     background: #FAFAFA;
-
-
-    /*filter: invert(100%);*/
 }
