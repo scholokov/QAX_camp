@@ -3,53 +3,52 @@
 ------------------------------------------------------------------*/
 #header-block {
     height: 80px;
-    background: #FAFAFA;
     width: 100%;
-
+    background: #303030;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    text-transform: uppercase;
+}
+.header-menu{
+    color: #FFFFFF;
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-
-    align-items: center;
-    text-transform: uppercase;
-
-    color: #333333;
 }
+
 #logo {
     float: left;
-    margin-top: 14px;
-    margin-left: 1%;
+    margin-top: 12px;
+    margin-left: 5%;
 }
 #menuCources {
     float: left;
-    margin-left: 12%;
-    margin-top: 22px;
+    margin-left: 6%;
+    margin-top: 24px;
 }
 #sendButtonText:hover {
     background: #F66F5D;
-    color: white;
+    color: #FFFFFF;
 }
 #sendButtonText {
     float: right;
-    margin-right: 8%;
+    margin-right: 7%;
 
-    margin-top: 10px;
+    margin-top: 16px;
     margin-left: 2%;
-    padding-top: 12px;
+    padding-top: 10px;
 
     border-width: 1px;
     border-style: solid;
-
 
     width: 203px;
     height: 44px;
     text-align: center;
 
-    color: #EF5B48;
+    color: #FFFFFF;
 
-    border: 1px solid #F66F5D;
+    border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    background: #FAFAFA;
 }
