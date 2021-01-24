@@ -16,7 +16,7 @@ a:hover {
 }
 
 A:visited {
-    color: black;
+    /* color: black; */
     /* Цвет посещенных ссылок */
 }
 
