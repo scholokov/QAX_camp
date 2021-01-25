@@ -8,10 +8,6 @@ body {
 }
 
 .sidebar {
-  width: 300px;
-  margin-left: 70px;
-
-  position: absolute;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
