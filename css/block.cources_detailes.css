@@ -1,3 +1,36 @@
+.cources_details {
+    padding-top: 45px;
+}
+
+.table-topics {
+    padding: 35px 0px 0px 0px;
+    font-size: 14px;
+    font-family: Raleway;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-topics tbody tr:nth-child(odd) {
+    background-color: #E8E8E8;
+    font-weight: bold;
+}
+
+.table-topics th,
+td {
+    padding: 4px;
+}
+
+.table-topics tbody tr:nth-child(even) {
+    background-color: #F3F3F3;
+}
+
+
+
+
+
+
+
+/*
 .cources_details-tab-info-block{
     display: flex;
     flex-direction: row;
@@ -23,14 +56,10 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
     
     letter-spacing: 0.02em;
     
     color: #000000;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 0;
@@ -63,31 +92,23 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
     
     text-align: center;
     letter-spacing: 0.02em;
     
     color: #000000;
     
-    
-    /* Inside Auto Layout */
-    
     flex: none;
     order: 0;
     flex-grow: 1;
     margin: 10px 0px;
 }
-.cources_details{
-    padding-top: 45px;
 
-}
 
 .cources_details-accordion-block{
     padding-left: 50px;
 }
 .cources_details-accordion-block-ba{
-    /* Auto Layout */
 
     display: flex;
     flex-direction: row;
@@ -100,13 +121,10 @@
     left: 0px;
     top: 0px;
 
-    /* 1 */
 
     background: linear-gradient(120.52deg, #FEB692 0%, #EA5455 100%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-
-    /* Inside Auto Layout */
 
     flex: none;
     order: 0;
@@ -125,14 +143,10 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 1;
@@ -145,9 +159,6 @@
     height: 24px;
     left: 15px;
     top: 5px;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 0;
@@ -175,7 +186,6 @@
 
 
 .cources_details-accordion-block-pm{
-    /* Auto Layout */
 
     display: flex;
     flex-direction: row;
@@ -188,13 +198,10 @@
     left: 0px;
     top: 244px;
 
-    /* 3 */
 
     background: linear-gradient(120.52deg, #CE9FFC 0%, #7367F0 100%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-
-    /* Inside Auto Layout */
 
     flex: none;
     order: 3;
@@ -213,14 +220,10 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 1;
@@ -233,9 +236,6 @@
     height: 24px;
     left: 15px;
     top: 5px;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 0;
@@ -257,7 +257,6 @@
 
 
 .cources_details-accordion-block-ux{
-    /* Auto Layout */
 
     display: flex;
     flex-direction: row;
@@ -270,13 +269,9 @@
     left: 0px;
     top: 278px;
 
-    /* 4 */
-
     background: linear-gradient(120.52deg, rgba(107, 115, 255, 0.8) 0%, rgba(0, 13, 255, 0.8) 100%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-
-    /* Inside Auto Layout */
 
     flex: none;
     order: 4;
@@ -295,14 +290,11 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
     
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 1;
@@ -316,8 +308,6 @@
     left: 15px;
     top: 5px;
     
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 0;
@@ -337,7 +327,6 @@
 
 
 .cources_details-accordion-block-hr{
-    /* Auto Layout */
 
     display: flex;
     flex-direction: row;
@@ -350,13 +339,9 @@
     left: 0px;
     top: 312px;
 
-    /* 6 */
-
     background: linear-gradient(120.52deg, #F97794 0%, #623AA2 100%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-
-    /* Inside Auto Layout */
 
     flex: none;
     order: 5;
@@ -375,14 +360,10 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 1;
@@ -395,9 +376,6 @@
     height: 24px;
     left: 15px;
     top: 5px;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 0;
@@ -417,7 +395,6 @@
 
 
 .cources_details-accordion-block-qa{
-    /* Auto Layout */
 
     display: flex;
     flex-direction: row;
@@ -430,13 +407,9 @@
     left: 0px;
     top: 34px;
 
-    /* 2 */
-
     background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-
-    /* Inside Auto Layout */
 
     flex: none;
     order: 1;
@@ -449,7 +422,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 130%;
-    /* or 23px */
     
     letter-spacing: 0.02em;
     
@@ -462,9 +434,6 @@
     height: 24px;
     left: 15px;
     top: 5px;
-    
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 0;
@@ -483,7 +452,6 @@
 
 
 .cources_details-accordion-block-qa-detailes{
-    /* Auto Layout */
 
     display: flex;
     flex-direction: column;
@@ -497,8 +465,6 @@
     top: 34px;
     
     background: #5BBAFF;
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 1;
@@ -518,14 +484,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    /* identical to box height, or 21px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
-    
-    
-    /* Inside Auto Layout */
+
     
     flex: none;
     order: 0;
@@ -544,14 +507,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    /* identical to box height, or 21px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
-    
-    
-    /* Inside Auto Layout */
+
     
     flex: none;
     order: 1;
@@ -570,14 +530,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    /* identical to box height, or 21px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
-    
-    
-    /* Inside Auto Layout */
+
     
     flex: none;
     order: 2;
@@ -596,14 +553,11 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 130%;
-    /* identical to box height, or 21px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
     
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 3;
@@ -622,15 +576,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    /* identical to box height, or 21px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
-    
-    
-    /* Inside Auto Layout */
-    
+  
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -648,14 +598,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
-    /* identical to box height, or 21px */
     
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
     
-    
-    /* Inside Auto Layout */
     
     flex: none;
     order: 5;
@@ -681,25 +628,8 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    /* or 27px */
     
     color: #333333;
-}
-
-.cources_details-line-vertical{
-    margin-top: 498px;
-    margin-left: -130px;
-    width: 1000px;
-    height: 0px;
-    border: 2px solid rgba(102, 102, 102, 0.2);
-    transform: rotate(90deg);
-}
-
-
-.cources_details-line-horisontal{
-    width: 1440px;
-    height: 0px;
-    border: 2px solid rgba(102, 102, 102, 0.2);
 }
 
 .table-topics{
@@ -707,8 +637,6 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 35px 0px 0px 0px;
-
-    /* Inside Auto Layout */
 
     flex: none;
     order: 0;
@@ -731,8 +659,6 @@
 
 .table-topics tbody tr:nth-child(odd) {
     background-color: #ffc6a6;
-
-    /* background-color: #eceaea; */
 }
 
 .table-topics th, td {
@@ -741,5 +667,6 @@
     
 .table-topics tbody tr:nth-child(even) {
     background-color: #ffe4d4;
-    /* background-color: #dfdddd; */
 }
+
+*/
