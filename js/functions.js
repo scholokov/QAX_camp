@@ -1017,7 +1017,7 @@ var SEMICOLON = SEMICOLON || {};
 		}
 
 	};
-
+	
 	SEMICOLON.slider = {
 
 		init: function() {
@@ -2248,5 +2248,6 @@ var SEMICOLON = SEMICOLON || {};
 			}
 		}, 250);
 	});
-
 })(jQuery);
+
+
