@@ -543,6 +543,7 @@
 
 				
 				<section>
+					
 					<div class="write_to_us-block" id="write_to_us">
 
 						<div class="write_to_us-title-form">Записатися на курс</div>
@@ -554,28 +555,38 @@
 						<input type="text" id="fname" name="fname" class="write_to_us-edit-text" placeholder="Прізвище та ім’я*">
 					</form>
 					-->
-
-
+				<form>
+				    <div class="form-group">
+					    <div>
+						    <input type="text" id="name_input" placeholder="Прізвище та ім’я*" class="write_to_us-name">
+						    <div id="name_line" class="write_to_us-name-line"></div>
+						</div>
+					</div>
 				
+					<div class="form-group">
+						<div>
+							<input type="text" id="phone_input" placeholder="Мобільний телефон або електронна пошта*" class="write_to_us-phone">
+							<div  id="phone_line" class="write_to_us-phone-line"></div>
+						</div>
 					</div>
 
+					<div class="form-group">
+						<div>
+							<input type="text" id="comment_input" placeholder="Коментар за бажанням" class="write_to_us-comment" >
+						    <div id="comment_line" class="write_to_us-comment-line"></div>
+						</div>
+					</div>
 
-					<div class="write_to_us-name">Прізвище та ім’я*</div>
-					<div class="write_to_us-name-line"></div>
-					<div class="write_to_us-phone">Мобільний телефон або електронна пошта*</div>
-					<div class="write_to_us-phone-line"></div>
-					<div class="write_to_us-comment">Коментар за бажанням</div>
-					<div class="write_to_us-comment-line"></div>
-					<div class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте згоду на обробку
-						персональних даних</div>
-					<div class="write_to_us-button-send"></div>
-					<div class="write_to_us-button-send-text">Відправити</div>
+				    <div class="form-group">
+					     <div class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте згоду на обробку
+						персональних даних></div>
+						<button id="button_send" class="write_to_us-button-send"><div id="button_text" class="write_to_us-button-send-text">Відправити</div></button>
+					</div>
 
+				</form>
+			</div>
 				</section>
 			
-
-
-
 
 
 			</section><!-- #content end -->
@@ -621,6 +632,7 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+	<script src="js/form.js"></script>
 
 </body>
 

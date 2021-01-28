@@ -2,21 +2,21 @@
 	write to us
 ------------------------------------------------------------------*/
 .write_to_us-block {
-    position: absolute;
+    position: relative;
     width: 858px;
     height: 550px;
-    left: 291px;
-    top: 2300px;
+    left: 250px;
+    top: 10px;
 
     background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
 }
 
 .write_to_us-title {
-    position: absolute;
+    position: relative;
     width: 467px;
     height: 86px;
-    left: 487px;
-    top: 2330px;
+    left: 250px;
+    top: 10px;
 
     font-family: Raleway;
     font-style: normal;
@@ -30,7 +30,7 @@
 }
 
 .write_to_us-block-block {
-    position: absolute;
+    position: relative;
     width: 858px;
     height: 550px;
     left: 291px;
@@ -38,11 +38,11 @@
 }
 
 .write_to_us-name {
-    position: absolute;
+    position: relative;
     width: 162px;
     height: 27px;
-    left: 400px;
-    top: 2449px;
+    left: 100px;
+    top: 60px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -50,27 +50,28 @@
     font-size: 18px;
     line-height: 150%;
     /* identical to box height, or 27px */
-
-
-    color: #FFFFFF;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 .write_to_us-name-line {
-    position: absolute;
+    position: relative;
     width: 640px;
     height: 0px;
-    left: 400px;
-    top: 2491px;
+    left: 100px;
+    top: 60px;
 
-    border: 1px solid #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
 }
 
 .write_to_us-phone {
-    position: absolute;
+    position: relative;
     width: 413px;
     height: 27px;
-    left: 400px;
-    top: 2521px;
+    left: 100px;
+    top: 120px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -79,26 +80,28 @@
     line-height: 150%;
     /* identical to box height, or 27px */
 
-
+    background-color: transparent;
     color: #FFFFFF;
 }
 
 .write_to_us-phone-line {
-    position: absolute;
+    position: relative;
     width: 640px;
     height: 0px;
-    left: 400px;
-    top: 2563px;
+    left: 100px;
+    top: 120px;
 
-    border: 1px solid #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
 }
 
 .write_to_us-comment {
-    position: absolute;
+    position: relative;
     width: 219px;
     height: 27px;
-    left: 400px;
-    top: 2593px;
+    left: 100px;
+    top: 180px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -107,58 +110,63 @@
     line-height: 150%;
     /* identical to box height, or 27px */
 
-
+    background-color: transparent;
     color: #FFFFFF;
 
 }
 
 .write_to_us-comment-line {
-    position: absolute;
+    position: relative;
     width: 640px;
     height: 0px;
-    left: 400px;
-    top: 2635px;
+    left: 100px;
+    top: 180px;
 
-    border: 1px solid #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
 }
 
 .write_to_us-button-send {
-    position: absolute;
+    position: relative;
     width: 203px;
     height: 50px;
-    left: 837px;
-    top: 2680px;
+    left: 500px;
+    top: 190px;
 
+    background-color: transparent;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-
+    
+    
+    /* identical to box height, or 27px */
+    background-color: transparent;
+    color: #FFFFFF;
 }
 
 .write_to_us-button-send-text {
     /* Відправити */
-
-    position: absolute;
-    width: 114px;
-    height: 27px;
-    left: 882px;
-    top: 2692px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
+
     line-height: 150%;
-    /* identical to box height, or 27px */
+    position: relative;
+    
 
     color: #FFFFFF;
+
+
+    
 }
 
 .write_to_us-personal-data {
-    position: absolute;
+    position: relative;
     width: 358px;
     height: 42px;
-    left: 400px;
-    top: 2680px;
+    left: 100px;
+    top: 230px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -178,7 +186,7 @@
 	write to us on cources
 ------------------------------------------------------------------*/
 .write_to_us-block-cources {
-    position: absolute;
+    position: relative;
     width: 858px;
     height: 550px;
     left: 291px;
@@ -188,7 +196,7 @@
 }
 
 .write_to_us-title-cources {
-    position: absolute;
+    position: relative;
     width: 467px;
     height: 86px;
     left: 487px;
@@ -206,7 +214,7 @@
 }
 
 .write_to_us-block-block-cources {
-    position: absolute;
+    position: relative;
     width: 858px;
     height: 550px;
     left: 291px;
@@ -214,7 +222,7 @@
 }
 
 .write_to_us-name-cources {
-    position: absolute;
+    position: relative;
     width: 162px;
     height: 27px;
     left: 400px;
@@ -232,7 +240,7 @@
 }
 
 .write_to_us-name-line-cources {
-    position: absolute;
+    position: relative;
     width: 640px;
     height: 0px;
     left: 400px;
@@ -242,7 +250,7 @@
 }
 
 .write_to_us-phone-cources {
-    position: absolute;
+    position: relative;
     width: 413px;
     height: 27px;
     left: 400px;
@@ -260,7 +268,7 @@
 }
 
 .write_to_us-phone-line-cources {
-    position: absolute;
+    position: relative;
     width: 640px;
     height: 0px;
     left: 400px;
@@ -270,7 +278,7 @@
 }
 
 .write_to_us-comment-cources {
-    position: absolute;
+    position: relative;
     width: 219px;
     height: 27px;
     left: 400px;
@@ -289,7 +297,7 @@
 }
 
 .write_to_us-comment-line-cources {
-    position: absolute;
+    position: relative;
     width: 640px;
     height: 0px;
     left: 400px;
@@ -299,7 +307,7 @@
 }
 
 .write_to_us-button-send-cources {
-    position: absolute;
+    position: relative;
     width: 203px;
     height: 50px;
     left: 837px;
@@ -313,7 +321,7 @@
 .write_to_us-button-send-text-cources {
     /* Відправити */
 
-    position: absolute;
+    position: relative;
     width: 114px;
     height: 27px;
     left: 882px;
@@ -330,7 +338,7 @@
 }
 
 .write_to_us-personal-data-cources {
-    position: absolute;
+    position: relative;
     width: 358px;
     height: 42px;
     left: 400px;
@@ -349,10 +357,17 @@
 
 input[type=text] {
     border: none;
-    border-bottom: 2px solid red;
+    
 }
-
-
+input::-webkit-input-placeholder { color: rgb(255, 255, 255); }
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 
 
 
