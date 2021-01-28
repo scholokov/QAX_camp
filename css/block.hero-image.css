@@ -2,89 +2,37 @@
 	hero image block
 ------------------------------------------------------------------*/
 
-#heroImage-block-2{
-	margin-top: 50px;
+#heroImage-block{
+	margin-top: 0px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), url(../images/hero-image.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
 }
-#hero-image-2{
-
-}
-#hero-text-2{
+#hero-text{
 	font-family: Raleway;
 	font-weight: bold;
 	font-size: 60px;
 	color: #EF5B48;
-	align-items: center;
-}
+	text-align: center;
 
-#hero-text-longread-2{
-	font-family: Montserrat;
-	font-size: 18px;
-	line-height: 150%;
-	color: #333333;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#hero-block{
-	margin-top: 100px;
-	width: 100%;
-}
-#hero-image{
-	position: absolute;
-	width: 55%; /* 870px; */
-	height: 471px;
-	left: 636px;
-	top: 0px;
-	background: url(../images/hero-image.svg);
-	background-repeat: repeat-n;
-}
-#hero-text{
-	position: absolute;
-	width: 765px;
-	height: 172px;
-	left: 72px;
-	top: 0px;
-	
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 72px;
-	line-height: 120%;
-	/* or 86px */
-	
-	display: flex;
-	align-items: center;
-	
-	color: #EF5B48;
+	max-width: 700px;
+    margin: 0 auto;
+	float: none;
+	padding-top: 170px;
 }
 
 #hero-text-longread{
-	position: absolute;
-	width: 640px;
-	height: 145px;
-	left: 72px;
-	top: 222px;
-	
 	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 18px;
 	line-height: 150%;
-	/* or 27px */
-	
-	
 	color: #333333;
-	
+	text-align: center;
+
+
+	max-width: 600px;
+    margin: 0 auto;
+	float: none;
+	padding-bottom: 100px;
 }
