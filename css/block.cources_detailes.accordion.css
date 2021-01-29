@@ -106,3 +106,8 @@ body {
 .menu-sub-item-PM {
   background: linear-gradient(120.52deg, #CE9FFC 0%, #9e96f3 100%);
 }
+
+.tab a.active {
+  background-color: orange;
+  font-weight: bold;
+}
