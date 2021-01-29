@@ -2,17 +2,8 @@
 	write to us
 ------------------------------------------------------------------*/
 .write_to_us-block {
-<<<<<<< HEAD
-    position: relative;
     width: 858px;
     height: 550px;
-    left: 250px;
-    top: 10px;
-
-=======
-    width: 858px;
-    height: 550px;
->>>>>>> a24d6acf60b84404b688d754075b233778fd243f
     background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
 }
 
