@@ -98,196 +98,371 @@
 								<aside class="sidebar">
 									<div id="leftside-navigation">
 										<ul>
-											<!--
-									<li class="sub-menu">
-										<a href="javascript:void(0);" class="menu-item-BA"><span>BA</span></a>
-										<ul>
-		
-											<li class="menu-sub-item-BA"><a href="#">Практика</a>
+
+											<li class="sub-menu">
+												<a href="javascript:void(0);" class="menu-item-BA"><span>BA</span></a>
+												<ul>
+
+													<li class="menu-sub-item-BA"><a href="#" onclick="openTab(event, 'ba_practice')"
+														class="tablinks">Практика</a>
+													</li>
+												</ul>
 											</li>
-										</ul>
-									</li>
-									-->
-											<li class="sub-menu active">
+
+											<li class="sub-menu active tab">
 												<a href="javascript:void(0);" class="menu-item-QA"><span>Quality
 														Assurance
 														Engineer</span></a>
 												<ul>
-													<li class="active menu-sub-item-QA"><a
-															href="cources.html">Автоматизація</a>
+													<li class="menu-sub-item-QA"><a href='#'
+															onclick="openTab(event, 'qa_automation')"
+															class="tablinks">Автоматизація</a> <!-- class="active -->
 													</li>
 
-													<li class="menu-sub-item-QA"><a
-															href="cources_practice.html">Практика</a>
+													<li class="menu-sub-item-QA"><a href='#'
+															onclick="openTab(event, 'qa_practice')" class="tablinks"
+															id="defaultOpen">Практика</a>
 													</li>
 
 												</ul>
 											</li>
-											<!--
-									<li class="sub-menu">
-										<a href="javascript:void(0);" class="menu-item-PM"><span>PM</span></a>
-										<ul>
-											<li class="menu-sub-item-PM"><a href="#">Практика</a>
+
+											<li class="sub-menu">
+												<a href="javascript:void(0);" class="menu-item-PM"><span>PM</span></a>
+												<ul>
+													<li class="menu-sub-item-PM"><a href="#"
+															onclick="openTab(event, 'pm_practice')"
+															class="tablinks">Практика</a>
+													</li>
+												</ul>
 											</li>
-										</ul>
-									</li>
-									-->
+
 										</ul>
 									</div>
 								</aside>
 							</div>
 							<div class="col-xl-9">
 								<div class="cources_details-text">
-									<h2>Опис курсу:</h2>
-									Практичний курс, що складається з основ програмування на Java, а також базових засад
-									написання
-									UI-автотестів для Web-додатків.
-									Курс розроблено для спеціалістів, що вже мають досвід у мануальному тестуванні та
-									хотіли б
-									розвиватися в автоматизації, але поки не знають з чого почати.
-									<br>
-
-									<h2 class="margin-before">Вимоги до студентів:</h2>
-									● Базові знання з тестування.<br>
-									● Впевнений користувач ПК.<br>
-									● Наявність власного ноутбуку або ПК для занять.<br>
-									● Встановлене ПЗ: Intellij IDEA, Java 8+, Maven.<br>
-
-									<h2 class="margin-before">Після курсу ви зможете:</h2>
-									● Створювати UI-автотести на Java та стеку найактуальніших та найзатребуваніших
-									технологій
-									для
-									автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG<br>
-									● Створювати власний фреймворк з нуля<br>
-									● Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та налаштовувати CI/CD
-									систему з
-									Docker
-									та Selenoid<br>
-									● Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure
-									Framework<br>
-									● Автоматизувати рутинні задачі, імітуючи дії користувача в браузері <br>
-									● Претендувати на позицію Junior QA Automation Engineer<br>
 
 
+									<div id="qa_automation" class="tabcontent">
 
-									<table class="table-topics margin-before">
-										<tr>
-											<td>
-												1. Вступ до автоматизації.
-												Теорія по Java.
-											</td>
-										</tr>
-										<tr>
-											<td>
-												Що таке клас, метод, змінна.
-												Модифікатори доступу.
-												Написання першої програми.
-											</td>
-										</tr>
-										<tr>
-											<td>2. Java</td>
-										</tr>
-										<tr>
-											<td>Цикли. Умовні оператори.<br>Статика.<br>Перетворення типів.</td>
-										</tr>
-										<tr>
-											<td>3. Java</td>
-										</tr>
-										<tr>
-											<td>Масиви та колекції. </td>
-										</tr>
-										<tr>
-											<td>4. Java</td>
-										</tr>
-										<tr>
-											<td>ООП: поліморфізм, наслідування, інкапсуляція, абстракція.</td>
-										</tr>
-										<tr>
-											<td>5. jUnit и TestNG</td>
-										</tr>
-										<tr>
-											<td>Основні анотації. Написання юніт тестів з використанням бібліотеки
-												Assert.</td>
-										</tr>
-										<tr>
-											<td>6. Maven и Gradle</td>
-										</tr>
-										<tr>
-											<td>Створення проектів та підключення основних фреймворків та бібліотек</td>
-										</tr>
-										<tr>
-											<td>7. Git и GitHub</td>
-										</tr>
-										<tr>
-											<td>Генерація ключів. Команди clone, pull, commit, push та ін.</td>
-										</tr>
-										<tr>
-											<td>8. Error handlers. Loggers. Listeners</td>
-										</tr>
-										<tr>
-											<td>Обробка виключень. Створення та налаштування власного логера та
-												лістенера</td>
-										</tr>
-										<tr>
-											<td>9. Selenide та Allure</td>
-										</tr>
-										<tr>
-											<td>Створення структури фреймворку, налаштування базових бібліотек та
-												написання
-												тестів. Розбір чітких та зрозумілих звітів.</td>
-										</tr>
-										<tr>
-											<td>10. X-Path та CSS</td>
-										</tr>
-										<tr>
-											<td>Практика написання селекторів. Параметризація тестів через TestNG.xml
-												файл</td>
-										</tr>
-										<tr>
-											<td>11. Паттерн проектування автотестів "PageObject"</td>
-										</tr>
-										<tr>
-											<td>Написання тесту з вкиористанням паттерну PageObject</td>
-										</tr>
-										<tr>
-											<td>12. Явні и неявні очікування. Retry analyzer</td>
-										</tr>
-										<tr>
-											<td>Створення та налаштування власного ретрайеру для впавших тестів</td>
-										</tr>
-										<tr>
-											<td>13. Робота з Excel та CSV файлами. Data Provider</td>
-										</tr>
-										<tr>
-											<td>Написання методів для роботи з Excel та CSV файлами. Використання в
-												текстах
-												фабрики
-												тестових даних Data Provider</td>
-										</tr>
-										<tr>
-											<td>14. Знайомство з Docker, Selenoid</td>
-										</tr>
-										<tr>
-											<td>Підключення докер технології до автотестів. Запуск браузеру в контейнері
-											</td>
-										</tr>
-										<tr>
-											<td>15. Хмарні технології в автоматизації тестуванння</td>
-										</tr>
-										<tr>
-											<td>Налаштування VM та підняття Jenkins в Google cloud.</td>
-										</tr>
-										<tr>
-											<td>16. Хмарні технології в автоматизації тестуванння</td>
-										</tr>
-										<tr>
-											<td>Налаштування Continious Integration & Shedulers</td>
-										</tr>
-									</table>
+										<h2>Опис курсу:</h2>
+										Практичний курс, що складається з основ програмування на Java, а також базових
+										засад
+										написання
+										UI-автотестів для Web-додатків.
+										Курс розроблено для спеціалістів, що вже мають досвід у мануальному тестуванні
+										та
+										хотіли б
+										розвиватися в автоматизації, але поки не знають з чого почати.
+										<br>
+
+										<h2 class="margin-before">Вимоги до студентів:</h2>
+										● Базові знання з тестування.<br>
+										● Впевнений користувач ПК.<br>
+										● Наявність власного ноутбуку або ПК для занять.<br>
+										● Встановлене ПЗ: Intellij IDEA, Java 8+, Maven.<br>
+
+										<h2 class="margin-before">Після курсу ви зможете:</h2>
+										● Створювати UI-автотести на Java та стеку найактуальніших та найзатребуваніших
+										технологій
+										для
+										автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG<br>
+										● Створювати власний фреймворк з нуля<br>
+										● Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та налаштовувати
+										CI/CD
+										систему з
+										Docker
+										та Selenoid<br>
+										● Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure
+										Framework<br>
+										● Автоматизувати рутинні задачі, імітуючи дії користувача в браузері <br>
+										● Претендувати на позицію Junior QA Automation Engineer<br>
+
+										<table class="table-topics margin-before">
+											<tr>
+												<td>
+													1. Вступ до автоматизації.
+													Теорія по Java.
+												</td>
+											</tr>
+											<tr>
+												<td>
+													Що таке клас, метод, змінна.
+													Модифікатори доступу.
+													Написання першої програми.
+												</td>
+											</tr>
+											<tr>
+												<td>2. Java</td>
+											</tr>
+											<tr>
+												<td>Цикли. Умовні оператори.<br>Статика.<br>Перетворення типів.</td>
+											</tr>
+											<tr>
+												<td>3. Java</td>
+											</tr>
+											<tr>
+												<td>Масиви та колекції. </td>
+											</tr>
+											<tr>
+												<td>4. Java</td>
+											</tr>
+											<tr>
+												<td>ООП: поліморфізм, наслідування, інкапсуляція, абстракція.</td>
+											</tr>
+											<tr>
+												<td>5. jUnit и TestNG</td>
+											</tr>
+											<tr>
+												<td>Основні анотації. Написання юніт тестів з використанням бібліотеки
+													Assert.</td>
+											</tr>
+											<tr>
+												<td>6. Maven и Gradle</td>
+											</tr>
+											<tr>
+												<td>Створення проектів та підключення основних фреймворків та бібліотек
+												</td>
+											</tr>
+											<tr>
+												<td>7. Git и GitHub</td>
+											</tr>
+											<tr>
+												<td>Генерація ключів. Команди clone, pull, commit, push та ін.</td>
+											</tr>
+											<tr>
+												<td>8. Error handlers. Loggers. Listeners</td>
+											</tr>
+											<tr>
+												<td>Обробка виключень. Створення та налаштування власного логера та
+													лістенера</td>
+											</tr>
+											<tr>
+												<td>9. Selenide та Allure</td>
+											</tr>
+											<tr>
+												<td>Створення структури фреймворку, налаштування базових бібліотек та
+													написання
+													тестів. Розбір чітких та зрозумілих звітів.</td>
+											</tr>
+											<tr>
+												<td>10. X-Path та CSS</td>
+											</tr>
+											<tr>
+												<td>Практика написання селекторів. Параметризація тестів через
+													TestNG.xml
+													файл</td>
+											</tr>
+											<tr>
+												<td>11. Паттерн проектування автотестів "PageObject"</td>
+											</tr>
+											<tr>
+												<td>Написання тесту з вкиористанням паттерну PageObject</td>
+											</tr>
+											<tr>
+												<td>12. Явні и неявні очікування. Retry analyzer</td>
+											</tr>
+											<tr>
+												<td>Створення та налаштування власного ретрайеру для впавших тестів</td>
+											</tr>
+											<tr>
+												<td>13. Робота з Excel та CSV файлами. Data Provider</td>
+											</tr>
+											<tr>
+												<td>Написання методів для роботи з Excel та CSV файлами. Використання в
+													текстах
+													фабрики
+													тестових даних Data Provider</td>
+											</tr>
+											<tr>
+												<td>14. Знайомство з Docker, Selenoid</td>
+											</tr>
+											<tr>
+												<td>Підключення докер технології до автотестів. Запуск браузеру в
+													контейнері
+												</td>
+											</tr>
+											<tr>
+												<td>15. Хмарні технології в автоматизації тестуванння</td>
+											</tr>
+											<tr>
+												<td>Налаштування VM та підняття Jenkins в Google cloud.</td>
+											</tr>
+											<tr>
+												<td>16. Хмарні технології в автоматизації тестуванння</td>
+											</tr>
+											<tr>
+												<td>Налаштування Continious Integration & Shedulers</td>
+											</tr>
+										</table>
+									</div>
+
+
+									<div id="qa_practice" class="tabcontent">
+										<h2>Опис курсу:</h2>
+										<h2>Цель курса:</h2>
+										применить теоретические знания и получить практические навыки в тестировании,
+										необходимые для профессионального роста и получения оффера
+
+										<h2>Минимальные требования:</h2>
+										теоретические знания основ тестирования
+
+										<h2>С чего состоит курс:</h2>
+										Продуктовые встречи:
+										стендап, статусы по текущей реализации
+										планирование будущего функционала
+										груминг задач
+										ретро
+										проблемы
+										QA встречи
+										особенности тестирования
+										текущие QA вопросы
+										HR встречи
+										резюме
+										консультации по инструментам и ресурсам для поиска работы
+										подготовка к прохождению собеседования
+										технические собеседования
+										Самостоятельная работа
+										работа с макетами
+										работа с требованиями
+										составление тестовой документации
+										непосредственно тестирование
+										баг-репортинг
+
+										</2>Инструментарий с которым работаем:</h2>
+										Jira - таск / баг треккер
+										TM4J - Тест менеджмент инструмент
+										Confluence - требования
+										Figma - дизайн
+										Telegram / Google Meet - коммуникация
+										GitHub - репозиторий
+
+										<h2>Чем непосредственно заниматься:</h2>
+										выполнять функциональное тестировать веб приложения:
+										сверяться с дизайном и требованиями
+										использовать DevTools, HTML / CSS валидаторы
+										выполнять нефункциональное тестирование:
+										Usability
+										Performance
+										Разрабатывать тест план
+										Разрабатывать тест кейсы / чеклисты
+										работать с задачами в Jira
+										красиво описывать баги, с последующей перепроверкой (перфекционизм - наше всё)
+
+										<h2>Как происходит работа:</h2>
+										работаем продуктовой командой, состоящей из:
+										PO
+										PM
+										BA
+										UI-UX
+										DEV
+										QA
+										Разрабатываем несложные веб-приложения
+
+										<h2>Что получаешь по ходу:</h2>
+										возможность ошибаться и учиться на своих ошибках
+										вносить и защищать свои предложения к продукт
+										видеть как твои труды меняют продукт
+										постоянно получать грамотный фидбек
+										трудится и получать опыт в свое свободное время
+
+										<h2>Что НЕ даем:</h2>
+										сухую теорию, её можно прочитать в другом месте
+										у нас нет “классических лекций”, все наши встречи направлены на получение
+										определенного результата
+										если ничего не делать, то и результата не будет. Потому у нас приходится
+										“впрягаться” и “впахивать”
+
+										<h2>Длительность:</h2>
+										мы не ограничиваем в сроках, но заинтересованы в получении результата в
+										минимальные
+										сроки
+
+										<h2>Что получаешь на выходе:</h2>
+										практические навыки
+										строчку в резюме, участия в разработке веб приложения
+										рекомендации работодателю, в случае такого запроса
+										предложения по работе от партнеров
+									</div>
+
+									<div id="ba_practice" class="tabcontent">
+
+										Lorem.... BA Practice
+										<h2>Опис курсу:</h2>
+										Практичний курс, що складається з основ програмування на Java, а також базових
+										засад
+										написання
+										UI-автотестів для Web-додатків.
+										Курс розроблено для спеціалістів, що вже мають досвід у мануальному тестуванні
+										та
+										хотіли б
+										розвиватися в автоматизації, але поки не знають з чого почати.
+										<br>
+
+										<h2 class="margin-before">Вимоги до студентів:</h2>
+										● Базові знання з тестування.<br>
+										● Впевнений користувач ПК.<br>
+										● Наявність власного ноутбуку або ПК для занять.<br>
+										● Встановлене ПЗ: Intellij IDEA, Java 8+, Maven.<br>
+
+										<h2 class="margin-before">Після курсу ви зможете:</h2>
+										● Створювати UI-автотести на Java та стеку найактуальніших та найзатребуваніших
+										технологій
+										для
+										автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG<br>
+										● Створювати власний фреймворк з нуля<br>
+										● Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та налаштовувати
+										CI/CD
+										систему з
+										Docker
+										та Selenoid<br>
+										● Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure
+										Framework<br>
+										● Автоматизувати рутинні задачі, імітуючи дії користувача в браузері <br>
+										● Претендувати на позицію Junior QA Automation Engineer<br>
+									</div>
+
+									<div id="pm_practice" class="tabcontent">
+
+										Lorem.... PM Practice
+
+										<h2>Опис курсу:</h2>
+										Практичний курс, що складається з основ програмування на Java, а також базових
+										засад
+										написання
+										UI-автотестів для Web-додатків.
+										Курс розроблено для спеціалістів, що вже мають досвід у мануальному тестуванні
+										та
+										хотіли б
+										розвиватися в автоматизації, але поки не знають з чого почати.
+										<br>
+
+										<h2 class="margin-before">Вимоги до студентів:</h2>
+										● Базові знання з тестування.<br>
+										● Впевнений користувач ПК.<br>
+										● Наявність власного ноутбуку або ПК для занять.<br>
+										● Встановлене ПЗ: Intellij IDEA, Java 8+, Maven.<br>
+
+										<h2 class="margin-before">Після курсу ви зможете:</h2>
+										● Створювати UI-автотести на Java та стеку найактуальніших та найзатребуваніших
+										технологій
+										для
+										автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG<br>
+										● Створювати власний фреймворк з нуля<br>
+										● Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та налаштовувати
+										CI/CD
+										систему з
+										Docker
+										та Selenoid<br>
+										● Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure
+										Framework<br>
+										● Автоматизувати рутинні задачі, імітуючи дії користувача в браузері <br>
+										● Претендувати на позицію Junior QA Automation Engineer<br>
+									</div>
+
 								</div>
-
-
-
 							</div>
 
 
@@ -299,7 +474,7 @@
 
 
 
-						<!--
+					<!--
 				<div id="accordion">
 					<div><h3>Section 1</h3></div>
 					<div>
@@ -323,7 +498,7 @@
 				-->
 
 
-						<!--
+					<!--
 					<div class="cources_details-accordion-block-ba">
 						<div class="cources_details-accordion-text-ba">Business Analyst</div>
 						<div class="cources_details-accordion-arrow-block-ba">
@@ -333,30 +508,30 @@
 					-->
 
 
-						<!--  <div class="cources_details-accordion-block-qa"> -->
-						<!-- <div class="cources_details-accordion-text-qa">Quality Assurance Engineer</div> -->
-						<!--
+					<!--  <div class="cources_details-accordion-block-qa"> -->
+					<!-- <div class="cources_details-accordion-text-qa">Quality Assurance Engineer</div> -->
+					<!--
 						<div class="cources_details-accordion-arrow-block-qa">
 							<div class="cources_details-accordion-arrow-qa"></div>
 						</div>
 						-->
-						<!-- </div> -->
+					<!-- </div> -->
 
-						<!-- <div class="cources_details-accordion-block-qa-detailes"> -->
-						<!--
+					<!-- <div class="cources_details-accordion-block-qa-detailes"> -->
+					<!--
 						<div class="cources_details-accordion-block-qa-detailes-about">Про спеціалізацію</div>
 						<div class="cources_details-accordion-block-qa-detailes-teoretical">Теоретичний курс</div>
 						<div class="cources_details-accordion-block-qa-detailes-practical">Практичний курс</div>
 						-->
 
-						<!-- <div class="cources_details-accordion-block-qa-detailes-auto">Автоматизація</div> -->
-						<!--
+					<!-- <div class="cources_details-accordion-block-qa-detailes-auto">Автоматизація</div> -->
+					<!--
 						<div class="cources_details-accordion-block-qa-detailes-spec">Спеціалізований курс API</div>
 						<div class="cources_details-accordion-block-qa-detailes-work">Працевлаштування</div>
 						-->
-						<!-- </div> -->
+					<!-- </div> -->
 
-						<!--
+					<!--
 					<div class="cources_details-accordion-block-pm">
 						<div class="cources_details-accordion-text-pm">Project Manager</div>
 						<div class="cources_details-accordion-arrow-block-pm">
@@ -380,7 +555,7 @@
 					-->
 
 
-						<!--
+					<!--
 				<div>
 					<div class="">Загальна інформація</div>
 				</div>
@@ -390,7 +565,7 @@
 				</div>
 				-->
 
-						<!--
+					<!--
 					<h2>QA ENGINEER ХТО ЦЕ?</h2>
 					Quality Assurance інженер (тест-інженер, тестувальник) - фахівець,
 					який займається покращенням процесу розробки ПЗ, запобіганням появи
@@ -416,7 +591,7 @@
 					себе програмістом, QA інженер -
 					професія саме для Вас!
 					-->
-						<!--
+					<!--
 					<div class="cources_details-text">
 							<h2>Опис курсу:</h2>
 							Практичний курс, що складається з основ програмування на Java, а також базових засад
@@ -547,8 +722,8 @@
 					-->
 
 
-						<!----------------------------------------->
-						<!--
+					<!----------------------------------------->
+					<!--
 			<section id=feedback>
 				<div class="feedback-block">
 
@@ -595,7 +770,7 @@
 				</div>
 				-->
 
-						<!--
+					<!--
 				<section>
 					<div class="write_to_us-block-cources" id="write_to_us">
 					</div>
@@ -616,8 +791,8 @@
 
 				</section>
 				-->
-					</div>
 				</div>
+			</div>
 		</section><!-- #content end -->
 
 		<!-- Footer
@@ -676,6 +851,26 @@
 		})
 	</script>
 
+
+	<!-- Tabs function -->
+	<script>
+		function openTab(evt, cityName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(cityName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
 
 
 	<!-- Footer Scripts
