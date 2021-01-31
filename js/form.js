@@ -1,4 +1,3 @@
-//Functions for lines in form
 $(function () {
 	  var name_input=$("#name_input");
     var name_line=$("#name_line");
@@ -33,26 +32,28 @@ $(function () {
       var name_length = name_input.val().length;
       var patternName = new RegExp(/^[a-zA-Zа-яА-яàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð '-]+$/i);
       let name=patternName.test(name_input.val());
+      
       if (name_length < 2 || name_length > 100 || !name) {
         name_line.css({ "border-color": "red"});
       } else {
         name_line.css({ "border-color": "white"});
       };
     };
+
     //Validation for email or phone
-	function check_email_phone() {
-    var patternEmail = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
-    var patternPhone = new RegExp(/\d/g);
-    let email=patternEmail.test(phone_input.val());
-    let phone=patternPhone.test(phone_input.val());
+	  function check_email_phone() {
+      var patternEmail = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+      var patternPhone = new RegExp(/\d/g);
+      let email=patternEmail.test(phone_input.val());
+      let phone=patternPhone.test(phone_input.val());
     
-    if(phone){
-      phone_line.css({ "border-color": "white"});
-    } else if (email){
-      phone_line.css({ "border-color": "white"});
-    } else {
-      phone_line.css({ "border-color": "red"});
+      if(phone){
+        phone_line.css({ "border-color": "white"});
+      } else if (email){
+        phone_line.css({ "border-color": "white"});
+      } else {
+        phone_line.css({ "border-color": "red"});
+      };
     };
-};
 
 });//end
