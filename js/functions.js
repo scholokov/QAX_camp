@@ -3,6 +3,16 @@
 
 var $ = jQuery.noConflict();
 
+//Telegram footer link
+function footerlink(){
+	let telegram_img=$("#Telegram-img");
+	let telegram_link=$("#footer-telegram");
+	telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
+	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
+  };
+  
+  footerlink();
+
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
 	$(this).scroll(function(){
