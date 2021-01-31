@@ -2,6 +2,9 @@
 	write to us
 ------------------------------------------------------------------*/
 .write_to_us-block {
+    margin-left: auto;
+    margin-right: auto;
+    left:291px;
     width: 858px;
     height: 550px;
     background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
