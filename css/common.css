@@ -1,5 +1,6 @@
 html * {
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 
 a {
@@ -137,9 +138,13 @@ h5 {
         font-size: 14px;
     }
 
+    html {
+        font-size: 14px;
+    }
+
     h5 {
-		font-size: 12px;
-	}
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -157,10 +162,15 @@ h5 {
 
     h4 {
         font-size: 15px;
-	}
-	h5 {
-		font-size: 13px;
-	}
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -178,10 +188,15 @@ h5 {
 
     h4 {
         font-size: 16px;
-	}
-	h5 {
-		font-size: 14px;
-	}
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -198,6 +213,10 @@ h5 {
     }
 
     h4 {
+        font-size: 18px;
+    }
+
+    html {
         font-size: 18px;
     }
 

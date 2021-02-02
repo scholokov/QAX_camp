@@ -18,6 +18,7 @@
 .table-topics th,
 td {
     padding: 4px;
+    padding-left: 15px;
 }
 
 .table-topics tbody tr:nth-child(even) {
