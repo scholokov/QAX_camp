@@ -37,6 +37,7 @@
     padding-bottom: 15px;
     white-space: nowrap;
     color: #FFFFFF;
+    margin-left: 10px;
 }
 
 .cources-qa-block-title {
@@ -51,14 +52,6 @@
     margin-top: 22px;
     margin-left: 10px;
     margin-right: 10px;
-    line-height: 150%;
-    text-align: justify;
-    color: #FFFFFF;
-}
-
-.cources-qa-cources-number {
-    margin-left: 22px;
-    font-weight: bold;
     line-height: 150%;
     color: #FFFFFF;
 }
