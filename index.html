@@ -445,72 +445,76 @@
 							<h2 class="write_to_us-title-form">Записатися на курс</h2>
 
 							<form>
-								<h4>
-									<div class="form-group">
-										<input type="text" id="name_input" name="fname" class="write_to_us-name"
-											placeholder="Ім’я*" required>
-										<div id="name_line" class="write_to_us-name-line"></div>
+								<div id="write_to_us-block-small">
+									<h4>
+										<div class="form-group">
+											<input type="text" id="name_input" name="fname" class="write_to_us-name"
+												placeholder="Ім’я*" required>
+											<div id="name_line" class="write_to_us-name-line"></div>
+										</div>
+										<div class="form-group">
+											<input type="text" id="phone_input" name="fphone" class="write_to_us-phone"
+												placeholder="Мобільний номер або Email*" required>
+											<div id="phone_line" class="write_to_us-phone-line"></div>
+										</div>
+										<div class="form-group">
+											<input type="text" id="comment_input" name="fcomment"
+												class="write_to_us-comment" placeholder="Коментар*" required>
+											<div id="comment_line" class="write_to_us-comment-line"></div>
+										</div>
+									</h4>
+									<div class="form-group d-flex justify-content-md-between">
+										<h5 class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте
+											згоду
+											на обробку <b>персональних даних</b></h5>
+										<button class="write_to_us-button-send " id="button_send">
+											<div class="write_to_us-button-send-text" id="button_text">Відправити</div>
+										</button>
 									</div>
-									<div class="form-group">
-										<input type="text" id="phone_input" name="fphone" class="write_to_us-phone"
-											placeholder="Мобільний номер або Email*" required>
-										<div id="phone_line" class="write_to_us-phone-line"></div>
-									</div>
-									<div class="form-group">
-										<input type="text" id="comment_input" name="fcomment"
-											class="write_to_us-comment" placeholder="Коментар*" required>
-										<div id="comment_line" class="write_to_us-comment-line"></div>
-									</div>
-								</h4>
-								<div class="form-group">
-									<h5 class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте згоду
-										на обробку <b>персональних даних</b></h5>
-									<button class="write_to_us-button-send" id="button_send">
-										<div class="write_to_us-button-send-text" id="button_text">Відправити</div>
-									</button>
 								</div>
+
+							</form>
 						</div>
-						</form>
+					</section>
+
+
+
 				</div>
-		</section>
+			</div>
+		</section><!-- #content end -->
 
-
-
-	</div>
-	</div>
-	</section><!-- #content end -->
-
-	<!-- Footer
+		<!-- Footer
 		============================================= -->
-	<footer>
-		<div id="footer-block">
-			<div class="col-lg-4 d-flex justify-content-center">
-				<div class="footer-contacts d-flex align-items-center">
-					<a href="tel:+380933647038" class="footer-links">
-						+38 (093) 364 70 38
-					</a>
+		<footer>
+			<div id="footer-block">
+				<div class="col-lg-4 d-flex justify-content-center">
+					<div class="footer-contacts d-flex align-items-center">
+						<a href="tel:+380933647038" class="footer-links">
+							+38 (093) 364 70 38
+						</a>
+					</div>
 				</div>
-			</div>
 
-			<div class="col-lg-4 d-flex justify-content-center">
-				<div class="footer-contacts d-flex align-items-center">
-					<a href="https://t.me/RecrutMan" id="footer-telegram" class="footer-links"
-						onmouseover="this.src='images/Telegram-hover.svg'" onmouseout="this.src='images/Telegram.svg'">
-						Telegram
-						<img src="images/Telegram.svg" alt="Telegram" id="Telegram-img">
-					</a>
+				<div class="col-lg-4 d-flex justify-content-center">
+					<div class="footer-contacts d-flex align-items-center">
+						<a href="https://t.me/RecrutMan" id="footer-telegram" class="footer-links"
+							onmouseover="this.src='images/Telegram-hover.svg'"
+							onmouseout="this.src='images/Telegram.svg'">
+							Telegram
+							<img src="images/Telegram.svg" alt="Telegram" id="Telegram-img">
+						</a>
+					</div>
 				</div>
-			</div>
 
-			<div class="col-lg-4 d-flex justify-content-center">
-				<div class="footer-contacts d-flex align-items-center">
-					<a href="mailto:info@qax-camp.com.ua" class="footer-links">
-						info@qax-camp.com.ua
-					</a>
+				<div class="col-lg-4 d-flex justify-content-center">
+					<div class="footer-contacts d-flex align-items-center">
+						<a href="mailto:info@qax-camp.com.ua" class="footer-links">
+							info@qax-camp.com.ua
+						</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer><!-- #footer end -->
+		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
 
@@ -554,7 +558,6 @@
 				slides[i].style.display = "none";
 			}
 			slides[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].className += " active";
 		}
 	</script>
 
@@ -568,8 +571,10 @@
 			$.ajax({
 				url: 'https://api.telegram.org/bot1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk' + '/sendMessage',
 				method: 'POST',
-				data: { chat_id: '-1001474814527', 
-				text: 'Name: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val() },
+				data: {
+					chat_id: '-1001474814527',
+					text: 'Name: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val()
+				},
 				success: function () {
 					alert('your message has been sent!');
 				}

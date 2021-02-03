@@ -173,7 +173,7 @@ iframe {
 /* ----------------------------------------------------------------
 	Basic Layout Styles
 -----------------------------------------------------------------*/
-
+/*
 
 h1,
 h2,
@@ -227,7 +227,7 @@ h6 { font-weight: bold; }
 	}
 
 }
-
+*/
 h1 > span:not(.nocolor):not(.badge),
 h2 > span:not(.nocolor):not(.badge),
 h3 > span:not(.nocolor):not(.badge),

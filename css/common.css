@@ -1,6 +1,5 @@
 html * {
     font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
 }
 
 a {
@@ -112,7 +111,7 @@ h4 {
 /* Small text */
 h5 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
+    
 }
 
 

@@ -2,13 +2,186 @@
 	write to us
 ------------------------------------------------------------------*/
 .write_to_us-block {
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
-    left:291px;
-    width: 858px;
-    height: 550px;
+
+    max-width: 858px;
+    width: 100%;
+    padding-bottom: 60px;
     background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
 }
+
+.write_to_us-title-form {
+    margin-top: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#write_to_us-block-small {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.write_to_us-name {
+    width: 100%;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.write_to_us-name-line {
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+.write_to_us-phone {
+    width: 100%;
+    margin-top: 40px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.write_to_us-phone-line {
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+
+.write_to_us-comment {
+    margin-top: 40px;
+    width: 100%;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.write_to_us-comment-line {
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+.write_to_us-personal-data {
+    margin-top: 45px;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.write_to_us-button-send {
+    margin-top: 45px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    max-height: 56px;
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+
+    color: #FFFFFF;
+}
+
+.write_to_us-button-send:hover {
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    color: #EA5455;
+}
+
+@media (max-width: 767px) {
+    .write_to_us-personal-data {
+        width: 100%;
+    }
+    .form-group{
+        display: block !important;
+    }
+}
+@media (min-width: 768px) {
+    .write_to_us-personal-data {
+        width: 50%;
+    }
+    .form-group{
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+input[type=text] {
+    border: none;
+
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
 
 .write_to_us-title {
     position: relative;
@@ -33,150 +206,15 @@
     top: 2300px;
 }
 
-.write_to_us-name {
-    position: relative;
-    width: 162px;
-    height: 27px;
-    left: 100px;
-    top: 60px;
 
-    line-height: 150%;
-    /* identical to box height, or 27px */
-    background-color: transparent;
-    color: #ffffff;
-}
-
-.write_to_us-name-line {
-    position: relative;
-    width: 640px;
-    height: 0px;
-    left: 100px;
-    top: 60px;
-
-    border-width: 1px;
-    border-style: solid;
-    border-color: #FFFFFF;
-}
-
-.write_to_us-phone {
-    position: relative;
-    width: 413px;
-    height: 27px;
-    left: 100px;
-    top: 120px;
-
-    line-height: 150%;
-    /* identical to box height, or 27px */
-
-    background-color: transparent;
-    color: #FFFFFF;
-}
-
-.write_to_us-phone-line {
-    position: relative;
-    width: 640px;
-    height: 0px;
-    left: 100px;
-    top: 120px;
-
-    border-width: 1px;
-    border-style: solid;
-    border-color: #FFFFFF;
-}
-
-.write_to_us-comment {
-    position: relative;
-    width: 219px;
-    height: 27px;
-    left: 100px;
-    top: 180px;
-    line-height: 150%;
-    background-color: transparent;
-    color: #FFFFFF;
-}
-
-.write_to_us-comment-line {
-    position: relative;
-    width: 640px;
-    height: 0px;
-    left: 100px;
-    top: 180px;
-
-    border-width: 1px;
-    border-style: solid;
-    border-color: #FFFFFF;
-}
-
-.write_to_us-button-send {
-    position: relative;
-    width: 203px;
-    height: 50px;
-    left: 500px;
-    top: 190px;
-
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-
-    /* Відправити */
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-
-    line-height: 150%;
-    position: relative;
-    
-
-    color: #FFFFFF;
-    
-    
-    /* identical to box height, or 27px */
-}
-.write_to_us-button-send:hover {
-    position: relative;
-    width: 203px;
-    height: 50px;
-    left: 500px;
-    top: 190px;
-
-    background-color: white;
-    border: 1px solid #FFFFFF;
-
-    /* Відправити */
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-
-    line-height: 150%;
-    position: relative;
-    
-
-    color: #EA5455;
-   
-}
-
-
-
-.write_to_us-personal-data {
-    position: relative;
-    width: 358px;
-    height: 42px;
-    left: 100px;
-    top: 230px;
-
-    line-height: 150%;
-    color: #FFFFFF;
-}
-
+*/
 
 
 
 /* ----------------------------------------------------------------
 	write to us on cources
 ------------------------------------------------------------------*/
+/*
 .write_to_us-block-cources {
     position: relative;
     width: 858px;
@@ -199,8 +237,6 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 150%;
-    /* or 72px */
-
 
     color: #FFFFFF;
 }
@@ -225,7 +261,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    /* identical to box height, or 27px */
 
 
     color: #FFFFFF;
@@ -253,7 +288,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    /* identical to box height, or 27px */
 
 
     color: #FFFFFF;
@@ -281,7 +315,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    /* identical to box height, or 27px */
 
 
     color: #FFFFFF;
@@ -311,7 +344,6 @@
 }
 
 .write_to_us-button-send-text-cources {
-    /* Відправити */
 
     position: relative;
     width: 114px;
@@ -324,7 +356,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 150%;
-    /* identical to box height, or 27px */
 
     color: #FFFFFF;
 }
@@ -341,33 +372,13 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 150%;
-    /* or 21px */
 
 
     color: #FFFFFF;
 }
+*/
 
-input[type=text] {
-    border: none;
-    
-}
-input::-webkit-input-placeholder { color: rgb(255, 255, 255); }
-input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
-input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
-input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
-input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
-input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
-input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
-input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
-input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: white;
-}
 
 
 
@@ -375,13 +386,8 @@ input:-webkit-autofill:active {
 /* ----------------------------------------------------------------
 	write to us without ABSOLUTE
 ------------------------------------------------------------------*/
-.write_to_us-title-form {
-    margin-top: 15px;
-    text-align: center;
-    line-height: 150%;
-    color: #FFFFFF;
-}
 
+/*
 .write_to_us-edit-text {
     display: block;
     margin-left: auto;
@@ -392,3 +398,4 @@ input:-webkit-autofill:active {
     background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
     font-size: 10px;
 }
+*/
