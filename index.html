@@ -124,13 +124,13 @@
 													обґрунтованими та коректно оформленими.
 												</h4>
 											</div>
-											
-												
-													<h5 id="cources-cards-buttons">
-														1 Курс
-													</h5>
-												
-											
+
+
+											<h5 id="cources-cards-buttons">
+												1 Курс
+											</h5>
+
+
 										</a>
 									</div>
 								</div>
@@ -556,6 +556,25 @@
 			slides[slideIndex - 1].style.display = "block";
 			dots[slideIndex - 1].className += " active";
 		}
+	</script>
+
+
+	<!-- Submit text to Telegram -->
+	<script>
+		$('form').submit(function (e) {
+			tokenID = '1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk';
+			chatID = '-1001474814527';
+			e.preventDefault();
+			$.ajax({
+				url: 'https://api.telegram.org/bot1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk' + '/sendMessage',
+				method: 'POST',
+				data: { chat_id: '-1001474814527', 
+				text: 'Name: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val() },
+				success: function () {
+					alert('your message has been sent!');
+				}
+			});
+		});
 	</script>
 
 </body>
