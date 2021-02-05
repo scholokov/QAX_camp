@@ -1,8 +1,0 @@
-# This is a basic workflow to help you get started with Actions
-
-- uses: yanzay/notify-telegram@v0.1.0
-      if: always()
-      with:
-        chat: ${{ @-1001474814527 }} # user id or channel name secret
-        token: ${{ 1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk }} # token secret
-        status: ${{ job.status }} # do not modify this line
