@@ -17,10 +17,11 @@
     margin: 0 auto;
     float: none;
     padding-top: 170px;
-    line-height: 100%;
+    /*line-height: 100%; */
 }
 
 #hero-text-longread {
+    padding-top: 15px;
     line-height: 150%;
     color: #333333;
     text-align: center;
