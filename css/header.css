@@ -9,7 +9,8 @@
     align-items: center;
     text-transform: uppercase;
 }
-.header-menu{
+
+.header-menu {
     color: #FFFFFF;
     line-height: 21px;
 }
@@ -19,15 +20,18 @@
     margin-top: 12px;
     margin-left: 5%;
 }
+
 #menuCources {
     float: left;
     margin-left: 6%;
     margin-top: 28px;
 }
+
 #sendButtonText:hover {
     background: #F66F5D;
     color: #FFFFFF;
 }
+
 #sendButtonText {
     float: right;
     margin-right: 7%;
@@ -39,7 +43,7 @@
     border-width: 1px;
     border-style: solid;
 
-    width: 35%; 
+    width: 35%;
     max-width: 202px;
     height: 44px;
     text-align: center;
