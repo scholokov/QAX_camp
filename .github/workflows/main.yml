@@ -24,8 +24,8 @@ jobs:
       uses: GokulDas027/TelegramBridge@master
       if: always()
       with:
-        chat: ${{ -1001474814527.chat }} # save your chat id at settings/secrets with name: chat
-        token: ${{ 1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk.token }} # savethe bot token at settings/secrets with name: token
+        chat: ${{ secrets.chat }} # save your chat id at settings/secrets with name: chat
+        token: ${{ secrets.token }} # savethe bot token at settings/secrets with name: token
         status: ${{ job.status }} # don't change
         event: ${{ github.event_name }} # don't change
         actor: ${{ github.actor }} # don't change
