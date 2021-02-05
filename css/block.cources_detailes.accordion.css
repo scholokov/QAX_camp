@@ -108,6 +108,8 @@ body {
 }
 
 .tab a.active {
+  /*
   background-color: orange;
+  */
   font-weight: bold;
 }
