@@ -1,13 +1,14 @@
 /* ----------------------------------------------------------------
 	feedback
 ------------------------------------------------------------------*/
-#feedback{
-	margin-top: 200px;
+#feedback {
+    margin-top: 200px;
 }
+
 /* Slideshow container */
 .feedback-slideshow-container {
     position: relative;
-	width: 100%;
+    width: 100%;
     font-style: normal;
 }
 
@@ -49,7 +50,7 @@
 }
 
 .feedback-author {
-	font-family: Raleway;
+    font-family: Raleway;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
@@ -57,7 +58,7 @@
 }
 
 .feedback-course {
-	font-family: Raleway;
+    font-family: Raleway;
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
