@@ -81,6 +81,7 @@ body {
   font-size: 16px;
   padding-top: 13px;
   padding-bottom: 13px;
+  color: black;
 }
 
 .menu-item-BA {
@@ -92,7 +93,7 @@ body {
 }
 
 .menu-item-QA {
-  background: linear-gradient(120.52deg, #ABDCFF 0%, #0396FF 100%);
+  background-color: #F66F5D;
 }
 
 .menu-sub-item-QA {
@@ -111,5 +112,8 @@ body {
   /*
   background-color: orange;
   */
+  /*
   font-weight: bold;
+  */
+  background: #E8E8E8;
 }
