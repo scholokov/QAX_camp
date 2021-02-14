@@ -55,3 +55,13 @@
     line-height: 150%;
     color: #FFFFFF;
 }
+
+.cources-sub-title {
+    color: #FFFFFF;
+    background-color: #F66F5D;
+    padding-left: 10px;
+}
+
+.cources-text-block {
+    padding-left: 10px;
+}
