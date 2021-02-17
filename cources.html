@@ -57,7 +57,7 @@
 				sessionStorage.setItem('facebookLink', data.facebookLink);
 				sessionStorage.setItem('tokenID', data.telega.tokenID);
 				sessionStorage.setItem('chatID', data.telega.chatID);
-				sessionStorage.setItem('envName', data.envname);
+				sessionStorage.setItem('envName', data.envName);
 			});
 
 	</script>
@@ -584,7 +584,7 @@
 					</section>
 
 
-					<div class="fb-comments" data-href="https://scholokov.github.io/" data-width="100%"
+					<div class="fb-comments" data-href="<script>sessionStorage.getItem('chatID')</script>" data-width="100%"
 						data-numposts="3"></div>
 
 
