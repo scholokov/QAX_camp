@@ -70,15 +70,15 @@
 			function (text) {
 				var data = JSON.parse(text);
 				console.log(data);
-				sessionStorage.setItem('facebookLink', obj.facebookLink );
+				sessionStorage.setItem('facebookLink', data.facebookLink );
 
 
 				const obj = JSON.parse(json);
 
-				console.log(obj.facebookLink);
+				console.log(data.facebookLink);
 				// expected output: 42
 
-				console.log(obj.result);
+				console.log(data.result);
 				// expected output: true
 
 			});
