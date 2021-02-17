@@ -48,48 +48,17 @@
 			}
 			rawFile.send(null);
 		}
-		/*		
-				var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
-				var request = new XMLHttpRequest();
-				request.open('GET', requestURL);
-				request.responseType = 'json';
-				request.send();
-				request.onload = function () {
-					var superHeroes = request.response;
-					populateHeader(superHeroes);
-					showHeroes(superHeroes);
-					console.log(superHeroes);
-				}
-				console.log(request.onload);
-				console.log(superHeroes);
-		*/
-
 
 		//usage:
 		readTextFile("env.json",
 			function (text) {
 				var data = JSON.parse(text);
 				console.log(data);
-				sessionStorage.setItem('facebookLink', data.facebookLink );
-				sessionStorage.setItem('tokenID', data.telega.tokenID );
-				sessionStorage.setItem('chatID', data.telega.chatID );
+				sessionStorage.setItem('facebookLink', data.facebookLink);
+				sessionStorage.setItem('tokenID', data.telega.tokenID);
+				sessionStorage.setItem('chatID', data.telega.chatID);
+				sessionStorage.setItem('envName', data.telega.envName);
 			});
-
-
-/*
-		alert(sessionStorage.getItem('data'));
-*/
-
-
-
-
-
-
-
-
-
-
-
 
 	</script>
 	<div id="fb-root"></div>
