@@ -48,44 +48,88 @@
 			}
 			rawFile.send(null);
 		}
-
+		/*		
+				var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+				var request = new XMLHttpRequest();
+				request.open('GET', requestURL);
+				request.responseType = 'json';
+				request.send();
+				request.onload = function () {
+					var superHeroes = request.response;
+					populateHeader(superHeroes);
+					showHeroes(superHeroes);
+					console.log(superHeroes);
+				}
+				console.log(request.onload);
+				console.log(superHeroes);
+		*/
 
 
 		//usage:
-		var envJSON = readTextFile("https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json", function (text) {
-			var data = JSON.parse(text);
-			console.log(data);
-			return data
+		readTextFile("https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json",
+			function (text) {
+				var data = JSON.parse(text);
+				console.log(data);
+			});
+
+
+
+
+
+
+
+
+
+
+		var jqxhr = $.getJSON("https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json", function () {
+			console.log("success");
+		})
+			.done(function () {
+				console.log("second success");
+			})
+			.fail(function () {
+				console.log("error");
+			})
+			.always(function () {
+				console.log("complete");
+			});
+
+		// Perform other work here ...
+
+		// Set another completion function for the request above
+		jqxhr.always(function () {
+			console.log("second complete");
 		});
-		console.log(envJSON);
 
 
 
-		var Global = 'Global';
+		var xmlhttp = new XMLHttpRequest();
+		var url = "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json";
 
-		function LocalToGlobalVariable() {
-
-			// This creates a local variable.
-
-			var Local = '5';
-
-			// Doing this makes the variable available for one session
-			// (a page refresh - it's the session not local)
-
-			sessionStorage.LocalToGlobalVar = Local;
-
-			// It can be named anything as long as the sessionStorage
-			// references the local variable.
-			// Otherwise it won't work.
-			// This refreshes the page to make the variable take
-			// effect instead of the last variable set.
-
-
+		xmlhttp.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+				var myArr = JSON.parse(this.responseText);
+				myFunction(myArr);
+			}
 		};
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
 
-		// This calls the variable outside of the function for whatever use you want.
+		function myFunction(arr) {
+			var out = "";
+			var i;
+			for (i = 0; i < arr.length; i++) {
+				out += '<a href="' + arr[i].url + '">' +
+					arr[i].display + '</a><br>';
+			}
+			document.getElementById("id01").innerHTML = out;
+		}
 
-		console.log(sessionStorage.LocalToGlobalVar);
+
+
+
+
+
 
 
 
