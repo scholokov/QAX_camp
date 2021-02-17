@@ -72,16 +72,7 @@
 				console.log(data);
 				sessionStorage.setItem('facebookLink', data.facebookLink );
 				sessionStorage.setItem('tokenID', data.telega.tokenID );
-
-
-				const obj = JSON.parse(json);
-
-				console.log(data.facebookLink);
-				// expected output: 42
-
-				console.log(data.result);
-				// expected output: true
-
+				sessionStorage.setItem('chatID', data.telega.tokenID );
 			});
 
 

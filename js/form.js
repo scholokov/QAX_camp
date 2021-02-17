@@ -19,8 +19,8 @@ $('form').submit(function (e) {
       console.log(data);
 
     });
-  tokenID = '1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk';
-  chatID = '-1001474814527';
+  tokenID = sessionStorage.getItem('tokenID');
+  chatID =  sessionStorage.getItem('chatID');
   e.preventDefault();
   $.ajax({
     url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
