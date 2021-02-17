@@ -1,24 +1,5 @@
-/* get json */
-function readTextFile(file, callback) {
-  var rawFile = new XMLHttpRequest();
-  rawFile.overrideMimeType("application/json");
-  rawFile.open("GET", file, true);
-  rawFile.onreadystatechange = function () {
-    if (rawFile.readyState === 4 && rawFile.status == "200") {
-      callback(rawFile.responseText);
-    }
-  }
-  rawFile.send(null);
-}
-
 /* Submit text to Telegram */
 $('form').submit(function (e) {
-  readTextFile("env.json",
-    function (text) {
-      var data = JSON.parse(text);
-      console.log(data);
-
-    });
   tokenID = sessionStorage.getItem('tokenID');
   chatID =  sessionStorage.getItem('chatID');
   e.preventDefault();
@@ -34,12 +15,6 @@ $('form').submit(function (e) {
     }
   });
 });
-
-
-
-
-
-
 
 
 $(function () {
