@@ -50,11 +50,10 @@
 		}
 
 		//usage:
-		var env = ""
+		var env = "0";
 		readTextFile("env.json", function (text) {
 			env = JSON.parse(text);
-			console.log(data);
-			return data;
+			console.log(env);
 		});
 		console.log(env);
 
