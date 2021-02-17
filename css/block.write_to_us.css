@@ -16,13 +16,13 @@
     font-size: 14px;
 }
 .write_to_us-title-form {
-    margin-top: 15px;
+    padding-top: 45px;
     text-align: center;
     color: #FFFFFF;
 }
 
 #write_to_us-block-small {
-    margin-top: 90px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -78,6 +78,7 @@
     margin-top: 45px;
     width: 50%;
     color: #FFFFFF;
+    font-weight: normal;
 }
 
 .write_to_us-button-send {
@@ -117,7 +118,9 @@
     }
 }
 
-
+#button_text{
+    font-weight: bold;
+}
 
 
 
