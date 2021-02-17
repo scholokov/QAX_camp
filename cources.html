@@ -70,60 +70,24 @@
 			function (text) {
 				var data = JSON.parse(text);
 				console.log(data);
+				sessionStorage.setItem('data', 1);
+
+
+				const obj = JSON.parse(json);
+
+				console.log(obj.facebookLink);
+				// expected output: 42
+
+				console.log(obj.result);
+				// expected output: true
+
 			});
 
 
+/*
+		alert(sessionStorage.getItem('data'));
+*/
 
-
-
-
-
-
-
-
-		var jqxhr = $.getJSON("https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json", function () {
-			console.log("success");
-		})
-			.done(function () {
-				console.log("second success");
-			})
-			.fail(function () {
-				console.log("error");
-			})
-			.always(function () {
-				console.log("complete");
-			});
-
-		// Perform other work here ...
-
-		// Set another completion function for the request above
-		jqxhr.always(function () {
-			console.log("second complete");
-		});
-
-
-
-		var xmlhttp = new XMLHttpRequest();
-		var url = "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json";
-
-		xmlhttp.onreadystatechange = function () {
-			if (this.readyState == 4 && this.status == 200) {
-				var myArr = JSON.parse(this.responseText);
-				myFunction(myArr);
-			}
-		};
-		xmlhttp.open("GET", url, true);
-		xmlhttp.send();
-
-		function myFunction(arr) {
-			var out = "";
-			var i;
-			for (i = 0; i < arr.length; i++) {
-				out += '<a href="' + arr[i].url + '">' +
-					arr[i].display + '</a><br>';
-			}
-			document.getElementById("id01").innerHTML = out;
-		}
 
 
 
