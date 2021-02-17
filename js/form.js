@@ -1,13 +1,31 @@
+
+function readTextFile(file, callback) {
+  var rawFile = new XMLHttpRequest();
+  rawFile.overrideMimeType("application/json");
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function () {
+    if (rawFile.readyState === 4 && rawFile.status == "200") {
+      callback(rawFile.responseText);
+    }
+  }
+  rawFile.send(null);
+}
+
 /* Submit text to Telegram */
 $('form').submit(function (e) {
+  readTextFile("env.json",
+    function (text) {
+      var data = JSON.parse(text);
+      console.log(data);
+    });
   tokenID = '1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk';
   chatID = '-1001474814527';
   e.preventDefault();
   $.ajax({
-    url: 'https://api.telegram.org/bot1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk' + '/sendMessage',
+    url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
     method: 'POST',
     data: {
-      chat_id: '-1001474814527',
+      chat_id: chatID,
       text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val()
     },
     success: function () {
@@ -15,6 +33,12 @@ $('form').submit(function (e) {
     }
   });
 });
+
+
+
+
+
+
 
 
 $(function () {
@@ -25,10 +49,10 @@ $(function () {
   var phone_line = $("#phone_line");
   var comment_input = $("#comment_input");
   var comment_line = $("#comment_line");
-  var error_message_name=$("#error_message_name");
-  var error_message_phone=$("#error_message_phone");
-  var button_send=$("#button_send");
-  
+  var error_message_name = $("#error_message_name");
+  var error_message_phone = $("#error_message_phone");
+  var button_send = $("#button_send");
+
   error_message_name.hide();
   error_message_phone.hide();
 
@@ -101,10 +125,10 @@ $(function () {
   var textarea = document.getElementsByTagName('textarea')[0];
 
   textarea.addEventListener('keydown', resize);
-  
+
   function resize() {
     var el = this;
-    setTimeout(function() {
+    setTimeout(function () {
       el.style.cssText = 'height:23px; padding:0';
       el.style.cssText = 'height:' + el.scrollHeight + 'px';
     }, 1);
