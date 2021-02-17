@@ -66,11 +66,11 @@
 
 
 		//usage:
-		readTextFile("https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json",
+		readTextFile("env.json",
 			function (text) {
 				var data = JSON.parse(text);
 				console.log(data);
-				sessionStorage.setItem('data', 1);
+				sessionStorage.setItem('facebookLink', obj.facebookLink );
 
 
 				const obj = JSON.parse(json);
