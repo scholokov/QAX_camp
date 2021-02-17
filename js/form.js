@@ -1,4 +1,4 @@
-
+/* get json */
 function readTextFile(file, callback) {
   var rawFile = new XMLHttpRequest();
   rawFile.overrideMimeType("application/json");
@@ -17,6 +17,7 @@ $('form').submit(function (e) {
     function (text) {
       var data = JSON.parse(text);
       console.log(data);
+
     });
   tokenID = '1641718929:AAEtb8TbjPCEA7rZ9IGybfRasb0M-afeeNk';
   chatID = '-1001474814527';
