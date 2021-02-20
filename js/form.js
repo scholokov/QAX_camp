@@ -100,7 +100,11 @@ $(function () {
 
   var textarea = document.getElementsByTagName('textarea')[0];
 
+/*
+ error in console
+
   textarea.addEventListener('keydown', resize);
+*/
 
   function resize() {
     var el = this;

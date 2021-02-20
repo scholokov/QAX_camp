@@ -53,7 +53,7 @@
 		readTextFile("env.json",
 			function (text) {
 				var data = JSON.parse(text);
-				console.log(data);
+				/* console.log(data); */
 				sessionStorage.setItem('facebookLink', data.facebookLink);
 				sessionStorage.setItem('tokenID', data.telega.tokenID);
 				sessionStorage.setItem('chatID', data.telega.chatID);
