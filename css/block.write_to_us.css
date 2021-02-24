@@ -11,10 +11,12 @@
     padding-bottom: 60px;
     background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
 }
+
 .write_to_us-error-message {
     color: red;
     font-size: 14px;
 }
+
 .write_to_us-title-form {
     padding-top: 45px;
     text-align: center;
@@ -59,7 +61,7 @@
 .write_to_us-comment {
     margin-top: 40px;
     width: 100%;
-    height: 21px;
+    min-height: 21px;
     background-color: transparent;
     color: #FFFFFF;
     resize: none;
@@ -105,20 +107,23 @@
     .write_to_us-personal-data {
         width: 100%;
     }
-    .form-group{
+
+    .form-group {
         display: block !important;
     }
 }
+
 @media (min-width: 768px) {
     .write_to_us-personal-data {
         width: 50%;
     }
-    .form-group{
+
+    .form-group {
         justify-content: space-between;
     }
 }
 
-#button_text{
+#button_text {
     font-weight: bold;
 }
 
@@ -181,12 +186,29 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: white;
 }
 
-textarea::-webkit-input-placeholder { color: rgb(255, 255, 255); }
-textarea:-moz-placeholder { color: rgb(255, 255, 255); }
+textarea::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+textarea:-moz-placeholder {
+    color: rgb(255, 255, 255);
+}
 
 
 
-
+.textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    margin-top: 40px;
+    color: #FFFFFF;
+  }
+  
+  .textarea[contenteditable]:empty::before {
+    content: "Коментар";
+  }
+  
 
 
 
