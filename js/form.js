@@ -11,7 +11,7 @@ $('form').submit(function (e) {
       text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val()
     },
     success: function () {
-      document.getElementById("write_to_us-block-small").class = "landscape.jpg";
+      document.getElementsByTagName("write_to_us-block-small")[0].setAttribute("class", "no-display");
       alert('your message has been sent!');
     }
   });
