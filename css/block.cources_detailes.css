@@ -25,7 +25,9 @@ td {
     background-color: #F3F3F3;
 }
 
-
+.list, .list-in-list{
+    margin-left: 20px;
+}
 
 
 
