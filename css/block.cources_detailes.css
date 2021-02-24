@@ -5,7 +5,7 @@
 .table-topics {
     padding: 35px 0px 0px 0px;
     font-size: 14px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
