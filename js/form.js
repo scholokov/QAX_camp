@@ -11,6 +11,7 @@ $('form').submit(function (e) {
       text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val()
     },
     success: function () {
+      document.getElementById("write_to_us-block-small").class = "landscape.jpg";
       alert('your message has been sent!');
     }
   });
@@ -60,7 +61,7 @@ $(function () {
     var patternName = new RegExp(/^[a-zA-Zа-яА-яàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ '-]+$/i);
     let name = patternName.test(name_input.val());
 
-    if (name_length < 2 || name_length > 100 || !name) {
+    if (name_length < 2 || name_length > 50 || !name) {
       name_line.css({ "border-color": "red" });
       error_message_name.show();
       button_send.attr("disabled", "disabled");
