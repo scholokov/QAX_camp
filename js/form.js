@@ -12,6 +12,7 @@ $('form').submit(function (e) {
     },
     success: function () {
       document.getElementsByTagName("write_to_us-block-small")[0].setAttribute("class", "no-display");
+      document.getElementsByTagName("write_to_us-block-small").setAttribute("class", "no-display");
       alert('your message has been sent!');
     }
   });
