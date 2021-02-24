@@ -11,9 +11,10 @@ $('form').submit(function (e) {
       text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val()
     },
     success: function () {
-      document.getElementsByTagName("write_to_us-block-small")[0].setAttribute("class", "no-display");
-      document.getElementsByTagName("write_to_us-block-small").setAttribute("class", "no-display");
-      alert('your message has been sent!');
+      document.getElementById("write_to_us").setAttribute("class", "no-display");
+      document.getElementById("write_to_us-thanks-block").setAttribute("class", "");
+    
+      /* alert('your message has been sent!'); */
     }
   });
 });
