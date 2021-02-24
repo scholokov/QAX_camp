@@ -65,7 +65,7 @@ body:not(.device-touch) #gotoTop {
 
 
 .box-title {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -84,13 +84,13 @@ body:not(.device-touch) #gotoTop {
 
 /* title name */
 h1 {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
 }
 
 /* Block names */
 h2 {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     line-height: 56px;
     color: #333333;
@@ -99,7 +99,7 @@ h2 {
 
 /* Sub names */
 h3 {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     line-height: 56px;
 }
