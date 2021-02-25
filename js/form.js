@@ -20,6 +20,14 @@ $('form').submit(function (e) {
 });
 
 
+function countDigits(n) {
+  for(var i = 0; n > 1; i++) {
+     n /= 10;
+  }
+  return i;
+}
+
+
 $(function () {
 
   var name_input = $("#name_input");
@@ -31,27 +39,27 @@ $(function () {
   var error_message_name = $("#error_message_name");
   var error_message_phone = $("#error_message_phone");
   var button_send = $("#button_send");
-
+  
   error_message_name.hide();
   error_message_phone.hide();
 
   //Functions for lines in form 
   name_input.focus(function () {
-    name_line.css({ "border-width": "3px" });
+    name_line.css({ "border-width": "1px" });
   });
   name_input.focusout(function () {
     name_line.css({ "border-width": "1px" });
     check_name();
   });
   phone_input.focus(function () {
-    phone_line.css({ "border-width": "3px" });
+    phone_line.css({ "border-width": "1px" });
   });
   phone_input.focusout(function () {
     phone_line.css({ "border-width": "1px" });
     check_email_phone();
   });
   comment_input.focus(function () {
-    comment_line.css({ "border-width": "3px" });
+    comment_line.css({ "border-width": "1px" });
   });
   comment_input.focusout(function () {
     comment_line.css({ "border-width": "1px" });
@@ -63,7 +71,7 @@ $(function () {
     var patternName = new RegExp(/^[a-zA-Zа-яА-яàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ '-]+$/i);
     let name = patternName.test(name_input.val());
 
-    if (name_length < 2 || name_length > 50 || !name) {
+    if (name_length < 2 || name_length > 30 || !name) {
       name_line.css({ "border-color": "red" });
       error_message_name.show();
       button_send.attr("disabled", "disabled");
@@ -82,8 +90,9 @@ $(function () {
     var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
     let email = patternEmail.test(phone_input.val());
     let phone = patternPhone.test(phone_input.val());
+    var phone_length = countDigits(phone_input.val());
 
-    if (phone) {
+    if (phone && phone_length == 12) {
       phone_line.css({ "border-color": "white" });
       error_message_phone.hide();
       button_send.removeAttr("disabled", "disabled");
