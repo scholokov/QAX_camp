@@ -56,6 +56,7 @@ body {
 
 .sidebar #leftside-navigation ul li a span {
   display: inline-block;
+  font-family: Raleway, sans-serif;
 }
 
 .sidebar #leftside-navigation ul li a i {
@@ -95,7 +96,6 @@ body {
 
 .menu-item-QA {
   background-color: #F66F5D;
-  font-family: Raleway, sans-serif;
 }
 
 .menu-sub-item-QA {
