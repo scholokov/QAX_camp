@@ -41,7 +41,7 @@ body {
   display: block;
   padding: 18px 0 18px 25px;
   font-size: 16px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   outline: 0;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
@@ -95,6 +95,7 @@ body {
 
 .menu-item-QA {
   background-color: #F66F5D;
+  font-family: Raleway, sans-serif;
 }
 
 .menu-sub-item-QA {
