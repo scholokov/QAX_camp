@@ -1,21 +1,30 @@
 /* Submit text to Telegram */
 $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
-  chatID =  sessionStorage.getItem('chatID');
+  chatID = sessionStorage.getItem('chatID');
   var comment_input_span = document.getElementById("comment_input").innerText;
   console.log(comment_input_span);
+
+
+  var result = bowser.getParser(window.navigator.userAgent);
+  console.log(result);
+  document.write("You are using " + result.parsedResult.browser.name +
+    " v" + result.parsedResult.browser.version +
+    " on " + result.parsedResult.os.name);
+
+
   e.preventDefault();
   $.ajax({
     url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $(comment_input_span).val()
+      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + comment_input_span
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
       document.getElementById("write_to_us-thanks-block").setAttribute("class", "");
-    
+
       /* alert('your message has been sent!'); */
     }
   });
@@ -23,8 +32,8 @@ $('form').submit(function (e) {
 
 
 function countDigits(n) {
-  for(var i = 0; n > 1; i++) {
-     n /= 10;
+  for (var i = 0; n > 1; i++) {
+    n /= 10;
   }
   return i;
 }
@@ -41,7 +50,7 @@ $(function () {
   var error_message_name = $("#error_message_name");
   var error_message_phone = $("#error_message_phone");
   var button_send = $("#button_send");
-  
+
   error_message_name.hide();
   error_message_phone.hide();
 
@@ -114,11 +123,11 @@ $(function () {
 
   var textarea = document.getElementsByTagName('textarea')[0];
 
-/*
- error in console
-
-  textarea.addEventListener('keydown', resize);
-*/
+  /*
+   error in console
+  
+    textarea.addEventListener('keydown', resize);
+  */
 
   function resize() {
     var el = this;
