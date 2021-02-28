@@ -2,9 +2,11 @@
 $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
-  var comment_input_span = document.getElementById("comment_input").innerText;
-  console.log(comment_input_span);
-
+  var name = document.getElementById("name_input").innerText;
+  var phone = document.getElementById("phone_input").innerText;
+  var comment = document.getElementById("comment_input").innerText;
+  
+  
 
   var brversion = brversion.getParser(window.navigator.userAgent);
   console.log("You are using " + brversion.parsedResult.browser.name +
@@ -17,7 +19,7 @@ $('form').submit(function (e) {
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + comment_input_span + brversion
+      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + name + '\nPhone: ' + phone + '\nComment: ' + comment + brversion
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
