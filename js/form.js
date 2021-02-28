@@ -5,19 +5,19 @@ $('form').submit(function (e) {
 
   var comment = document.getElementById("comment_input").innerText;
 
-/*
-console.log(platform);
-document.write("You are using " + platform.name +
-               " v" + platform.version + 
-               " on " + platform.os);
-*/
+
+  console.log(platform);
+  var brversion_text = "You are using " + platform.name +
+    " v" + platform.version +
+    " on " + platform.os;
+
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
     'Somebody wait your answer!\n\n' +
-      'Name: ' + $('#name_input').val() +
-      '\nPhone: ' + $('#phone_input').val() +
-      '\nComment: ' + comment ; /* + 
-        brversion_text; */
+    'Name: ' + $('#name_input').val() +
+    '\nPhone: ' + $('#phone_input').val() +
+    '\nComment: ' + comment; +
+      brversion_text;
 
   e.preventDefault();
   $.ajax({
