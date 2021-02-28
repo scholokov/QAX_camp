@@ -16,7 +16,7 @@ $('form').submit(function (e) {
     'Somebody wait your answer!\n\n' +
     'Name: ' + $('#name_input').val() +
     '\nPhone: ' + $('#phone_input').val() +
-    '\nComment: ' + comment; +
+    '\nComment: ' + comment +
       brversion_text;
 
   e.preventDefault();
