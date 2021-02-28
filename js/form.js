@@ -3,6 +3,7 @@ $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID =  sessionStorage.getItem('chatID');
   var comment_input_span = document.getElementById("comment_input").innerText;
+  console.log(comment_input_span);
   e.preventDefault();
   $.ajax({
     url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
