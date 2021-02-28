@@ -2,11 +2,11 @@
 $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
-  /* 
+
   var name_input = document.getElementById("name_input").innerText;
   var phone_input = document.getElementById("phone_input").innerText;
   var comment = document.getElementById("comment_input").innerText;
- 
+
   console.log(name_input + phone_input + comment);
 
 
@@ -17,21 +17,19 @@ $('form').submit(function (e) {
 
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
-    'Somebody wait your answer!\n\n'; 
-    + 'Name: ' + name_input
-    + '\nPhone: ' + phone_input
-     
-    + '\nComment: ' + comment;
-   
-    + brversion_text;
-*/
+    'Somebody wait your answer!\n\n'; +
+      'Name: ' + name_input +
+      '\nPhone: ' + phone_input +
+      '\nComment: ' + comment; +
+        brversion_text;
+
   e.preventDefault();
   $.ajax({
     url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $(comment_input_span).val()
+      text: sum_text
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
