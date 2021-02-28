@@ -18,9 +18,11 @@ $('form').submit(function (e) {
     + 'Somebody wait your answer!\n\n'
     + 'Name: ' + name
     + '\nPhone: ' + phone
-    + '\nComment: ' + comment
+     /*
+    + '\nComment: ' + comment;
+   
     + brversion_text;
-
+*/
   e.preventDefault();
   $.ajax({
     url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
