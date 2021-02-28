@@ -17,10 +17,10 @@ $('form').submit(function (e) {
 */
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
-    'Somebody wait your answer!\n\n'; +
+    'Somebody wait your answer!\n\n' +
       'Name: ' + name_input +
       '\nPhone: ' + phone_input +
-      '\nComment: ' + comment; + /*
+      '\nComment: ' + comment; /* + 
         brversion_text; */
 
   e.preventDefault();
