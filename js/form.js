@@ -3,11 +3,7 @@ $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
 
-  var name_input = document.getElementById("name_input")[0].value;
-  var phone_input = document.getElementById("phone_input")[0].value;
   var comment = document.getElementById("comment_input").innerText;
-
-  console.log(name_input + phone_input + comment);
 
 /*
   var brversion = brversion.getParser(window.navigator.userAgent);
@@ -18,8 +14,8 @@ $('form').submit(function (e) {
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
     'Somebody wait your answer!\n\n' +
-      'Name: ' + name_input +
-      '\nPhone: ' + phone_input +
+      'Name: ' + $('#name_input').val() +
+      '\nPhone: ' + $('#phone_input').val() +
       '\nComment: ' + comment ; /* + 
         brversion_text; */
 
