@@ -5,8 +5,6 @@ $('form').submit(function (e) {
 
   var comment = document.getElementById("comment_input").innerText;
 
-
-  console.log(platform);
   var brversion_text = "You are using " + platform.name +
     " v" + platform.version +
     " on " + platform.os;
