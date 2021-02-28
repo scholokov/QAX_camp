@@ -2,8 +2,8 @@
 $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
-  var name = document.getElementById("name_input").innerText;
-  var phone = document.getElementById("phone_input").innerText;
+  var name_input = document.getElementById("name_input").innerText;
+  var phone_input = document.getElementById("phone_input").innerText;
   var comment = document.getElementById("comment_input").innerText;
   console.log(name + phone);
 
@@ -16,8 +16,8 @@ $('form').submit(function (e) {
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n'
     + 'Please read message below.\n'
     + 'Somebody wait your answer!\n\n'; /*
-    + 'Name: ' + name
-    + '\nPhone: ' + phone
+    + 'Name: ' + name_input
+    + '\nPhone: ' + phone_input
      
     + '\nComment: ' + comment;
    
