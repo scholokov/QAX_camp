@@ -6,12 +6,10 @@ $('form').submit(function (e) {
   console.log(comment_input_span);
 
 
-  var result = bowser.getParser(window.navigator.userAgent);
-  console.log(result);
-  document.write("You are using " + result.parsedResult.browser.name +
-    " v" + result.parsedResult.browser.version +
-    " on " + result.parsedResult.os.name);
-
+  var brversion = brversion.getParser(window.navigator.userAgent);
+  console.log("You are using " + brversion.parsedResult.browser.name +
+    " v" + brversion.parsedResult.browser.version +
+    " on " + brversion.parsedResult.os.name);
 
   e.preventDefault();
   $.ajax({
@@ -19,7 +17,7 @@ $('form').submit(function (e) {
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + comment_input_span
+      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + comment_input_span + brversion
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
