@@ -12,7 +12,8 @@ $('form').submit(function (e) {
   var brversion_text = "You are using " + brversion.parsedResult.browser.name +
     " v" + brversion.parsedResult.browser.version +
     " on " + brversion.parsedResult.os.name;
-  var text = 'Hi!\nI`m QAX Camp bot.\n'
+    
+  var sum_text = 'Hi!\nI`m QAX Camp bot.\n'
     + 'Please read message below.\n'
     + 'Somebody wait your answer!\n\n'
     + 'Name: ' + name
@@ -26,7 +27,7 @@ $('form').submit(function (e) {
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: text
+      text: sum_text
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
