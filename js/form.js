@@ -3,8 +3,8 @@ $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
 
-  var name_input = document.getElementById("name_input").innerText;
-  var phone_input = document.getElementById("phone_input").innerText;
+  var name_input = document.getElementById("name_input").textContent;
+  var phone_input = document.getElementById("phone_input").textContent;
   var comment = document.getElementById("comment_input").innerText;
 
   console.log(name_input + phone_input + comment);
@@ -29,7 +29,7 @@ $('form').submit(function (e) {
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: sum_text
+      text: 'Please read message below.\n'
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
