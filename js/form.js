@@ -9,19 +9,19 @@ $('form').submit(function (e) {
 
   console.log(name_input + phone_input + comment);
 
-
+/*
   var brversion = brversion.getParser(window.navigator.userAgent);
   var brversion_text = "You are using " + brversion.parsedResult.browser.name +
     " v" + brversion.parsedResult.browser.version +
     " on " + brversion.parsedResult.os.name;
-
+*/
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
     'Somebody wait your answer!\n\n'; +
       'Name: ' + name_input +
       '\nPhone: ' + phone_input +
-      '\nComment: ' + comment; +
-        brversion_text;
+      '\nComment: ' + comment; + /*
+        brversion_text; */
 
   e.preventDefault();
   $.ajax({
