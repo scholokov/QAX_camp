@@ -5,9 +5,9 @@ $('form').submit(function (e) {
 
   var comment = document.getElementById("comment_input").innerText;
 
-  var brversion_text = "Browser:" + platform.name +
+  /* var brversion_text = "Browser:" + platform.name +
     " v" + platform.version +
-    " on " + platform.os;
+    " on " + platform.os; */
 
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
