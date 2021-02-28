@@ -11,9 +11,9 @@ $('form').submit(function (e) {
 
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
-    'Somebody wait your answer!\n\n' +
+    'Somebody wait your answer!\n\n' + /*
     '\nBrowser: ' + platform.name + ' v' + platform.version +
-    '\nOS: ' + platform.os +
+    '\nOS: ' + platform.os + */
     'Name: ' + $('#name_input').val() +
     '\nPhone: ' + $('#phone_input').val() +
     '\nComment: ' + comment ;
