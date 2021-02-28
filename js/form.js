@@ -2,13 +2,14 @@
 $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID =  sessionStorage.getItem('chatID');
+  var comment_input_span = document.getElementById("comment_input").innerText;
   e.preventDefault();
   $.ajax({
     url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $('#comment_input').val()
+      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $(comment_input_span).val()
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
