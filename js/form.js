@@ -3,8 +3,8 @@ $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
 
-  var name_input = document.getElementById("name_input").textContent;
-  var phone_input = document.getElementById("phone_input").textContent;
+  var name_input = document.getElementById("name_input")[0].value;
+  var phone_input = document.getElementById("phone_input")[0].value;
   var comment = document.getElementById("comment_input").innerText;
 
   console.log(name_input + phone_input + comment);
@@ -20,7 +20,7 @@ $('form').submit(function (e) {
     'Somebody wait your answer!\n\n' +
       'Name: ' + name_input +
       '\nPhone: ' + phone_input +
-      '\nComment: ' + comment; /* + 
+      '\nComment: ' + comment ; /* + 
         brversion_text; */
 
   e.preventDefault();
