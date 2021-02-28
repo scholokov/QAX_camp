@@ -31,7 +31,7 @@ $('form').submit(function (e) {
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: 'sum_text'
+      text: 'Hi!\nI`m QAX Camp bot.\nPlease read message below.\nSomebody wait your answer!\n\nName: ' + $('#name_input').val() + '\nPhone: ' + $('#phone_input').val() + '\nComment: ' + $(comment_input_span).val()
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
