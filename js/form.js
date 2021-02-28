@@ -31,7 +31,7 @@ $('form').submit(function (e) {
     method: 'POST',
     data: {
       chat_id: chatID,
-      text: sum_text
+      text: 'sum_text'
     },
     success: function () {
       document.getElementById("write_to_us").setAttribute("class", "no-display");
