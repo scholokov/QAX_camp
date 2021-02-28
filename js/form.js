@@ -5,9 +5,9 @@ $('form').submit(function (e) {
   var name_input = document.getElementById("name_input").innerText;
   var phone_input = document.getElementById("phone_input").innerText;
   var comment = document.getElementById("comment_input").innerText;
-  console.log(name_input + phone_input);
+  console.log(name_input + phone_input + comment);
 
-
+/*
   var brversion = brversion.getParser(window.navigator.userAgent);
   var brversion_text = "You are using " + brversion.parsedResult.browser.name +
     " v" + brversion.parsedResult.browser.version +
@@ -15,7 +15,7 @@ $('form').submit(function (e) {
 
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
-    'Somebody wait your answer!\n\n'; /*
+    'Somebody wait your answer!\n\n'; 
     + 'Name: ' + name_input
     + '\nPhone: ' + phone_input
      
