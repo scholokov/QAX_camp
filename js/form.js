@@ -5,17 +5,14 @@ $('form').submit(function (e) {
 
   var comment = document.getElementById("comment_input").innerText;
 
-  var brversion_text = "You are using " + platform.name +
-    " v" + platform.version +
-    " on " + platform.os;
-
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
     'Somebody wait your answer!\n\n' +
     'Name: ' + $('#name_input').val() +
     '\nPhone: ' + $('#phone_input').val() +
-    '\nComment: ' + comment +
-      brversion_text;
+    '\nComment: ' + comment +  
+    '\nBrowser: ' + platform.name + " v" + platform.version +
+    '\nOS: ' + platform.os;
 
   e.preventDefault();
   $.ajax({
