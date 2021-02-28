@@ -5,14 +5,14 @@ $('form').submit(function (e) {
   var name_input = document.getElementById("name_input").innerText;
   var phone_input = document.getElementById("phone_input").innerText;
   var comment = document.getElementById("comment_input").innerText;
-  console.log(name + phone);
+  console.log(name_input + phone_input);
 
 
   var brversion = brversion.getParser(window.navigator.userAgent);
-  var brversion_text = "You are using " + brversion.parsedResult.browser.name +
-    " v" + brversion.parsedResult.browser.version +
-    " on " + brversion.parsedResult.os.name;
-    
+  var brversion_text = "You are using " + brversion.parsedResult.browser.name
+    + " v" + brversion.parsedResult.browser.version
+    + " on " + brversion.parsedResult.os.name;
+
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n'
     + 'Please read message below.\n'
     + 'Somebody wait your answer!\n\n'; /*
