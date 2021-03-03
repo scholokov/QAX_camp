@@ -8,12 +8,12 @@ $('form').submit(function (e) {
   /* var brversion_text = "Browser:" + platform.name +
     " v" + platform.version +
     " on " + platform.os; */
-    
-    /*
-    '\nBrowser: ' + platform.name + ' v' + platform.version +
-    '\nOS: ' + platform.os + */
 
-    var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
+  /*
+  '\nBrowser: ' + platform.name + ' v' + platform.version +
+  '\nOS: ' + platform.os + */
+
+  var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
     'Please read message below.\n' +
     'Somebody wait your answer!\n\n' +
     'Name: ' + $('#name_input').val() +
