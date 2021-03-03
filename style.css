@@ -237,7 +237,7 @@ h6 > span:not(.nocolor):not(.badge) { color: #1ABC9C; }
 
 p,
 pre,
-ul,
+/* ul, */
 ol,
 dl,
 dd,
