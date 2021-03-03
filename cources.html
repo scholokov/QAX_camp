@@ -110,6 +110,81 @@
 							<div class="col-lg-3">
 								<aside class="sidebar">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="accordion">
+										<div class="accordion__wrapper">
+											<div class="accordion__item">
+												<div class="menu-item-QA accordion__question">
+													Quality Assurance Engineer
+												</div>
+												<div class="accordion__answer">
+													<ul>
+														<li class="menu-sub-item-QA"><a href='#'
+																onclick="openTab(event, 'qa_automation')"
+																class="tablinks" id="defaultOpen">Автоматизація</a>
+														</li>
+
+														<li class="menu-sub-item-QA"><a href='#'
+																onclick="openTab(event, 'qa_theory')" class="tablinks"
+																id="">Підготовка через Менторство</a>
+														</li>
+														<li class="menu-sub-item-QA"><a href='#'
+																onclick="openTab(event, 'qa_practice')" class="tablinks"
+																id="">Практика</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="accordion__item">
+												<div class="menu-item-QA accordion__question">
+													PM
+												</div>
+												<div class="accordion__answer">
+													<ul>
+														<li class="menu-sub-item-QA"><a href='#'
+																onclick="openTab(event, 'qa_practice')" class="tablinks"
+																id="">Практика</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+
+
+
+										</div>
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 									<div id="leftside-navigation">
 										<ul>
 
@@ -772,9 +847,10 @@
 					</script>
 					-->
 
-
-					<div class="fb-comments" data-href="https://www.facebook.com/profile.php?id=100013531722133"
-						data-width="100%" order_by="reverse_time" data-numposts="2">
+					<div id="comments">
+						<div class="fb-comments" data-href="https://www.facebook.com/profile.php?id=100013531722133"
+							data-width="100%" order_by="reverse_time" data-numposts="2">
+						</div>
 					</div>
 
 					<!--
@@ -841,6 +917,53 @@
 				e.stopPropagation()
 		})
 	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		$('.accordion__answer:first').show();
+		$('.accordion__question:first').addClass('expanded');
+
+		$('.accordion__question').on('click', function () {
+			var content = $(this).next();
+
+			$('.accordion__answer').not(content).slideUp(400);
+			$('.accordion__question').not(this).removeClass('expanded');
+			$(this).toggleClass('expanded');
+			content.slideToggle(400);
+		});
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	<!-- Tabs function -->
