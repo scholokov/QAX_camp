@@ -2,7 +2,8 @@
 $('form').submit(function (e) {
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
-
+  envName = sessionStorage.getItem('envName');
+  
   var comment = document.getElementById("comment_input").innerText;
 
   /* var brversion_text = "Browser:" + platform.name +
@@ -14,6 +15,7 @@ $('form').submit(function (e) {
   '\nOS: ' + platform.os + */
 
   var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
+    'Enviroment: ' + envName +
     'Please read message below.\n' +
     'Somebody wait your answer!\n\n' +
     'Name: ' + $('#name_input').val() +
