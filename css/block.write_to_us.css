@@ -128,11 +128,28 @@
 }
 
 
-
+/*
 input[type=text] {
     border: none;
-
+    font-size: 16px;
 }
+*/
+
+input[type=text] {
+    border-bottom: 1px solid #B9B6B6;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 16px;
+    color: #120C04;
+  }
+
+
+::placeholder {
+    font-size: 16px;
+}
+
+
 
 input::-webkit-input-placeholder {
     color: rgb(255, 255, 255);
@@ -203,13 +220,13 @@ textarea:-moz-placeholder {
     resize: both;
     margin-top: 40px;
     color: #FFFFFF;
-  }
-  
-  .textarea[contenteditable]:empty::before {
+}
+
+.textarea[contenteditable]:empty::before {
     content: "Коментар";
-  }
-  
-.write_to_us-block-thanks{
+}
+
+.write_to_us-block-thanks {
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -221,7 +238,7 @@ textarea:-moz-placeholder {
     min-height: 494px;
 }
 
-#write_to_us-done-img{
+#write_to_us-done-img {
     padding-top: 80px;
     display: block;
     margin-left: auto;
@@ -230,19 +247,23 @@ textarea:-moz-placeholder {
 
 }
 
-.write_to_us-thanks-top-text{
+.write_to_us-thanks-top-text {
     text-align: center;
     color: #FFFFFF;
     padding-top: 45px;
 }
 
-.write_to_us-thanks-bottom-text{
+.write_to_us-thanks-bottom-text {
     text-align: center;
     color: #FFFFFF;
     padding-top: 90px;
 }
 
-
+.write_to_us-field {
+    width: 100%;
+    background-color: transparent;
+    color: #120C04;
+  }
 
 /*
 
