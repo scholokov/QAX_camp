@@ -14,16 +14,15 @@ $('form').submit(function (e) {
   '\nBrowser: ' + platform.name + ' v' + platform.version +
   '\nOS: ' + platform.os + */
 
-  var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
-    'Enviroment: ' + envName +
-    '\nPlease read message below.\n' +
-    'Somebody wait your answer!\n\n' +
-    'Name: ' + $('#name_input').val() +
-    '\nPhone: ' + $('#phone_input').val() +
-    '\nComment: ' + comment;   /* +  
-    '\nBrowser: ' + platform.name + " v" + platform.version +
-    '\nOS: ' + platform.os;
-    */
+  var sum_text = 'Hi!\nI`m QAX bot.\n' +
+  'Enviroment: ' + envName +
+  '\n\n' +
+  'Name: ' + $('#name_input').val() +
+  '\nPhone: ' + $('#phone_input').val() +
+  '\nComment: ' + comment;   /* +  
+  '\nBrowser: ' + platform.name + " v" + platform.version +
+  '\nOS: ' + platform.os;
+  */
 
   e.preventDefault();
   $.ajax({
