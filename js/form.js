@@ -1,5 +1,9 @@
 /* Submit text to Telegram */
 $('form').submit(function (e) {
+  check_name();
+  check_phone();
+  check_name();
+  
   tokenID = sessionStorage.getItem('tokenID');
   chatID = sessionStorage.getItem('chatID');
   envName = sessionStorage.getItem('envName');
