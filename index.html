@@ -524,18 +524,15 @@
 										</div>
 									</div>
 									<div class="form-group">
-										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
-											placeholder="Email**" required onblur="check_email()">
-										<div id='error_message_email_empty'
+										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
+											placeholder="Мобільний номер*" required onblur="check_phone()">
+										<div id='error_message_phone_empty'
 											class="write_to_us-error-message no-display">
 											This field is required
 										</div>
-										<div id='error_message_email_invalid'
+										<div id='error_message_phone_short'
 											class="write_to_us-error-message no-display">
-											Invalid email address entered
-										</div>
-										<div id='error_message_email_long' class="write_to_us-error-message no-display">
-											Max 30 characters long
+											Телефон занадто короткий
 										</div>
 									</div>
 									<div class="form-group">
@@ -653,6 +650,8 @@
 
 	<!-- Footer Scripts
 	============================================= -->
+	<!-- for phone mask -->
+	<script src="https://unpkg.com/imask"></script>
 	<script src="js/functions.js"></script>
 	<script src="js/form.js"></script>
 
