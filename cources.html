@@ -813,66 +813,59 @@
 								<form novalidate>
 									<div class="form-group">
 										<input type="text" id="name_input" name="fname" class="write_to_us-field"
-											placeholder="Ім’я*" required>
-										<div id='error_message_name_empty' class="write_to_us-error-message">
-											Це обовьязкове поле
+											placeholder="Name*" required onblur="check_name()">
+										<div id='error_message_name_empty' class="write_to_us-error-message no-display">
+											This field is required
 										</div>
-										<div id='error_message_name_short' class="write_to_us-error-message">
-											Мiнiмум 3 символи
+										<div id='error_message_name_short' class="write_to_us-error-message no-display">
+											At least 3 characters long
 										</div>
-										<div id='error_message_name_long' class="write_to_us-error-message">
-											Максимум 30 символiв
+										<div id='error_message_name_long' class="write_to_us-error-message no-display">
+											Max 30 characters long
 										</div>
-										<div id='error_message_name_only_numbers' class="write_to_us-error-message">
-											Повинно состояти тильки з букв (без спецiальних символiв)
+										<div id='error_message_name_only_numbers' class="write_to_us-error-message no-display">
+											Must only contain letters (no special characters)
 										</div>
-
 									</div>
 									<div class="form-group">
 										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
-											placeholder="Email**" required>
-										<div id='error_message_email_empty' class="write_to_us-error-message">
-											Це обовьязкове поле
+											placeholder="Email**" required onblur="check_email()">
+										<div id='error_message_email_empty' class="write_to_us-error-message no-display">
+											This field is required
 										</div>
-										<div id='error_message_email_invalid' class="write_to_us-error-message">
-											Некорректний email
+										<div id='error_message_email_invalid' class="write_to_us-error-message no-display">
+											Invalid email address entered
 										</div>
-										<div id='error_message_email_long' class="write_to_us-error-message">
-											Максимум 30 символiв
+										<div id='error_message_email_long' class="write_to_us-error-message no-display">
+											Max 30 characters long
 										</div>
 									</div>
 									<div class="form-group">
 										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
-											placeholder="Мобільний номер*" required>
-										<div id='error_message_phone_empty' class="write_to_us-error-message">
-											Це обовьязкове поле
+											placeholder="Phone number*" required onblur="check_phone()">
+										<div id='error_message_phone_empty' class="write_to_us-error-message no-display">
+											This field is required
 										</div>
-										<div id='error_message_phone_short' class="write_to_us-error-message">
-											Мiнiмум 3 символи
+										<div id='error_message_phone_short' class="write_to_us-error-message no-display">
+											At least 3 characters long
 										</div>
-										<div id='error_message_phone_long' class="write_to_us-error-message">
-											Максимум 30 символiв
+										<div id='error_message_phone_long' class="write_to_us-error-message no-display">
+											Max 30 characters long
 										</div>
-										<div id='error_message_phone_only_numbers' class="write_to_us-error-message">
-											Повинно состояти тильки з цифр
+										<div id='error_message_phone_only_numbers' class="write_to_us-error-message no-display">
+											Must only contain numbers
 										</div>
 									</div>
 									<div class="form-group">
-										<!-- <textarea id="comment_input" name="fcomment" class="write_to_us-comment"
-														maxlength="500" placeholder="Коментар" contenteditable></textarea>
-													-->
-										<span class="textarea" role="textbox" contenteditable id="comment_input"></span>
-										<div id="comment_line" class="write_to_us-comment-line"></div>
+										<span class="textarea" role="textbox" contenteditable id="comment_input"
+											name="fcomment" onblur="check_comment()"></span>
+										<div id="comment_line" class="line"></div>
+										<div id='error_message_comment_long' class="write_to_us-error-message no-display">
+											Max 30 characters long
+										</div>
 									</div>
-									<div class="form-group d-flex justify-content-md-between">
-										<h5 class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте
-											згоду на обробку <b>персональних даних</b></h5>
-										<button type="submit" class="write_to_us-button-send" id="button_send">
-											<!-- <div class="write_to_us-button-send-text" id="button_text"></div>Відправити</div> -->
-											Відправити
-										</button>
-									</div>
-
+	
+									<button type="submit" class="write_to_us-button-send" id="button_send">Send</button>
 								</form>
 							</div>
 						</div>
@@ -970,17 +963,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 	<script>
 		$('.accordion__answer:first').show();
 		$('.accordion__question:first').addClass('expanded');
@@ -995,24 +977,6 @@
 		});
 
 	</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
