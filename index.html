@@ -501,34 +501,72 @@
 					<section>
 						<div class="write_to_us-block" id="write_to_us">
 
-							<h2 class="write_to_us-title-form">Записатися на курс</h2>
+							<div id="write_to_us-block-small">
+								<div>
+									<h3 class="write_to_us-title-form">Записатися на курс</h3>
+								</div>
+								<form novalidate>
+									<div class="form-group">
+										<input type="text" id="name_input" name="fname" class="write_to_us-field"
+											placeholder="Ім'я*" required onblur="check_name()">
+										<div id='error_message_name_empty' class="write_to_us-error-message no-display">
+											This field is required
+										</div>
+										<div id='error_message_name_short' class="write_to_us-error-message no-display">
+											At least 3 characters long
+										</div>
+										<div id='error_message_name_long' class="write_to_us-error-message no-display">
+											Max 30 characters long
+										</div>
+										<div id='error_message_name_only_numbers'
+											class="write_to_us-error-message no-display">
+											Must only contain letters (no special characters)
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
+											placeholder="Email**" required onblur="check_email()">
+										<div id='error_message_email_empty'
+											class="write_to_us-error-message no-display">
+											This field is required
+										</div>
+										<div id='error_message_email_invalid'
+											class="write_to_us-error-message no-display">
+											Invalid email address entered
+										</div>
+										<div id='error_message_email_long' class="write_to_us-error-message no-display">
+											Max 30 characters long
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
+											placeholder="Мобільний номер*" required onblur="check_phone()">
+										<div id='error_message_phone_empty'
+											class="write_to_us-error-message no-display">
+											This field is required
+										</div>
+										<div id='error_message_phone_short'
+											class="write_to_us-error-message no-display">
+											At least 3 characters long
+										</div>
+										<div id='error_message_phone_long' class="write_to_us-error-message no-display">
+											Max 30 characters long
+										</div>
+										<div id='error_message_phone_only_numbers'
+											class="write_to_us-error-message no-display">
+											Must only contain numbers
+										</div>
+									</div>
+									<div class="form-group">
+										<span class="textarea" role="textbox" contenteditable id="comment_input"
+											name="fcomment" onblur="check_comment()"></span>
+										<div id="comment_line" class="line"></div>
+										<div id='error_message_comment_long'
+											class="write_to_us-error-message no-display">
+											Max 30 characters long
+										</div>
+									</div>
 
-							<form>
-								<div id="write_to_us-block-small">
-									<h4>
-										<div class="form-group">
-											<input type="text" id="name_input" name="fname" class="write_to_us-name"
-												placeholder="Ім’я*" required>
-											<div id="name_line" class="write_to_us-name-line"></div>
-											<div id='error_message_name' class="write_to_us-error-message">Поле
-												заповнено не вірно</div>
-										</div>
-										<div class="form-group">
-											<input type="text" id="phone_input" name="fphone" class="write_to_us-phone"
-												placeholder="Мобільний номер або Email*" required>
-											<div id="phone_line" class="write_to_us-phone-line"></div>
-											<div id='error_message_phone' class="write_to_us-error-message">Поле
-												заповнено не вірно</div>
-										</div>
-										<div class="form-group">
-											<!-- <textarea id="comment_input" name="fcomment" class="write_to_us-comment"
-												maxlength="500" placeholder="Коментар" contenteditable></textarea>
-											-->
-											<span class="textarea" role="textbox" contenteditable id="comment_input"
-												name="fcomment" maxlength="5"></span>
-											<div id="comment_line" class="write_to_us-comment-line"></div>
-										</div>
-									</h4>
 									<div class="form-group d-flex justify-content-md-between">
 										<h5 class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте
 											згоду на обробку <b>персональних даних</b></h5>
@@ -538,12 +576,9 @@
 										</button>
 									</div>
 
-
-								</div>
-
-							</form>
+								</form>
+							</div>
 						</div>
-
 
 						<div class="no-display" id="write_to_us-thanks-block">
 							<div class="write_to_us-block-thanks" id="write_to_us-thanks">
@@ -555,8 +590,6 @@
 								</h4>
 							</div>
 						</div>
-
-
 					</section>
 
 
