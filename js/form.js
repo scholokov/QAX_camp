@@ -9,8 +9,8 @@ $('form').submit(function (e) {
 
     console.log('comment_input: ' + comment_input);
 
-//    var chech_agree_flag = check_agree_send();
-//    console.log('chech_agree: ' + chech_agree_flag);
+    //    var chech_agree_flag = check_agree_send();
+    //    console.log('chech_agree: ' + chech_agree_flag);
 
     var check_name_flag = check_name();
     console.log('check_name: ' + check_name_flag);
@@ -24,8 +24,8 @@ $('form').submit(function (e) {
     var check_email_flag = check_email();
     console.log('check_email: ' + check_email_flag);
 
-// chech_agree_flag == false ||
-    if ( check_name_flag == false || check_phone_flag == false || check_email_flag == false || check_comment_flag == false )
+    // chech_agree_flag == false ||
+    if (check_name_flag == false || check_phone_flag == false || check_email_flag == false || check_comment_flag == false)
         return false;
 
 
@@ -76,92 +76,92 @@ function countDigits(n) {
 
 
 $(function () {
-/*
-    var name_input = $("#name_input");
-    var name_line = $("#name_input");
-    var error_message_name_empty = $("#error_message_name_empty");
-    var error_message_name_short = $("#error_message_name_short");
-    var error_message_name_long = $("#error_message_name_long");
-    var error_message_name_only_numbers = $("#error_message_name_only_numbers");
-
-
-    var email_input = $("#email_input");
-    var email_line = $("#email_input");
-    var error_message_email_empty = $("#error_message_email_empty");
-    var error_message_email_invalid = $("#error_message_email_invalid");
-    var error_message_email_long = $("#error_message_email_long");
-
-    var error_message_agree_empty = $("#error_message_agree_empty");
-
-    var comment_input = $("#comment_input");
-    // var comment_line = $("#comment_line");
-    var error_message_comment_long = $("#error_message_comment_long");
-
-    var phone_input = $("#phone_input");
-    var phone_line = $("#phone_input");
-    var error_message_phone_empty = $("#error_message_phone_empty");
-    var error_message_phone_short = $("#error_message_phone_short");
-    var error_message_phone_long = $("#error_message_phone_long");
-    var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
-
-
-    var agree_input = $("#agree-checkbox");
-    var error_message_agree_empty = $("#error_message_agree_empty");
-
-
-    error_message_name_empty.hide();
-    error_message_name_short.hide();
-    error_message_name_long.hide();
-    error_message_name_only_numbers.hide();
-
-    error_message_email_empty.hide();
-    error_message_email_invalid.hide();
-    error_message_email_long.hide();
-
-    error_message_phone_empty.hide();
-    error_message_phone_short.hide();
-    error_message_phone_long.hide();
-    error_message_phone_only_numbers.hide();
-
-    error_message_comment_long.hide();
-
-    error_message_agree_empty.hide();
-*/
-/*
-    //Functions for lines in form 
-    name_input.focus(function () {
-        name_line.css({ "border-width": "1px" });
-    });
-    name_input.focusout(function () {
-        name_line.css({ "border-width": "1px" });
-        check_name();
-    });
-    phone_input.focus(function () {
-        phone_line.css({ "border-width": "1px" });
-    });
-    phone_input.focusout(function () {
-        phone_line.css({ "border-width": "1px" });
-        check_phone();
-    });
-    email_input.focus(function () {
-        email_line.css({ "border-width": "1px" });
-    });
-    email_input.focusout(function () {
-        email_line.css({ "border-width": "1px" });
-        check_email();
-    });
-    comment_input.focus(function () {
-        // comment_line.css({ "border-width": "1px" }); 
-    });
-    comment_input.focusout(function () {
-        // comment_line.css({ "border-width": "1px" }); 
-        check_comment();
-    });
+    /*
+        var name_input = $("#name_input");
+        var name_line = $("#name_input");
+        var error_message_name_empty = $("#error_message_name_empty");
+        var error_message_name_short = $("#error_message_name_short");
+        var error_message_name_long = $("#error_message_name_long");
+        var error_message_name_only_numbers = $("#error_message_name_only_numbers");
     
-    agree_input.focusout(function () {
-        check_agree();
-    });
+    
+        var email_input = $("#email_input");
+        var email_line = $("#email_input");
+        var error_message_email_empty = $("#error_message_email_empty");
+        var error_message_email_invalid = $("#error_message_email_invalid");
+        var error_message_email_long = $("#error_message_email_long");
+    
+        var error_message_agree_empty = $("#error_message_agree_empty");
+    
+        var comment_input = $("#comment_input");
+        // var comment_line = $("#comment_line");
+        var error_message_comment_long = $("#error_message_comment_long");
+    
+        var phone_input = $("#phone_input");
+        var phone_line = $("#phone_input");
+        var error_message_phone_empty = $("#error_message_phone_empty");
+        var error_message_phone_short = $("#error_message_phone_short");
+        var error_message_phone_long = $("#error_message_phone_long");
+        var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
+    
+    
+        var agree_input = $("#agree-checkbox");
+        var error_message_agree_empty = $("#error_message_agree_empty");
+    
+    
+        error_message_name_empty.hide();
+        error_message_name_short.hide();
+        error_message_name_long.hide();
+        error_message_name_only_numbers.hide();
+    
+        error_message_email_empty.hide();
+        error_message_email_invalid.hide();
+        error_message_email_long.hide();
+    
+        error_message_phone_empty.hide();
+        error_message_phone_short.hide();
+        error_message_phone_long.hide();
+        error_message_phone_only_numbers.hide();
+    
+        error_message_comment_long.hide();
+    
+        error_message_agree_empty.hide();
     */
+    /*
+        //Functions for lines in form 
+        name_input.focus(function () {
+            name_line.css({ "border-width": "1px" });
+        });
+        name_input.focusout(function () {
+            name_line.css({ "border-width": "1px" });
+            check_name();
+        });
+        phone_input.focus(function () {
+            phone_line.css({ "border-width": "1px" });
+        });
+        phone_input.focusout(function () {
+            phone_line.css({ "border-width": "1px" });
+            check_phone();
+        });
+        email_input.focus(function () {
+            email_line.css({ "border-width": "1px" });
+        });
+        email_input.focusout(function () {
+            email_line.css({ "border-width": "1px" });
+            check_email();
+        });
+        comment_input.focus(function () {
+            // comment_line.css({ "border-width": "1px" }); 
+        });
+        comment_input.focusout(function () {
+            // comment_line.css({ "border-width": "1px" }); 
+            check_comment();
+        });
+        
+        agree_input.focusout(function () {
+            check_agree();
+        });
+        */
 
 
 
@@ -262,7 +262,7 @@ function check_name() {
     var error_message_name_short = $("#error_message_name_short");
     var error_message_name_long = $("#error_message_name_long");
     var error_message_name_only_numbers = $("#error_message_name_only_numbers");
-    
+
     var name_clear = name_input.val().trim();
 
     var name_length = name_clear.length;
@@ -325,7 +325,7 @@ function check_email() {
     var error_message_email_empty = $("#error_message_email_empty");
     var error_message_email_invalid = $("#error_message_email_invalid");
     var error_message_email_long = $("#error_message_email_long");
-    
+
     var patternEmail = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i);
     var email_clear = email_input.val().trim();
     let email = patternEmail.test(email_clear);
@@ -372,15 +372,15 @@ function check_phone() {
     var error_message_phone_short = $("#error_message_phone_short");
     var error_message_phone_long = $("#error_message_phone_long");
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
-    
-    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
-    var phone_clear = phone_input.val().trim();
-    let phone = patternPhone.test(phone_clear);
-    var phone_length = countDigits(phone_clear);
 
-    console.log('phone-digits-length: ' + phone_length);
-    console.log('phone-correctness: ' + phone_clear);
+    //    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
+    // var patternPhone = new RegExp(/^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$/);
+
+    var phone_clear = phone_input.val().trim();
+//    let phone = patternPhone.test(phone_clear);
     var phone_length_all = phone_clear.length;
+    console.log('phone-length: ' + phone_length_all);
+//    console.log('phone-correctness: ' + phone);
 
     if (phone_length_all == 0) {
         phone_line.css({ "border-color": "red" });
@@ -390,6 +390,7 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }
+    /*
     else if (phone == false) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_only_numbers.show();
@@ -398,7 +399,9 @@ function check_phone() {
         error_message_phone_long.hide();
         return false;
     }
-    else if (phone_length > 30) {
+    */
+   /*
+    else if (phone_length_all > 22) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_long.show();
         error_message_phone_empty.hide();
@@ -406,7 +409,8 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }
-    else if (phone_length < 2) {
+    */
+    else if (phone_length_all < 22) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
@@ -430,7 +434,7 @@ function check_phone() {
 function check_comment() {
     var comment_line = $("#comment_line");
     var error_message_comment_long = $("#error_message_comment_long");
-    
+
     var comment_text = document.getElementById("comment_input").textContent;
     var comment_clear = comment_text.trim();
 
@@ -449,3 +453,11 @@ function check_comment() {
         return true;
     };
 };
+
+
+// phone mask
+var element = document.getElementById('phone_input');
+var maskOptions = {
+  mask: '+{38\\0}(00) 000 - 00 - 00'
+};
+var mask = IMask(element, maskOptions);
