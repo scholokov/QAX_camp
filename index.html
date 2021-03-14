@@ -510,13 +510,13 @@
 										<input type="text" id="name_input" name="fname" class="write_to_us-field"
 											placeholder="Ім'я*" required onblur="check_name()">
 										<div id='error_message_name_empty' class="write_to_us-error-message no-display">
-											This field is required
+											Це поле є обов'язковим
 										</div>
 										<div id='error_message_name_short' class="write_to_us-error-message no-display">
-											At least 3 characters long
+											Недостатньо. Давай ще :)
 										</div>
 										<div id='error_message_name_long' class="write_to_us-error-message no-display">
-											Max 30 characters long
+											Воу воу, забагато
 										</div>
 										<div id='error_message_name_only_numbers'
 											class="write_to_us-error-message no-display">
@@ -524,15 +524,18 @@
 										</div>
 									</div>
 									<div class="form-group">
-										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
-											placeholder="Мобільний номер*" required onblur="check_phone()">
-										<div id='error_message_phone_empty'
+										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
+											placeholder="Email**" required onblur="check_email()">
+										<div id='error_message_email_empty'
 											class="write_to_us-error-message no-display">
-											This field is required
+											Це поле є обов'язковим
 										</div>
-										<div id='error_message_phone_short'
+										<div id='error_message_email_invalid'
 											class="write_to_us-error-message no-display">
-											Телефон занадто короткий
+											Невірний формат email адреси
+										</div>
+										<div id='error_message_email_long' class="write_to_us-error-message no-display">
+											Воу воу, забагато
 										</div>
 									</div>
 									<div class="form-group">
@@ -540,18 +543,11 @@
 											placeholder="Мобільний номер*" required onblur="check_phone()">
 										<div id='error_message_phone_empty'
 											class="write_to_us-error-message no-display">
-											This field is required
+											Це поле є обов'язковим
 										</div>
 										<div id='error_message_phone_short'
 											class="write_to_us-error-message no-display">
-											At least 3 characters long
-										</div>
-										<div id='error_message_phone_long' class="write_to_us-error-message no-display">
-											Max 30 characters long
-										</div>
-										<div id='error_message_phone_only_numbers'
-											class="write_to_us-error-message no-display">
-											Must only contain numbers
+											Недостатньо цифр. Давай ще :)
 										</div>
 									</div>
 									<div class="form-group">
@@ -560,7 +556,7 @@
 										<div id="comment_line" class="line"></div>
 										<div id='error_message_comment_long'
 											class="write_to_us-error-message no-display">
-											Max 30 characters long
+											Воу воу, забагато
 										</div>
 									</div>
 
