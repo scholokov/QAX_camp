@@ -211,7 +211,7 @@
 
 									<div id="qa_automation" class="tabcontent">
 										<div w3-include-html="cources\automation.html"></div> 
-										<script>includeHTML();</script>
+										
 									</div>
 
 									<div id="qa_theory" class="tabcontent">
@@ -849,6 +849,7 @@
 			}
 			document.getElementById(tabName).style.display = "block";
 			evt.currentTarget.className += " active";
+			includeHTML();
 		}
 
 		// Get the element with id="defaultOpen" and click on it
