@@ -25,5 +25,3 @@ function includeHTML() {
         }
     }
 }
-
-includeHTML();
