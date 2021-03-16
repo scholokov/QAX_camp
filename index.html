@@ -500,15 +500,15 @@
 					<!-- ------------------------------------- -->
 					<section>
 						<div class="write_to_us-block" id="write_to_us">
-
+					
 							<div id="write_to_us-block-small">
 								<div>
 									<h3 class="write_to_us-title-form">Записатися на курс</h3>
 								</div>
 								<form novalidate>
 									<div class="form-group">
-										<input type="text" id="name_input" name="fname" class="write_to_us-field"
-											placeholder="Ім'я*" required onblur="check_name()">
+										<input type="text" id="name_input" name="fname" class="write_to_us-field" placeholder="Ім'я*"
+											required onblur="check_name()" maxlength="10">
 										<div id='error_message_name_empty' class="write_to_us-error-message no-display">
 											Це поле є обов'язковим
 										</div>
@@ -518,20 +518,17 @@
 										<div id='error_message_name_long' class="write_to_us-error-message no-display">
 											Воу воу, забагато
 										</div>
-										<div id='error_message_name_only_numbers'
-											class="write_to_us-error-message no-display">
+										<div id='error_message_name_only_numbers' class="write_to_us-error-message no-display">
 											Must only contain letters (no special characters)
 										</div>
 									</div>
 									<div class="form-group">
-										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
-											placeholder="Email**" required onblur="check_email()">
-										<div id='error_message_email_empty'
-											class="write_to_us-error-message no-display">
+										<input type="text" id="email_input" name="fphone" class="write_to_us-field" placeholder="Email**"
+											required onblur="check_email()" maxlength="10">
+										<div id='error_message_email_empty' class="write_to_us-error-message no-display">
 											Це поле є обов'язковим
 										</div>
-										<div id='error_message_email_invalid'
-											class="write_to_us-error-message no-display">
+										<div id='error_message_email_invalid' class="write_to_us-error-message no-display">
 											Невірний формат email адреси
 										</div>
 										<div id='error_message_email_long' class="write_to_us-error-message no-display">
@@ -541,38 +538,35 @@
 									<div class="form-group">
 										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
 											placeholder="Мобільний номер*" required onblur="check_phone()">
-										<div id='error_message_phone_empty'
-											class="write_to_us-error-message no-display">
+										<div id='error_message_phone_empty' class="write_to_us-error-message no-display">
 											Це поле є обов'язковим
 										</div>
-										<div id='error_message_phone_short'
-											class="write_to_us-error-message no-display">
+										<div id='error_message_phone_short' class="write_to_us-error-message no-display">
 											Недостатньо цифр. Давай ще :)
 										</div>
 									</div>
 									<div class="form-group">
-										<span class="textarea" role="textbox" contenteditable id="comment_input"
-											name="fcomment" onblur="check_comment()"></span>
+										<span class="textarea" role="textbox" contenteditable id="comment_input" name="fcomment"
+											onblur="check_comment()"></span>
 										<div id="comment_line" class="line"></div>
-										<div id='error_message_comment_long'
-											class="write_to_us-error-message no-display">
+										<div id='error_message_comment_long' class="write_to_us-error-message no-display">
 											Воу воу, забагато
 										</div>
 									</div>
-
+					
 									<div class="form-group d-flex justify-content-md-between">
 										<h5 class="write_to_us-personal-data">Ми відправимо ваші контакти нашому менеджеру.
-											Конфіденційно. Без спаму</b></h5>
+											Конфіденційно. Без спамух</b></h5>
 										<button class="write_to_us-button-send" id="button_send">
 											<!-- <div class="write_to_us-button-send-text" id="button_text"></div>Відправити</div> -->
 											Відправити
 										</button>
 									</div>
-
+					
 								</form>
 							</div>
 						</div>
-
+					
 						<div class="no-display" id="write_to_us-thanks-block">
 							<div class="write_to_us-block-thanks" id="write_to_us-thanks">
 								<h2 class="write_to_us-thanks-top-text">Дані відправлено</h2>
