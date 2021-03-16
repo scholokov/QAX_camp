@@ -1,1025 +1,129 @@
-<!DOCTYPE html>
-<html lang="uk">
-
-<head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link
-		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap"
-		rel="stylesheet">
-
-	<!-- Stylesheets
-	============================================= -->
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/common.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
-	<link rel="stylesheet" href="css/footer.css" type="text/css" />
-	<link rel="stylesheet" href="css/header.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
-
-
-	<meta property="fb:admins" content="denis.scholokov" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>QAX Camp - Cources</title>
-	<link rel="icon" type="image/png" href="favicon.png">
-
-	<script>
-		function readTextFile(file, callback) {
-			var rawFile = new XMLHttpRequest();
-			rawFile.overrideMimeType("application/json");
-			rawFile.open("GET", file, true);
-			rawFile.onreadystatechange = function () {
-				if (rawFile.readyState === 4 && rawFile.status == "200") {
-					callback(rawFile.responseText);
-				}
-			}
-			rawFile.send(null);
-		}
-
-		//usage:
-		readTextFile("env.json",
-			function (text) {
-				var data = JSON.parse(text);
-				/* console.log(data); */
-				sessionStorage.setItem('facebookLink', data.facebookLink);
-				sessionStorage.setItem('envName', data.envName);
-				sessionStorage.setItem('tokenID', data.telega.tokenID);
-				sessionStorage.setItem('chatID', data.telega.chatID);
-			});
-	</script>
-
-</head>
-
-<body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header class="header">
-
-			<div id="fb-root"></div>
-			<script async defer crossorigin="anonymous"
-				src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v9.0" nonce="etHa6BVZ"></script>
-
-
-			<div id="header-block">
-				<a href="index.html"><img src="images/logo.svg" alt="Logo" id="logo"></a>
-
-				<a href="cources.html" id="menuCources" class="header-menu">курси</a>
-
-				<!--
-				<div><a href="#" class="language">UA|RU</a></div>
-				-->
-
-				<a href="#write_to_us">
-					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText">Записатися</div>
-				</a>
-			</div>
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-
-
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
-				<div class="container clearfix">
-
-					<div class="cources_details" id="cources_details">
-						<div id="cources_details-menu-block" class="row col-mb-50 mb-1">
-							<div class="col-lg-3">
-								<aside class="sidebar">
-
-									<div id="leftside-navigation">
-										<div class="accordion">
-											<div class="accordion__wrapper">
-												<div class="accordion__item">
-													<div class="menu-item-QA accordion__question">
-														Quality Assurance Engineer
-													</div>
-													<div class="accordion__answer">
-														<ul class="sub-menu tab active">
-															<li class="menu-sub-item-QA"><a href='#'
-																	onclick="openTab(event, 'qa_automation')"
-																	class="tablinks" id="defaultOpen">Автоматизація</a>
-															</li>
-
-															<li class="menu-sub-item-QA"><a href='#'
-																	onclick="openTab(event, 'qa_theory')"
-																	class="tablinks">Підготовка через
-																	Менторство</a>
-															</li>
-															<li class="menu-sub-item-QA"><a href='#'
-																	onclick="openTab(event, 'qa_practice')"
-																	class="tablinks">Практика</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-												<!--
-												<div class="accordion__item">
-													<div class="menu-item-QA accordion__question">
-														PM
-													</div>
-													<div class="accordion__answer">
-														<ul class="sub-menu tab active">
-															<li class="menu-sub-item-QA"><a href='#'
-																	onclick="openTab(event, 'qa_practice')"
-																	class="tablinks" id="">Практика</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-												-->
-
-											</div>
-										</div>
-									</div>
-
-
-									<!--
-
-									<div id="leftside-navigation">
-										<ul>
-
-											<li class="sub-menu tab active">
-												<a href="javascript:void(0);" class="menu-item-QA"><span><img
-															src="images/arrow.svg" alt="arrow" class="arrow">Quality
-														Assurance Engineer</span></a>
-												<ul>
-													<li class="menu-sub-item-QA"><a href='#'
-															onclick="openTab(event, 'qa_automation')" class="tablinks"
-															id="defaultOpen">Автоматизація</a>
-													</li>
-
-													<li class="menu-sub-item-QA"><a href='#'
-															onclick="openTab(event, 'qa_theory')" class="tablinks"
-															id="">Підготовка через Менторство</a>
-													</li>
-													<li class="menu-sub-item-QA"><a href='#'
-															onclick="openTab(event, 'qa_practice')" class="tablinks"
-															id="">Практика</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="sub-menu">
-												<a href="javascript:void(0);" class="menu-item-PM"><span><img
-															src="images/arrow.svg" alt="arrow"
-															class="arrow">PM</span></a>
-												<ul>
-													<li class="menu-sub-item-PM"><a href="#"
-															onclick="openTab(event, 'pm_practice')"
-															class="tablinks">Практика</a>
-													</li>
-												</ul>
-											</li>
-
-
-										</ul>
-									</div>
-									-->
-
-
-								</aside>
-							</div>
-							<div class="col-xl-9">
-								<div class="cources_details-text">
-
-
-									<div id="qa_automation" class="tabcontent">
-
-										<h3>Опис курсу:</h3>
-										Практичний курс, що складається з основ програмування на Java, а також базових
-										засад написання UI-автотестів для Web-додатків.
-										Курс розроблено для спеціалістів, що вже мають досвід у мануальному тестуванні
-										та хотіли б розвиватися в автоматизації, але поки не знають з чого почати.
-										<br><br>
-
-										<h3>Вимоги до студентів:</h3>
-										<ul class="list">
-											<li>Базові знання з тестування</li>
-											<li>Впевнений користувач ПК</li>
-											<li>Наявність власного ноутбуку або ПК для занять</li>
-											<li>Встановлене ПЗ: Intellij IDEA, Java 8+, Maven</li>
-										</ul><br>
-
-										<h3>Після курсу ви зможете:</h3>
-										<ul class="list">
-											<li>Створювати UI-автотести на Java та стеку найактуальніших та
-												найзатребуваніших
-												технологій для
-												автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG
-											</li>
-											<li>Створювати власний фреймворк з нуля</li>
-											<li>Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та
-												налаштовувати
-												CI/CD систему з Docker та Selenoid</li>
-											<li>Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure
-												Framework</li>
-											<li>Автоматизувати рутинні задачі, імітуючи дії користувача в браузері</li>
-											<li>Претендувати на позицію Junior QA Automation Engineer</li>
-										</ul><br>
-
-										<table class="table-topics margin-before">
-											<tr>
-												<td>
-													1. Вступ до автоматизації.<br>
-													Теорія по Java.
-												</td>
-											</tr>
-											<tr>
-												<td>
-													Що таке клас, метод, змінна.<br>
-													Модифікатори доступу.<br>
-													Написання першої програми.
-												</td>
-											</tr>
-											<tr>
-												<td>2. Java</td>
-											</tr>
-											<tr>
-												<td>Цикли. Умовні оператори.<br>
-													Статика.<br>
-													Перетворення типів.</td>
-											</tr>
-											<tr>
-												<td>3. Java</td>
-											</tr>
-											<tr>
-												<td>Масиви та колекції. </td>
-											</tr>
-											<tr>
-												<td>4. Java</td>
-											</tr>
-											<tr>
-												<td>ООП: поліморфізм, наслідування, інкапсуляція, абстракція.</td>
-											</tr>
-											<tr>
-												<td>5. jUnit и TestNG</td>
-											</tr>
-											<tr>
-												<td>Основні анотації. Написання юніт тестів з використанням бібліотеки
-													Assert.</td>
-											</tr>
-											<tr>
-												<td>6. Maven и Gradle</td>
-											</tr>
-											<tr>
-												<td>Створення проектів та підключення основних фреймворків та бібліотек
-												</td>
-											</tr>
-											<tr>
-												<td>7. Git и GitHub</td>
-											</tr>
-											<tr>
-												<td>Генерація ключів. <br>
-													Команди clone, pull, commit, push та ін.
-												</td>
-											</tr>
-											<tr>
-												<td>8. Error handlers. Loggers. Listeners</td>
-											</tr>
-											<tr>
-												<td>Обробка виключень. Створення та налаштування власного логера та
-													лістенера</td>
-											</tr>
-											<tr>
-												<td>9. Selenide та Allure</td>
-											</tr>
-											<tr>
-												<td>Створення структури фреймворку, налаштування базових бібліотек та
-													написання тестів. <br>
-													Розбір чітких та зрозумілих звітів.</td>
-											</tr>
-											<tr>
-												<td>10. X-Path та CSS</td>
-											</tr>
-											<tr>
-												<td>Практика написання селекторів. <br>
-													Параметризація тестів через TestNG.xml файл</td>
-											</tr>
-											<tr>
-												<td>11. Паттерн проектування автотестів "PageObject"</td>
-											</tr>
-											<tr>
-												<td>Написання тесту з вкиористанням паттерну PageObject</td>
-											</tr>
-											<tr>
-												<td>12. Явні и неявні очікування. <br>
-													Retry analyzer</td>
-											</tr>
-											<tr>
-												<td>Створення та налаштування власного ретрайеру для впавших тестів</td>
-											</tr>
-											<tr>
-												<td>13. Робота з Excel та CSV файлами. <br>
-													Data Provider</td>
-											</tr>
-											<tr>
-												<td>Написання методів для роботи з Excel та CSV файлами. <br>
-													Використання в текстах фабрики
-													тестових даних Data Provider</td>
-											</tr>
-											<tr>
-												<td>14. Знайомство з Docker, Selenoid</td>
-											</tr>
-											<tr>
-												<td>Підключення докер технології до автотестів. <br>
-													Запуск браузеру в
-													контейнері
-												</td>
-											</tr>
-											<tr>
-												<td>15. Хмарні технології в автоматизації тестуванння</td>
-											</tr>
-											<tr>
-												<td>Налаштування VM та підняття Jenkins в Google cloud.</td>
-											</tr>
-											<tr>
-												<td>16. Хмарні технології в автоматизації тестуванння</td>
-											</tr>
-											<tr>
-												<td>Налаштування Continious Integration & Shedulers</td>
-											</tr>
-										</table>
-									</div>
-
-									<div id="qa_theory" class="tabcontent">
-										<!-- <h2 class="cources-sub-title">Підготовка через Менторство</h2> -->
-										<div class="cources-text-block">
-											<h3>Ціль курсу:</h3>
-											Покращити свої теоретичні знання та підготуватися до отримання практичних
-											навичок в тестуванні<br><br>
-
-
-											<h3>Мінімальні вимоги:</h3>
-											<ul class="list">
-												<li>Твоє бажання і тільки!</li>
-											</ul>
-
-
-											<h3>З чого складається курс:</h3>
-											<ul class="list">
-												<li>Поринення в розробку програмного забезпечення, вивчення як "це все"
-													працює зсередини</li>
-												<li>Індивідуальні консультації з розвитку знань і навичок</li>
-											</ul>
-
-
-											<h3>Твої інструменти:</h3>
-											<ul class="list">
-												<li>Telegram / Google Meet - комунікація</li>
-											</ul>
-
-
-											<h3>Чим саме будеш займатись:</h3>
-											<ul class="list">
-												<li>Набувати теоретичних знань за наставництва наших менторів</li>
-												<li>Формувати ідею про те як повинна функціонувати продуктова команда
-													за допомогою спостереження за реальним проектом</li>
-												<li>Зміцнювати практичні навички задля легкої інтеграції в майбутній
-													проект, як учасник продуктової команди</li>
-											</ul>
-
-											<h3>Як відбувається робота:</h3>
-
-											Ти приєднаєшся на “кухню” справжньої продуктової команди в якості
-											спостерігача.
-											Зокрема, ти братимеш участь в:
-											<ul class="list">
-												<li>Продуктових зустрічах: </li>
-												<ul class="list-in-list">
-													<li>Статус-зустрічі з поточної реалізації (Стендап)</li>
-													<li>Планування майбутнього функціоналу </li>
-													<li>Грумінг задач </li>
-													<li>Ретроспектива </li>
-													<li>Сесії “Питання-Відповідь” </li>
-												</ul>
-											</ul>
-											<ul class="list">
-												<li>QA зустрічі: </li>
-												<ul class="list-in-list">
-													<li>Визначення зон зросту, надання найкращих ресурсів, оцінка
-														успіхів</li>
-													<li>Відповіді до поточних QA запитань</li>
-												</ul>
-											</ul>
-
-											Крім того, в тебе будуть додаткові зустрічі з менторами, а саме:
-											<ul class="list">
-												<li>Зустрічі з менторами:</li>
-												<ul class="list-in-list">
-													<li>Визначення зон зросту, надання найкращих ресурсів,
-														оцінка успіхів</li>
-													<li>Ти можеш ставити абсолютно будь-які запитання (навіть
-														стосовно інших
-														зустрічей)</li>
-												</ul>
-											</ul>
-
-											<ul class="list">
-												<li>HR зустрічі</li>
-												<ul class="list-in-list">
-													<li>Створення / підготовка / шліфування резюме</li>
-													<li>Консультації по інструментах і ресурсах для пошуку
-														роботи</li>
-													<li>Підготовка до проходження співбесіди</li>
-													<li>Технічні співбесіди</li>
-												</ul>
-											</ul>
-
-
-											<h3>Що отримаєш в процесі:</h3>
-											<ul class="list">
-												<li>Споглядати наживо як працює продуктова команда і взаємодіють різні
-													компетенції (QA, DEV, BA, PM, UI-UX, PO)</li>
-												<li>Знайомство із зонами відповідальності кожного учасника
-													проекту</li>
-												<li>Можливість ставити питання будь-якого характеру </li>
-												<li>Ad hoc менторство по зросту</li>
-											</ul>
-
-
-											<h3>Чого ти тут НЕ побачиш:</h3>
-											<ul class="list">
-												<li>"Класичні лекції", наша задача в тому, аби ти розібрався і все
-													зрозумів, а не зазубрював</li>
-
-												<li>Сертифікат про прослуханий курс. Хочеш знання чи папірець ?</li>
-											</ul>
-
-
-											<h3>Тривалість:</h3>
-											<ul class="list">
-												<li>Тривалість курсу ти визначаєш сам. Наскільки
-													швидко хочеш отримати перший
-													оффер ?</li>
-											</ul>
-
-
-											<h3>Що отримаєш в результаті:</h3>
-											<ul class="list">
-												<li>Теоретичні знання з тестування</li>
-												<li>Відповіді “з реального життя” на твої
-													питання </li>
-												<li>Розуміння взаємодії в проектній команді</li>
-												<li>Розуміння зон відповідальності кожного
-													учасника проекту</li>
-												<li>Побачити на власні очі, як розробляють
-													Програмне Забезпечення </li>
-												<li>Готовність до безпосередньої участі в
-													продуктовій команді в якості QA
-													спеціаліста</li>
-											</ul>
-										</div>
-									</div>
-
-									<div id="qa_practice" class="tabcontent">
-										<!-- <h2 class="cources-sub-title">Практика</h2> -->
-										<div class="cources-text-block">
-											<h3>Ціль курсу:</h3>
-											Поринути в розробку програмного забезпечення, побачити як "це все"
-											працює
-											зсередини. Застосувати теоретичні знання та отримати практичні навички в
-											тестуванні, необхідні для професійного росту та отримання офферу<br><br>
-
-											<h3>Мінімальні вимоги:</h3>
-											<ul class="list">
-												<li>Теоретичні знання основ тестування</li>
-											</ul>
-
-											<h3>З чого складається курс:</h3>
-											<ul class="list">
-												<li>Продуктові зустрічі:</li>
-												<ul class="list-in-list">
-													<li>Стендап, статус-зустрічі з поточної реалізації</li>
-													<li> Планування майбутнього функціоналу</li>
-													<li>Грумінг задач</li>
-													<li>Ретроспектива</li>
-													<li>Сесії “Питання-Відповідь”</li>
-												</ul>
-												<li>QA зустрічі:</li>
-												<ul class="list-in-list">
-													<li> Обговорення особливостей поточних QA задач</li>
-													<li>Поточні QA питання</li>
-												</ul>
-												<li>HR зустрічі:</li>
-												<ul class="list-in-list">
-													<li>Створення / підготовка / шліфування резюме</li>
-													<li>Консультації по інструментах і ресурсах для пошуку роботи
-													</li>
-													<li>Підготовка до проходження співбесіди</li>
-													<li>Технічні співбесіди</li>
-												</ul>
-												<li>Самостійна робота:</li>
-												<ul class="list-in-list">
-													<li>Робота з макетами</li>
-													<li>Робота з вимогами</li>
-													<li> Складання тестової документації</li>
-													<li>Тестування продукту</li>
-													<li>Баг-репортинг</li>
-													<li>Комунікація з командою по нагальних питаннях</li>
-												</ul>
-											</ul>
-
-											<h3>Твої інструменти:</h3>
-											<ul class="list">
-												<li>Jira - таск / баг-трекер</li>
-												<li>TM4J (Zephyr Scale) - Тест-менеджмент інструмент</li>
-												<li>Confluence - вимоги <br></li>
-												<li>Figma - дизайн</li>
-												<li>Telegram / Google Meet - комунікація </li>
-												<li>Git - репозиторій</li>
-											</ul>
-
-											<h3>Чим саме будеш займатись:</h3>
-											<ul class="list">
-												<li>Виконувати функціональне тестування
-													веб-додатків:</li>
-												<ul class="list-in-list">
-													<li>Звіряти реалізацію з дизайном та вимогами
-													</li>
-													<li>Використовувати DevTools, HTML / CSS
-														валідатори</li>
-												</ul>
-												<li>Виконувати нефункціональне тестування:</li>
-												<ul class="list-in-list">
-													<li>Usability</li>
-													<li>Performance </li>
-												</ul>
-												<li>Брати участь в розробці тест-плану</li>
-												<li>Розробляти тест-кейси / чек-листи,
-													використовуючи професійний інструмент
-													TM4J (Zephyr Scale)</li>
-												<li>Працювати з завданнями в Jira</li>
-												<li>Красиво (а це важливо!) і правильно
-													(капець як важливо!) описувати баги, з
-													подальшою самоперевіркою (перфекціонізм
-													- наше все)</li>
-											</ul>
-
-											<h3>Як відбувається робота:</h3>
-											<ul class="list">
-												<li>Ти долучишся до команди, що
-													складається з DEV, BA, PM, UI-UX,
-													PO.
-													Головним
-													завданням команди є розробка
-													веб-додатку
-													та впровадження в життя нового
-													функціоналу</li>
-											</ul>
-
-											<h3>Що отримаєш в процесі:</h3>
-											<ul class="list">
-												<li>Можливість помилятися і вчитися
-													на
-													своїх помилках</li>
-												<li>Вносити і захищати свої
-													пропозиції
-													до продукту</li>
-												<li>Бачити, як твої труди змінюють
-													продукт</li>
-												<li>Можливість постійно отримувати
-													фідбек</li>
-												<li>Працювати і отримувати досвід у
-													вільний для себе час</li>
-												<li>Взаємодіяти з іншими
-													компетенціями
-													(DEV, BA, PM, UI-UX, PO)</li>
-												<li>Розуміти зони відповідальності
-													кожного учасника проекту</li>
-											</ul>
-
-											<h3>Чого ти тут НЕ побачиш:</h3>
-											<ul class="list">
-												<li>Суху теорію, її можна
-													прочитати в іншому місці або
-													насолодитися на нашому
-													майбутньому теоретичному
-													курсі
-													(стеж за оновленнями )</li>
-												<li>"Класичних лекцій", всі наші
-													зустрічі спрямовані на
-													отримання
-													певного
-													результату</li>
-												<li>Сертифікату про прослуханий
-													курс. Це курс про практику,
-													тут
-													не слухають, а
-													працюють!</li>
-											</ul>
-
-											<h3>Тривалість:</h3>
-											<ul class="list">
-												<li>Тривалість курсу ти
-													визначаєш сам. Наскільки
-													швидко хочеш отримати
-													перший
-													оффер
-													?</li>
-											</ul>
-
-											<h3>Що отримаєш в
-												результаті:</h3>
-											<ul class="list">
-												<li>Практичні навички з
-													тестування, роботи з
-													тестовою
-													документацією</li>
-												<li>Навички взаємодії в
-													проектній команді
-												</li>
-												<li>Розуміння зон
-													відповідальності
-													кожного учасника
-													проекту</li>
-												<li>Комерційний досвід в
-													розробці реального
-													продукту, який можна
-													(потрібно!)
-													вказати в резюме
-												</li>
-												<li>Рекомендації
-													роботодавцю, в разі
-													такого запиту</li>
-												<li>Пропозиції по роботі
-													від партнерів</li>
-											</ul>
-										</div>
-									</div>
-									<!--
-									<div id="ba_practice" class="tabcontent">
-
-										Lorem.... BA Practice
-										<h2>Опис курсу:</h2>
-										Практичний курс, що складається з основ програмування на Java, а також базових
-										засад
-										написання
-										UI-автотестів для Web-додатків.
-										Курс розроблено для спеціалістів, що вже мають досвід у мануальному тестуванні
-										та
-										хотіли б
-										розвиватися в автоматизації, але поки не знають з чого почати.
-										<br>
-
-										<h2 class="margin-before">Вимоги до студентів:</h2>
-										● Базові знання з тестування.<br>
-										● Впевнений користувач ПК.<br>
-										● Наявність власного ноутбуку або ПК для занять.<br>
-										● Встановлене ПЗ: Intellij IDEA, Java 8+, Maven.<br>
-
-										<h2 class="margin-before">Після курсу ви зможете:</h2>
-										● Створювати UI-автотести на Java та стеку найактуальніших та найзатребуваніших
-										технологій
-										для
-										автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG<br>
-										● Створювати власний фреймворк з нуля<br>
-										● Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та налаштовувати
-										CI/CD
-										систему з
-										Docker
-										та Selenoid<br>
-										● Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure
-										Framework<br>
-										● Автоматизувати рутинні задачі, імітуючи дії користувача в браузері <br>
-										● Претендувати на позицію Junior QA Automation Engineer<br>
-									</div>
-
-									<div id="pm_practice" class="tabcontent">
-
-										Lorem.... PM Practice
-
-										<h2>Опис курсу:</h2>
-										Практичний курс, що складається з основ програмування на Java, а також базових
-										засад
-										написання
-										UI-автотестів для Web-додатків.
-										Курс розроблено для спеціалістів, що вже мають досвід у мануальному тестуванні
-										та
-										хотіли б
-										розвиватися в автоматизації, але поки не знають з чого почати.
-										<br>
-
-										<h2 class="margin-before">Вимоги до студентів:</h2>
-										● Базові знання з тестування.<br>
-										● Впевнений користувач ПК.<br>
-										● Наявність власного ноутбуку або ПК для занять.<br>
-										● Встановлене ПЗ: Intellij IDEA, Java 8+, Maven.<br>
-
-										<h2 class="margin-before">Після курсу ви зможете:</h2>
-										● Створювати UI-автотести на Java та стеку найактуальніших та найзатребуваніших
-										технологій
-										для
-										автоматизації тестування Selenide/Selenium, Maven/Gradle, jUnit/TestNG<br>
-										● Створювати власний фреймворк з нуля<br>
-										● Налаштовувати VM у Google Cloud, підіймати на ній Jenkins та налаштовувати
-										CI/CD
-										систему з
-										Docker
-										та Selenoid<br>
-										● Генерувати чіткі, зрозумілі та презентабельні звіти за допомогою Allure
-										Framework<br>
-										● Автоматизувати рутинні задачі, імітуючи дії користувача в браузері <br>
-										● Претендувати на позицію Junior QA Automation Engineer<br>
-									</div>
-									-->
-
-								</div>
-							</div>
-
-
-						</div>
-					</div>
-
-
-					<!-- ------------------------------------- -->
-					<!--
-					<section>
-						<div class="write_to_us-block" id="write_to_us">
-
-							<h2 class="write_to_us-title-form">Записатися на курс</h2>
-
-							<form>
-								<div id="write_to_us-block-small">
-									<h4>
-										<div class="form-group">
-											<input type="text" id="name_input" name="fname" class="write_to_us-name"
-												placeholder="Ім’я*" required>
-											<div id="name_line" class="write_to_us-name-line"></div>
-											<div id='error_message_name' class="write_to_us-error-message">Поле
-												заповнено не вірно</div>
-										</div>
-										<div class="form-group">
-											<input type="text" id="phone_input" name="fphone" class="write_to_us-phone"
-												placeholder="Мобільний номер або Email*" required>
-											<div id="phone_line" class="write_to_us-phone-line"></div>
-											<div id='error_message_phone' class="write_to_us-error-message">Поле
-												заповнено не вірно</div>
-										</div>
-										<div class="form-group">
-											<span class="textarea" role="textbox" contenteditable id="comment_input"
-												name="fcomment"></span>
-											<div id="comment_line" class="write_to_us-comment-line"></div>
-										</div>
-									</h4>
-									<div class="form-group d-flex justify-content-md-between">
-										<h5 class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте
-											згоду
-											на обробку <b>персональних даних</b></h5>
-										<button class="write_to_us-button-send" id="button_send">
-											Відправити
-										</button>
-									</div>
-
-
-								</div>
-
-							</form>
-						</div>
-						-->
-
-					<section>
-						<div class="write_to_us-block" id="write_to_us">
-
-							<div id="write_to_us-block-small">
-								<div>
-									<h3 class="write_to_us-title-form">Записатися на курс</h3>
-								</div>
-								<form novalidate>
-									<div class="form-group">
-										<input type="text" id="name_input" name="fname" class="write_to_us-field"
-											placeholder="Ім'я*" required onblur="check_name()">
-										<div id='error_message_name_empty' class="write_to_us-error-message no-display">
-											Це поле є обов'язковим
-										</div>
-										<div id='error_message_name_short' class="write_to_us-error-message no-display">
-											Недостатньо. Давай ще :)
-										</div>
-										<div id='error_message_name_long' class="write_to_us-error-message no-display">
-											Воу воу, забагато
-										</div>
-										<div id='error_message_name_only_numbers'
-											class="write_to_us-error-message no-display">
-											Must only contain letters (no special characters)
-										</div>
-									</div>
-									<div class="form-group">
-										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
-											placeholder="Email**" required onblur="check_email()">
-										<div id='error_message_email_empty'
-											class="write_to_us-error-message no-display">
-											Це поле є обов'язковим
-										</div>
-										<div id='error_message_email_invalid'
-											class="write_to_us-error-message no-display">
-											Невірний формат email адреси
-										</div>
-										<div id='error_message_email_long' class="write_to_us-error-message no-display">
-											Воу воу, забагато
-										</div>
-									</div>
-									<div class="form-group">
-										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
-											placeholder="Мобільний номер*" required onblur="check_phone()">
-										<div id='error_message_phone_empty'
-											class="write_to_us-error-message no-display">
-											Це поле є обов'язковим
-										</div>
-										<div id='error_message_phone_short'
-											class="write_to_us-error-message no-display">
-											Недостатньо цифр. Давай ще :)
-										</div>
-									</div>
-									<div class="form-group">
-										<span class="textarea" role="textbox" contenteditable id="comment_input"
-											name="fcomment" onblur="check_comment()"></span>
-										<div id="comment_line" class="line"></div>
-										<div id='error_message_comment_long'
-											class="write_to_us-error-message no-display">
-											Воу воу, забагато
-										</div>
-									</div>
-
-									<div class="form-group d-flex justify-content-md-between">
-										<h5 class="write_to_us-personal-data">Ми відправимо ваші контакти нашому менеджеру.
-											Конфіденційно. Без спамух</b></h5>
-										<button class="write_to_us-button-send" id="button_send">
-											<!-- <div class="write_to_us-button-send-text" id="button_text"></div>Відправити</div> -->
-											Відправити
-										</button>
-									</div>
-
-								</form>
-							</div>
-						</div>
-
-						<div class="no-display" id="write_to_us-thanks-block">
-							<div class="write_to_us-block-thanks" id="write_to_us-thanks">
-								<h2 class="write_to_us-thanks-top-text">Дані відправлено</h2>
-								<div>
-									<img src="images/sent.png" alt="Done" id="write_to_us-done-img">
-								</div>
-								<h4 class="write_to_us-thanks-bottom-text">Ми сконтактуємося з тобою найблищим часом
-								</h4>
-							</div>
-						</div>
-					</section>
-
-					<!--
-					<script>
-						document.write('<div class="fb-comments" data-href="' + sessionStorage.getItem('chatID') + '" data-width="100%" data-numposts="3"> </div>');
-					</script>
-					-->
-
-
-					<div class="fb-comments" data-href="https://www.facebook.com/profile.php?id=100013531722133"
-						data-width="100%" order_by="reverse_time" data-numposts="2">
-					</div>
-
-
-
-					<!--
-					<div class="fb-comments" data-href="https://scholokov.github.io/" data-width="100%"
-						order_by="reverse_time" data-numposts="2">
-					</div>
-					-->
-
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer>
-			<div id="footer-block">
-				<div class="col-lg-4 d-flex justify-content-center">
-					<div class="footer-contacts d-flex align-items-center">
-						<a href="tel:+380933647038" class="footer-links">
-							+38 (093) 364 70 38
-						</a>
-					</div>
-				</div>
-
-				<div class="col-lg-4 d-flex justify-content-center">
-					<div class="footer-contacts d-flex align-items-center">
-						<a href="https://t.me/RecrutMan" id="footer-telegram" class="footer-links"
-							onmouseover="this.src='images/Telegram-hover.svg'"
-							onmouseout="this.src='images/Telegram.svg'">
-							Telegram
-							<img src="images/Telegram.svg" alt="Telegram" id="Telegram-img">
-						</a>
-					</div>
-				</div>
-
-				<div class="col-lg-4 d-flex justify-content-center">
-					<div class="footer-contacts d-flex align-items-center">
-						<a href="mailto:info@qax-camp.com.ua" class="footer-links">
-							info@qax-camp.com.ua
-						</a>
-					</div>
-				</div>
-			</div>
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-line-chevron-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<!-- <script src="js/jquery.js"></script> -->
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-
-	<script>
-		$("#leftside-navigation .sub-menu > a").click(function (e) {
-			$("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(),
-				e.stopPropagation()
-		})
-	</script>
-
-
-
-	<script>
-		$('.accordion__answer:first').show();
-		$('.accordion__question:first').addClass('expanded');
-
-		$('.accordion__question').on('click', function () {
-			var content = $(this).next();
-
-			$('.accordion__answer').not(content).slideUp(400);
-			$('.accordion__question').not(this).removeClass('expanded');
-			$(this).toggleClass('expanded');
-			content.slideToggle(400);
-		});
-
-	</script>
-
-
-
-	<!-- Tabs function -->
-	<script>
-		function openTab(evt, tabName) {
-			var i, tabcontent, tablinks;
-			tabcontent = document.getElementsByClassName("tabcontent");
-			for (i = 0; i < tabcontent.length; i++) {
-				tabcontent[i].style.display = "none";
-			}
-			tablinks = document.getElementsByClassName("tablinks");
-			for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-			}
-			document.getElementById(tabName).style.display = "block";
-			evt.currentTarget.className += " active";
-		}
-
-		// Get the element with id="defaultOpen" and click on it
-		document.getElementById("defaultOpen").click();
-	</script>
-
-
-	<!-- Footer Scripts
-	============================================= -->
-	<!-- for phone mask -->
-	<script src="https://unpkg.com/imask"></script>
-
-	<script src="js/functions.js"></script>
-	<script src="js/form.js"></script>
-
-
-
-
-</body>
-
-</html>
+<div id="qa_theory" class="tabcontent">
+	<!-- <h2 class="cources-sub-title">Підготовка через Менторство</h2> -->
+	<div class="cources-text-block">
+		<h3>Ціль курсу:</h3>
+		Покращити свої теоретичні знання та підготуватися до отримання практичних
+		навичок в тестуванні<br><br>
+
+
+		<h3>Мінімальні вимоги:</h3>
+		<ul class="list">
+			<li>Твоє бажання і тільки!</li>
+		</ul>
+
+
+		<h3>З чого складається курс:</h3>
+		<ul class="list">
+			<li>Поринення в розробку програмного забезпечення, вивчення як "це все"
+				працює зсередини</li>
+			<li>Індивідуальні консультації з розвитку знань і навичок</li>
+		</ul>
+
+
+		<h3>Твої інструменти:</h3>
+		<ul class="list">
+			<li>Telegram / Google Meet - комунікація</li>
+		</ul>
+
+
+		<h3>Чим саме будеш займатись:</h3>
+		<ul class="list">
+			<li>Набувати теоретичних знань за наставництва наших менторів</li>
+			<li>Формувати ідею про те як повинна функціонувати продуктова команда
+				за допомогою спостереження за реальним проектом</li>
+			<li>Зміцнювати практичні навички задля легкої інтеграції в майбутній
+				проект, як учасник продуктової команди</li>
+		</ul>
+
+		<h3>Як відбувається робота:</h3>
+
+		Ти приєднаєшся на “кухню” справжньої продуктової команди в якості
+		спостерігача.
+		Зокрема, ти братимеш участь в:
+		<ul class="list">
+			<li>Продуктових зустрічах: </li>
+			<ul class="list-in-list">
+				<li>Статус-зустрічі з поточної реалізації (Стендап)</li>
+				<li>Планування майбутнього функціоналу </li>
+				<li>Грумінг задач </li>
+				<li>Ретроспектива </li>
+				<li>Сесії “Питання-Відповідь” </li>
+			</ul>
+		</ul>
+		<ul class="list">
+			<li>QA зустрічі: </li>
+			<ul class="list-in-list">
+				<li>Визначення зон зросту, надання найкращих ресурсів, оцінка
+					успіхів</li>
+				<li>Відповіді до поточних QA запитань</li>
+			</ul>
+		</ul>
+
+		Крім того, в тебе будуть додаткові зустрічі з менторами, а саме:
+		<ul class="list">
+			<li>Зустрічі з менторами:</li>
+			<ul class="list-in-list">
+				<li>Визначення зон зросту, надання найкращих ресурсів,
+					оцінка успіхів</li>
+				<li>Ти можеш ставити абсолютно будь-які запитання (навіть
+					стосовно інших
+					зустрічей)</li>
+			</ul>
+		</ul>
+
+		<ul class="list">
+			<li>HR зустрічі</li>
+			<ul class="list-in-list">
+				<li>Створення / підготовка / шліфування резюме</li>
+				<li>Консультації по інструментах і ресурсах для пошуку
+					роботи</li>
+				<li>Підготовка до проходження співбесіди</li>
+				<li>Технічні співбесіди</li>
+			</ul>
+		</ul>
+
+
+		<h3>Що отримаєш в процесі:</h3>
+		<ul class="list">
+			<li>Споглядати наживо як працює продуктова команда і взаємодіють різні
+				компетенції (QA, DEV, BA, PM, UI-UX, PO)</li>
+			<li>Знайомство із зонами відповідальності кожного учасника
+				проекту</li>
+			<li>Можливість ставити питання будь-якого характеру </li>
+			<li>Ad hoc менторство по зросту</li>
+		</ul>
+
+
+		<h3>Чого ти тут НЕ побачиш:</h3>
+		<ul class="list">
+			<li>"Класичні лекції", наша задача в тому, аби ти розібрався і все
+				зрозумів, а не зазубрював</li>
+
+			<li>Сертифікат про прослуханий курс. Хочеш знання чи папірець ?</li>
+		</ul>
+
+
+		<h3>Тривалість:</h3>
+		<ul class="list">
+			<li>Тривалість курсу ти визначаєш сам. Наскільки
+				швидко хочеш отримати перший
+				оффер ?</li>
+		</ul>
+
+
+		<h3>Що отримаєш в результаті:</h3>
+		<ul class="list">
+			<li>Теоретичні знання з тестування</li>
+			<li>Відповіді “з реального життя” на твої
+				питання </li>
+			<li>Розуміння взаємодії в проектній команді</li>
+			<li>Розуміння зон відповідальності кожного
+				учасника проекту</li>
+			<li>Побачити на власні очі, як розробляють
+				Програмне Забезпечення </li>
+			<li>Готовність до безпосередньої участі в
+				продуктовій команді в якості QA
+				спеціаліста</li>
+		</ul>
+	</div>
+</div>
