@@ -443,7 +443,7 @@ function check_comment() {
     console.log('comment_length: ' + comment_length);
     console.log('text: ' + comment_clear)
 
-    if (comment_length > 3) {
+    if (comment_length > 500) {
         comment_line.css({ "border-color": "red" });
         error_message_comment_long.show();
         return false;
