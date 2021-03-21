@@ -17,14 +17,29 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
-    min-height: 100px;
+    min-height: 180px;
 }
 
 .footer-contacts {
+    padding-top: 8px;
     min-width: 300px;
     min-height: 80px;
 }
 
-.footer-links {
+.footer-contatcs-item {
+    padding-top: 8px;
+}
+
+.footer-years {
     color: #FFFFFF;
+    font-size: 11px;
+}
+
+#footer-years {
+    padding-top: 50%;
+}
+
+.footer-powered img {
+    max-width: 100%;
+    max-height: 100%;
 }
