@@ -44,7 +44,7 @@ $('form').submit(function (e) {
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
-        '\nComment: ' + comment; 
+        '\nComment: ' + comment + 
         '\nLink:' + userUrl; /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
