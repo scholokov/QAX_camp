@@ -40,12 +40,12 @@ $('form').submit(function (e) {
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
+        '\nCourse: ' + userUrl +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
-        '\nComment: ' + comment + 
-        '\nCourse: ' + userUrl; /* +  
+        '\nComment: ' + comment; /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
       */
