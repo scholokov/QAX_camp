@@ -1,0 +1,231 @@
+html * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /* Отменяем подчеркивание у ссылки */
+    color: black;
+}
+
+a:hover {
+    color: #EF5B48;
+    /*
+    background-color: yellow; 
+    */
+}
+
+/*
+A:visited {
+     color: black; 
+     Цвет посещенных ссылок 
+}
+*/
+.margin-before {
+    margin-top: 30px;
+}
+
+.no-display {
+    display: none;
+}
+
+/* ----------------------------------------------------------------
+	Go To Top
+-----------------------------------------------------------------*/
+#gotoTop {
+    background: #F66F5D;
+    display: none;
+    z-index: 599;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    background-color: rgba(212, 17, 17, 0.219);
+    font-size: 1.25rem;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    /*border-radius: 2px; */
+}
+
+body:not(.device-touch) #gotoTop {
+    transition: background-color .2s linear;
+    -webkit-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+}
+
+.stretched #gotoTop {
+    bottom: 30px;
+}
+
+#gotoTop:hover {
+    background-color: #F66F5D;
+}
+
+
+.box-title {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    align-items: center;
+    color: #333333;
+}
+
+
+
+
+/* ----------------------------------------------------------------
+	Font sizes
+-----------------------------------------------------------------*/
+
+
+/* title name */
+h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+}
+
+/* Block names */
+h2 {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    line-height: 56px;
+    color: #333333;
+}
+
+
+/* Sub names */
+h3 {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    line-height: 56px;
+}
+
+/* Normal text */
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+/* Small text */
+h5 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    html {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+}
