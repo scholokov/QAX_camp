@@ -1,0 +1,26 @@
+{
+    "qa": {
+        "courceTabName": "Quality Assurance Engineer",
+        "availability": "1",
+        "child": {
+            "courseName01": "Автоматизація",
+            "courseFileName01": "automation",
+            "availability01": "1",
+            "courseName02": "Менторство",
+            "courseFileName02": "practice-theory",
+            "availability02": "1",
+            "courseName03": "Практика",
+            "courseFileName03": "practice",
+            "availability03": "1"
+        }
+    },
+    "pm": {
+        "courceTabName": "Project Manager",
+        "availability": "0",
+        "child": {
+            "courseName01": "PM",
+            "courseFileName01": "pm",
+            "availability01": "0"
+        }
+    }
+}
