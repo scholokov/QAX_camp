@@ -280,9 +280,10 @@ textarea:-moz-placeholder {
 
 #div-phone{
     margin-right: 80px;
+    padding-right: 0px;
 }
 
-#div-phone{
+#div-email{
     padding-right: 0px;
 }
 
