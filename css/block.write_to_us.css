@@ -271,3 +271,12 @@ textarea:-moz-placeholder {
     border-color: #B9B6B6;
     margin-bottom: 0px;
 }
+
+.form-group.col-sm-6 {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    max-width: 280px;
+}
+#email_input{
+    margin-right: 80px;
+}
