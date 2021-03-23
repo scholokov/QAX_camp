@@ -271,3 +271,22 @@ textarea:-moz-placeholder {
     border-color: #B9B6B6;
     margin-bottom: 0px;
 }
+
+.form-group.col-sm-6 {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    max-width: 280px;
+}
+
+#div-phone{
+    margin-right: 80px;
+    padding-right: 0px;
+}
+
+#div-email{
+    padding-right: 0px;
+}
+
+#div-name,#div-comment{
+    max-width: 640px;
+}

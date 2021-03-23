@@ -506,6 +506,7 @@
 									<h3 class="write_to_us-title-form">Записатися на курс</h3>
 								</div>
 								<form novalidate>
+									<div class="row col-mb-50 mb-0 row-cols-1" id="div-name">
 									<div class="form-group">
 										<input type="text" id="name_input" name="fname" class="write_to_us-field"
 											placeholder="Ім'я*" required onblur="check_name()" maxlength="50">
@@ -523,7 +524,22 @@
 											Must only contain letters (no special characters)
 										</div>
 									</div>
-									<div class="form-group">
+									</div>
+									<div class="row col-mb-50 mb-0 row-cols-2">
+									<div class="form-group col-12 col-md-6" id="div-phone">
+										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
+											placeholder="Мобільний номер*" required onblur="check_phone()">
+										<div id='error_message_phone_empty'
+											class="write_to_us-error-message no-display">
+											Це поле є обов'язковим
+										</div>
+										<div id='error_message_phone_short'
+											class="write_to_us-error-message no-display">
+											Недостатньо цифр. Давай ще :)
+										</div>
+									</div>
+									
+									<div class="form-group col-12 col-md-6" id="div-email">
 										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
 											placeholder="Email*" required onblur="check_email()" maxlength="317">
 										<div id='error_message_email_empty'
@@ -538,18 +554,8 @@
 											Воу воу, забагато
 										</div>
 									</div>
-									<div class="form-group">
-										<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
-											placeholder="Мобільний номер*" required onblur="check_phone()">
-										<div id='error_message_phone_empty'
-											class="write_to_us-error-message no-display">
-											Це поле є обов'язковим
-										</div>
-										<div id='error_message_phone_short'
-											class="write_to_us-error-message no-display">
-											Недостатньо цифр. Давай ще :)
-										</div>
 									</div>
+									<div class="row col-mb-50 mb-0 row-cols-1" id="div-comment">
 									<div class="form-group">
 										<span class="textarea" role="textbox" contenteditable id="comment_input"
 											 onblur="check_comment()"></span>
@@ -559,7 +565,9 @@
 											Воу воу, забагато
 										</div>
 									</div>
-
+									</div>
+									
+									<div class="row col-mb-50 mb-0 row-cols-1">
 									<div class="form-group d-flex justify-content-md-between">
 										<h5 class="write_to_us-personal-data">Погоджуюсь відправити мої контакти
 											менеджеру QAX Camp. Конфіденційно. Без спаму</h5>
@@ -567,6 +575,7 @@
 											<!-- <div class="write_to_us-button-send-text" id="button_text"></div>Відправити</div> -->
 											Відправити
 										</button>
+									</div>
 									</div>
 
 								</form>
