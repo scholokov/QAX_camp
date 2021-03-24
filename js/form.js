@@ -5,6 +5,7 @@ $('form').submit(function (e) {
     envName = sessionStorage.getItem('envName');
 
     var comment = document.getElementById("comment_input").innerText;
+    var email = document.getElementById("email_input").innerText;
     var userUrl=location.hash.slice(1);
     var result = true;
 
@@ -44,7 +45,7 @@ $('form').submit(function (e) {
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + $('#phone_input').val() +
-        '\nEmail: ' + $('#email_input').val() +
+        '\nEmail: ' + email +
         '\nComment: ' + comment; /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
