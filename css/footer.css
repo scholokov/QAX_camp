@@ -20,6 +20,11 @@
     min-height: 180px;
 }
 
+.container {
+    max-width:860px;
+    width: 100%;
+}
+
 .footer-contacts {
     padding-top: 8px;
     padding-left: 50%;
