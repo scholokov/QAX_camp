@@ -336,25 +336,34 @@ function check_email() {
     console.log('email-length: ' + email_length);
     console.log('email-correctness: ' + email_clear);
 
-   if ((email_length !=0) && (email_length > 50)) {
+    if (email_length !=0){
+        if (email_length > 50 ) {
         email_line.css({ "border-color": "red" });
         error_message_email_empty.hide();
         error_message_email_invalid.hide();
         error_message_email_long.show();
         return false;
-    } else if ((email_length !=0) && (email == false)) {
+        } else if (email == false) {
         email_line.css({ "border-color": "red" });
         error_message_email_empty.hide();
         error_message_email_invalid.show();
         error_message_email_long.hide();
         return false;
-    } else {
+        } else {
         email_line.css({ "border-color": "#B9B6B6" });
         error_message_email_empty.hide();
         error_message_email_invalid.hide();
         error_message_email_long.hide();
         return true;
-    };
+        };
+    }else{
+        email_line.css({ "border-color": "#B9B6B6" });
+        error_message_email_empty.hide();
+        error_message_email_invalid.hide();
+        error_message_email_long.hide();
+        return true;
+    }
+    
 };
 
 
