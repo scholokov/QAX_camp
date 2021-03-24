@@ -342,7 +342,7 @@ function check_email() {
         error_message_email_invalid.hide();
         error_message_email_long.show();
         return false;
-    } else if (email == false) {
+    } else if ((email_length !=0) && (email == false)) {
         email_line.css({ "border-color": "red" });
         error_message_email_empty.hide();
         error_message_email_invalid.show();
