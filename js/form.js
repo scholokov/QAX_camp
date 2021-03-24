@@ -290,7 +290,7 @@ function check_name() {
         error_message_name_long.hide();
         return false;
     }
-    else if (name_length > 30) {
+    else if (name_length > 50) {
         name_line.css({ "border-color": "red" });
         error_message_name_long.show();
         error_message_name_empty.hide();
