@@ -3,6 +3,8 @@
 ------------------------------------------------------------------*/
 #footer-block {
     margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
     width: 100%;
     background: #111111;
     font-family: Montserrat;
@@ -11,7 +13,7 @@
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
-
+    padding-top: 5%;
 
     display: flex;
     -ms-flex-wrap: wrap;
