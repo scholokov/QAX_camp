@@ -1,88 +1,589 @@
-<div class="write_to_us-block" id="write_to_us">
+<script>
+	function readTextFile(file, callback) {
+		var rawFile = new XMLHttpRequest();
+		rawFile.overrideMimeType("application/json");
+		rawFile.open("GET", file, true);
+		rawFile.onreadystatechange = function () {
+			if (rawFile.readyState === 4 && rawFile.status == "200") {
+				callback(rawFile.responseText);
+			}
+		}
+		rawFile.send(null);
+	}
 
-    <div id="write_to_us-block-small">
-        <div>
-            <h3 class="write_to_us-title-form">Записатися на курс</h3>
-        </div>
-        <form novalidate>
-            <div class="row col-mb-50 mb-0 row-cols-1" id="div-name">
-            <div class="form-group col-12 col-sm-12 pr-0">
-                <input type="text" id="name_input" name="fname" class="write_to_us-field"
-                    placeholder="Ім'я*" required onblur="check_name()" maxlength="50">
-                <div id='error_message_name_empty' class="write_to_us-error-message no-display">
-                    Це поле є обов'язковим
-                </div>
-                <div id='error_message_name_short' class="write_to_us-error-message no-display">
-                    Недостатньо. Давай ще :)
-                </div>
-                <div id='error_message_name_long' class="write_to_us-error-message no-display">
-                    Воу воу, забагато
-                </div>
-                <div id='error_message_name_only_numbers'
-                    class="write_to_us-error-message no-display">
-                    Must only contain letters (no special characters)
-                </div>
-            </div>
-            </div>
-            <div class="row col-mb-50 mb-0 row-cols-2">
-            <div class="form-group col-12 col-sm-5 pr-0" id="div-phone">
-                <input type="text" id="phone_input" name="fphone" class="write_to_us-field"
-                    placeholder="Мобільний номер*" required onblur="check_phone()">
-                <div id='error_message_phone_empty'
-                    class="write_to_us-error-message no-display">
-                    Це поле є обов'язковим
-                </div>
-                <div id='error_message_phone_short'
-                    class="write_to_us-error-message no-display">
-                    Недостатньо цифр. Давай ще :)
-                </div>
-            </div>
-            
-            <div class="form-group col-12 col-sm-5 ml-sm-auto pr-0" id="div-email">
-                <input type="text" id="email_input" name="fphone" class="write_to_us-field"
-                    placeholder="Email" onblur="check_email()" maxlength="317">
-                <div id='error_message_email_invalid'
-                    class="write_to_us-error-message no-display">
-                    Невірний формат email адреси
-                </div>
-                <div id='error_message_email_long' class="write_to_us-error-message no-display">
-                    Воу воу, забагато
-                </div>
-            </div>
-            </div>
-            <div class="row col-mb-50 mb-0 row-cols-1" id="div-comment">
-            <div class="form-group">
-                <span class="textarea col-12 col-sm-12 pr-0" role="textbox" contenteditable id="comment_input"
-                     onblur="check_comment()"></span>
-                <div id="comment_line" class="line"></div>
-                <div id='error_message_comment_long'
-                    class="write_to_us-error-message no-display">
-                    Воу воу, забагато
-                </div>
-            </div>
-            </div>
-            
-            <div class="row col-mb-50 mb-0 row-cols-1">
-            <div class="form-group d-flex justify-content-md-between">
-                <h5 class="write_to_us-personal-data">Погоджуюсь відправити мої контакти
-                    менеджеру QAX Camp. Конфіденційно. Без спаму</h5>
-                <button class="write_to_us-button-send" id="button_send">
-                    <!-- <div class="write_to_us-button-send-text" id="button_text"></div>Відправити</div> -->
-                    Відправити
-                </button>
-            </div>
-            </div>
+	//usage:
+	readTextFile("env.json",
+		function (text) {
+			var data = JSON.parse(text);
+			/* console.log(data); */
+			sessionStorage.setItem('facebookLink', data.facebookLink);
+			sessionStorage.setItem('envName', data.envName);
+			sessionStorage.setItem('tokenID', data.telega.tokenID);
+			sessionStorage.setItem('chatID', data.telega.chatID);
+		});
+</script>
 
-        </form>
-    </div>
-</div>
+<section>
+	<div class="write_to_us-block" id="write_to_us">
 
-<div class="no-display" id="write_to_us-thanks-block">
-    <div class="write_to_us-block-thanks" id="write_to_us-thanks">
-        <h2 class="write_to_us-thanks-top-text">Дякуємо !</h2>
-        <div>
-            <img src="images/sent.png" alt="Done" id="write_to_us-done-img">
-        </div>
-        <h4 class="write_to_us-thanks-bottom-text">Ми сконтактуємо найближчим часом !</h4>
-    </div>
-</div>
+		<div id="write_to_us-block-small">
+			<div>
+				<h3 class="write_to_us-title-form">Записатися на курс</h3>
+			</div>
+			<form novalidate>
+				<div class="form-group">
+					<input type="text" id="name_input" name="fname" class="write_to_us-field" placeholder="Ім'я*"
+						required onblur="check_name()">
+					<div id='error_message_name_empty' class="write_to_us-error-message no-display">
+						Це поле є обов'язковим
+					</div>
+					<div id='error_message_name_short' class="write_to_us-error-message no-display">
+						Недостатньо. Давай ще :)
+					</div>
+					<div id='error_message_name_long' class="write_to_us-error-message no-display">
+						Воу воу, забагато
+					</div>
+					<div id='error_message_name_only_numbers' class="write_to_us-error-message no-display">
+						Must only contain letters (no special characters)
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="text" id="email_input" name="fphone" class="write_to_us-field" placeholder="Email**"
+						required onblur="check_email()">
+					<div id='error_message_email_empty' class="write_to_us-error-message no-display">
+						Це поле є обов'язковим
+					</div>
+					<div id='error_message_email_invalid' class="write_to_us-error-message no-display">
+						Невірний формат email адреси
+					</div>
+					<div id='error_message_email_long' class="write_to_us-error-message no-display">
+						Воу воу, забагато
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
+						placeholder="Мобільний номер*" required onblur="check_phone()">
+					<div id='error_message_phone_empty' class="write_to_us-error-message no-display">
+						Це поле є обов'язковим
+					</div>
+					<div id='error_message_phone_short' class="write_to_us-error-message no-display">
+						Недостатньо цифр. Давай ще :)
+					</div>
+				</div>
+				<div class="form-group">
+					<span class="textarea" role="textbox" contenteditable id="comment_input" name="fcomment"
+						onblur="check_comment()"></span>
+					<div id="comment_line" class="line"></div>
+					<div id='error_message_comment_long' class="write_to_us-error-message no-display">
+						Воу воу, забагато
+					</div>
+				</div>
+
+				<div class="form-group d-flex justify-content-md-between">
+					<h5 class="write_to_us-personal-data">Ми відправимо ваші контакти нашому менеджеру.
+						Конфіденційно. Без спамух</b></h5>
+					<button class="write_to_us-button-send" id="button_send">
+						<!-- <div class="write_to_us-button-send-text" id="button_text"></div>Відправити</div> -->
+						Відправити
+					</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+	<div class="no-display" id="write_to_us-thanks-block">
+		<div class="write_to_us-block-thanks" id="write_to_us-thanks">
+			<h2 class="write_to_us-thanks-top-text">Дані відправлено</h2>
+			<div>
+				<img src="images/sent.png" alt="Done" id="write_to_us-done-img">
+			</div>
+			<h4 class="write_to_us-thanks-bottom-text">Ми сконтактуємося з тобою найблищим часом
+			</h4>
+		</div>
+	</div>
+</section>
+
+
+
+<script src="https://unpkg.com/imask"></script>
+
+<script>
+
+/* Submit text to Telegram */
+$('form').submit(function (e) {
+    tokenID = sessionStorage.getItem('tokenID');
+    chatID = sessionStorage.getItem('chatID');
+    envName = sessionStorage.getItem('envName');
+
+    var comment = document.getElementById("comment_input").innerText;
+    var result = true;
+
+    console.log('comment_input: ' + comment_input);
+
+    //    var chech_agree_flag = check_agree_send();
+    //    console.log('chech_agree: ' + chech_agree_flag);
+
+    var check_name_flag = check_name();
+    console.log('check_name: ' + check_name_flag);
+
+    var check_phone_flag = check_phone();
+    console.log('check_phone: ' + check_phone_flag);
+
+    var check_comment_flag = check_comment();
+    console.log('check_comment: ' + check_comment_flag);
+
+    var check_email_flag = check_email();
+    console.log('check_email: ' + check_email_flag);
+
+    // chech_agree_flag == false ||
+    if (check_name_flag == false || check_phone_flag == false || check_email_flag == false || check_comment_flag == false)
+        return false;
+
+
+    /* var brversion_text = "Browser:" + platform.name +
+      " v" + platform.version +
+      " on " + platform.os; */
+
+    /*
+    '\nBrowser: ' + platform.name + ' v' + platform.version +
+    '\nOS: ' + platform.os + */
+
+    var sum_text = 'Hi!\nI`m QAX bot.\n' +
+        'Enviroment: ' + envName +
+        '\n\n' +
+        'Name: ' + $('#name_input').val() +
+        '\nPhone: ' + $('#phone_input').val() +
+        '\nEmail: ' + $('#email_input').val() +
+        '\nComment: ' + comment;   /* +  
+      '\nBrowser: ' + platform.name + " v" + platform.version +
+      '\nOS: ' + platform.os;
+      */
+
+    e.preventDefault();
+    $.ajax({
+        url: 'https://api.telegram.org/bot' + tokenID + '/sendMessage',
+        method: 'POST',
+        data: {
+            chat_id: chatID,
+            text: sum_text
+        },
+        success: function () {
+            document.getElementById("write_to_us").setAttribute("class", "no-display");
+            document.getElementById("write_to_us-thanks-block").setAttribute("class", "");
+
+            /* alert('your message has been sent!'); */
+        }
+    });
+});
+
+
+function countDigits(n) {
+    for (var i = 0; n > 1; i++) {
+        n /= 10;
+    }
+    return i;
+}
+
+
+
+$(function () {
+    /*
+        var name_input = $("#name_input");
+        var name_line = $("#name_input");
+        var error_message_name_empty = $("#error_message_name_empty");
+        var error_message_name_short = $("#error_message_name_short");
+        var error_message_name_long = $("#error_message_name_long");
+        var error_message_name_only_numbers = $("#error_message_name_only_numbers");
+    
+    
+        var email_input = $("#email_input");
+        var email_line = $("#email_input");
+        var error_message_email_empty = $("#error_message_email_empty");
+        var error_message_email_invalid = $("#error_message_email_invalid");
+        var error_message_email_long = $("#error_message_email_long");
+    
+        var error_message_agree_empty = $("#error_message_agree_empty");
+    
+        var comment_input = $("#comment_input");
+        // var comment_line = $("#comment_line");
+        var error_message_comment_long = $("#error_message_comment_long");
+    
+        var phone_input = $("#phone_input");
+        var phone_line = $("#phone_input");
+        var error_message_phone_empty = $("#error_message_phone_empty");
+        var error_message_phone_short = $("#error_message_phone_short");
+        var error_message_phone_long = $("#error_message_phone_long");
+        var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
+    
+    
+        var agree_input = $("#agree-checkbox");
+        var error_message_agree_empty = $("#error_message_agree_empty");
+    
+    
+        error_message_name_empty.hide();
+        error_message_name_short.hide();
+        error_message_name_long.hide();
+        error_message_name_only_numbers.hide();
+    
+        error_message_email_empty.hide();
+        error_message_email_invalid.hide();
+        error_message_email_long.hide();
+    
+        error_message_phone_empty.hide();
+        error_message_phone_short.hide();
+        error_message_phone_long.hide();
+        error_message_phone_only_numbers.hide();
+    
+        error_message_comment_long.hide();
+    
+        error_message_agree_empty.hide();
+    */
+    /*
+        //Functions for lines in form 
+        name_input.focus(function () {
+            name_line.css({ "border-width": "1px" });
+        });
+        name_input.focusout(function () {
+            name_line.css({ "border-width": "1px" });
+            check_name();
+        });
+        phone_input.focus(function () {
+            phone_line.css({ "border-width": "1px" });
+        });
+        phone_input.focusout(function () {
+            phone_line.css({ "border-width": "1px" });
+            check_phone();
+        });
+        email_input.focus(function () {
+            email_line.css({ "border-width": "1px" });
+        });
+        email_input.focusout(function () {
+            email_line.css({ "border-width": "1px" });
+            check_email();
+        });
+        comment_input.focus(function () {
+            // comment_line.css({ "border-width": "1px" }); 
+        });
+        comment_input.focusout(function () {
+            // comment_line.css({ "border-width": "1px" }); 
+            check_comment();
+        });
+        
+        agree_input.focusout(function () {
+            check_agree();
+        });
+        */
+
+
+
+
+
+
+
+
+
+    //Validation for email or phone
+    /*
+    function check_email_phone() {
+        var patternEmail = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i);
+        var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
+        let email = patternEmail.test(phone_input.val());
+        let phone = patternPhone.test(phone_input.val());
+        var phone_length = countDigits(phone_input.val());
+
+        if (phone && phone_length == 12) {
+            phone_line.css({ "border-color": "white" });
+            error_message_phone.hide();
+            button_send.removeAttr("disabled", "disabled");
+            return true;
+        } else if (email) {
+            phone_line.css({ "border-color": "white" });
+            error_message_phone.hide();
+            button_send.removeAttr("disabled", "disabled");
+            return true;
+        } else {
+            phone_line.css({ "border-color": "red" });
+            error_message_phone.show();
+            button_send.attr("disabled", "disabled");
+            return false;
+        };
+    };
+    */
+
+
+    var textarea = document.getElementsByTagName('textarea')[0];
+
+    /*
+     error in console
+    
+      textarea.addEventListener('keydown', resize);
+    */
+
+    function resize() {
+        var el = this;
+        setTimeout(function () {
+            el.style.cssText = 'height:23px; padding:0';
+            el.style.cssText = 'height:' + el.scrollHeight + 'px';
+        }, 1);
+    }
+
+});//end
+
+// then clicked on check box
+function check_agree() {
+    var error_message_agree_empty = $("#error_message_agree_empty");
+    var unchecked = document.getElementById("form-agree").checked;
+    console.log('error_message_agree_empty: ' + error_message_agree_empty);
+    console.log('unchecked_status: ' + unchecked);
+
+    if (unchecked == true) {
+        error_message_agree_empty.show();
+        console.log('if: true');
+        return false;
+    } else {
+        error_message_agree_empty.hide();
+        console.log('if: ok');
+        return true;
+    };
+};
+
+// then clicked on send button
+function check_agree_send() {
+    var error_message_agree_empty = $("#error_message_agree_empty");
+    var unchecked = document.getElementById("form-agree").checked;
+    console.log('error_message_agree_empty: ' + error_message_agree_empty);
+    console.log('unchecked_status: ' + unchecked);
+
+    if (unchecked == false) {
+        error_message_agree_empty.show();
+        console.log('if: true');
+        return false;
+    } else {
+        error_message_agree_empty.hide();
+        console.log('if: ok');
+        return true;
+    };
+};
+
+
+function check_name() {
+    var name_input = $("#name_input");
+    var name_line = $("#name_input");
+    var error_message_name_empty = $("#error_message_name_empty");
+    var error_message_name_short = $("#error_message_name_short");
+    var error_message_name_long = $("#error_message_name_long");
+    var error_message_name_only_numbers = $("#error_message_name_only_numbers");
+
+    var name_clear = name_input.val().trim();
+
+    var name_length = name_clear.length;
+    var patternName = new RegExp(/^[a-zA-Zа-яА-яàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ '-]+$/i);
+    let name = patternName.test(name_clear);
+
+    console.log('name-length: ' + name_length);
+    console.log('name-correctness: ' + name_clear);
+
+    if (name_length == 0) {
+        name_line.css({ "border-color": "red" });
+        error_message_name_empty.show();
+        error_message_name_short.hide();
+        error_message_name_long.hide();
+        error_message_name_only_numbers.hide();
+        return false;
+    }
+    else if (name == false) {
+        name_line.css({ "border-color": "red" });
+        error_message_name_only_numbers.show();
+        error_message_name_empty.hide();
+        error_message_name_short.hide();
+        error_message_name_long.hide();
+        return false;
+    }
+    else if (name_length > 30) {
+        name_line.css({ "border-color": "red" });
+        error_message_name_long.show();
+        error_message_name_empty.hide();
+        error_message_name_short.hide();
+        error_message_name_only_numbers.hide();
+        return false;
+    }
+    else if (name_length < 2) {
+        name_line.css({ "border-color": "red" });
+        error_message_name_short.show();
+        error_message_name_empty.hide();
+        error_message_name_long.hide();
+        error_message_name_only_numbers.hide();
+        return false;
+    }
+    else {
+        name_line.css({ "border-color": "#B9B6B6" });
+        error_message_name_empty.hide();
+        error_message_name_short.hide();
+        error_message_name_long.hide();
+        error_message_name_only_numbers.hide();
+        return true;
+    };
+}
+
+
+
+
+
+//Validation for email or phone
+function check_email() {
+    var email_input = $("#email_input");
+    var email_line = $("#email_input");
+    var error_message_email_empty = $("#error_message_email_empty");
+    var error_message_email_invalid = $("#error_message_email_invalid");
+    var error_message_email_long = $("#error_message_email_long");
+
+    var patternEmail = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i);
+    var email_clear = email_input.val().trim();
+    let email = patternEmail.test(email_clear);
+    var email_length = email_clear.length;
+
+    console.log('email-length: ' + email_length);
+    console.log('email-correctness: ' + email_clear);
+
+    if (email_length == 0) {
+        email_line.css({ "border-color": "red" });
+        error_message_email_empty.show();
+        error_message_email_invalid.hide();
+        error_message_email_long.hide();
+        return false;
+    } else if (email_length > 50) {
+        email_line.css({ "border-color": "red" });
+        error_message_email_empty.hide();
+        error_message_email_invalid.hide();
+        error_message_email_long.show();
+        return false;
+    } else if (email == false) {
+        email_line.css({ "border-color": "red" });
+        error_message_email_empty.hide();
+        error_message_email_invalid.show();
+        error_message_email_long.hide();
+        return false;
+    } else {
+        email_line.css({ "border-color": "#B9B6B6" });
+        error_message_email_empty.hide();
+        error_message_email_invalid.hide();
+        error_message_email_long.hide();
+        return true;
+    };
+};
+
+
+
+
+
+function check_phone() {
+    var phone_input = $("#phone_input");
+    var phone_line = $("#phone_input");
+    var error_message_phone_empty = $("#error_message_phone_empty");
+    var error_message_phone_short = $("#error_message_phone_short");
+    var error_message_phone_long = $("#error_message_phone_long");
+    var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
+
+    //    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
+    // var patternPhone = new RegExp(/^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$/);
+
+    var phone_clear = phone_input.val().trim();
+//    let phone = patternPhone.test(phone_clear);
+    var phone_length_all = phone_clear.length;
+    console.log('phone-length: ' + phone_length_all);
+//    console.log('phone-correctness: ' + phone);
+
+    if (phone_length_all == 0) {
+        phone_line.css({ "border-color": "red" });
+        error_message_phone_empty.show();
+        error_message_phone_short.hide();
+        error_message_phone_long.hide();
+        error_message_phone_only_numbers.hide();
+        return false;
+    }
+    /*
+    else if (phone == false) {
+        phone_line.css({ "border-color": "red" });
+        error_message_phone_only_numbers.show();
+        error_message_phone_empty.hide();
+        error_message_phone_short.hide();
+        error_message_phone_long.hide();
+        return false;
+    }
+    */
+   /*
+    else if (phone_length_all > 22) {
+        phone_line.css({ "border-color": "red" });
+        error_message_phone_long.show();
+        error_message_phone_empty.hide();
+        error_message_phone_short.hide();
+        error_message_phone_only_numbers.hide();
+        return false;
+    }
+    */
+    else if (phone_length_all < 22) {
+        phone_line.css({ "border-color": "red" });
+        error_message_phone_short.show();
+        error_message_phone_empty.hide();
+        error_message_phone_long.hide();
+        error_message_phone_only_numbers.hide();
+        return false;
+    }
+    else {
+        phone_line.css({ "border-color": "#B9B6B6" });
+        error_message_phone_empty.hide();
+        error_message_phone_short.hide();
+        error_message_phone_long.hide();
+        error_message_phone_only_numbers.hide();
+        return true;
+    };
+};
+
+
+
+
+function check_comment() {
+    var comment_line = $("#comment_line");
+    var error_message_comment_long = $("#error_message_comment_long");
+
+    var comment_text = document.getElementById("comment_input").textContent;
+    var comment_clear = comment_text.trim();
+
+    var comment_length = comment_clear.length;
+
+    console.log('comment_length: ' + comment_length);
+    console.log('text: ' + comment_clear)
+
+    if (comment_length > 3) {
+        comment_line.css({ "border-color": "red" });
+        error_message_comment_long.show();
+        return false;
+    } else {
+        comment_line.css({ "border-color": "#B9B6B6" });
+        error_message_comment_long.hide();
+        return true;
+    };
+};
+
+
+// phone mask
+var element = document.getElementById('phone_input');
+var maskOptions = {
+  mask: '+{38\\0}(00) 000 - 00 - 00'
+};
+var mask = IMask(element, maskOptions);
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
