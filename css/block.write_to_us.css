@@ -140,8 +140,8 @@ input[type=text] {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    font-size: 16px;
-    color: #120C04;
+    font-size: 18px;
+    color: #FFFFFF;
 }
 
 
@@ -276,13 +276,5 @@ textarea:-moz-placeholder {
     padding-left: 0px;
     padding-bottom: 0px;
     max-width: 280px;
-}
-
-#div-phone{
-    padding-right: 0px;
-}
-
-#div-email{
-    padding-right: 0px;
 }
 
