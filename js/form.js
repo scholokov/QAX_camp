@@ -336,7 +336,7 @@ function check_email() {
     console.log('email-length: ' + email_length);
     console.log('email-correctness: ' + email_clear);
 
-    if (email_length > 50) {
+    } else if ((email_length !=0) && (email_length > 50)) {
         email_line.css({ "border-color": "red" });
         error_message_email_empty.hide();
         error_message_email_invalid.hide();
