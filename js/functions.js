@@ -25,6 +25,7 @@ $.fn.scrollEnd = function(callback, timeout) {
 		container.data('scrollTimeout', setTimeout(callback,timeout));
 	});
 };
+$('#header-block').fadeOut(0).addClass('fixed').fadeIn(400);
 
 (function() {
 	let lastTime = 0;
