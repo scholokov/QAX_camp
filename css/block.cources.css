@@ -10,7 +10,7 @@
     flex-direction: row;
 }
 
-#cources-cards-flex{
+.cources-cards-flex{
     display: flex;
 }
 
