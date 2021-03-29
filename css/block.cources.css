@@ -50,10 +50,8 @@
     margin-left: 10px;
 }
 
-.cources-qa-block-title{
-    background-color:#F66F5D ;
-}
-.cources-qa-block-title-text {
+
+.cources-qa-block-title {
     text-align: center;
     line-height: 130%;
     letter-spacing: 0.02em;
@@ -61,6 +59,7 @@
     color: #222222;
     margin-bottom: 0px;
     padding-bottom: 15px;
+    background-color:#F66F5D ;
 }
 
 .cources-qa-text {
