@@ -3,16 +3,22 @@
 
 var $ = jQuery.noConflict();
 
+
+$('.accordion__question').on('click', function () {
+	var content = $(this).next();
+
+	$('.accordion__answer').not(content).slideUp(400);
+	$('.accordion__question').not(this).removeClass('expanded');
+	$(this).toggleClass('expanded');
+	content.slideToggle(400);
+});
+
 var hash = window.location.hash;
-		$('.tablinks').each(function(){
-    		  	if($(this).attr('href') == hash){
-       	 			$(this).trigger('click');
-						tablinks = document.getElementsByClassName("tablinks");
-			for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-			}
-    				}
-				});
+$('.tablinks').each(function(){
+    if($(this).attr('href') == hash){
+       	$(this).trigger('click');
+    };
+});
 
 //Telegram footer link
 function footerlink(){
