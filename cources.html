@@ -363,11 +363,15 @@
 			}
 			document.getElementById(tabName).style.display = "block";
 			evt.currentTarget.className += " active";
+			var hash = window.location.hash;
 
-			
-
+		    
 		};
-		
+		$('.tablinks').each(function(){
+    		  	if($(this).attr('href') == hash){
+       	 			$(this).trigger('click');
+    				}
+				});
 		// Get the element with id="defaultOpen" and click on it
 		//document.getElementById("defaultOpen").click();
 	</script>
