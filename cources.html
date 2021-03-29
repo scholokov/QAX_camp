@@ -122,18 +122,18 @@
 													</div>
 													<div class="accordion__answer">
 														<ul class="sub-menu tab">
-															<li class="menu-sub-item-QA"><a href='#QA_automation'
+															<li class="menu-sub-item-QA" ><a href='#QA_automation'
 																	onclick="openTab(event, 'qa_automation')"
-																	class="tablinks" id="defaultOpen">Автоматизація</a>
+																	class="tablinks" id="qa-automation">Автоматизація</a>
 															</li>
 
-															<li class="menu-sub-item-QA"><a href='#QA_theory'
+															<li class="menu-sub-item-QA" ><a href='#QA_theory'
 																	onclick="openTab(event, 'qa_theory')"
-																	class="tablinks">Менторство</a>
+																	class="tablinks" id="qa-theory">Менторство</a>
 															</li>
-															<li class="menu-sub-item-QA"><a href='#QA_practice'
+															<li class="menu-sub-item-QA " ><a href='#QA_practice'
 																	onclick="openTab(event, 'qa_practice')"
-																	class="tablinks">Практика</a>
+																	class="tablinks" id="qa-practice">Практика</a>
 															</li>
 														</ul>
 													</div>
@@ -162,9 +162,9 @@
 													<div class="accordion__answer">
 														<ul class="sub-menu tab active">
 
-															<li class="menu-sub-item-QA"><a href='#pm_practice'
+															<li class="menu-sub-item-QA" ><a href='#pm_practice'
 																	onclick="openTab(event, 'pm_practice')"
-																	class="tablinks">Product Manager</a>
+																	class="tablinks" id="pm-practice">Product Manager</a>
 															</li>
 	
 														</ul>
@@ -364,7 +364,13 @@
 			document.getElementById(tabName).style.display = "block";
 			evt.currentTarget.className += " active";
 		}
-		
+		function activeCourseLink(){
+			var pmcourse=$("#pm-practice");
+			var Url=location.hash.slice(1);
+			if(url == "#pm_practice"){
+				pmcourse.addClass="active"
+			}
+		}
 
 		// Get the element with id="defaultOpen" and click on it
 		//document.getElementById("defaultOpen").click();
