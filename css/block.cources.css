@@ -25,6 +25,11 @@
     align-items: center;
 }
 
+.line{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 .cources-qa-block:hover {
     -ms-transform: translate(0px, -8px);
     /* IE 9 */
@@ -50,7 +55,7 @@
     line-height: 130%;
     letter-spacing: 0.02em;
     padding-top: 20px;
-    color: #FFFFFF;
+    color: #222222;
     margin-bottom: 0px;
     padding-bottom: 15px;
 }
@@ -60,7 +65,7 @@
     margin-left: 10px;
     margin-right: 10px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #222222;
     font-size: 18px;
 }
 
