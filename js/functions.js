@@ -7,7 +7,7 @@ var $ = jQuery.noConflict();
 var hash = window.location.hash;
 $('.tablinks').each(function(){
     if($(this).attr('href') == hash){
-       	$(this).trigger('');
+       	$(this).trigger('click');
     };
 });
 
