@@ -7,6 +7,11 @@
 
 #cources-cards-block {
     margin-top: 50px;
+    flex-direction: row;
+}
+
+#cources-cards-flex{
+    display: flex;
 }
 
 .cources-qa-block {
@@ -54,6 +59,7 @@
     margin-right: 10px;
     line-height: 150%;
     color: #FFFFFF;
+    font-size: 18px;
 }
 
 .cources-sub-title {
