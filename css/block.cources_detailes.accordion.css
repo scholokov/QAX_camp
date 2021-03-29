@@ -107,7 +107,7 @@ body {
 }
 
 .menu-item-QA {
-  background-color: #F66F5DE8E8E8, 100 %;
+  background-color: #E8E8E8;
   display: block;
 }
 
@@ -134,6 +134,11 @@ body {
   /*
   font-weight: bold;
   */
+  background: #F66F5D;
+}
+
+
+.tab a.active:hover{
   background: #F66F5D;
 }
 
