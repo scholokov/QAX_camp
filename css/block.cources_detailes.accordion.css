@@ -107,7 +107,7 @@ body {
 }
 
 .menu-item-QA {
-  background-color: #F66F5D;
+  background-color: #F66F5DE8E8E8, 100 %;
   display: block;
 }
 
@@ -134,7 +134,7 @@ body {
   /*
   font-weight: bold;
   */
-  background: #E8E8E8;
+  background: #F66F5D;
 }
 
 .arrow {
@@ -192,7 +192,7 @@ body {
   position: relative;
   padding: 8px 15px 8px 28px;
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  color: #222222;
   font-family: Raleway, sans-serif;
 }
 .accordion__question::before {
