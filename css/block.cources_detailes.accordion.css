@@ -141,6 +141,7 @@ body {
 
 .tab a.active:hover{
   background: #F66F5D;
+  color: #222222;
 }
 
 .arrow {
