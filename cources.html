@@ -348,7 +348,14 @@
 
 	</script>
 
-
+	<script>
+		var hash = window.location.hash;
+		$('.tablinks').each(function(){
+    		  	if($(this).attr('href') == hash){
+       	 			$(this).trigger('click');
+    				}
+				});
+	</script>
 	<!-- Tabs function -->
 	<script>
 		function openTab(evt, tabName) {
@@ -372,14 +379,7 @@
 		//document.getElementById("defaultOpen").click();
 	</script>
 
-	<script>
-		var hash = window.location.hash;
-		$('.tablinks').each(function(){
-    		  	if($(this).attr('href') == hash){
-       	 			$(this).trigger('click');
-    				}
-				});
-	</script>
+	
 
 	<!-- Footer Scripts
 	============================================= -->
