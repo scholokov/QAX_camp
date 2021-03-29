@@ -7,8 +7,10 @@ var $ = jQuery.noConflict();
 var hash = window.location.hash;
 $('.tablinks').each(function(){
     if($(this).attr('href') == hash){
-       	$(this).classList.toggle('active');
-    };
+       	$(this).addClass('active');
+    }else{
+		$(this).removeClass('active');
+	};
 });
 
 //Telegram footer link
