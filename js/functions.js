@@ -7,6 +7,10 @@ var hash = window.location.hash;
 		$('.tablinks').each(function(){
     		  	if($(this).attr('href') == hash){
        	 			$(this).trigger('click');
+						tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
     				}
 				});
 
