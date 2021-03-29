@@ -17,7 +17,7 @@
 .cources-qa-block {
     transition: 350ms;
     transition-timing-function: linear;
-    background: #F66F5D;
+    background: #E8E8E8;
 }
 
 .cources-title {
@@ -46,7 +46,7 @@
     margin-top: 30px;
     padding-bottom: 15px;
     white-space: nowrap;
-    color: #FFFFFF;
+    color: #222222;
     margin-left: 10px;
 }
 
