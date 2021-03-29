@@ -365,7 +365,12 @@
 			evt.currentTarget.className += " active";
 		  
 		};
-
+		
+		var hash = window.location.hash;
+$('.tablinks').each(function(){
+    if($(this).attr('href') == hash){
+       	$(this).toggleClass('active');
+});
 
 
 		
