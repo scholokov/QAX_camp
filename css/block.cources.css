@@ -50,7 +50,10 @@
     margin-left: 10px;
 }
 
-.cources-qa-block-title {
+.cources-qa-block-title{
+    background-color:#F66F5D ;
+}
+.cources-qa-block-title-text {
     text-align: center;
     line-height: 130%;
     letter-spacing: 0.02em;
