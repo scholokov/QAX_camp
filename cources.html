@@ -366,8 +366,8 @@
 		}
 		function activeCourseLink(){
 			var pmcourse=$("#pm-practice");
-			var courseUrl=location.hash;
-			if(courseUrl == "#pm_practice"){
+			var courseUrl=location.hash.slice(1);
+			if(courseUrl == "pm_practice"){
 				pmcourse.className += " active";
 			}
 		}
