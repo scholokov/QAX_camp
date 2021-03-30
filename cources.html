@@ -121,7 +121,7 @@
 														Quality Assurance Engineer
 													</div>
 													<div class="accordion__answer">
-														<ul class="sub-menu tab">
+														<ul class="sub-menu tab active">
 															<li class="menu-sub-item-QA" ><a href='#QA_automation'
 																	onclick="openTab(event, 'qa_automation')"
 																	class="tablinks">Автоматизація</a>
@@ -160,7 +160,7 @@
 														Product Manager
 													</div>
 													<div class="accordion__answer">
-														<ul class="sub-menu tab active">
+														<ul class="sub-menu tab">
 
 															<li class="menu-sub-item-QA" ><a href='#pm_practice'
 																	onclick="openTab(event, 'pm_practice')"
@@ -366,12 +366,6 @@
 		  
 		};
 		
-		var hash = window.location.hash;
-$('.tablinks').each(function(){
-    if($(this).attr('href') == hash){
-       	$(this).toggleClass('active');
-});
-
 
 		
 		// Get the element with id="defaultOpen" and click on it
