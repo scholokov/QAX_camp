@@ -6,7 +6,7 @@ var $ = jQuery.noConflict();
 
 
 //Telegram footer link
-function footerlink(){
+window.onload=function footerlink(){
 	let telegram_img=$("#Telegram-img");
 	let telegram_link=$("#footer-telegram");
 	telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
