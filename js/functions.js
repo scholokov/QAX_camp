@@ -15,7 +15,6 @@ window.onload=function footerlink(){
 	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
   };
   
-  footerlink();
 
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
