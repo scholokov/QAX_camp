@@ -323,7 +323,18 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
 
-
+<script>
+		function footerlink(){
+	let telegram_img=$("#Telegram-img");
+	let telegram_link=$("#footer-telegram");
+	telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
+	telegram_img.mouseout(function(){telegram_link.attr({"color":"#ffffff"});});
+	telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
+	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
+  };
+  
+  footerlink();
+	</script>
 	<script>
 		$("#leftside-navigation .sub-menu > a").click(function (e) {
 			$("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(),
@@ -372,18 +383,7 @@
 		//document.getElementById("defaultOpen").click();
 	</script>
 
-	<script>
-		function footerlink(){
-	let telegram_img=$("#Telegram-img");
-	let telegram_link=$("#footer-telegram");
-	telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
-	telegram_img.mouseout(function(){telegram_link.attr({"color":"#ffffff"});});
-	telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
-	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
-  };
-  
-  footerlink();
-	</script>
+	
 
 	<!-- Footer Scripts
 	============================================= -->
