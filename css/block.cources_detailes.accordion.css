@@ -138,8 +138,13 @@ body {
   color: #222222;
 }
 
+.tab a:hover{
+  
+  background: #F66F5D;
+  color: #222222;
+}
 
-.tab a.active:hover{
+.tab a.active:hover {
   background: #F66F5D;
   color: #222222;
 }
