@@ -11,8 +11,8 @@ function footerlink(){
 	let telegram_link=$("#footer-telegram");
 	telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
 	telegram_img.mouseout(function(){telegram_link.attr({"color":"#ffffff"});});
-	telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
-	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
+	telegram_link.mouseover(function(){telegram_img.attr({"src":"QAX_camp/images/Telegram-hover.svg"});});
+	telegram_link.mouseout(function(){telegram_img.attr({"src":"QAX_camp/images/Telegram.svg"})});
   };
   
   footerlink();
