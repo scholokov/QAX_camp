@@ -6,15 +6,16 @@ var $ = jQuery.noConflict();
 
 
 //Telegram footer link
-(function($){
+function footerlink(){
 	let telegram_img=$("#Telegram-img");
 	let telegram_link=$("#footer-telegram");
 	telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
 	telegram_img.mouseout(function(){telegram_link.attr({"color":"#ffffff"});});
 	telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
 	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
-  });
+  };
   
+  footerlink();
 
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
