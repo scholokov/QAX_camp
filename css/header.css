@@ -34,6 +34,12 @@
     border-color: #F66F5D
 }
 
+#sendButtonText:focus {
+    background: #F66F5D;
+    color: #FFFFFF;
+    border-color: #F66F5D
+}
+
 #sendButtonText {
     float: right;
     margin-right: 7%;
