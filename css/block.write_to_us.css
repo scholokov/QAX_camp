@@ -230,7 +230,7 @@ textarea:-moz-placeholder {
     width: 100%;
     overflow: hidden;
     resize: both;
-    margin-top: 40px;
+    margin-top: 10px;
     color: #FFFFFF;
 }
 
@@ -296,7 +296,7 @@ textarea:-moz-placeholder {
 }
 
 #div-phone,#div-email {
-    padding-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 #div-name{
