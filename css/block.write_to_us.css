@@ -300,5 +300,9 @@ textarea:-moz-placeholder {
 }
 
 #div-name{
+    padding-bottom: 0px;
+}
+
+.form-group.col-12.col-sm-12.pr-0{
     padding-bottom: 20px;
 }
