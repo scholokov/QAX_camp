@@ -1,6 +1,7 @@
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  color: #E8E8E8;
 }
 
 .sidebar-toggle {
