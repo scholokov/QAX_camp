@@ -5,6 +5,8 @@ var $ = jQuery.noConflict();
 
 //Cards => Accordion function
 $('#card-ba').on('click', function () {
+	$('#defaultOpen').removeClass('expanded');
+	$('#qa-course-link').removeClass("active");
 	$("#accordion-ba").click();
 	$("ba-course-link").click();
 } 
