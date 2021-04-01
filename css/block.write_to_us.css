@@ -9,7 +9,7 @@
     max-width: 860px;
     width: 100%;
     padding-bottom: 10px;
-    background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
+    background-color: #E8E8E8;
 }
 
 .write_to_us-error-message {
@@ -23,7 +23,7 @@
     margin-bottom: 65px;
     font-size: 36px;
     text-align: center;
-    color: #FFFFFF;
+    color: #222222;
 }
 
 #write_to_us-block-small {
@@ -37,28 +37,28 @@
 .write_to_us-name {
     width: 100%;
     background-color: transparent;
-    color: #ffffff;
+    color: #222222;
 }
 
 .write_to_us-name-line {
     width: 100%;
     border-width: 1px;
     border-style: solid;
-    border-color: #FFFFFF;
+    border-color: #212121;
 }
 
 .write_to_us-phone {
     width: 100%;
     margin-top: 40px;
     background-color: transparent;
-    color: #FFFFFF;
+    color: #222222;
 }
 
 .write_to_us-phone-line {
     width: 100%;
     border-width: 1px;
     border-style: solid;
-    border-color: #FFFFFF;
+    border-color: #212121;
 }
 
 
@@ -67,7 +67,7 @@
     width: 100%;
     min-height: 21px;
     background-color: transparent;
-    color: #FFFFFF;
+    color: #222222;
     resize: none;
     border: none;
     overflow: hidden;
@@ -77,13 +77,13 @@
     width: 100%;
     border-width: 1px;
     border-style: solid;
-    border-color: #FFFFFF;
+    border-color: #212121;
 }
 
 .write_to_us-personal-data {
     margin-top: 45px;
     width: 53%;
-    color: #FFFFFF;
+    color: #222222;
     font-weight: normal;
 }
 
@@ -95,10 +95,10 @@
     max-height: 56px;
 
     background-color: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #212121;
     box-sizing: border-box;
 
-    color: #FFFFFF;
+    color: #222222;
 }
 
 .write_to_us-button-send:hover {
@@ -145,7 +145,7 @@ input[type=text] {
     border-left: 0px;
     border-right: 0px;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #222222;
 }
 
 input[type=tel] {
@@ -154,7 +154,7 @@ input[type=tel] {
     border-left: 0px;
     border-right: 0px;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #222222;
 }
 
 ::placeholder {
