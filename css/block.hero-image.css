@@ -4,7 +4,7 @@
 
 #heroImage-block {
     margin-top: 0px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), url(../images/hero-image.svg);
+    background-color: #212121;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
 #hero-text-longread {
     padding-top: 15px;
     line-height: 150%;
-    color: #333333;
+    color: #FFFFFF;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
