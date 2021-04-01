@@ -546,7 +546,7 @@
 
 							<div id="write_to_us-block-small">
 								<div>
-									<h3 class="write_to_us-title-form">Допоможемо обрати</h3>
+									<h3 class="write_to_us-title-form">Консультація по курсу</h3>
 								</div>
 								<form novalidate>
 									<div class="row col-mb-50 mb-0 row-cols-1" id="div-name">
@@ -571,7 +571,7 @@
 									<div class="row col-mb-50 mb-0 row-cols-2">
 									<div class="form-group col-12 col-sm-5 pr-0" id="div-phone">
 										<input type="tel" id="phone_input" name="fphone" class="write_to_us-field"
-											placeholder="Мобільний номер*" required onblur="check_phone()">
+											placeholder="+38 (0ХХ) ХХХ-ХХ-ХХ*" required onblur="check_phone()">
 										<div id='error_message_phone_empty'
 											class="write_to_us-error-message no-display">
 											Це поле є обов'язковим
@@ -584,10 +584,10 @@
 									
 									<div class="form-group col-12 col-sm-5 ml-sm-auto pr-0" id="div-email">
 										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
-											placeholder="Email"  onblur="check_email()" maxlength="317">
+											placeholder="Email" onblur="check_email()" maxlength="317">
 										<div id='error_message_email_invalid'
 											class="write_to_us-error-message no-display">
-											Невірний формат email адреси
+											Невірний формат email адреси. Правильний формат: username@gmail.com
 										</div>
 										<div id='error_message_email_long' class="write_to_us-error-message no-display">
 											Воу воу, забагато
@@ -595,7 +595,7 @@
 									</div>
 									</div>
 									<div class="row col-mb-50 mb-0 row-cols-1" id="div-comment">
-									<div class="form-group col-12 col-sm-12 pr-0">
+									<div class="form-group">
 										<span class="textarea col-12 col-sm-12 pr-0" role="textbox" contenteditable id="comment_input"
 											 onblur="check_comment()"></span>
 										<div id="comment_line" class="line"></div>
@@ -607,7 +607,7 @@
 									</div>
 									
 									<div class="row col-mb-50 mb-0 row-cols-1">
-									<div class="form-group d-flex justify-content-md-between col-12 col-sm-12 pr-0">
+									<div class="form-group d-flex justify-content-md-between">
 										<h5 class="write_to_us-personal-data">Погоджуюсь відправити мої контакти
 											менеджеру QAX Camp. Конфіденційно. Без спаму</h5>
 										<button class="write_to_us-button-send" id="button_send">
@@ -731,9 +731,9 @@
 	============================================= -->
 	<!-- for phone mask -->
 	<script src="https://unpkg.com/imask"></script>
-
-	<script src="js/functions.js"></script>
 	<script src="js/form.js"></script>
+	<script src="js/functions.js"></script>
+	
 
 </body>
 
