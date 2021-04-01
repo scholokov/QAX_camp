@@ -5,7 +5,7 @@ $('form').submit(function (e) {
     envName = sessionStorage.getItem('envName');
 
     var comment = document.getElementById("comment_input").innerText;
-    var email = document.getElementById("email_input").innerText;
+    var email = document.getElementById("email_input").val();
     var userUrl=location.hash.slice(1);
     var result = true;
 
