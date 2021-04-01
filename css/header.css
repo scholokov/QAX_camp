@@ -28,22 +28,17 @@
     margin-top: 28px;
 }
 
-@media(hover: hover) and (pointer: fine) {
-    #sendButtonText:hover {
-        background: #F66F5D;
-        color: #FFFFFF;
-        border-color: #F66F5D
-    }
-}
-
 #sendButtonText:hover {
     background: #F66F5D;
     color: #FFFFFF;
     border-color: #F66F5D
 }
 
-
-
+#sendButtonText:focus {
+    background: #F66F5D;
+    color: #FFFFFF;
+    border-color: #F66F5D
+}
 
 #sendButtonText {
     float: right;
