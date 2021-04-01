@@ -27,6 +27,7 @@
 }
 
 #write_to_us-block-small {
+    max-width: 640px;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
