@@ -225,7 +225,7 @@
 									</div>
 									</div>
 									<div class="row col-mb-50 mb-0 row-cols-2" id="div-phone-email">
-									<div class="form-group col-12 col-sm-5 pr-0 pl-0" id="div-phone">
+									<div class="form-group col-12 col-sm-5 pr-0 pl-0 mb-0" id="div-phone">
 										<input type="tel" id="phone_input" name="fphone" class="write_to_us-field"
 											placeholder="+38 (0ХХ) ХХХ-ХХ-ХХ*" required onblur="check_phone()">
 										<div id='error_message_phone_empty'
@@ -238,7 +238,7 @@
 										</div>
 									</div>
 									
-									<div class="form-group col-12 col-sm-5 ml-sm-auto pr-0 pl-0" id="div-email">
+									<div class="form-group col-12 col-sm-5 ml-sm-auto pr-0 pl-0 mb-0" id="div-email">
 										<input type="text" id="email_input" name="fphone" class="write_to_us-field"
 											placeholder="Email" onblur="check_email()" maxlength="317">
 										<div id='error_message_email_invalid'
@@ -251,8 +251,8 @@
 									</div>
 									</div>
 									<div class="row col-mb-50 mb-0 row-cols-1" id="div-comment">
-									<div class="form-group col-12 col-sm-12 pr-0 pl-0">
-										<span class="textarea col-12 col-sm-12 pr-0" role="textbox" contenteditable id="comment_input"
+									<div class="form-group col-12 col-sm-12 pr-0 pl-0 pb-0">
+										<span class="textarea" role="textbox" contenteditable id="comment_input"
 											 onblur="check_comment()"></span>
 										<div id="comment_line" class="line"></div>
 										<div id='error_message_comment_long'
@@ -262,8 +262,8 @@
 									</div>
 									</div>
 									
-									<div class="row col-mb-50 mb-0 row-cols-1">
-									<div class="form-group d-flex justify-content-md-between col-12 col-sm-12 pr-0">
+									<div class="row col-mb-50 mb-0 row-cols-1" id="div-data-button">
+									<div class="form-group d-flex justify-content-md-between  col-12 col-sm-12 pr-0 pl-0">
 										<h5 class="write_to_us-personal-data">Погоджуюсь відправити мої контакти
 											менеджеру QAX Camp. Конфіденційно. Без спаму</h5>
 										<button class="write_to_us-button-send" id="button_send">
@@ -288,15 +288,7 @@
 						</div>
 					</section>
 
-					<!--
-					<script>
-						document.write('<div class="fb-comments" data-href="' + sessionStorage.getItem('chatID') + '" data-width="100%" data-numposts="3"> </div>');
-					</script>
-					-->
 
-					<div class="fb-comments" data-href="https://www.facebook.com/profile.php?id=100013531722133"
-						data-width="100%" order_by="reverse_time" data-numposts="2">
-					</div>
 
 				</div>
 			</div>
