@@ -308,7 +308,7 @@ function check_name() {
         return false;
     }
     else {
-        name_line.css({ "border-color": "#B9B6B6" });
+        name_line.css({ "border-color": "#FFFFFF" });
         error_message_name_empty.hide();
         error_message_name_short.hide();
         error_message_name_long.hide();
@@ -351,14 +351,14 @@ function check_email() {
         error_message_email_long.hide();
         return false;
         } else {
-        email_line.css({ "border-color": "#B9B6B6" });
+        email_line.css({ "border-color": "#FFFFFF" });
         error_message_email_empty.hide();
         error_message_email_invalid.hide();
         error_message_email_long.hide();
         return true;
         };
     }else{
-        email_line.css({ "border-color": "#B9B6B6" });
+        email_line.css({ "border-color": "#FFFFFF" });
         error_message_email_empty.hide();
         error_message_email_invalid.hide();
         error_message_email_long.hide();
@@ -425,7 +425,7 @@ function check_phone() {
         return false;
     }
     else {
-        phone_line.css({ "border-color": "#B9B6B6" });
+        phone_line.css({ "border-color": "#FFFFFF" });
         error_message_phone_empty.hide();
         error_message_phone_short.hide();
         error_message_phone_long.hide();
@@ -454,7 +454,7 @@ function check_comment() {
         error_message_comment_long.show();
         return false;
     } else {
-        comment_line.css({ "border-color": "#B9B6B6" });
+        comment_line.css({ "border-color": "#FFFFFF" });
         error_message_comment_long.hide();
         return true;
     };
