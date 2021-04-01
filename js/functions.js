@@ -3,7 +3,13 @@
 
 var $ = jQuery.noConflict();
 
+//Cards => Accordion function
+$('#card-ba').on('click', function () {
+	$("#accordion-ba").click();
+	$("ba-course-link").click();
+} 
 
+);
 
 //Telegram footer link
 window.onload=function(){
