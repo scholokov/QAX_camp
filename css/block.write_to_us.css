@@ -289,3 +289,7 @@ textarea:-moz-placeholder {
     max-width: 280px;
 }
 
+#div-name,#div-phone-email,#div-comment{
+    margin-left: 15px;
+    margin-right: 15px;
+}
