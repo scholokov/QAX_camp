@@ -294,3 +294,11 @@ textarea:-moz-placeholder {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+#div-phone,#div-email {
+    padding-bottom: 0px;
+}
+
+#div-name{
+    padding-bottom: 20px;
+}
