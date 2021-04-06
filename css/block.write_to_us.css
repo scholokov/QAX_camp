@@ -164,7 +164,7 @@ input[type=tel] {
 
 
 input::-webkit-input-placeholder {
-    color: rgb(255, 255, 255);
+    color: #222222;
 }
 
 input::-webkit-input-placeholder {
@@ -212,7 +212,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: #222222;
 }
 
 textarea::-webkit-input-placeholder {

@@ -19,6 +19,7 @@
 td {
     padding: 4px;
     padding-left: 15px;
+    color: #000000;
 }
 
 .table-topics tbody tr:nth-child(even) {
