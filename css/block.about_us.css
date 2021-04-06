@@ -1,9 +1,10 @@
 #about-us-border{
-    margin: 30px;
+    margin: 65px auto;
     border: 2px solid #F66F5D;
+    max-width: 880px;
 }
 
 #about-us-text{
-    padding: 30px;
+    padding: 40px;
     max-width: 880px;
 }
