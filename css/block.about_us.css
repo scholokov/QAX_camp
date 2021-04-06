@@ -1,0 +1,9 @@
+#about-us-border{
+    margin: 30px;
+    border: 2px solid #F66F5D;
+}
+
+#about-us-text{
+    padding: 30px;
+    max-width: 880px;
+}
