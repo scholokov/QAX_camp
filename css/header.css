@@ -89,6 +89,9 @@
     .header-menu #menuCources,#sendButtonText {display: none;}
     .burger-icon {display: inline-block;
         cursor: pointer;
+        position: absolute;
+        right: 36px;
+        top: 26px;
     }
   }
 
