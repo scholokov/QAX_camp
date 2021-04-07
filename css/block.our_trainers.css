@@ -3,8 +3,14 @@
     padding-right: 8px;
 }
 
+#trainers-main-title{
+    font-size: 36px;
+}
+
 .our-trainers-line{
     border: 1px solid #F66F5D;
+    margin-bottom: 42px;
+    max-width: 203px;
 }
 
 .trainer-info{
