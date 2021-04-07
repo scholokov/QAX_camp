@@ -68,7 +68,7 @@
     font-family: Raleway;
 }
 
-.header-menu .burger-icon {
+.header-menu #burger-icon {
     display: none;
     display: inline-block;
     cursor: pointer;
@@ -88,7 +88,7 @@
 
   @media screen and (max-width: 600px) {
     .header-menu #menuCources,#sendButtonText {display: none;}
-    .burger-icon {display: inline-block;
+    #burger-icon {display: inline-block;
         cursor: pointer;
     }
   }
@@ -99,7 +99,7 @@
         min-height: 247px;
         height: 100%;
     }
-    .header-menu.responsive .burger-icon {
+    .header-menu.responsive #burger-icon {
       position: absolute;
       right: 36px;
       top: 26px;
