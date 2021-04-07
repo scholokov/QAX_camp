@@ -70,7 +70,6 @@
 
 .header-menu .burger-icon {
     display: none;
-    display: inline-block;
     cursor: pointer;
     position: absolute;
     right: 36px;
