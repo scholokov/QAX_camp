@@ -743,18 +743,24 @@
 	</script>
 
 	<script>
-		function menuBurger() {
+		/*function menuBurger() {
     var x = document.getElementById("header-block");
     if (x.className === "header-menu") {
         x.className += " responsive";
-		x.classList.toggle("change")
     } else {
         x.className = "header-menu";
 	
     }
-}
+}*/
 function myFunction(x) {
   x.classList.toggle("change");
+  var y = document.getElementById("header-block");
+    if (y.className === "header-menu") {
+        y.className += " responsive";
+    } else {
+        y.className = "header-menu";
+	
+    }
 }
 	</script>
 
