@@ -9,11 +9,12 @@ var $ = jQuery.noConflict();
 
 
 //Cards => Accordion function
-$('#card-ba').on('click', function () {
-	
+window.onload=function(){
+	$('#card-ba').on('click', function () {
+		
 } 
 
-);
+);}
 
 //Telegram footer link
 window.onload=function(){
