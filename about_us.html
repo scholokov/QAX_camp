@@ -72,24 +72,31 @@
 		<!-- Header
 		============================================= -->
 		<header class="header">
-
-			<div id="header-block">
+			<div class="header-menu" id="header-block">
 				<a href="index.html"><img src="images/logo.svg" alt="Logo" id="logo"></a>
 
 				<a href="cources.html" id="menuCources" class="header-menu">курси</a>
 
-                <a href="about_us.html" id="menuCources" class="header-menu">про нас</a>
+				<a href="about_us.html" id="menuCources" class="header-menu">про нас</a>
 
-                <a href="our_trainers.html" id="menuCources" class="header-menu">наші тренери</a>
+				<a href="our_trainers.html" id="menuCources" class="header-menu">наші тренери</a>
 
+				
 				<!--
 				<div><a href="#" class="language">UA|RU</a></div>
 				-->
 
 				<a href="#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText">Написати</div>
-				</a>
+					<div id="sendButtonText">Написати</div></a>
+					
+				
+				<div class="burger-icon" onclick="myFunction(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+				</div>
+				
 			</div>
 		</header><!-- #header end -->
 
@@ -185,7 +192,18 @@
 		})
 	</script>
 
+<script>
+	function myFunction(x) {
+	x.classList.toggle("change");
+	var y = document.getElementById("header-block");
+	if (y.className === "header-menu") {
+		y.className += " responsive";
+	} else {
+		y.className = "header-menu";
 	
+	}
+	}
+	</script>
 
 	<!-- Footer Scripts
 	============================================= -->
