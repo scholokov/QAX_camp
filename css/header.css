@@ -84,7 +84,7 @@
       right: 0;
       top: 0;
     }
-    .header-menu.responsive a {
+    .header-menu.responsive #menuCources {
       float: none;
       display: block;
       text-align: left;
