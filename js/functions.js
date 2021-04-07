@@ -10,10 +10,7 @@ var $ = jQuery.noConflict();
 
 //Cards => Accordion function
 $('#card-ba').on('click', function () {
-	$('#defaultOpen').className.replace("expanded", "");
-	$('#qa-course-link').className.replace("active", "");
-	$("#accordion-ba").click();
-	$("ba-course-link").click();
+	
 } 
 
 );
