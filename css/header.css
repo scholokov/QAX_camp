@@ -75,20 +75,23 @@
   @media screen and (max-width: 600px) {
     .header-menu #menuCources,#sendButtonText {display: none;}
     .header-menu a.icon {
-      float: right;
+      position: absolute;
+      right: 32px;
+      top: 32px;
       display: block;
     }
   }
 
   @media screen and (max-width: 600px) {
-    .header-menu.responsive {
+    div#header-block.responsive {
         position: relative;
+        min-height: 247px;
         height: 100%;
     }
     .header-menu.responsive .icon {
       position: absolute;
-      right: 0;
-      top: 0;
+      right: 32px;
+      top: 32px;
     }
     .header-menu.responsive #menuCources {
       margin-top: 0;
