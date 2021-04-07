@@ -3,6 +3,18 @@
 
 var $ = jQuery.noConflict();
 
+
+
+//Burger-menu
+function menuBurger() {
+    var x = document.getElementById("header-block");
+    if (x.className === "header-menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "header-menu";
+    }
+}
+
 //Cards => Accordion function
 $('#card-ba').on('click', function () {
 	$('#defaultOpen').className.replace("expanded", "");
