@@ -747,9 +747,14 @@
     var x = document.getElementById("header-block");
     if (x.className === "header-menu") {
         x.className += " responsive";
+		x.classList.toggle("change")
     } else {
         x.className = "header-menu";
+	
     }
+}
+function myFunction(x) {
+  x.classList.toggle("change");
 }
 	</script>
 
