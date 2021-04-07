@@ -1,3 +1,9 @@
+.trainer-name{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
 .trainer-post{
     font-size: 18px;
     color: #989898;
