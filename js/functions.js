@@ -5,7 +5,7 @@ var $ = jQuery.noConflict();
 
 
 
-//Burger-menu
+//curses functions
 
 
 //Cards => Accordion function
