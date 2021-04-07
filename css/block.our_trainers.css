@@ -53,11 +53,8 @@
 
 }
 
-.linkedin-link{
-    background-image: ("images/LinkedIn.svg");
-}
 
 .linkedin-link:hover{
-    background-image: ("images/LinkedIn-hover.svg");
+    src:"images/LinkedIn-hover.svg"
 }
 
