@@ -68,13 +68,24 @@
     font-family: Raleway;
 }
 
-.header-menu .icon {
+.header-menu .burger-icon {
     display: none;
+    display: inline-block;
+    cursor: pointer;
   }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: rgb(235, 0, 0);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
 
   @media screen and (max-width: 600px) {
     .header-menu #menuCources,#sendButtonText {display: none;}
-    .header-menu a.icon {
+    .header-menu .burger-icon {
       position: absolute;
       right: 32px;
       top: 32px;
@@ -88,7 +99,7 @@
         min-height: 247px;
         height: 100%;
     }
-    .header-menu.responsive .icon {
+    .header-menu.responsive .burger-icon {
       position: absolute;
       right: 32px;
       top: 32px;
@@ -104,4 +115,17 @@
 
   .header-menu.responsive #logo{
     display: none;
+  }
+
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-25deg) translate(-9px, 3px);
+    transform: rotate(-45deg) translate(-3px, 4px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
   }
