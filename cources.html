@@ -29,7 +29,6 @@
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.fb_comments.css" type="text/css" />
 
 	<meta property="fb:admins" content="denis.scholokov" />
 
@@ -393,7 +392,14 @@
 		  
 		};
 		
+		var hash = window.location.hash;
+		if(hash == "#ba_practice"){
 
+			$("#accordion-ba").click();
+
+			$("#ba-course-link").click();
+
+		}
 		
 		// Get the element with id="defaultOpen" and click on it
 		document.getElementById("defaultOpen").click();
@@ -412,6 +418,9 @@ if (y.className === "header-menu") {
 }
 </script>
 
+<script>
+	
+</script>
 	<!-- Footer Scripts
 	============================================= -->
 	<!-- for phone mask -->
