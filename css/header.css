@@ -81,13 +81,18 @@
   }
 
   @media screen and (max-width: 600px) {
-    .header-menu.responsive {position: relative;}
+    .header-menu.responsive {
+        position: relative;
+        height: 100%;
+    }
     .header-menu.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
     .header-menu.responsive #menuCources {
+      margin-top: 0;
+      padding-top: 20px;
       float: none;
       display: block;
       text-align: left;
