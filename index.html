@@ -736,7 +736,16 @@
 		}
 	</script>
 
-
+	<script>
+		function menuBurger() {
+    var x = document.getElementById("header-block");
+    if (x.className === "header-menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "header-menu";
+    }
+}
+	</script>
 
 	<!-- Footer Scripts
 	============================================= -->
