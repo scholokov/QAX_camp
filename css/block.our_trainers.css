@@ -5,6 +5,8 @@
 
 #trainers-main-title{
     font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 0;
 }
 
 .our-trainers-line{
@@ -67,4 +69,8 @@
 
 }
 
-
+.linkedin-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+}
