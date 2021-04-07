@@ -53,8 +53,7 @@
 
 }
 
-#linkedin-logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.linkedin-logo:hover{
+    background: url (images/LinkedIn-hover.svg);
 }
+
