@@ -2,6 +2,7 @@
 	header block
 ------------------------------------------------------------------*/
 #header-block {
+    display:block;
     height: 80px;
     width: 100%;
     background: #111111;
@@ -11,12 +12,13 @@
 }
 
 .header-menu {
-    color: #FFFFFF;
+    color: #111111;
     line-height: 21px;
     font-family: Raleway;
 }
 
 #logo {
+    display:block;
     float: left;
     margin-top: 24px;
     margin-left: 5%;
@@ -89,4 +91,8 @@
       display: block;
       text-align: left;
     }
+  }
+
+  .header-menu.responsive #logo{
+    display: none;
   }
