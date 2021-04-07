@@ -110,6 +110,7 @@
       top: 26px;
     }
     .header-menu.responsive #menuCources {
+      max-width: 130px;
       margin: 0 auto;
       padding-top: 20px;
       float: none;
