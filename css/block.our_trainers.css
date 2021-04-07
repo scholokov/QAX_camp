@@ -1,3 +1,8 @@
+.trainer{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .trainer-info{
     margin-top: 20px;
     margin-bottom: 30px;
@@ -24,6 +29,7 @@
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .trainer-experience{
@@ -37,7 +43,7 @@
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
-
+    margin-bottom: 15px;
 }
 
 .trainer-teaching{
