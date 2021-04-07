@@ -87,7 +87,8 @@
 
   @media screen and (max-width: 600px) {
     .header-menu #menuCources,#sendButtonText {display: none;}
-    .burger-icon {display: inline-block;
+    .header-menu .burger-icon {
+        display: inline-block;
         cursor: pointer;
         position: absolute;
         right: 36px;
