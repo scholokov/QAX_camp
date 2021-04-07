@@ -392,7 +392,14 @@
 		  
 		};
 		
+
+
 		var hash = window.location.hash;
+
+		if((hash=="#QA_automation") || (hash=="")){
+			document.getElementById("defaultOpen").click();
+			$("#qa-course-link").className += "active";
+		}
 		if(hash == "#ba_practice"){
 
 			$("#accordion-ba").click();
@@ -403,7 +410,7 @@
 		}
 		
 		// Get the element with id="defaultOpen" and click on it
-		document.getElementById("defaultOpen").click();
+		
 	</script>
 
 <script>
