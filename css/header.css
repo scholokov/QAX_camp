@@ -10,6 +10,10 @@
     align-items: center;
     text-transform: uppercase;
     transition: height 1s;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -ms-transition: height 1s;
+    -o-transition: height 1s;
 }
 
 .header-menu {
@@ -100,6 +104,10 @@
   @media screen and (max-width: 600px) {
     div#header-block.responsive {
         transition: height 1s,all 1s;
+        -webkit-transition: height 1s,all 1s;
+        -moz-transition: height 1s,all 1s;
+        -ms-transition: height 1s,all 1s;
+        -o-transition: height 1s,all 1s;
         padding-top: 50px;
         position: relative;
         height: 247px;
