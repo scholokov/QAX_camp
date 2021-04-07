@@ -90,7 +90,7 @@
 					<div id="sendButtonText">Написати</div></a>
 					
 				
-				<div class="burger-icon" onclick="myFunction(this)">
+				<div class="burger-icon" onclick="myFunction()">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
 						<div class="bar3"></div>
@@ -745,9 +745,10 @@
 	<script>
 		function menuBurger() {
     var x = document.getElementById("header-block");
+	var y = document.getElementsByClassName("burger-icon");
     if (x.className === "header-menu") {
         x.className += " responsive";
-		x.classList.toggle("change")
+		y.classList.toggle("change")
     } else {
         x.className = "header-menu";
 	
