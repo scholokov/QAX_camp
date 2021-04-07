@@ -70,7 +70,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    .header-menu a:not(:first-child) {display: none;}
+    .header-menu #menuCources,#sendButtonText {display: none;}
     .header-menu a.icon {
       float: right;
       display: block;
