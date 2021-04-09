@@ -5,53 +5,10 @@ var $ = jQuery.noConflict();
 
 
 
+//curses functions
 
 
-window.onload=function(){
-	$('.tablinks').on('click',function () {
-		$('.tablinks').not(this).removeClass('active');
-		$(this).addClass('active');
-
-		var id = $(this).attr("id");
-
-		/*if (id=='ba-course-link'){
-		$(".tabcontent#ba_practice").css({"display":"block"});
-		}else{
-			$(".tabcontent#ba_practice").css({"display":"none"});
-		}*/
-
-		if (id=='qa-course-link'){
-		$(".tabcontent#qa_automation").css({"display":"block"});
-		}else{
-			$(".tabcontent#qa_automation").css({"display":"none"});
-		}
-
-		/*var hash = window.location.hash;
-
-		if(hash== "#ba_practice"){
-
-		}*/
-		/*
-
-		if(hash == "#ba_practice"){
-		$("#accordion-ba").click();
-		tabcontent = document.getElementsByClassName("tabcontent");
-		$(".tabcontent#ba_practice-course").css({"display":"block"});
-		};*/	
-});
-
-var hash = window.location.hash;
-
-		if(hash == "#ba_practice"){
-			$("#accordion-ba").click();
-			$("a#ba-course-link").click();
-			//$(".tabcontent#ba_practice").css({"display":"block"});
-
-		//$(".tabcontent#ba_practice-course").css({"display":"block"});
-
-		}
 //Cards => Accordion function
-	}
 
 //Telegram footer link
 window.onload=function(){
