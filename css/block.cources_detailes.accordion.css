@@ -149,8 +149,13 @@ body {
 }
 
 
+.course-info{
+  display:none;
+}
 
-
+.tab a.active .course-info{
+  display: block;
+}
 
 
 
