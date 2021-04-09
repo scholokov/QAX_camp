@@ -415,7 +415,7 @@
 
 			$("#accordion-ba").click();
 
-			$("#ba-course-link").addClass(" active");
+			$("#ba-course-link").on( "click", openTab(evt, 'ba_practice'));
 
 
 			//document.getElementById('ba_practice').style.display = "block";
