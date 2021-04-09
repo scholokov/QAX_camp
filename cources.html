@@ -132,8 +132,7 @@
 													</div>
 													<div class="accordion__answer">
 														<ul class="sub-menu tab ">
-															<li class="menu-sub-item-QA" ><a href='#QA_automation' id='qa-course-link'
-																	onclick="openTab(event, 'qa_automation')"
+															<li class="menu-sub-item-QA" ><a href='#QA_automation' id='qa-course-link'	
 																	class="tablinks ">Автоматизація</a>
 															</li>
 
@@ -380,14 +379,41 @@
 		$('.tablinks').not(this).removeClass('active');
 		$(this).addClass('active');
 
-		var hash = window.location.hash;
+		var id = this.attr("id");
+
+		if (id=='ba_practice'){
+			tabcontent = document.getElementsByClassName("tabcontent");
+		$(".tabcontent#ba_practice-course").css({"display":"block"});
+
+		}
+
+		if (id=='qa-course-link'){
+			tabcontent = document.getElementsByClassName("tabcontent");
+		$(".tabcontent#qa_automation").css({"display":"block"});
+
+		}
+
+		/*var hash = window.location.hash;
+
+		if(hash== "#ba_practice"){
+
+		}*/
+		/*
+
 		if(hash == "#ba_practice"){
-		
+		$("#accordion-ba").click();
 		tabcontent = document.getElementsByClassName("tabcontent");
 		$(".tabcontent#ba_practice-course").css({"display":"block"});
-	}	
+		};*/	
 });
 
+var hash = window.location.hash;
+
+		if(hash== "#ba_practice"){
+			$("#accordion-ba").click();
+			$("#ba_practice").click();
+
+		}
 
 	
 	/*function openTab(evt, tabName) {
