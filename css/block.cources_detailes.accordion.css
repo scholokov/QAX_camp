@@ -149,15 +149,6 @@ body {
 }
 
 
-#ba_practice{
-  display: none;
-
-}
-
-#ba_practice:target{
-  display: block;
-  
-}
 
 
 
