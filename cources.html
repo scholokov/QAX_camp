@@ -382,9 +382,9 @@
 		var id = $(this).attr("id");
 
 		if (id=='ba-course-link'){
-		$(".tabcontent#ba_practice-course").css({"display":"block"});
+		$(".tabcontent#ba_practice").css({"display":"block"});
 		}else{
-			$(".tabcontent#ba_practice-course").css({"display":"none"});
+			$(".tabcontent#ba_practice").css({"display":"none"});
 		}
 
 		if (id=='qa-course-link'){
@@ -412,7 +412,7 @@ var hash = window.location.hash;
 		if(hash == "#ba_practice"){
 			$("#accordion-ba").click();
 			$("#ba-course-link").trigger("click");
-			$(".tabcontent#ba_practice-course").css({"display":"block"});
+			$(".tabcontent#ba_practice").css({"display":"block"});
 
 		//$(".tabcontent#ba_practice-course").css({"display":"block"});
 
