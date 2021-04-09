@@ -77,11 +77,10 @@
 
 .our-trainers-line2{
     display: none;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 30px auto;
     border: 1px solid #F66F5D;
-    margin-bottom: 42px;
-    max-width: 203px;
+    max-width: 180px;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
