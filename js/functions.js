@@ -9,12 +9,6 @@ var $ = jQuery.noConflict();
 
 
 //Cards => Accordion function
-window.onload=function(){
-	$('#card-ba').on('click', function () {
-		
-} 
-
-);}
 
 //Telegram footer link
 window.onload=function(){
