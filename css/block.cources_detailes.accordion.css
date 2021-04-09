@@ -149,11 +149,9 @@ body {
 }
 
 
-.course-info{
-  display:none;
-}
 
-a#qa-course-link.active .course-info{
+
+a#qa-course-link.active div#qa_automation{
   display: block;
 }
 
