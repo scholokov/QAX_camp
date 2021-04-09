@@ -149,7 +149,9 @@ body {
 }
 
 
-
+div#qa_automation{
+  display: none;
+}
 
 a#qa-course-link.active div#qa_automation{
   display: block;
