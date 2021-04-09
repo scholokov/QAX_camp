@@ -7,12 +7,15 @@
     font-size: 36px;
     margin-top: 70px;
     margin-bottom: 0;
+    padding-left: 15px;
+
 }
 
 .our-trainers-line{
     border: 1px solid #F66F5D;
     margin-bottom: 42px;
     max-width: 203px;
+    margin-left: 15px;
 }
 
 .trainers-block{
