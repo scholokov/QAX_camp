@@ -379,7 +379,7 @@
 		$('.tablinks').not(this).removeClass('active');
 		$(this).addClass('active');
 
-		var id = this.attr("id");
+		var id = $(this).attr("id");
 
 		if (id=='ba_practice'){
 			tabcontent = document.getElementsByClassName("tabcontent");
