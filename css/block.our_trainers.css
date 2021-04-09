@@ -72,5 +72,20 @@
 .linkedin-logo{
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center; 
+}
+
+.our-trainers-line2{
+    display: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #F66F5D;
+    margin-bottom: 42px;
+    max-width: 203px;
+}
+
+@media screen and (max-width: 600px) {
+    .our-trainers-line2{
+        display: block;
+    }
 }
