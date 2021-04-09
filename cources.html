@@ -380,8 +380,13 @@
 		$('.tablinks').not(this).removeClass('active');
 		$(this).addClass('active');
 
-		
-}
+		var hash = window.location.hash;
+		if(hash == "#ba_practice"){
+			$("#accordion-ba").click();
+		}
+		tabcontent = document.getElementsByClassName("tabcontent");
+		$(".tabcontent#ba_practice").attr({"display":"block"});
+	}	
 		);
 
 
@@ -417,7 +422,7 @@
 		
 
 
-		var hash = window.location.hash;
+		/*var hash = window.location.hash;
 
 		if(hash == "#ba_practice"){
 
@@ -428,7 +433,7 @@
 
 			//document.getElementById('ba_practice').style.display = "block";
 
-		}
+		}*/
 		
 		// Get the element with id="defaultOpen" and click on it*/
 
