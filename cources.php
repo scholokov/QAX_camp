@@ -119,7 +119,7 @@
 											<div class="accordion__wrapper">
 
 												<div class="accordion__item">
-													<div class="menu-item-QA accordion__question" id="defaultOpen">
+													<div class="menu-item-QA accordion__question" >  <!-- id="defaultOpen" -->
 														QA Engineer
 													</div>
 													<div class="accordion__answer">
