@@ -214,7 +214,7 @@
 
 		<!-- Footer
 		============================================= -->
-		<div w3-include-html="components\footer.html"></div>
+		<?php include 'components/footer.html'?>
 
 	</div><!-- #wrapper end -->
 
