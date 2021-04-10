@@ -142,14 +142,13 @@
 												</div>
 
 												<div class="accordion__item">
-													<div class="menu-item-QA accordion__question" id="accordion-ba">
+													<div class="menu-item-QA accordion__question">
 														Business Analyst
 													</div>
 													<div class="accordion__answer">
 														<ul class="sub-menu tab">
 
 															<li class="menu-sub-item-QA"><a href='#ba_practice'
-																id="ba-course-link"
 																	onclick="openTab(event, 'ba_practice')"
 																	class="tablinks">Практика</a>
 															</li>
