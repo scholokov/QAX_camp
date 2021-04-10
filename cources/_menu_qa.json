@@ -1,0 +1,17 @@
+{
+    "auto": {
+        "courseName": "Автоматизація",
+        "courseFileName": "qa_automation",
+        "availability": "1"
+    },
+    "practice-theory": {
+        "courseName": "Менторство",
+        "courseFileName": "qa_theory",
+        "availability": "1"
+    },
+    "practice": {
+        "courseName": "Практика",
+        "courseFileName": "qa_practice",
+        "availability": "1"
+    }
+}
