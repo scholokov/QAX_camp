@@ -653,7 +653,7 @@
 
 		<!-- Footer
 		============================================= -->
-		<?php include 'components\footer.html'?>
+		<?php include 'components/footer.html'?>
 		<!-- <div w3-include-html="components\footer.html"></div> -->
 
 	</div><!-- #wrapper end -->
