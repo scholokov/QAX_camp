@@ -181,16 +181,12 @@
 							</div>
 							<div class="col-xl-9">
 								<div class="cources_details-text">
-
-									<div w3-include-html="cources\automation.html"></div>
-
-									<div w3-include-html="cources\practice-theory.html"></div>
-
-									<div w3-include-html="cources\practice.html"></div>
-
-									<div w3-include-html="cources\ba_practice.html"></div>
-
-									<div w3-include-html="cources\pm_practice.html"></div>
+								
+									<?php include 'cources/automation.html'?>
+									<?php include 'cources/practice-theory.html'?>
+									<?php include 'cources/practice.html'?>
+									<?php include 'cources/ba_practice.html'?>
+									<?php include 'cources/pm_practice.html'?>
 
 								</div>
 							</div>
