@@ -1,0 +1,20 @@
+{
+    "qa": {
+        "courceTabName": "QA Engineer",
+        "availability": "1",
+        "courcefile": "_menu_qa.json",
+        "cource": "qa"
+    },
+    "ba": {
+        "courceTabName": "Business Analyst",
+        "availability": "1",
+        "courcefile": "_menu_ba.json",
+        "cource": "ba"
+    },
+    "pm": {
+        "courceTabName": "Project Manager",
+        "availability": "1",
+        "courcefile": "_menu_pm.json",
+        "cource": "pm"
+    }
+}
