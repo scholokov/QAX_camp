@@ -124,9 +124,9 @@
 													</div>
 													<div class="accordion__answer">
 														<ul class="sub-menu tab active">
-															<li class="menu-sub-item-QA" ><a href='#QA_automation' 
+															<li class="menu-sub-item-QA" ><a href='#QA_automation'
 																	onclick="openTab(event, 'qa_automation')"
-																	class="tablinks active" id='defaultOpen'>Автоматизація</a>
+																	class="tablinks active" id="defaultOpen">Автоматизація</a>
 															</li>
 
 															<li class="menu-sub-item-QA" ><a href='#QA_theory'
