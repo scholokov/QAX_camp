@@ -81,7 +81,7 @@
 
 
 			<div id="header-block">
-				<a href="index.html"><img src="images/logo.svg" alt="Logo" id="logo"></a>
+				<a href="index.php"><img src="images/logo.svg" alt="Logo" id="logo"></a>
 
 				<a href="cources.html" id="menuCources" class="header-menu">курси</a>
 
