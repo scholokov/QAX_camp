@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.fb_comments.css" type="text/css" />
 
 	<meta property="fb:admins" content="denis.scholokov" />
 
@@ -78,32 +79,23 @@
 			<script async defer crossorigin="anonymous"
 				src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v9.0" nonce="etHa6BVZ"></script>
 
-				<div class="header-menu" id="header-block">
-					<a href="index.html"><img src="images/logo.svg" alt="Logo" id="logo"></a>
-	
-					<a href="cources.html" id="menuCources" class="header-menu">курси</a>
-	
-					<a href="about_us.html" id="menuCources" class="header-menu">про нас</a>
-	
-					<a href="our_trainers.html" id="menuCources" class="header-menu">наші тренери</a>
-	
-					
-					<!--
-					<div><a href="#" class="language">UA|RU</a></div>
-					-->
-	
-					<a href="#write_to_us">
-						<!-- <a href="https://t.me/RecrutMan"> -->
-						<div id="sendButtonText">Написати</div></a>
-						
-					
-					<div class="burger-icon" onclick="myFunction(this)">
-							<div class="bar1"></div>
-							<div class="bar2"></div>
-							<div class="bar3"></div>
-					</div>
-					
-				</div>
+
+			<div id="header-block">
+				<a href="index.html"><img src="images/logo.svg" alt="Logo" id="logo"></a>
+
+				<a href="cources.html" id="menuCources" class="header-menu">курси</a>
+
+				<a href="about_us.html" id="menuCources" class="header-menu">про нас</a>
+
+				<!--
+				<div><a href="#" class="language">UA|RU</a></div>
+				-->
+
+				<a href="#write_to_us">
+					<!-- <a href="https://t.me/RecrutMan"> -->
+					<div id="sendButtonText">Написати</div>
+				</a>
+			</div>
 		</header><!-- #header end -->
 
 		<!-- Page Title
@@ -131,16 +123,17 @@
 														QA Engineer
 													</div>
 													<div class="accordion__answer">
-														<ul class="sub-menu tab ">
-															<li class="menu-sub-item-QA" ><a href='?courcename=qa_automation' id='qa-course-link'	
-																	class="tablinks ">Автоматизація</a>
+														<ul class="sub-menu tab active">
+															<li class="menu-sub-item-QA" ><a href='#QA_automation' id='qa-course-link'
+																	onclick="openTab(event, 'qa_automation')"
+																	class="tablinks active">Автоматизація</a>
 															</li>
 
-															<li class="menu-sub-item-QA" ><a href='?courcename=qa_theory'
+															<li class="menu-sub-item-QA" ><a href='#QA_theory'
 																	onclick="openTab(event, 'qa_theory')"
 																	class="tablinks">Менторство</a>
 															</li>
-															<li class="menu-sub-item-QA " ><a href='?courcename=qa_practice'
+															<li class="menu-sub-item-QA" ><a href='#QA_practice'
 																	onclick="openTab(event, 'qa_practice')"
 																	class="tablinks" >Практика</a>
 															</li>
@@ -149,14 +142,15 @@
 												</div>
 
 												<div class="accordion__item">
-													<div class="menu-item-BA accordion__question" id="accordion-ba">
+													<div class="menu-item-QA accordion__question" id="accordion-ba">
 														Business Analyst
 													</div>
 													<div class="accordion__answer">
 														<ul class="sub-menu tab">
 
-															<li class="menu-sub-item-QA"><a href='?courcename=ba_practice'
+															<li class="menu-sub-item-QA"><a href='#ba_practice'
 																id="ba-course-link"
+																	onclick="openTab(event, 'ba_practice')"
 																	class="tablinks">Практика</a>
 															</li>
 	
@@ -165,13 +159,13 @@
 												</div>
 
 												<div class="accordion__item">
-													<div class="menu-item-PM accordion__question">
+													<div class="menu-item-QA accordion__question">
 														Project Manager
 													</div>
 													<div class="accordion__answer">
 														<ul class="sub-menu tab">
 
-															<li class="menu-sub-item-QA" ><a href='?courcename=pm_practice'
+															<li class="menu-sub-item-QA" ><a href='#pm_practice'
 																	onclick="openTab(event, 'pm_practice')"
 																	class="tablinks">Практика</a>
 															</li>
@@ -349,10 +343,10 @@
   footerlink();
 	</script>
 	<script>
-		/*$("#leftside-navigation .sub-menu > a").click(function (e) {
+		$("#leftside-navigation .sub-menu > a").click(function (e) {
 			$("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(),
 				e.stopPropagation()
-		})*/
+		})
 	</script>
 
 
@@ -375,57 +369,7 @@
 	
 	<!-- Tabs function -->
 	<script>
-	$('.tablinks').on('click',function () {
-		$('.tablinks').not(this).removeClass('active');
-		$(this).addClass('active');
-
-		var id = $(this).attr("id");
-
-		if (id=='ba-course-link'){
-		$(".tabcontent#ba_practice").css({"display":"block"});
-		$(".tabcontent#qa_automation").css({"display":"none"});
-		}else{
-			$(".tabcontent#ba_practice").css({"display":"none"});
-		}
-
-		if (id=='qa-course-link'){
-		$(".tabcontent#qa_automation").css({"display":"block"});
-		$(".tabcontent#ba_practice").css({"display":"none"});
-
-		}else{
-			$(".tabcontent#qa_automation").css({"display":"none"});
-		}
-});
-		/*var hash = window.location.hash;
-
-		if(hash== "#ba_practice"){
-
-		
-		/*
-
-		if(hash == "#ba_practice"){
-		$("#accordion-ba").click();
-		tabcontent = document.getElementsByClassName("tabcontent");
-		$(".tabcontent#ba_practice-course").css({"display":"block"});
-		};*/	
-
-		
-var hash = window.location.hash;
-
-		if(hash == "#ba_practice"){
-			$("#accordion-ba").click();
-			$("a#ba-course-link")[0].click();
-			$("a#ba-course-link")[0].click();
-		}
-
-		var hash = window.location.hash;
-
-if(hash == "#qa_automation"){
-	$("#defaultOpen").click();
-	$("a#qa-course-link")[0].click();
-
-}
-	/*function openTab(evt, tabName) {
+		function openTab(evt, tabName) {
 			var i, tabcontent, tablinks;
 			tabcontent = document.getElementsByClassName("tabcontent");
 			for (i = 0; i < tabcontent.length; i++) {
@@ -438,57 +382,16 @@ if(hash == "#qa_automation"){
 			document.getElementById(tabName).style.display = "block";
 			evt.currentTarget.className += " active";
 		  
-		}*/
-		/*function openTab(evt, tabName) {
-			var i, tabcontent, tablinks;
-			tabcontent = document.getElementsByClassName("tabcontent");
-			for (i = 0; i < tabcontent.length; i++) {
-				tabcontent[i].style.display = "none";
-			}
-			tablinks = document.getElementsByClassName("tablinks");
-			for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-			}
-			document.getElementById(tabName).style.display = "block";
-			evt.currentTarget.className += " active";
-		  
-		};*/
+		};
 		
 
-
-		/*var hash = window.location.hash;
-
-		if(hash == "#ba_practice"){
-
-			$("#accordion-ba").click();
-
-			$("#ba-course-link").on( "click", openTab("click", 'ba_practice'));
-			$("#ba-course-link").trigger("click");
-
-			//document.getElementById('ba_practice').style.display = "block";
-
-		}*/
 		
-		// Get the element with id="defaultOpen" and click on it*/
-
-		//$("#defaultOpen").click();
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
 	</script>
 
-	<script>
-		function myFunction(x) {
-			x.classList.toggle("change");
-			var y = document.getElementById("header-block");
-			if (y.className === "header-menu") {
-				y.className += " responsive";
-			} else {
-				y.className = "header-menu";
-					}	
-				}
-</script>
-
-<script>
 	
-</script>
+
 	<!-- Footer Scripts
 	============================================= -->
 	<!-- for phone mask -->
