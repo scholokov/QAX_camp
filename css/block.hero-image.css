@@ -35,13 +35,13 @@
 
 @media (min-width: 576px) {
     #hero-text-longread {
-        max-width: 70%;
+        max-width: 100%;
     }
 }
 
 @media (min-width: 768px) {
     #hero-text-longread {
-        max-width: 600px;
+       max-width: 100%;
     }
 }
 
