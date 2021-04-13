@@ -83,9 +83,11 @@
 			<div id="header-block">
 				<a href="index.php"><img src="images/logo.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.html" id="menuCources" class="header-menu">курси</a>
+				<a href="cources.php" id="menuCources" class="header-menu">курси</a>
 
-				<a href="about_us.html" id="menuCources" class="header-menu">про нас</a>
+				<a href="about_us.php" id="menuCources" class="header-menu">про нас</a>
+
+				<a href="our_trainers.php" id="menuCources" class="header-menu">наші тренери</a>
 
 				<!--
 				<div><a href="#" class="language">UA|RU</a></div>
