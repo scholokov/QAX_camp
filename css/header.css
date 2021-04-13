@@ -113,15 +113,15 @@
   }
 
   @media screen and (max-width: 600px) {
-    #header-block.responsive div#mobile-menu-fullscreen{
+    .header-menu.responsive div#mobile-menu-fullscreen{
         display: block;
     }
 
-    #header-block.responsive body{
+    .header-menu.responsive body{
         overflow: hidden;
     }
 
-    #header-block.responsive div#footer-block{
+    .header-menu.responsive div#footer-block{
       display: none;
   }
 
