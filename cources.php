@@ -99,12 +99,25 @@
 					<div id="sendButtonText">Написати</div></a>
 					
 				
+				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg"></a></div>
+
 				<div class="burger-icon" onclick="myFunction(this)">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
 						<div class="bar3"></div>
 				</div>
-				
+
+				<div id="mobile-menu-fullscreen">
+					<a href="cources.php" class="header-menu-mobile">курси</a>
+
+					<a href="about_us.php" class="header-menu-mobile">про нас</a>
+
+					<a href="our_trainers.php" class="header-menu-mobile">наші тренери</a>
+
+					<a href="#write_to_us">
+					<!-- <a href="https://t.me/RecrutMan"> -->
+					<div id="sendButtonText-mobile" onclick="goToForm()">Написати</div></a>
+		    	</div>
 			</div>
 		</header><!-- #header end -->
 
@@ -225,11 +238,26 @@
   var y = document.getElementById("header-block");
     if (y.className === "header-menu") {
         y.className += " responsive";
+		$("body").css({ "overflow": "hidden" });
+		$("#footer-block").css({ "display": "none" });
+		$("#cources").css({ "display": "none" });
+		
     } else {
         y.className = "header-menu";
-	
+		$("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
+		$("#cources").css({ "display": "block" });
     }
 }
+function goToForm(){
+		$(".burger-icon").removeClass("change");
+		$("#header-block").removeClass("responsive");
+	    $("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
+		$("#cources").css({ "display": "block" });
+
+}
+
 	</script>
 	<!-- Footer Scripts
 	============================================= -->
