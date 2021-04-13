@@ -102,6 +102,10 @@
 					<a href="about_us.php" class="header-menu-mobile">про нас</a>
 
 					<a href="our_trainers.php" class="header-menu-mobile">наші тренери</a>
+
+					<a href="#write_to_us">
+					<!-- <a href="https://t.me/RecrutMan"> -->
+					<div id="sendButtonText-mobile">Написати</div></a>
 		    	</div>
 			</div>
 
@@ -503,13 +507,13 @@ function myFunction(x) {
         y.className += " responsive";
 		$("body").css({ "overflow": "hidden" });
 		$("#footer-block").css({ "display": "none" });
-		$("#courses").css({ "display": "none" });
+		$("#cources").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
 		$("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
-		$("#courses").css({ "display": "block" });
+		$("#cources").css({ "display": "block" });
     }
 }
 	</script>
