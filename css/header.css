@@ -89,6 +89,17 @@
     transition: 0.4s;
   }
 
+#mobile-menu-fullscreen{
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    background-color: #212121;
+    min-height: 100vh;
+    width: 100vw;
+    position: absolute;
+    height: 100%;
+    display: none;
+  }
 
   @media screen and (max-width: 600px) {
     .header-menu #menuCources,#sendButtonText {display: none;}
@@ -102,7 +113,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    div#header-block.responsive #mobile-menu-fullscreen{
+    div#header-block.responsive div#mobile-menu-fullscreen{
         display: block;
     }
 
@@ -110,7 +121,7 @@
         overflow: hidden;
     }
 
-    div#header-block.responsive div#header-block.responsive{
+    div#header-block.responsive div#footer-block{
       display: none;
   }
 
@@ -143,14 +154,4 @@
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
-  #mobile-menu-fullscreen{
-    left: 0;
-    top: 80px;
-    bottom: 0;
-    background-color: #212121;
-    min-height: 100vh;
-    width: 100vw;
-    position: absolute;
-    height: 100%;
-    display: none;
-  }
+  
