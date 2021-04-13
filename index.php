@@ -96,12 +96,12 @@
 						<div class="bar3"></div>
 				</div>
 
-				
-			</div>
-			
 				<div id="mobile-menu-fullscreen">
 				
 		    	</div>
+			</div>
+
+				
 
 		</header><!-- #header end -->
 		
