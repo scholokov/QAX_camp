@@ -9,11 +9,6 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     align-items: center;
     text-transform: uppercase;
-    /*transition: height 1s;
-    -webkit-transition: height 1s;
-    -moz-transition: height 1s;
-    -ms-transition: height 1s;
-    -o-transition: height 1s;*/
 }
 
 .header-menu {
@@ -165,7 +160,7 @@
       display: inline-block;
       cursor: pointer;
       position: absolute;
-      right: 56px;
+      right: 86px;
       top: 26px;
   }
   }
@@ -173,6 +168,10 @@
   @media screen and (max-width: 600px) {
     .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile,.header-menu-mobile{
         display: block;
+    }
+
+    .header-menu.responsive #letter-icon{
+      display: none;
     }
 
     .header-menu.responsive .burger-icon {
