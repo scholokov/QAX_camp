@@ -208,21 +208,7 @@
 		// Get the element with id="defaultOpen" and click on it
 		document.getElementById("defaultOpen").click();
 	</script>
-
-	<script> 
-	function myFunction(x) {
-  x.classList.toggle("change");
-  var y = document.getElementById("header-block");
-    if (y.className === "header-menu") {
-        y.className += " responsive";
-    } else {
-        y.className = "header-menu";
 	
-    }
-}
-	</script>
-	
-
 	<!-- Footer Scripts
 	============================================= -->
 	<!-- for phone mask -->
