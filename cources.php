@@ -95,12 +95,6 @@
 					<!-- <a href="https://t.me/RecrutMan"> -->
 					<div id="sendButtonText">Написати</div>
 				</a>
-
-				<div class="burger-icon" onclick="myFunction(this)">
-						<div class="bar1"></div>
-						<div class="bar2"></div>
-						<div class="bar3"></div>
-				</div>
 			</div>
 		</header><!-- #header end -->
 
