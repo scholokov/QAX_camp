@@ -98,6 +98,16 @@
     width: 100vw;
     position: absolute;
     height: 100%;
+    display: none;
+  }
+
+  #header-menu-mobile{
+    
+    color:white;
+    display: block;
+    float: left;
+    margin-left: 6%;
+    margin-top: 28px;
   }
 
   @media screen and (max-width: 600px) {
@@ -121,7 +131,7 @@
       right: 36px;
       top: 26px;
     }
-    .header-menu.responsive #menuCources {
+    .header-menu.responsive #header-menu-mobile {
       max-width: 130px;
       margin: 0 auto;
       padding-top: 20px;

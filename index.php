@@ -97,7 +97,11 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-				
+					<a href="cources.php" class="header-menu-mobile">курси</a>
+
+					<a href="about_us.php" class="header-menu-mobile">про нас</a>
+
+					<a href="our_trainers.php" class="header-menu-mobile">наші тренери</a>
 		    	</div>
 			</div>
 
@@ -499,12 +503,13 @@ function myFunction(x) {
         y.className += " responsive";
 		$("body").css({ "overflow": "hidden" });
 		$("#footer-block").css({ "display": "none" });
+		$("#courses").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
 		$("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
-	
+		$("#courses").css({ "display": "block" });
     }
 }
 	</script>
