@@ -289,12 +289,14 @@
 		$("body").css({ "overflow": "hidden" });
 		$("#footer-block").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
+		$("#write_to_us").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
 		$("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
 		$("#content").css({ "display": "block" });
+		$("#write_to_us").css({ "display": "block" });
 
     }
 }
@@ -304,6 +306,7 @@ function goToForm(){
 	    $("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
 		$("#content").css({ "display": "block" });
+		$("#write_to_us").css({ "display": "block" });
 
 }
 
