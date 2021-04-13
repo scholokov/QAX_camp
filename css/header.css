@@ -116,14 +116,6 @@
         display: block;
     }
 
-    .header-menu.responsive body{
-        overflow: hidden;
-    }
-
-    .header-menu.responsive div#footer-block{
-      display: none;
-  }
-
     .header-menu.responsive .burger-icon {
       position: absolute;
       right: 36px;

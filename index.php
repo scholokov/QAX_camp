@@ -495,10 +495,17 @@
 function myFunction(x) {
   x.classList.toggle("change");
   var y = document.getElementById("header-block");
+  var b = document.getElementByTagName('body');
+  var f = document.getElementById('footer-block');
     if (y.className === "header-menu") {
         y.className += " responsive";
+		b.css({ "overflow": "hidden" });
+		f.css({ "display": "none" });
+		
     } else {
         y.className = "header-menu";
+		b.css({ "overflow": "visible" });
+		f.css({ "display": "flex" });
 	
     }
 }
