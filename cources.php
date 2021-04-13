@@ -95,6 +95,12 @@
 					<!-- <a href="https://t.me/RecrutMan"> -->
 					<div id="sendButtonText">Написати</div>
 				</a>
+
+				<div class="burger-icon" onclick="myFunction(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+				</div>
 			</div>
 		</header><!-- #header end -->
 
@@ -209,6 +215,18 @@
 		document.getElementById("defaultOpen").click();
 	</script>
 	
+	<script>
+	function myFunction(x) {
+  x.classList.toggle("change");
+  var y = document.getElementById("header-block");
+    if (y.className === "header-menu") {
+        y.className += " responsive";
+    } else {
+        y.className = "header-menu";
+	
+    }
+}
+	</script>
 	<!-- Footer Scripts
 	============================================= -->
 	<!-- for phone mask -->
