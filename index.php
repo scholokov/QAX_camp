@@ -499,13 +499,13 @@ function myFunction(x) {
   var f = document.getElementById('footer-block');
     if (y.className === "header-menu") {
         y.className += " responsive";
-		b.style.overflow="hidden";
-		f.style.display="none";
+		document.getElementsByTagName('body').style.overflow="hidden";
+		document.getElementById('footer-block').style.display="none";
 		
     } else {
         y.className = "header-menu";
-		b.style.overflow="visible";
-		f.style.display="flex";
+		document.getElementsByTagName('body').style.overflow="visible";
+		document.getElementById('footer-block').style.display="flex";
 	
     }
 }
