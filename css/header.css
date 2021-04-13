@@ -113,7 +113,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    .header-menu.responsive div#mobile-menu-fullscreen{
+    .header-menu.responsive #mobile-menu-fullscreen{
         display: block;
     }
 
