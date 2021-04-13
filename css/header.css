@@ -133,19 +133,15 @@
     height: 44px;
     text-align: center;
 
+    background: #F66F5D;
     color: #FFFFFF;
 
-    border: 1px solid #FFFFFF;
+    border: 1px solid #F66F5D;
     box-sizing: border-box;
     font-family: Raleway;
 
   }
 
-  #sendButtonText-mobile:hover {
-    background: #F66F5D;
-    color: #FFFFFF;
-    border-color: #F66F5D
-}
 
   @media screen and (max-width: 600px) {
     .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
