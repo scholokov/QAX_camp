@@ -113,18 +113,17 @@
   #sendButtonText-mobile{
 
     display: none;
-    float: right;
-    margin-right: 7%;
-
-    margin-top: 18px;
-    margin-left: 2%;
-    padding-top: 10px;
+    
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 
     border-width: 1px;
     border-style: solid;
 
-    width: 35%;
-    max-width: 202px;
+    width: 100%;
+    max-width: 300px;
     height: 44px;
     text-align: center;
 
