@@ -95,12 +95,12 @@
 						<div class="bar2"></div>
 						<div class="bar3"></div>
 				</div>
-				<div id="mobile-menu-fullscreen">
 				
-				</div>
 			</div>
 		</header><!-- #header end -->
-
+		<div id="mobile-menu-fullscreen">
+				
+		</div>
 		<div id="heroImage-block">
 			<!-- ============================================ -->
 			<div>
