@@ -518,6 +518,7 @@ function myFunction(x) {
     }
 }
 function goToForm(){
+		$(".burger-icon").removeClass("change");
 		$("#header-block").removeClass("responsive");
 	    $("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
