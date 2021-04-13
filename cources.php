@@ -80,7 +80,7 @@
 				src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v9.0" nonce="etHa6BVZ"></script>
 
 
-			<div id="header-block">
+				<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/logo.svg" alt="Logo" id="logo"></a>
 
 				<a href="cources.php" id="menuCources" class="header-menu">курси</a>
@@ -89,20 +89,22 @@
 
 				<a href="our_trainers.php" id="menuCources" class="header-menu">наші тренери</a>
 
+				
 				<!--
 				<div><a href="#" class="language">UA|RU</a></div>
 				-->
 
 				<a href="#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText">Написати</div>
-				</a>
-
+					<div id="sendButtonText">Написати</div></a>
+					
+				
 				<div class="burger-icon" onclick="myFunction(this)">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
 						<div class="bar3"></div>
 				</div>
+				
 			</div>
 		</header><!-- #header end -->
 
