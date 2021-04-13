@@ -101,7 +101,7 @@
     display: none;
   }
 
-  #header-menu-mobile{
+  .header-menu-mobile{
     
     color:white;
     display: block;
@@ -131,7 +131,7 @@
       right: 36px;
       top: 26px;
     }
-    .header-menu.responsive #header-menu-mobile {
+    .header-menu.responsive .header-menu-mobile {
       max-width: 130px;
       margin: 0 auto;
       padding-top: 20px;
