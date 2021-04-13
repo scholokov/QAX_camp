@@ -518,9 +518,11 @@ function myFunction(x) {
     }
 }
 function goToForm(){
-	$("body").css({ "overflow": "visible" });
+		$("#header-block").removeClass("responsive");
+	    $("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
 		$("#cources").css({ "display": "block" });
+
 }
 
 	</script>
