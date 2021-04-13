@@ -114,6 +114,8 @@
 
     display: none;
     
+    cursor:pointer;
+
     position: fixed;
     bottom: 30px;
     left: 50%;
@@ -134,6 +136,12 @@
     font-family: Raleway;
 
   }
+
+  #sendButtonText-mobile:hover {
+    background: #F66F5D;
+    color: #FFFFFF;
+    border-color: #F66F5D
+}
 
   @media screen and (max-width: 600px) {
     .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen {display: none;}
