@@ -500,7 +500,7 @@ function myFunction(x) {
     if (y.className === "header-menu") {
         y.className += " responsive";
 		b.style.overflow="hidden";
-		f.style.display="none"=;
+		f.style.display="none";
 		
     } else {
         y.className = "header-menu";
