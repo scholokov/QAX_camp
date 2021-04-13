@@ -148,7 +148,9 @@
 }
 
   @media screen and (max-width: 600px) {
-    .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {display: none;}
+    .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
+      display: none;
+    }
     .header-menu .burger-icon {
         display: inline-block;
         cursor: pointer;
@@ -161,7 +163,7 @@
       cursor: pointer;
       position: absolute;
       right: 86px;
-      top: 26px;
+      top: 24px;
   }
   }
 

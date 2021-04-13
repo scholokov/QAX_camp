@@ -90,7 +90,7 @@
 					<div id="sendButtonText">Написати</div></a>
 					
 				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg"></a></div>
-				
+
 				<div class="burger-icon" onclick="myFunction(this)">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
@@ -106,7 +106,7 @@
 
 					<a href="#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText-mobile">Написати</div></a>
+					<div id="sendButtonText-mobile" onclick="goToForm()">Написати</div></a>
 		    	</div>
 			</div>
 
@@ -517,6 +517,12 @@ function myFunction(x) {
 		$("#cources").css({ "display": "block" });
     }
 }
+function goToForm(){
+	$("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
+		$("#cources").css({ "display": "block" });
+}
+
 	</script>
 
 	<!-- Footer Scripts
