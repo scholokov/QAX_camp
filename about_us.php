@@ -108,7 +108,7 @@
 
 					<a href="our_trainers.php" class="header-menu-mobile">наші тренери</a>
 
-					<a href="#write_to_us">
+					<a href="index.php#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
 					<div id="sendButtonText-mobile" onclick="goToForm()">Написати</div></a>
 		    	</div>
@@ -228,13 +228,14 @@
         y.className += " responsive";
 		$("body").css({ "overflow": "hidden" });
 		$("#footer-block").css({ "display": "none" });
-		$("#cources").css({ "display": "none" });
+		$("#content").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
 		$("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
-		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
+
     }
 }
 function goToForm(){
@@ -242,7 +243,7 @@ function goToForm(){
 		$("#header-block").removeClass("responsive");
 	    $("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
-		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
 
 }
 

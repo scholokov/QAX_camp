@@ -288,13 +288,14 @@
         y.className += " responsive";
 		$("body").css({ "overflow": "hidden" });
 		$("#footer-block").css({ "display": "none" });
-		$("#cources").css({ "display": "none" });
+		$("#content").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
 		$("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
-		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
+
     }
 }
 function goToForm(){
@@ -302,7 +303,7 @@ function goToForm(){
 		$("#header-block").removeClass("responsive");
 	    $("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
-		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
 
 }
 
