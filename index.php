@@ -495,17 +495,15 @@
 function myFunction(x) {
   x.classList.toggle("change");
   var y = document.getElementById("header-block");
-  var b = document.getElementsByTagName('body');
-  var f = document.getElementById('footer-block');
     if (y.className === "header-menu") {
         y.className += " responsive";
-		document.getElementsByTagName('body').style.overflow="hidden";
-		document.getElementById('footer-block').style.display="none";
+		$("body").css({ "overflow": "hidden" });
+		$("#footer-block").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
-		document.getElementsByTagName('body').style.overflow="visible";
-		document.getElementById('footer-block').style.display="flex";
+		$("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
 	
     }
 }
