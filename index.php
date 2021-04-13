@@ -499,13 +499,13 @@ function myFunction(x) {
   var f = document.getElementById('footer-block');
     if (y.className === "header-menu") {
         y.className += " responsive";
-		b.css({ "overflow": "hidden" });
-		f.css({ "display": "none" });
+		b.style.overflow="hidden";
+		f.style.display="none"=;
 		
     } else {
         y.className = "header-menu";
-		b.css({ "overflow": "visible" });
-		f.css({ "display": "flex" });
+		b.style.overflow="visible";
+		f.style.display="flex";
 	
     }
 }
