@@ -112,7 +112,7 @@
   .header-menu-mobile{
     
     color:white;
-    display: block;
+    display: none;
     float: left;
     margin-left: 6%;
     margin-top: 28px;
@@ -153,7 +153,7 @@
 }
 
   @media screen and (max-width: 600px) {
-    .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen {display: none;}
+    .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {display: none;}
     .header-menu .burger-icon {
         display: inline-block;
         cursor: pointer;
@@ -171,7 +171,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile{
+    .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile,.header-menu-mobile{
         display: block;
     }
 
