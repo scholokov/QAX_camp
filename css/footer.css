@@ -32,6 +32,7 @@
 
 .footer-contatcs-item {
     padding-top: 8px;
+    white-space: nowrap;
 
 }
 
