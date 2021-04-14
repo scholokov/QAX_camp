@@ -29,7 +29,6 @@
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.fb_comments.css" type="text/css" />
 
 	<meta property="fb:admins" content="denis.scholokov" />
 
@@ -226,7 +225,7 @@
 		  
 		};
 		
-		sidebar.find("a").each(function() {
+		$(".sidebar").find("a").each(function() {
 
             var Lnk=$(this).attr("href");
 
