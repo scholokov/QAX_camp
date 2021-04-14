@@ -230,9 +230,7 @@
             var Lnk=$(this).attr("href");
 
             if(document.location.href.slice(1) == Lnk) {
-
-            $(this).parents().prev().click();
-			$(this).click()// красим ссылку в красный и открываем меню
+				alert("hello");// красим ссылку в красный и открываем меню
         }
  
    });
