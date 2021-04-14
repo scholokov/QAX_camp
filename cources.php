@@ -225,16 +225,9 @@
 		  
 		};
 		
-		$(".sidebar").find("a").each(function() {
+		
 
-            var Lnk=$(this).attr("href");
-
-            if(document.location.href.slice(1) == Lnk) {
-				alert("hello");// красим ссылку в красный и открываем меню
-        }
- 
-   });
-
+          
 		
 		// Get the element with id="defaultOpen" and click on it
 		//document.getElementById("defaultOpen").click();
