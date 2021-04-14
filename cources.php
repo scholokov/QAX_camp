@@ -226,13 +226,13 @@
 		  
 		};
 		
-		nav.find("a").each(function() {
+		sidebar.find("a").each(function() {
 
             var Lnk=$(this).attr("href");
 
             if(document.location.href == Lnk) {
 
-            $(this).parents().prev().click(); // красим ссылку в красный и открываем меню
+            $(this).click(); // красим ссылку в красный и открываем меню
         }
  
    });
