@@ -92,8 +92,10 @@
     text-align: center;
     padding-left: 45px;
     padding-right: 45px;
-    max-height: 56px;
-
+    max-width: 200px;
+    max-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
     background-color: transparent;
     border: 1px solid #212121;
     box-sizing: border-box;
@@ -102,9 +104,9 @@
 }
 
 .write_to_us-button-send:hover {
-    background-color: white;
-    border: 1px solid #FFFFFF;
-    color: #EA5455;
+    background-color: #212121;
+    border: 1px solid #212121;
+    color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
