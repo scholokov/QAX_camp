@@ -143,7 +143,7 @@
   }
 
 
-  @media screen and (max-width: 860px) {
+  @media screen and (max-width: 900px) {
     .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
       display: none;
     }
@@ -163,7 +163,7 @@
   }
   }
 
-  @media screen and (max-width: 860px) {
+  @media screen and (max-width: 900px) {
     .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile,.header-menu-mobile{
         display: block;
     }
