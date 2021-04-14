@@ -467,3 +467,7 @@ var maskOptions = {
   mask: '+{38\\0}(00) 000 - 00 - 00'
 };
 var mask = IMask(element, maskOptions);
+
+$("#comment_input").on("input", function() {
+    $("#comment-counter").text(this.value.length);
+});
