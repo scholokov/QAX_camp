@@ -204,7 +204,7 @@
 
 								<div class="col-md-4 cources-cards-flex">
 									<div class="cources-qa-block">
-										<a class="courses-block-a" href="cources.html?courcename=pm_practice">
+										<a class="courses-block-a" href="cources.php#pm_practice">
 											<div>
 												<h3 class="cources-qa-block-title">
 													Project Manager

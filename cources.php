@@ -226,6 +226,16 @@
 		  
 		};
 		
+		nav.find("a").each(function() {
+
+            var Lnk=$(this).attr("href");
+
+            if(document.location.href == Lnk) {
+
+            $(this).parents().prev().click(); // красим ссылку в красный и открываем меню
+        }
+ 
+   });
 
 		
 		// Get the element with id="defaultOpen" and click on it
