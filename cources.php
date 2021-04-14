@@ -229,7 +229,7 @@
 
             var Lnk=$(this).attr("href");
 
-            if(document.location.href == Lnk) {
+            if(document.location.href.slice(1) == Lnk) {
 
             $(this).click(); // красим ссылку в красный и открываем меню
         }
