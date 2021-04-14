@@ -231,7 +231,8 @@
 
             if(document.location.href.slice(1) == Lnk) {
 
-            $(this).parents().prev().click(); // красим ссылку в красный и открываем меню
+            $(this).parents().prev().click();
+			$(this).click()// красим ссылку в красный и открываем меню
         }
  
    });
