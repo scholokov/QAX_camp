@@ -117,6 +117,12 @@
     .form-group {
         display: block !important;
     }
+
+    .write_to_us-button-send {
+        display: block;
+        margin: 30px auto;
+        padding: 10px 45px;
+    }
 }
 
 @media (min-width: 768px) {
