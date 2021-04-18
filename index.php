@@ -35,6 +35,14 @@
 	<title>QAX Camp</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon-57x57.png" />
+
+	<link rel="apple-touch-icon" sizes="72x72" href="fav72x72.png" />
+
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon-114x114.png" />
+
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon-144x144.png" />
+
 	<script>
 		function readTextFile(file, callback) {
 			var rawFile = new XMLHttpRequest();
