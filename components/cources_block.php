@@ -12,12 +12,13 @@
 $cource_tab_GET = $_GET["cource"] ; 
 $cource_name_GET = $_GET["name"] ; 
 
-	
+// building root menu	
 $json = file_get_contents( 'cources/_menu_root.json');
 $json_data = json_decode($json,true);
 foreach ($json_data as $cource_file => $cource_tab) {
 	if ($cource_tab['availability'])
 		{
+			// setting up "current" menu tab
 			if ( $cource_tab['cource'] ==  $cource_tab_GET )
 				$defaultFlag = 'id="defaultOpen"';
 			else
@@ -26,14 +27,14 @@ foreach ($json_data as $cource_file => $cource_tab) {
 			
 			
 			
-			echo '<div class="accordion__item">';
+			echo '<div class="accordion__item" ' . $defaultFlag . '>';
 			echo '<div class="menu-item-QA accordion__question" ' . $defaultFlag . '>';
 			echo $cource_tab['courceTabName'];
 			echo '</div>';
 			echo '<div class="accordion__answer">';
 			echo '<ul class="sub-menu tab active">';
 
-			
+			// building second level of menu
 			$json_cource = file_get_contents( 'cources/' . $cource_tab['courcefile'] );
 			$json_cource_data = json_decode($json_cource,true);
 			foreach ($json_cource_data as $cource_name_file => $cource_name)
