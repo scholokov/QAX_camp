@@ -88,11 +88,6 @@ foreach ($json_data as $cource_file => $cource_tab) {
 			
 	?>		
 
-				<?php include 'cources/qa_automation.html'?>
-				<?php include 'cources/qa_theory.html'?>
-				<?php include 'cources/qa_practice.html'?>
-				<?php include 'cources/ba_practice.html'?>
-				<?php include 'cources/pm_practice.html'?>
 
 			</div>
 		</div>
