@@ -223,6 +223,10 @@
 			document.getElementById(tabName).style.display = "block";
 			evt.currentTarget.className += " active";
 		  
+			var nextTitle = 'ddddd';
+			var nextURL = 'ddd';
+			window.history.pushState(nextState, nextTitle, nextURL);
+
 		};
 		
 		
