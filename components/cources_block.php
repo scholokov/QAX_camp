@@ -27,7 +27,7 @@ foreach ($json_data as $cource_file => $cource_tab) {
 			
 			
 			
-			echo '<div class="accordion__item" ' . $defaultFlag . '>';
+			echo '<div class="accordion__item">';
 			echo '<div class="menu-item-QA accordion__question" ' . $defaultFlag . '>';
 			echo $cource_tab['courceTabName'];
 			echo '</div>';
