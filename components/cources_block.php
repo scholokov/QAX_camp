@@ -76,8 +76,10 @@ foreach ($json_data as $cource_file => $cource_tab) {
 					$json_cource = file_get_contents( 'cources/' . $cource_tab['courcefile'] );
 					$json_cource_data = json_decode($json_cource,true);
 					foreach ($json_cource_data as $cource_name_file => $cource_name){
-						if ($cource_name['availability'])
-							echo $cource_name['courseFileName'];
+						if ($cource_name['availability']){
+							//echo $cource_name['courseFileName'];
+							include 'cources/' . $cource_name['courseFileName'] . '.html';
+						}
 					}
 				}
 			}
