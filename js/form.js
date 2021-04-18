@@ -468,6 +468,6 @@ var maskOptions = {
 };
 var mask = IMask(element, maskOptions);
 
-$("#comment_input").on("input", function() {
+$("#comment_input").keyup(function() {
     $("#comment-counter").text(this.value.length);
 });

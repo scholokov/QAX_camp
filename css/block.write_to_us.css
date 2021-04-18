@@ -169,7 +169,9 @@ input[type=tel] {
     font-size: 16px;
 }
 
-
+#comment-counter{
+    display: block;
+}
 
 input::-webkit-input-placeholder {
     color: #222222;
