@@ -42,7 +42,7 @@ foreach ($json_data as $cource_file => $cource_tab) {
 					if ($cource_name['availability']){
 						if ( $cource_name['courseFileName'] ==  $cource_name_GET ){
 							$activeFlag = 'active';
-							$defaultFlag = 'id="defaultOpen"';}
+							//$defaultFlag = 'id="defaultOpen"';}
 						else{
 							$activeFlag = '';
 							$defaultFlag = '';}
