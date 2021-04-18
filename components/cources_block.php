@@ -25,7 +25,7 @@ foreach ($json_data as $cource_file => $cource_tab) {
 				$defaultFlag = '';
 			
 			
-			$cource_tab_id = $cource_tab['courceTabName'];
+			$cource_tab_id = $cource_tab['cource'];
 			
 			echo '<div class="accordion__item">';
 			echo '<div class="menu-item-QA accordion__question" ' . $defaultFlag . '>';
