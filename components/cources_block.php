@@ -72,14 +72,13 @@ foreach ($json_data as $cource_file => $cource_tab) {
 			
 			<?php
 			foreach ($json_data as $cource_file => $cource_tab) {
-				if ($cource_tab['availability'])
-					{
-						foreach ($json_cource_data as $cource_name_file => $cource_name)
-						{
-							if ($cource_name['availability'])
-								echo $cource_name['courseFileName'];
-						}
+				if ($cource_tab['availability']){
+					foreach ($json_cource_data as $cource_name_file => $cource_name){
+						if ($cource_name['availability'])
+							echo $cource_name['courseFileName'];
 					}
+				}
+			}
 			
 			
 			
