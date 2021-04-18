@@ -126,7 +126,10 @@
         display: block;
         margin: 30px auto;
         padding: 10px 45px;
+        -webkit-appearance: none;
+        -moz-appearance:none;
     }
+
 
     input[type=text] {
         border-radius: 0;
