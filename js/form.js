@@ -469,5 +469,5 @@ var maskOptions = {
 var mask = IMask(element, maskOptions);
 
 $("#comment_input").keyup(function() {
-    $("#comment-counter").text($("#comment_input").value.length);
+    $("#comment-counter").text(comment_length);
 });
