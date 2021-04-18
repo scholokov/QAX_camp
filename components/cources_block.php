@@ -77,7 +77,13 @@ foreach ($json_data as $cource_file => $cource_tab) {
 					$json_cource_data = json_decode($json_cource,true);
 					foreach ($json_cource_data as $cource_name_file => $cource_name){
 						if ($cource_name['availability']){
-							echo '<div id="' . $cource_name['courseFileName'] . '" class="tabcontent" style="display: none;">' ;
+							if ( $cource_name['courseFileName'] ==  $cource_name_GET ){
+								$activeFlag = 'style="display: block;"';
+							else
+								$activeFlag = 'style="display: none;"';
+							}
+
+							echo '<div id="' . $cource_name['courseFileName'] . '" class="tabcontent" ' . $activeFlag . '>' ;
 							include 'cources/' . $cource_name['courseFileName'] . '.html';
 							echo '</div>';
 						}
