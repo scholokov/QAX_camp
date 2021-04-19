@@ -8056,6 +8056,7 @@ body:not(.device-touch) .entry-link {
 	display: block !important;
 	width: 100% !important;
 	margin: 0;
+	background-color: #F0F0F0;
 }
 
 
