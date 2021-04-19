@@ -137,7 +137,7 @@
 
 					<!--- FB Comments-->
 					<div class="fb-comments" data-href="https://scholokov.github.io/"
-						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
+						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="light">
 					</div>
 					<!--
 					<div class="fb-comments" data-href="https://www.qax-camp.com.ua"
