@@ -12,19 +12,20 @@
 $cource_tab_GET = $_GET["cource"] ; 
 $cource_name_GET = $_GET["name"] ; 
 
-	
+// building root menu	
 $json = file_get_contents( 'cources/_menu_root.json');
 $json_data = json_decode($json,true);
 foreach ($json_data as $cource_file => $cource_tab) {
 	if ($cource_tab['availability'])
 		{
+			// setting up "current" menu tab
 			if ( $cource_tab['cource'] ==  $cource_tab_GET )
 				$defaultFlag = 'id="defaultOpen"';
 			else
 				$defaultFlag = '';
 			
 			
-			
+			$cource_tab_id = $cource_tab['cource'];
 			
 			echo '<div class="accordion__item">';
 			echo '<div class="menu-item-QA accordion__question" ' . $defaultFlag . '>';
@@ -33,7 +34,7 @@ foreach ($json_data as $cource_file => $cource_tab) {
 			echo '<div class="accordion__answer">';
 			echo '<ul class="sub-menu tab active">';
 
-			
+			// building second level of menu
 			$json_cource = file_get_contents( 'cources/' . $cource_tab['courcefile'] );
 			$json_cource_data = json_decode($json_cource,true);
 			foreach ($json_cource_data as $cource_name_file => $cource_name)
@@ -46,8 +47,8 @@ foreach ($json_data as $cource_file => $cource_tab) {
 							$activeFlag = '';
 							$defaultFlag = '';}
 
-						
-						echo '<li class="menu-sub-item-QA"><a href="#' . $cource_name['courseFileName'] . '"';
+						//echo '<li class="menu-sub-item-QA"><a href="#' . $cource_name['courseFileName'] . '"';
+						echo '<li class="menu-sub-item-QA"><a href="?cource=' . $cource_tab_id . '&name=' . $cource_name['courseFileName'] . '"';
 							echo 'onclick="openTab(event, &#039;' . $cource_name['courseFileName'] . '&#039;)" class="tablinks ' . $activeFlag . '"';
 							echo $defaultFlag . '>' . $cource_name['courseName'] . '</a>';
 						echo '</li>';
@@ -68,12 +69,28 @@ foreach ($json_data as $cource_file => $cource_tab) {
 
 		<div class="col-xl-9">
 			<div class="cources_details-text">
+			
+			<?php
+			foreach ($json_data as $cource_file => $cource_tab) {
+				if ($cource_tab['availability']){
+					$json_cource = file_get_contents( 'cources/' . $cource_tab['courcefile'] );
+					$json_cource_data = json_decode($json_cource,true);
+					foreach ($json_cource_data as $cource_name_file => $cource_name){
+						if ($cource_name['availability']){
+							if ( $cource_name['courseFileName'] ==  $cource_name_GET )
+								$activeFlag = 'style="display: block;"';
+							else
+								$activeFlag = 'style="display: none;"';
 
-				<?php include 'cources/qa_automation.html'?>
-				<?php include 'cources/qa_theory.html'?>
-				<?php include 'cources/qa_practice.html'?>
-				<?php include 'cources/ba_practice.html'?>
-				<?php include 'cources/pm_practice.html'?>
+							echo '<div id="' . $cource_name['courseFileName'] . '" class="tabcontent" ' . $activeFlag . '>' ;
+							include 'cources/' . $cource_name['courseFileName'] . '.html';
+							echo '</div>';
+						}
+					}
+				}
+			}
+			?>		
+
 
 			</div>
 		</div>
