@@ -158,7 +158,7 @@
 							<div id="cources-cards-block" class="row col-mb-50 mb-1">
 								<div class="col-md-4 cources-cards-flex">
 									<div class="cources-qa-block">
-										<a class="courses-block-a" href="cources.php?cource=qa&name=qa_automation" id="card-qa">
+										<a class="courses-block-a" href="cources.php?cource=qa&name=qa_practice" id="card-qa">
 											<div>
 												<h3 class="cources-qa-block-title">
 														QA Engineer
@@ -212,7 +212,7 @@
 
 								<div class="col-md-4 cources-cards-flex">
 									<div class="cources-qa-block">
-										<a class="courses-block-a" href="cources.php#pm_practice">
+										<a class="courses-block-a" href="cources.php?cource=pm&name=pm_practice">
 											<div>
 												<h3 class="cources-qa-block-title">
 													Project Manager
