@@ -8055,7 +8055,6 @@ body:not(.device-touch) .entry-link {
 .fb_iframe_widget > span > iframe {
 	display: block !important;
 	width: 100% !important;
-	margin: 0;
 	background-color: #F0F0F0;
 	margin: 30px auto;
 }
