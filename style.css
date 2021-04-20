@@ -8039,11 +8039,6 @@ body:not(.device-touch) .entry-link {
 
 #respond p:first-child { margin-top: 0; }
 
-.UFICommentActorName{
-	color: #A82400;
-}
-
-
 #respond label small {
 	color: #999;
 	font-weight: normal;
