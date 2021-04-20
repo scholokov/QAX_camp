@@ -64,6 +64,9 @@ $('form').submit(function (e) {
             document.getElementById("write_to_us-thanks-block").setAttribute("class", "");
 
             /* alert('your message has been sent!'); */
+        },
+        error: function(){
+            alert('No Internet Connection.');
         }
     });
 });
