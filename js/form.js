@@ -467,6 +467,10 @@ function check_comment() {
 // phone mask
 var element = document.getElementById('phone_input');
 var maskOptions = {
-  mask: '+{38\\0}(00) 000 - 00 - 00',
+  mask: '+{38\\0}(#~) 000 - 00 - 00',
+  definitions: {
+    '#': /[12345679]/,
+    '~': /[12345679]/
+  },
 };
 var mask = IMask(element, maskOptions);
