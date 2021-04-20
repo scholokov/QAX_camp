@@ -114,7 +114,7 @@
 
 					<a href="#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText-mobile" onclick="goToForm()">Написати</div></a>
+					<div id="sendButtonText-mobile" onclick="goToForm()">Записатися</div></a>
 		    	</div>
 			</div>
 
