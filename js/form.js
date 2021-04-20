@@ -332,7 +332,7 @@ function check_email() {
     var error_message_email_invalid = $("#error_message_email_invalid");
     var error_message_email_long = $("#error_message_email_long");
 
-    var patternEmail = new RegExp(/^[A-Z0-9._+-()]+@[A-Z0-9-]+[.]+[A-Z]{1,4}$/i);
+    var patternEmail = new RegExp(/^[A-Z0-9._+-\\(\\)]+@[A-Z0-9-]+[.]+[A-Z]{1,4}$/i);
     var email_clear = email_input.val().trim();
     let email = patternEmail.test(email_clear);
     var email_length = email_clear.length;
@@ -467,7 +467,6 @@ function check_comment() {
 // phone mask
 var element = document.getElementById('phone_input');
 var maskOptions = {
-  mask: '+{38\\0}(11) 000 - 00 - 00',
-  definitions:{'11': {validator: "[1-9]"}}
+  mask: '+{38\\0}(00) 000 - 00 - 00',
 };
 var mask = IMask(element, maskOptions);
