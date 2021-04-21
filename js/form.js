@@ -39,25 +39,6 @@ $('form').submit(function (e) {
             var userUrl=" ";
             break;
     }
-
-    switch(page){
-        case "/index.php":
-            var userPage="Home Page";
-            break;
-    
-        case "/courses.php": 
-            var userPage="";
-            break;
-    
-        case "/about_us.php": 
-            var userPage="About Us";
-            break;
-    
-        case "/our_trainers.php":
-            var userPage="Our Trainers";
-            break;
-        default:"";
-    }
     
     console.log(page);
     console.log(url);
@@ -88,7 +69,7 @@ $('form').submit(function (e) {
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
-        '\nCourse: ' + userUrl + userPage +
+        '\nCourse: ' + userUrl +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + $('#phone_input').val() +
