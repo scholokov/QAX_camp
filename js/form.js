@@ -35,6 +35,7 @@ $('form').submit(function (e) {
         case "?cource=pm&name=pm_practice":
             var userUrl="Курс PM-практика";
             break;
+        default:"";
     }
 
     switch(page){
@@ -53,6 +54,7 @@ $('form').submit(function (e) {
         case "our_trainers.php":
             var userPage="Our Trainers";
             break;
+        default:"";
     }
     
 
