@@ -6,8 +6,12 @@ $('form').submit(function (e) {
 
     var comment = document.getElementById("comment_input").innerText;
     var email = document.getElementById("email_input").innerText;
-    var userUrl=window.location.search;
+    var url=window.location.search;
     var result = true;
+
+    if(url="?cource=ba&name=ba_practice"){
+        var userUrl="Курс BA-практика"
+    }
 
     console.log('comment_input: ' + comment_input);
 
@@ -223,6 +227,7 @@ $(function () {
     }
 
 });//end
+
 
 // then clicked on check box
 function check_agree() {
