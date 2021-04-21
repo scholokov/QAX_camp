@@ -6,7 +6,7 @@ $('form').submit(function (e) {
 
     var comment = document.getElementById("comment_input").innerText;
     var email = document.getElementById("email_input").innerText;
-    var userUrl=location.hash.slice(1);
+    var userUrl=window.location.search;
     var result = true;
 
     console.log('comment_input: ' + comment_input);
