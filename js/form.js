@@ -6,8 +6,8 @@ $('form').submit(function (e) {
 
     var comment = document.getElementById("comment_input").innerText;
     var email = document.getElementById("email_input").innerText;
-    var url=window.location.search;
-    var pages=window.location.pathname;
+    var url=window.location.search.slice(16);
+    var pages=window.location.pathname.slice(1,-4);
     var result = true;
 
     console.log('comment_input: ' + comment_input);
@@ -15,7 +15,7 @@ $('form').submit(function (e) {
     //    var chech_agree_flag = check_agree_send();
     //    console.log('chech_agree: ' + chech_agree_flag);
 
-    switch(url){
+    /*switch(url){
         case "?cource=qa&name=qa_practice":
             var userUrl="Курс QA-практика";
             break;
@@ -57,7 +57,7 @@ $('form').submit(function (e) {
             var userPage="Our Trainers";
             break;
         c
-    }
+    }*/
     
     console.log(pages);
     console.log(url);
@@ -88,7 +88,7 @@ $('form').submit(function (e) {
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
-        '\nCourse: ' + userUrl + userPage +
+        '\nCourse: ' + pages +"  "+ url +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + $('#phone_input').val() +
