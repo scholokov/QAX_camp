@@ -57,7 +57,8 @@ $('form').submit(function (e) {
         default:"";
     }
     
-
+    console.log(userPage);
+    console.log(userUrl);
     var check_name_flag = check_name();
     console.log('check_name: ' + check_name_flag);
 
