@@ -14,6 +14,29 @@ $('form').submit(function (e) {
     //    var chech_agree_flag = check_agree_send();
     //    console.log('chech_agree: ' + chech_agree_flag);
 
+    switch(url){
+        case "?cource=qa&name=qa_practice":
+            var userUrl="Курс QA-практика";
+            break;
+    
+        case "?cource=qa&name=qa_theory": 
+            var userUrl="Курс QA-менторство";
+            break;
+    
+        case "?cource=qa&name=qa_automation": 
+            var userUrl="Курс QA-автоматизація";
+            break;
+    
+        case "?cource=ba&name=ba_practice":
+            var userUrl="Курс BA-практика";
+            break;
+    
+        case "?cource=pm&name=pm_practice":
+            var userUrl="Курс PM-практика";
+            break;
+    }
+    
+
     var check_name_flag = check_name();
     console.log('check_name: ' + check_name_flag);
 
@@ -475,39 +498,6 @@ var maskOptions = {
 };
 var mask = IMask(element, maskOptions);
 
-switch(url){
-    case "?cource=qa&name=qa_practice":
-        var userUrl="Курс QA-практика";
-        break;
-
-    case "?cource=qa&name=qa_theory": 
-        var userUrl="Курс QA-менторство";
-        break;
-
-    case "?cource=qa&name=qa_automation": 
-        var userUrl="Курс QA-автоматизація";
-        break;
-
-    case "?cource=ba&name=ba_practice":
-        var userUrl="Курс BA-практика";
-        break;
-
-    case "?cource=pm&name=pm_practice":
-        var userUrl="Курс PM-практика";
-        break;
-}
 
 
 
-
-
-
-if(url="?cource=ba&name=ba_practice"){
-    var userUrl="Курс BA-практика"
-}
-if(url="?cource=ba&name=ba_practice"){
-    var userUrl="Курс BA-практика"
-}
-if(url="?cource=ba&name=ba_practice"){
-    var userUrl="Курс BA-практика"
-}
