@@ -88,7 +88,8 @@ $('form').submit(function (e) {
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
-        '\nCourse: ' + pages +"  "+ url +
+        '\nPage:'+ pages +
+        '\nCourse: '  + url +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + $('#phone_input').val() +
