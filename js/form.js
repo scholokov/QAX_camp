@@ -9,10 +9,6 @@ $('form').submit(function (e) {
     var url=window.location.search;
     var result = true;
 
-    if(url="?cource=ba&name=ba_practice"){
-        var userUrl="Курс BA-практика"
-    }
-
     console.log('comment_input: ' + comment_input);
 
     //    var chech_agree_flag = check_agree_send();
@@ -478,3 +474,40 @@ var maskOptions = {
   }
 };
 var mask = IMask(element, maskOptions);
+
+switch(url){
+    case "?cource=qa&name=qa_practice":
+        var userUrl="Курс QA-практика";
+        break;
+
+    case "?cource=qa&name=qa_theory": 
+        var userUrl="Курс QA-менторство";
+        break;
+
+    case "?cource=qa&name=qa_automation": 
+        var userUrl="Курс QA-автоматизація";
+        break;
+
+    case "?cource=ba&name=ba_practice":
+        var userUrl="Курс BA-практика";
+        break;
+
+    case "?cource=pm&name=pm_practice":
+        var userUrl="Курс PM-практика";
+        break;
+}
+
+
+
+
+
+
+if(url="?cource=ba&name=ba_practice"){
+    var userUrl="Курс BA-практика"
+}
+if(url="?cource=ba&name=ba_practice"){
+    var userUrl="Курс BA-практика"
+}
+if(url="?cource=ba&name=ba_practice"){
+    var userUrl="Курс BA-практика"
+}
