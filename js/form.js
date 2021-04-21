@@ -7,7 +7,7 @@ $('form').submit(function (e) {
     var comment = document.getElementById("comment_input").innerText;
     var email = document.getElementById("email_input").innerText;
     var url=window.location.search;
-    var page=window.location.pathname;
+    var pages=window.location.pathname;
     var result = true;
 
     console.log('comment_input: ' + comment_input);
@@ -39,8 +39,27 @@ $('form').submit(function (e) {
             var userUrl=" ";
             break;
     }
+
+    switch(pages){
+        case "/index.php":
+            var userPage="Home Page";
+            break;
     
-    console.log(page);
+        case "/courses.php": 
+            var userPage="";
+            break;
+    
+        case "/about_us.php": 
+            var userPage="About Us";
+            break;
+    
+        case "/our_trainers.php":
+            var userPage="Our Trainers";
+            break;
+        c
+    }
+    
+    console.log(pages);
     console.log(url);
     var check_name_flag = check_name();
     console.log('check_name: ' + check_name_flag);
@@ -69,7 +88,7 @@ $('form').submit(function (e) {
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
-        '\nCourse: ' + userUrl +
+        '\nCourse: ' + userUrl + userPage +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + $('#phone_input').val() +
