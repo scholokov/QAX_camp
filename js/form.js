@@ -39,19 +39,19 @@ $('form').submit(function (e) {
     }
 
     switch(page){
-        case "index.php":
+        case "/index.php":
             var userPage="Home Page";
             break;
     
-        case "courses.php": 
+        case "/courses.php": 
             var userPage="";
             break;
     
-        case "about_us.php": 
+        case "/about_us.php": 
             var userPage="About Us";
             break;
     
-        case "our_trainers.php":
+        case "/our_trainers.php":
             var userPage="Our Trainers";
             break;
         default:"";
