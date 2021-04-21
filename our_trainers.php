@@ -100,7 +100,7 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-					<a href="cources.php" class="header-menu-mobile">курси</a>
+					<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">курси</a>
 
 					<a href="about_us.php" class="header-menu-mobile">про нас</a>
 
