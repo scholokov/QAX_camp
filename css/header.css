@@ -32,6 +32,10 @@
     margin-top: 28px;
 }
 
+#menuCources:hover{
+  color: #F66F5D;
+}
+
 #sendButtonText:hover {
     background: #F66F5D;
     color: #FFFFFF;
