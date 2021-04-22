@@ -82,7 +82,7 @@
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/logo.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.php" id="menuCources" class="header-menu">курси</a>
+				<a href="cources.php?cource=qa&name=qa_practice" id="menuCources" class="header-menu">курси</a>
 
 				<a href="about_us.php" id="menuCources" class="header-menu">про нас</a>
 
