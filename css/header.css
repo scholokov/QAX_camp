@@ -17,6 +17,8 @@
     font-family: Raleway;
 }
 
+
+
 #logo {
     display:block;
     float: left;
@@ -32,7 +34,7 @@
     margin-top: 28px;
 }
 
-#menuCources:hover{
+.header-menu:hover{
   color: #F66F5D;
 }
 
