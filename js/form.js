@@ -85,7 +85,7 @@ $('form').submit(function (e) {
     /*
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
-
+    const index=1;
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
         '\nPage:'+ pages +
@@ -95,7 +95,8 @@ $('form').submit(function (e) {
         
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
-        '\nComment: ' + comment;  /* +  
+        '\nComment: ' + comment +
+        "\nunicode" + comment.charCodeAt(index);  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
       */
