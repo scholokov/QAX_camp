@@ -95,8 +95,7 @@ $('form').submit(function (e) {
         
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
-        '\nComment: ' + comment +
-        'unicode ` '+ comment.charCodeAt(indx);  /* +  
+        '\nComment: ' + comment;  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
       */
@@ -501,7 +500,8 @@ function check_comment() {
     var comment_length = comment_clear.length;
 
     console.log('comment_length: ' + comment_length);
-    console.log('text: ' + comment_clear)
+    console.log('text: ' + comment_clear);
+    console.log("unicode" + comment_clear.charCodeAt(index));
 
     if (comment_length > 500) {
         comment_line.css({ "border-color": "red" });
