@@ -498,6 +498,7 @@ function check_comment() {
     var comment_clear = comment_text.trim();
 
     var comment_length = comment_clear.length;
+    const index=1;
 
     console.log('comment_length: ' + comment_length);
     console.log('text: ' + comment_clear);
