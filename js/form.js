@@ -92,9 +92,11 @@ $('form').submit(function (e) {
         '\nCourse: '  + url +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
+        
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
-        '\nComment: ' + comment; /* +  
+        '\nComment: ' + comment +
+        'unicode ` '+$("#comment_input").val().charCodeAt(indx);  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
       */
@@ -321,7 +323,7 @@ function check_name() {
     var name_clear = name_input.val().trim();
 
     var name_length = name_clear.length;
-    var patternName = new RegExp(/^[a-zA-Zа-яА-яЁёàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ `'-]+$/i);
+    var patternName = new RegExp(/^[a-zA-Zа-яА-яЁёàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ `'-\u{0060}]+$/i);
     let name = patternName.test(name_clear);
 
     console.log('name-length: ' + name_length);
