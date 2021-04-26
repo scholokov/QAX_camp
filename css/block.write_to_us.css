@@ -170,6 +170,13 @@
     .form-group {
         justify-content: space-between;
     }
+    input[type=text]{
+        font-size: 18px;
+    }
+    input[type=tel] {
+        font-size: 18px;
+    }
+
 }
 
 #button_text {
@@ -189,7 +196,6 @@ input[type=text] {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    font-size: 18px;
     color: #222222;
 }
 
@@ -198,7 +204,6 @@ input[type=tel] {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    font-size: 18px;
     color: #222222;
 }
 
