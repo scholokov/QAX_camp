@@ -234,12 +234,19 @@
                             </div>
                             <div class="trainer-experience-title">Досвід роботи 4 роки:</div>
                             <div class="trainer-experience">
-								2020 - зараз – QA Automation Engineer в “Under NDA”<br>
-								2019-2020 – QA Team Lead в компанії “United Travel Ticket”<br> 
-								2019 - 2020 – QA Automation Engineer в компанії “United Travel Ticket”<br> 
-								2018 - 2019 – QA Automation в “Banza”<br>
-								2018 - 2018 – General QA в “Banza”<br> 
-								2017 - 2018 – Manual QA в “Banza”<br> 
+								Серпень 2017 - квітень 2018 - Manual QA в компанії «Banza»
+
+								Травень 2018 - листопад 2018 - General QA в компанії «Banza»
+
+								Грудень 2018 - червень 2019 - QA Automation в компанії «Banza»
+
+								Червень 2019 - листопад 2020 - QA Automation Engineer в компанії «United Travel Ticket»
+
+								Листопад 2019 - квітень 2020 - QA Team Lead в компанії «United Travel Ticket»
+
+								Червень 2020 - зараз - QA Automation Engineer в компанії «Under NDA» Навички:
+
+								Створення відділу автоматизованого тестування з нуля, тестування складних web додатків, тестування backend і frontend, автоматизація тестування UI та API. 
                             </div>
 
                             <div class="trainer-teaching-experience">
