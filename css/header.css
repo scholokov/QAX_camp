@@ -124,6 +124,12 @@ a#menuCources:hover{
     display: none;
     
     cursor:pointer;
+    
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
 
     position: fixed;
     bottom: 30px;
@@ -140,11 +146,10 @@ a#menuCources:hover{
     text-align: center;
 
     background: #F66F5D;
-    color: #FFFFFF;
+    color: #222222;
 
     border: 1px solid #F66F5D;
     box-sizing: border-box;
-    font-family: Raleway;
 
   }
 
