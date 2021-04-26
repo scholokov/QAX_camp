@@ -287,6 +287,10 @@ textarea:-moz-placeholder {
     color: #222222;
 }
 
+#comment_input p{
+    background-color: transparent;
+}
+
 .textarea[contenteditable]:empty::before {
     content: "Коментар";
 }
