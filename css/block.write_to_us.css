@@ -287,8 +287,10 @@ textarea:-moz-placeholder {
     color: #222222;
 }
 
-#comment_input p{
+#comment_input p,span{
     background-color: transparent !important; 
+    color: #222222 !important;
+    
 }
 
 .textarea[contenteditable]:empty::before {
