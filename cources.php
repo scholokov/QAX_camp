@@ -145,28 +145,30 @@
 					</div>
 					-->
 					<!-- FB Comments End --> 
+				  
+					<div id="comments-course" class="container-xl no-padding">
+
+							<?	$json = file_get_contents( 'env.json');
+								$json_data = json_decode($json,true);	
+							?>
+							<div class="container">
+							<div id="comments-course">
+										<div id="fb-comments-title-block">
+											<div id="fb-comments-title">Відгуки про курси </div>
+										</div>
+										<div id="fb-comments-block">	
+											<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
+												data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
+											</div>
+										</div>
+							</div>
+							</div>	
 
 				</div>
 			</div>
 		</section>
 		<!-- #content end -->
-		<div id="comments-course" class="container-xl no-padding">
-
-		<?	$json = file_get_contents( 'env.json');
-			$json_data = json_decode($json,true);	
-		?>
-		<div class="container">
-		<div id="comments-course">
-			        <div id="fb-comments-title-block">
-						<div id="fb-comments-title">Відгуки про курси </div>
-					</div>
-					<div id="fb-comments-block">	
-						<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
-							data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
-						</div>
-					</div>
-		</div>
-		</div>	
+		
 		<!-- Footer
 		============================================= -->
 		<?php include 'components/footer.html'?>
