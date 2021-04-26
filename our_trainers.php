@@ -298,6 +298,7 @@
 		$("#footer-block").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
 		$("#write_to_us").css({ "display": "none" });
+		$("#comments").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
@@ -305,7 +306,7 @@
 		$("#footer-block").css({ "display": "flex" });
 		$("#content").css({ "display": "block" });
 		$("#write_to_us").css({ "display": "block" });
-
+		$("#comments").css({ "display": "block" });
     }
 }
 function goToForm(){

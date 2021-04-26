@@ -153,6 +153,7 @@
 			</div>
 		</section>
 		<!-- #content end -->
+		<div id="comments">
 			        <div id="fb-comments-title-block">
 						<div id="fb-comments-title">Відгуки про курси </div>
 					</div>
@@ -161,7 +162,7 @@
 							data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
 						</div>
 					</div>
-			
+		</div>	
 		<!-- Footer
 		============================================= -->
 		<?php include 'components/footer.html'?>
