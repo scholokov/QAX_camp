@@ -280,6 +280,7 @@ textarea:-moz-placeholder {
 .textarea {
     display: block;
     width: 100%;
+    max-width: 640px;
     overflow: hidden;
     resize: both;
     margin-top: 10px;
