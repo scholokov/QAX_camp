@@ -140,7 +140,7 @@
 
 					<!--- FB Comments-->
 					<!-- https://scholokov.github.io/" -->
-					<?echo $json_data['facebookLink']?>
+					<?echo $json_data['facebookLink'] . '!!!!!'?>
 					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  
 						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
 					</div>
