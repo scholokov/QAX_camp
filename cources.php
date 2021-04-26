@@ -80,7 +80,7 @@
 
 
 				<div class="header-menu" id="header-block">
-				<a href="index.php"><img src="images/logo.svg" alt="Logo" id="logo"></a>
+				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
 				<a href="cources.php?cource=qa&name=qa_practice"  class="header-menu header-menu-links">курси</a>
 
@@ -109,9 +109,9 @@
 				<div id="mobile-menu-fullscreen">
 				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
 
-<a href="about_us.php" class="header-menu-mobile">Про нас</a>
+				<a href="about_us.php" class="header-menu-mobile">Про нас</a>
 
-<a href="our_trainers.php" class="header-menu-mobile">Наші тренери</a>
+				<a href="our_trainers.php" class="header-menu-mobile">Наші тренери</a>
 
 					<a href="#write_to_us">
 					<div id="sendButtonText-mobile" onclick="goToForm()">Записатися</div></a>
