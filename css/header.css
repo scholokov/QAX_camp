@@ -111,6 +111,8 @@ a#menuCources:hover{
   }
 
   .header-menu-mobile{
+
+    text-transform: none;
     
     color:white;
     display: none;
