@@ -153,9 +153,13 @@
 			</div>
 		</section>
 		<!-- #content end -->
+			        <div id="fb-comments-title-block">
+						<div id="fb-comments-title">Відгуки про курси </div>
+					</div>	
 					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
 						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
 					</div>
+			
 		<!-- Footer
 		============================================= -->
 		<?php include 'components/footer.html'?>

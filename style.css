@@ -8056,10 +8056,25 @@ body:not(.device-touch) .entry-link {
 	display: block !important;
 	width: 100% !important;
 	background-color: #F0F0F0;
-	margin: 30px auto;
+	margin-top: 30px;
+    margin-bottom: -100px;
 }
 
+#fb-comments-title-block{
+	width: 100% !important;
+	height: 80px;
+	background-color:  #111111;
+}
 
+#fb-comments-title{
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+}
 /* Post Elements
 -----------------------------------------------------------------*/
 
