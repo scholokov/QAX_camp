@@ -288,7 +288,7 @@ textarea:-moz-placeholder {
 }
 
 #comment_input p{
-    background-color: transparent;
+    background-color: transparent !important; 
 }
 
 .textarea[contenteditable]:empty::before {
