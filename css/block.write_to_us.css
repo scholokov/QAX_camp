@@ -140,11 +140,13 @@
 
 
     input[type=text] {
+        font-size: 14px;
         border-radius: 0;
         -webkit-border-radius:0px;
     }
 
     input[type=tel] {
+        font-size: 14px;
         border-radius: 0;
         -webkit-border-radius:0px;
     }
