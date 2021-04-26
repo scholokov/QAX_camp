@@ -141,9 +141,7 @@
 						$json_data = json_decode($json,true);
 					?>
 
-					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
-						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
-					</div>
+					
 					<!--
 					<div class="fb-comments" data-href="https://www.qax-camp.com.ua"
 						data-width="100%" order_by="reverse_time" data-numposts="2">
@@ -153,8 +151,11 @@
 
 				</div>
 			</div>
-		</section><!-- #content end -->
-
+		</section>
+		<!-- #content end -->
+					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
+						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
+					</div>
 		<!-- Footer
 		============================================= -->
 		<?php include 'components/footer.html'?>
