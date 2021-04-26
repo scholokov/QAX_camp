@@ -191,6 +191,11 @@ a#menuCources:hover{
       display: block;
       font-size: 18px;
     }
+    .header-menu.responsive #sendButtonText-mobile{
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21,94px;
+    }
   }
 
 
