@@ -157,7 +157,7 @@ a#menuCources:hover{
 
 
   @media screen and (max-width: 900px) {
-    .header-menu #menuCources,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
+    .header-menu .header-menu-links,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
       display: none;
     }
     .header-menu .burger-icon {
