@@ -61,6 +61,10 @@
 				sessionStorage.setItem('chatID', data.telega.chatID);
 			});
 	</script>
+		<?
+			$json = file_get_contents( 'env.json');
+			$json_data = json_decode($json,true);
+		?>
 
 </head>
 
@@ -114,7 +118,6 @@
 					<a href="our_trainers.php" class="header-menu-mobile">наші тренери</a>
 
 					<a href="#write_to_us">
-					<!-- <a href="https://t.me/RecrutMan"> -->
 					<div id="sendButtonText-mobile" onclick="goToForm()">Написати</div></a>
 		    	</div>
 			</div>
@@ -136,8 +139,9 @@
 					<?php include 'components/form.html'?>
 
 					<!--- FB Comments-->
-					<div class="fb-comments" data-href="https://scholokov.github.io/"
-						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="light">
+					<!-- https://scholokov.github.io/" -->
+					<div class="fb-comments" data-href="<?$json_data['facebookLink']?>"  
+						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
 					</div>
 					<!--
 					<div class="fb-comments" data-href="https://www.qax-camp.com.ua"
