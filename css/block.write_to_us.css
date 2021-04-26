@@ -135,6 +135,9 @@
     input[type=tel]{
         font-size: 14px;
     }
+    ::placeholder {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 900px){
@@ -158,6 +161,9 @@
         border-radius: 0;
         -webkit-border-radius:0px;
     }
+    ::placeholder {
+        font-size: 14px;
+    }
 
 
 }
@@ -174,6 +180,9 @@
         font-size: 18px;
     }
     input[type=tel] {
+        font-size: 18px;
+    }
+    ::placeholder {
         font-size: 18px;
     }
 
@@ -207,9 +216,6 @@ input[type=tel] {
     color: #222222;
 }
 
-::placeholder {
-    font-size: 16px;
-}
 
 #comment-counter{
     display: block;
@@ -290,7 +296,7 @@ textarea:-moz-placeholder {
 #comment_input p,span{
     background-color: transparent !important; 
     color: #222222 !important;
-    
+
 }
 
 .textarea[contenteditable]:empty::before {
