@@ -61,10 +61,7 @@
 				sessionStorage.setItem('chatID', data.telega.chatID);
 			});
 	</script>
-	<?
-		$json = file_get_contents( 'env.json');
-		$json_data = json_decode($json,true);
-	?>
+
 </head>
 
 <body class="stretched">
@@ -77,6 +74,10 @@
 		============================================= -->
 		<header class="header">
 
+			<?
+				$json = file_get_contents( 'env.json');
+				$json_data = json_decode($json,true);
+			?>
 			<div id="fb-root"></div>
 			<script async defer crossorigin="anonymous"
 				src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v9.0" nonce="etHa6BVZ"></script>
