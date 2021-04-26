@@ -15,14 +15,15 @@
     color: white;
     line-height: 21px;
     font-family: Raleway;
-    color:white;
+}
+
+.header-menu-links{
+  color:white;
     display: block;
     float: left;
     margin-left: 6%;
     margin-top: 28px;
 }
-
-
 
 #logo {
     display:block;
