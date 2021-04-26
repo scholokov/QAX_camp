@@ -40,13 +40,13 @@ a#menuCources:hover{
 
 #sendButtonText:hover {
     background: #F66F5D;
-    color: #FFFFFF;
+    color: #222222;
     border-color: #F66F5D
 }
 
 #sendButtonText:focus {
     background: #F66F5D;
-    color: #FFFFFF;
+    color: #222222;
     border-color: #F66F5D
 }
 
