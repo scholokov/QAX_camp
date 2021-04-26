@@ -61,7 +61,10 @@
 				sessionStorage.setItem('chatID', data.telega.chatID);
 			});
 	</script>
-
+	<?
+		$json = file_get_contents( 'env.json');
+		$json_data = json_decode($json,true);
+	?>
 </head>
 
 <body class="stretched">
@@ -136,10 +139,7 @@
 
 					<!--- FB Comments-->
 					<!-- https://scholokov.github.io/" -->
-					<?
-						$json = file_get_contents( 'env.json');
-						$json_data = json_decode($json,true);
-					?>
+
 					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
 						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
 					</div>
