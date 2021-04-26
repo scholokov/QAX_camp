@@ -95,7 +95,7 @@
 
 				<a href="#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText">Написати</div></a>
+					<div id="sendButtonText">Записатися</div></a>
 					
 				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg"></a></div>
 
