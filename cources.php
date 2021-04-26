@@ -155,6 +155,7 @@
 		<?	$json = file_get_contents( 'env.json');
 			$json_data = json_decode($json,true);	
 		?>
+		<div class="container">
 		<div id="comments-course">
 			        <div id="fb-comments-title-block">
 						<div id="fb-comments-title">Відгуки про курси </div>
@@ -164,6 +165,7 @@
 							data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
 						</div>
 					</div>
+		</div>
 		</div>	
 		<!-- Footer
 		============================================= -->
