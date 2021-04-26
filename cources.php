@@ -250,12 +250,14 @@
 					$("body").css({ "overflow": "hidden" });
 					$("#footer-block").css({ "display": "none" });
 					$("#content").css({ "display": "none" });
+					$("#comments").css({ "display": "none" });
 					
 				} else {
 					y.className = "header-menu";
 					$("body").css({ "overflow": "visible" });
 					$("#footer-block").css({ "display": "flex" });
 					$("#content").css({ "display": "block" });
+					$("#comments").css({ "display": "block" });
 				}
 			}
 		function goToForm(){
