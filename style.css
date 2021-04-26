@@ -8054,10 +8054,8 @@ body:not(.device-touch) .entry-link {
 .fb-comments > span > iframe,
 .fb_iframe_widget > span > iframe {
 	display: block !important;
-	width: 100% !important;
 	background-color: #F0F0F0;
 	margin-top: 30px;
-    margin-bottom: -100px;
 }
 
 #fb-comments-title-block{
@@ -8074,6 +8072,13 @@ body:not(.device-touch) .entry-link {
 	line-height: 28px;
 	letter-spacing: 0em;
 	text-align: left;
+}
+
+#fb-comments-block{
+	display: block !important;
+	width: 100% !important;
+	background-color: #F0F0F0;
+    margin-bottom: -100px;
 }
 /* Post Elements
 -----------------------------------------------------------------*/

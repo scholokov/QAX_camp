@@ -155,9 +155,11 @@
 		<!-- #content end -->
 			        <div id="fb-comments-title-block">
 						<div id="fb-comments-title">Відгуки про курси </div>
-					</div>	
-					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
-						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
+					</div>
+					<div id="fb-comments-block">	
+						<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
+							data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
+						</div>
 					</div>
 			
 		<!-- Footer
