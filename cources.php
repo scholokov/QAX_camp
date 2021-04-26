@@ -114,7 +114,7 @@
 					<a href="our_trainers.php" class="header-menu-mobile">наші тренери</a>
 
 					<a href="#write_to_us">
-					<div id="sendButtonText-mobile" onclick="goToForm()">Написати</div></a>
+					<div id="sendButtonText-mobile" onclick="goToForm()">Записатися</div></a>
 		    	</div>
 			</div>
 		</header><!-- #header end -->
