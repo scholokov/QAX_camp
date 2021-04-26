@@ -240,11 +240,12 @@
 
                         </div>
                     </div>
+					<?php include 'components/form.html'?>
 				</div>
 			</div>
 		</section>
         
-        <?php include 'components/form.html'?>
+        
 
 
         <!-- #content end -->
