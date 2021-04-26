@@ -158,12 +158,12 @@
                             <div class="trainer-teaching-experience">
                                 <div class="trainer-teaching-title">Досвід викладацької діяльності:</div>
                                 <div class="trainer-teaching">
-								2020 - зараз – Founder, Trainer  в QAX Camp<br> </div>
+								2020 - зараз – Founder, Trainer  в QAX Camp<br> 
 								2018 - 2020 – Trainer в QALight<br>	
 								2017 - 2018 – Trainer в Main Academy<br> 
 
                                      
-                                    
+                              </div>      
                             </div>
                         </div>
 
