@@ -74,10 +74,6 @@
 		============================================= -->
 		<header class="header">
 
-			<?
-				$json = file_get_contents( 'env.json');
-				$json_data = json_decode($json,true);
-			?>
 			<div id="fb-root"></div>
 			<script async defer crossorigin="anonymous"
 				src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v9.0" nonce="etHa6BVZ"></script>
@@ -140,6 +136,10 @@
 
 					<!--- FB Comments-->
 					<!-- https://scholokov.github.io/" -->
+					<?
+						$json = file_get_contents( 'env.json');
+						$json_data = json_decode($json,true);
+					?>
 
 					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
 						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
@@ -176,17 +176,17 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
 
-<script>
+	<script>
 		function footerlink(){
-	let telegram_img=$("#Telegram-img");
-	let telegram_link=$("#footer-telegram");
-	telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
-	telegram_img.mouseout(function(){telegram_link.attr({"color":"#ffffff"});});
-	telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
-	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
-  };
-  
-  footerlink();
+			let telegram_img=$("#Telegram-img");
+			let telegram_link=$("#footer-telegram");
+			telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
+			telegram_img.mouseout(function(){telegram_link.attr({"color":"#ffffff"});});
+			telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
+			telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
+		};
+	
+		footerlink();
 	</script>
 	<script>
 		$("#leftside-navigation .sub-menu > a").click(function (e) {
@@ -227,43 +227,36 @@
 			}
 			document.getElementById(tabName).style.display = "block";
 			evt.currentTarget.className += " active";
-		  
 		};
-		
-		
-
-          
 		
 		// Get the element with id="defaultOpen" and click on it
 		document.getElementById("defaultOpen").click();
 	</script>
 	
 	<script>
-	function myFunction(x) {
-  x.classList.toggle("change");
-  var y = document.getElementById("header-block");
-    if (y.className === "header-menu") {
-        y.className += " responsive";
-		$("body").css({ "overflow": "hidden" });
-		$("#footer-block").css({ "display": "none" });
-		$("#content").css({ "display": "none" });
-		
-    } else {
-        y.className = "header-menu";
-		$("body").css({ "overflow": "visible" });
-		$("#footer-block").css({ "display": "flex" });
-		$("#content").css({ "display": "block" });
-
-    }
-}
-function goToForm(){
-		$(".burger-icon").removeClass("change");
-		$("#header-block").removeClass("responsive");
-	    $("body").css({ "overflow": "visible" });
-		$("#footer-block").css({ "display": "flex" });
-		$("#content").css({ "display": "block" });
-
-}
+		function myFunction(x) {
+			x.classList.toggle("change");
+			var y = document.getElementById("header-block");
+				if (y.className === "header-menu") {
+					y.className += " responsive";
+					$("body").css({ "overflow": "hidden" });
+					$("#footer-block").css({ "display": "none" });
+					$("#content").css({ "display": "none" });
+					
+				} else {
+					y.className = "header-menu";
+					$("body").css({ "overflow": "visible" });
+					$("#footer-block").css({ "display": "flex" });
+					$("#content").css({ "display": "block" });
+				}
+			}
+		function goToForm(){
+				$(".burger-icon").removeClass("change");
+				$("#header-block").removeClass("responsive");
+				$("body").css({ "overflow": "visible" });
+				$("#footer-block").css({ "display": "flex" });
+				$("#content").css({ "display": "block" });
+		}
 
 	</script>
 	<!-- Footer Scripts
