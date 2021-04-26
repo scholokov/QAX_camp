@@ -128,7 +128,7 @@
                     <div class="trainers-block row">
 					    <div class="trainer col-md-4 col-sm-12">
                             <div class="trainer-photo">
-                                <img class="trainer-img" src="images/DS-trainer.svg">
+                                <img class="trainer-img" src="images/DS-trainer.svg" alt="trainer">
                             </div>
                             <div class="trainer-info row">
                             <div class="col-9">
@@ -137,7 +137,7 @@
                             </div>
                             <div class="linkedin-logo col-3">
                                 <div ><a href="https://www.linkedin.com/in/denis-scholokov-37735765/
-                                    "><img src="images/LinkedIn.svg" class="linkedin-link" 
+                                    "><img src="images/LinkedIn.svg" alt="linkedin" class="linkedin-link" 
                                     onmouseover="this.src='images/LinkedIn-hover.svg';"
                                     onmouseout="this.src='images/LinkedIn.svg';"></a></div>
                             </div>
@@ -171,7 +171,7 @@
 
                         <div class="trainer col-md-4 col-sm-12">
                             <div class="trainer-photo">
-                                <img class="trainer-img" src="images/AL-trainer.svg">
+                                <img class="trainer-img" src="images/AL-trainer.svg"  alt="trainer">
                             </div>
                             <div class="trainer-info row">
                                 <div class="col-9">
@@ -180,7 +180,7 @@
                                 </div>
                                 <div class="linkedin-logo col-3">
                                     <div><a href="https://www.linkedin.com/in/alesya-lomenko/">
-                                        <img src="images/LinkedIn.svg" class="linkedin-link" 
+                                        <img src="images/LinkedIn.svg" alt="linkedin" class="linkedin-link" 
                                         onmouseover="this.src='images/LinkedIn-hover.svg';"
                                         onmouseout="this.src='images/LinkedIn.svg';"></a></div>
                                 </div>
@@ -207,7 +207,7 @@
 
                         <div class="trainer col-md-4 col-sm-12">
                             <div class="trainer-photo">
-                                <img class="trainer-img" src="images/EA-trainer.svg">
+                                <img class="trainer-img" src="images/EA-trainer.svg"  alt="trainer">
                             </div>
                             <div class="trainer-info row">
                                 <div class="col-9">
@@ -216,7 +216,7 @@
                                 </div>
                                 <div class="linkedin-logo col-3">
                                     <div><a href="https://www.linkedin.com/in/asovin/">
-                                        <img src="images/LinkedIn.svg" class="linkedin-link" 
+                                        <img src="images/LinkedIn.svg" alt="linkedin" class="linkedin-link" 
                                         onmouseover="this.src='images/LinkedIn-hover.svg';"
                                         onmouseout="this.src='images/LinkedIn.svg';"></a></div>
                                 </div>
