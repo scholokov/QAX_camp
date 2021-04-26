@@ -8055,7 +8055,6 @@ body:not(.device-touch) .entry-link {
 .fb_iframe_widget > span > iframe {
 	display: block !important;
 	background-color: #F0F0F0;
-	margin-top: 30px;
 }
 
 #fb-comments-title-block{
