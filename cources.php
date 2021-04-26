@@ -153,7 +153,7 @@
 			</div>
 		</section>
 		<!-- #content end -->
-		<div id="comments-course">
+		<div id="comments-course" class="container-xxl no-padding">
 			        <div id="fb-comments-title-block">
 						<div id="fb-comments-title">Відгуки про курси </div>
 					</div>
