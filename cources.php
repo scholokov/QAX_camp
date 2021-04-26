@@ -136,10 +136,7 @@
 
 					<!--- FB Comments-->
 					<!-- https://scholokov.github.io/" -->
-					<?
-						$json = file_get_contents( 'env.json');
-						$json_data = json_decode($json,true);
-					?>
+
 
 					
 					<!--
@@ -153,7 +150,14 @@
 			</div>
 		</section>
 		<!-- #content end -->
+<<<<<<< HEAD
 		<div id="comments-course" class="container-xxl no-padding">
+=======
+		<?	$json = file_get_contents( 'env.json');
+			$json_data = json_decode($json,true);	
+		?>
+		<div id="comments-course">
+>>>>>>> 1584857d3fc0501c43f68964f63b2fbf0e2bb0f0
 			        <div id="fb-comments-title-block">
 						<div id="fb-comments-title">Відгуки про курси </div>
 					</div>
