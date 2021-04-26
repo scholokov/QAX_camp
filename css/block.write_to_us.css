@@ -127,6 +127,14 @@
     margin-right: -15px;
     margin-left: -15px;
     }
+
+    input[type=text]{
+        font-size: 14px;
+    }
+
+    input[type=tel]{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 900px){
