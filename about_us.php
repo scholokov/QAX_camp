@@ -93,7 +93,7 @@
 				</a>
 
 
-				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg"></a></div>
+				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg" alt="letter"></a></div>
 
 				<div class="burger-icon" onclick="myFunction(this)">
 						<div class="bar1"></div>

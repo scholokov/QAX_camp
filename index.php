@@ -97,7 +97,7 @@
 					<!-- <a href="https://t.me/RecrutMan"> -->
 					<div id="sendButtonText">Записатися</div></a>
 					
-				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg"></a></div>
+				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg" alt="letter"></a></div>
 
 				<div class="burger-icon" onclick="myFunction(this)">
 						<div class="bar1"></div>
@@ -174,7 +174,7 @@
 											</div>
 
 											<div class="cources-cards-buttons-block">
-											<h5 id="cources-cards-buttons">
+											<h5 class="cources-cards-buttons">
 												3 Курси
 											</h5>
 											</div>
@@ -202,7 +202,7 @@
 
 
 											<div class="cources-cards-buttons-block">
-												<h5 id="cources-cards-buttons">
+												<h5 class="cources-cards-buttons">
 													1 Курс
 												</h5>
 											</div>
@@ -230,7 +230,7 @@
 
 
 											<div class="cources-cards-buttons-block">
-											<h5 id="cources-cards-buttons">
+											<h5 class="cources-cards-buttons">
 													1 Курс
 											</h5>
 											</div>
