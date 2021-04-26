@@ -8059,6 +8059,10 @@ body:not(.device-touch) .entry-link {
     margin: auto;
 }
 
+#comments-course{
+	padding: 0;
+}
+
 #fb-comments-title-block{
 	margin-top: 230px;
 	padding: 26px 72px;
