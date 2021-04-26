@@ -107,11 +107,11 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-					<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">курси</a>
+				<a href="cources.php?cource=qa&name=qa_practice" id="menuCources" class="header-menu">Курси</a>
 
-					<a href="about_us.php" class="header-menu-mobile">про нас</a>
+				<a href="about_us.php" id="menuCources" class="header-menu">Про нас</a>
 
-					<a href="our_trainers.php" class="header-menu-mobile">наші тренери</a>
+				<a href="our_trainers.php" id="menuCources" class="header-menu">Наші тренери</a>
 
 					<a href="#write_to_us">
 					<div id="sendButtonText-mobile" onclick="goToForm()">Записатися</div></a>
