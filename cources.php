@@ -153,7 +153,7 @@
 			</div>
 		</section>
 		<!-- #content end -->
-		<div id="comments">
+		<div id="comments-course">
 			        <div id="fb-comments-title-block">
 						<div id="fb-comments-title">Відгуки про курси </div>
 					</div>
@@ -250,14 +250,14 @@
 					$("body").css({ "overflow": "hidden" });
 					$("#footer-block").css({ "display": "none" });
 					$("#content").css({ "display": "none" });
-					$("#comments").css({ "display": "none" });
+					$("#comments-course").css({ "display": "none" });
 					
 				} else {
 					y.className = "header-menu";
 					$("body").css({ "overflow": "visible" });
 					$("#footer-block").css({ "display": "flex" });
 					$("#content").css({ "display": "block" });
-					$("#comments").css({ "display": "block" });
+					$("#comments-course").css({ "display": "block" });
 				}
 			}
 		function goToForm(){
