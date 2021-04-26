@@ -8059,6 +8059,7 @@ body:not(.device-touch) .entry-link {
 }
 
 #fb-comments-title-block{
+	padding: 26px 72px;
 	width: 100% !important;
 	height: 80px;
 	background-color:  #111111;
