@@ -139,7 +139,6 @@
 					<?
 						$json = file_get_contents( 'env.json');
 						$json_data = json_decode($json,true);
-						echo $json_data['facebookLink'] . '!!!!!';
 					?>
 					<div class="fb-comments" data-href="<?echo $json_data['facebookLink']?>"  ;
 						data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
