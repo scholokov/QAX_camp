@@ -150,7 +150,7 @@
 			</div>
 		</section>
 		<!-- #content end -->
-		<div id="comments-course" class="container-xxl no-padding">
+		<div id="comments-course" class="container-xl no-padding">
 
 		<?	$json = file_get_contents( 'env.json');
 			$json_data = json_decode($json,true);	
