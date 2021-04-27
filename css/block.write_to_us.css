@@ -123,7 +123,12 @@
 
 
 @media (max-width: 900px){
-
+    
+     #write_to_us-thanks-block{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+     
     .write_to_us-block-thanks{
         width: auto;
         margin-right: -15px;
