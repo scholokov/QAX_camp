@@ -8059,6 +8059,24 @@ body:not(.device-touch) .entry-link {
     margin: auto;
 }
 
+@media (max-width:900px){
+	.fb-comments,
+	.fb_iframe_widget,
+	.fb-comments > span,
+	.fb_iframe_widget > span,
+	.fb-comments > span > iframe,
+	.fb_iframe_widget > span > iframe {
+		display: block !important;
+		background-color: #F0F0F0;
+		max-width: 100%;
+		margin: auto;
+
+	}
+	.fb-comments{
+		padding: 0;
+	}
+}
+
 #comments-course{
 	padding: 0;
 	max-width: 1400px;
