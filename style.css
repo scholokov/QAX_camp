@@ -8057,6 +8057,8 @@ body:not(.device-touch) .entry-link {
 	background-color: #F0F0F0;
 	/*max-width: 90%;*/
     margin: auto;
+	padding-left: 30px;
+		padding-right: 30px;
 }
 .fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
 	max-width: 100% !important;
