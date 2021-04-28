@@ -8055,7 +8055,7 @@ body:not(.device-touch) .entry-link {
 .fb_iframe_widget > span > iframe {
 	display: block !important;
 	background-color: #F0F0F0;
-	max-width: 90%;
+	/*max-width: 90%;*/
     margin: auto;
 }
 
@@ -8068,7 +8068,7 @@ body:not(.device-touch) .entry-link {
 	.fb_iframe_widget > span > iframe {
 		display: block !important;
 		background-color: #F0F0F0;
-		max-width: 100%;
+		/*max-width: 100%;*/
 		margin: auto;
 
 	}
