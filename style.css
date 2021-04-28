@@ -8072,7 +8072,8 @@ body:not(.device-touch) .entry-link {
 		/* display: block !important; */
 		background-color: #F0F0F0;
 		/*max-width: 100%;*/
-		
+		padding-left: 30px;
+		padding-right: 30px;
 		margin: auto;
 
 	}
