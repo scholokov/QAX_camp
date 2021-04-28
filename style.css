@@ -8027,7 +8027,7 @@ body:not(.device-touch) .entry-link {
 	Comment Form
 -----------------------------------------------------------------*/
 
-
+/*
 #respond,
 #respond form { margin-bottom: 0; }
 
@@ -8089,7 +8089,7 @@ body:not(.device-touch) .entry-link {
 	height: 80px;
 	background-color:  #111111;
 }
-
+*/
 #fb-comments-title{
 	font-family: Raleway;
 	font-size: 24px;
@@ -8099,13 +8099,14 @@ body:not(.device-touch) .entry-link {
 	letter-spacing: 0em;
 	text-align: left;
 }
-
+/*
 #fb-comments-block{
 	display: block !important;
 	width: 100% !important;
 	background-color: #F0F0F0;
     margin-bottom: -100px;
 }
+*/
 /* Post Elements
 -----------------------------------------------------------------*/
 
