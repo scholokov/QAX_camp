@@ -147,7 +147,7 @@
                             <div class="trainer-experience">
 								2020 - зараз – Head Of QA в Django Stars<br> 
                                 2020 - 2020 – Head Of QA в MangoSoft / Kevuru Games<br> 
-                                2019 - 2019 – Head Of QA в компанії “Leap-Gaming”
+                                2019 - 2019 – Head Of QA в компанії “Leap-Gaming”<br>
                                 2017 - 2019 – Head Of QA в компанії “TSI”<br> 
                                 2017 – Founder, Head Of QA в компанії “QAX”<br> 
                                 2015 - 2016 –  Head Of QA в компанії “Lucky-Labs”<br> 
