@@ -8058,7 +8058,10 @@ body:not(.device-touch) .entry-link {
 	/*max-width: 90%;*/
     margin: auto;
 }
-
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+	max-width: 100% !important;
+	width: 100% !important;
+}
 @media (max-width:900px){
 	.fb-comments,
 	.fb_iframe_widget,
@@ -8069,8 +8072,7 @@ body:not(.device-touch) .entry-link {
 		/* display: block !important; */
 		background-color: #F0F0F0;
 		/*max-width: 100%;*/
-		max-width: 100% !important;
-        width: 100% !important;
+		
 		margin: auto;
 
 	}
