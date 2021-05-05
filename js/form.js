@@ -95,8 +95,7 @@ $('form').submit(function (e) {
         
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
-        '\nComment: ' + comment +
-        '\nunicode  ' + comment.charCodeAt(indx);  /* +  
+        '\nComment: ' + comment;  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
       */
