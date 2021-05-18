@@ -574,5 +574,33 @@ $("#phone_input").intlTelInput({
     });
 
 
+    $("#demo").intlTelInput("destroy");
+
+// Получить код страны
+var extension = $("#demo").intlTelInput("getExtension");
+
+// Получить текущий номер в данном формате
+//var intlNumber = $("#demo").intlTelInput("getNumber");
+
+// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
+//var numberType = $("#demo").intlTelInput("getNumberType");
+
+// Получить данные по стране для выбранного флага.
+//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
+
+// Получить более подробную информацию об ошибке валидации. 
+//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
+
+var isValid = $("#demo").intlTelInput("isValidNumber");
+
+// Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
+$("#demo").intlTelInput("loadUtils", "lib/libphonenumber/build/utils.js");
+
+// Изменить выбранную страну
+//$("#demo").intlTelInput("selectCountry", "gb");
+
+// Вставить номер и, соответственно, обновить выбранный флаг.
+//$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
+
 
 
