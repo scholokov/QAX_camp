@@ -594,7 +594,7 @@ var extension = $("#demo").intlTelInput("getExtension");
 var isValid = $("#demo").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-$("#demo").intlTelInput("loadUtils", "lib/libphonenumber/build/utils.js");
+$("#demo").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
 //$("#demo").intlTelInput("selectCountry", "gb");
