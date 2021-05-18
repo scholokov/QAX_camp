@@ -475,6 +475,7 @@ function check_phone() {
         error_message_phone_short.show();
         error_message_phone_empty.hide();
         error_message_phone_long.hide();
+        error_message_phone_plugin.hide();
         error_message_phone_only_numbers.hide();
         return false;
     }
@@ -482,6 +483,7 @@ function check_phone() {
           if (phone_input.intlTelInput("isValidNumber")) {
             phone_line.css({ "border-color": "#212121" });
             error_message_phone_empty.hide();
+            error_message_phone_plugin.hide();
             error_message_phone_short.hide();
             error_message_phone_long.hide();
             error_message_phone_only_numbers.hide();
@@ -489,6 +491,7 @@ function check_phone() {
           } else {
             phone_line.css({ "border-color": "red" });
             error_message_phone_plugin.show();
+            error_message_phone_short.hide();
             error_message_phone_empty.hide();
             error_message_phone_long.hide();
             error_message_phone_only_numbers.hide();
@@ -498,6 +501,7 @@ function check_phone() {
     else{
         phone_line.css({ "border-color": "#212121" });
         error_message_phone_empty.hide();
+        error_message_phone_plugin.hide();
         error_message_phone_short.hide();
         error_message_phone_long.hide();
         error_message_phone_only_numbers.hide();
