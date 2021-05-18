@@ -429,6 +429,7 @@ function check_phone() {
     var phone_line = $("#phone_input");
     var error_message_phone_empty = $("#error_message_phone_empty");
     var error_message_phone_short = $("#error_message_phone_short");
+    var error_message_phone_plugin = $("#error_message_phone_plugin");
     var error_message_phone_long = $("#error_message_phone_long");
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
 
@@ -487,7 +488,7 @@ function check_phone() {
             return true;
           } else {
             phone_line.css({ "border-color": "red" });
-            error_message_phone_short.show();
+            error_message_phone_plugin.show();
             error_message_phone_empty.hide();
             error_message_phone_long.hide();
             error_message_phone_only_numbers.hide();
@@ -578,7 +579,7 @@ $("#phone_input").intlTelInput({
     
     separateDialCode:false,
     
-    utilsScript:""
+    utilsScript:"js/utils.js"
     });
 
 $("#phone_input").intlTelInput({
