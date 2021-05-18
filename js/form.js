@@ -573,7 +573,6 @@ $("#phone_input").intlTelInput({
     }
     });
 
-$("#phone_input").geoIpLookup();
 
 // Получить код страны
 var extension = $("#demo").intlTelInput("getExtension");
