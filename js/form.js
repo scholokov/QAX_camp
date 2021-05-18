@@ -102,7 +102,7 @@ var intlNumber = input.intlTelInput("getNumber");
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         
-        '\nPhone: ' + intlNumber + $('#phone_input').val() +
+        '\nPhone: ' + intlNumber /*$('#phone_input').val()*/ +
         '\nEmail: ' + $('#email_input').val() +
         '\nComment: ' + comment;  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
