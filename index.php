@@ -88,6 +88,8 @@
 
 				<a href="our_trainers.php"  class="header-menu header-menu-links">наші тренери</a>
 
+				<a href="page.php"  class="header-menu header-menu-links">new page</a>
+
 				
 				<!--
 				<div><a href="#" class="language">UA|RU</a></div>
