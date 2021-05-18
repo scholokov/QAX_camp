@@ -47,6 +47,19 @@ utilsScript:""
 
 });
 
+//users ip for phone input
+
+$("#phone_input").intlTelInput({
+	defaultCountry: "auto",
+	geoIpLookup: function(callback) {
+	  $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+		var countryCode = (resp && resp.country) ? resp.country : "";
+		callback(countryCode);
+	  });
+	},
+	utilsScript: "utils.js" //для форматирования/плейсхолдера и т.д.
+  });
+
 //Telegram footer link
 window.onload=function(){
 	let telegram_img=$("#Telegram-img");
