@@ -526,6 +526,53 @@ var maskOptions = {
 };
 var mask = IMask(element, maskOptions);*/
 
+//international telephones
+$("#phone_input").intlTelInput({
+
+    allowDropdown:true,
+    
+    autoHideDialCode:true,
+    
+    autoPlaceholder:"polite",
+    
+    customPlaceholder:null,
+    
+    dropdownContainer:null,
+    
+    excludeCountries: [],
+    
+    formatOnDisplay:true,
+    
+    geoIpLookup:null,
+    
+    hiddenInput:"",
+    
+    initialCountry:"",
+    
+    localizedCountries:null,
+    
+    nationalMode:true,
+    
+    onlyCountries: [],
+    
+    placeholderNumberType:"MOBILE",
+    
+    preferredCountries: ["us","gb" ],
+    
+    separateDialCode:false,
+    
+    utilsScript:"utils.js",
+    
+    defaultCountry: "auto",
+    
+    geoIpLookup: function(callback) {
+          $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+            var countryCode = (resp && resp.country) ? resp.country : "";
+            callback(countryCode);
+          });
+    }
+    });
+
 
 
 
