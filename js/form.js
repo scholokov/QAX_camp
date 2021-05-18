@@ -517,14 +517,14 @@ function check_comment() {
 
 
 // phone mask
-var element = document.getElementById('phone_input');
+/*var element = document.getElementById('phone_input');
 var maskOptions = {
   mask: '+{38\\0}(#0) 000 - 00 - 00',
   definitions: {
     '#': /[123456789]/
   }
 };
-var mask = IMask(element, maskOptions);
+var mask = IMask(element, maskOptions);*/
 
 
 
