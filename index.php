@@ -549,7 +549,7 @@ function goToForm(){
 	<script src="https://unpkg.com/imask"></script>
 	<script src="js/form.js"></script>
 	<script src="js/functions.js"></script>
-	<script src="js/intlTelInput.js"></script>
+	<script src="js/intlTelInput.min.js"></script>
 
 </body>
 
