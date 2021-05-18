@@ -8,7 +8,44 @@ var $ = jQuery.noConflict();
 //curses functions
 
 
-//Cards => Accordion function
+//international telephones
+$("#phone_input").intlTelInput({
+
+allowDropdown:true,
+
+autoHideDialCode:true,
+
+autoPlaceholder:"polite",
+
+customPlaceholder:null,
+
+dropdownContainer:null,
+
+excludeCountries: [],
+
+formatOnDisplay:true,
+
+geoIpLookup:null,
+
+hiddenInput:"",
+
+initialCountry:"",
+
+localizedCountries:null,
+
+nationalMode:true,
+
+onlyCountries: [],
+
+placeholderNumberType:"MOBILE",
+
+preferredCountries: ["us","gb" ],
+
+separateDialCode:false,
+
+utilsScript:""
+
+});
 
 //Telegram footer link
 window.onload=function(){
