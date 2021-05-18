@@ -86,6 +86,15 @@ $('form').submit(function (e) {
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
     const indx=0;
+
+var input = $("#phone_input");
+
+input.intlTelInput({
+  nationalMode: true,
+  utilsScript: "utils.js" //для форматирования/плейсхолдера и т.д.
+});
+var intlNumber = input.intlTelInput("getNumber");
+
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
         '\nPage:'+ pages +
@@ -93,7 +102,7 @@ $('form').submit(function (e) {
         '\n\n' +
         'Name: ' + $('#name_input').val() +
         
-        '\nPhone: ' + $('#phone_input').val() +
+        '\nPhone: ' + intlNumber + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
         '\nComment: ' + comment;  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
@@ -470,7 +479,7 @@ function check_phone() {
         return false;
     }
     */
-    else if (phone_length_all < 22) {
+    else if (phone_length_all < 5) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
@@ -598,7 +607,7 @@ $("#phone_input").intlTelInput({
 });
 
 // Получить код страны
-var extension = $("#demo").intlTelInput("getExtension");
+var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
 //var intlNumber = $("#demo").intlTelInput("getNumber");
@@ -612,16 +621,19 @@ var extension = $("#demo").intlTelInput("getExtension");
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-var isValid = $("#demo").intlTelInput("isValidNumber");
+var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-$("#demo").intlTelInput("loadUtils", "js/utils.js");
+$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
 //$("#demo").intlTelInput("selectCountry", "gb");
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
+
+
+
 
 
 
