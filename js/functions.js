@@ -7,15 +7,6 @@ var $ = jQuery.noConflict();
 
 //curses functions
 
-
-
-
-//users ip for phone input
-
-$("#phone_input").intlTelInput({
-	 //для форматирования/плейсхолдера и т.д.
-  });
-
 //Telegram footer link
 window.onload=function(){
 	let telegram_img=$("#Telegram-img");
