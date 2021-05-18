@@ -561,20 +561,19 @@ $("#phone_input").intlTelInput({
     
     separateDialCode:false,
     
-    utilsScript:"js/utils.js",
-    
-    defaultCountry: "auto",
-    
-    geoIpLookup: function(callback) {
+    utilsScript:""
+    });
+
+$("#phone_input").intlTelInput({
+        defaultCountry: "auto",
+        geoIpLookup: function(callback) {
           $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
             var countryCode = (resp && resp.country) ? resp.country : "";
             callback(countryCode);
           });
-    }
-    });
-
-
-    $("#demo").intlTelInput("destroy");
+        },
+        utilsScript: "js/utils.js" //для форматирования/плейсхолдера и т.д.
+});
 
 // Получить код страны
 var extension = $("#demo").intlTelInput("getExtension");
