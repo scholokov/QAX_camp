@@ -561,7 +561,7 @@ $("#phone_input").intlTelInput({
     
     separateDialCode:false,
     
-    utilsScript:"utils.js",
+    utilsScript:"js/utils.js",
     
     defaultCountry: "auto",
     
