@@ -43,21 +43,22 @@ preferredCountries: ["us","gb" ],
 
 separateDialCode:false,
 
-utilsScript:""
+utilsScript:"utils.js",
 
+defaultCountry: "auto",
+
+geoIpLookup: function(callback) {
+	  $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+		var countryCode = (resp && resp.country) ? resp.country : "";
+		callback(countryCode);
+	  });
+}
 });
 
 //users ip for phone input
 
 $("#phone_input").intlTelInput({
-	defaultCountry: "auto",
-	geoIpLookup: function(callback) {
-	  $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-		var countryCode = (resp && resp.country) ? resp.country : "";
-		callback(countryCode);
-	  });
-	},
-	utilsScript: "utils.js" //для форматирования/плейсхолдера и т.д.
+	 //для форматирования/плейсхолдера и т.д.
   });
 
 //Telegram footer link
