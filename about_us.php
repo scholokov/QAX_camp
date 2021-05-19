@@ -172,6 +172,7 @@
 
 					<h3 class="about_us_titles">Як з'явився Camp?</h3>
 
+					<div class="about_us_line">
 					Camp виник як рішення на одвічне питання: 
 						“як потрапити на роботу, якщо на неї беруть тільки людей з досвідом?”.<br><br>
 					
@@ -191,6 +192,7 @@
 					</div>
 
 					<h3 class="about_us_titles">Зв'язок з QAX</h3>
+					<div class="about_us_line">
 
 					<img src="images/about_us.svg" alt="image">
 
@@ -204,7 +206,7 @@
 					QAX - Quality Assurance eXperts - аутсорсингова компанія заснована групою професійних фахівців із 
 					забезпечення якості з метою вийти за межі стандартних процесів тестування. <br><br>
 					
-					
+					</div>
 					</div>
 					
 
