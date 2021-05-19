@@ -172,7 +172,7 @@
 
 					<h3 class="about_us_titles">Як з'явився Camp?</h3>
 
-					<div class="about_us_line">
+					<div class="about_us_text">
 					Camp виник як рішення на одвічне питання: 
 						“як потрапити на роботу, якщо на неї беруть тільки людей з досвідом?”.<br><br>
 					
@@ -192,7 +192,7 @@
 					</div>
 
 					<h3 class="about_us_titles">Зв'язок з QAX</h3>
-					<div class="about_us_line">
+					<div class="about_us_text">
 
 					<img src="images/about_us.svg" alt="image">
 
