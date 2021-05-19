@@ -194,7 +194,7 @@
 						<h3 class="about_us_titles">Зв'язок з QAX</h3>
 							<div class="about_us_text">
 
-							<img src="images/about_us.svg" alt="image">
+							<img id="about_us_img" src="images/about_us.svg" alt="image">
 
 							QAX Camp - це дочірня компанія QAX, оскільки одним із співзасновників QAX є Денис Щолоков.<br><br>
 							
@@ -208,7 +208,6 @@
 							
 							</div>
 					
-					<?php include 'components/form.html'?>
 				</div>
 			</div>
 		</section><!-- #content end -->
