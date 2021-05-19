@@ -52,3 +52,31 @@
 #about_us_img{
     margin-bottom: 34px;
 }
+
+/*-----mobile version------*/
+
+@media screen and (max-width: 600px) {
+    .about_us_main_block{
+        max-width: 300px;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+
+    .about_us_titles{
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 14px;
+    }
+
+    .about_us_text{
+        font-size:  14px;
+        line-height: 21px;
+        margin-bottom: 36px;
+    
+    }
+}
+
