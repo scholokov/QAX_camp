@@ -36,3 +36,15 @@
     font-weight: 500;
     line-height: 27px;
 }
+
+#about_us_quotation1{
+    max-width: 517px;
+    width: 100%;
+    margin: 12px auto;
+}
+
+#about_us_quotation2{
+    max-width: 251px;
+    width: 100%;
+    margin: 12px auto;
+}
