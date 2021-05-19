@@ -7,9 +7,6 @@ var $ = jQuery.noConflict();
 
 //curses functions
 
-
-//Cards => Accordion function
-
 //Telegram footer link
 window.onload=function(){
 	let telegram_img=$("#Telegram-img");

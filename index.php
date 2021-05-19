@@ -27,6 +27,7 @@
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
+	<link rel="stylesheet" href="css/intlTelInput.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -87,6 +88,8 @@
 				<a href="about_us.php"  class="header-menu header-menu-links ">про нас</a>
 
 				<a href="our_trainers.php"  class="header-menu header-menu-links">наші тренери</a>
+
+				<a href="page.php"  class="header-menu header-menu-links">new page</a>
 
 				
 				<!--
@@ -543,7 +546,12 @@ function goToForm(){
 	<!-- Footer Scripts
 	============================================= -->
 	<!-- for phone mask -->
+	
 	<script src="https://unpkg.com/imask"></script>
+	
+	<script src="js/intlTelInput.min.js"></script>
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/intlTelInput-jquery.min.js"></script>
 	<script src="js/form.js"></script>
 	<script src="js/functions.js"></script>
 	
