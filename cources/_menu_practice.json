@@ -1,0 +1,17 @@
+{
+    "auto": {
+        "courseName": "QA Engineer",
+        "courseFileName": "qa_practice",
+        "availability": "1"
+    },
+    "practice-theory": {
+        "courseName": "Business Analyst",
+        "courseFileName": "ba_practice",
+        "availability": "1"
+    },
+    "practice": {
+        "courseName": "Project Manager",
+        "courseFileName": "pm_practice",
+        "availability": "1"
+    }
+}
