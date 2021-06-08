@@ -1,20 +1,16 @@
 {
-    "qa": {
-        "courceTabName": "QA Engineer",
+    "practice": {
+        "courceTabName": "Практичні курси",
         "availability": "1",
-        "courcefile": "_menu_qa.json",
-        "cource": "qa"
+        "courcefile": "_menu_practice.json",
+        "cource": "practice"
     },
-    "ba": {
-        "courceTabName": "Business Analyst",
+    "theory": {
+        "courceTabName": "Класичні курси",
         "availability": "1",
-        "courcefile": "_menu_ba.json",
-        "cource": "ba"
-    },
-    "pm": {
-        "courceTabName": "Project Manager",
-        "availability": "1",
-        "courcefile": "_menu_pm.json",
-        "cource": "pm"
+        "courcefile": "_menu_theory.json",
+        "cource": "theory"
     }
 }
+
+ 
