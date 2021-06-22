@@ -30,6 +30,7 @@
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.about_us.css" type="text/css" />
+	<link rel="stylesheet" href="css/intlTelInput.css">
 
 
 	<!-- Document Title

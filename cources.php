@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
+	<link rel="stylesheet" href="css/intlTelInput.css">
 
 	<meta property="fb:admins" content="denis.scholokov" />
 
@@ -284,7 +285,7 @@
 	============================================= -->
 	<!-- for phone mask -->
 	<script src="https://unpkg.com/imask"></script>
-	
+
 	<script src="js/intlTelInput.min.js"></script>
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/intlTelInput-jquery.min.js"></script>

@@ -31,6 +31,7 @@
 	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
     <link rel="stylesheet" href="css/block.about_us.css" type="text/css" />
     <link rel="stylesheet" href="css/block.our_trainers.css" type="text/css" />
+	<link rel="stylesheet" href="css/intlTelInput.css">
 
 	<!-- Document Title
 	============================================= -->
@@ -324,7 +325,7 @@ function goToForm(){
 	============================================= -->
 	<!-- for phone mask -->
 	<script src="https://unpkg.com/imask"></script>
-	
+
 	<script src="js/intlTelInput.min.js"></script>
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/intlTelInput-jquery.min.js"></script>
