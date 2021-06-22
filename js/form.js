@@ -377,7 +377,7 @@ function check_name() {
         error_message_name_only_numbers.hide();
         return true;
     };
-}
+};
 
 
 
