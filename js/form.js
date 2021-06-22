@@ -331,7 +331,7 @@ function check_name() {
     var name_clear = name_input.val().trim();
 
     var name_length = name_clear.length;
-var patternName = new RegExp(/^[a-zA-Zа-яА-яЁёàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ `'-\u{0060}\u{2018}\u{2019}\u{2032}\u{0027}]+$/ui);
+    var patternName = new RegExp(/^[a-zA-Zа-яА-яЁёàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ `'-\u{0060}\u{2018}\u{2019}\u{2032}\u{0027}]/gui);
     let name = patternName.test(name_clear);
 
     console.log('name-length: ' + name_length);
@@ -391,7 +391,7 @@ function check_email() {
     var error_message_email_invalid = $("#error_message_email_invalid");
     var error_message_email_long = $("#error_message_email_long");
 
-    var patternEmail = new RegExp(/^[A-Z0-9._+-\\(\\)]+@[A-Z0-9-]+[.]+[A-Z]{1,4}$/i);
+    var patternEmail = new RegExp(/^[A-Z0-9._+-\\(\\)]+@[A-Z0-9-]+[.]+[A-Z]{1,4}$/ig);
     var email_clear = email_input.val().trim();
     let email = patternEmail.test(email_clear);
     var email_length = email_clear.length;
