@@ -284,7 +284,7 @@ $(function () {
 
 
 // then clicked on check box
-function check_agree() {
+/*function check_agree() {
     var error_message_agree_empty = $("#error_message_agree_empty");
     var unchecked = document.getElementById("form-agree").checked;
     console.log('error_message_agree_empty: ' + error_message_agree_empty);
@@ -299,7 +299,7 @@ function check_agree() {
         console.log('if: ok');
         return true;
     };
-};
+};*/
 
 // then clicked on send button
 function check_agree_send() {
