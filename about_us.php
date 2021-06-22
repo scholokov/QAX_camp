@@ -288,6 +288,9 @@ function goToForm(){
 	<!-- for phone mask -->
 	<script src="https://unpkg.com/imask"></script>
 
+	<script src="js/intlTelInput.min.js"></script>
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/intlTelInput-jquery.min.js"></script>
 	<script src="js/functions.js"></script>
 	<script src="js/form.js"></script>
 
