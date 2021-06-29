@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
 #offer-obtention-main-block{
     display: flex;
     flex-direction: row;
@@ -11,7 +12,7 @@
 #offer-obtention-text-block{
     display: flex;
     color: #FFFFFF;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
     font-weight: 500;
     font-size: 48px;
     line-height: 56px;
