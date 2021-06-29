@@ -137,6 +137,16 @@
 			</div>
 		</div>
 
+		<div >
+			<!-- ============================================ -->
+			<div>
+				<img src="images/Walking_Around.svg" alt="hero-img">
+			</div>
+			<div>
+				
+			</div>
+		</div>
+
 		<!-- Page Title
 		============================================= -->
 
