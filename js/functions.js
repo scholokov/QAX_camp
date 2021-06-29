@@ -19,7 +19,7 @@ window.onload=function(){
   
 window.onload=function () {
     var pages=window.location.pathname.slice(1);
-	var url="cources.php?cource=qa&name=qa_practice
+	var url="cources.php?cource=qa&name=qa_practice";
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
  
