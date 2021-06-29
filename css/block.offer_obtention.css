@@ -8,7 +8,7 @@
 #offer-obtention-text-block{
     display: flex;
     color: #FFFFFF;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 56px;
