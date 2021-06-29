@@ -24,9 +24,13 @@ window.onload=function () {
         var link = $(this).attr('href');
 		console.log(link);
 		console.log(pages);
-        if (pages == link || pages == "cources.php") {
+        if (pages == link ) {
             $(this).addClass('current');
-        }
+        }else if(link==url && pages=="courses.php"){
+			$(this).addClass('current');
+		}else{
+			$(this).removeClass('current');
+		}
 
     });
 
