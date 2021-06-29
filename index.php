@@ -147,13 +147,21 @@
 				<div >
 					QA Enginner
 				</div>
+
 				<div >
 					<img src="images/Arrow1.png">
-					<span id="offer-obtention-duration">
-						4 місяці
-					</span>
+						
 				</div>
-			
+
+				<div id="offer-obtention-duration">
+						4 місяці
+				</div>
+
+				<div >
+					<img src="images/Arrow2.png">
+						
+				</div>
+
 				<div >
 					NON-IT Experience
 				</div>

@@ -17,9 +17,6 @@
     align-items: center;
 }
 #offer-obtention-duration{
-    position: absolute;
-    right: 100px;
-    top: 660px;
     font-size: 30px;
     color: #F66F5D !important;
     background-color: #252525 !important;
