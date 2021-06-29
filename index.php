@@ -148,7 +148,7 @@
 					QA Enginner
 				</div>
 				<div >
-					<img src="images/Arrow1.svg">
+					<img src="images/Arrow1.png">
 					<span id="offer-obtention-duration">
 						4 місяці
 					</span>
