@@ -148,8 +148,8 @@
 					QA Enginner
 				</div>
 
-				<div >
-					<img src="images/Arrow-big1.png">
+				<div class>
+					<img src="images/Arrow-big1.png" id="offer-obtention-arrow1">
 						
 				</div>
 
@@ -158,7 +158,7 @@
 				</div>
 
 				<div >
-					<img src="images/Arrow-big2.png">
+					<img src="images/Arrow-big2.png" id="offer-obtention-arrow2">
 						
 				</div>
 

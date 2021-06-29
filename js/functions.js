@@ -35,6 +35,39 @@ window.onload=function () {
     });
 
 };
+
+
+var windowWidth = $(window).width();
+var arrow1 = $('#offer-obtention-arrow1');
+var arrow2 = $('#offer-obtention-arrow2');
+if (windowWidth <= 1130) {
+	arrow1.attr({"src":"images/Arrow1.png"})
+  }else{
+	arrow1.attr({"src":"images/Arrow-big1.png"})
+  };
+if (windowWidth <= 1130) {
+	arrow2.attr({"src":"images/Arrow2.png"});
+} else {
+	arrow2.attr({"src":"images/Arrow-big2.png"});
+};
+
+  window.onresize=function(){
+	    var windowWidth = $(window).width();
+		var arrow1 = $('#offer-obtention-arrow1');
+		var arrow2 = $('#offer-obtention-arrow2');
+		if (windowWidth <= 1130) {
+			arrow1.attr({"src":"images/Arrow1.png"})
+		  }else{
+			arrow1.attr({"src":"images/Arrow-big1.png"})
+		  };
+		if (windowWidth <= 1130) {
+			arrow2.attr({"src":"images/Arrow2.png"});
+		} else {
+			arrow2.attr({"src":"images/Arrow-big2.png"});
+		};
+  };
+  
+
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
 	$(this).scroll(function(){

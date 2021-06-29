@@ -26,6 +26,7 @@
 
 .offer-obtention-text{
     font-family: Raleway !important;
+    white-space: nowrap;
 }
 
 @media (max-width:1245px){
