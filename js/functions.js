@@ -25,10 +25,10 @@ window.onload=function () {
  
         if (pages == link) {
             $(this).addClass('current');
-        }else if( link == url) {
-            $(this).addClass('current');}
+        }
 
     });
+	
 };
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
