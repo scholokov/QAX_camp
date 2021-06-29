@@ -19,7 +19,6 @@ window.onload=function(){
   
 window.onload=function () {
     var pages=window.location.pathname.slice(1);
- 	var url=
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
  
