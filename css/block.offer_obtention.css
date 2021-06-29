@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #offer-obtention-text-block{
@@ -16,6 +16,6 @@
     flex-wrap: nowrap;
     align-items: center;
 }
-#offer-obtention-duration{
+#offer-obtention-text-duration{
     color: #F66F5D !important;
 }
