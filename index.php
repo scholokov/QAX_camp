@@ -27,6 +27,7 @@
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.offer_obtention.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -148,11 +149,11 @@
 				</div>
 				<div >
 					<img src="images/Arrow1.svg">
+					<span id="offer-obtention-duration">
+						4 місяці
+					</span>
 				</div>
-				<div >
-					4 місяці
-				</div>
-				
+			
 				<div >
 					NON-IT Experience
 				</div>
