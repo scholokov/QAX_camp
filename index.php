@@ -137,13 +137,25 @@
 			</div>
 		</div>
 
-		<div >
+		<div id="offer-obtention-main-block" >
 			<!-- ============================================ -->
-			<div>
+			<div id="offer-obtention-img-block">
 				<img src="images/Walking_Around.svg" alt="hero-img">
 			</div>
-			<div>
+			<div id="offer-obtention-text-block">
+				<div >
+					QA Enginner
+				</div>
+				<div >
+					<img src="images/Arrow1.svg">
+				</div>
+				<div >
+					4 місяці
+				</div>
 				
+				<div >
+					NON-IT Experience
+				</div>
 			</div>
 		</div>
 
