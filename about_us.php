@@ -208,7 +208,7 @@
 							забезпечення якості з метою вийти за межі стандартних процесів тестування. <br><br>
 							
 							</div>
-					
+							<?php include 'components/form.html'?>
 				</div>
 			</div>
 		</section><!-- #content end -->
