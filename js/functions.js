@@ -17,18 +17,17 @@ window.onload=function(){
 	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
   };
   
-$(function () {
-    var location = window.location.href;
-    var cur_url = '/' + location.split('/').pop();
+window.onload=function () {
+    var pages=window.location.pathname.slice(1);
  
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
  
-        if (cur_url == link) {
+        if (pages == link) {
             $(this).addClass('current');
         }
     });
-});
+};
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
 	$(this).scroll(function(){
