@@ -23,9 +23,9 @@ window.onload=function () {
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
  
-        if (pages == link && url !== link) {
+        if (pages == link) {
             $(this).addClass('current');
-        }else if(pages !== link && url == link) {
+        }else if( link == url) {
             $(this).addClass('current');}
 
     });
