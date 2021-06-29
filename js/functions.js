@@ -19,17 +19,14 @@ window.onload=function(){
   
 window.onload=function () {
     var pages=window.location.pathname.slice(1);
- 
+ 	var url=window.location.search.slice(16);
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
  
         if (pages == link) {
             $(this).addClass('current');
         }
-	var url=window.location.search.slice(16);
-		if(url="courses.php"){
-            $(this).addClass('current');
-        }
+
     });
 };
 // Scrolled
