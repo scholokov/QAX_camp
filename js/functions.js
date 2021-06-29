@@ -22,7 +22,8 @@ window.onload=function () {
 	var url="cources.php?cource=qa&name=qa_practice";
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
- 
+		console.log(link);
+		console.log(pages);
         if (pages == link || pages == "cources.php") {
             $(this).addClass('current');
         }
