@@ -7,7 +7,11 @@
 
 #offer-obtention-text-block{
     display: flex;
-    color: bisque;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
@@ -17,6 +21,6 @@
     right: 100px;
     top: 660px;
     font-size: 30px;
-    color: #F66F5D;
+    color: #F66F5D !important;
     background-color: #252525 !important;
 }
