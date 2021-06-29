@@ -19,13 +19,15 @@ window.onload=function(){
   
 window.onload=function () {
     var pages=window.location.pathname.slice(1);
- 	var url=window.location.search.slice(16);
+ 	var url=
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
  
         if (pages == link) {
             $(this).addClass('current');
-        }
+        }else if(link="cources.php?cource=qa&name=qa_practice"){
+			$(this).addClass('current');
+		}
 
     });
 };
