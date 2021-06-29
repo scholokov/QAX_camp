@@ -149,7 +149,7 @@
 				</div>
 
 				<div >
-					<img src="images/Arrow1.png">
+					<img src="images/Arrow-big1.png">
 						
 				</div>
 
@@ -158,7 +158,7 @@
 				</div>
 
 				<div >
-					<img src="images/Arrow2.png">
+					<img src="images/Arrow-big2.png">
 						
 				</div>
 
