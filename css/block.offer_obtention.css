@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 
 #offer-obtention-text-block{
