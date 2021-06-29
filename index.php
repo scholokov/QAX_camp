@@ -144,7 +144,7 @@
 				<img src="images/Walking_Around.svg" alt="hero-img">
 			</div>
 			<div id="offer-obtention-text-block">
-				<div >
+				<div class="offer-obtention-text">
 					QA Enginner
 				</div>
 
@@ -153,7 +153,7 @@
 						
 				</div>
 
-				<div id="offer-obtention-text-duration">
+				<div id="offer-obtention-text-duration" class="offer-obtention-text">
 						4 місяці
 				</div>
 
@@ -162,7 +162,7 @@
 						
 				</div>
 
-				<div >
+				<div class="offer-obtention-text">
 					NON-IT Experience
 				</div>
 			</div>
