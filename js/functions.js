@@ -26,6 +26,10 @@ window.onload=function () {
         if (pages == link) {
             $(this).addClass('current');
         }
+	var url=window.location.search.slice(16);
+		if(url="courses.php"){
+            $(this).addClass('current');
+        }
     });
 };
 // Scrolled
