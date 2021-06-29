@@ -153,7 +153,7 @@
 						
 				</div>
 
-				<div id="offer-obtention-duration">
+				<div>
 						4 місяці
 				</div>
 
