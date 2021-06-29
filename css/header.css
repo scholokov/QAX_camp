@@ -219,6 +219,6 @@ a#menuCources:hover{
     transform: rotate(45deg) translate(-7px, -6px);
   }
 
-.current a {
+.current {
     color: #03d3eb;
 }
