@@ -220,5 +220,5 @@ a#menuCources:hover{
   }
 
 .current {
-    color: #03d3eb;
+  border-bottom: 1px solid #FFFFFF;
 }
