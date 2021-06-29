@@ -23,12 +23,12 @@ window.onload=function () {
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
  
-        if (pages == link) {
+        if (pages == link || pages == "cources.php") {
             $(this).addClass('current');
         }
 
     });
-	
+
 };
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
