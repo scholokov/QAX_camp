@@ -41,7 +41,7 @@ div#offer-obtention-text-mob{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
 }
 
