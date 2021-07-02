@@ -49,7 +49,9 @@ if (windowWidth <= 1130) {
 	arrow2.attr({"src":"images/Arrow-big2.png"});
   };
 
-  window.onresize=function(){
+  
+};
+window.onresize=function(){
 	  
 		if (windowWidth <= 1130) {
 			arrow1.attr({"src":"images/Arrow1.png"});
@@ -59,9 +61,7 @@ if (windowWidth <= 1130) {
 			arrow2.attr({"src":"images/Arrow-big2.png"});
 		  };
 		
-  };
-};
-  
+};  
 
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
