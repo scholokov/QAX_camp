@@ -45,6 +45,10 @@ div#offer-obtention-text-mob{
     text-align: center;
 }
 
+#offer-obtention-text-mob{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width:1245px){
     #offer-obtention-text-block{
