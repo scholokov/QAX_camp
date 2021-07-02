@@ -170,7 +170,7 @@
 			<div id="offer-obtention-text-block-mob">
 						
 						<div id="offer-obtention-img-mob">
-							<img src="images/Arrow 13.png" id="offer-obtention-arrow-mob">	
+							<img src="images/Arrow 13.svg" id="offer-obtention-arrow-mob">	
 						</div>
 
 						<div id="offer-obtention-text-mob">
