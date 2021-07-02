@@ -37,6 +37,7 @@ window.onload=function () {
 };
 
 
+window.onload=function(){
 var windowWidth = $(window).width();
 var arrow1 = $('#offer-obtention-arrow1');
 var arrow2 = $('#offer-obtention-arrow2');
@@ -63,6 +64,7 @@ if (windowWidth <= 1130) {
 			arrow2.attr({"src":"images/Arrow-big2.png"});
 		};
   };
+};
   
 
 // Scrolled
