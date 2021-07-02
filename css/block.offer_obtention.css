@@ -37,6 +37,14 @@
     line-height: 21px;
 }
 
+div#offer-obtention-text-mob{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
 
 @media (max-width:1245px){
     #offer-obtention-text-block{
