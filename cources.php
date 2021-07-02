@@ -166,7 +166,7 @@
 										</div>
 										<div id="fb-comments-block">	
 											<div class="fb-comments container" data-href="<?echo $json_data['facebookLink']?>"  
-												data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
+												data-width="100%"  data-numposts="2" data-colorscheme="dark">
 											</div>
 										</div>
 							</div>
@@ -174,7 +174,7 @@
 					</div>
 			</div>
 		</section>
-		<!-- #content end -->
+		<!-- #content end order_by="reverse_time"-->
 		
 		<!-- Footer
 		============================================= -->
