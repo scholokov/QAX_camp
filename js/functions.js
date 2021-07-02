@@ -17,8 +17,11 @@ window.onload=function(){
 	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
   };
   
-window.onload=function () {
-    var pages=window.location.pathname.slice(1);
+
+
+
+window.onload=function(){
+var pages=window.location.pathname.slice(1);
 	var url="cources.php?cource=qa&name=qa_practice";
     $('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
@@ -32,12 +35,8 @@ window.onload=function () {
 			$(this).removeClass('current');
 		}
 
-    });
+    });	
 
-};
-
-
-window.onload=function(){
 var windowWidth = $(window).width();
 var arrow1 = $('#offer-obtention-arrow1');
 var arrow2 = $('#offer-obtention-arrow2');
