@@ -28,6 +28,10 @@
     font-family: Raleway !important;
     white-space: nowrap;
 }
+#offer-obtention-text-block-mob{
+    display: none;
+}
+
 
 @media (max-width:1245px){
     #offer-obtention-text-block{
@@ -38,5 +42,14 @@
 @media (max-width:1130px){
     #offer-obtention-text-block{
         font-size: 24px;
+    }
+}
+
+@media (max-width:701px){
+    #offer-obtention-text-block{
+        display: none;
+    }
+    #offer-obtention-text-block-mob{
+        display: block;
     }
 }

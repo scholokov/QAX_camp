@@ -166,7 +166,32 @@
 					NON-IT Experience
 				</div>
 			</div>
+
+			<div id="offer-obtention-text-block-mob">
+
+							<div class>
+								<img src="images/Arrow 13.png" id="">	
+							</div>
+
+							<div class="offer-obtention-text">
+								NON-IT Experience
+							</div>
+
+							<div id="offer-obtention-text-duration" class="offer-obtention-text">
+									4 місяці
+							</div>
+
+							<div class="offer-obtention-text">
+							QA Enginner
+							</div>
+			</div>
 		</div>
+
+		
+			
+			
+		
+
 
 		<!-- Page Title
 		============================================= -->
