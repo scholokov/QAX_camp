@@ -164,7 +164,7 @@
 											<div id="fb-comments-title">Відгуки про курси </div>
 										</div>
 										<div id="fb-comments-block">	
-											<div class="fb-comments container" data-href="<?echo $json_data['facebookLink']?>"  ;
+											<div class="fb-comments container" data-href="<?echo $json_data['facebookLink']?>"  
 												data-width="100%" order_by="reverse_time" data-numposts="2" data-colorscheme="dark">
 											</div>
 										</div>
