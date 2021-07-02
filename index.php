@@ -175,15 +175,15 @@
 
 						<div id="offer-obtention-text-mob">
 							<div class="offer-obtention-text">
-								NON-IT Experience
+								NON-IT <br> Experience
 							</div>
 
 							<div id="offer-obtention-text-duration" class="offer-obtention-text">
-									4 місяці
+								4<br> місяці
 							</div>
 
 							<div class="offer-obtention-text">
-							QA Enginner
+								QA <br>Enginner
 							</div>
 						</div>
 			</div>
