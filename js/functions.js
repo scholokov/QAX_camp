@@ -37,7 +37,7 @@ window.onload=function () {
 };
 
 
-/*var windowWidth = $(window).width();
+var windowWidth = $(window).width();
 var arrow1 = $('#offer-obtention-arrow1');
 var arrow2 = $('#offer-obtention-arrow2');
 if (windowWidth <= 1130) {
@@ -52,8 +52,6 @@ if (windowWidth <= 1130) {
 };
 
   window.onresize=function(){
-		var arrow1 = $('#offer-obtention-arrow1');
-		var arrow2 = $('#offer-obtention-arrow2');
 		if (windowWidth <= 1130) {
 			arrow1.attr({"src":"images/Arrow1.png"})
 		  }else{
@@ -65,7 +63,7 @@ if (windowWidth <= 1130) {
 			arrow2.attr({"src":"images/Arrow-big2.png"});
 		};
   };
-  */
+  
 
 // Scrolled
 $.fn.scrollEnd = function(callback, timeout) {
