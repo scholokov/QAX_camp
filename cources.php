@@ -153,7 +153,7 @@
 
 				</div>
 
-				<div id="comments-course" class="container-xl no-padding">
+				<div id="comments-course-main-block" class="container-xl no-padding">
 
 							<?	$json = file_get_contents( 'env.json');
 								$json_data = json_decode($json,true);	
