@@ -17,6 +17,12 @@
     font-family: Raleway;
 }
 
+.menu-line{
+  border: 1px solid white;
+  margin-bottom: 42px;
+  width: 100%;
+}
+
 .header-menu-links{
   color:white;
     display: block;

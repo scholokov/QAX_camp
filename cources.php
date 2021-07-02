@@ -81,7 +81,10 @@
 
 
 				<div class="header-menu" id="header-block">
-				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
+				<div>
+					<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
+					<div class="menu-line"></div>
+				<div>
 
 				<a href="cources.php?cource=qa&name=qa_practice"  class="header-menu header-menu-links">курси</a>
 
