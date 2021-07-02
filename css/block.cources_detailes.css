@@ -30,3 +30,6 @@ td {
     margin-left: 20px;
 }
 
+.list-in-list-not-marked{
+    list-style-type: none;
+}
