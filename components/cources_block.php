@@ -49,7 +49,7 @@ foreach ($json_data as $cource_file => $cource_tab) {
 
 						//echo '<li class="menu-sub-item-QA"><a href="#' . $cource_name['courseFileName'] . '"';
 						echo '<li class="menu-sub-item-QA"><a href="?cource=' . $cource_tab_id . '&name=' . $cource_name['courseFileName'] . '"';
-							echo 'onclick="openTab(event, &#039;' . $cource_name['courseFileName'] . '&#039;)" class="tablinks ' . $activeFlag . '"';
+							echo ' onclick="openTab(event, &#039;' . $cource_name['courseFileName'] . '&#039;)" class="tablinks ' . $activeFlag . '"';
 							echo $defaultFlag . '>' . $cource_name['courseName'] . '</a>';
 						echo '</li>';
 					}
