@@ -17,10 +17,22 @@
     font-family: Raleway;
 }
 
-.menu-line{
+#menu-line-cources{
   border: 1px solid white;
   margin-bottom: 42px;
-  width: 100%;
+  width: 75%;
+}
+
+#menu-line-about-us{
+  border: 1px solid white;
+  margin-bottom: 42px;
+  width: 75%;
+}
+
+#menu-line-our-trainers{
+  border: 1px solid white;
+  margin-bottom: 42px;
+  width: 75%;
 }
 
 .header-menu-links{

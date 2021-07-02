@@ -82,11 +82,9 @@
 
 				<div class="header-menu" id="header-block">
 				
-					<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
-					
+				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 				
-
-				<a href="cources.php?cource=qa&name=qa_practice"  class="header-menu header-menu-links">курси<div class="menu-line"></div></a>
+				<a href="cources.php?cource=qa&name=qa_practice"  class="header-menu header-menu-links">курси<div id="menu-line-cources"></div></a>
 
 				<a href="about_us.php"  class="header-menu header-menu-links">про нас</a>
 

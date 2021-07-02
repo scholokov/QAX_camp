@@ -22,8 +22,22 @@ window.onload=function(){
 
 window.onload=function(){
 var pages=window.location.pathname.slice(1);
-	var url="cources.php?cource=qa&name=qa_practice";
-    $('a.header-menu.header-menu-links').each(function () {
+var url="cources.php?cource=qa&name=qa_practice";
+var link = ('a.header-menu.header-menu-links').attr('href');
+
+	if (link==url && pages=="cources.php"){
+		$("#menu-line-cources").attr({"display":"block"});
+	}else if(pages=="about_us.php"){
+		$("#menu-line-about-us").attr({"display":"block"});
+	}else if(pages=="our_trainers.php"){
+		$("#menu-line-our-trainers").attr({"display":"block"});
+	}else{
+		$("#menu-line-cources").attr({"display":"none"});
+		$("#menu-line-about-us").attr({"display":"none"});
+		$("#menu-line-our-trainers").attr({"display":"none"});
+	};
+
+    /*$('a.header-menu.header-menu-links').each(function () {
         var link = $(this).attr('href');
 		console.log(link);
 		console.log(pages);
@@ -33,9 +47,9 @@ var pages=window.location.pathname.slice(1);
 			$(this).addClass('current');
 		}else{
 			$(this).removeClass('current');
-		}
+		}*/
 
-    });	
+    	
 
 var windowWidth = $(window).width();
 var arrow1 = $('#offer-obtention-arrow1');
@@ -48,7 +62,6 @@ if (windowWidth <= 806) {
 	arrow2.attr({"src":"images/Arrow-big2.png"});
   };
 
-  
 };
 window.onresize=function(){
 	var windowWidth = $(window).width();
