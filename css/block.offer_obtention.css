@@ -29,6 +29,8 @@
     white-space: nowrap;
 }
 #offer-obtention-text-block-mob{
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif !important;
     display: none;
 }
 
@@ -51,5 +53,9 @@
     }
     #offer-obtention-text-block-mob{
         display: block;
+    }
+    #offer-obtention-main-block{
+        flex-direction: column;
+        
     }
 }
