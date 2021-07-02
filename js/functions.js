@@ -41,7 +41,7 @@ window.onload=function(){
 var windowWidth = $(window).width();
 var arrow1 = $('#offer-obtention-arrow1');
 var arrow2 = $('#offer-obtention-arrow2');
-if (windowWidth <= 1130) {
+if (windowWidth <= 806) {
 	arrow1.attr({"src":"images/Arrow1.png"});
 	arrow2.attr({"src":"images/Arrow2.png"});
   }else{
@@ -55,7 +55,7 @@ window.onresize=function(){
 	var windowWidth = $(window).width();
 	var arrow1 = $('#offer-obtention-arrow1');
 	var arrow2 = $('#offer-obtention-arrow2');
-		if (windowWidth <= 1130) {
+		if (windowWidth <= 806) {
 			arrow1.attr({"src":"images/Arrow1.png"});
 			arrow2.attr({"src":"images/Arrow2.png"});
 		  }else{
