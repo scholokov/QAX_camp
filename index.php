@@ -168,11 +168,12 @@
 			</div>
 
 			<div id="offer-obtention-text-block-mob">
+						
+						<div >
+							<img src="images/Arrow 13.png" id="">	
+						</div>
 
-							<div class>
-								<img src="images/Arrow 13.png" id="">	
-							</div>
-
+						<div id="offer-obtention-text-mob">
 							<div class="offer-obtention-text">
 								NON-IT Experience
 							</div>
@@ -184,6 +185,7 @@
 							<div class="offer-obtention-text">
 							QA Enginner
 							</div>
+						</div>
 			</div>
 		</div>
 
