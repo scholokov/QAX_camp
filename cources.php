@@ -128,6 +128,7 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
+			<h2></h2>
 			<div class="content-wrap">
 				<div class="container clearfix">
 
