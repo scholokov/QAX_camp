@@ -8084,6 +8084,10 @@ body:not(.device-touch) .entry-link {
 	}
 }
 
+#courses_title_section{
+	display: none;
+}
+
 #comments-course-main-block{
 	padding: 0;
 	max-width: 1400px;

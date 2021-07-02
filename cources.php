@@ -128,7 +128,7 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
-			<h2></h2>
+			<h2 id="courses_title_section">Title</h2>
 			<div class="content-wrap">
 				<div class="container clearfix">
 
