@@ -645,6 +645,9 @@ window.intlTelInput(input, {
   utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
 });
 
-
+var input = document.querySelector("#phone_input");
+window.intlTelInput(input, {
+  utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
+});
 
 
