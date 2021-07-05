@@ -354,12 +354,14 @@ textarea:-moz-placeholder {
 }
 
 #div-name,#div-phone-email,#div-comment,#div-data-button{
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #div-phone,#div-email {
     padding-bottom: 30px;
+    max-width: 280px;
+    width: 100%;
 }
 
 #div-name{
