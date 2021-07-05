@@ -5,6 +5,10 @@
     margin-top: 100px;
 }
 
+#content-title{
+    display: none;
+}
+
 #cources-cards-block {
     margin-top: 50px;
     flex-direction: row;

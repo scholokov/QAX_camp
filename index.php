@@ -139,7 +139,7 @@
 		</div>
 
 		<div id="offer-obtention-main-block" >
-			<h3 id="offer-obtention-main-title">Title</h3>
+			
 			<!-- ============================================ -->
 			<div id="offer-obtention-img-block">
 				<img src="images/Walking_Around.svg" alt="hero-img">
@@ -202,6 +202,7 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
+		<h3 id="content-title">Title</h3>
 			<div class="content-wrap">
 				<div class="container clearfix">
 
