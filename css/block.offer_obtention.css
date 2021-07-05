@@ -102,6 +102,9 @@ div#offer-obtention-text-mob{
         padding-left: 29px;
         padding-right: 29px;
     }
+    #offer-obtention-text-duration{
+        line-height: 21px;
+    }
     #offer-obtention-text-block{
         display: none;
     }
