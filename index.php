@@ -144,7 +144,7 @@
 				<img src="images/Walking_Around.svg" alt="hero-img">
 			</div>
 			<div id="offer-obtention-text-block">
-				<div class="offer-obtention-text">
+				<div id="offer-obtention-text-qa" class="offer-obtention-text">
 					QA Enginner
 				</div>
 
@@ -162,7 +162,7 @@
 						
 				</div>
 
-				<div class="offer-obtention-text">
+				<div id="offer-obtention-text-exp" class="offer-obtention-text">
 					NON-IT Experience
 				</div>
 			</div>

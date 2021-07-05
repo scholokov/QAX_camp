@@ -56,6 +56,14 @@ div#offer-obtention-text-mob{
     justify-content: center;
 }
 
+#offer-obtention-text-qa{
+    margin-bottom: 20px;
+}
+
+#offer-obtention-text-exp{
+    margin-top: 20px;
+}
+
 @media (max-width:1245px){
     #offer-obtention-text-block{
         font-size: 36px;
