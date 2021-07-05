@@ -26,7 +26,7 @@
     flex-wrap: nowrap;
     align-items: center;
 }
-#offer-obtention-text-duration{
+.offer-obtention-text-duration{
     color: #F66F5D !important;
     line-height: 60px;
 }
@@ -86,7 +86,7 @@ div#offer-obtention-text-mob{
         line-height: 28px;
     }
 
-    #offer-obtention-text-duration{
+    .offer-obtention-text-duration{
         line-height: 40px;
     }
 }
@@ -102,7 +102,7 @@ div#offer-obtention-text-mob{
         padding-left: 29px;
         padding-right: 29px;
     }
-    #offer-obtention-text-duration{
+    .offer-obtention-text-duration{
         line-height: 21px;
     }
     #offer-obtention-text-block{

@@ -149,11 +149,11 @@
 				</div>
 
 				<div class>
-					<img src="images/Arrow-big1.svg" id="offer-obtention-arrow1">
+					<img src="images/Arrow-big1.svg" id="offer-obtention-arrow1" alt="arrow1">
 						
 				</div>
 
-				<div id="offer-obtention-text-duration" class="offer-obtention-text">
+				<div class="offer-obtention-text offer-obtention-text-duration" alt="arrow2">
 						4 місяці
 				</div>
 
@@ -170,7 +170,7 @@
 			<div id="offer-obtention-text-block-mob">
 						
 						<div id="offer-obtention-img-mob">
-							<img src="images/Arrow 13.svg" id="offer-obtention-arrow-mob">	
+							<img src="images/Arrow_13.svg" id="offer-obtention-arrow-mob" alt="arrow_mobile">	
 						</div>
 
 						<div id="offer-obtention-text-mob">
@@ -178,7 +178,7 @@
 								NON-IT <br> Experience
 							</div>
 
-							<div id="offer-obtention-text-duration" class="offer-obtention-text">
+							<div  class="offer-obtention-text offer-obtention-text-duration">
 								4<br> місяці
 							</div>
 
