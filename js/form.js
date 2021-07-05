@@ -331,7 +331,7 @@ function check_name() {
     var name_clear = name_input.val().trim();
 
     var name_length = name_clear.length;
-    var patternName = new RegExp(/^[a-zA-Zа-яА-яЁёàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ `'\u{0060}\u{2018}\u{2019}\u{2032}\u{0027}-]+$/ui);
+    var patternName = new RegExp(/^[a-zA-Zа-яА-яЁёàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ0-9 `'\u{0060}\u{2018}\u{2019}\u{2032}\u{0027}-]+$/ui);
     let name = patternName.test(name_clear);
 
     console.log('name-length: ' + name_length);
@@ -479,7 +479,7 @@ function check_phone() {
         return false;
     }
     */
-    else if (phone_length_all < 5) {
+    else if (phone_length_all < 9) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
