@@ -139,6 +139,7 @@
 		</div>
 
 		<div id="offer-obtention-main-block" >
+			<h3 id="offer-obtention-main-title">Title</h3>
 			<!-- ============================================ -->
 			<div id="offer-obtention-img-block">
 				<img src="images/Walking_Around.svg" alt="hero-img">
@@ -153,12 +154,12 @@
 						
 				</div>
 
-				<div class="offer-obtention-text offer-obtention-text-duration" alt="arrow2">
+				<div class="offer-obtention-text offer-obtention-text-duration" >
 						4 місяці
 				</div>
 
 				<div >
-					<img src="images/Arrow-big2.svg" id="offer-obtention-arrow2">
+					<img src="images/Arrow-big2.svg" id="offer-obtention-arrow2" alt="arrow2">
 						
 				</div>
 
