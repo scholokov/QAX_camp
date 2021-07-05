@@ -74,8 +74,8 @@ div#offer-obtention-text-mob{
         width: 100%;
     }
     #offer-obtention-main-block {
-        padding-left: 30px;
-        padding-right: 30px;
+        max-width: 302px;
+        width: 100%;
     }
     #offer-obtention-text-block{
         display: none;
