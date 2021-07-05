@@ -31,6 +31,10 @@
     line-height: 60px;
 }
 
+img#offer-obtention-arrow1{
+    max-height: 161px;
+}
+
 .offer-obtention-text{
     font-family: Raleway !important;
     white-space: nowrap;
@@ -74,6 +78,7 @@ div#offer-obtention-text-mob{
 @media (max-width:1130px){
     #offer-obtention-text-block{
         font-size: 24px;
+        line-height: 28px;
     }
 }
 
