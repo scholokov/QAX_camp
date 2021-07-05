@@ -54,7 +54,7 @@ var link = $('a.header-menu.header-menu-links').attr('href');
 var windowWidth = $(window).width();
 var arrow1 = $('#offer-obtention-arrow1');
 var arrow2 = $('#offer-obtention-arrow2');
-if (windowWidth <= 975) {
+if (windowWidth <= 820) {
 	arrow1.attr({"src":"images/Arrow1.svg"});
 	arrow2.attr({"src":"images/Arrow2.svg"});
   }else{
@@ -67,7 +67,7 @@ window.onresize=function(){
 	var windowWidth = $(window).width();
 	var arrow1 = $('#offer-obtention-arrow1');
 	var arrow2 = $('#offer-obtention-arrow2');
-		if (windowWidth <= 975) {
+		if (windowWidth <= 820) {
 			arrow1.attr({"src":"images/Arrow1.svg"});
 			arrow2.attr({"src":"images/Arrow2.svg"});
 		  }else{
