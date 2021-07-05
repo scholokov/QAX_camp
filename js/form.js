@@ -457,6 +457,7 @@ function check_phone() {
         error_message_phone_short.hide();
         error_message_phone_long.hide();
         error_message_phone_only_numbers.hide();
+        error_message_phone_plugin.hide();
         return false;
     }
     /*
