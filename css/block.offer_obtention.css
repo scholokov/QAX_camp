@@ -76,6 +76,11 @@ div#offer-obtention-text-mob{
 }
 
 @media (max-width:1130px){
+    #offer-obtention-main-block{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
     #offer-obtention-text-block{
         font-size: 24px;
         line-height: 28px;
