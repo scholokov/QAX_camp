@@ -149,7 +149,7 @@
 				</div>
 
 				<div class>
-					<img src="images/Arrow-big1.png" id="offer-obtention-arrow1">
+					<img src="images/Arrow-big1.svg" id="offer-obtention-arrow1">
 						
 				</div>
 
@@ -158,7 +158,7 @@
 				</div>
 
 				<div >
-					<img src="images/Arrow-big2.png" id="offer-obtention-arrow2">
+					<img src="images/Arrow-big2.svg" id="offer-obtention-arrow2">
 						
 				</div>
 

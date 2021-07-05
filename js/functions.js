@@ -58,8 +58,8 @@ if (windowWidth <= 975) {
 	arrow1.attr({"src":"images/Arrow1.svg"});
 	arrow2.attr({"src":"images/Arrow2.svg"});
   }else{
-	arrow1.attr({"src":"images/Arrow-big1.png"});
-	arrow2.attr({"src":"images/Arrow-big2.png"});
+	arrow1.attr({"src":"images/Arrow-big1.svg"});
+	arrow2.attr({"src":"images/Arrow-big2.svg"});
   };
 
 };
@@ -71,8 +71,8 @@ window.onresize=function(){
 			arrow1.attr({"src":"images/Arrow1.svg"});
 			arrow2.attr({"src":"images/Arrow2.svg"});
 		  }else{
-			arrow1.attr({"src":"images/Arrow-big1.png"});
-			arrow2.attr({"src":"images/Arrow-big2.png"});
+			arrow1.attr({"src":"images/Arrow-big1.svg"});
+			arrow2.attr({"src":"images/Arrow-big2.svg"});
 		  };
 		
 };  
