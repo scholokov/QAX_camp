@@ -75,7 +75,7 @@ div#offer-obtention-text-mob{
     }
 }
 
-@media (max-width:1130px){
+@media (max-width:995px){
     #offer-obtention-main-block{
         padding-left: 20px;
         padding-right: 30px;
