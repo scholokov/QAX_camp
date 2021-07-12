@@ -480,7 +480,7 @@ function check_phone() {
         return false;
     }
     */
-    else if (phone_length_all < 9) {
+   /* else if (phone_length_all < 9) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
@@ -488,7 +488,7 @@ function check_phone() {
         error_message_phone_plugin.hide();
         error_message_phone_only_numbers.hide();
         return false;
-    }
+    }*/
     else if ($.trim(phone_input.val())) {
           if (phone_input.intlTelInput("isValidNumber")) {
             phone_line.css({ "border-color": "#212121" });
@@ -633,7 +633,7 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 
-/*var input = document.querySelector("#phone_input");
+var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(callback) {
@@ -643,6 +643,5 @@ window.intlTelInput(input, {
     });
   },
   utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
-});*/
-
+});
 
