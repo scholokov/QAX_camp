@@ -193,17 +193,22 @@
 						<h3 class="about_us_titles">Зв'язок з QAX</h3>
 							<div class="about_us_text">
 
-							<img id="about_us_img" src="images/about_us.svg" alt="image">
+							
 
 							QAX Camp - це дочірня компанія QAX, одним із співзасновників якої є Денис Щолоков.<br><br>
-							
+							<div class="about_us_line"></div>
+							<div id="about_us_quotation1" class="about_us_italic">
+								QAX - Quality Assurance eXperts - аутсорсингова компанія, 
+								заснована групою професійних фахівців із забезпечення якості 
+								з метою вийти за межі стандартних процесів тестування. 
+							</div>
+							<div class="about_us_line"></div>
+							<img id="about_us_img" src="images/about_us.svg" alt="image">
 							Ідея розмістити Camp у зв'язці з QAX полягає в тому, аби об'єднати зусилля для відповіді 
 							сучасним викликам в галузі ІТ: Camp - з точки зору підготовки професійних кадрів, 
 							а QAX - допомогти клієнтам з усього світу розв'язувати їх QA задачі з якістю, 
 							якої вони заслуговують. <br><br>
 							
-							QAX - Quality Assurance eXperts - аутсорсингова компанія заснована групою професійних фахівців із 
-							забезпечення якості з метою вийти за межі стандартних процесів тестування. <br><br>
 							
 							</div>
 							
