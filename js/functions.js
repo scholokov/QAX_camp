@@ -30,7 +30,7 @@ var link = $('a.header-menu.header-menu-links').attr('href');
 		$("a#menu-link-courses").attr({"color":"#F66F5D"});
 	}else if(pages=="about_us.php"){
 		$("#menu-line-about-us").attr({"display":"block"});
-		$("a#menu-link-about-us").attr({"color":"#F66F5D"});
+		$("a#menu-link-about-us").attr({"color":"#F66F5D !important"});
 	}else if(pages=="our_trainers.php"){
 		$("#menu-line-our-trainers").attr({"display":"block"});
 		$("a#menu-link-our-trainers").attr({"color":"#F66F5D"});
