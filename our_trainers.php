@@ -81,7 +81,7 @@
 
 				<a href="about_us.php" class="header-menu header-menu-links ">про нас</a>
 
-				<a href="our_trainers.php" class="header-menu header-menu-links">наші тренери<div id="menu-line-our-trainers"></div></a>
+				<a href="our_trainers.php" class="header-menu header-menu-links" id="menu-link-our-trainers">наші тренери<div id="menu-line-our-trainers"></div></a>
 
 				
 				<!--

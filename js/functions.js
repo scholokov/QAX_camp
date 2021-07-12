@@ -27,14 +27,21 @@ var link = $('a.header-menu.header-menu-links').attr('href');
 
 	if (link==url && pages=="cources.php"){
 		$("#menu-line-cources").attr({"display":"block"});
+		$("#menu-link-courses").attr({"color":"#F66F5D"});
 	}else if(pages=="about_us.php"){
 		$("#menu-line-about-us").attr({"display":"block"});
+		$("#menu-link-about-us").attr({"color":"#F66F5D"});
 	}else if(pages=="our_trainers.php"){
 		$("#menu-line-our-trainers").attr({"display":"block"});
+		$("#menu-link-our-trainers").attr({"color":"#F66F5D"});
 	}else{
 		$("#menu-line-cources").attr({"display":"none"});
 		$("#menu-line-about-us").attr({"display":"none"});
 		$("#menu-line-our-trainers").attr({"display":"none"});
+
+		$("#menu-link-courses").attr({"color":"white"});
+		$("#menu-link-about-us").attr({"color":"white"});
+		$("#menu-link-our-trainers").attr({"color":"white"});
 	};
 
     /*$('a.header-menu.header-menu-links').each(function () {
