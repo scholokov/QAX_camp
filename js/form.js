@@ -480,7 +480,7 @@ function check_phone() {
         return false;
     }
     */
-    else if (phone_length_all < 9) {
+   /* else if (phone_length_all < 9) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
@@ -488,7 +488,7 @@ function check_phone() {
         error_message_phone_plugin.hide();
         error_message_phone_only_numbers.hide();
         return false;
-    }
+    }*/
     else if ($.trim(phone_input.val())) {
           if (phone_input.intlTelInput("isValidNumber")) {
             phone_line.css({ "border-color": "#212121" });
