@@ -633,7 +633,7 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 
-var input = document.querySelector("#phone_input");
+/*var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(callback) {
@@ -643,6 +643,6 @@ window.intlTelInput(input, {
     });
   },
   utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
-});
+});*/
 
 
