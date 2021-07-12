@@ -115,7 +115,9 @@
         width: 100%;
     }
 
-    
+    #write_to_us-block-small {
+        max-width: 360px;
+    }
 
     .write_to_us-personal-data {
         width: 100%;
