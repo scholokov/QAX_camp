@@ -27,21 +27,21 @@ var link = $('a.header-menu.header-menu-links').attr('href');
 
 	if (link==url && pages=="cources.php"){
 		$("#menu-line-cources").attr({"display":"block"});
-		$("a#menu-link-courses").attr({"color":"#F66F5D"});
+		$("a#menu-link-courses").attr('style',  'color:#F66F5D');
 	}else if(pages=="about_us.php"){
 		$("#menu-line-about-us").attr({"display":"block"});
-		$("a#menu-link-about-us").attr({"color":"#F66F5D !important"});
+		$("a#menu-link-about-us").attr('style',  'color:#F66F5D');
 	}else if(pages=="our_trainers.php"){
 		$("#menu-line-our-trainers").attr({"display":"block"});
-		$("a#menu-link-our-trainers").attr({"color":"#F66F5D"});
+		$("a#menu-link-our-trainers").attr('style',  'color:#F66F5D');
 	}else{
 		$("#menu-line-cources").attr({"display":"none"});
 		$("#menu-line-about-us").attr({"display":"none"});
 		$("#menu-line-our-trainers").attr({"display":"none"});
 
-		$("a#menu-link-courses").attr({"color":"white"});
-		$("a#menu-link-about-us").attr({"color":"white"});
-		$("a#menu-link-our-trainers").attr({"color":"white"});
+		$("a#menu-link-courses").attr('style',  'color:white');
+		$("a#menu-link-about-us").attr('style',  'color:white');
+		$("a#menu-link-our-trainers").attr('style',  'color:white');
 	};
 
     /*$('a.header-menu.header-menu-links').each(function () {
