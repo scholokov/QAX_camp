@@ -110,6 +110,13 @@
 }
 
 @media (max-width: 767px) {
+    .iti.iti--allow-dropdown{
+        max-width: 360px;
+        width: 100%;
+    }
+
+    
+
     .write_to_us-personal-data {
         width: 100%;
     }
