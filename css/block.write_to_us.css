@@ -136,13 +136,16 @@
     
 }
 
+@media (max-width: 900px) and  (min-width: 767px){
+    .iti.iti--allow-dropdown{
+            max-width: 280px;
+            width: 100%;
+        }
+}
 
 @media (max-width: 900px){
     
-    .iti.iti--allow-dropdown{
-        max-width: 280px;
-        width: 100%;
-    }
+    
 
      #write_to_us-thanks-block{
         margin-left: -15px;
