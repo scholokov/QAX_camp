@@ -112,17 +112,17 @@
 @media (max-width: 767px) {
     #div-phone, #div-email {
         padding-bottom: 30px;
-        max-width: 360px !important;
+        max-width: 354px !important;
         width: 100%;
     }
 
     .iti.iti--allow-dropdown{
-        max-width: 360px;
+        max-width: 354px;
         width: 100%;
     }
 
     #write_to_us-block-small {
-        max-width: 360px;
+        max-width: 354px;
     }
 
     .write_to_us-personal-data {
