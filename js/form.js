@@ -583,7 +583,7 @@ $("#phone_input").intlTelInput({
     
     localizedCountries:null,
     
-    nationalMode:true,
+    nationalMode:false,
     
     onlyCountries: [],
     
