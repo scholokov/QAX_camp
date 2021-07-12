@@ -638,7 +638,7 @@ window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(callback) {
     $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "us";
+      var countryCode = (resp && resp.country) ? resp.country : "гф";
       callback(countryCode);
     });
   },
