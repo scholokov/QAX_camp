@@ -589,7 +589,7 @@ $("#phone_input").intlTelInput({
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: ["ua"],
+    preferredCountries: ["ua","pl"],
     
     separateDialCode:false,
     
