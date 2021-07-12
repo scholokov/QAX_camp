@@ -654,4 +654,5 @@ window.intlTelInput(input, {
   },
   utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
 });
+var error = instance.get<a href="https://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error();
 
