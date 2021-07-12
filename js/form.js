@@ -563,7 +563,7 @@ $("#phone_input").intlTelInput({
 
     allowDropdown:true,
     
-    autoHideDialCode:false,
+    autoHideDialCode:true,
     
     autoPlaceholder:"polite",
     
@@ -583,7 +583,7 @@ $("#phone_input").intlTelInput({
     
     localizedCountries:null,
     
-    nationalMode:false,
+    nationalMode:true,
     
     onlyCountries: [],
     
@@ -591,7 +591,7 @@ $("#phone_input").intlTelInput({
     
     preferredCountries: ["ua"],
     
-    separateDialCode:true,
+    separateDialCode:false,
     
     utilsScript:"js/utils.js"
     });
@@ -605,7 +605,7 @@ window.intlTelInput(input, {
       callback(countryCode);
     });
   },
-  utilsScript: "../../build/js/utils.js?1613236686837"}); // just for formatting/placeholders etc
+  utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
 $("#phone_input").intlTelInput({
         defaultCountry: "auto",
         geoIpLookup: function(callback) {
@@ -654,3 +654,4 @@ window.intlTelInput(input, {
   },
   utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
 });
+
