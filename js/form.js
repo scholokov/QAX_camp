@@ -563,7 +563,7 @@ $("#phone_input").intlTelInput({
 
     allowDropdown:true,
     
-    autoHideDialCode:true,
+    autoHideDialCode:false,
     
     autoPlaceholder:"polite",
     
