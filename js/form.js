@@ -646,8 +646,8 @@ var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(callback) {
-    $.get('https://ipinfo.io').always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "";
+    $.get('https://ipinfo.io',function () { }).always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "ua";
       callback(countryCode);
     });
   },
