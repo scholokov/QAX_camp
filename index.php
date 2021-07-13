@@ -164,7 +164,7 @@
 				</div>
 
 				<div id="offer-obtention-text-exp" class="offer-obtention-text">
-					NON-IT Experience
+				Досвід НЕ в ІТ
 				</div>
 			</div>
 
@@ -176,7 +176,7 @@
 
 						<div id="offer-obtention-text-mob">
 							<div class="offer-obtention-text">
-								NON-IT <br> Experience
+							Досвід <br> НЕ в ІТ 
 							</div>
 
 							<div  class="offer-obtention-text offer-obtention-text-duration">
