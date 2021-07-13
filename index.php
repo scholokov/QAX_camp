@@ -146,7 +146,7 @@
 			</div>
 			<div id="offer-obtention-text-block">
 				<div id="offer-obtention-text-qa" class="offer-obtention-text">
-					QA Enginner
+					QA Engineer
 				</div>
 
 				<div class>
