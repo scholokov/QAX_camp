@@ -3,22 +3,22 @@ var url="cources.php?cource=qa&name=qa_practice";
 var link = $('a.header-menu.header-menu-links').attr('href');
 
 	if (link==url && pages=="cources.php"){
-		$("#menu-line-cources").attr({"display":"block"});
-		$("a#menu-link-courses").attr('style',  'color:#F66F5D');
+		document.getElementById("menu-line-cources").style.display="block";
+		document.getElementById("menu-link-courses").style.color='#F66F5D';
 	}else if(pages=="about_us.php"){
-		$("#menu-line-about-us").attr({"display":"block"});
-		$("a#menu-link-about-us").attr('style',  'color:#F66F5D');
+		document.getElementById("menu-line-about-us").style.display="block";
+		document.getElementById("menu-link-about-us").style.color='#F66F5D';
 	}else if(pages=="our_trainers.php"){
-		$("#menu-line-our-trainers").attr({"display":"block"});
-		$("a#menu-link-our-trainers").attr('style',  'color:#F66F5D');
+		document.getElementById("menu-line-our-trainers").style.display="block";
+		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
 	}else{
-		$("#menu-line-cources").attr({"display":"none"});
-		$("#menu-line-about-us").attr({"display":"none"});
-		$("#menu-line-our-trainers").attr({"display":"none"});
+		document.getElementById("menu-line-cources").style.display="none";
+		document.getElementById("menu-line-about-us").style.display="none";
+		document.getElementById("menu-line-our-trainers").style.display="none";
 
-		$("a#menu-link-courses").attr('style',  'color:white');
-		$("a#menu-link-about-us").attr('style',  'color:white');
-		$("a#menu-link-our-trainers").attr('style',  'color:white');
+		document.getElementById("menu-link-courses").style.color='white';
+		document.getElementById("menu-link-about-us").style.color='white';
+		document.getElementById("menu-link-our-trainers").style.color='white';
 	};
 
 /*! jRespond.js v 0.10 | Author: Jeremy Fields [jeremy.fields@viget.com], 2013 | License: MIT */
