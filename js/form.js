@@ -534,7 +534,6 @@ function check_comment() {
 
     console.log('comment_length: ' + comment_length);
     console.log('text: ' + comment_clear);
-    console.log("unicode" + comment_clear.charCodeAt(index));
 
     if (comment_length > 500) {
         comment_line.css({ "border-color": "red" });
@@ -649,7 +648,7 @@ window.intlTelInput(input, {
   geoIpLookup: function(callback) {
     $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
       var countryCode = (resp && resp.country) ? resp.country : "ua";
-      callback(countryCode);
+      
     });
   },
   utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
