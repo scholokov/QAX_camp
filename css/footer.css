@@ -67,6 +67,7 @@ footer {
 #powered_logo{
     display: flex;
     justify-content: flex-end;
+    
 }
 
 @media (max-width:991px){
@@ -79,6 +80,11 @@ footer {
     .footer-box {
         padding-left: 57px;
         padding-right: 57px;
+        
+    }
+    #powered_logo{
+        padding-left: 0;
+        padding-right: 5px;
         
     }
 }
