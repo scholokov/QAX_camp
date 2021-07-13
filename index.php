@@ -184,7 +184,7 @@
 							</div>
 
 							<div class="offer-obtention-text">
-								QA <br>Enginner
+								QA <br>Engineer
 							</div>
 						</div>
 			</div>
