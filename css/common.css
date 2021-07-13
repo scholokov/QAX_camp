@@ -15,6 +15,10 @@ a:hover {
     */
 }
 
+a:active{
+    color: #EF5B48;
+}
+
 /*
 A:visited {
      color: black; 
