@@ -60,3 +60,8 @@ footer {
 .footer-box {
     padding-bottom: 20px;
 }
+
+#powered_logo{
+    display: flex;
+    justify-content: flex-end;
+}
