@@ -1,10 +1,15 @@
 /* ----------------------------------------------------------------
 	footer
 ------------------------------------------------------------------*/
+footer {
+    background: #111111;
+}
+
 #footer-block {
+    max-width: 859px;
     margin-top: 100px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     background: #111111;
     font-family: Montserrat;
