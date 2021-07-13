@@ -271,6 +271,31 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
 
+	<script>
+		var pages=window.location.pathname.slice(1);
+	var url="cources.php?cource=qa&name=qa_practice";
+	var link = $('a.header-menu.header-menu-links').attr('href');
+
+	if (link==url && pages=="cources.php"){
+		document.getElementById("menu-line-cources").style.display="block";
+		document.getElementById("menu-link-courses").style.color='#F66F5D';
+	}else if(pages=="about_us.php"){
+		document.getElementById("menu-line-about-us").style.display="block";
+		document.getElementById("menu-link-about-us").style.color='#F66F5D';
+	}else if(pages=="our_trainers.php"){
+		document.getElementById("menu-line-our-trainers").style.display="block";
+		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
+	}else{
+		document.getElementById("menu-line-cources").style.display="none";
+		document.getElementById("menu-line-about-us").style.display="none";
+		document.getElementById("menu-line-our-trainers").style.display="none";
+
+		document.getElementById("menu-link-courses").style.color='white';
+		document.getElementById("menu-link-about-us").style.color='white';
+		document.getElementById("menu-link-our-trainers").style.color='white';
+	};
+	</script>
+
 <script>
 		function footerlink(){
 	let telegram_img=$("#Telegram-img");
