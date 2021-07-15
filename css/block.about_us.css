@@ -1,3 +1,6 @@
+#about_us{
+    overflow: hidden !important;
+}
 .about_us_main_block{
     max-width: 900px;
     width: 100%;

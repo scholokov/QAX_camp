@@ -124,7 +124,7 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
-			<div class="content-wrap">
+			<div class="content-wrap" id="about_us">
 				<div class="about_us_main_block container clearfix">
 
 						<h3 class="about_us_titles">Що таке Camp ?</h3>
