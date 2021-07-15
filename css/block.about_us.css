@@ -72,6 +72,12 @@
         margin-top: 40px;
     }
 
+    .write_to_us-block {
+        width: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .about_us_titles{
         max-width: 330px;
         width: 100%;
