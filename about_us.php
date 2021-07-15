@@ -212,11 +212,11 @@
 							
 							
 							</div>
-							
+						<?php include 'components/form.html'?>	
 				</div>
-				<div>
-					<?php include 'components/form.html'?>	
-				</div>
+			
+						
+			
 			
 			</div>
 		</section><!-- #content end -->
