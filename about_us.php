@@ -126,7 +126,7 @@
 		<section id="content">
 			<div class="content-wrap" id="about_us">
 				<div class="about_us_main_block container clearfix">
-
+					<div id="about_us">
 						<h3 class="about_us_titles">Що таке Camp ?</h3>
 							<div class="about_us_text">
 
@@ -212,7 +212,9 @@
 							
 							
 							</div>
-						<?php include 'components/form.html'?>	
+							
+					</div>
+					<?php include 'components/form.html'?>
 				</div>
 			
 			</div>
