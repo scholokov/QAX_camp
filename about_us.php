@@ -215,9 +215,6 @@
 						<?php include 'components/form.html'?>	
 				</div>
 			
-						
-			
-			
 			</div>
 		</section><!-- #content end -->
 
