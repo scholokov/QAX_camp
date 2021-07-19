@@ -102,4 +102,15 @@
         line-height: 21px;
     }
 }
+@media screen and (max-width: 900px) {
+    div#about_us{
+        padding-left: 47px;
+        padding-right: 47px;
+    }
 
+    .write_to_us-block {
+        width: auto;
+        margin-right: -27px !important;
+        margin-left: -27px !important;
+    }
+}
