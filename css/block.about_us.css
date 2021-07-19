@@ -63,6 +63,10 @@
 /*-----mobile version------*/
 
 @media screen and (max-width: 600px) {
+    div#about_us{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .about_us_main_block{
         width: 100%;
         padding-right: 0;
@@ -74,8 +78,8 @@
 
     .write_to_us-block {
         width: auto;
-        margin-right: 0;
-        margin-left: 0;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
 
     .about_us_titles{
