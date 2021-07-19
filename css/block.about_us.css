@@ -63,7 +63,7 @@
 /*-----mobile version------*/
 
 @media screen and (max-width: 600px) {
-    div#about_us{
+    div#about_us_content{
         padding-left: 27px;
         padding-right: 27px;
     }
@@ -103,7 +103,7 @@
     }
 }
 @media screen and (min-width: 601px) and (max-width: 900px) {
-    div#about_us{
+    div#about_us_content{
         padding-left: 47px;
         padding-right: 47px;
     }
