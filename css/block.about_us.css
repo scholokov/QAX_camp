@@ -77,9 +77,9 @@
     }
 
     .write_to_us-block {
-        width: auto;
-        margin-right: -27px !important;
-        margin-left: -27px !important;
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
 
     .about_us_titles{
@@ -109,8 +109,8 @@
     }
 
     .write_to_us-block {
-        width: auto;
-        margin-right: -47px !important;
-        margin-left: -47px !important;
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
 }
