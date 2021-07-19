@@ -177,7 +177,7 @@
                             <div class="trainer-info row">
                                 <div class="col-9">
                                 <div class="trainer-name">Олеся Ломенко</div>
-                                <div class="trainer-post">Mentor for PMs and BAs</div>
+                                <div class="trainer-post">Mentor</div>
                                 </div>
                                 <div class="linkedin-logo col-3">
                                     <div><a href="https://www.linkedin.com/in/alesya-lomenko/">
