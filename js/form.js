@@ -645,11 +645,8 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
-  success: function(data) {
-    console.log("");
-    },
   geoIpLookup: function(success,failure) {
-    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+    $.set('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
       var countryCode = (resp && resp.country) ? resp.country : "";
       success(countryCode);
     });
