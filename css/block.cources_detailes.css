@@ -33,3 +33,10 @@ td {
 .list-in-list-not-marked{
     list-style-type: none;
 }
+
+@media (max-width:600px) {
+   #fb-comments-title-block {
+    margin-top: 50px;
+} 
+}
+
