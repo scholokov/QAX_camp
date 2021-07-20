@@ -574,7 +574,7 @@ $("#phone_input").intlTelInput({
     
     formatOnDisplay:true,
     
-    geoIpLookup:null,
+    geoIpLookup:"auto",
     
     hiddenInput:"",
     
