@@ -644,9 +644,8 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
-  initialCountry: "auto",
   geoIpLookup: function(callback) {
-    $.get('https://ipinfo.io', "jsonp").always(function(resp) {
+    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
       var countryCode = (resp && resp.country) ? resp.country : "";
       callback(countryCode);
     });
