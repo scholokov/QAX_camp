@@ -646,9 +646,9 @@ var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(success,failure) {
-    $.set('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
       var countryCode = (resp && resp.country) ? resp.country : "";
-      success(countryCode);
+      callback.remove(countryCode);
     });
   }
 });
