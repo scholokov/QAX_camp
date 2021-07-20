@@ -641,14 +641,14 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
-
+console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
-  geoIpLookup: function() {
+  geoIpLookup: function(success, failure) {
     $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
       var countryCode = (resp && resp.country) ? resp.country : "";
-      callback(countryCode);
+      success(countryCode);
     });
   }
 });
