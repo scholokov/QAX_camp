@@ -574,11 +574,11 @@ $("#phone_input").intlTelInput({
     
     formatOnDisplay:true,
     
-    geoIpLookup:"auto",
+    geoIpLookup:null,
     
     hiddenInput:"",
     
-    initialCountry:"",
+    initialCountry:"auto",
     
     localizedCountries:null,
     
