@@ -578,7 +578,7 @@ $("#phone_input").intlTelInput({
     
     hiddenInput:"",
     
-    initialCountry:"auto",
+    initialCountry:"",
     
     localizedCountries:null,
     
