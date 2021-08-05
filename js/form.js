@@ -95,13 +95,12 @@ input.intlTelInput({
 });
 var intlNumber = input.intlTelInput("getNumber");
 
-    var sum_text = 'Hi!\nI`m QAX bot.\n' +
+    var sum_text = 
         'Enviroment: ' + envName +
         '\nPage:'+ pages +
         '\nCourse: '  + url +
-        '\n\n' +
+        '\n' +
         'Name: ' + $('#name_input').val() +
-        
         '\nPhone: ' + intlNumber /*$('#phone_input').val()*/ +
         '\nEmail: ' + $('#email_input').val() +
         '\nComment: ' + comment;  /* +  
