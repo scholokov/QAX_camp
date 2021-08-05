@@ -495,8 +495,8 @@
 								</h4>
 							</div>
 
-							<a class="prev" onclick="plusSlides(-1)">❮</a>
-							<a class="next" onclick="plusSlides(1)">❯</a>
+							<a class="prev" onclick="plusSlides(-1)"><img src="images/Arrow_left.svg"></a>
+							<a class="next" onclick="plusSlides(1)"><img src="images/Arrow_right.svg"></a>
 
 						</div>
 
