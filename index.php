@@ -581,7 +581,7 @@
 			}
 			slides[slideIndex - 1].style.display = "block";
 		}
-		$(document).ready(function () {
+		
 
 				var listItems = $(".feedback-slideshow-container").children('div'),
 					dotItems = $('#dots').children('li'),
