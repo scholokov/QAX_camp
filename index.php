@@ -600,8 +600,8 @@
 				dotItems.removeClass('active')
 						.eq(i).addClass('active');
 
-				/*listItems.fadeOut(transition_speed)
-						.eq(i).fadeIn(transition_speed);*/
+				listItems.style.display = "none"
+						.eq(i).style.display = "block";
 
 				current = i;
 
