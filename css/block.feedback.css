@@ -102,21 +102,25 @@ div#success-cases-info {
 }
 
 #dots {
+    display: flex;
+    justify-content: center;
     list-style:none;
     padding:0px;
     margin-bottom: 8px;
   
   }
   #dots li {
-    display:inline-block;
-    border-radius:10px;
-    width:10px;
-    height:10px;
-    margin: 0 5px;
-    border:2px solid #2284A1;
-    background: white;
-    cursor:pointer;
+    display: inline-block;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 0 20px;
+    border: 2px solid #F66F5D;
+    background: transparent;
+    cursor: pointer;
   }
   #dots li.active {
-    background:#2284A1;
+    width: 20px;
+    height: 20px;
+    background:#F66F5D;
   }
