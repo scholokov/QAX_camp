@@ -495,6 +495,13 @@
 								</h4>
 							</div>
 
+							<ul id="dots">   
+								<li class="active"></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
 							<a class="prev" onclick="plusSlides(-1)"><img src="images/Arrow_left.svg"></a>
 							<a class="next" onclick="plusSlides(1)"><img src="images/Arrow_right.svg"></a>
 
