@@ -404,7 +404,7 @@
 										</div>
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
-												<div class="feedback-author">Alexander Bezeliuk</div>
+												<div class="feedback-author">Alexander Bezeliuk<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
 												<div class="feedback-job">QA engineer (intern)</div>
 												<div class="feedback-text">Playtech</div>
 											</div>
@@ -428,7 +428,7 @@
 										</div>
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
-												<div class="feedback-author">Pavel Karnasenko</div>
+												<div class="feedback-author">Pavel Karnasenko<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
 												<div class="feedback-job">QA Engineer</div>
 												<div class="feedback-text">Playtech</div>
 											</div>
@@ -452,7 +452,7 @@
 										</div>
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
-												<div class="feedback-author">Natali Sorokina</div>
+												<div class="feedback-author">Natali Sorokina<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
 												<div class="feedback-job">Junior QA</div>
 												<div class="feedback-text">FireKass</div>
 											</div>
@@ -476,7 +476,7 @@
 										</div>
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
-												<div class="feedback-author">Max Lapaichuk</div>
+												<div class="feedback-author">Max Lapaichuk<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
 												<div class="feedback-job">Manual QA</div>
 												<div class="feedback-text">Leeloo</div>
 											</div>
