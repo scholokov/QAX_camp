@@ -75,6 +75,9 @@
 }
 
 #success-cases-duration{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
     color: #F66F5D;
     font-size: 18px;
     line-height: 21px;
@@ -85,4 +88,11 @@ div#success-cases-block {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+}
+#success-cases-info-block1,#success-cases-info-block2,#success-cases-info-block3{
+    text-align: left;
+}
+#success-cases-info-block2{
+    margin-top: 36px;
+    margin-bottom: 36px
 }
