@@ -14,7 +14,7 @@
 /* Slides */
 .feedbackSlides {
     display: none;
-    padding: 80px;
+    padding: 55px 80px;
     text-align: center;
 }
 
@@ -54,6 +54,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .feedback-job {
@@ -63,6 +64,7 @@
     line-height: 21px;
     line-height: 100%;
     color: #F66F5D;
+    margin-bottom: 5px;
 }
 
 .feedback-text {
