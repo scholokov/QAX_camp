@@ -579,8 +579,6 @@
 			slides[slideIndex - 1].style.display = "block";
 		}
 		
-		/*var change_img_time = 4000,
-      	transition_speed = 400;
 				var listItems = $(".feedback-slideshow-container").children('div'),
 					dotItems = $('#dots').children('li'),
 					listLen = listItems.length,
@@ -607,11 +605,6 @@
 
 				current = i;
 
-				//resets time interval if user clicks on slider dot; then begin automated slider
-				clearTimeout(changeTimeout);
-				changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);
-				};
-
 				// Event handlers
 				$("#dots li").click(function () {
 				var i = $('#dots li').index(this);
@@ -627,7 +620,7 @@
 				});
 
 				//initialize slider on load
-				moveTo('next');*/
+				moveTo('next');
 	</script>
 
 	<script>
