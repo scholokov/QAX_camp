@@ -579,7 +579,7 @@
 			slides[slideIndex - 1].style.display = "block";
 		}
 		
-		var change_img_time = 4000,
+		/*var change_img_time = 4000,
       	transition_speed = 400;
 				var listItems = $(".feedback-slideshow-container").children('div'),
 					dotItems = $('#dots').children('li'),
@@ -627,7 +627,7 @@
 				});
 
 				//initialize slider on load
-				moveTo('next');
+				moveTo('next');*/
 	</script>
 
 	<script>
