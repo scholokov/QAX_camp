@@ -579,6 +579,7 @@
 			slides[slideIndex - 1].style.display = "block";
 		}
 		
+		
 				var listItems = $(".feedback-slideshow-container").children('div'),
 					dotItems = $('#dots').children('li'),
 					listLen = listItems.length,
@@ -604,6 +605,8 @@
 						.eq(i).fadeIn(transition_speed);
 
 				current = i;
+
+				};
 
 				// Event handlers
 				$("#dots li").click(function () {
