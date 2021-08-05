@@ -368,16 +368,26 @@
 					<section id=feedback>
 
 						<div class="text-center">
-							<h2>Відгуки наших учнів</h2>
+							<h2>З нами можна хоч так</h2>
 						</div>
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
 
 							<div class="feedbackSlides">
-								<h3 class="feedback-author">Elena Volokhonskaya</h3>
-								<h5 class="feedback-course">Курс Quality Assurance Engineer Индивидуальные Занятия</h5>
-								<h4 class="feedback-text">Спасибо тебе огромное за лекции, мне было очень полезно и
-									позновательно. Ты заставил поссмотреть на вещи под другим углом, буду учится
-									критическому и аналитическому подходу во всем</h4>
+							<div>4 місяці</div>
+							<div>
+								<img src="images/Arrow_success.svg" alt=arrow>
+							</div>
+								<div>
+									<div class="feedback-author">Andrey Hryhorchuk</div>
+									<div class="feedback-course">JQA Engineer</div>
+									<div class="feedback-text">Zakaz.ua</div>
+
+									<div class="feedback-text">QA Manual</div>
+									<div class="feedback-text">QAX Camp</div>
+
+									<div class="feedback-text">L1 support engineer </div>
+									<div class="feedback-text">5 year of overall NON-IT Experiance</div>
+								</div>
 							</div>
 
 							<div class="feedbackSlides">
