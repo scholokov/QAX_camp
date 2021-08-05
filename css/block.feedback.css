@@ -79,3 +79,10 @@
     font-size: 18px;
     line-height: 21px;
 }
+
+div#success-cases-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
