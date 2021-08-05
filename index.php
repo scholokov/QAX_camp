@@ -373,20 +373,26 @@
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
 
 							<div class="feedbackSlides">
-							<div>4 місяці</div>
-							<div>
-								<img src="images/Arrow_success.svg" alt=arrow>
-							</div>
-								<div>
-									<div class="feedback-author">Andrey Hryhorchuk</div>
-									<div class="feedback-course">JQA Engineer</div>
-									<div class="feedback-text">Zakaz.ua</div>
-
-									<div class="feedback-text">QA Manual</div>
-									<div class="feedback-text">QAX Camp</div>
-
-									<div class="feedback-text">L1 support engineer </div>
-									<div class="feedback-text">5 year of overall NON-IT Experiance</div>
+								<div id="success-cases-block">
+									<div id="success-cases-duration">4 місяці</div>
+									<div id="success-cases-arrow">
+										<img src="images/Arrow_success.svg" alt=arrow>
+									</div>
+									<div id="success-cases-info">
+										<div id="success-cases-info-block1">
+											<div class="feedback-author">Andrey Hryhorchuk</div>
+											<div class="feedback-job">JQA Engineer</div>
+											<div class="feedback-text">Zakaz.ua</div>
+										</div>
+										<div id="success-cases-info-block2">
+											<div class="feedback-text">QA Manual</div>
+											<div class="feedback-text">QAX Camp</div>
+										</div>
+										<div id="success-cases-info-block3">
+											<div class="feedback-text">L1 support engineer </div>
+											<div class="feedback-text">5 year of overall NON-IT Experiance</div>
+										</div>
+									</div>
 								</div>
 							</div>
 
