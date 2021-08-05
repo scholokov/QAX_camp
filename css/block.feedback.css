@@ -50,7 +50,7 @@
 
 .feedback-author {
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
@@ -58,8 +58,9 @@
 
 .feedback-course {
     font-family: Raleway;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
     line-height: 100%;
     color: #F66F5D;
 }
@@ -68,6 +69,13 @@
 
     font-family: Montserrat;
     font-size: 18px;
+    line-height: 21px;
     line-height: 150%;
     color: #E8E8E8;
+}
+
+#success-cases-duration{
+    color: #F66F5D;
+    font-size: 18px;
+    line-height: 21px;
 }
