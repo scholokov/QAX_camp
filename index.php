@@ -618,11 +618,11 @@
 				moveTo(i);
 				});
 
-				$("#prev").click(function () {
+				$(".prev").click(function () {
 				moveTo('prev');
 				});
 
-				$("#next").click(function () {
+				$(".next").click(function () {
 				moveTo('next');
 				});
 
