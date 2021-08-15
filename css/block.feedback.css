@@ -143,3 +143,15 @@ div#success-cases-arrow {
         left: 180px;
     }
 }
+
+@media (min-width:1220px){
+    div#success-cases-arrow {
+        left: 340px;
+    }
+}    
+
+@media (min-width:1440px){
+    div#success-cases-arrow {
+        left: 420px;
+    }
+}  
