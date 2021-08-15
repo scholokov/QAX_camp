@@ -371,13 +371,14 @@
 							<h2>З нами можна хоч так</h2>
 						</div>
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
+						<div id="success-cases-arrow">
+										<img src="images/Arrow_success.svg" alt=arrow>
+									</div>
 
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 									<div id="success-cases-duration">4 місяці</div>
-									<div id="success-cases-arrow">
-										<img src="images/Arrow_success.svg" alt=arrow>
-									</div>
+									
 									<div id="success-cases-info">
 										<div id="success-cases-info-block1">
 											<div class="feedback-author">Andrey Hryhorchuk<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
@@ -399,9 +400,7 @@
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 										<div id="success-cases-duration">3 місяці</div>
-										<div id="success-cases-arrow">
-											<img src="images/Arrow_success.svg" alt=arrow>
-										</div>
+										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Alexander Bezeliuk<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
@@ -423,9 +422,7 @@
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
 										<div id="success-cases-duration">1,5 місяці</div>
-										<div id="success-cases-arrow">
-											<img src="images/Arrow_success.svg" alt=arrow>
-										</div>
+										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Pavel Karnasenko<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
@@ -447,9 +444,7 @@
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
 										<div id="success-cases-duration">5 місяці</div>
-										<div id="success-cases-arrow">
-											<img src="images/Arrow_success.svg" alt=arrow>
-										</div>
+										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Natali Sorokina<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
@@ -471,9 +466,7 @@
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
 										<div id="success-cases-duration">3 місяці</div>
-										<div id="success-cases-arrow">
-											<img src="images/Arrow_success.svg" alt=arrow>
-										</div>
+										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Max Lapaichuk<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
