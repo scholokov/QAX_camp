@@ -412,7 +412,7 @@
 												<div class="feedback-text">QAX Camp</div>
 											</div>
 											<div id="success-cases-info-block3">
-												<div class="feedback-text">Заступник директору магазину елекроніки </div>
+												<div class="feedback-text">Заступник директору <br>магазину елекроніки </div>
 												<div class="feedback-text">3 year of overall NON-IT Experiance</div>
 											</div>
 										</div>
@@ -421,7 +421,7 @@
 
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
-										<div id="success-cases-duration">1,5 місяці</div>
+										<div id="success-cases-duration">1,5 місяця</div>
 										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
@@ -443,7 +443,7 @@
 
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
-										<div id="success-cases-duration">5 місяці</div>
+										<div id="success-cases-duration">5 місяців</div>
 										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
@@ -456,7 +456,7 @@
 												<div class="feedback-text">QAX Camp</div>
 											</div>
 											<div id="success-cases-info-block3">
-												<div class="feedback-text">Керуючий банківським відділенням</div>
+												<div class="feedback-text">Керуючий банківським<br> відділенням</div>
 												<div class="feedback-text">22 year of overall NON-IT Experiance</div>
 											</div>
 										</div>
