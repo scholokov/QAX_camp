@@ -421,7 +421,7 @@
 
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
-										<div id="success-cases-duration">1,5 місяця</div>
+										<div id="success-cases-duration">1,5 місяцi</div>
 										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
