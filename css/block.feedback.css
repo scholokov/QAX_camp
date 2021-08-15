@@ -76,6 +76,7 @@
 }
 
 #success-cases-duration{
+    min-width: 90px;
     margin-right: 20px;
     display: flex;
     align-items: center;
@@ -100,6 +101,7 @@ div#success-cases-block {
 
 div#success-cases-info {
     margin-left: 40px;
+    min-height: 281px;
 }
 
 div#success-cases-arrow {
