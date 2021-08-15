@@ -102,6 +102,12 @@ div#success-cases-info {
     margin-left: 40px;
 }
 
+div#success-cases-arrow {
+    position: absolute;
+    top: 50px;
+    left: 270px;
+}
+
 #dots {
     display: flex;
     justify-content: center;
