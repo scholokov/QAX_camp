@@ -136,3 +136,9 @@ div#success-cases-arrow {
       margin-left: 10px;
       margin-bottom: 5px;
   }
+
+  @media (max-width:990px){
+    div#success-cases-arrow {
+        left: 180px;
+    }
+}
