@@ -64,6 +64,10 @@ footer {
     
 }
 
+#footer-telegram{
+    background-image: url(images/Telegram.svg);
+}
+
 #powered_logo{
     display: flex;
     justify-content: flex-end;
