@@ -610,7 +610,7 @@
       $('.slick-slider-mob').slick({
 		dots: true,
 		infinite: true,
-		speed: 3,
+		speed: 0,
 		slidesToShow: 1,
 		adaptiveHeight: true,
 		mobileFirst:true,
