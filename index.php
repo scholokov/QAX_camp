@@ -542,7 +542,29 @@
 											</div>
 										</div>	
 							</div>			
-							<div class="slick-slider-items-mob">yfffft</div>
+							<div class="success-cases-block">
+								<div id="success-cases-duration">4 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Andrey Hryhorchuk
+													<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
+														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+													</a>
+												</div>
+												<div class="feedback-job">JQA Engineer</div>
+												<div class="feedback-text">Zakaz.ua</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">L1 support engineer </div>
+												<div class="feedback-text">5 year of overall NON-IT Experiance</div>
+										</div>
+								</div>
+							</div>
 							<div class="slick-slider-items-mob"><h3>iiii</h3></div>
 
 						</div>	
