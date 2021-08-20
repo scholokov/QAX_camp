@@ -190,7 +190,7 @@
 
     content: '•';
     text-align: center;
-    border: 2px solid #F66F5D;
+    /*border: 2px solid #F66F5D;*/
     color: black;
 
     -webkit-font-smoothing: antialiased;
