@@ -186,6 +186,10 @@ div#success-cases-arrow {
         font-size: 14px;
         line-height: 16px;
     }
+    #success-cases-info-block2{
+        margin-top: 36px;
+        margin-bottom: 36px
+    }    
     div#success-cases-arrow {
         top: 60px;
         left: 150px;
