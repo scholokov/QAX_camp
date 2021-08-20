@@ -30,9 +30,9 @@
 	<link rel="stylesheet" href="css/block.offer_obtention.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-	
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
