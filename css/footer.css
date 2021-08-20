@@ -66,10 +66,12 @@ footer {
 
 a#footer-telegram{
     background: url(icons/Telegram.svg);
+    display: block;
 }
 
 a#footer-facebook{
     background: url(icons/Facebook.svg);
+    display: block;
 }
 
 #powered_logo{
