@@ -86,7 +86,7 @@
 }
 
 div#success-cases-block {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;

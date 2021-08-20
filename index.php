@@ -517,7 +517,7 @@
 
 						</div>
 						<div class="slick-slider-mob col-md-10 offset-md-1">
-							<div class="success-cases-block" id="success-cases-blocks">
+							<div class="success-cases-block" >
 								<div id="success-cases-duration">3 місяці</div>
 										
 										<div id="success-cases-info">
