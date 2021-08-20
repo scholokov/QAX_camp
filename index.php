@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.offer_obtention.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -373,8 +374,8 @@
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
 						<div id="success-cases-arrow">
 										<img src="images/Arrow_success.svg" alt=arrow>
-									</div>
-
+						</div>
+						<div id="single-item">
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 									<div id="success-cases-duration">4 місяці</div>
@@ -501,7 +502,7 @@
 										</div>
 									</div>
 							</div>
-
+						</div>
 							<ul id="dots">   
 								<li class="active"></li>
 								<li></li>
@@ -542,7 +543,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
-
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 	<script>
 		$("#leftside-navigation .sub-menu > a").click(function (e) {
@@ -550,7 +551,13 @@
 				e.stopPropagation()
 		})
 	</script>
-
+	<script type="text/javascript">
+		$(document).ready(function(){
+      $('#single-item').slick({
+        setting-name: setting-value
+      });
+    });
+	</script>
 
 
 	<script>
