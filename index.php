@@ -516,11 +516,9 @@
 							<a class="next" onclick="plusSlides(1)"><img src="images/Arrow_right.svg"></a>
 
 						</div>
-						<div id="success-cases-arrow">
-										<img src="images/Arrow_success.svg" alt=arrow>
-						</div>
+						
 						<div class="slick-slider-mob col-md-10 offset-md-1">
-							
+						<img src="images/Arrow_success.svg" alt=arrow id="success-cases-arrow-mob">
 							<div class="success-cases-block" >
 								<div id="success-cases-duration">3 місяці</div>
 								

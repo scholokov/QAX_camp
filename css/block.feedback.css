@@ -116,6 +116,10 @@ div#success-cases-arrow {
     left: 270px;
 }
 
+#success-cases-arrow-mob{
+    display: none;
+}
+
 #dots {
     display: flex;
     justify-content: center;
@@ -199,6 +203,11 @@ div#success-cases-arrow {
     }
     .slick-slider{
         display: block;
+    }
+    #success-cases-arrow-mob{
+        position: absolute;
+        display: block;
+        left: 120px;
     }
     
     
