@@ -68,6 +68,10 @@ a#footer-telegram{
     background: url(icons/Telegram.svg);
 }
 
+a#footer-facebook{
+    background: url(icons/Facebook.svg);
+}
+
 #powered_logo{
     display: flex;
     justify-content: flex-end;
