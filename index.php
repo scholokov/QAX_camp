@@ -565,7 +565,29 @@
 										</div>
 								</div>
 							</div>
-							<div class="slick-slider-items-mob"><h3>iiii</h3></div>
+							<div class="success-cases-block">
+							<div id="success-cases-duration">3 місяці</div>
+                    
+									<div id="success-cases-info">
+									<div id="success-cases-info-block1">
+										<div class="feedback-author">Alexander Bezeliuk
+										<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
+											<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+										</a>
+										</div>
+										<div class="feedback-job">QA engineer (intern)</div>
+										<div class="feedback-text">Playtech</div>
+									</div>
+									<div id="success-cases-info-block2">
+										<div class="feedback-text">QA Manual</div>
+										<div class="feedback-text">QAX Camp</div>
+									</div>
+									<div id="success-cases-info-block3">
+										<div class="feedback-text">Заступник директору <br>магазину елекроніки </div>
+										<div class="feedback-text">3 year of overall NON-IT Experiance</div>
+									</div>
+                			</div>
+						</div>
 
 						</div>	
 
