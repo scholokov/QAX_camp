@@ -92,7 +92,7 @@ div#success-cases-block {
     justify-content: center;
 }
 div#success-cases-blocks {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
