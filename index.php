@@ -624,7 +624,7 @@
 				//resets time interval if user clicks on slider dot; then begin automated slider
 				/*clearTimeout(changeTimeout);
 				changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);*/
-				}; 
+				//}; 
 
 				// Event handlers
 				/*$("#dots li").click(function () {
