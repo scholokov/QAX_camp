@@ -10,7 +10,7 @@ var $ = jQuery.noConflict();
 //curses functions
 
 //Telegram footer link
-window.onload=function(){
+/*window.onload=function(){
 	let telegram_img=$("#Telegram-img");
 	let telegram_link=$("#footer-telegram");
 	telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
@@ -18,7 +18,7 @@ window.onload=function(){
 	telegram_link.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
 	telegram_link.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
   };
-  
+  */
 
 
 
