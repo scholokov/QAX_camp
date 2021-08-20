@@ -191,13 +191,13 @@
     content: '•';
     text-align: center;
     /*border: 2px solid #F66F5D;*/
-    color: black;
+    color: #F66F5D;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before
 {
-    opacity: .75;
-    color: black;
+    font-size: 20px;
+    color: #F66F5D;
 }
