@@ -206,9 +206,9 @@ div#success-cases-arrow {
     }
     .success-cases-arrow-mob{
         width: 8px !important;
-        position: absolute;
+        /*position: absolute;
         display: block !important;
-        left: 120px;
+        left: 120px;*/
     }
     
     
