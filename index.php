@@ -375,7 +375,7 @@
 						<div id="success-cases-arrow">
 										<img src="images/Arrow_success.svg" alt=arrow>
 						</div>
-						<div id="single-item-rtl">
+						<div class="single-item-rtl">
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 									<div id="success-cases-duration">4 місяці</div>
@@ -553,7 +553,7 @@
 	</script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-      $('#single-item-rtl').slick({
+      $('.single-item-rtl').slick({
 		rtl: true
 	  });
     });
