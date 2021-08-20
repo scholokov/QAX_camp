@@ -517,9 +517,9 @@
 
 						</div>
 						<div class="slick-slider-mob col-md-10 offset-md-1">
-							<div>wwww</div>
-							<div>yfffft</div>
-							<div>iiii</div>
+							<div class="text-items-mob">wwww</div>
+							<div class="text-items-mob">yfffft</div>
+							<div class="text-items-mob">iiii</div>
 
 						</div>	
 
