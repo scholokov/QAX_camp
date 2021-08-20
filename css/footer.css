@@ -38,6 +38,12 @@ footer {
 .footer-contatcs-item {
     padding-top: 8px;
     white-space: nowrap;
+    display: flex;
+    padding-top: 8px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
 
 }
 
@@ -65,13 +71,26 @@ footer {
 }
 
 a#footer-telegram{
-    background: url(icons/Telegram.png);
+    background: url(icons/Telegram.svg);
     display: block;
+    width: 22px;
+    height: 19px;
+    margin-right: 22px;
+}
+
+a#footer-telegram:hover{
+    background: url(icons/Telegram-hover.svg);
 }
 
 a#footer-facebook{
     background: url(icons/Facebook.svg);
     display: block;
+    width: 22px;
+    height: 22px;
+}
+
+a#footer-facebook:hover{
+    background: url(icons/Facebook-hover.svg);
 }
 
 #powered_logo{
