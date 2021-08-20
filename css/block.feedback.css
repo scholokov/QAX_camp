@@ -91,6 +91,12 @@ div#success-cases-block {
     flex-wrap: nowrap;
     justify-content: center;
 }
+div.success-cases-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 #success-cases-info-block1,#success-cases-info-block2,#success-cases-info-block3{
     text-align: left;
 }
