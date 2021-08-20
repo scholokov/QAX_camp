@@ -521,23 +521,23 @@
 								<div id="success-cases-duration">3 місяці</div>
 										
 										<div id="success-cases-info">
-											<p id="success-cases-info-block1">
-												<p class="feedback-author">Max Lapaichuk
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Max Lapaichuk
 													<a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
 														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 													</a>
-												</p>
-												<p class="feedback-job">Manual QA</p>
-												<p class="feedback-text">Leeloo</p>
-											</p>
-											<p id="success-cases-info-block2">
-												<p class="feedback-text">QA Manual</p>
-												<p class="feedback-text">QAX Camp</p>
-											</p>
-											<p id="success-cases-info-block3">
-												<p class="feedback-text">Офіціант - адміністратор</p>
-												<p class="feedback-text">4 year of overall NON-IT Experiance</p>
-											</p>
+												</div>
+												<div class="feedback-job">Manual QA</div>
+												<div class="feedback-text">Leeloo</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Офіціант - адміністратор</div>
+												<div class="feedback-text">4 year of overall NON-IT Experiance</div>
+											</div>
 										</div>	
 							</div>			
 							<div class="slick-slider-items-mob">yfffft</div>
