@@ -514,6 +514,12 @@
 							<a class="next" onclick="plusSlides(1)"><img src="images/Arrow_right.svg"></a>
 
 						</div>
+						<div class="slick-slider col-md-10 offset-md-1">
+							<div>wwww</div>
+							<div>yfffft</div>
+							<div>iiii</div>
+
+						</div>	
 
 					</section>
 
@@ -552,7 +558,13 @@
 		})
 	</script>
 	<script>
-		//$('.single-item').slick();
+		$(document).ready(function(){
+      $('.slick-slider').slick({
+		rtl: true,
+		dots: true,
+		infinite: true
+      });
+    });
 				
 	</script>
 

@@ -139,6 +139,10 @@ div#success-cases-arrow {
       margin-bottom: 5px;
   }
 
+  .slick-slider{
+      display: none;
+  }
+
   @media (max-width:990px){
     div#success-cases-arrow {
         top: 60px;
@@ -177,6 +181,12 @@ div#success-cases-arrow {
     div#success-cases-arrow {
         top: 60px;
         left: 150px;
+    }
+    .feedback-slideshow-container.col-md-10.offset-md-1 {
+        display: none;
+    }
+    .slick-slider{
+        display: block;
     }
     
 }
