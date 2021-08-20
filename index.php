@@ -514,7 +514,7 @@
 							<a class="next" onclick="plusSlides(1)"><img src="images/Arrow_right.svg"></a>
 
 						</div>
-						<div class="slick-slider col-md-10 offset-md-1">
+						<div class="slick-slider-mob col-md-10 offset-md-1">
 							<div>wwww</div>
 							<div>yfffft</div>
 							<div>iiii</div>
@@ -559,7 +559,7 @@
 	</script>
 	<script>
 		$(document).ready(function(){
-      $('.slick-slider').slick({
+      $('.slick-slider-mob').slick({
 		rtl: true,
 		dots: true,
 		infinite: true
