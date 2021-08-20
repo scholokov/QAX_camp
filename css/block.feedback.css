@@ -157,3 +157,22 @@ div#success-cases-arrow {
         left: 420px;
     }
 }  
+
+@media (max-width:701px){
+    #success-cases-duration{
+        min-width: 60px;
+        margin-right: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .feedback-author {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+    .feedback-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+}

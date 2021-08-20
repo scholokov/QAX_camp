@@ -525,7 +525,6 @@
 		<!-- Footer
 		============================================= -->
 		<?php include 'components/footer.html'?>
-		<!-- <div w3-include-html="components\footer.html"></div> -->
 
 	</div><!-- #wrapper end -->
 
@@ -639,15 +638,6 @@
 	</script>
 
 	<script>
-		/*function menuBurger() {
-    var x = document.getElementById("header-block");
-    if (x.className === "header-menu") {
-        x.className += " responsive";
-    } else {
-        x.className = "header-menu";
-	
-    }
-}*/
 function myFunction(x) {
   x.classList.toggle("change");
   var y = document.getElementById("header-block");
