@@ -519,7 +519,9 @@
 						<div class="slick-slider-mob col-md-10 offset-md-1">
 							<div class="success-cases-block" >
 								<div id="success-cases-duration">3 місяці</div>
-										
+								<div id="success-cases-arrow">
+										<img src="images/Arrow_success.svg" alt=arrow>
+								</div>
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Max Lapaichuk
