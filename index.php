@@ -381,7 +381,7 @@
 									
 									<div id="success-cases-info">
 										<div id="success-cases-info-block1">
-											<div class="feedback-author">Andrey Hryhorchuk<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></div>
+											<div class="feedback-author">Andrey Hryhorchuk<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua"><img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin"></a></div>
 											<div class="feedback-job">JQA Engineer</div>
 											<div class="feedback-text">Zakaz.ua</div>
 										</div>
