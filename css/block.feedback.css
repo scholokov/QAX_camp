@@ -188,9 +188,8 @@ div#success-cases-arrow {
     .slick-slider{
         display: block;
     }
-    .text-items-mob{
-        font-size: 20px;
-        color: red;
+    .slick-slider-items-mob{
+        
         display: block;
     }
     

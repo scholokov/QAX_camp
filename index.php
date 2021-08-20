@@ -517,9 +517,45 @@
 
 						</div>
 						<div class="slick-slider-mob col-md-10 offset-md-1">
-							<div class="text-items-mob"><img src="images/logo.svg"><p>wwww</p></div>
-							<div class="text-items-mob">yfffft</div>
-							<div class="text-items-mob"><h3>iiii</h3></div>
+							<div class="slick-slider-items-mob"><div id="success-cases-duration">3 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Max Lapaichuk
+												<a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
+												<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+											</a>
+												</div>
+												<div class="feedback-job">Manual QA</div>
+												<div class="feedback-text">Leeloo</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Офіціант - адміністратор</div>
+												<div class="feedback-text">4 year of overall NON-IT Experiance</div></div>
+							<div class="slick-slider-items-mob"><div id="success-cases-duration">3 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Max 
+												<a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
+												<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+											</a>
+												</div>
+												<div class="feedback-job">Manual QA</div>
+												<div class="feedback-text">Leeloo</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Офіціант - адміністратор</div>
+												<div class="feedback-text">4 year of overall NON-IT Experiance</div></div>
+							<div class="slick-slider-items-mob"><h3>iiii</h3></div>
 
 						</div>	
 
