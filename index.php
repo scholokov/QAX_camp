@@ -562,9 +562,11 @@
 	<script>
 		$(document).ready(function(){
       $('.slick-slider-mob').slick({
-		rtl: true,
 		dots: true,
-		infinite: true
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		adaptiveHeight: true
       });
     });
 				
