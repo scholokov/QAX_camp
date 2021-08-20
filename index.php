@@ -553,9 +553,7 @@
 	</script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-      $('#single-item').slick({
-        setting-name: setting-value
-      });
+      $('#single-item').slick();
     });
 	</script>
 
