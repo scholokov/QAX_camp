@@ -546,7 +546,9 @@
 							</div>			
 							<div class="success-cases-block">
 								<div id="success-cases-duration">4 місяці</div>
-										
+								<div id="success-cases-arrow-mob">
+										<img src="images/Arrow_success.svg" alt=arrow>
+								</div>
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Andrey Hryhorchuk
@@ -569,7 +571,9 @@
 							</div>
 							<div class="success-cases-block">
 							<div id="success-cases-duration">3 місяці</div>
-                    
+							<div id="success-cases-arrow-mob">
+										<img src="images/Arrow_success.svg" alt=arrow>
+								</div>
 									<div id="success-cases-info">
 									<div id="success-cases-info-block1">
 										<div class="feedback-author">Alexander Bezeliuk
