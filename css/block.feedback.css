@@ -204,7 +204,7 @@ div#success-cases-arrow {
     .slick-slider{
         display: block;
     }
-    #success-cases-arrow-mob{
+    .success-cases-arrow-mob{
         width: 8px !important;
         position: absolute;
         display: block;

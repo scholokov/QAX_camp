@@ -518,7 +518,7 @@
 						</div>
 						
 						<div class="slick-slider-mob col-md-10 offset-md-1">
-						<img src="images/Arrow_success.svg" alt=arrow id="success-cases-arrow-mob">
+						<img src="images/Arrow_success.svg" alt=arrow class="success-cases-arrow-mob">
 							<div class="success-cases-block" >
 								<div id="success-cases-duration">3 місяці</div>
 								
