@@ -371,12 +371,11 @@
 						<div class="text-center">
 							<h2>З нами можна хоч так</h2>
 						</div>
-						<div class="single-item-rtl">
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
 						<div id="success-cases-arrow">
 										<img src="images/Arrow_success.svg" alt=arrow>
 						</div>
-						
+						<div>
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 									<div id="success-cases-duration">4 місяці</div>
@@ -552,12 +551,9 @@
 				e.stopPropagation()
 		})
 	</script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-      $('.single-item-rtl').slick({
-		rtl: true
-	  });
-    });
+	<script>
+		//$('.single-item').slick();
+				
 	</script>
 
 
@@ -577,7 +573,7 @@
 
 	<!-- Feedback -->
 	<script>
-		/*var slideIndex = 1;
+		var slideIndex = 1;
 		showSlides(slideIndex);
 		function plusSlides(n) {
 			showSlides(slideIndex += n);
@@ -615,20 +611,20 @@
 				}
 
 				dotItems.removeClass('active')
-						.eq(i).addClass('active');/*
+						.eq(i).addClass('active');
 
 				/*listItems.fadeOut(transition_speed)
 						.eq(i).fadeIn(transition_speed);*/
 
-				/*current = i;*/
+				current = i;
 
 				//resets time interval if user clicks on slider dot; then begin automated slider
 				/*clearTimeout(changeTimeout);
 				changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);*/
-				//}; 
+				}; 
 
 				// Event handlers
-				/*$("#dots li").click(function () {
+				$("#dots li").click(function () {
 				var i = $('#dots li').index(this);
 				moveTo(i);
 				});
@@ -642,7 +638,7 @@
 				});
 
 				//initialize slider on load
-				moveTo('next');*/
+				moveTo('next');
 	</script>
 
 	<script>
