@@ -91,7 +91,7 @@ div#success-cases-block {
     flex-wrap: nowrap;
     justify-content: center;
 }
-div.success-cases-block {
+div#success-cases-blocks {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
