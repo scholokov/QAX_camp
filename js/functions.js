@@ -13,8 +13,9 @@ var $ = jQuery.noConflict();
 window.onload=function(){
 	let facebook_img=$("#Facebook-img");
 	let telegram_img=$("#Telegram-img");
-	telegram_img.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
-	telegram_img.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
+	let telegram_block=$("#footer-telegram");
+	telegram_block.mouseover(function(){telegram_img.attr({"src":"images/Telegram-hover.svg"});});
+	telegram_block.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
 	facebook_img.mouseover(function(){telegram_img.attr({"src":"images/Facebook-hover.svg"});});
 	facebook_img.mouseout(function(){telegram_img.attr({"src":"images/Facebook.svg"})});
   };
