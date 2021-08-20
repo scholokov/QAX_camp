@@ -371,11 +371,12 @@
 						<div class="text-center">
 							<h2>З нами можна хоч так</h2>
 						</div>
+						<div class="single-item-rtl">
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
 						<div id="success-cases-arrow">
 										<img src="images/Arrow_success.svg" alt=arrow>
 						</div>
-						<div class="single-item-rtl">
+						
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 									<div id="success-cases-duration">4 місяці</div>
