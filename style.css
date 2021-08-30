@@ -120,7 +120,8 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #1ABC9C;
+	background: #F66F5D80;
+	;
 	color: #FFF;
 	text-shadow: none;
 }
