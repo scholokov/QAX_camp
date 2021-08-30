@@ -7,7 +7,7 @@
     },
     "theory": {
         "courceTabName": "Класичні курси",
-        "availability": "1",
+        "availability": "0",
         "courcefile": "_menu_theory.json",
         "cource": "theory"
     }
