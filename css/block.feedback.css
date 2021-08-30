@@ -149,7 +149,7 @@ div#success-cases-arrow {
       margin-bottom: 5px;
   }
 
-  .slick-slider{
+  .slick-slider-mob{
       display: none;
   }
 
@@ -201,7 +201,7 @@ div#success-cases-arrow {
     .feedback-slideshow-container.col-md-10.offset-md-1 {
         display: none;
     }
-    .slick-slider{
+    .slick-slider-mob{
         display: block;
     }
     #success-cases-arrow-mob{
