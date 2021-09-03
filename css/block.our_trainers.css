@@ -5,6 +5,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    margin-bottom: 30px;
 }
 
 #trainers-main-title{
@@ -34,6 +35,8 @@
 }
 
 .trainer-info{
+    max-width: 882px;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: row;
