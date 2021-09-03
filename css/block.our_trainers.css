@@ -1,7 +1,5 @@
 .trainer{
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
