@@ -163,8 +163,11 @@
         margin-left: 10px;
     }    
     .trainer-name-tab{
+        font-family: Raleway;
         font-size: 21px;
+        font-weight: 700;
         line-height: 25px;
+
     }
     .trainer-post-tab{
         font-size: 14px;
