@@ -139,13 +139,13 @@
 									<div class="trainer-post">Founder, Trainer</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 17 років:</p>
-									<p class="trainer-experience">2020 - зараз – Head Of QA в Django Stars
-									2020 - 2020 – Head Of QA в MangoSoft / Kevuru Games
-									2019 - 2019 – Head Of QA в компанії “Leap-Gaming” 
-									2017 - 2019 – Head Of QA в компанії “TSI”
-									2017 – Founder, Head Of QA в компанії “QAX”
-									2015 - 2016 – Head Of QA в компанії “Lucky-Labs”
-									2007 - 2015 – QA Manager в “2K-Group”
+									<p class="trainer-experience">2020 - зараз – Head Of QA в Django Stars<br>
+									2020 - 2020 – Head Of QA в MangoSoft / Kevuru Games<br>
+									2019 - 2019 – Head Of QA в компанії “Leap-Gaming” <br>
+									2017 - 2019 – Head Of QA в компанії “TSI”<br>
+									2017 – Founder, Head Of QA в компанії “QAX”<br>
+									2015 - 2016 – Head Of QA в компанії “Lucky-Labs”<br>
+									2007 - 2015 – QA Manager в “2K-Group”<br>
 									2004 - 2007 – QA в підприємстві “Парус”</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">2020 - зараз – Founder, Trainer в QAX Camp
