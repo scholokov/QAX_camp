@@ -194,7 +194,24 @@
                                 <img class="trainer-img" src="images/AS-trainer.svg"  alt="trainer">
                             </div>
                             <div class="trainer-info ">
-                                
+							<div class="linkedin-logo">
+									<img src="images/LinkedIn.svg" alt="trainer">
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name">Андрій Самойленко</div>
+									<div class="trainer-post">Senior Tech Recruiter </div>
+									<div class="trainer-experience">
+									<p class="trainer-experience-title">Досвід роботи 6 років:</p>
+									<p class="trainer-experience">2021 – зараз Tech Recruiter в Squro <br>
+										2018 – зараз Tech Recruiter/Trainer в QAX<br>
+										2019-2021 Tech Recruiter в D2 <br>
+										2017-2018 Tech Recruiter в Ajax Systems<br>
+										2016 – 2017 Tech Recruiter в 3rema Systems</p>
+									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">
+									2018 – зараз Tech Recruiter/Trainer в QAX</p>
+
+									</div>
                             </div>
                             
 
