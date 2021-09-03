@@ -131,8 +131,8 @@
                                 <img class="trainer-img" src="images/DS-trainer.svg" alt="trainer">
                             </div>
                             <div class="trainer-info ">
-								<div class="linkedin_trainer_logo">
-									<img class="" src="images/LinkedIn.svg" alt="trainer">
+								<div class="linkedin-logo">
+									<img src="images/LinkedIn.svg" alt="trainer">
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name"></div>
