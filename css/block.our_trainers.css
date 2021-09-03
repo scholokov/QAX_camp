@@ -156,6 +156,12 @@
         max-width: 240px;
         width: 100%;
     }
+
+    .linked-logo-img-tab{
+        width: 40px;
+        height: 40px;
+    }
+
     .trainer-info{
         max-width: 458px;
         width: 100%;

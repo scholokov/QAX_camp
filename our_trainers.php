@@ -142,7 +142,7 @@
 										<div class="trainer-name-block-tab">
 											<div class="linkedin-logo-tablet">
 												<a href="https://www.linkedin.com/in/denis-scholokov-37735765/">
-													<img src="images/LinkedIn.svg" alt="trainer">
+													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
 												</a>
 											</div>
 											<div class="">
