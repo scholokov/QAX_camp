@@ -299,5 +299,9 @@
         margin-top: 70px;
         margin-bottom: 10px;
     }
+    .trainer-experience {
+        font-size: 14px;
+        line-height: 21px;
+    }
     
 }
