@@ -140,6 +140,10 @@
 }
 
 @media (min-width:768px) and (max-width: 992px) {
+    .trainers-main-block{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     .trainer-post, .trainer-name, .linkedin-logo{
         display: none;
     }
