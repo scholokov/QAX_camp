@@ -180,11 +180,22 @@
                             </div>
                             <div class="trainer-info" >
 								<div class="linkedin-logo">
-									<img src="images/LinkedIn.svg" alt="trainer">
+									<a href="https://www.linkedin.com/in/alesya-lomenko/"><img src="images/LinkedIn.svg" alt="trainer"></a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Олеся Ломенко</div>
 									<div class="trainer-post">Mentor for PMs</div>
+										<div class="trainer-name-block-tab">
+											<div class="linkedin-logo-tablet">
+												<a href="https://www.linkedin.com/in/alesya-lomenko/">
+													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
+												</a>
+											</div>
+											<div class="">
+												<div class="trainer-name-tab">Олеся Ломенко</div>
+												<div class="trainer-post-tab">Mentor for PMs</div>
+											</div>
+										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 9 років:</p>
 									<p class="trainer-experience">2012 - 2013 – Software Testing Specialist в компанії LIGA:ZAKON<br>
@@ -208,11 +219,22 @@
                             </div>
                             <div class="trainer-info ">
 							<div class="linkedin-logo">
-									<img src="images/LinkedIn.svg" alt="trainer">
+									<a href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/"><img src="images/LinkedIn.svg" alt="trainer"></a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Андрій Самойленко</div>
 									<div class="trainer-post">Senior Tech Recruiter </div>
+									<div class="trainer-name-block-tab">
+										<div class="linkedin-logo-tablet">
+												<a href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/">
+													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
+												</a>
+											</div>
+											<div class="">
+												<div class="trainer-name-tab">Андрій Самойленко</div>
+												<div class="trainer-post-tab">Senior Tech Recruiter</div>
+											</div>
+										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 6 років:</p>
 									<p class="trainer-experience">2021 – зараз Tech Recruiter в Squro <br>
