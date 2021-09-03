@@ -131,6 +131,9 @@
                             <div class="trainer-photo">
                                 <img class="trainer-img" src="images/DS-trainer.svg" alt="trainer">
                             </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/DS-trainer-mob.svg" alt="trainer">
+                            </div>
                             <div class="trainer-info ">
 								<div class="linkedin-logo">
 									<a href="https://www.linkedin.com/in/denis-scholokov-37735765/"><img src="images/LinkedIn.svg" alt="trainer"></a>
@@ -178,6 +181,9 @@
                             <div class="trainer-photo">
                                 <img class="trainer-img" src="images/AL-trainer.svg"  alt="trainer">
                             </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/AL-trainer-mob.svg"  alt="trainer">
+                            </div>
                             <div class="trainer-info" >
 								<div class="linkedin-logo">
 									<a href="https://www.linkedin.com/in/alesya-lomenko/"><img src="images/LinkedIn.svg" alt="trainer"></a>
@@ -216,6 +222,9 @@
                         <div class="trainer ">
                             <div class="trainer-photo">
                                 <img class="trainer-img" src="images/AS-trainer.svg"  alt="trainer">
+                            </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/AS-trainer-mob.svg"  alt="trainer">
                             </div>
                             <div class="trainer-info ">
 							<div class="linkedin-logo">

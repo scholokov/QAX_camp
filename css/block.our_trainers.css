@@ -133,6 +133,10 @@
 .trainer-name-block-tab{
     display: none;
 }
+
+.trainer-photo-mob{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .our-trainers-line2{
         display: block;
@@ -208,6 +212,13 @@
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    .trainer-photo{
+        display: none;
+    }
+    .trainer-photo-mob{
+        display: block;
+        
+    }
     .trainer {
         display: flex;
         flex-direction: column;
