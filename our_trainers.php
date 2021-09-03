@@ -125,118 +125,39 @@
 				<div class="container clearfix">
                     <h3 id="trainers-main-title">Наші тренери</h3>
                     <div class="our-trainers-line"></div>
-                    <div class="trainers-block row">
-					    <div class="trainer col-md-4 col-sm-12">
+                    <div class="trainers-block ">
+					    <div class="trainer ">
                             <div class="trainer-photo">
                                 <img class="trainer-img" src="images/DS-trainer.svg" alt="trainer">
                             </div>
-                            <div class="trainer-info row">
-                            <div class="col-9">
-                            <div class="trainer-name">Денис Щолоков</div>
-                            <div class="trainer-post">Founder, Trainer</div>
-                            </div>
-                            <div class="linkedin-logo col-3">
-                                <div ><a href="https://www.linkedin.com/in/denis-scholokov-37735765/
-                                    "><img src="images/LinkedIn.svg" alt="linkedin" class="linkedin-link" 
-                                    onmouseover="this.src='images/LinkedIn-hover.svg';"
-                                    onmouseout="this.src='images/LinkedIn.svg';"></a></div>
-                            </div>
+                            <div class="trainer-info ">
+                            
                             </div>
 
-                            <div class="trainer-experience-title">Досвід роботи 17 років:</div>
-                            <div class="trainer-experience">
-								2020 - зараз – Head Of QA в Django Stars<br> 
-                                2020 - 2020 – Head Of QA в MangoSoft / Kevuru Games<br> 
-                                2019 - 2019 – Head Of QA в компанії “Leap-Gaming”<br>
-                                2017 - 2019 – Head Of QA в компанії “TSI”<br> 
-                                2017 – Founder, Head Of QA в компанії “QAX”<br> 
-                                2015 - 2016 –  Head Of QA в компанії “Lucky-Labs”<br> 
-                                2007 - 2015 –  QA Manager в “2K-Group”<br> 
-                                2004 - 2007 – QA в підприємстві “Парус”<br> 
-                            </div>
-
-                            <div class="trainer-teaching-experience">
-                                <div class="trainer-teaching-title">Досвід викладацької діяльності:</div>
-                                <div class="trainer-teaching">
-								2020 - зараз – Founder, Trainer  в QAX Camp<br> 
-								2018 - 2020 – Trainer в QALight<br>	
-								2017 - 2018 – Trainer в Main Academy<br> 
-
-                                     
-                              </div>      
-                            </div>
-                        </div>
+						</div>	
 
                         <div class="our-trainers-line2"></div>
 
-                        <div class="trainer col-md-4 col-sm-12">
+                        <div class="trainer">
                             <div class="trainer-photo">
                                 <img class="trainer-img" src="images/AL-trainer.svg"  alt="trainer">
                             </div>
-                            <div class="trainer-info row">
-                                <div class="col-9">
-                                <div class="trainer-name">Олеся Ломенко</div>
-                                <div class="trainer-post">Mentor</div>
-                                </div>
-                                <div class="linkedin-logo col-3">
-                                    <div><a href="https://www.linkedin.com/in/alesya-lomenko/">
-                                        <img src="images/LinkedIn.svg" alt="linkedin" class="linkedin-link" 
-                                        onmouseover="this.src='images/LinkedIn-hover.svg';"
-                                        onmouseout="this.src='images/LinkedIn.svg';"></a></div>
-                                </div>
-                            </div>
-
-                            <div class="trainer-work-experience">
-                            <div class="trainer-experience-title">Досвід роботи 9 років:</div>
-                            <div class="trainer-experience">
-								2017 - зараз – Project Manager/Project Team Lead в компанії AMERIA<br> 
-								2014 - 2017 – QA Engineer / QA Lead в компанії AMERIA<br> 
-								2013 - 2014 – QC Engineer в компанії Wolters Kluwer/Aspen Publishers<br> 
-								2012 - 2013 – Software Testing Specialist в компанії LIGA:ZAKON<br> 
+                            <div class="trainer-info" >
                                 
                             </div>
-                            </div>
 
-                            <div class="trainer-teaching-experience">
-                            <div class="trainer-teaching-title">Досвід викладацької діяльності:</div>
-                            <div class="trainer-teaching">2021 -  зараз  – PM Mentor, Trainer в QAX Camp</div>
-                            </div>
                         </div>
 
                         <div class="our-trainers-line2"></div>
 
-                        <div class="trainer col-md-4 col-sm-12">
+                        <div class="trainer ">
                             <div class="trainer-photo">
                                 <img class="trainer-img" src="images/EA-trainer.svg"  alt="trainer">
                             </div>
-                            <div class="trainer-info row">
-                                <div class="col-9">
-                                <div class="trainer-name">Євген Асовін</div>
-                                <div class="trainer-post">Trainer for Automation QA</div>
-                                </div>
-                                <div class="linkedin-logo col-3">
-                                    <div><a href="https://www.linkedin.com/in/asovin/">
-                                        <img src="images/LinkedIn.svg" alt="linkedin" class="linkedin-link" 
-                                        onmouseover="this.src='images/LinkedIn-hover.svg';"
-                                        onmouseout="this.src='images/LinkedIn.svg';"></a></div>
-                                </div>
+                            <div class="trainer-info ">
+                                
                             </div>
-                            <div class="trainer-experience-title">Досвід роботи 4 роки:</div>
-                            <div class="trainer-experience">
-								2020 - зараз – QA Automation Engineer в “Under NDA”<br>
-								2019-2020 – QA Team Lead в компанії “United Travel Ticket”<br> 
-								2019 - 2020 – QA Automation Engineer в компанії “United Travel Ticket”<br> 
-								2018 - 2019 – QA Automation в “Banza”<br>
-								2018 - 2018 – General QA в “Banza”<br> 
-								2017 - 2018 – Manual QA в “Banza”<br> 
-                            </div>
-
-                            <div class="trainer-teaching-experience">
-                            <div class="trainer-teaching-title">Досвід викладацької діяльності:</div>
-                            <div class="trainer-teaching">
-								2021 - зараз – QA Automation Trainer QAX Camp<br> 
-								2020 - 2021 – QA Automation Trainer QA Light<br> </div>
-                                </div>
+                            
 
                         </div>
                     </div>
