@@ -144,7 +144,9 @@
         display: none;
     }
     .trainer-name-block-tab{
-        display: block;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
     .trainer-photo{
         max-width: 240px;
@@ -160,11 +162,11 @@
         padding: 20px 18px;
         margin-left: 10px;
     }    
-    .trainer-name{
+    .trainer-name-tab{
         font-size: 21px;
         line-height: 25px;
     }
-    .trainer-post{
+    .trainer-post-tab{
         font-size: 14px;
         line-height: 16px;
     }
@@ -181,5 +183,12 @@
         line-height: 24px;
     
     }
+    .linkedin-logo-tablet{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    
 
 }
+
