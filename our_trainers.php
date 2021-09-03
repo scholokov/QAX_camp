@@ -132,7 +132,7 @@
                             </div>
                             <div class="trainer-info ">
 								<div class="linkedin_trainer_logo">
-									
+									<img class="" src="images/Linkedin.svg" alt="trainer">
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name"></div>
