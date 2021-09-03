@@ -131,7 +131,30 @@
                                 <img class="trainer-img" src="images/DS-trainer.svg" alt="trainer">
                             </div>
                             <div class="trainer-info ">
-                            
+								<div class="linkedin_trainer_logo">
+									
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name"></div>
+									<div class="trainer-post"></div>
+									<div class="trainer-experience">
+									<p class="rainer-experience-title">Досвід роботи 17 років:</p>
+									<p class="trainer-experience">2020 - зараз – Head Of QA в Django Stars
+									2020 - 2020 – Head Of QA в MangoSoft / Kevuru Games
+									2019 - 2019 – Head Of QA в компанії “Leap-Gaming” 
+									2017 - 2019 – Head Of QA в компанії “TSI”
+									2017 – Founder, Head Of QA в компанії “QAX”
+									2015 - 2016 – Head Of QA в компанії “Lucky-Labs”
+									2007 - 2015 – QA Manager в “2K-Group”
+									2004 - 2007 – QA в підприємстві “Парус”</p>
+									<p class="rainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">2020 - зараз – Founder, Trainer в QAX Camp
+									2018 - 2020 – Trainer в QALight
+									2017 - 2018 – Trainer в Main Academy</p>
+
+									</div>
+									
+								</div>
                             </div>
 
 						</div>	
