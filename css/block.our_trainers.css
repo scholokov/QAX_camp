@@ -217,7 +217,7 @@
     }
     .trainer-photo-mob{
         display: block;
-        
+
     }
     .trainer {
         display: flex;
@@ -229,6 +229,7 @@
     .trainer-photo {
         max-width: 360px;
         width: 100%;
+        margin-bottom: 20px;
     }
     .trainer-img {
         max-width: 360px;
@@ -241,6 +242,32 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+    .trainer-info {
+        max-width: 360px;
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: row;
+        border: 0px;
+        box-sizing: border-box;
+        margin-left: 27px;
+    }
+    .linkedin-logo-tablet{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .trainer-name-tab{
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25px;
+
+    }
+    .trainer-post-tab{
+        font-size: 14px;
+        line-height: 16px;
     }
     
 }
