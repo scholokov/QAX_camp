@@ -207,7 +207,21 @@
         height: 40px;
         margin-right: 20px;
     }
-    
+    .trainers-main-description {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 89px;
+    }
+    #trainers-main-title {
+        font-family: 'Raleway', sans-serif;
+        color: #F66F5D;
+        font-size: 28px;
+        line-height: 33px;
+        margin-top: 60px;
+        margin-bottom: 12px;
+    }
 
 }
 
@@ -268,6 +282,21 @@
     .trainer-post-tab{
         font-size: 14px;
         line-height: 16px;
+    }
+    .trainers-main-description {
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-bottom: 50px;
+    }
+    #trainers-main-title {
+        font-family: 'Raleway', sans-serif;
+        color: #F66F5D;
+        font-size: 26px;
+        line-height: 23px;
+        margin-top: 70px;
+        margin-bottom: 10px;
     }
     
 }
