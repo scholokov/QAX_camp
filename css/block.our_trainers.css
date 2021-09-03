@@ -71,7 +71,7 @@
     color: #F66F5D;
     margin-top: 12px;
     margin-bottom: 0;
-    line-height: 27px;
+    line-height: 27px !important;
 }
 
 .trainer-experience{
