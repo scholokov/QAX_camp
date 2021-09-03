@@ -157,7 +157,7 @@
 								</div>
                             </div>
 
-						
+						</div>
 
                         <div class="our-trainers-line2"></div>
 
