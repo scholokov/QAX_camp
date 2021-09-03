@@ -124,7 +124,8 @@
 			<div class="content-wrap">
 				<div class="container clearfix">
                     <h3 id="trainers-main-title">Наші тренери</h3>
-                    <div class="our-trainers-line"></div>
+                    <div class="trainers-main-description">Майстри своєї справи які будуть разом з тобою протягом усієї дороги 
+						навчання та радо дадуть ключі на усі твої запитання які ти так довго шукав сам.</div>
                     <div class="trainers-block ">
 					    <div class="trainer ">
                             <div class="trainer-photo">
