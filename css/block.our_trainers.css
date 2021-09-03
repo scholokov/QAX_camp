@@ -163,6 +163,7 @@
     }
 
     .trainer-info{
+        font-family: 'Raleway', sans-serif;
         max-width: 458px;
         width: 100%;
         padding: 18px 20px;
@@ -187,6 +188,7 @@
         line-height: 24px !important;
     }
     .trainer-experience{
+        font-family: 'Raleway', sans-serif;
         font-size: 16px;
         margin-bottom: 0;
         line-height: 24px;
