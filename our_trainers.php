@@ -137,7 +137,19 @@
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Денис Щолоков</div>
+									
 									<div class="trainer-post">Founder, Trainer</div>
+										<div class="trainer-name-block-tab">
+											<div class="linkedin-logo-tablet">
+												<a href="https://www.linkedin.com/in/denis-scholokov-37735765/">
+													<img src="images/LinkedIn.svg" alt="trainer">
+												</a>
+											</div>
+											<div class="">
+												<div class="trainer-name-tab">Денис Щолоков</div>
+												<div class="trainer-post-tab">Founder, Trainer</div>
+											</div>
+										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 17 років:</p>
 									<p class="trainer-experience">2020 - зараз – Head Of QA в Django Stars<br>

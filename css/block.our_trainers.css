@@ -130,6 +130,9 @@
     width: 100%;
 }
 
+.trainer-name-block-tab{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .our-trainers-line2{
         display: block;
@@ -137,6 +140,12 @@
 }
 
 @media (min-width:768px) and (max-width: 992px) {
+    .trainer-post, .trainer-name, .linkedin-logo{
+        display: none;
+    }
+    .trainer-name-block-tab{
+        display: block;
+    }
     .trainer-photo{
         max-width: 240px;
         width: 100%;
