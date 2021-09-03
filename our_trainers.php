@@ -166,7 +166,23 @@
                                 <img class="trainer-img" src="images/AL-trainer.svg"  alt="trainer">
                             </div>
                             <div class="trainer-info" >
-                                
+								<div class="linkedin-logo">
+									<img src="images/LinkedIn.svg" alt="trainer">
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name">Олеся Ломенко</div>
+									<div class="trainer-post">Mentor for PMs</div>
+									<div class="trainer-experience">
+									<p class="trainer-experience-title">Досвід роботи 9 років:</p>
+									<p class="trainer-experience">2012 - 2013 – Software Testing Specialist в компанії LIGA:ZAKON<br>
+									2013 - 2014 – QC Engineer в компанії Wolters Kluwer/Aspen Publishers<br>
+									2014 - 2017 – QA Engineer / QA Lead в компанії AMERIA<br>
+									2017 - зараз – Project Manager/Project Team Lead в компанії AMERIA</p>
+									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">
+										2021 -  зараз  – PM Mentor, Trainer в QAX Camp</p>
+
+									</div>
                             </div>
 
                         </div>
@@ -175,7 +191,7 @@
 
                         <div class="trainer ">
                             <div class="trainer-photo">
-                                <img class="trainer-img" src="images/EA-trainer.svg"  alt="trainer">
+                                <img class="trainer-img" src="images/AS-trainer.svg"  alt="trainer">
                             </div>
                             <div class="trainer-info ">
                                 
