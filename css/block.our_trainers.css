@@ -207,3 +207,29 @@
 
 }
 
+@media (min-width:320px) and (max-width: 767px) {
+    .trainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .trainer-photo {
+        max-width: 360px;
+        width: 100%;
+    }
+    .trainer-img {
+        max-width: 360px;
+        width: 100%;
+    }
+    .trainer-post, .trainer-name, .linkedin-logo{
+        display: none;
+    }
+    .trainer-name-block-tab{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+}
