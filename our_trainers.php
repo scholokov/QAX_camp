@@ -133,7 +133,7 @@
                             </div>
                             <div class="trainer-info ">
 								<div class="linkedin-logo">
-									<img src="images/LinkedIn.svg" alt="trainer">
+									<a href="https://www.linkedin.com/in/denis-scholokov-37735765/"><img src="images/LinkedIn.svg" alt="trainer"></a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Денис Щолоков</div>
