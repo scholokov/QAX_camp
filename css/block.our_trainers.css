@@ -36,7 +36,6 @@
 .trainer-info{
     font-family: 'Raleway', sans-serif;
     display: flex;
-    margin-bottom: 30px;
     flex-direction: row;
     padding: 24px 27px;
     border: 1px solid #FFFFFF;
