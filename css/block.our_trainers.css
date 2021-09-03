@@ -27,8 +27,10 @@
 }
 
 .trainer-info{
+    display: flex;
     margin-top: 20px;
     margin-bottom: 30px;
+    flex-direction: row;
 }
 
 .trainer-teaching-experience{
