@@ -149,8 +149,8 @@
 									2007 - 2015 – QA Manager в “2K-Group”<br>
 									2004 - 2007 – QA в підприємстві “Парус”</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
-									<p class="trainer-experience">2020 - зараз – Founder, Trainer в QAX Camp
-									2018 - 2020 – Trainer в QALight
+									<p class="trainer-experience">2020 - зараз – Founder, Trainer в QAX Camp<br>
+									2018 - 2020 – Trainer в QALight<br>
 									2017 - 2018 – Trainer в Main Academy</p>
 
 									</div>
