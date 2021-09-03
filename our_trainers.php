@@ -135,8 +135,8 @@
 									<img src="images/LinkedIn.svg" alt="trainer">
 								</div>
 								<div class="trainer-info_text">
-									<div class="trainer-name"></div>
-									<div class="trainer-post"></div>
+									<div class="trainer-name">Денис Щолоков</div>
+									<div class="trainer-post">Founder, Trainer</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 17 років:</p>
 									<p class="trainer-experience">2020 - зараз – Head Of QA в Django Stars
