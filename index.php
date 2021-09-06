@@ -724,7 +724,7 @@
 	<!-- Feedback -->
 	<script>
 	$(document).ready(function(){
-      $('.feedbackSlides').slick({
+      $('.feedback-slideshow-container').slick({
 		dots: true,
 		infinite: true,
 		speed: 0,
