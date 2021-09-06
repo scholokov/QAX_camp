@@ -724,7 +724,7 @@
 	<script>
 		var change_img_time=1000;
 		var transition_speed=1000;
-		var slideIndex = -1;
+		var slideIndex = 1;
 		showSlides(slideIndex);
 		function plusSlides(n) {
 			showSlides(slideIndex += n);
@@ -776,7 +776,7 @@
 
 				// Event handlers
 				$("#dots li").click(function () {
-				var i = $('#dots li').index(this);
+				var li = $('#dots li').index(this);
 				moveTo(i);
 				});
 
