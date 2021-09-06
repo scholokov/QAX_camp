@@ -705,13 +705,13 @@
 				dotItems.removeClass('active')
 						.eq(i).addClass('active');
 
-				/*listItems.fadeOut(transition_speed)
-						.eq(i).fadeIn(transition_speed);*/
+				listItems.fadeOut(transition_speed)
+						.eq(i).fadeIn(transition_speed);
 
 				current = i;
 
 				//resets time interval if user clicks on slider dot; then begin automated slider
-				/*clearTimeout(changeTimeout);
+				clearTimeout(changeTimeout);
 				changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);*/
 				}; 
 
