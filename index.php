@@ -413,7 +413,7 @@
 													<a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua">
 													<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 												</a></div>
-												<div class="feedback-job">QA engineer (intern)</div>
+												<div class="feedback-job">QA Еngineer (intern)</div>
 												<div class="feedback-text">Playtech</div>
 											</div>
 											<div id="success-cases-info-block2">
