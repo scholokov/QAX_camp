@@ -27,8 +27,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -81,6 +81,7 @@
 {
     left: -25px;
     background-image: url('Arrow_left.svg');
+    background-repeat: no-repeat;
 }
 [dir='rtl'] .slick-prev
 {
