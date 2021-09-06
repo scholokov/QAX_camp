@@ -86,6 +86,8 @@
 }
 
 div#success-cases-block {
+    max-width: 800px;
+    width: 100%;
     display: flex !important;
     flex-direction: row;
     flex-wrap: nowrap;
