@@ -729,7 +729,8 @@
 		infinite: true,
 		speed: 0,
 		slidesToShow: 1,
-		arrows: true
+		arrows: true,
+		draggable: false
       });
     });
 		/*var change_img_time=1000;
