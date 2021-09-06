@@ -665,6 +665,7 @@
 
 	<!-- Feedback -->
 	<script>
+		var transition_speed=50000;
 		var slideIndex = 1;
 		showSlides(slideIndex);
 		function plusSlides(n) {
