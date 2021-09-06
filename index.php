@@ -569,6 +569,7 @@
 										<div class="feedback-text">3 year of overall NON-IT Experiance</div>
 									</div>
                 			</div>
+						</div>
 
 							<div class="success-cases-block">
 								<div id="success-cases-duration">1,5 місяцi</div>
