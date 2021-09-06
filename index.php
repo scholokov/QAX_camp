@@ -519,6 +519,109 @@
 						<!----<img src="images/Arrow_success.svg" alt=arrow class="success-cases-arrow-mob">-->
 						<div class="slick-slider-mob col-md-10 offset-md-1">
 						
+						<div class="success-cases-block">
+								<div id="success-cases-duration">4 місяці</div>
+								<div id="success-cases-arrow-mob">
+										<img src="images/Arrow_success.svg" alt=arrow>
+								</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Andrey Hryhorchuk
+													<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
+														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+													</a>
+												</div>
+												<div class="feedback-job">JQA Engineer</div>
+												<div class="feedback-text">Zakaz.ua</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">L1 support engineer </div>
+												<div class="feedback-text">5 year of overall NON-IT Experiance</div>
+										</div>
+								</div>
+							</div>
+
+							<div class="success-cases-block">
+							<div id="success-cases-duration">3 місяці</div>
+							<div id="success-cases-arrow-mob">
+										<img src="images/Arrow_success.svg" alt=arrow>
+								</div>
+									<div id="success-cases-info">
+									<div id="success-cases-info-block1">
+										<div class="feedback-author">Alexander Bezeliuk
+										<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
+											<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+										</a>
+										</div>
+										<div class="feedback-job">QA engineer (intern)</div>
+										<div class="feedback-text">Playtech</div>
+									</div>
+									<div id="success-cases-info-block2">
+										<div class="feedback-text">QA Manual</div>
+										<div class="feedback-text">QAX Camp</div>
+									</div>
+									<div id="success-cases-info-block3">
+										<div class="feedback-text">Заступник директору <br>магазину елекроніки </div>
+										<div class="feedback-text">3 year of overall NON-IT Experiance</div>
+									</div>
+                			</div>
+
+							<div class="success-cases-block">
+								<div id="success-cases-duration">1,5 місяцi</div>
+								<div id="success-cases-arrow-mob">
+										<img src="images/Arrow_success.svg" alt=arrow>
+								</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Pavel Karnasenko
+													<a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
+														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+													</a>
+												</div>
+												<div class="feedback-job">QA Engineer</div>
+												<div class="feedback-text">Playtech</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Інженер-конструктор</div>
+												<div class="feedback-text">4 year of overall NON-IT Experiance</div>
+										</div>
+								</div>
+							</div>
+
+							<div class="success-cases-block">
+								<div id="success-cases-duration">5 місяців</div>
+								<div id="success-cases-arrow-mob">
+										<img src="images/Arrow_success.svg" alt=arrow>
+								</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Natali Sorokina
+													<a href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/">
+														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
+													</a>
+												</div>
+												<div class="feedback-job">Junior QA</div>
+												<div class="feedback-text">FireKass</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Керуючий банківським<br> відділенням</div>
+												<div class="feedback-text">22 year of overall NON-IT Experiance</div>
+										</div>
+								</div>
+							</div>
+
 							<div class="success-cases-block" >
 								<div id="success-cases-duration">3 місяці</div>
 								<div id="success-cases-arrow-mob">
@@ -544,55 +647,9 @@
 											</div>
 										</div>	
 							</div>			
-							<div class="success-cases-block">
-								<div id="success-cases-duration">4 місяці</div>
-								<div id="success-cases-arrow-mob">
-										<img src="images/Arrow_success.svg" alt=arrow>
-								</div>
-										<div id="success-cases-info">
-											<div id="success-cases-info-block1">
-												<div class="feedback-author">Andrey Hryhorchuk
-													<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
-														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
-													</a>
-												</div>
-												<div class="feedback-job">JQA Engineer</div>
-												<div class="feedback-text">Zakaz.ua</div>
-											</div>
-											<div id="success-cases-info-block2">
-												<div class="feedback-text">QA Manual</div>
-												<div class="feedback-text">QAX Camp</div>
-											</div>
-											<div id="success-cases-info-block3">
-												<div class="feedback-text">L1 support engineer </div>
-												<div class="feedback-text">5 year of overall NON-IT Experiance</div>
-										</div>
-								</div>
-							</div>
-							<div class="success-cases-block">
-							<div id="success-cases-duration">3 місяці</div>
-							<div id="success-cases-arrow-mob">
-										<img src="images/Arrow_success.svg" alt=arrow>
-								</div>
-									<div id="success-cases-info">
-									<div id="success-cases-info-block1">
-										<div class="feedback-author">Alexander Bezeliuk
-										<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
-											<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
-										</a>
-										</div>
-										<div class="feedback-job">QA engineer (intern)</div>
-										<div class="feedback-text">Playtech</div>
-									</div>
-									<div id="success-cases-info-block2">
-										<div class="feedback-text">QA Manual</div>
-										<div class="feedback-text">QAX Camp</div>
-									</div>
-									<div id="success-cases-info-block3">
-										<div class="feedback-text">Заступник директору <br>магазину елекроніки </div>
-										<div class="feedback-text">3 year of overall NON-IT Experiance</div>
-									</div>
-                			</div>
+							
+							
+							
 						</div>
 
 						</div>	
