@@ -80,6 +80,7 @@
 .slick-prev
 {
     left: -25px;
+    background-image: 'images/Arrow_left.svg';
 }
 [dir='rtl'] .slick-prev
 {
@@ -88,7 +89,7 @@
 }
 .slick-prev:before
 {
-    content: '←';
+   /*content: '←';*/
 }
 [dir='rtl'] .slick-prev:before
 {
