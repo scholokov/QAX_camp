@@ -100,6 +100,8 @@
 .slick-next
 {
     right: -25px;
+    background-image: url('Arrow_right.svg');
+    background-repeat: no-repeat;
 }
 [dir='rtl'] .slick-next
 {
