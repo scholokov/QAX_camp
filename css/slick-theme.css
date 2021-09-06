@@ -201,9 +201,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before
-{   width: 40px;
-    height: 40px;
+{   width: 25px;
+    height: 25px;
     content: '•';
-    font-size: 40px;
+    font-size: 25px;
     color: #F66F5D;
 }
