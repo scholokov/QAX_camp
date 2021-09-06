@@ -553,7 +553,7 @@
 									<div id="success-cases-info">
 									<div id="success-cases-info-block1">
 										<div class="feedback-author">Alexander Bezeliuk
-										<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
+										<a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=uaa">
 											<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 										</a>
 										</div>
