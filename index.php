@@ -698,6 +698,7 @@
 		infinite: true,
 		speed: 10,
 		slidesToShow: 1,
+		slidesToScroll: 1,
 		adaptiveHeight: true,
 		mobileFirst:true,
 		arrows: false
