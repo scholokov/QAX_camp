@@ -775,7 +775,10 @@
 				changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);
 				}; 
 
-				// Event handlers
+				
+	</script>
+	<script>
+		// Event handlers
 				$("#dots li").click(function () {
 				var li = $('#dots li').index(this);
 				moveTo(i);
@@ -791,7 +794,7 @@
 
 				//initialize slider on load
 				moveTo('next');
-	</script>
+		</script>
 
 	<script>
 function myFunction(x) {
