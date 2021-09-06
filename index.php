@@ -722,8 +722,8 @@
 
 	<!-- Feedback -->
 	<script>
-		var change_img_time=10000;
-		var transition_speed=10;
+		var change_img_time=1000;
+		var transition_speed=1000;
 		var slideIndex = 1;
 		showSlides(slideIndex);
 		function plusSlides(n) {
