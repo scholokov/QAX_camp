@@ -260,6 +260,47 @@
                             
 
                         </div>
+						<div class="trainer ">
+                            <div class="trainer-photo">
+                                <img class="trainer-img" src="images/UR-trainer.svg"  alt="trainer">
+                            </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/UR-trainer-mob.svg"  alt="trainer">
+                            </div>
+                            <div class="trainer-info ">
+							<div class="linkedin-logo">
+									<a href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152"><img src="images/LinkedIn.svg" alt="trainer"></a>
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name">Юлія Рудченко</div>
+									<div class="trainer-post">Trainer</div>
+									<div class="trainer-name-block-tab">
+										<div class="linkedin-logo-tablet">
+												<a href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152">
+													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
+												</a>
+											</div>
+											<div class="">
+												<div class="trainer-name-tab">Юлія Рудченко</div>
+												<div class="trainer-post-tab">Trainer</div>
+											</div>
+										</div>
+									<div class="trainer-experience">
+									<p class="trainer-experience-title">Досвід роботи 4 роки:</p>
+									<p class="trainer-experience">2019 - зараз Middle+ QA Engineer в Innovecs <br>
+
+										2018 - 2019 QA Engineer в DOIT Software <br>
+
+											2018 - QA Engineer в TSI</p>
+									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">
+									2021 - зараз Trainer в QAX Camp</p>
+
+									</div>
+                            </div>
+                            
+
+                        </div>
                     </div>
 					<?php include 'components/form.html'?>
 				</div>
