@@ -202,10 +202,9 @@
 
     width: 20px;
     height: 20px;
-
-    text-align: center;*/
-    border: 2px solid #F66F5D;*/
-   color: #F66F5D;*/
+    text-align: center;
+    border: 2px solid #F66F5D;
+   color: #F66F5D;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
