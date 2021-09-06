@@ -239,7 +239,7 @@
 
 											<div class="cources-cards-buttons-block">
 											<h5 class="cources-cards-buttons">
-												2 Курси
+												1 Курс
 											</h5>
 											</div>
 										</a>
