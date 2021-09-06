@@ -47,8 +47,14 @@
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
 }*/
+img.feedback_linkedin_icon {
+    margin-top: -5px;
+    width: 40px;
+    height: 40px;
+}
 
 .feedback-author {
+    display: flex;
     font-family: Raleway;
     font-weight: 700;
     font-size: 24px;
