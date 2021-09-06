@@ -723,7 +723,16 @@
 
 	<!-- Feedback -->
 	<script>
-		var change_img_time=1000;
+	$(document).ready(function(){
+      $('.feedback-slideshow-container').slick({
+		dots: true,
+		infinite: true,
+		speed: 0,
+		slidesToShow: 1,
+		arrows: true
+      });
+    });
+		/*var change_img_time=1000;
 		var transition_speed=1000;
 		var slideIndex = 1;
 		showSlides(slideIndex);
@@ -768,18 +777,18 @@
 				/*listItems.fadeOut(transition_speed)
 						.eq(i).fadeIn(transition_speed);*/
 
-				current = i;
+				/*current = i;*/
 
 				//resets time interval if user clicks on slider dot; then begin automated slider
-				clearTimeout(changeTimeout);
+				/*clearTimeout(changeTimeout);
 				changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);
 				}; 
-
+*/
 				
 	</script>
 	<script>
 		// Event handlers
-				$("#dots li").click(function () {
+				/*$("#dots li").click(function () {
 				var li = $('#dots li').index(this);
 				moveTo(i);
 				});
@@ -793,7 +802,7 @@
 				});
 
 				//initialize slider on load
-				moveTo('next');
+				moveTo('next');*/
 		</script>
 
 	<script>
