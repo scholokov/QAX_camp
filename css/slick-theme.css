@@ -80,7 +80,7 @@
 .slick-prev
 {
     left: -25px;
-    background-image: 'images/Arrow_left.svg';
+    background-image: url('QAX_camp/images/Arrow_left.svg');
 }
 [dir='rtl'] .slick-prev
 {
