@@ -110,11 +110,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+   /* content: '→';*/
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+   /* content: '←';*/
 }
 
 /* Dots */
