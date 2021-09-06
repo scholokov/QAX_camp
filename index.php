@@ -696,7 +696,7 @@
       $('.slick-slider-mob').slick({
 		dots: true,
 		infinite: true,
-		speed: 0,
+		speed: 10,
 		slidesToShow: 1,
 		adaptiveHeight: true,
 		mobileFirst:true,
