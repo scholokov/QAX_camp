@@ -374,14 +374,14 @@
 							<h2>З нами можна хоч так</h2>
 						</div>
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
-						
-						<div>
+						<div id="success-cases-arrow">
+										<img src="images/Arrow_success.svg" alt=arrow>
+						</div>
+						<div class="slick-slider-desktop">
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 									<div id="success-cases-duration">4 місяці</div>
-									<div id="success-cases-arrow">
-										<img src="images/Arrow_success.svg" alt=arrow>
-									</div>
+									
 									<div id="success-cases-info">
 										<div id="success-cases-info-block1">
 											<div class="feedback-author">Andrey Hryhorchuk
@@ -724,7 +724,7 @@
 	<!-- Feedback -->
 	<script>
 	$(document).ready(function(){
-      $('.feedback-slideshow-container').slick({
+      $('.slick-slider-desktop').slick({
 		dots: true,
 		infinite: true,
 		speed: 0,
