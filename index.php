@@ -665,6 +665,7 @@
 
 	<!-- Feedback -->
 	<script>
+		var change_img_time=50000;
 		var transition_speed=50000;
 		var slideIndex = 1;
 		showSlides(slideIndex);
