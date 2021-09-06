@@ -80,7 +80,7 @@
 .slick-prev
 {
     left: -25px;
-    background-image: url('images/Arrow_left.svg');
+    background-image: url('Arrow_left.svg');
 }
 [dir='rtl'] .slick-prev
 {
