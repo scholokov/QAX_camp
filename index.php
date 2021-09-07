@@ -733,7 +733,7 @@
 		arrows: true,
 		draggable: false,
 		autoplay: true,
-		autoplaySpeed:  1000
+		autoplaySpeed:  3000
       });
     });
 		/*var change_img_time=1000;
