@@ -156,15 +156,15 @@
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 17 років:</p>
 									<p class="trainer-experience">2020 - зараз – Head Of QA в Django Stars<br>
+									2017 – зараз - Founder, Head Of QA в “QAX”<br>
 									2020 - 2020 – Head Of QA в MangoSoft / Kevuru Games<br>
-									2019 - 2019 – Head Of QA в компанії “Leap-Gaming” <br>
-									2017 - 2019 – Head Of QA в компанії “TSI”<br>
-									2017 – Founder, Head Of QA в компанії “QAX”<br>
-									2015 - 2016 – Head Of QA в компанії “Lucky-Labs”<br>
+									2019 - 2019 – Head Of QA в “Leap-Gaming” <br>
+									2017 - 2019 – Head Of QA в “TSI”<br>
+									2015 - 2016 – Head Of QA в “Lucky-Labs”<br>
 									2007 - 2015 – QA Manager в “2K-Group”<br>
-									2004 - 2007 – QA в підприємстві “Парус”</p>
+									2004 - 2007 – QA в “Парус”</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
-									<p class="trainer-experience">2020 - зараз – Founder, Trainer в QAX Camp<br>
+									<p class="trainer-experience">2020 - зараз – Trainer в QAX Camp<br>
 									2018 - 2020 – Trainer в QALight<br>
 									2017 - 2018 – Trainer в Main Academy</p>
 
@@ -190,7 +190,7 @@
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Олеся Ломенко</div>
-									<div class="trainer-post">Mentor for PMs</div>
+									<div class="trainer-post">Trainer</div>
 										<div class="trainer-name-block-tab">
 											<div class="linkedin-logo-tablet">
 												<a href="https://www.linkedin.com/in/alesya-lomenko/">
@@ -199,18 +199,18 @@
 											</div>
 											<div class="">
 												<div class="trainer-name-tab">Олеся Ломенко</div>
-												<div class="trainer-post-tab">Mentor for PMs</div>
+												<div class="trainer-post-tab">Trainer</div>
 											</div>
 										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 9 років:</p>
-									<p class="trainer-experience">2012 - 2013 – Software Testing Specialist в компанії LIGA:ZAKON<br>
-									2013 - 2014 – QC Engineer в компанії Wolters Kluwer/Aspen Publishers<br>
-									2014 - 2017 – QA Engineer / QA Lead в компанії AMERIA<br>
-									2017 - зараз – Project Manager/Project Team Lead в компанії AMERIA</p>
+									<p class="trainer-experience">2017 - зараз – Project Manager/Project Team Lead в AMERIA<br>
+										2014 - 2017 – QA Engineer / QA Lead в  AMERIA<br>
+										2013 - 2014 – QC Engineer в Wolters Kluwer/Aspen Publishers<br>
+										2012 - 2013 – Software Testing Specialist в LIGA:ZAKON</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
-										2021 -  зараз  – PM Mentor, Trainer в QAX Camp</p>
+										2021 -  зараз  – Trainer в QAX Camp</p>
 
 									</div>
                             </div>
@@ -232,7 +232,7 @@
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Андрій Самойленко</div>
-									<div class="trainer-post">Senior Tech Recruiter </div>
+									<div class="trainer-post">Founder, Trainer </div>
 									<div class="trainer-name-block-tab">
 										<div class="linkedin-logo-tablet">
 												<a href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/">
@@ -241,16 +241,18 @@
 											</div>
 											<div class="">
 												<div class="trainer-name-tab">Андрій Самойленко</div>
-												<div class="trainer-post-tab">Senior Tech Recruiter</div>
+												<div class="trainer-post-tab">Founder, Trainer</div>
 											</div>
 										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 6 років:</p>
-									<p class="trainer-experience">2021 – зараз Tech Recruiter в Squro <br>
-										2018 – зараз Tech Recruiter/Trainer в QAX<br>
-										2019-2021 Tech Recruiter в D2 <br>
-										2017-2018 Tech Recruiter в Ajax Systems<br>
-										2016 – 2017 Tech Recruiter в 3rema Systems</p>
+									<p class="trainer-experience">2021 – зараз Tech Recruiter в Squro<br>
+
+														2018 – зараз Tech Recruiter в QAX<br>
+
+														2019-2021 Tech Recruiter в D2<br>
+
+														2017-2018 Tech Recruiter в Ajax Systems</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									2018 – зараз Tech Recruiter/Trainer в QAX</p>
@@ -294,7 +296,7 @@
 											2018 - QA Engineer в TSI</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
-									2021 - зараз Trainer в QAX Camp</p>
+									2021 - зараз - Trainer в QAX Camp</p>
 
 									</div>
                             </div>
