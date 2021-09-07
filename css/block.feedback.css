@@ -114,8 +114,10 @@ div#success-cases-blocks {
 }
 
 div#success-cases-info {
+    max-width: 281px;
     margin-left: 40px;
     min-height: 281px;
+    width: 100%;
 }
 
 div#success-cases-arrow {
