@@ -179,7 +179,7 @@
 
                         <div class="trainer">
                             <div class="trainer-photo">
-                                <img class="trainer-img" src="images/AL-trainer.svg"  alt="trainer">
+                                <img class="trainer-img" src="images/AL-trainer.png"  alt="trainer">
                             </div>
 							<div class="trainer-photo-mob">
                                 <img class="trainer-img-mob" src="images/AL-trainer-mob.svg"  alt="trainer">
