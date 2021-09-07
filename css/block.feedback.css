@@ -161,7 +161,7 @@ div#success-cases-arrow {
       display: none;
   }
 
-  @media (max-width:990px){
+  @media (max-width:991px){
     div#success-cases-arrow {
         top: 60px;
         left: 180px;
