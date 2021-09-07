@@ -732,7 +732,8 @@
 		slidesToShow: 1,
 		arrows: true,
 		draggable: false,
-		autoplaySpeed:  4000
+		autoplay: true,
+		autoplaySpeed:  3000
       });
     });
 		/*var change_img_time=1000;
