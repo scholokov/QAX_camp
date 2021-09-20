@@ -316,7 +316,7 @@
 
 										<tr><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в DOIT Software <br></td></tr>
 
-										<tr><td>2018</td> <td>–</td> <td>QA Engineer в TSI</td></tr>
+										<tr><td>2018</td> <td>–</td> <td>2018</td><td>–</td><td>QA Engineer в TSI</td></tr>
 									</table>
 								</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
