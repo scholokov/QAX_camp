@@ -163,15 +163,15 @@
 										<tr><td>2019</td> <td>–</td> <td>2019</td> <td>–</td>  <td>Head Of QA в “Leap-Gaming” <br></td></tr>
 										<tr><td>2017</td> <td>–</td> <td>2019</td> <td>–</td>  <td>Head Of QA в “TSI”<br></td></tr>
 										<tr><td>2015</td> <td>–</td> <td>2016</td>  <td>–</td> <td>Head Of QA в “Lucky-Labs”<br></td></tr>
-										<tr><td>2007</td> <td>–</td> <td>2015</td>  <td>–</td> <td>QA Manager в “2K-Group”<br></td></tr>
+										<tr><td>2007</td> <td>–</td> <td>2015</td>  <td>–</td> <td>QA Manager в “2K-Group”</td></tr>
 										<tr><td>2004</td> <td>–</td> <td>2007</td> <td>–</td>  <td>QA в “Парус”</tr></td>
 									</table>	
 									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-										<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td><br></tr>
-										<tr><td>2018</td> <td>–</td> <td>2020</td> <td>–</td> <td>Trainer в QALight</td><br></tr>
+										<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+										<tr><td>2018</td> <td>–</td> <td>2020</td> <td>–</td> <td>Trainer в QALight</td></tr>
 										<tr><td>2017</td> <td>–</td> <td>2018</td> <td>–</td> <td>Trainer в Main Academy</td></p></tr>
 									</table>
 									</div>
