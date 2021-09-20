@@ -34,6 +34,8 @@
 }
 td{
     color: white !important; 
+    padding-top: 0;
+    padding-bottom: 0;
 }
 th:first-child, td:first-child{
     padding-left: 0;
