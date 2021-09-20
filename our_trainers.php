@@ -321,7 +321,10 @@
 								</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
-									2021 - зараз - Trainer в QAX Camp</p>
+									<table id="trainer-experience-table">
+									<tr><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									</table>
+								</p>
 
 									</div>
                             </div>
