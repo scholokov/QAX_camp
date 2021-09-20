@@ -312,11 +312,11 @@
 									<p class="trainer-experience-title">Досвід роботи 4 роки:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-										<tr><td>2019</td> <td>–</td> <td>зараз</td> <td>–</td> Middle+ QA Engineer в Innovecs <br></tr></td>
+										<tr><td>2019</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Middle+ QA Engineer в Innovecs <br></td></tr>
 
-										<tr><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в DOIT Software <br></tr></td>
+										<tr><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в DOIT Software <br></td></tr>
 
-										<tr><td>2018</td> <td>–</td> <td>QA Engineer в TSI</tr></td>
+										<tr><td>2018</td> <td>–</td> <td>QA Engineer в TSI</td></tr>
 									</table>
 								</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
