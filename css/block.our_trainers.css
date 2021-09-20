@@ -32,10 +32,13 @@
 #trainer-experience-table{
     color: white !important;
 }
+td{
+    color: white !important; 
+}
 th:first-child, td:first-child{
-    color: white !important;
     padding-left: 0;
 }
+
 
 
 .our-trainers-line{
