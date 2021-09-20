@@ -172,8 +172,9 @@
 									<table id="trainer-experience-table">
 										<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
 										<tr><td>2018</td> <td>–</td> <td>2020</td> <td>–</td> <td>Trainer в QALight</td></tr>
-										<tr><td>2017</td> <td>–</td> <td>2018</td> <td>–</td> <td>Trainer в Main Academy</td></p></tr>
+										<tr><td>2017</td> <td>–</td> <td>2018</td> <td>–</td> <td>Trainer в Main Academy</td></tr>
 									</table>
+									</p>
 									</div>
 									
 								</div>
