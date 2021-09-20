@@ -210,7 +210,7 @@
 											</div>
 										</div>
 									<div class="trainer-experience">
-									<p class="trainer-experience-title">Досвід роботи 9 років:</p>
+									<p class="trainer-experience-title">Досвід роботи 10 років:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
 										<tr><td>2017</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Project Manager/Project Team Lead в AMERIA<br></td></tr>
@@ -259,7 +259,7 @@
 											</div>
 										</div>
 									<div class="trainer-experience">
-									<p class="trainer-experience-title">Досвід роботи 6 років:</p>
+									<p class="trainer-experience-title">Досвід роботи 5 років:</p>
 									<p class="trainer-experience">
 										<table id="trainer-experience-table">	
 										<tr><td>2021</td> <td>–</td> <td>зараз</td><td>–</td> <td>Tech Recruiter в Squro<br></tr></td>
@@ -274,7 +274,8 @@
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-									<tr><td>2018</td> <td>–</td> <td>зараз</td> <td>-</td><td>Tech Recruiter/Trainer в QAX</tr></td>
+									<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>-</td><td>Trainer в QAX Camp</tr></td>
+									<tr><td>2018</td> <td>–</td> <td>2020</td> <td>-</td><td>Trainer в QALight</tr></td>
 									</table>
 								</p>
 
