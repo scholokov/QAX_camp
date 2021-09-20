@@ -155,14 +155,18 @@
 										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 17 років:</p>
-									<p class="trainer-experience">2020 - зараз – Head Of QA в Django Stars<br>
-									2017 – зараз - Founder, Head Of QA в “QAX”<br>
-									2020 - 2020 – Head Of QA в MangoSoft / Kevuru Games<br>
-									2019 - 2019 – Head Of QA в “Leap-Gaming” <br>
-									2017 - 2019 – Head Of QA в “TSI”<br>
-									2015 - 2016 – Head Of QA в “Lucky-Labs”<br>
-									2007 - 2015 – QA Manager в “2K-Group”<br>
-									2004 - 2007 – QA в “Парус”</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+										<tr><td>2020</td>  <td>зараз</td>  <td>Head Of QA в Django Stars<br></td></tr>
+										<tr><td>2017</td>  <td>зараз</td>  <td>Founder, Head Of QA в “QAX”<br></td></tr>
+										<tr><td>2020</td>  <td>2020</td>   <td>Head Of QA в MangoSoft / Kevuru Games<br></td></tr>
+										<tr><td>2019</td>  <td>2019</td>   <td>Head Of QA в “Leap-Gaming” <br></td></tr>
+										<tr><td>2017</td>  <td>2019</td>   <td>Head Of QA в “TSI”<br></td></tr>
+										<tr><td>2015</td>  <td>2016</td>   <td>Head Of QA в “Lucky-Labs”<br></td></tr>
+										<tr><td>2007</td>  <td>2015</td>   <td>QA Manager в “2K-Group”<br></td></tr>
+										<tr><td>2004</td>  <td>2007</td>   <td>QA в “Парус”</tr></td>
+									</table>	
+									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">2020 - зараз – Trainer в QAX Camp<br>
 									2018 - 2020 – Trainer в QALight<br>
