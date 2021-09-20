@@ -82,6 +82,7 @@ img.feedback_linkedin_icon {
 }
 
 #success-cases-duration{
+    height: 290px;
     min-width: 90px;
     margin-right: 20px;
     display: flex;
