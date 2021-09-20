@@ -154,7 +154,7 @@
 											</div>
 										</div>
 									<div class="trainer-experience">
-									<p class="trainer-experience-title">Досвід роботи 17 років:</p>
+									<p class="trainer-experience-title">Досвід роботи 18 років:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
 										<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Head Of QA в Django Stars<br></td></tr>
