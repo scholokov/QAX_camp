@@ -375,7 +375,7 @@
 						</div>
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
 						<div id="success-cases-arrow">
-										<img src="images/Arrow_success.svg" alt=arrow>
+										<img src="images/Arrow_success.svg" alt=arrow id="success-cases-arrow-img">
 						</div>
 						<div class="slick-slider-desktop">
 							<div class="feedbackSlides">

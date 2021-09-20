@@ -119,6 +119,10 @@ div#success-cases-info {
     min-height: 281px;
     width: 100%;
 }
+#success-cases-arrow-img{
+    height: 290px;
+}
+
 
 div#success-cases-arrow {
     position: absolute;
