@@ -168,10 +168,12 @@
 									</table>	
 									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
-									<p class="trainer-experience">2020 - зараз – Trainer в QAX Camp<br>
-									2018 - 2020 – Trainer в QALight<br>
-									2017 - 2018 – Trainer в Main Academy</p>
-
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+										<tr><td>2020</td> <td>-</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td><br></tr>
+										<tr><td>2018</td> <td>-</td> <td>2020</td> <td>–</td> <td>Trainer в QALight</td><br></tr>
+										<tr><td>2017</td> <td>-</td> <td>2018</td> <td>–</td> <td>Trainer в Main Academy</td></p></tr>
+									</table>
 									</div>
 									
 								</div>
