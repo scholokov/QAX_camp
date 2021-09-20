@@ -136,7 +136,7 @@
                             </div>
                             <div class="trainer-info ">
 								<div class="linkedin-logo">
-									<a href="https://www.linkedin.com/in/denis-scholokov-37735765/"><img src="images/LinkedIn.svg" alt="trainer"></a>
+									<a target="_blank" href="https://www.linkedin.com/in/denis-scholokov-37735765/"><img src="images/LinkedIn.svg" alt="trainer"></a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Денис Щолоков</div>
@@ -144,7 +144,7 @@
 									<div class="trainer-post">Founder, Trainer</div>
 										<div class="trainer-name-block-tab">
 											<div class="linkedin-logo-tablet">
-												<a href="https://www.linkedin.com/in/denis-scholokov-37735765/">
+												<a target="_blank" href="https://www.linkedin.com/in/denis-scholokov-37735765/">
 													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
 												</a>
 											</div>
@@ -186,14 +186,14 @@
                             </div>
                             <div class="trainer-info" >
 								<div class="linkedin-logo">
-									<a href="https://www.linkedin.com/in/alesya-lomenko/"><img src="images/LinkedIn.svg" alt="trainer"></a>
+									<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/"><img src="images/LinkedIn.svg" alt="trainer"></a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Олеся Ломенко</div>
 									<div class="trainer-post">Trainer</div>
 										<div class="trainer-name-block-tab">
 											<div class="linkedin-logo-tablet">
-												<a href="https://www.linkedin.com/in/alesya-lomenko/">
+												<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/">
 													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
 												</a>
 											</div>
@@ -228,14 +228,14 @@
                             </div>
                             <div class="trainer-info ">
 							<div class="linkedin-logo">
-									<a href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/"><img src="images/LinkedIn.svg" alt="trainer"></a>
+									<a target="_blank" href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/"><img src="images/LinkedIn.svg" alt="trainer"></a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Андрій Самойленко</div>
 									<div class="trainer-post">Founder, Trainer </div>
 									<div class="trainer-name-block-tab">
 										<div class="linkedin-logo-tablet">
-												<a href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/">
+												<a target="_blank" href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/">
 													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
 												</a>
 											</div>
@@ -271,14 +271,14 @@
                             </div>
                             <div class="trainer-info ">
 							<div class="linkedin-logo">
-									<a href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152"><img src="images/LinkedIn.svg" alt="trainer"></a>
+									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152"><img src="images/LinkedIn.svg" alt="trainer"></a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Юлія Рудченко</div>
 									<div class="trainer-post">Trainer</div>
 									<div class="trainer-name-block-tab">
 										<div class="linkedin-logo-tablet">
-												<a href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152">
+												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152">
 													<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">
 												</a>
 											</div>

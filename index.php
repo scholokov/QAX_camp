@@ -385,7 +385,7 @@
 									<div id="success-cases-info">
 										<div id="success-cases-info-block1">
 											<div class="feedback-author">Andrey Hryhorchuk
-												<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
+												<a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
 												<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 											</a></div>
 											<div class="feedback-job">JQA Engineer</div>
@@ -410,7 +410,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Alexander Bezeliuk
-													<a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua">
+													<a target="_blank" href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua">
 													<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 												</a></div>
 												<div class="feedback-job">QA Еngineer (intern)</div>
@@ -435,7 +435,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Pavel Karnasenko
-													<a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
+													<a target="_blank" href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
 													<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 												</a></div>
 												<div class="feedback-job">QA Engineer</div>
@@ -460,7 +460,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Natali Sorokina
-												<a href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/">
+												<a target="_blank" href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/">
 												<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 												</a>
 												</div>
@@ -486,7 +486,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Max Lapaichuk
-												<a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
+												<a target="_blank" href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
 												<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 											</a>
 												</div>
@@ -527,7 +527,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Andrey Hryhorchuk
-													<a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
+													<a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
 														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 													</a>
 												</div>
@@ -553,7 +553,7 @@
 									<div id="success-cases-info">
 									<div id="success-cases-info-block1">
 										<div class="feedback-author">Alexander Bezeliuk
-										<a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=uaa">
+										<a target="_blank" href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=uaa">
 											<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 										</a>
 										</div>
@@ -579,7 +579,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Pavel Karnasenko
-													<a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
+													<a target="_blank" href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
 														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 													</a>
 												</div>
@@ -605,7 +605,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Natali Sorokina
-													<a href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/">
+													<a target="_blank" href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/">
 														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 													</a>
 												</div>
@@ -631,7 +631,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Max Lapaichuk
-													<a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
+													<a target="_blank" href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
 														<img src="images/feedback_linkedin.svg" class="feedback_linkedin_icon" alt="linkedin">
 													</a>
 												</div>
