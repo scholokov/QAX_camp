@@ -273,7 +273,10 @@
 									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
-									2018 – зараз Tech Recruiter/Trainer в QAX</p>
+									<table id="trainer-experience-table">
+									<tr><td>2018</td> <td>–</td> <td>зараз</td> <td>-</td><td>Tech Recruiter/Trainer в QAX</tr></td>
+									</table>
+								</p>
 
 									</div>
                             </div>
