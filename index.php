@@ -728,7 +728,7 @@
       $('.slick-slider-desktop').slick({
 		dots: true,
 		infinite: true,
-		speed: 3000,
+		speed: 0,
 		slidesToShow: 1,
 		arrows: true,
 		draggable: false,
