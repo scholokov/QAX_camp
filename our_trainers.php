@@ -211,14 +211,20 @@
 										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 9 років:</p>
-									<p class="trainer-experience">2017 - зараз – Project Manager/Project Team Lead в AMERIA<br>
-										2014 - 2017 – QA Engineer / QA Lead в  AMERIA<br>
-										2013 - 2014 – QC Engineer в Wolters Kluwer/Aspen Publishers<br>
-										2012 - 2013 – Software Testing Specialist в LIGA:ZAKON</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+										<tr><td>2017</td> <td>-</td> <td>зараз</td> <td>–</td> <td>Project Manager/Project Team Lead в AMERIA<br></td></tr>
+										<tr><td>2014</td> <td>-</td> <td>2017</td> <td>–</td> <td>QA Engineer / QA Lead в  AMERIA<br></td></tr>
+										<tr><td>2013</td> <td>-</td> <td>2014</td> <td>–</td> <td>QC Engineer в Wolters Kluwer/Aspen Publishers<br></td></tr>
+										<tr><td>2012</td> <td>-</td> <td>2013</td> <td>– </td><td>Software Testing Specialist в LIGA:ZAKON</td></tr>
+									</table>
+									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
-										2021 -  зараз  – Trainer в QAX Camp</p>
-
+									<table id="trainer-experience-table">
+									<tr><td>2021</td> <td>-</td>  <td>зараз</td>  <td>–</td> <td>Trainer в QAX Camp</td></tr></p>
+									</table>
+									</p>
 									</div>
                             </div>
 						</div>
@@ -253,13 +259,17 @@
 										</div>
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 6 років:</p>
-									<p class="trainer-experience">2021 – зараз Tech Recruiter в Squro<br>
+									<p class="trainer-experience">
+										<table id="trainer-experience-table">	
+										<tr><td>2021</td> <td>–</td> <td>зараз</td><td>-</td> <td>Tech Recruiter в Squro<br></tr></td>
 
-														2018 – зараз Tech Recruiter в QAX<br>
+										<tr><td>2018</td> <td>–</td> <td>зараз</td> <td>-</td> <td>Tech Recruiter в QAX<br></tr></td>
 
-														2019-2021 Tech Recruiter в D2<br>
+										<tr><td>2019</td><td>-</td><td>2021</td><td>-</td><td> Tech Recruiter в D2<br></tr></td>
 
-														2017-2018 Tech Recruiter в Ajax Systems</p>
+										<tr><td>2017</td><td>-</td><td>2018</td><td>-</td><td> Tech Recruiter в Ajax Systems</tr></td>
+										</table>
+									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									2018 – зараз Tech Recruiter/Trainer в QAX</p>
