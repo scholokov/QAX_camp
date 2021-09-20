@@ -159,11 +159,11 @@ td:nth-child(3), td:nth-child(5){
 .trainer-photo-mob{
     display: none;
 }
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     .our-trainers-line2{
         display: block;
     }
-}
+}*/
 
 @media (min-width:768px) and (max-width: 992px) {
     .trainers-main-block{
