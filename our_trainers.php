@@ -274,8 +274,8 @@
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-									<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>-</td><td>Trainer в QAX Camp</tr></td>
-									<tr><td>2018</td> <td>–</td> <td>2020</td> <td>-</td><td>Trainer в QALight</tr></td>
+									<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td><td>Trainer в QAX Camp</tr></td>
+									<tr><td>2018</td> <td>–</td> <td>2020</td> <td>–</td><td>Trainer в QALight</tr></td>
 									</table>
 								</p>
 
