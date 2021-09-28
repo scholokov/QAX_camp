@@ -259,3 +259,10 @@ div#success-cases-arrow {
         }
     
 }   
+@media (max-width:382px){
+
+    .feedback-author {
+        max-width: 150px;
+    }
+    
+}   
