@@ -235,3 +235,13 @@ div#success-cases-arrow {
     
     
 }
+
+@media (min-width:359px) and (max-width:413px){
+
+    #success-cases-arrow-mob{
+            height: 220px;
+            width: 100% !important;
+            max-width: 8px;
+        }
+    
+}   
