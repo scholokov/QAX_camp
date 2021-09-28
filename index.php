@@ -237,11 +237,11 @@
 												</h4>
 											</div>
 
-											<div class="cources-cards-buttons-block">
+											<!--<div class="cources-cards-buttons-block">
 											<h5 class="cources-cards-buttons">
 												1 Курс
 											</h5>
-											</div>
+											</div>-->
 										</a>
 									</div>
 								</div>
@@ -265,11 +265,11 @@
 											</div>
 
 
-											<div class="cources-cards-buttons-block">
+											<!--<div class="cources-cards-buttons-block">
 												<h5 class="cources-cards-buttons">
 													1 Курс
 												</h5>
-											</div>
+											</div>-->
 										</a>
 									</div>
 								</div>
@@ -293,11 +293,11 @@
 											</div>
 
 
-											<div class="cources-cards-buttons-block">
+											<!--<div class="cources-cards-buttons-block">
 											<h5 class="cources-cards-buttons">
 													1 Курс
 											</h5>
-											</div>
+											</div>--->
 										</a>
 									</div>
 								</div>
