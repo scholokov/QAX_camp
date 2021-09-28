@@ -276,7 +276,7 @@ td:nth-child(3), td:nth-child(5){
     }
     .AL-experience-tr td:nth-child(3){
         max-width: 53px;
-        width: 100%;
+        width: 100%;}
     .trainer-photo{
         display: none;
     }
