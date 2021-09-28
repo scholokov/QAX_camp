@@ -236,6 +236,10 @@ div#success-cases-arrow {
         display: block !important;
         left: 120px;*/
     }
+    div#success-cases-info {
+        margin-left: 10px;
+        
+    }
     
     
 }
