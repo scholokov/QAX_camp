@@ -37,3 +37,11 @@
 	padding-right: 48px !important;
     padding-left: 48px !important;
 }
+@media (max-width:701px){
+    .wy_we_card {
+        padding-bottom: 18px !important;
+    }
+	#why_we-box {
+		margin-top: 25px;
+	}
+}
