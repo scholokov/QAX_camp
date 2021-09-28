@@ -259,6 +259,7 @@ div#success-cases-arrow {
 }   
 @media (min-width:378px) and (max-width:701px){
     #feedback_main_title{
+        line-height: 22px;
         margin-bottom: 67px;
     }
 
