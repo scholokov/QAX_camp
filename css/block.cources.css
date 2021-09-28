@@ -22,6 +22,8 @@
 
 .cources-cards-flex{
     display: flex;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
 }
 
 .cources-qa-block {
