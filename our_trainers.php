@@ -213,10 +213,10 @@
 									<p class="trainer-experience-title">Досвід роботи 10 років:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-										<tr><td>2017</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Project Manager/Project Team Lead в AMERIA<br></td></tr>
-										<tr><td>2014</td> <td>–</td> <td>2017</td> <td>–</td> <td>QA Engineer / QA Lead в  AMERIA<br></td></tr>
-										<tr><td>2013</td> <td>–</td> <td>2014</td> <td>–</td> <td>QC Engineer в Wolters Kluwer/Aspen Publishers<br></td></tr>
-										<tr><td>2012</td> <td>–</td> <td>2013</td> <td>– </td><td>Software Testing Specialist в LIGA:ZAKON</td></tr>
+										<tr class="AL-experience-tr"><td>2017</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Project Manager/Project Team Lead в AMERIA<br></td></tr>
+										<tr class="AL-experience-tr"><td>2014</td> <td>–</td> <td>2017</td> <td>–</td> <td>QA Engineer / QA Lead в  AMERIA<br></td></tr>
+										<tr class="AL-experience-tr"><td>2013</td> <td>–</td> <td>2014</td> <td>–</td> <td>QC Engineer в Wolters Kluwer/Aspen Publishers<br></td></tr>
+										<tr class="AL-experience-tr"><td>2012</td> <td>–</td> <td>2013</td> <td>– </td><td>Software Testing Specialist в LIGA:ZAKON</td></tr>
 									</table>
 									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>

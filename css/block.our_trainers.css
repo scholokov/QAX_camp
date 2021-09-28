@@ -248,6 +248,13 @@ td:nth-child(3), td:nth-child(5){
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    .AL-experience-tr{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* width: 100%; */
+        width: 365px;
+    }
     .trainer-photo{
         display: none;
     }
