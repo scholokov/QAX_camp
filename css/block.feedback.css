@@ -236,12 +236,22 @@ div#success-cases-arrow {
     
 }
 
-@media (min-width:359px) and (max-width:413px){
+@media (min-width:320px) and (max-width:377px){
 
     #success-cases-arrow-mob{
             height: 220px;
             width: 100% !important;
             max-width: 8px;
+        }
+    
+}   
+@media (min-width:3780px) and (max-width:701px){
+
+    #success-cases-arrow-mob{
+        height: 250px;
+        display: block !important;
+        width: 100% !important;
+        max-width: 7.5px;
         }
     
 }   
