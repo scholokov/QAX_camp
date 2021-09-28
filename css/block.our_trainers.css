@@ -259,6 +259,10 @@ td:nth-child(3), td:nth-child(5){
         max-width: 35px;
         width: 100%;
     }
+    .AL-experience-tr td:nth-child(3){
+        max-width: 52px;
+        width: 100%;
+    }
     .trainer-photo{
         display: none;
     }
