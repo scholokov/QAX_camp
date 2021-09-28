@@ -187,11 +187,11 @@ td:nth-child(3), td:nth-child(5){
         width: 365px;
     }
     .AL-experience-tr td:first-child{
-        max-width: 35px;
+        max-width: 41px;
         width: 100%;
     }
     .AL-experience-tr td:nth-child(3){
-        max-width: 52px;
+        max-width: 59px;
         width: 100%;
     }
     .trainers-main-block{
@@ -276,7 +276,18 @@ td:nth-child(3), td:nth-child(5){
 }
 
 @media (min-width:320px) and (max-width: 767px) {
-    
+    .AL-experience-tr{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .AL-experience-tr td:first-child{
+        max-width: 36px;
+        width: 100%;
+    }
+    .AL-experience-tr td:nth-child(3){
+        max-width: 53px;
+        width: 100%;
     .trainer-photo{
         display: none;
     }
