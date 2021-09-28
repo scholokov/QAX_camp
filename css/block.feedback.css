@@ -202,7 +202,7 @@ div#success-cases-arrow {
         display: flex;
         align-items: center;
         min-width: 60px;
-        margin-right: 20px;
+        margin-right: 10px;
         font-size: 14px;
         line-height: 16px;
     }
