@@ -199,6 +199,7 @@ div#success-cases-arrow {
         height: 20px;
     }
     #success-cases-duration{
+        height: 250px;
         display: flex;
         align-items: center;
         min-width: 60px;
