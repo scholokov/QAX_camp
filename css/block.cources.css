@@ -10,6 +10,7 @@
 }
 
 #cources-cards-block {
+    justify-content: center;
     margin-top: 50px;
     flex-direction: row;
 }
@@ -21,6 +22,7 @@
 }
 
 .cources-cards-flex{
+    max-width: 350px;
     display: flex;
     padding-right: 25px !important;
     padding-left: 25px !important;
