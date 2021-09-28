@@ -188,6 +188,9 @@ div#success-cases-arrow {
 }  
 
 @media (max-width:701px){
+    #feedback {
+        margin-top: 90px;
+    }
     img.feedback_linkedin_icon {
         width: 30px;
         height: 30px;
