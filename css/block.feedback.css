@@ -48,6 +48,7 @@
     color: white;
 }*/
 img.feedback_linkedin_icon {
+    margin-top: -5px;
     width: 35px;
     height: 35px;
 }
