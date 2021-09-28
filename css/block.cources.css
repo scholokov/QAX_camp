@@ -103,3 +103,8 @@
 .cources-text-block {
     padding-left: 10px;
 }
+@media (max-width:701px){
+    .wy_we_card {
+        padding-bottom: 18px !important;
+    }
+}
