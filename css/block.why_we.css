@@ -38,6 +38,9 @@
     padding-left: 48px !important;
 }
 @media (max-width:701px){
+	#why_we-card-box {
+		margin-top: 33px;
+	}
     .wy_we_card {
         padding-bottom: 18px !important;
     }
