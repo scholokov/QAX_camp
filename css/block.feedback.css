@@ -258,6 +258,9 @@ div#success-cases-arrow {
     
 }   
 @media (min-width:378px) and (max-width:701px){
+    #feedback_main_title{
+        margin-bottom: 67px;
+    }
 
     #success-cases-arrow-mob{
         height: 250px;

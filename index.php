@@ -371,7 +371,7 @@
 					<section id=feedback>
 
 						<div class="text-center">
-							<h2>З нами можна хоч так</h2>
+							<h2 id="feedback_main_title">З нами можна хоч так</h2>
 						</div>
 						<div class="feedback-slideshow-container col-md-10 offset-md-1">
 						<div id="success-cases-arrow">
