@@ -59,6 +59,14 @@
     background: url("icons/LinkedIn_hover.svg");
 }
 
+.feedback_linkedin_icon_mob{
+    margin-left: 10px;
+    margin-top: -5px;
+    width: 30px;
+    height: 30px;
+    background: url("icons/LinkedIn.png");
+}
+
 img.feedback_linkedin_icon {
     margin-top: -5px;
     width: 35px;
@@ -200,13 +208,7 @@ div#success-cases-arrow {
 }  
 
 @media (max-width:701px){
-    .feedback_linkedin_icon_link{
-        margin-left: 10px;
-        margin-top: -5px;
-        width: 30px;
-        height: 30px;
-        background: url("icons/LinkedIn.svg");
-    }
+   
     #feedback {
         margin-top: 68px;
     }
