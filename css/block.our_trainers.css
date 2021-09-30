@@ -33,11 +33,10 @@
 }
 
 .trainers_linkedin_icon_link:hover{
-    background: url("icons/LinkedIn_hover.svg");
     display: block;
     width: 40px;
     height: 40px;
-    background: url(icons/LinkedIn.svg);
+    background: url("icons/LinkedIn_hover.svg");
     background-size: 40px;
 }
 
