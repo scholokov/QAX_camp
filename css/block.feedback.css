@@ -53,6 +53,10 @@
     background: url("icons/LinkedIn.svg");
 }
 
+.feedback_linkedin_icon_link:hover{
+    background: url("icons/LinkedIn_hover.svg");
+}
+
 img.feedback_linkedin_icon {
     margin-top: -5px;
     width: 35px;
