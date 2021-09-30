@@ -200,6 +200,13 @@ div#success-cases-arrow {
 }  
 
 @media (max-width:701px){
+    .feedback_linkedin_icon_link{
+        margin-left: 10px;
+        margin-top: -5px;
+        width: 30px;
+        height: 30px;
+        background: url("icons/LinkedIn.svg");
+    }
     #feedback {
         margin-top: 68px;
     }
