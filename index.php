@@ -385,8 +385,8 @@
 									<div id="success-cases-info">
 										<div id="success-cases-info-block1">
 											<div class="feedback-author">Andrey Hryhorchuk
-												<a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua">
-												<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">
+												<a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" class="feedback_linkedin_icon_link">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 											</a></div>
 											<div class="feedback-job">JQA Engineer</div>
 											<div class="feedback-text">Zakaz.ua</div>
@@ -410,8 +410,8 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Alexander Bezeliuk
-													<a target="_blank" href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua">
-													<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">
+													<a target="_blank" href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua" class="feedback_linkedin_icon_link">
+													<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 												</a></div>
 												<div class="feedback-job">QA Еngineer (intern)</div>
 												<div class="feedback-text">Playtech</div>
@@ -435,8 +435,8 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Pavel Karnasenko
-													<a target="_blank" href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
-													<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">
+													<a target="_blank" href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua" class="feedback_linkedin_icon_link">
+													<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 												</a></div>
 												<div class="feedback-job">QA Engineer</div>
 												<div class="feedback-text">Playtech</div>
@@ -460,8 +460,8 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Natali Sorokina
-												<a target="_blank" href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/">
-												<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">
+												<a target="_blank" href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/" class="feedback_linkedin_icon_link">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 												</a>
 												</div>
 												<div class="feedback-job">Junior QA</div>
@@ -486,8 +486,8 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Max Lapaichuk
-												<a target="_blank" href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
-												<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">
+												<a target="_blank" href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" class="feedback_linkedin_icon_link">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 											</a>
 												</div>
 												<div class="feedback-job">Manual QA</div>

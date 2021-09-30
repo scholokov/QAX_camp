@@ -47,6 +47,12 @@
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
 }*/
+.feedback_linkedin_icon_link{
+    width: 35px;
+    height: 35px;
+    background: url("icons/LinkedIn.svg");
+}
+
 img.feedback_linkedin_icon {
     margin-top: -5px;
     width: 35px;
