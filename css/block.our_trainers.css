@@ -286,6 +286,9 @@ td:nth-child(3), td:nth-child(5){
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    .trainers_linkedin_icon_link{
+        margin-right: 20px;
+    }
     .AL-experience-tr td:first-child{
         max-width: 36px;
         width: 100%;
