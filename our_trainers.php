@@ -136,7 +136,7 @@
                             </div>
                             <div class="trainer-info ">
 								<div class="linkedin-logo">
-									<a target="_blank" href="https://www.linkedin.com/in/denis-scholokov-37735765/" class="feedback_linkedin_icon_link">
+									<a target="_blank" href="https://www.linkedin.com/in/denis-scholokov-37735765/" class="trainers_linkedin_icon_link">
 									<!--<img src="images/LinkedIn.svg" alt="trainer">--></a>
 								</div>
 								<div class="trainer-info_text">
@@ -145,7 +145,7 @@
 									<div class="trainer-post">Founder, Trainer</div>
 										<div class="trainer-name-block-tab">
 											<div class="linkedin-logo-tablet">
-												<a target="_blank" href="https://www.linkedin.com/in/denis-scholokov-37735765/" class="feedback_linkedin_icon_link">
+												<a target="_blank" href="https://www.linkedin.com/in/denis-scholokov-37735765/" class="trainers_linkedin_icon_link">
 													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
 												</a>
 											</div>
@@ -193,7 +193,7 @@
                             </div>
                             <div class="trainer-info ">
 							<div class="linkedin-logo">
-									<a target="_blank" href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/" class="feedback_linkedin_icon_link">
+									<a target="_blank" href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/" class="trainers_linkedin_icon_link">
 									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
 								</a>
 								</div>
@@ -202,7 +202,7 @@
 									<div class="trainer-post">Founder, Trainer </div>
 									<div class="trainer-name-block-tab">
 										<div class="linkedin-logo-tablet">
-												<a target="_blank" href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/" class="feedback_linkedin_icon_link">
+												<a target="_blank" href="https://www.linkedin.com/in/andrey-samoilenko-59667a157/" class="trainers_linkedin_icon_link">
 													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
 												</a>
 											</div>
@@ -246,7 +246,7 @@
                             </div>
                             <div class="trainer-info" >
 								<div class="linkedin-logo">
-									<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/" class="feedback_linkedin_icon_link">
+									<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/" class="trainers_linkedin_icon_link">
 									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
 								</a>
 								</div>
@@ -255,7 +255,7 @@
 									<div class="trainer-post">Trainer</div>
 										<div class="trainer-name-block-tab">
 											<div class="linkedin-logo-tablet">
-												<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/" class="feedback_linkedin_icon_link">
+												<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/" class="trainers_linkedin_icon_link">
 													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
 												</a>
 											</div>
@@ -298,7 +298,7 @@
                             </div>
                             <div class="trainer-info ">
 							<div class="linkedin-logo">
-									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="feedback_linkedin_icon_link">
+									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
 									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
 								</a>
 								</div>
@@ -307,7 +307,7 @@
 									<div class="trainer-post">Trainer</div>
 									<div class="trainer-name-block-tab">
 										<div class="linkedin-logo-tablet">
-												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="feedback_linkedin_icon_link">
+												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
 													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
 												</a>
 											</div>
