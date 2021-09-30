@@ -25,6 +25,7 @@
 }
 
 .feedback_linkedin_icon_link{
+    display: block;
     margin-left: 17px;
     margin-top: -5px;
     width: 35px;
