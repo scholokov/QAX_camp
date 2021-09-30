@@ -529,6 +529,7 @@
 												<div class="feedback-author">Andrey Hryhorchuk
 													<a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" class="feedback_linkedin_link"> 
 														<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">
+													</a>
 												</div>
 												<div class="feedback-job">JQA Engineer</div>
 												<div class="feedback-text">Zakaz.ua</div>
