@@ -18,6 +18,11 @@ window.onload=function(){
 	telegram_block.mouseout(function(){telegram_img.attr({"src":"images/Telegram.svg"})});
 	facebook_img.mouseover(function(){telegram_img.attr({"src":"images/Facebook-hover.svg"});});
 	facebook_img.mouseout(function(){telegram_img.attr({"src":"images/Facebook.svg"})});
+
+	var feedback_linkedin_link=$(".feedback_linkedin_link");
+	var feedback_linkedin_icon=$(".feedback_linkedin_icon");
+	feedback_linkedin_link.mouseover(function(){feedback_linkedin_icon.attr({"src":"images/LinkedIn_hover.svg"});});
+	feedback_linkedin_link.mouseout(function(){feedback_linkedin_icon.attr({"src":"images/LinkedIn.svg"});});
   };
   
 
@@ -2301,7 +2306,7 @@ var SEMICOLON = SEMICOLON || {};
 	$(document).ready( SEMICOLON.documentOnReady.init );
 
 	$window.on( 'load', SEMICOLON.documentOnLoad.init );
-
+	
 	$window.on( 'resize', function() {
 		let thisWindow = $(this);
 		clearTimeout(resizeTimer);
