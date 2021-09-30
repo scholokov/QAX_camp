@@ -24,6 +24,18 @@
 
 }
 
+.feedback_linkedin_icon_link{
+    margin-left: 17px;
+    margin-top: -5px;
+    width: 35px;
+    height: 35px;
+    background: url("icons/LinkedIn.svg");
+}
+
+.feedback_linkedin_icon_link:hover{
+    background: url("icons/LinkedIn_hover.svg");
+}
+
 .trainer-photo{
     max-width: 400px;
     width: 100%;
