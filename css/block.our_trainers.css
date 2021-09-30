@@ -26,11 +26,10 @@
 
 .trainers_linkedin_icon_link{
     display: block;
-    margin-left: 17px;
-    margin-top: -5px;
-    width: 35px;
-    height: 35px;
-    background: url("icons/LinkedIn.svg");
+    width: 40px;
+    height: 40px;
+    background: url(icons/LinkedIn.svg);
+    background-size: 40px;
 }
 
 .trainers_linkedin_icon_link:hover{
