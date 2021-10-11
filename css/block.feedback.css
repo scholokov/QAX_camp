@@ -195,7 +195,7 @@ div#success-cases-arrow {
     }
 }
 
-@media (min-width:1200px) and (max-width:1399px){
+@media (min-width:1200px) and (max-width:1440px){
     div#success-cases-arrow {
         left: 340px;
     }
