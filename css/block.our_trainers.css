@@ -194,7 +194,7 @@ td:nth-child(3), td:nth-child(5){
     width: 100%;
 }
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width: 992px) {
     
     .AL-experience-tr td:first-child{
         max-width: 41px;
@@ -285,7 +285,7 @@ td:nth-child(3), td:nth-child(5){
 
 }
 
-@media (max-width: 767px) {
+@media (min-width:320px) and (max-width: 767px) {
     .trainers_linkedin_icon_link{
         margin-right: 20px;
     }
