@@ -124,8 +124,8 @@
 			<div class="content-wrap">
 				<div class="container clearfix trainers-main-block">
                     <h3 id="trainers-main-title">Наші тренери</h3>
-                    <div class="trainers-main-description">Майстри своєї справи які будуть разом з тобою протягом усієї дороги 
-						навчання та радо дадуть ключі на усі твої запитання які ти так довго шукав сам.</div>
+                    <div class="trainers-main-description">Команда справжніх професіоналів, яка допоможе тобі здобути новітні знання та практичні навички, 
+						що стануть вирішальними для отримання оферу твоєї мрії!</div>
                     <div class="trainers-block ">
 					    <div class="trainer ">
                             <div class="trainer-photo">
