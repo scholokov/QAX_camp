@@ -97,7 +97,7 @@ var intlNumber = input.intlTelInput("getNumber");
 
     var sum_text = 
         'Enviroment: ' + envName +
-        '\nPage:'+ pages +
+        '\nPage: '+ pages +
         '\nCourse: '  + url +
         '\n' +
         'Name: ' + $('#name_input').val() +
