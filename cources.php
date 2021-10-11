@@ -167,7 +167,7 @@
 										</div>
 										<div id="fb-comments-block">	
 											<div class="fb-comments container" data-href="<?echo $json_data['facebookLink']?>"  
-												data-width="100%"  data-numposts="2" data-colorscheme="dark">
+												data-width="100%"  data-numposts="2" data-colorscheme="dark" data-order-by="reverse_time">
 											</div>
 										</div>
 							</div>
