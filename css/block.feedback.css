@@ -305,11 +305,14 @@ div#success-cases-arrow {
 }   
 @media (min-width: 702px) and (max-width: 767px) {
     .feedback_linkedin_icon_link{
-        margin-left: -47px;
+        margin-left: -62px;
         width: 30px;
         height: 30px;
         background: url(icons/LinkedIn.svg);
         background-size: 30px; 
+    }
+    div#success-cases-info {
+        margin-left: 20px;
     }
     
 }
