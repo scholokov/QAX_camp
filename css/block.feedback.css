@@ -229,6 +229,14 @@ div#success-cases-arrow {
         width: 20px;
         height: 20px;
     }
+
+    .feedback_linkedin_icon_link:hover {
+        width: 20px;
+        height: 20px;
+        background: url(icons/LinkedIn_hover.svg);
+        background-size: 20px; 
+    }
+
     #success-cases-duration{
         height: 250px;
         display: flex;
@@ -317,5 +325,10 @@ div#success-cases-arrow {
     div#success-cases-info {
         margin-left: 20px;
     }
-    
+    .feedback_linkedin_icon_link:hover {
+        width: 30px;
+        height: 30px;
+        background: url(icons/LinkedIn_hover.svg);
+        background-size: 30px; 
+    }
 }
