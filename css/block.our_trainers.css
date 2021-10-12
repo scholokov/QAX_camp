@@ -186,7 +186,7 @@ td:nth-child(3), td:nth-child(5){
     flex-wrap: nowrap;
 }
 .experience-tr td:first-child{
-    max-width: 45px;
+    max-width: 50px;
     width: 100%;
 }
 .experience-tr td:nth-child(3){
@@ -197,7 +197,6 @@ td:nth-child(3), td:nth-child(5){
 @media (min-width:768px) and (max-width: 992px) {
     
     .experience-tr td:first-child{
-        max-width: 41px;
         width: 100%;
     }
     .experience-tr td:nth-child(3){
@@ -290,7 +289,7 @@ td:nth-child(3), td:nth-child(5){
         margin-right: 20px;
     }
     .experience-tr td:first-child{
-        max-width: 36px;
+        max-width: 40px;
         width: 100%;
     }
     .experience-tr td:nth-child(3){
