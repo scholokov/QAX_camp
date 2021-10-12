@@ -193,6 +193,9 @@ div#success-cases-arrow {
         top: 60px;
         left: 180px;
     }
+    .feedback_linkedin_icon_link {
+        margin-left: 0px; 
+    }
 }
 
 @media (min-width:1200px) and (max-width:1440px){
