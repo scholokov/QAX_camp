@@ -158,22 +158,22 @@
 									<p class="trainer-experience-title">Досвід роботи 18 років:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-										<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Head Of QA в Django Stars<br></td></tr>
-										<tr><td>2017</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Founder, Head Of QA в “QAX”<br></td></tr>
-										<tr><td>2020</td> <td>–</td> <td>2020</td>  <td>–</td> <td>Head Of QA в MangoSoft / Kevuru Games<br></td></tr>
-										<tr><td>2019</td> <td>–</td> <td>2019</td> <td>–</td>  <td>Head Of QA в “Leap-Gaming” <br></td></tr>
-										<tr><td>2017</td> <td>–</td> <td>2019</td> <td>–</td>  <td>Head Of QA в “TSI”<br></td></tr>
-										<tr><td>2015</td> <td>–</td> <td>2016</td>  <td>–</td> <td>Head Of QA в “Lucky-Labs”<br></td></tr>
-										<tr><td>2007</td> <td>–</td> <td>2015</td>  <td>–</td> <td>QA Manager в “2K-Group”</td></tr>
-										<tr><td>2004</td> <td>–</td> <td>2007</td> <td>–</td>  <td>QA в “Парус”</tr></td>
+										<tr class="experience-tr"><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Head Of QA в Django Stars<br></td></tr>
+										<tr class="experience-tr"><td>2017</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Founder, Head Of QA в “QAX”<br></td></tr>
+										<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2020</td>  <td>–</td> <td>Head Of QA в MangoSoft / Kevuru Games<br></td></tr>
+										<tr class="experience-tr"><td>2019</td> <td>–</td> <td>2019</td> <td>–</td>  <td>Head Of QA в “Leap-Gaming” <br></td></tr>
+										<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2019</td> <td>–</td>  <td>Head Of QA в “TSI”<br></td></tr>
+										<tr class="experience-tr"><td>2015</td> <td>–</td> <td>2016</td>  <td>–</td> <td>Head Of QA в “Lucky-Labs”<br></td></tr>
+										<tr class="experience-tr"><td>2007</td> <td>–</td> <td>2015</td>  <td>–</td> <td>QA Manager в “2K-Group”</td></tr>
+										<tr class="experience-tr"><td>2004</td> <td>–</td> <td>2007</td> <td>–</td>  <td>QA в “Парус”</tr></td>
 									</table>	
 									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-										<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
-										<tr><td>2018</td> <td>–</td> <td>2020</td> <td>–</td> <td>Trainer в QALight</td></tr>
-										<tr><td>2017</td> <td>–</td> <td>2018</td> <td>–</td> <td>Trainer в Main Academy</td></tr>
+										<tr class="experience-tr"><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td> <td>–</td> <td>Trainer в QALight</td></tr>
+										<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2018</td> <td>–</td> <td>Trainer в Main Academy</td></tr>
 									</table>
 									</p>
 									</div>
@@ -215,20 +215,20 @@
 									<p class="trainer-experience-title">Досвід роботи 5 років:</p>
 									<p class="trainer-experience">
 										<table id="trainer-experience-table">	
-										<tr><td>2021</td> <td>–</td> <td>зараз</td><td>–</td> <td>Tech Recruiter в Squro<br></tr></td>
+										<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td><td>–</td> <td>Tech Recruiter в Squro<br></tr></td>
 
-										<tr><td>2018</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Tech Recruiter в QAX<br></tr></td>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Tech Recruiter в QAX<br></tr></td>
 
-										<tr><td>2019</td><td>–</td><td>2021</td><td>–</td><td> Tech Recruiter в D2<br></tr></td>
+										<tr class="experience-tr"><td>2019</td><td>–</td><td>2021</td><td>–</td><td> Tech Recruiter в D2<br></tr></td>
 
-										<tr><td>2017</td><td>–</td><td>2018</td><td>–</td><td> Tech Recruiter в Ajax Systems</tr></td>
+										<tr class="experience-tr"><td>2017</td><td>–</td><td>2018</td><td>–</td><td> Tech Recruiter в Ajax Systems</tr></td>
 										</table>
 									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-									<tr><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td><td>Trainer в QAX Camp</tr></td>
-									<tr><td>2018</td> <td>–</td> <td>2020</td> <td>–</td><td>Trainer в QALight</tr></td>
+									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>зараз</td> <td>–</td><td>Trainer в QAX Camp</tr></td>
+									<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td> <td>–</td><td>Trainer в QALight</tr></td>
 									</table>
 								</p>
 
@@ -268,16 +268,16 @@
 									<p class="trainer-experience-title">Досвід роботи 10 років:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-										<tr class="AL-experience-tr"><td>2017</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Project Manager/Project Team Lead в AMERIA<br></td></tr>
-										<tr class="AL-experience-tr"><td>2014</td> <td>–</td> <td>2017</td> <td>–</td> <td>QA Engineer / QA Lead в  AMERIA<br></td></tr>
-										<tr class="AL-experience-tr"><td>2013</td> <td>–</td> <td>2014</td> <td>–</td> <td>QC Engineer в Wolters Kluwer/Aspen Publishers<br></td></tr>
-										<tr class="AL-experience-tr"><td>2012</td> <td>–</td> <td>2013</td> <td>– </td><td>Software Testing Specialist в LIGA:ZAKON</td></tr>
+										<tr class="experience-tr"><td>2017</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Project Manager/Project Team Lead в AMERIA<br></td></tr>
+										<tr class="experience-tr"><td>2014</td> <td>–</td> <td>2017</td> <td>–</td> <td>QA Engineer / QA Lead в  AMERIA<br></td></tr>
+										<tr class="experience-tr"><td>2013</td> <td>–</td> <td>2014</td> <td>–</td> <td>QC Engineer в Wolters Kluwer/Aspen Publishers<br></td></tr>
+										<tr class="experience-tr"><td>2012</td> <td>–</td> <td>2013</td> <td>– </td><td>Software Testing Specialist в LIGA:ZAKON</td></tr>
 									</table>
 									</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-									<tr><td>2021</td> <td>–</td>  <td>зараз</td>  <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									<tr class="experience-tr"><td>2021</td> <td>–</td>  <td>зараз</td>  <td>–</td> <td>Trainer в QAX Camp</td></tr>
 									</table>
 								</p>
 									</p>
@@ -320,17 +320,17 @@
 									<p class="trainer-experience-title">Досвід роботи 4 роки:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-										<tr><td>2019</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Middle+ QA Engineer в Innovecs <br></td></tr>
+										<tr class="experience-tr"><td>2019</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Middle+ QA Engineer в Innovecs <br></td></tr>
 
-										<tr><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в DOIT Software <br></td></tr>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в DOIT Software <br></td></tr>
 
-										<tr><td>2018</td> <td>–</td> <td>2018</td><td>–</td><td>QA Engineer в TSI</td></tr>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2018</td><td>–</td><td>QA Engineer в TSI</td></tr>
 									</table>
 								</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
 									<p class="trainer-experience">
 									<table id="trainer-experience-table">
-									<tr><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
 									</table>
 								</p>
 

@@ -180,27 +180,27 @@ td:nth-child(3), td:nth-child(5){
         display: block;
     }
 }*/
-.AL-experience-tr{
+.experience-tr{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.AL-experience-tr td:first-child{
+.experience-tr td:first-child{
     max-width: 45px;
     width: 100%;
 }
-.AL-experience-tr td:nth-child(3){
+.experience-tr td:nth-child(3){
     max-width: 63px;
     width: 100%;
 }
 
 @media (min-width:768px) and (max-width: 992px) {
     
-    .AL-experience-tr td:first-child{
+    .experience-tr td:first-child{
         max-width: 41px;
         width: 100%;
     }
-    .AL-experience-tr td:nth-child(3){
+    .experience-tr td:nth-child(3){
         max-width: 59px;
         width: 100%;
     }
@@ -289,11 +289,11 @@ td:nth-child(3), td:nth-child(5){
     .trainers_linkedin_icon_link{
         margin-right: 20px;
     }
-    .AL-experience-tr td:first-child{
+    .experience-tr td:first-child{
         max-width: 36px;
         width: 100%;
     }
-    .AL-experience-tr td:nth-child(3){
+    .experience-tr td:nth-child(3){
         max-width: 53px;
         width: 100%;}
     .trainer-photo{
