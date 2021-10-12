@@ -230,7 +230,7 @@ div#success-cases-arrow {
         height: 20px;
     }
 
-    .feedback_linkedin_icon_link:hover {
+    .feedback_linkedin_link:hover {
         width: 20px;
         height: 20px;
         background: url(icons/LinkedIn_hover.svg);
