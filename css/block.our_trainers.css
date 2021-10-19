@@ -181,6 +181,7 @@ td:nth-child(3), td:nth-child(5){
     }
 }*/
 .experience-tr{
+    width: 370px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -285,6 +286,9 @@ td:nth-child(3), td:nth-child(5){
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    .experience-tr{
+        width: 296px;
+    }
     .trainers_linkedin_icon_link{
         margin-right: 20px;
     }
