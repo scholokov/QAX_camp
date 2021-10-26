@@ -649,19 +649,19 @@ for (var i = 0; i < countryData.length; i++) {
     optionNode.value = country.iso2;
     var textNode = document.createTextNode(country.name);
     optionNode.appendChild(textNode);
-    //addressDropdown.appendChild(optionNode);
+    addressDropdown.appendChild(optionNode);
   }
-  //addressDropdown.value = iti.getSelectedCountryData().iso2;
+  addressDropdown.value = iti.getSelectedCountryData().iso2;
 
 // listen to the telephone input for changes
-/*input.addEventListener('countrychange', function(e) {
+input.addEventListener('countrychange', function(e) {
   this.value = iti.getSelectedCountryData().iso2;
 });
 
 // listen to the address dropdown for changes
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
-});*/
+});
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
