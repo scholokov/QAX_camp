@@ -619,7 +619,7 @@ $("#phone_input").intlTelInput({
 var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
-//var intlNumber = $("#demo").intlTelInput("getNumber");
+var intlNumber = $("#demo").intlTelInput("getNumber");
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
