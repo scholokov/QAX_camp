@@ -616,7 +616,7 @@ $("#phone_input").intlTelInput({
 });*/
 
 // Получить код страны
-//var extension = $("#phone_input").intlTelInput("getExtension");
+var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
 var intlNumber = $("#phone_input").intlTelInput("getNumber");
@@ -639,7 +639,7 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 //$("#demo").intlTelInput("selectCountry", "gb");
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
-$("#phone_input").intlTelInput("setNumber", "+44 7733 123 456");
+//$("#phone_input").intlTelInput("setNumber", "+44 7733 123 456");
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
