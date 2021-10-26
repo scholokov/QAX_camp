@@ -640,6 +640,9 @@ $$("#phone_input").intlTelInput("selectCountry", "");
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
+var countryData = window.intlTelInputGlobals.getCountryData(),
+  input = document.querySelector("#phone_input"),
+  addressDropdown = document.querySelector("#address-country");
 for (var i = 0; i < countryData.length; i++) {
     var country = countryData[i];
     var optionNode = document.createElement("option");
