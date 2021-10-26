@@ -638,6 +638,11 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 // Изменить выбранную страну
 //$("#demo").intlTelInput("selectCountry", "gb");
 
+$("#phone_input").on('countrychange', function(e) {
+        e.preventDefault();
+        var countryData = iti.getSelectedCountryData();
+
+    });
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#phone_input").intlTelInput("setNumber", "+44 7733 123 456");
 console.log= function() {};
