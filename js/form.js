@@ -641,7 +641,7 @@ $("#phone_input").intlTelInput("selectCountry", "");
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 
-/*var countryData = window.intlTelInputGlobals.getCountryData(),
+var countryData = window.intlTelInputGlobals.getCountryData(),
   input = document.querySelector("#phone_input"),
   //addressDropdown = document.querySelector("#address-country");
 var iti = window.intlTelInput(input, {
@@ -665,7 +665,7 @@ input.addEventListener('countrychange', function(e) {
 // listen to the address dropdown for changes
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
-});*/
+});
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
