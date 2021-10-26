@@ -625,7 +625,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 //var numberType = $("#demo").intlTelInput("getNumberType");
 
 // Получить данные по стране для выбранного флага.
-//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
+var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");
 
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
