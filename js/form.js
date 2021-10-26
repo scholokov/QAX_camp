@@ -654,7 +654,7 @@ for (var i = 0; i < countryData.length; i++) {
   addressDropdown.value = iti.getSelectedCountryData().iso2;
 */
 // listen to the telephone input for changes
-input.addEventListener('countrychange', function(e) {
+$("#phone_input").addEventListener('countrychange', function(e) {
   this.value = iti.getSelectedCountryData().iso2;
 });
 
