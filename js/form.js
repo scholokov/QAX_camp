@@ -616,7 +616,7 @@ $("#phone_input").intlTelInput({
 });*/
 
 // Получить код страны
-var extension = $("#phone_input").intlTelInput("getExtension");
+//var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
 var intlNumber = $("#phone_input").intlTelInput("getNumber");
