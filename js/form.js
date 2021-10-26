@@ -619,7 +619,7 @@ $("#phone_input").intlTelInput({
 var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
-var intlNumber = $("#demo").intlTelInput("getNumber");
+var intlNumber = $("#phone_input").intlTelInput("getNumber");
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
@@ -639,7 +639,7 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 //$("#demo").intlTelInput("selectCountry", "gb");
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
-//$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
+$("#phone_input").intlTelInput("setNumber", "+44 7733 123 456");
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
