@@ -653,7 +653,7 @@ for (var i = 0; i < countryData.length; i++) {
     optionNode.value = country.iso2;
     var textNode = document.createTextNode(country.name);
     optionNode.appendChild(textNode);
-    //addressDropdown.appendChild(optionNode);
+    addressDropdown.appendChild(optionNode);
   }
   addressDropdown.value = iti.getSelectedCountryData().iso2;
 
