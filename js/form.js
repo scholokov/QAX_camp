@@ -589,7 +589,7 @@ $("#phone_input").intlTelInput({
     
     preferredCountries: ["ua"],
     
-    separateDialCode:false,
+    separateDialCode:true,
     
     utilsScript:"js/utils.js"
     });
