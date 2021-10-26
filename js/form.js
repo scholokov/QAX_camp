@@ -655,13 +655,13 @@ for (var i = 0; i < countryData.length; i++) {
 */
 // listen to the telephone input for changes
 input.addEventListener('countrychange', function(e) {
-  addressDropdown.value = iti.getSelectedCountryData().iso2;
+  this.value = iti.getSelectedCountryData().iso2;
 });
 
 // listen to the address dropdown for changes
-addressDropdown.addEventListener('change', function() {
+/*addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
-});
+});*/
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
