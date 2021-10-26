@@ -645,7 +645,7 @@ var countryData = window.intlTelInputGlobals.getCountryData(),
   input = document.querySelector("#phone_input"),
   addressDropdown = document.querySelector("#address-country");
 var iti = window.intlTelInput(input, {
-    utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
+    utilsScript: "js/utils.js?1613236686837" // just for formatting/placeholders etc
   });
 for (var i = 0; i < countryData.length; i++) {
     var country = countryData[i];
