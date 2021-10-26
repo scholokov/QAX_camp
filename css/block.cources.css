@@ -22,7 +22,7 @@
 }
 
 .cources-cards-flex{
-    max-width: 350px;
+    max-width: 400px;
     display: flex;
     padding-right: 25px !important;
     padding-left: 25px !important;
@@ -78,7 +78,7 @@
 
 .cources-qa-block-title {
     text-align: center;
-    line-height: 130%;
+    line-height: 23px;
     letter-spacing: 0.02em;
     padding-top: 20px;
     color: #222222;
