@@ -657,5 +657,5 @@ window.intlTelInput(input, {
   }
 });
 $("#phone_input").addEventListener('countrychange', function() {
-    $("#country_code").value = "changed"
+    countryCode.value = "changed"
 });;
