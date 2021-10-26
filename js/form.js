@@ -636,17 +636,11 @@ var isValid = $("#phone_input").intlTelInput("isValidNumber");
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
-$("#phone_input").intlTelInput("selectCountry", "");
+$$("#phone_input").intlTelInput("selectCountry", "");
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 
-var countryData = window.intlTelInputGlobals.getCountryData(),
-  input = document.querySelector("#phone_input"),
-  addressDropdown = document.querySelector("#address-country");
-var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js" // just for formatting/placeholders etc
-  });
 for (var i = 0; i < countryData.length; i++) {
     var country = countryData[i];
     var optionNode = document.createElement("option");
