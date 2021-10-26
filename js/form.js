@@ -643,7 +643,7 @@ $("#phone_input").intlTelInput("selectCountry", "");
 
 var countryData = window.intlTelInputGlobals.getCountryData(),
   input = document.querySelector("#phone_input"),
-  //addressDropdown = document.querySelector("#address-country");
+  addressDropdown = document.querySelector("#address-country");
 var iti = window.intlTelInput(input, {
     utilsScript: "js/utils.js" // just for formatting/placeholders etc
   });
