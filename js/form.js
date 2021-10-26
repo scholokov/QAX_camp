@@ -645,11 +645,11 @@ var countryData = window.intlTelInputGlobals.getCountryData(),
   /*addressDropdown = document.querySelector("#address-country");*/
 for (var i = 0; i < countryData.length; i++) {
     var country = countryData[i];
-    /*var optionNode = document.createElement("option");
+    var optionNode = document.createElement("option");
     optionNode.value = country.iso2;
     var textNode = document.createTextNode(country.name);
     optionNode.appendChild(textNode);
-    addressDropdown.appendChild(optionNode);*/
+    /*addressDropdown.appendChild(optionNode);*/
   }
   /*addressDropdown.value = iti.getSelectedCountryData().iso2;
 
