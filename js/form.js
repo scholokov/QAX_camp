@@ -625,7 +625,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 //var numberType = $("#demo").intlTelInput("getNumberType");
 
 // Получить данные по стране для выбранного флага.
-var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");
+//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
 
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
@@ -636,15 +636,10 @@ var isValid = $("#phone_input").intlTelInput("isValidNumber");
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
-//$("#demo").intlTelInput("selectCountry", "gb");
+$$("#phone_input").intlTelInput("selectCountry", "");
 
-$("#phone_input").on('countrychange', function(e) {
-        e.preventDefault();
-        var countryData = iti.getSelectedCountryData();
-
-    });
 // Вставить номер и, соответственно, обновить выбранный флаг.
-//$("#phone_input").intlTelInput("setNumber", "+44 7733 123 456");
+//$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
@@ -656,6 +651,5 @@ window.intlTelInput(input, {
     });
   }
 });
-$("#phone_input").addEventListener('countrychange', function() {
-    countryCode.value = "changed"
-});;
+
+
