@@ -587,9 +587,9 @@ $("#phone_input").intlTelInput({
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: [],
+    preferredCountries: ["ua"],
     
-    separateDialCode:true,
+    separateDialCode:false,
     
     utilsScript:"js/utils.js"
     });
@@ -636,7 +636,7 @@ var isValid = $("#phone_input").intlTelInput("isValidNumber");
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
-$("#phone_input").intlTelInput("selectCountry", "");
+$("#phone_input").intlTelInput("selectCountry", "")
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
