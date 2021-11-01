@@ -565,10 +565,6 @@ $("#phone_input").intlTelInput({
     
     autoPlaceholder:"aggressive",
     
-    customPlaceholder:function(selectedCountryPlaceholder,selectedCountryData){
-        return ''+selectedCountryPlaceholder.replace(/[0-9]/g,'X');
-    },
-    
     dropdownContainer:null,
     
     excludeCountries: [],
@@ -676,7 +672,15 @@ window.intlTelInput(input, {
   }
 });
 
+var input = $('#phone_input');
+var country = $('#country');
+var iti = intlTelInput(input.get(0))
 
+// listen to the telephone input for changes
+input.on('countrychange', function(e) {
+  // change the hidden input value to the selected country code
+  country.val(iti.getSelectedCountryData().iso2);
+});
 var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get country data as obj 
 
  var countryCode = countryData.dialCode;//using updated doc, code has been replaced with dialCode
