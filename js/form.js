@@ -683,3 +683,10 @@ var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get
 countryCode = "+" + countryCode;//convert 1 to +1
 
 //var newNo = intlNumber.replace(countryCode, "(" + coountryCode+ ")" );final version
+
+input.on("countrychange", function() {
+    input.val('');
+    var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get country data as obj 
+ var countryCode = countryData.dialCode;//using updated doc, code has been replaced with dialCode
+countryCode = "+" + countryCode;
+  });
