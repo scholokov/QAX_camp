@@ -563,7 +563,9 @@ $("#phone_input").intlTelInput({
     
     autoHideDialCode:true,
     
-    autoPlaceholder:"aggressive",
+    autoPlaceholder:"polite",
+    
+    customPlaceholder:null,
     
     dropdownContainer:null,
     
@@ -585,7 +587,7 @@ $("#phone_input").intlTelInput({
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: [],
+    preferredCountries: ["ua"],
     
     separateDialCode:false,
     
@@ -671,26 +673,3 @@ window.intlTelInput(input, {
     });
   }
 });
-
-var input = $('#phone_input');
-var country = $('#country');
-var iti = intlTelInput(input.get(0))
-
-// listen to the telephone input for changes
-input.on('countrychange', function(e) {
-  // change the hidden input value to the selected country code
-  country.val(iti.getSelectedCountryData().iso2);
-});
-var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get country data as obj 
-
- var countryCode = countryData.dialCode;//using updated doc, code has been replaced with dialCode
-countryCode = "+" + countryCode;//convert 1 to +1
-
-//var newNo = intlNumber.replace(countryCode, "(" + coountryCode+ ")" );final version
-var input=$("#phone_input");
-input.on("countrychange", function() {
-    input.val('');
-    var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get country data as obj 
- var countryCode = countryData.dialCode;//using updated doc, code has been replaced with dialCode
-countryCode = "+" + countryCode;
-  });
