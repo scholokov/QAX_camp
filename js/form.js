@@ -683,7 +683,7 @@ var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get
 countryCode = "+" + countryCode;//convert 1 to +1
 
 //var newNo = intlNumber.replace(countryCode, "(" + coountryCode+ ")" );final version
-
+var input=$("#phone_input");
 input.on("countrychange", function() {
     input.val('');
     var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get country data as obj 
