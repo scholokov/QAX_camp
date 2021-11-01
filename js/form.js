@@ -101,7 +101,7 @@ var intlNumber = input.intlTelInput("getNumber");
         '\nCourse: '  + url +
         '\n' +
         'Name: ' + $('#name_input').val() +
-        '\nPhone: ' + intlNumber + '  ' + countryCode +/*$('#phone_input').val()*/ +
+        '\nPhone: ' + intlNumber + 
         '\nEmail: ' + $('#email_input').val() +
         '\nComment: ' + comment;  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
