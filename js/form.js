@@ -577,7 +577,7 @@ $("#phone_input").intlTelInput({
     
     hiddenInput:"",
     
-    initialCountry:"auto",
+    initialCountry:"",
     
     localizedCountries:null,
     
@@ -674,7 +674,4 @@ window.intlTelInput(input, {
   }
 });
 
-//var input = document.querySelector("#phone_input");
 
-var iti = intlTelInput(input);
-var number = iti.getNumber();
