@@ -577,7 +577,7 @@ $("#phone_input").intlTelInput({
     
     hiddenInput:"",
     
-    initialCountry:"",
+    initialCountry:"auto",
     
     localizedCountries:null,
     
@@ -587,7 +587,7 @@ $("#phone_input").intlTelInput({
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: [""],
+    preferredCountries: ["us"],
     
     separateDialCode:false,
     
@@ -674,4 +674,8 @@ window.intlTelInput(input, {
   }
 });
 
+//var input = document.querySelector("#phone_input");
 
+var iti = intlTelInput(input);
+var number = iti.getNumber();
+var number = iti.getNumber(intlTelInputUtils.numberFormat.E164);
