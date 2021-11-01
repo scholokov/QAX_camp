@@ -101,7 +101,7 @@ var intlNumber = input.intlTelInput("getNumber");
         '\nCourse: '  + url +
         '\n' +
         'Name: ' + $('#name_input').val() +
-        '\nPhone: ' + intlNumber /*$('#phone_input').val()*/ +
+        '\nPhone: ' + intlNumber + '  ' + countryCode +/*$('#phone_input').val()*/ +
         '\nEmail: ' + $('#email_input').val() +
         '\nComment: ' + comment;  /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
@@ -677,11 +677,9 @@ window.intlTelInput(input, {
 });
 
 
-var input = $("#phone_input");
-input.intlTelInput();
+var countryData = $("#phone_input").intlTelInput("getSelectedCountryData");//get country data as obj 
 
-input.on("countrychange", function() {
-  input.val('');
-  var countryCode = $("#user_phone_number").intlTelInput("getSelectedCountryData").dialCode;
-  console.log(countryCode);
-});
+ var countryCode = countryData.dialCode;//using updated doc, code has been replaced with dialCode
+countryCode = "+" + countryCode;//convert 1 to +1
+
+//var newNo = intlNumber.replace(countryCode, "(" + coountryCode+ ")" );final version
