@@ -675,3 +675,9 @@ window.intlTelInput(input, {
 });
 
 
+var input = $("#phone_input");
+input.intlTelInput();
+
+input.on("countrychange", function() {
+  input.val('')
+});
