@@ -678,4 +678,3 @@ window.intlTelInput(input, {
 
 var iti = intlTelInput(input);
 var number = iti.getNumber();
-var number = iti.getNumber(intlTelInputUtils.numberFormat.E164);
