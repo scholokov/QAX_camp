@@ -565,7 +565,9 @@ $("#phone_input").intlTelInput({
     
     autoPlaceholder:"aggressive",
     
-    customPlaceholder:null,
+    customPlaceholder:function(selectedCountryPlaceholder,selectedCountryData){
+        return ''+selectedCountryPlaceholder.replace(/[0-9]/g,'X');
+    },
     
     dropdownContainer:null,
     
