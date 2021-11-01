@@ -679,5 +679,7 @@ var input = $("#phone_input");
 input.intlTelInput();
 
 input.on("countrychange", function() {
-  input.val('')
+  input.val('');
+  var countryCode = $("#user_phone_number").intlTelInput("getSelectedCountryData").dialCode;
+  console.log(countryCode);
 });
