@@ -587,7 +587,7 @@ $("#phone_input").intlTelInput({
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: [],
+    preferredCountries: ["ua"],
     
     separateDialCode:false,
     
