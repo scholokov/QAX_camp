@@ -662,7 +662,7 @@ input.addEventListener('countrychange', function(e) {
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
-console.log= function() {};
+//console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
@@ -681,5 +681,5 @@ input.intlTelInput();
 input.on("countrychange", function() {
   input.val('');
   var countryCode = $("#user_phone_number").intlTelInput("getSelectedCountryData").dialCode;
-  console.log(countryCode;;);
+  console.log(countryCode);
 });
