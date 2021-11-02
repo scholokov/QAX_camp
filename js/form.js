@@ -90,8 +90,38 @@ $('form').submit(function (e) {
 var input = $("#phone_input");
 
 input.intlTelInput({
-  nationalMode: true,
-  utilsScript: "utils.js" //для форматирования/плейсхолдера и т.д.
+    
+    autoHideDialCode:true,
+    
+    autoPlaceholder:"polite",
+    
+    customPlaceholder:null,
+    
+    dropdownContainer:null,
+    
+    excludeCountries: [],
+    
+    formatOnDisplay:true,
+    
+    geoIpLookup:null,
+    
+    hiddenInput:"",
+    
+    initialCountry:"",
+    
+    localizedCountries:null,
+    
+    nationalMode:true,
+    
+    onlyCountries: [],
+    
+    placeholderNumberType:"MOBILE",
+    
+    preferredCountries: [],
+    
+    separateDialCode:false,
+    
+    utilsScript:"js/utils.js" //для форматирования/плейсхолдера и т.д.
 });
 var intlNumber = input.intlTelInput("getNumber");
 
@@ -664,11 +694,12 @@ addressDropdown.addEventListener('change', function() {
 });*/
 //console.log= function() {};
 var input = document.querySelector("#phone_input");
+input.addEventListener('change', reset);
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(success, failure) {
     $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "ua";
+      var countryCode = (resp && resp.country) ? resp.country : " ";
       success(countryCode);
     });
   }
