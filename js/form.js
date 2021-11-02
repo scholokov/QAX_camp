@@ -703,7 +703,7 @@ window.intlTelInput(input, {
 
 // заполнить выпадающий список странами
 
-
+var input=$("#phone_input");
 // отслеживаем изменения телефонного кода
 input.addEventListener("countrychange",function() {
   var countryCode = input.intlTelInput("getSelectedCountryData").iso2;
