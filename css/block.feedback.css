@@ -290,9 +290,19 @@ div#success-cases-arrow {
     
     
 }
+@media (min-width:320px) and (max-width:383px){
+.feedback_linkedin_link{
+        margin-left: -36px;
+        margin-top: 0;
+        width: 20px;
+        height: 20px;
+        background: url(icons/LinkedIn.svg);
+        background-size: 20px;
+    }
+}
 
 @media (min-width:320px) and (max-width:377px){
-
+    
     #success-cases-arrow-mob{
             height: 220px;
             width: 100% !important;
