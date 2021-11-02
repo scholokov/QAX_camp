@@ -128,7 +128,7 @@ var input=$("#phone_input");
 var intlNumber = input.intlTelInput("getNumber");
     var sum_text = 
         'Enviroment: ' + envName +
-        '\nPage: '+ pages +
+        '\nPage: '+ pages + '\n' + 
         '\nCourse: '  + url +
         '\n' +
         'Name: ' + $('#name_input').val() +
