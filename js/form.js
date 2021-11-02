@@ -661,24 +661,7 @@ $("#phone_input").intlTelInput({
 });*/
 
 // Получить код страны
-var extension = $("#phone_input").intlTelInput("getExtension");
 
-// Получить текущий номер в данном формате
-var intlNumber = $("#phone_input").intlTelInput("getNumber");
-
-// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
-//var numberType = $("#demo").intlTelInput("getNumberType");
-
-// Получить данные по стране для выбранного флага.
-//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
-
-// Получить более подробную информацию об ошибке валидации. 
-//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
-
-var isValid = $("#phone_input").intlTelInput("isValidNumber");
-
-// Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
 //$("#phone_input").intlTelInput("selectCountry", "")
@@ -736,3 +719,21 @@ input.change(function() {
   var countryCode = $(this).val();
   input.intlTelInput("selectCountry", countryCode);
 });
+var extension = $("#phone_input").intlTelInput("getExtension");
+
+// Получить текущий номер в данном формате
+var intlNumber = $("#phone_input").intlTelInput("getNumber");
+
+// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
+//var numberType = $("#demo").intlTelInput("getNumberType");
+
+// Получить данные по стране для выбранного флага.
+//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
+
+// Получить более подробную информацию об ошибке валидации. 
+//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
+
+var isValid = $("#phone_input").intlTelInput("isValidNumber");
+
+// Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
+$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
