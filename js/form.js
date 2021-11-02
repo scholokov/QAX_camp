@@ -123,7 +123,7 @@ input.intlTelInput({
     
     utilsScript:"js/utils.js" //для форматирования/плейсхолдера и т.д.
 });
-
+var input=$("#phone_input");
 var input = document.querySelector("#phone_input");
 // отслеживаем изменения телефонного кода
 input.addEventListener("countrychange",function() {
