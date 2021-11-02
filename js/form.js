@@ -705,6 +705,7 @@ window.intlTelInput(input, {
 
 var input=$("#phone_input");
 // отслеживаем изменения телефонного кода
+var input = document.querySelector("#phone_input");
 input.addEventListener("countrychange",function() {
   var countryCode = input.intlTelInput("getSelectedCountryData").iso2;
   input.val(countryCode);
