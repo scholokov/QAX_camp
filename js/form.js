@@ -124,20 +124,7 @@ input.intlTelInput({
     utilsScript:"js/utils.js" //для форматирования/плейсхолдера и т.д.
 });
 var input=$("#phone_input");
-var input = document.querySelector("#phone_input");
-// отслеживаем изменения телефонного кода
-input.addEventListener("countrychange",function() {
-    var countryCode = input.intlTelInput("getSelectedCountryData").iso2;
-    input.val(countryCode);
-  });
-  
-  
-  
-  // отслеживаем изменение страны в выпадающем списке
-  input.addEventListener("countrychange",function() {
-    var countryCode = $(this).val();
-    input.intlTelInput("selectCountry", countryCode);
-});
+
 var intlNumber = input.intlTelInput("getNumber");
     var sum_text = 
         'Enviroment: ' + envName +
@@ -703,21 +690,6 @@ window.intlTelInput(input, {
 
 // заполнить выпадающий список странами
 
-var input=$("#phone_input");
-// отслеживаем изменения телефонного кода
-var input = document.querySelector("#phone_input");
-input.addEventListener("countrychange",function() {
-  var countryCode = input.intlTelInput("getSelectedCountryData").iso2;
-  input.val(countryCode);
-});
-
-
-
-// отслеживаем изменение страны в выпадающем списке
-input.addEventListener("countrychange",function() {
-  var countryCode = $(this).val();
-  input.intlTelInput("selectCountry", countryCode);
-});
 var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
