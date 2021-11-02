@@ -703,3 +703,21 @@ window.intlTelInput(input, {
     });
   }
 });
+
+// заполнить выпадающий список странами
+
+var input=$("#phone_input");
+// отслеживаем изменения телефонного кода
+input.change(function() {
+  var countryCode = telInput.intlTelInput("getSelectedCountryData").iso2;
+  input.val(countryCode);
+});
+
+// запускаем триггер "change" для синхронизации
+input.change();
+
+// отслеживаем изменение страны в выпадающем списке
+input.change(function() {
+  var countryCode = $(this).val();
+  input.intlTelInput("selectCountry", countryCode);
+});
