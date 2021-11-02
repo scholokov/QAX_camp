@@ -694,7 +694,6 @@ addressDropdown.addEventListener('change', function() {
 });*/
 //console.log= function() {};
 var input = document.querySelector("#phone_input");
-input.addEventListener('change', reset);
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(success, failure) {
