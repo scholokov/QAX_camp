@@ -123,8 +123,23 @@ input.intlTelInput({
     
     utilsScript:"js/utils.js" //для форматирования/плейсхолдера и т.д.
 });
-var intlNumber = input.intlTelInput("getNumber");
 
+var input=$("#phone_input");
+// отслеживаем изменения телефонного кода
+input.change(function() {
+  var countryCode = telInput.intlTelInput("getSelectedCountryData").iso2;
+  input.val(countryCode);
+});
+
+// запускаем триггер "change" для синхронизации
+input.change();
+
+// отслеживаем изменение страны в выпадающем списке
+input.change(function() {
+  var countryCode = $(this).val();
+  input.intlTelInput("selectCountry", countryCode);
+});
+var intlNumber = input.intlTelInput("getNumber");
     var sum_text = 
         'Enviroment: ' + envName +
         '\nPage: '+ pages +
