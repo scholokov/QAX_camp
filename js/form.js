@@ -127,7 +127,7 @@ input.intlTelInput({
 var input=$("#phone_input");
 // отслеживаем изменения телефонного кода
 input.change(function() {
-  var countryCode = telInput.intlTelInput("getSelectedCountryData").iso2;
+  var countryCode = input.intlTelInput("getSelectedCountryData").iso2;
   input.val(countryCode);
 });
 
@@ -707,7 +707,7 @@ window.intlTelInput(input, {
 var input=$("#phone_input");
 // отслеживаем изменения телефонного кода
 input.change(function() {
-  var countryCode = telInput.intlTelInput("getSelectedCountryData").iso2;
+  var countryCode = input.intlTelInput("getSelectedCountryData").iso2;
   input.val(countryCode);
 });
 
