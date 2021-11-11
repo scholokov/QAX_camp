@@ -241,6 +241,7 @@
   }
   
   #agree-checkbox {
+    text-transform: inherit;
     height: 54px;
     width: 285px;
     left: 434px;
