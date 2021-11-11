@@ -74,6 +74,21 @@
 					<div class="form-group d-flex justify-content-md-between  col-12 col-sm-12 pr-0 pl-0">
 						<h5 class="write_to_us-personal-data">Погоджуюсь відправити мої контакти
 							менеджеру QAX Camp. Конфіденційно. Без спаму</h5>
+							<div class="form-group" id="checkbox-block">
+								
+								<label for="form-agree" id="agree-checkbox" onclick="check_agree_send()">
+
+									<input type="checkbox" id="form-agree" name="form-agree-name" value="form-agree-value">
+									<span id="checkbox-custom">
+										<img src="images/checkbox-icon.svg" class="no-display" id="checkbox-icon">
+									</span>
+
+									<span id="checkbox-text">* I agree with processing of my personal data </span>
+								</label>
+								<div id="error_message_agree_empty" class="write_to_us-error-message no-display">
+									This field is required
+								</div>
+							</div>
 						<button class="write_to_us-button-send" id="button_send">
 							<!-- <div class="write_to_us-button-send-text" id="button_text"></div>Відправити</div> -->
 							Відправити

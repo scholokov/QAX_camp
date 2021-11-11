@@ -411,6 +411,24 @@ function check_name() {
 
 
 
+function check_agree_send() {
+    var error_message_agree_empty = $("#error_message_agree_empty");
+    var unchecked = document.getElementById("form-agree").checked;
+    console.log('error_message_agree_empty: ' + error_message_agree_empty);
+    console.log('unchecked_status: ' + unchecked);
+
+    if (unchecked == false) {
+        document.getElementById("checkbox-icon").setAttribute("class", "no-display");
+        error_message_agree_empty.show();
+        console.log('if: false');
+        return false;
+    } else {;
+        document.getElementById("checkbox-icon").setAttribute("class", "")
+        error_message_agree_empty.hide();
+        console.log('if: true');
+        return true;
+    };
+};
 
 
 //Validation for email or phone

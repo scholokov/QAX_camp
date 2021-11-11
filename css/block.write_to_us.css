@@ -213,6 +213,26 @@
     font-weight: bold;
 }
 
+#checkbox-block {
+    margin-top: 24px;
+  }
+
+  #checkbox-text {
+    white-space: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 3px;
+    margin-left: 12px;
+  }
+
+  #checkbox-custom {
+    height: 24px;
+    width: 24px;
+  }
+  
+  #agree-checkbox {
+    white-space: nowrap;
+  }
 
 /*
 input[type=text] {
