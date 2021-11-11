@@ -89,9 +89,6 @@
 				<div><a href="#" class="language">UA|RU</a></div>
 				-->
 
-				<a href="#write_to_us">
-					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText">Записатися</div></a>
 					
 				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg" alt="letter"></a></div>
 
@@ -108,9 +105,7 @@
 
 					<a href="our_trainers.php" class="header-menu-mobile">Наші тренери</a>
 
-					<a href="#write_to_us">
-					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText-mobile" onclick="goToForm()">Записатися</div></a>
+					
 		    	</div>
 			</div>
 
@@ -282,7 +277,7 @@
                     Camp ми використовуємо лише сеансові файли-cookies / лише постійні файли-cookies / 
                     як постійні, так і сеансові файли-cookies. </p>
 					</div>
-					<?php include 'components/form.html'?>
+					
 				</div>
 			
 			</div>
