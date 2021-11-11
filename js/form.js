@@ -413,7 +413,7 @@ function check_name() {
 
 function check_agree_send() {
     var error_message_agree_empty = $("#error_message_agree_empty");
-    var checkbox_custom=$("checkbox-custom");
+    var checkbox_custom=$("#checkbox-custom");
     var unchecked = document.getElementById("form-agree").checked;
     console.log('error_message_agree_empty: ' + error_message_agree_empty);
     console.log('unchecked_status: ' + unchecked);
