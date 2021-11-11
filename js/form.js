@@ -332,22 +332,7 @@ $(function () {
 };*/
 
 // then clicked on send button
-function check_agree_send() {
-    var error_message_agree_empty = $("#error_message_agree_empty");
-    var unchecked = document.getElementById("form-agree").checked;
-    console.log('error_message_agree_empty: ' + error_message_agree_empty);
-    console.log('unchecked_status: ' + unchecked);
 
-    if (unchecked == false) {
-        error_message_agree_empty.show();
-        console.log('if: true');
-        return false;
-    } else {
-        error_message_agree_empty.hide();
-        console.log('if: ok');
-        return true;
-    };
-};
 
 
 function check_name() {
@@ -413,20 +398,19 @@ function check_name() {
 
 function check_agree_send() {
     var error_message_agree_empty = $("#error_message_agree_empty");
-    var checkbox_custom=$("#checkbox-custom");
     var unchecked = document.getElementById("form-agree").checked;
     console.log('error_message_agree_empty: ' + error_message_agree_empty);
     console.log('unchecked_status: ' + unchecked);
 
     if (unchecked == false) {
         document.getElementById("checkbox-icon").setAttribute("class", "no-display");
-        checkbox_custom.ccs("background-color","transparent !important");
+        $("#checkbox-custom").ccs("background-color","transparent !important");
         error_message_agree_empty.show();
         console.log('if: false');
         return false;
     } else {;
         document.getElementById("checkbox-icon").setAttribute("class", "");
-        checkbox_custom.ccs("background-color","#212121 !important");
+        $("#checkbox-custom").ccs("background-color","#212121 !important");
         error_message_agree_empty.hide();
         console.log('if: true');
         return true;
