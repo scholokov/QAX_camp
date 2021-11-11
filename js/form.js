@@ -410,7 +410,6 @@ function check_agree_send() {
         return false;
     } else {;
         document.getElementById("checkbox-icon").setAttribute("class", "");
-        $("#checkbox-custom").ccs("background-color","#212121 !important");
         error_message_agree_empty.hide();
         console.log('if: true');
         return true;
