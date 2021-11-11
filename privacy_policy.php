@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 
+	<link rel="stylesheet" href="css/block.privacy_policy.css" type="text/css" />
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
