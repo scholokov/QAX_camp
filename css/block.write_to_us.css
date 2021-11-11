@@ -218,6 +218,12 @@
     margin-top: 24px;
   }
 
+  #checkbox-icon {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
   #checkbox-text {
     font-family: Montserrat;
     font-size: 14px;
