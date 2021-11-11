@@ -124,7 +124,7 @@
 			<div class="content-wrap" id="privacy_policy">
 				<div class="privacy_policy_main_block container clearfix">
 					<div id="privacy_policy_content">
-					<h3 class="privacy_policy_title_text">Політика конфіденційності нашого сайту <a href="https://qax-camp.com.ua/">QAX Camp</a>  знаходиться у цілковитій сумісності 
+					<h3 class="privacy_policy_title_text">Політика конфіденційності нашого сайту <a class="privacy_qax_link" href="https://qax-camp.com.ua/">QAX Camp</a>  знаходиться у цілковитій сумісності 
                     з Загальним регламентом про захист даних ЄС (GDPR) та згідно зі статтею 8 Закону 
                     України «Про захист персональних даних». <br>
                     Національний інститут стандартів і технологій (NIST) визначає особисту інформацію, 
@@ -284,7 +284,7 @@
                     Файли-cookies зазвичай не містять жодної інформації, яка ідентифікує особу користувача. 
                     Проте, ваша персональна інформація, яку ми маємо, може бути пов’язана з інформацією, 
                     що зберігається та отримана від файлів-cookies. На нашому веб-сайті 
-					<a href="https://qax-camp.com.ua/">QAX Camp</a> ми використовуємо лише сеансові файли-cookies / лише постійні файли-cookies / 
+					<a class="privacy_qax_link" href="https://qax-camp.com.ua/">QAX Camp</a> ми використовуємо лише сеансові файли-cookies / лише постійні файли-cookies / 
                     як постійні, так і сеансові файли-cookies. </p>
 					</div>
 					
