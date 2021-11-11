@@ -80,7 +80,7 @@
 
 				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">курси</a>
 
-				<a href="about_us.php"  class="header-menu header-menu-links" id="menu-link-about-us" id="menu-link-about-us">про нас</div></a>
+				<a href="about_us.php"  class="header-menu header-menu-links" id="menu-link-about-us">про нас</div></a>
 
 				<a href="our_trainers.php"  class="header-menu header-menu-links">наші тренери</a>
 
@@ -316,13 +316,13 @@
 	var url="cources.php?cource=qa&name=qa_practice";
 	var link = $('a.header-menu.header-menu-links').attr('href');
 
-	if (link==url && pages=="cources.php"){
+	if (link==url && pages=="cources.php" && pages!=="privacy+policy.php"){
 		document.getElementById("menu-line-cources").style.display="block";
 		document.getElementById("menu-link-courses").style.color='#F66F5D';
-	}else if(pages=="about_us.php"){
+	}else if(pages=="about_us.php" && pages!=="privacy+policy.php"){
 		document.getElementById("menu-line-about-us").style.display="block";
 		document.getElementById("menu-link-about-us").style.color='#F66F5D';
-	}else if(pages=="our_trainers.php"){
+	}else if(pages=="our_trainers.php" && pages!=="privacy+policy.php"){
 		document.getElementById("menu-line-our-trainers").style.display="block";
 		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
 	}else{
