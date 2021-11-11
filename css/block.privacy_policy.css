@@ -1,4 +1,4 @@
-.about_us_main_block {
+.privacy_policy_main_block {
     max-width: 900px;
     width: 100%;
     padding-right: 0;
@@ -6,4 +6,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
+}
+.privacy_policy_title_text{
+    line-height: 1.5;
 }

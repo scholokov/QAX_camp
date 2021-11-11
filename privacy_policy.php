@@ -129,7 +129,7 @@
 			<div class="content-wrap" id="privacy_policy">
 				<div class="privacy_policy_main_block container clearfix">
 					<div id="privacy_policy_content">
-					<h3>Політика конфіденційності нашого сайту QAX Camp  знаходиться у цілковитій сумісності 
+					<h3 class="privacy_policy_title_text">Політика конфіденційності нашого сайту QAX Camp  знаходиться у цілковитій сумісності 
                     з Загальним регламентом про захист даних ЄС (GDPR) та згідно зі статтею 8 Закону 
                     України «Про захист персональних даних». <br>
                     Національний інститут стандартів і технологій (NIST) визначає особисту інформацію, 
