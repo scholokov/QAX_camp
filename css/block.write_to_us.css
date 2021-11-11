@@ -109,6 +109,9 @@
 }
 
 @media (max-width: 767px) {
+    #checkbox-block {
+        margin-top: 25px;
+    }
     #div-phone, #div-email {
         padding-bottom: 30px;
         max-width: 354px !important;
