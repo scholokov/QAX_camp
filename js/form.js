@@ -423,7 +423,8 @@ function check_agree_send() {
         console.log('if: false');
         return false;
     } else {;
-        document.getElementById("checkbox-icon").setAttribute("class", "")
+        document.getElementById("checkbox-icon").setAttribute("class", "");
+        document.getElementById("checkbox-custom").style.backgroundColor="#212121 !important";
         error_message_agree_empty.hide();
         console.log('if: true');
         return true;
