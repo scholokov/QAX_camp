@@ -120,7 +120,7 @@
         margin-top: 25px;
     }
     #agree-checkbox {
-        height: 81px;
+        height: 81px !important;
     }
     #checkbox-text {
         height: 81px;
