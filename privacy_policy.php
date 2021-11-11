@@ -74,27 +74,25 @@
 
 		<!-- Header
 		============================================= -->
-		<header class="header">
+		<header>
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
 				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">курси</a>
 
-				<a href="about_us.php"  class="header-menu header-menu-links" id="menu-link-about-us">про нас</div></a>
+				<a href="about_us.php"  class="header-menu header-menu-links ">про нас</a>
 
 				<a href="our_trainers.php"  class="header-menu header-menu-links">наші тренери</a>
 
-
+				
 				<!--
 				<div><a href="#" class="language">UA|RU</a></div>
 				-->
 
 				<a href="#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
-					<div id="sendButtonText">Записатися</div>
-				</a>
-
-
+					<div id="sendButtonText">Записатися</div></a>
+					
 				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg" alt="letter"></a></div>
 
 				<div class="burger-icon" onclick="myFunction(this)">
@@ -104,17 +102,20 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
+					<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
 
 					<a href="about_us.php" class="header-menu-mobile">Про нас</a>
 
 					<a href="our_trainers.php" class="header-menu-mobile">Наші тренери</a>
 
-					<a href="index.php#write_to_us">
+					<a href="#write_to_us">
 					<!-- <a href="https://t.me/RecrutMan"> -->
 					<div id="sendButtonText-mobile" onclick="goToForm()">Записатися</div></a>
 		    	</div>
 			</div>
+
+				
+
 		</header><!-- #header end -->
 
 		<!-- Page Title
