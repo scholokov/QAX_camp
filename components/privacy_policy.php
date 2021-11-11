@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap"
+		rel="stylesheet">
+
+	<!-- Stylesheets
+	============================================= -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
+	<link rel="stylesheet" href="css/footer.css" type="text/css" />
+	<link rel="stylesheet" href="css/header.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.about_us.css" type="text/css" />
+	<link rel="stylesheet" href="css/intlTelInput.css">
+
+
+	<!-- Document Title
+	============================================= -->
+	<title>QAX Camp - About Us</title>
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<script>
+		function readTextFile(file, callback) {
+			var rawFile = new XMLHttpRequest();
+			rawFile.overrideMimeType("application/json");
+			rawFile.open("GET", file, true);
+			rawFile.onreadystatechange = function () {
+				if (rawFile.readyState === 4 && rawFile.status == "200") {
+					callback(rawFile.responseText);
+				}
+			}
+			rawFile.send(null);
+		}
+
+		//usage:
+		readTextFile("env.json",
+			function (text) {
+				var data = JSON.parse(text);
+				/* console.log(data); */
+				sessionStorage.setItem('facebookLink', data.facebookLink);
+				sessionStorage.setItem('envName', data.envName);
+				sessionStorage.setItem('tokenID', data.telega.tokenID);
+				sessionStorage.setItem('chatID', data.telega.chatID);
+			});
+	</script>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header class="header">
+			<div class="header-menu" id="header-block">
+				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
+
+				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">курси</a>
+
+				<a href="about_us.php"  class="header-menu header-menu-links" id="menu-link-about-us">про нас<div id="menu-line-about-us"></div></a>
+
+				<a href="our_trainers.php"  class="header-menu header-menu-links">наші тренери</a>
+
+
+				<!--
+				<div><a href="#" class="language">UA|RU</a></div>
+				-->
+
+				<a href="#write_to_us">
+					<!-- <a href="https://t.me/RecrutMan"> -->
+					<div id="sendButtonText">Записатися</div>
+				</a>
+
+
+				<div id="letter-icon"><a href="#write_to_us"><img src="images/letter-icon.svg" alt="letter"></a></div>
+
+				<div class="burger-icon" onclick="myFunction(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+				</div>
+
+				<div id="mobile-menu-fullscreen">
+				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
+
+					<a href="about_us.php" class="header-menu-mobile">Про нас</a>
+
+					<a href="our_trainers.php" class="header-menu-mobile">Наші тренери</a>
+
+					<a href="index.php#write_to_us">
+					<!-- <a href="https://t.me/RecrutMan"> -->
+					<div id="sendButtonText-mobile" onclick="goToForm()">Записатися</div></a>
+		    	</div>
+			</div>
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+
+
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap" id="privacy_policy">
+				<div class="privacy_policy_main_block container clearfix">
+					<div id="privacy_policy_content">
+                    Політика конфіденційності нашого сайту QAX Camp  знаходиться у цілковитій сумісності 
+                    з Загальним регламентом про захист даних ЄС (GDPR) та згідно зі статтею 8 Закону 
+                    України «Про захист персональних даних». 
+                    Національний інститут стандартів і технологій (NIST) визначає особисту інформацію, 
+                    як:
+                    “Будь-яка інформація про особу, яку збирає служба, включаючи (1) будь-яку інформацію,
+                    а може використовуватися для розпізнання або відстеження особи, наприклад, ім’я, 
+                    номер соціального страхування, дата і місце народження, дівоче прізвище матері 
+                    або біометричні записи; і (2) будь-яка інша інформація, яка пов’язана або яку 
+                    можна пов’язати з особою, наприклад медична, освітня, фінансова інформація 
+                    та інформація про зайнятість.
+
+                    Публічні дані визначаються наступним чином:
+
+                    “Інформація, яка може відповідати певній особі, обліковому запису або профілю, але 
+                    її недостатньо для ідентифікації особи, контакту або пошуку особи, до якої ця інформація
+                     відноситься”.
+
+                    I. Вступ
+                    Конфіденційність користувачів нашого веб-сайту має велике значення для нас, 
+                    і ми докладаємо всіх зусиль для забезпечення її захисту. Дані правила пояснюють, 
+                    як ми використовуємо вашу персональну інформацію.
+
+                    Заповнюючи форму та натискаючи пташку “Погоджуюсь”, 
+                    відповідно до положень даних Правил, ви надаєте нам дозвіл 
+                    на використання даних виключно для формування запису та зв'язку з вами.
+
+                    II. Збір персональних даних
+                    Збору, зберіганню та використанню підлягають наступні типи персональних даних:
+
+                    Інформація, така, як ваше ім’я, яку ви вказали під час оформлення;
+
+                    Інформація, яка містить ваш мобільний телефон, яку ви вказали під час оформлення;
+
+                    Інформація про адресу вашої електронної пошти, яку ви вказали під час оформлення.
+
+                    
+
+                    III. Використання вашої персональної інформації
+
+                    Персональна інформація, яку ви передані нам через наш веб-сайт, 
+                    буде використовуватися задля цілей, зазначених в цих правилах.
+
+                    адміністрування нашого веб-сайту та бізнесу;
+
+                    надання вам послуг, замовлених через наш веб-сайт;
+
+                    надсилання вам повідомлень, рахунків та нагадувань про сплату, 
+                    та отримання платежів від вас;
+
+                    надсилання вам електронною поштою повідомлень, які ви спеціально запросили;
+
+                    в інших цілях.
+
+                    Без вашої чітко вираженої згоди ми не будемо передавати вашу 
+                    персональну інформацію жодній сторонній компанії для прямого 
+                    маркетингового використання цією, або будь-якою іншою сторонньою компанією.
+
+                    IV. Розкриття персональної інформації
+
+                    Ми лишаємо за собою право розкрити вашу персональну інформацію 
+                    для будь-якого з наших працівників, керівників, страхувальників, 
+                    професійних радників, агентів, постачальників або субпідрядників,
+                     в об’ємі та цілях, визначених в цих правилах.
+
+                    Ми лишаємо за собою право розкрити вашу персональну інформацію:
+
+                    в тих випадках, в яких цього від нас вимагає закон;
+
+                    у зв’язку з будь-яким поточними або майбутніми судовими процесами;
+
+                    з метою встановлення, реалізації або захисту наших законних прав 
+                    (включаючи надання інформації іншим сторонам задля запобігання шахрайству
+                     або зниження кредитних ризиків);
+
+                    будь-якій особі, яка, як ми обґрунтовано вважаємо, може подати
+                     запит до суду або іншого уповноваженого органу про розкриття цих персональних 
+                     даних і, на нашу обґрунтовану думку, цей суд або уповноважений орган видасть 
+                     розпорядження на розкриття цих персональних даних.
+
+                    Ми не будемо розкривати вашу персональну інформацію третім особам, за виключенням 
+                    випадків, зазначених в цих правилах.
+
+                    V. Збереження персональної інформації
+
+                    Розділ Є встановлює правила та процедури компанії щодо збереження персональної 
+                    інформації. Дані правила та процедури призначені для забезпечення виконання нами 
+                    наших юридичних зобов’язань щодо збереження та видалення персональної інформації.
+
+                    Персональна інформація, яку ми обробляємо з певною метою або в певних цілях 
+                    не повинна зберігатися довше, ніж потрібно для досягнення цієї мети або цих цілей.
+
+                    Без обмежень положень, зазначених в пункті Є-2, ми зазвичай видаляємо персональну 
+                    інформацію, що підпадає у визначені нижче категорії, в дні та час, що визначені нижче:
+
+                    a.     персональна інформація буде видалена одразу після закінчення курсу;
+
+                    Незважаючи на інші положення Розділу Є, ми будемо зберігати документи 
+                    (включаючи електронні документи), які містять персональну інформацію:
+
+                    a.     в тих випадках, в яких цього від нас вимагає закон;
+
+                    b.    якщо ми вважатимемо, що ці документи можуть мати відношення до будь-якого 
+                    поточного або майбутнього судового розгляду; та
+
+                    c.     з метою встановлення, реалізації або захисту наших законних прав 
+                    (включаючи надання інформації іншим сторонам задля запобігання шахрайству 
+                    або зниження кредитних ризиків).
+
+                    VI. Захист вашої персональної інформації
+
+                    Ми будемо вживати достатні технічні та організаційні заходи для попередження 
+                    втрати, протиправного використання чи підробки вашої персональної інформації.
+
+                    Ви підтверджуєте своє ознайомлення з тим фактом, що передача інформації через 
+                    Інтернет є по суті є незахищеною, і ми не можемо гарантувати захист даних, 
+                    надісланих через всесвітню мережу.
+
+                    VII. Зміни та поправки
+
+                    Ми лишаємо за собою право періодично вносити зміни та поправки в ці правила, 
+                    та публікувати їх нову редакцію на нашому сайті. Ви повинні періодично перевіряти 
+                    цю веб-сторінку, щоб пересвідчитись, що розумієте зміст змін, внесених до цих правил. 
+                    Ми також можемо проінформувати вас про внесення змін до цих правил шляхом надсилання
+                     електронної пошти або через систему передачі приватних повідомлень нашого сайту.
+
+                    VIII. Ваші права
+
+                    Ви маєте право надати нам вказівку не обробляти вашу персональну інформацію в 
+                    маркетингових цілях.
+
+                    IX. Файли-Cookies
+
+                    Наш веб-сайт використовує файли-cookies. Cookie — це файл, що містить ідентифікатор 
+                    (стрічку, яка складається з літер та цифр), і який надсилається веб-сервером 
+                    до веб-браузеру, та зберігається браузером. В подальшому, ідентифікатор надсилається 
+                    назад на сервер кожного разу, коли браузер запитує веб-сторінку з серверу. 
+                    Файли-cookies можуть бути або «постійними» або «сеансові»: постійні будуть 
+                    зберігатися браузером та будуть придатними до завершення терміну дії, якщо 
+                    тільки не будуть видалені користувачем завчасно; «сеансові» навпаки – будуть 
+                    видалятися після завершення сеансу роботи з сайтом або після закриття браузеру. 
+                    Файли-cookies зазвичай не містять жодної інформації, яка ідентифікує особу користувача. 
+                    Проте, ваша персональна інформація, яку ми маємо, може бути пов’язана з інформацією, 
+                    що зберігається та отримана від файлів-cookies. На нашому веб-сайті QAX 
+                    Camp ми використовуємо лише сеансові файли-cookies / лише постійні файли-cookies / 
+                    як постійні, так і сеансові файли-cookies. 
+					</div>
+					<?php include 'components/form.html'?>
+				</div>
+			
+			</div>
+		</section><!-- #content end -->
+
+		
+
+		<!-- Footer
+		============================================= -->
+		<?php include 'components/footer.html'?>
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-line-chevron-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/include.js"></script>
+
+	<!-- <script src="js/jquery.js"></script> -->
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<script>
+		var pages=window.location.pathname.slice(1);
+	var url="cources.php?cource=qa&name=qa_practice";
+	var link = $('a.header-menu.header-menu-links').attr('href');
+
+	if (link==url && pages=="cources.php"){
+		document.getElementById("menu-line-cources").style.display="block";
+		document.getElementById("menu-link-courses").style.color='#F66F5D';
+	}else if(pages=="about_us.php"){
+		document.getElementById("menu-line-about-us").style.display="block";
+		document.getElementById("menu-link-about-us").style.color='#F66F5D';
+	}else if(pages=="our_trainers.php"){
+		document.getElementById("menu-line-our-trainers").style.display="block";
+		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
+	}else{
+		document.getElementById("menu-line-cources").style.display="none";
+		document.getElementById("menu-line-about-us").style.display="none";
+		document.getElementById("menu-line-our-trainers").style.display="none";
+
+		document.getElementById("menu-link-courses").style.color='white';
+		document.getElementById("menu-link-about-us").style.color='white';
+		document.getElementById("menu-link-our-trainers").style.color='white';
+	};
+	</script>		
+
+	<script>
+		function footerlink() {
+			let telegram_img = $("#Telegram-img");
+			let telegram_link = $("#footer-telegram");
+			telegram_img.mouseover(function () { telegram_link.attr({ "color": "#F66F5D" }); });
+			telegram_img.mouseout(function () { telegram_link.attr({ "color": "#ffffff" }); });
+			telegram_link.mouseover(function () { telegram_img.attr({ "src": "images/Telegram-hover.svg" }); });
+			telegram_link.mouseout(function () { telegram_img.attr({ "src": "images/Telegram.svg" }) });
+		};
+
+		footerlink();
+	</script>
+	<script>
+		$("#leftside-navigation .sub-menu > a").click(function (e) {
+			$("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(),
+				e.stopPropagation()
+		})
+	</script>
+
+	<script>
+		function myFunction(x) {
+  x.classList.toggle("change");
+  var y = document.getElementById("header-block");
+    if (y.className === "header-menu") {
+        y.className += " responsive";
+		$("body").css({ "overflow": "hidden" });
+		$("#footer-block").css({ "display": "none" });
+		$("#content").css({ "display": "none" });
+		
+    } else {
+        y.className = "header-menu";
+		$("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
+		$("#content").css({ "display": "block" });
+
+    }
+}
+function goToForm(){
+		$(".burger-icon").removeClass("change");
+		$("#header-block").removeClass("responsive");
+	    $("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
+		$("#content").css({ "display": "block" });
+
+}
+
+	</script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<!-- for phone mask -->
+
+	<script src="js/intlTelInput.min.js"></script>
+	<script src="js/intlTelInput-jquery.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/form.js"></script>
+
+</body>
+
+</html>
