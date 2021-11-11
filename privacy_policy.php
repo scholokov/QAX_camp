@@ -79,7 +79,7 @@
 
 				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">курси</a>
 
-				<a href="about_us.php"  class="header-menu header-menu-links" id="menu-link-about-us">про нас<div id="menu-line-about-us"></div></a>
+				<a href="about_us.php"  class="header-menu header-menu-links" id="menu-link-about-us">про нас</div></a>
 
 				<a href="our_trainers.php"  class="header-menu header-menu-links">наші тренери</a>
 
