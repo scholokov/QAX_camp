@@ -697,7 +697,7 @@ input.addEventListener('countrychange', function(e) {
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
-//console.log= function() {};
+console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
