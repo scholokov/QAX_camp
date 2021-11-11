@@ -212,7 +212,9 @@
 #button_text {
     font-weight: bold;
 }
-
+#form-agree {
+    display: none;
+}
 #checkbox-block {
     margin-top: 24px;
   }
