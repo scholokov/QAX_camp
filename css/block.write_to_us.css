@@ -241,7 +241,12 @@
   }
   
   #agree-checkbox {
-    white-space: nowrap;
+    height: 54px;
+    width: 285px;
+    left: 434px;
+    top: 4180px;
+    border-radius: 0px;
+
   }
 
 /*
