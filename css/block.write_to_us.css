@@ -217,7 +217,9 @@
 #checkbox-block {
     margin-top: 30px;
   }
-
+  #form-pp{
+      text-decoration-line: underline !important;
+  }
   #checkbox-icon {
     position: absolute;
     top: 25%;
