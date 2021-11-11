@@ -227,7 +227,11 @@
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-
+    height: 54px;
+    width: 285px;
+    left: 434px;
+    top: 4180px;
+    border-radius: 0px;
   }
 
   #checkbox-custom {
@@ -241,13 +245,15 @@
   }
   
   #agree-checkbox {
+    display: flex;
     text-transform: inherit;
     height: 54px;
-    width: 285px;
+    width: 439px;
     left: 434px;
     top: 4180px;
     border-radius: 0px;
-
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
 /*
