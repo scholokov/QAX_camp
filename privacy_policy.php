@@ -316,13 +316,13 @@
 	var url="cources.php?cource=qa&name=qa_practice";
 	var link = $('a.header-menu.header-menu-links').attr('href');
 
-	if (link==url && pages=="cources.php" && pages!=="privacy+policy.php"){
+	if (link==url && pages=="cources.php" && pages!=="privacy_policy.php"){
 		document.getElementById("menu-line-cources").style.display="block";
 		document.getElementById("menu-link-courses").style.color='#F66F5D';
-	}else if(pages=="about_us.php" && pages!=="privacy+policy.php"){
+	}else if(pages=="about_us.php" && pages!=="privacy_policy.php"){
 		document.getElementById("menu-line-about-us").style.display="block";
 		document.getElementById("menu-link-about-us").style.color='#F66F5D';
-	}else if(pages=="our_trainers.php" && pages!=="privacy+policy.php"){
+	}else if(pages=="our_trainers.php" && pages!=="privacy_policy.php"){
 		document.getElementById("menu-line-our-trainers").style.display="block";
 		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
 	}else{
