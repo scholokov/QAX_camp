@@ -118,6 +118,7 @@
 @media (max-width: 767px) {
     #checkbox-block {
         margin-top: 25px;
+        height: 81px;
     }
     #agree-checkbox {
         height: 81px;
