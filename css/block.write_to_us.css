@@ -107,6 +107,13 @@
     border: 1px solid #212121;
     color: #FFFFFF;
 }
+@media (max-width: 400px) {
+    
+    #write_to_us-block-small {
+        max-width: 320px;
+    }
+    
+}
 
 @media (max-width: 767px) {
     #checkbox-block {
