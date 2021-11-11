@@ -253,7 +253,9 @@
     border-radius: 4px;
     padding: 3px;
   }
-  
+  .checkbox-custom-background{
+     background-color: #212121 !important;
+  }
   #agree-checkbox {
     display: flex;
     text-transform: inherit;

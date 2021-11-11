@@ -404,12 +404,13 @@ function check_agree_send() {
 
     if (unchecked == false) {
         document.getElementById("checkbox-icon").setAttribute("class", "no-display");
-        document.getElementById("checkbox-custom").style.backgroundColor="transparent !important";
+        document.getElementById("checkbox-custom").setAttribute("class", "");
         error_message_agree_empty.show();
         console.log('if: false');
         return false;
     } else {;
         document.getElementById("checkbox-icon").setAttribute("class", "");
+        document.getElementById("checkbox-custom").setAttribute("class", "checkbox-custom-background");
         error_message_agree_empty.hide();
         console.log('if: true');
         return true;
