@@ -245,9 +245,10 @@
   }
 
   #checkbox-custom {
+    background: #212121;
     height: 20px;
     width: 20px;
-    border: 1px solid black;
+    border: 1px solid #212121;
     display: inline-block;
     position: relative;
     border-radius: 4px;
