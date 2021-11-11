@@ -10,3 +10,7 @@
 .privacy_policy_title_text{
     line-height: 1.5;
 }
+
+.privacy_policy_main_block p{
+    text-indent: 20px;
+}
