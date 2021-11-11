@@ -119,6 +119,11 @@
     #checkbox-block {
         margin-top: 25px;
     }
+    #agree-checkbox {
+        height: 81px
+
+    }
+    
     #div-phone, #div-email {
         padding-bottom: 30px;
         max-width: 354px !important;
