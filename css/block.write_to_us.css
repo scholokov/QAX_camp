@@ -221,7 +221,8 @@
   #checkbox-icon {
     position: absolute;
     top: 25%;
-    left: 20%;
+    left: 10%;
+    width: 14px;
 }
 
   #checkbox-text {
