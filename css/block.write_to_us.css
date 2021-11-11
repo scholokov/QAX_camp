@@ -228,8 +228,13 @@
   }
 
   #checkbox-custom {
-    height: 24px;
-    width: 24px;
+    height: 26px;
+    width: 26px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    padding: 3px;
   }
   
   #agree-checkbox {
