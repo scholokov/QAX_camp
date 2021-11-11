@@ -220,11 +220,14 @@
   }
 
   #checkbox-text {
-    white-space: normal;
+    font-family: Montserrat;
     font-size: 14px;
-    line-height: 17px;
-    padding-top: 3px;
-    margin-left: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
   }
 
   #checkbox-custom {
