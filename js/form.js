@@ -404,7 +404,7 @@ function check_agree_send() {
 
     if (unchecked == false) {
         document.getElementById("checkbox-icon").setAttribute("class", "no-display");
-        $("#checkbox-custom").ccs("background-color","transparent !important");
+        document.getElementById("checkbox-custom").style.backgroundColor="transparent !important";
         error_message_agree_empty.show();
         console.log('if: false');
         return false;
