@@ -133,6 +133,13 @@
     }
     #checkbox-text {
         height: 81px;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
     }
     
     #div-phone, #div-email {
