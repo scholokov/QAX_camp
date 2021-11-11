@@ -31,7 +31,22 @@
     text-align: center;
     color: #222222;
 }
-
+ #checkbox-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -3px;
+    margin-left: 15px;
+    height: 54px;
+    width: 285px;
+    left: 434px;
+    top: 4180px;
+    border-radius: 0px;
+  }
 #write_to_us-block-small {
     max-width: 640px;
     margin-top: 80px;
@@ -259,22 +274,7 @@
     left: 15%;
 }
 
-  #checkbox-text {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: -3px;
-    margin-left: 15px;
-    height: 54px;
-    width: 285px;
-    left: 434px;
-    top: 4180px;
-    border-radius: 0px;
-  }
+ 
 
   #checkbox-custom {
     height: 24px;
