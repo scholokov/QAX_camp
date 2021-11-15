@@ -233,13 +233,13 @@ div#success-cases-arrow {
         height: 30px;
     }
     img.feedback_linkedin_icon {
-        display: block;
         margin-top: 0;
         width: 20px;
         height: 20px;
     }
     .feedback_linkedin_link{
         margin-left: 10px;
+        display: block;
         margin-top: 0;
         width: 20px;
         height: 20px;
