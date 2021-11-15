@@ -217,6 +217,11 @@ div#success-cases-arrow {
         left: 370px;
     }
 }  */
+.feedback_linkedin_link_block{
+    display: block;
+    width: 20px;
+    height: 20px; 
+}
 
 @media (max-width:701px){
    
@@ -228,6 +233,7 @@ div#success-cases-arrow {
         height: 30px;
     }
     img.feedback_linkedin_icon {
+        display: block;
         margin-top: 0;
         width: 20px;
         height: 20px;

@@ -528,7 +528,7 @@
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">
 													<div class="feedback_linkedin_name">Andrey Hryhorchuk</div>
-													<div class="feedback_linkedin_link">
+													<div class="feedback_linkedin_link_block">
 														<a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" class="feedback_linkedin_link"> 
 															<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 														</a>
