@@ -526,10 +526,12 @@
 								</div>
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
-												<div class="feedback-author">Andrey Hryhorchuk
-													<a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" class="feedback_linkedin_link"> 
-														<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
-													</a>
+												<div class="feedback-author">
+													<div>Andrey Hryhorchuk</div>
+													<div><a target="_blank" href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" class="feedback_linkedin_link"> 
+															<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+														</a>
+													</div>
 												</div>
 												<div class="feedback-job">JQA Engineer</div>
 												<div class="feedback-text">Zakaz.ua</div>
@@ -552,10 +554,11 @@
 								</div>
 									<div id="success-cases-info">
 									<div id="success-cases-info-block1">
-										<div class="feedback-author">Alexander Bezeliuk
-										<a target="_blank" href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=uaa" class="feedback_linkedin_link">
+										<div class="feedback-author">
+											<div>Alexander Bezeliuk</div>
+											<div><a target="_blank" href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=uaa" class="feedback_linkedin_link">
 											<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
-										</a>
+											</div></a>
 										</div>
 										<div class="feedback-job">QA Еngineer (intern)</div>
 										<div class="feedback-text">Playtech</div>
