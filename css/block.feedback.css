@@ -151,6 +151,10 @@ div#success-cases-arrow {
     left: 270px;
 }
 
+.feedback_linkedin_name{
+    width: 80%;
+}
+
 #success-cases-arrow-mob{
     display: none;
 }
@@ -224,7 +228,6 @@ div#success-cases-arrow {
         height: 30px;
     }
     img.feedback_linkedin_icon {
-        margin-left: 10px;
         margin-top: 0;
         width: 20px;
         height: 20px;
@@ -292,7 +295,6 @@ div#success-cases-arrow {
 }
 @media (min-width:320px) and (max-width:382px){
 .feedback_linkedin_link{
-        margin-left: -36px;
         margin-top: 0;
         width: 20px;
         height: 20px;
