@@ -260,6 +260,18 @@ div#success-cases-arrow {
         background: url(icons/LinkedIn_hover.svg);
         background-size: 20px; 
     }
+    .feedback_linkedin_link:active {
+        width: 20px;
+        height: 20px;
+        background: url(icons/LinkedIn_hover.svg);
+        background-size: 20px; 
+    }
+    .feedback_linkedin_link:target {
+        width: 20px;
+        height: 20px;
+        background: url(icons/LinkedIn_hover.svg);
+        background-size: 20px; 
+    }
 
     #success-cases-duration{
         height: 250px;
