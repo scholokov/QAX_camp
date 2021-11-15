@@ -240,6 +240,7 @@ div#success-cases-arrow {
     .feedback_linkedin_link{
         margin-left: 10px;
         display: block;
+        cursor: pointer;
         margin-top: 0;
         width: 20px;
         height: 20px;
