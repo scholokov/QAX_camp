@@ -473,15 +473,6 @@ function check_email() {
 
 
 function check_phone() {
-    var iti = window.intlTelInput(input, {
-        utilsScript: "js/utils.js"
-      });
-    
-    
-      // Получить текущий номер в данном формате
-      var intlNumber = iti.getNumber();
-    
-      var isValid = iti.isValidNumber();
     var phone_input = $("#phone_input");
     var phone_line = $("#phone_input");
     var error_message_phone_empty = $("#error_message_phone_empty");
@@ -537,8 +528,8 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }*/
-    else if (intlNumber) {
-          if (isValid) {
+    else if ($.trim(input.val())) {
+          if (input.intlTelInput("isValidNumber")) {
             phone_line.css({ "border-color": "#212121" });
             error_message_phone_empty.hide();
             error_message_phone_plugin.hide();
