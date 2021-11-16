@@ -653,6 +653,12 @@ addressDropdown.addEventListener('change', function() {
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
+    allowDropdown:true,
+    autoHideDialCode:true,
+    autoPlaceholder:"polite",
+    formatOnDisplay:true,
+    placeholderNumberType:"MOBILE",
+    separateDialCode:false,
     utilsScript: "js/utils.js",
   initialCountry: "auto",
   geoIpLookup: function(success, failure) {
