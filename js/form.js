@@ -650,7 +650,7 @@ input.addEventListener('countrychange', function(e) {
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
-
+var input = document.querySelector("#phone_input");
 var iti = window.intlTelInput(input, {
     utilsScript: "../../build/js/utils.js?1613236686837"
   });
@@ -694,7 +694,7 @@ window.intlTelInput(input, {
     utilsScript:"js/utils.js"
 
   });
-var input = document.querySelector("#phone_input");
+
 window.intlTelInput(input, {
     
     allowDropdown:true,
