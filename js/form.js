@@ -826,16 +826,13 @@ window.intlTelInput(input, {
 
 
 
-var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js"
-  });
 
-  var extension = iti.getExtension();
+  var extension = input.getExtension();
 
   // Получить текущий номер в данном формате
-  var intlNumber = iti.getNumber();
+  var intlNumber = input.getNumber();
 
-  var isValid = iti.isValidNumber();
+  var isValid = input.isValidNumber();
 
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
