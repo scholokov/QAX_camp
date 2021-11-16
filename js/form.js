@@ -597,42 +597,7 @@ var maskOptions = {
 var mask = IMask(element, maskOptions);*/
 
 //international telephones
-$("#phone_input").intlTelInput({
 
-    allowDropdown:true,
-    
-    autoHideDialCode:true,
-    
-    autoPlaceholder:"polite",
-    
-    customPlaceholder:null,
-    
-    dropdownContainer:null,
-    
-    excludeCountries: [],
-    
-    formatOnDisplay:true,
-    
-    geoIpLookup:null,
-    
-    hiddenInput:"",
-    
-    initialCountry:"",
-    
-    localizedCountries:null,
-    
-    nationalMode:true,
-    
-    onlyCountries: [],
-    
-    placeholderNumberType:"MOBILE",
-    
-    preferredCountries: [],
-    
-    separateDialCode:false,
-    
-    utilsScript:"js/utils.js"
-    });
 
    /* var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
@@ -688,6 +653,7 @@ addressDropdown.addEventListener('change', function() {
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
+    utilsScript: "js/utils.js",
   initialCountry: "auto",
   geoIpLookup: function(success, failure) {
     $.get('https://ipinfo.io',function () { }, "jsonp").done(function(resp) {
