@@ -787,7 +787,8 @@ console.log= function() {};
   input.addEventListener('keyup', reset);*/
 
 var input = document.querySelector("#phone_input");
-window.intlTelInput(("#phone_input"), {
+
+var iti = window.intlTelInput(input, {
     
     allowDropdown:true,
     
