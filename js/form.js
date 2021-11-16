@@ -664,25 +664,15 @@ $("#phone_input").intlTelInput({
     
     dropdownContainer:null,
     
-    excludeCountries: [],
-    
     formatOnDisplay:true,
     
     geoIpLookup:null,
-    
-    hiddenInput:"",
-    
-    initialCountry:"",
     
     localizedCountries:null,
     
     nationalMode:true,
     
-    onlyCountries: [],
-    
     placeholderNumberType:"MOBILE",
-    
-    preferredCountries: ["ua"],
     
     separateDialCode:false,
     
