@@ -654,7 +654,33 @@ console.log= function() {};
 var input = document.querySelector("#phone_input");
 
 $("#phone_input").intlTelInput({
+    utilsScript:"js/utils.js"
+    });
 
+   /* var input = document.querySelector("#phone_input");
+window.intlTelInput(input, {
+  initialCountry: "auto",
+  geoIpLookup: function(callback) {
+    $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "ua";
+      callback(countryCode);
+    });
+  },
+  utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
+$("#phone_input").intlTelInput({
+        defaultCountry: "auto",
+        geoIpLookup: function(callback) {
+          $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+            var countryCode = (resp && resp.country) ? resp.country : "ua";
+            callback(countryCode);
+          });
+        },
+        utilsScript: "js/utils.js" //для форматирования/плейсхолдера и т.д.
+});*/
+console.log= function() {};
+var input = document.querySelector("#phone_input");
+window.intlTelInput(input, {
+    
     allowDropdown:true,
     
     autoHideDialCode:true,
@@ -683,43 +709,18 @@ $("#phone_input").intlTelInput({
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: ["ua"],
+    preferredCountries: [],
     
     separateDialCode:false,
-    
-    utilsScript:"js/utils.js"
-    });
 
-   /* var input = document.querySelector("#phone_input");
-window.intlTelInput(input, {
-  initialCountry: "auto",
-  geoIpLookup: function(callback) {
-    $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "ua";
-      callback(countryCode);
-    });
-  },
-  utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
-$("#phone_input").intlTelInput({
-        defaultCountry: "auto",
-        geoIpLookup: function(callback) {
-          $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-            var countryCode = (resp && resp.country) ? resp.country : "ua";
-            callback(countryCode);
-          });
-        },
-        utilsScript: "js/utils.js" //для форматирования/плейсхолдера и т.д.
-});*/
-console.log= function() {};
-var input = document.querySelector("#phone_input");
-window.intlTelInput(input, {
-  initialCountry: "auto",
-  geoIpLookup: function(success, failure) {
-    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "";
-      success(countryCode);
-    });
-  }
+    initialCountry: "auto",
+    geoIpLookup: function(success, failure) {
+        $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+        var countryCode = (resp && resp.country) ? resp.country : "";
+        success(countryCode);
+        });
+    },
+    utilsScript:"js/utils.js"
 });
 // Получить код страны
 var extension = $("#phone_input").intlTelInput("getExtension");
