@@ -683,11 +683,9 @@ console.log= function() {};
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
-console.log= function() {};
 
-var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js"
-  });
+
+
 
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
@@ -703,7 +701,9 @@ window.intlTelInput(input, {
 
     utilsScript: "js/utils.js"
 });
-
+var iti = window.intlTelInput(input, {
+    utilsScript: "js/utils.js"
+  });
 
 var extension = iti.getExtension();
 
