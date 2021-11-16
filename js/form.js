@@ -735,16 +735,6 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 console.log= function() {};
 var input = document.querySelector("#phone_input");
-window.intlTelInput(input, {
-  initialCountry: "auto",
-  geoIpLookup: function(success, failure) {
-    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "";
-      success(countryCode);
-    });
-  },
-  utilsScript: "js/utils.js"
-});
 
 
 var iti = window.intlTelInput(input, {
@@ -799,6 +789,19 @@ var iti = window.intlTelInput(input, {
   });
   input.addEventListener('change', reset);
   input.addEventListener('keyup', reset);
+
+  
+window.intlTelInput(input, {
+  initialCountry: "auto",
+  geoIpLookup: function(success, failure) {
+    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "";
+      success(countryCode);
+    });
+  }
+});
+
+
 
 var extension = iti.getExtension();
 
