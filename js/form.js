@@ -649,15 +649,11 @@ input.addEventListener('countrychange', function(e) {
 // listen to the address dropdown for changes
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
-});*/console.log= function() {};
-var input = document.querySelector("#phone_input");
-
-var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js"
-  });
-
+});*/
+console.log= function() {};
 
 $("#phone_input").intlTelInput({
+
     allowDropdown:true,
     
     autoHideDialCode:true,
@@ -690,41 +686,31 @@ $("#phone_input").intlTelInput({
     
     separateDialCode:false,
     
-    initialCountry: "auto",
-
     utilsScript:"js/utils.js"
+    });
 
-  });
-
+   /* var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
-  
-    initialCountry: "auto",
-    
-    geoIpLookup: function(success, failure) {
-        $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
-        var countryCode = (resp && resp.country) ? resp.country : " ";
-        success(countryCode);
-        });
-    }
-});
-// заполнить выпадающий список странами
+  initialCountry: "auto",
+  geoIpLookup: function(callback) {
+    $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "ua";
+      callback(countryCode);
+    });
+  },
+  utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
+$("#phone_input").intlTelInput({
+        defaultCountry: "auto",
+        geoIpLookup: function(callback) {
+          $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+            var countryCode = (resp && resp.country) ? resp.country : "ua";
+            callback(countryCode);
+          });
+        },
+        utilsScript: "js/utils.js" //для форматирования/плейсхолдера и т.д.
+});*/
 
-var extension = iti.getExtension();
-
-// Получить текущий номер в данном формате
-var intlNumber = iti.getNumber();
-
-// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
-//var numberType = $("#demo").intlTelInput("getNumberType");
-
-// Получить данные по стране для выбранного флага.
-//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
-
-// Получить более подробную информацию об ошибке валидации. 
-//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
-
-var isValid = iti.isValidNumber();
-
+// Получить код страны
 var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
@@ -741,7 +727,22 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 
 var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
-
+// Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
-// Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
+// Изменить выбранную страну
+//$("#demo").intlTelInput("selectCountry", "gb");
+
+// Вставить номер и, соответственно, обновить выбранный флаг.
+//$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
+console.log= function() {};
+var input = document.querySelector("#phone_input");
+window.intlTelInput(input, {
+  initialCountry: "auto",
+  geoIpLookup: function(success, failure) {
+    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "";
+      success(countryCode);
+    });
+  }
+});
