@@ -732,5 +732,8 @@ for (var i = 0; i < countryData.length; i++) {
 };
 input.addEventListener('change', function() {
     iti.setCountry(this.value);
+    window.intlTelInput(input, {
+        initialCountry: "",
+        geoIpLookup:null});
   });
   
