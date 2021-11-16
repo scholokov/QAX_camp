@@ -706,6 +706,13 @@ var iti = window.intlTelInput(input, {
   });
 
   var reset = function() {
+    var phone_input = $("#phone_input");
+    var phone_line = $("#phone_input");
+    var error_message_phone_empty = $("#error_message_phone_empty");
+    var error_message_phone_short = $("#error_message_phone_short");
+    var error_message_phone_plugin = $("#error_message_phone_plugin");
+    var error_message_phone_long = $("#error_message_phone_long");
+    var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
     phone_line.css({ "border-color": "#212121" });
         error_message_phone_empty.hide();
         error_message_phone_plugin.hide();
