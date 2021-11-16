@@ -663,24 +663,26 @@ $("#phone_input").intlTelInput({
     customPlaceholder:null,
     
     dropdownContainer:null,
-
+    
     excludeCountries: [],
     
     formatOnDisplay:true,
-
+    
+    geoIpLookup:null,
+    
     hiddenInput:"",
     
     initialCountry:"",
     
-    geoIpLookup:null,
-    
     localizedCountries:null,
-
-    onlyCountries: [],
     
     nationalMode:true,
     
+    onlyCountries: [],
+    
     placeholderNumberType:"MOBILE",
+    
+    preferredCountries: ["ua"],
     
     separateDialCode:false,
     
