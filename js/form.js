@@ -695,8 +695,6 @@ $("#phone_input").intlTelInput({
     
     formatOnDisplay:true,
     
-    geoIpLookup:null,
-    
     hiddenInput:"",
     
     initialCountry:"",
