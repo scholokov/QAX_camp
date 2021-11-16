@@ -657,7 +657,7 @@ var iti = window.intlTelInput(input, {
   });
 
 console.log= function() {};
-window.intlTelInput(input, {
+$("#phone_input").intlTelInput({
     allowDropdown:true,
     
     autoHideDialCode:true,
@@ -697,7 +697,6 @@ window.intlTelInput(input, {
   });
 
 window.intlTelInput(input, {
-    
     allowDropdown:true,
     
     autoHideDialCode:true,
@@ -711,8 +710,6 @@ window.intlTelInput(input, {
     excludeCountries: [],
     
     formatOnDisplay:true,
-    
-    geoIpLookup:null,
     
     hiddenInput:"",
     
@@ -731,7 +728,7 @@ window.intlTelInput(input, {
     separateDialCode:false,
     
     initialCountry: "auto",
-
+    
     geoIpLookup: function(success, failure) {
         $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
         var countryCode = (resp && resp.country) ? resp.country : " ";
