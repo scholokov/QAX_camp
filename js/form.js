@@ -528,7 +528,7 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }*/
-    else if ($.trim(input.val())) {
+    else if ($.trim(phone_input.val())) {
           if (input.intlTelInput("isValidNumber")) {
             phone_line.css({ "border-color": "#212121" });
             error_message_phone_empty.hide();
