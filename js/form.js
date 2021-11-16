@@ -656,7 +656,7 @@ var iti = window.intlTelInput(input, {
   });
 
 console.log= function() {};
-intlTelInput(input, {
+window.intlTelInput(input, {
     allowDropdown:true,
     
     autoHideDialCode:true,
@@ -690,7 +690,7 @@ intlTelInput(input, {
     separateDialCode:false,
     
     initialCountry: "auto",
-    
+
     utilsScript:"js/utils.js"
 
   });
