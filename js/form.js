@@ -788,6 +788,9 @@ console.log= function() {};
 
 var input = document.querySelector("#phone_input");
 
+var iti = window.intlTelInput(input, {
+    utilsScript: "js/utils.js"
+  });
 window.intlTelInput(input, {
     allowDropdown:true,
     
@@ -819,20 +822,19 @@ window.intlTelInput(input, {
         var countryCode = (resp && resp.country) ? resp.country : "";
         success(countryCode);
         });
-    },
-    utilsScript:"js/utils.js"
+    }
 });
 
 
 
 
 
-  var extension = input.getExtension();
+  var extension = iti.getExtension();
 
   // Получить текущий номер в данном формате
-  var intlNumber = input.getNumber();
+  var intlNumber = iti.getNumber();
 
-  var isValid = input.isValidNumber();
+  var isValid = iti.isValidNumber();
 
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
