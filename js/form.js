@@ -690,8 +690,6 @@ console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
     
-    preferredCountries: [""],
-    
     initialCountry: "auto",
 
     geoIpLookup: function(success, failure) {
@@ -707,6 +705,41 @@ var iti = window.intlTelInput(input, {
     utilsScript: "js/utils.js"
   });
 
+  var reset = function() {
+    phone_line.css({ "border-color": "#212121" });
+        error_message_phone_empty.hide();
+        error_message_phone_plugin.hide();
+        error_message_phone_short.hide();
+        error_message_phone_long.hide();
+        error_message_phone_only_numbers.hide();
+  };
+  
+  // on blur: validate
+  input.addEventListener('blur', function() {
+    reset();
+    if (input.value.trim()) {
+      if (iti.isValidNumber()) {
+        phone_line.css({ "border-color": "#212121" });
+            error_message_phone_empty.hide();
+            error_message_phone_plugin.hide();
+            error_message_phone_short.hide();
+            error_message_phone_long.hide();
+            error_message_phone_only_numbers.hide();
+            return true;
+      } else {
+            phone_line.css({ "border-color": "red" });
+            error_message_phone_plugin.show();
+            error_message_phone_short.hide();
+            error_message_phone_empty.hide();
+            error_message_phone_long.hide();
+            error_message_phone_only_numbers.hide();
+            return false;
+      }
+    }
+  });
+  input.addEventListener('change', reset);
+  input.addEventListener('keyup', reset);
+
 var extension = iti.getExtension();
 
 // Получить текущий номер в данном формате
@@ -721,6 +754,6 @@ var intlNumber = iti.getNumber();
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-var isValid =  iti.isValidNumber();
+
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
