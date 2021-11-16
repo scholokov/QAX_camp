@@ -473,6 +473,11 @@ function check_email() {
 
 
 function check_phone() {
+    var iti = window.intlTelInput(input, {
+        utilsScript: "js/utils.js"
+      });
+
+      var isValid = iti.isValidNumber();
     var phone_input = $("#phone_input");
     var phone_line = $("#phone_input");
     var error_message_phone_empty = $("#error_message_phone_empty");
