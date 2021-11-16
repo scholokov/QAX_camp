@@ -789,9 +789,7 @@ console.log= function() {};
 var input = document.querySelector("#phone_input");
 
 var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js"
-  });
-window.intlTelInput(input, {
+    utilsScript: "js/utils.js",
     allowDropdown:true,
     
     autoHideDialCode:true,
@@ -823,7 +821,10 @@ window.intlTelInput(input, {
         success(countryCode);
         });
     }
-});
+  });
+/*window.intlTelInput(input, {
+    
+});*/
 
 
 
