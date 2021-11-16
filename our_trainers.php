@@ -319,12 +319,13 @@
 									<div class="trainer-experience">
 									<p class="trainer-experience-title">Досвід роботи 4 роки:</p>
 									<p class="trainer-experience">
-									<table id="trainer-experience-table">
-										<tr class="experience-tr"><td>2019</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Middle+ QA Engineer в Innovecs <br></td></tr>
+									<table id="trainer-experience-table"><tr class="experience-tr">
+										<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>QA Team Lead в компанії Innovecs <br></td></tr>
+										<tr class="experience-tr"><td>2019</td> <td>–</td> <td>2021 </td> <td>–</td> <td>Middle+ QA Engineer в компанії Innovecs <br></td></tr>
 
-										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в DOIT Software <br></td></tr>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в компанії DOIT Software  <br></td></tr>
 
-										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2018</td><td>–</td><td>QA Engineer в TSI</td></tr>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2018</td><td>–</td><td>QA Engineer в компанії TSI </td></tr>
 									</table>
 								</p>
 									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
