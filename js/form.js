@@ -741,6 +741,11 @@ var iti = window.intlTelInput(input, {
     utilsScript: "js/utils.js"
   });
 
+  var extension = iti.getExtension();
+
+  // Получить текущий номер в данном формате
+  var intlNumber = iti.getNumber();
+
   var reset = function() {
     var phone_input = $("#phone_input");
     var phone_line = $("#phone_input");
@@ -790,7 +795,7 @@ var iti = window.intlTelInput(input, {
   input.addEventListener('change', reset);
   input.addEventListener('keyup', reset);
 
-  
+
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(success, failure) {
