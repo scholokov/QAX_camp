@@ -528,8 +528,8 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }*/
-    /*else if ($.trim(input.value())) {
-          if (input.intlTelInput("isValidNumber")) {
+    else if (input.value.trim()) {
+          if (isValid) {
             phone_line.css({ "border-color": "#212121" });
             error_message_phone_empty.hide();
             error_message_phone_plugin.hide();
@@ -546,7 +546,7 @@ function check_phone() {
             error_message_phone_only_numbers.hide();
             return false;
           }
-    }*/
+    }
     else{
         phone_line.css({ "border-color": "#212121" });
         error_message_phone_empty.hide();
@@ -812,7 +812,7 @@ window.intlTelInput(input, {
     excludeCountries: [],
     
     formatOnDisplay:true,
-    
+
     nationalMode:true,
 
     initialCountry: "auto",
