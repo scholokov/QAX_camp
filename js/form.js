@@ -808,10 +808,7 @@ window.intlTelInput(input, {
 
 
 
-var extension = iti.getExtension();
 
-// Получить текущий номер в данном формате
-var intlNumber = iti.getNumber();
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
