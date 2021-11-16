@@ -12,6 +12,11 @@
     text-indent: 20px;
 }
 
+.privacy_policy_content{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
 .privacy_policy_main_block p{
     text-indent: 20px;
 }
