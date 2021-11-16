@@ -480,7 +480,6 @@ function check_phone() {
     var error_message_phone_plugin = $("#error_message_phone_plugin");
     var error_message_phone_long = $("#error_message_phone_long");
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
-    $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
     //    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
     // var patternPhone = new RegExp(/^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$/);
