@@ -650,8 +650,13 @@ input.addEventListener('countrychange', function(e) {
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
-$("#phone_input").intlTelInput({
 
+
+console.log= function() {};
+
+var input = document.querySelector("#phone_input");
+window.intlTelInput(input, {
+    
     allowDropdown:true,
     
     autoHideDialCode:true,
@@ -684,14 +689,8 @@ $("#phone_input").intlTelInput({
     
     separateDialCode:false,
     
-    utilsScript:"js/utils.js"
-    });
-
-console.log= function() {};
-
-var input = document.querySelector("#phone_input");
-window.intlTelInput(input, {
     initialCountry: "auto",
+    
     geoIpLookup: function(success, failure) {
         $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
         var countryCode = (resp && resp.country) ? resp.country : " ";
