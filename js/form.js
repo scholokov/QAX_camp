@@ -651,11 +651,7 @@ console.log= function() {};
   input.addEventListener('change', reset);
   input.addEventListener('keyup', reset);*/
 
-var input = document.querySelector("#phone_input");
 
-$("#phone_input").intlTelInput({
-    utilsScript:"js/utils.js"
-    });
 
    /* var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
@@ -677,7 +673,7 @@ $("#phone_input").intlTelInput({
         },
         utilsScript: "js/utils.js" //для форматирования/плейсхолдера и т.д.
 });*/
-console.log= function() {};
+//console.log= function() {};
 var input = document.querySelector("#phone_input");
 $("#phone_input").intlTelInput({
     
