@@ -730,7 +730,7 @@ var countryData = window.intlTelInputGlobals.getCountryData(),
     var textNode = document.createTextNode(country.name);
     optionNode.appendChild(textNode);
   }
-  input.addEventListener('countrychange', function() {
+  input.addEventListener('change', function() {
     iti.setCountry(this.value);
   });
   
