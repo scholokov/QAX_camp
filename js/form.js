@@ -681,33 +681,7 @@ console.log= function() {};
 var input = document.querySelector("#phone_input");
 $("#phone_input").intlTelInput({
     
-    allowDropdown:true,
-    
-    autoHideDialCode:true,
-    
-    autoPlaceholder:"polite",
-    
-    customPlaceholder:null,
-    
-    dropdownContainer:null,
-    
-    excludeCountries: [],
-    
-    formatOnDisplay:true,
-    
-    hiddenInput:"",
-    
-    localizedCountries:null,
-    
-    nationalMode:true,
-    
-    onlyCountries: [],
-    
-    placeholderNumberType:"MOBILE",
-    
     preferredCountries: ["ua"],
-    
-    separateDialCode:false,
 
     initialCountry: "auto",
 
