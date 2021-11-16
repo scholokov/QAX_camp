@@ -699,13 +699,11 @@ window.intlTelInput(input, {
     utilsScript: "js/utils.js"
 });
 
-$("#phone_input").intlTelInput({
-    utilsScript:"js/utils.js"
-    });
-var extension = $("#phone_input").intlTelInput("getExtension");
+
+var extension = iti.getExtension();
 
 // Получить текущий номер в данном формате
-var intlNumber = $("#phone_input").intlTelInput("getNumber");
+var intlNumber = iti.getNumber();
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
@@ -716,7 +714,6 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-var isValid = $("#phone_input").intlTelInput("isValidNumber");
+var isValid =  iti.isValidNumber();
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
