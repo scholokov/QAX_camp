@@ -651,6 +651,12 @@ addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
 $("#phone_input").intlTelInput({
+    allowDropdown:true,
+    autoHideDialCode:true,
+    autoPlaceholder:"polite",
+    formatOnDisplay:true,
+    placeholderNumberType:"MOBILE",
+    separateDialCode:false,
     utilsScript:"js/utils.js"
 });
 
