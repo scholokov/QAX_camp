@@ -735,19 +735,7 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 console.log= function() {};
-var input = document.querySelector("#phone_input");
 
-
-var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js"
-  });
-
-  var extension = iti.getExtension();
-
-  // Получить текущий номер в данном формате
-  var intlNumber = iti.getNumber();
-
-  var isValid = iti.isValidNumber();
 
   /*var reset = function() {
     var phone_input = $("#phone_input");
@@ -798,6 +786,7 @@ var iti = window.intlTelInput(input, {
   input.addEventListener('change', reset);
   input.addEventListener('keyup', reset);*/
 
+var input = document.querySelector("#phone_input");
 
 window.intlTelInput(input, {
     allowDropdown:true,
@@ -836,6 +825,17 @@ window.intlTelInput(input, {
 
 
 
+
+var iti = window.intlTelInput(input, {
+    utilsScript: "js/utils.js"
+  });
+
+  var extension = iti.getExtension();
+
+  // Получить текущий номер в данном формате
+  var intlNumber = iti.getNumber();
+
+  var isValid = iti.isValidNumber();
 
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
