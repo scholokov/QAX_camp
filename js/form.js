@@ -757,6 +757,23 @@ var intlNumber = iti.getNumber();
 
 var isValid = iti.isValidNumber();
 
+var extension = $("#phone_input").intlTelInput("getExtension");
+
+// Получить текущий номер в данном формате
+var intlNumber = $("#phone_input").intlTelInput("getNumber");
+
+// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
+//var numberType = $("#demo").intlTelInput("getNumberType");
+
+// Получить данные по стране для выбранного флага.
+//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
+
+// Получить более подробную информацию об ошибке валидации. 
+//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
+
+var isValid = $("#phone_input").intlTelInput("isValidNumber");
+
+
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
