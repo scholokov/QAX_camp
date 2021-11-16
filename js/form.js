@@ -649,14 +649,14 @@ input.addEventListener('countrychange', function(e) {
 // listen to the address dropdown for changes
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
-});*/
+});*/console.log= function() {};
 var input = document.querySelector("#phone_input");
 
 var iti = window.intlTelInput(input, {
     utilsScript: "js/utils.js"
   });
 
-console.log= function() {};
+
 $("#phone_input").intlTelInput({
     allowDropdown:true,
     
@@ -697,36 +697,7 @@ $("#phone_input").intlTelInput({
   });
 
 window.intlTelInput(input, {
-    allowDropdown:true,
-    
-    autoHideDialCode:true,
-    
-    autoPlaceholder:"polite",
-    
-    customPlaceholder:null,
-    
-    dropdownContainer:null,
-    
-    excludeCountries: [],
-    
-    formatOnDisplay:true,
-    
-    hiddenInput:"",
-    
-    initialCountry:"",
-    
-    localizedCountries:null,
-    
-    nationalMode:true,
-    
-    onlyCountries: [],
-    
-    placeholderNumberType:"MOBILE",
-    
-    preferredCountries: ["ua"],
-    
-    separateDialCode:false,
-    
+  
     initialCountry: "auto",
     
     geoIpLookup: function(success, failure) {
@@ -734,8 +705,7 @@ window.intlTelInput(input, {
         var countryCode = (resp && resp.country) ? resp.country : " ";
         success(countryCode);
         });
-    },
-    utilsScript:"js/utils.js"
+    }
 });
 // заполнить выпадающий список странами
 
