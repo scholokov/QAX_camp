@@ -528,8 +528,8 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }*/
-    else if ($.trim(phone_input.val())) {
-          if (phone_input.intlTelInput("isValidNumber")) {
+    else if ($.trim(input.val())) {
+          if (input.intlTelInput("isValidNumber")) {
             phone_line.css({ "border-color": "#212121" });
             error_message_phone_empty.hide();
             error_message_phone_plugin.hide();
@@ -650,11 +650,6 @@ input.addEventListener('countrychange', function(e) {
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
-console.log= function() {};
-
-$("#phone_input").intlTelInput({
-    utilsScript:"js/utils.js"
-    });
 
    /* var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
@@ -678,27 +673,13 @@ $("#phone_input").intlTelInput({
 });*/
 
 // Получить код страны
-var extension = $("#phone_input").intlTelInput("getExtension");
 
-// Получить текущий номер в данном формате
-var intlNumber = $("#phone_input").intlTelInput("getNumber");
-
-// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
-//var numberType = $("#demo").intlTelInput("getNumberType");
-
-// Получить данные по стране для выбранного флага.
-//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
-
-// Получить более подробную информацию об ошибке валидации. 
-//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
-
-var isValid = $("#phone_input").intlTelInput("isValidNumber");
-
-// Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
 //$("#demo").intlTelInput("selectCountry", "gb");
+console.log= function() {};
+
+
 
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
@@ -746,3 +727,25 @@ window.intlTelInput(input, {
   },
   utilsScript: "js/utils.js"
 });
+
+$("#phone_input").intlTelInput({
+    utilsScript:"js/utils.js"
+    });
+var extension = $("#phone_input").intlTelInput("getExtension");
+
+// Получить текущий номер в данном формате
+var intlNumber = $("#phone_input").intlTelInput("getNumber");
+
+// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
+//var numberType = $("#demo").intlTelInput("getNumberType");
+
+// Получить данные по стране для выбранного флага.
+//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
+
+// Получить более подробную информацию об ошибке валидации. 
+//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
+
+var isValid = $("#phone_input").intlTelInput("isValidNumber");
+
+// Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
+$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
