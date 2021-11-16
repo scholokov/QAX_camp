@@ -718,7 +718,7 @@ window.intlTelInput(input, {
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: null,
+    preferredCountries: [],
     
     separateDialCode:false,
     
