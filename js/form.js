@@ -674,7 +674,7 @@ $("#phone_input").intlTelInput({
         utilsScript: "js/utils.js" //для форматирования/плейсхолдера и т.д.
 });*/
 //console.log= function() {};
-var input = document.querySelector("#phone_input");
+var input = document.querySelector("#phone_input"); 
 $("#phone_input").intlTelInput({
     allowDropdown:true,
     
