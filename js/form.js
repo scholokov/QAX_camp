@@ -651,6 +651,9 @@ addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
 
+var iti = window.intlTelInput(input, {
+    utilsScript: "../../build/js/utils.js?1613236686837"
+  });
 
 console.log= function() {};
 
@@ -690,7 +693,7 @@ window.intlTelInput(input, {
     separateDialCode:false,
     
     initialCountry: "auto",
-    
+
     geoIpLookup: function(success, failure) {
         $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
         var countryCode = (resp && resp.country) ? resp.country : " ";
@@ -714,7 +717,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-var isValid = $("#phone_input").intlTelInput("isValidNumber");
+var isValid = iti.isValidNumber();
 
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
