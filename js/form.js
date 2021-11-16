@@ -675,8 +675,7 @@ window.intlTelInput(input, {
         var countryCode = (resp && resp.country) ? resp.country : " ";
         success(countryCode);
         });
-    },
-    utilsScript: "js/utils.js"
+    }
 });
 
 // заполнить выпадающий список странами
