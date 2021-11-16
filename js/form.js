@@ -735,7 +735,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 //var countryData = $("#demo").intlTelInput("getSelectedCountryData");
 
 // Получить более подробную информацию об ошибке валидации. 
-//var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
+
 
 var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
@@ -748,5 +748,5 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 // Вставить номер и, соответственно, обновить выбранный флаг.
 //$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
 
-
+var error = $("#phone_input").intlTelInput("get<a href='http://www.jqueryscript.net/tags.php?/Validation/'>Validation</a>Error");
 
