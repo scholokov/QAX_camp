@@ -61,6 +61,10 @@ $('form').submit(function (e) {
     
     console.log(pages);
     console.log(url);
+    
+    var chech_agree_flag = check_agree_send();
+    console.log('chech_agree: ' + chech_agree_flag);
+
     var check_name_flag = check_name();
     console.log('check_name: ' + check_name_flag);
 
