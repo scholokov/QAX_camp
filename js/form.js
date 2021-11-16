@@ -711,7 +711,6 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Изменить выбранную страну
 //$("#demo").intlTelInput("selectCountry", "gb");
