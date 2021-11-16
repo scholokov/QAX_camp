@@ -718,10 +718,9 @@ window.intlTelInput(input, {
     
     placeholderNumberType:"MOBILE",
     
-    preferredCountries: [],
+    preferredCountries: null,
     
     separateDialCode:false,
-    
     
     initialCountry: "auto",
 
