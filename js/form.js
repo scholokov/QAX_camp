@@ -470,7 +470,11 @@ function check_email() {
 
 
 
+var iti = window.intlTelInput(input, {
+            utilsScript: "js/utils.js"
+        });
 
+        var isValid = iti.isValidNumber();
 
 function check_phone() {
    
@@ -484,11 +488,7 @@ function check_phone() {
     var input = document.querySelector("#phone_input");
     //    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
     // var patternPhone = new RegExp(/^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$/);
-    var iti = window.intlTelInput(input, {
-            utilsScript: "js/utils.js"
-        });
-
-        var isValid = iti.isValidNumber();
+    
     var phone_clear = phone_input.val().trim();
 //    let phone = patternPhone.test(phone_clear);
     var phone_length_all = phone_clear.length;
@@ -728,7 +728,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-var isValid = $("#phone_input").intlTelInput("isValidNumber");
+//var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
