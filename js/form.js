@@ -703,10 +703,10 @@ window.intlTelInput(input, {
 });
 // заполнить выпадающий список странами
 
-var extension = $("#phone_input").intlTelInput("getExtension");
+var extension = iti.getExtension();
 
 // Получить текущий номер в данном формате
-var intlNumber = $("#phone_input").intlTelInput("getNumber");
+var intlNumber = iti.getNumber();
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
