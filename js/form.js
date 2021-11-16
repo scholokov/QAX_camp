@@ -671,10 +671,10 @@ window.intlTelInput(input, {
 
 // заполнить выпадающий список странами
 
-var extension = input.intlTelInput("getExtension");
+var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
-var intlNumber = input.intlTelInput("getNumber");
+var intlNumber = $("#phone_input").intlTelInput("getNumber");
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
@@ -685,7 +685,6 @@ var intlNumber = input.intlTelInput("getNumber");
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-var isValid = input.intlTelInput("isValidNumber");
+var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-
