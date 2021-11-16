@@ -61,7 +61,7 @@ $('form').submit(function (e) {
     
     console.log(pages);
     console.log(url);
-    
+
     var chech_agree_flag = check_agree_send();
     console.log('chech_agree: ' + chech_agree_flag);
 
@@ -717,3 +717,20 @@ var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
 $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
+
+var countryData = window.intlTelInputGlobals.getCountryData(),
+  input = document.querySelector("#phone_input");
+  var iti = window.intlTelInput(input, {
+    utilsScript: "js/utils.js" // just for formatting/placeholders etc
+  });
+  for (var i = 0; i < countryData.length; i++) {
+    var country = countryData[i];
+    var optionNode = document.createElement("option");
+    optionNode.value = country.iso2;
+    var textNode = document.createTextNode(country.name);
+    optionNode.appendChild(textNode);
+  }
+  input.addEventListener('change', function() {
+    iti.setCountry(this.value);
+  });
+  
