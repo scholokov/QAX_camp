@@ -653,7 +653,7 @@ addressDropdown.addEventListener('change', function() {
 var input = document.querySelector("#phone_input");
 
 var iti = window.intlTelInput(input, {
-    utilsScript: "../../build/js/utils.js"
+    utilsScript: "js/utils.js"
   });
 
 console.log= function() {};
