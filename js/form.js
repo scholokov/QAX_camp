@@ -74,7 +74,7 @@ $('form').submit(function (e) {
     console.log('check_email: ' + check_email_flag);
 
     // chech_agree_flag == false ||
-    if (check_name_flag == false || check_phone_flag == false || check_email_flag == false || check_comment_flag == false)
+    if (chech_agree_flag == false || check_name_flag == false || check_phone_flag == false || check_email_flag == false || check_comment_flag == false)
         return false;
 
 
