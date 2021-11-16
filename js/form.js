@@ -653,39 +653,6 @@ addressDropdown.addEventListener('change', function() {
 console.log= function() {};
 
 $("#phone_input").intlTelInput({
-
-    allowDropdown:true,
-    
-    autoHideDialCode:true,
-    
-    autoPlaceholder:"polite",
-    
-    customPlaceholder:null,
-    
-    dropdownContainer:null,
-    
-    excludeCountries: [],
-    
-    formatOnDisplay:true,
-    
-    geoIpLookup:null,
-    
-    hiddenInput:"",
-    
-    initialCountry:"",
-    
-    localizedCountries:null,
-    
-    nationalMode:true,
-    
-    onlyCountries: [],
-    
-    placeholderNumberType:"MOBILE",
-    
-    preferredCountries: [],
-    
-    separateDialCode:false,
-    
     utilsScript:"js/utils.js"
     });
 
