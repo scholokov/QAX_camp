@@ -680,6 +680,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
 var isValid = $("#phone_input").intlTelInput("isValidNumber");
+$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
 var input = document.querySelector("#phone_input");
