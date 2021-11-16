@@ -690,7 +690,7 @@ var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
   initialCountry: "auto",
   geoIpLookup: function(success, failure) {
-    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+    $.get('https://ipinfo.io',function () { }, "jsonp").done(function(resp) {
       var countryCode = (resp && resp.country) ? resp.country : " ";
       success(countryCode);
     });
@@ -716,7 +716,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
+var customeCode = function(){$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 var countryData = window.intlTelInputGlobals.getCountryData(),
   input = document.querySelector("#phone_input");
@@ -736,4 +736,4 @@ input.addEventListener('change', function() {
         initialCountry: "",
         geoIpLookup:null});
   });
-  
+}
