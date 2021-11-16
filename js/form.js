@@ -679,7 +679,7 @@ $("#phone_input").intlTelInput({
 });*/
 console.log= function() {};
 var input = document.querySelector("#phone_input");
-window.intlTelInput(input, {
+("#phone_input").intlTelInput({
     
     allowDropdown:true,
     
