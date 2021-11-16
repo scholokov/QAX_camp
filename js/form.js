@@ -671,10 +671,10 @@ window.intlTelInput(input, {
 
 // заполнить выпадающий список странами
 
-var extension = $("#phone_input").intlTelInput("getExtension");
+var extension = input.intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
-var intlNumber = $("#phone_input").intlTelInput("getNumber");
+var intlNumber = input.intlTelInput("getNumber");
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
@@ -685,27 +685,7 @@ var intlNumber = $("#phone_input").intlTelInput("getNumber");
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-var isValid = $("#phone_input").intlTelInput("isValidNumber");
+var isValid = input.intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
-var customeCode = function(){$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
-var countryData = window.intlTelInputGlobals.getCountryData(),
-  input = document.querySelector("#phone_input");
-var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js" // just for formatting/placeholders etc
-  });
-for (var i = 0; i < countryData.length; i++) {
-    var country = countryData[i];
-    var optionNode = document.createElement("option");
-    optionNode.value = country.iso2;
-    var textNode = document.createTextNode(country.name);
-    optionNode.appendChild(textNode);
-};
-input.addEventListener('change', function() {
-    iti.setCountry(this.value);
-    window.intlTelInput(input, {
-        initialCountry: "",
-        geoIpLookup:null});
-  });
-}
