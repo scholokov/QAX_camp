@@ -746,7 +746,9 @@ var iti = window.intlTelInput(input, {
   // Получить текущий номер в данном формате
   var intlNumber = iti.getNumber();
 
-  var reset = function() {
+  var isValid = iti.isValidNumber();
+
+  /*var reset = function() {
     var phone_input = $("#phone_input");
     var phone_line = $("#phone_input");
     var error_message_phone_empty = $("#error_message_phone_empty");
@@ -793,7 +795,7 @@ var iti = window.intlTelInput(input, {
     }
   });
   input.addEventListener('change', reset);
-  input.addEventListener('keyup', reset);
+  input.addEventListener('keyup', reset);*/
 
 
 window.intlTelInput(input, {
