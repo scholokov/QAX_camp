@@ -687,45 +687,16 @@ console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
     
-    allowDropdown:true,
-    
-    autoHideDialCode:true,
-    
-    autoPlaceholder:"polite",
-    
-    customPlaceholder:null,
-    
-    dropdownContainer:null,
-    
-    excludeCountries: [],
-    
-    formatOnDisplay:true,
-    
-    hiddenInput:"",
-    
-    initialCountry:"",
-    
-    localizedCountries:null,
-    
-    nationalMode:true,
-    
-    onlyCountries: [],
-    
-    placeholderNumberType:"MOBILE",
-    
-    preferredCountries: [],
-    
-    separateDialCode:false,
-    
     initialCountry: "auto",
 
-  geoIpLookup: function(success, failure) {
-    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "";
-      success(countryCode);
-    });
-  },
-  utilsScript: "js/utils.js"
+    geoIpLookup: function(success, failure) {
+        $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+        var countryCode = (resp && resp.country) ? resp.country : "";
+        success(countryCode);
+        });
+    },
+
+    utilsScript: "js/utils.js"
 });
 
 $("#phone_input").intlTelInput({
