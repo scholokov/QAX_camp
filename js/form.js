@@ -650,6 +650,10 @@ input.addEventListener('countrychange', function(e) {
 addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
+$("#phone_input").intlTelInput({
+    utilsScript:"js/utils.js"
+});
+
 console.log= function() {};
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
