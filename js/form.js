@@ -651,8 +651,9 @@ addressDropdown.addEventListener('change', function() {
   iti.setCountry(this.value);
 });*/
 var input = document.querySelector("#phone_input");
+
 var iti = window.intlTelInput(input, {
-    utilsScript: "../../build/js/utils.js?1613236686837"
+    utilsScript: "../../build/js/utils.js"
   });
 
 console.log= function() {};
