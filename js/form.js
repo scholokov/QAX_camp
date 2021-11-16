@@ -812,6 +812,9 @@ window.intlTelInput(input, {
     excludeCountries: [],
     
     formatOnDisplay:true,
+    
+    nationalMode:true,
+
     initialCountry: "auto",
     geoIpLookup: function(success, failure) {
         $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
