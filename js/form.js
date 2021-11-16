@@ -656,7 +656,44 @@ var iti = window.intlTelInput(input, {
   });
 
 console.log= function() {};
+intlTelInput(input, {
+    allowDropdown:true,
+    
+    autoHideDialCode:true,
+    
+    autoPlaceholder:"polite",
+    
+    customPlaceholder:null,
+    
+    dropdownContainer:null,
+    
+    excludeCountries: [],
+    
+    formatOnDisplay:true,
+    
+    geoIpLookup:null,
+    
+    hiddenInput:"",
+    
+    initialCountry:"",
+    
+    localizedCountries:null,
+    
+    nationalMode:true,
+    
+    onlyCountries: [],
+    
+    placeholderNumberType:"MOBILE",
+    
+    preferredCountries: ["ua"],
+    
+    separateDialCode:false,
+    
+    initialCountry: "auto",
+    
+    utilsScript:"js/utils.js"
 
+  });
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
     
@@ -699,7 +736,8 @@ window.intlTelInput(input, {
         var countryCode = (resp && resp.country) ? resp.country : " ";
         success(countryCode);
         });
-    }
+    },
+    utilsScript:"js/utils.js"
 });
 // заполнить выпадающий список странами
 
