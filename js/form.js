@@ -704,8 +704,6 @@ window.intlTelInput(input, {
     
     formatOnDisplay:true,
     
-    geoIpLookup:null,
-    
     hiddenInput:"",
     
     initialCountry:"",
