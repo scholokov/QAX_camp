@@ -652,11 +652,17 @@ addressDropdown.addEventListener('change', function() {
 });*/
 $("#phone_input").intlTelInput({
     allowDropdown:true,
+
     autoHideDialCode:true,
+
     autoPlaceholder:"polite",
+
     formatOnDisplay:true,
+
     placeholderNumberType:"MOBILE",
+
     separateDialCode:false,
+    
     utilsScript:"js/utils.js"
 });
 
