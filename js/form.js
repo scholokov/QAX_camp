@@ -813,6 +813,14 @@ window.intlTelInput(input, {
     
     formatOnDisplay:true,
     
+    hiddenInput:"",
+    
+    initialCountry:"",
+    
+    localizedCountries:null,
+    
+    nationalMode:true,
+    
     initialCountry: "auto",
     geoIpLookup: function(success, failure) {
         $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
