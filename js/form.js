@@ -687,106 +687,32 @@ console.log= function() {};
 
 
 
-var input = document.querySelector("#phone_input");
+   /* var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
-    
-    allowDropdown:true,
-    
-    autoHideDialCode:true,
-    
-    autoPlaceholder:"polite",
-    
-    customPlaceholder:null,
-    
-    dropdownContainer:null,
-    
-    excludeCountries: [],
-    
-    formatOnDisplay:true,
-    
-    hiddenInput:"",
-    
-    initialCountry:"",
-    
-    localizedCountries:null,
-    
-    nationalMode:true,
-    
-    onlyCountries: [],
-    
-    placeholderNumberType:"MOBILE",
-    
-    preferredCountries: [''],
-    
-    separateDialCode:false,
-    initialCountry: "auto",
+  initialCountry: "auto",
+  geoIpLookup: function(callback) {
+    $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "ua";
+      callback(countryCode);
+    });
+  },
+  utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
+$("#phone_input").intlTelInput({
+        defaultCountry: "auto",
+        geoIpLookup: function(callback) {
+          $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+            var countryCode = (resp && resp.country) ? resp.country : "ua";
+            callback(countryCode);
+          });
+        },
+        utilsScript: "js/utils.js" //для форматирования/плейсхолдера и т.д.
+});*/
 
-    geoIpLookup: function(success, failure) {
-        $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
-        var countryCode = (resp && resp.country) ? resp.country : "ua";
-        success(countryCode);
-        });
-    },
-
-    utilsScript: "js/utils.js"
-});
-var iti = window.intlTelInput(input, {
-    utilsScript: "js/utils.js"
-  });
-
-  var reset = function() {
-    var phone_input = $("#phone_input");
-    var phone_line = $("#phone_input");
-    var error_message_phone_empty = $("#error_message_phone_empty");
-    var error_message_phone_short = $("#error_message_phone_short");
-    var error_message_phone_plugin = $("#error_message_phone_plugin");
-    var error_message_phone_long = $("#error_message_phone_long");
-    var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
-    phone_line.css({ "border-color": "#212121" });
-        error_message_phone_empty.hide();
-        error_message_phone_plugin.hide();
-        error_message_phone_short.hide();
-        error_message_phone_long.hide();
-        error_message_phone_only_numbers.hide();
-  };
-  
-  // on blur: validate
-  input.addEventListener('blur', function() {
-    var phone_input = $("#phone_input");
-    var phone_line = $("#phone_input");
-    var error_message_phone_empty = $("#error_message_phone_empty");
-    var error_message_phone_short = $("#error_message_phone_short");
-    var error_message_phone_plugin = $("#error_message_phone_plugin");
-    var error_message_phone_long = $("#error_message_phone_long");
-    var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
-    reset();
-    if (input.value.trim()) {
-      if (iti.isValidNumber()) {
-        phone_line.css({ "border-color": "#212121" });
-            error_message_phone_empty.hide();
-            error_message_phone_plugin.hide();
-            error_message_phone_short.hide();
-            error_message_phone_long.hide();
-            error_message_phone_only_numbers.hide();
-            return true;
-      } else {
-            phone_line.css({ "border-color": "red" });
-            error_message_phone_plugin.show();
-            error_message_phone_short.hide();
-            error_message_phone_empty.hide();
-            error_message_phone_long.hide();
-            error_message_phone_only_numbers.hide();
-            return false;
-      }
-    }
-  });
-  input.addEventListener('change', reset);
-  input.addEventListener('keyup', reset);
-
-var extension = iti.getExtension();
+// Получить код страны
+var extension = $("#phone_input").intlTelInput("getExtension");
 
 // Получить текущий номер в данном формате
-var intlNumber = iti.getNumber();
+var intlNumber = $("#phone_input").intlTelInput("getNumber");
 
 // Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
 //var numberType = $("#demo").intlTelInput("getNumberType");
@@ -797,6 +723,26 @@ var intlNumber = iti.getNumber();
 // Получить более подробную информацию об ошибке валидации. 
 //var error = $("#demo").intlTelInput("get<a href="http://www.jqueryscript.net/tags.php?/Validation/">Validation</a>Error");
 
-
+var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
+$("#phone_input").intlTelInput("loadUtils", "js/utils.js");
+
+// Изменить выбранную страну
+//$("#demo").intlTelInput("selectCountry", "gb");
+
+// Вставить номер и, соответственно, обновить выбранный флаг.
+//$("#demo").intlTelInput("setNumber", "+44 7733 123 456");
+console.log= function() {};
+var input = document.querySelector("#phone_input");
+window.intlTelInput(input, {
+  initialCountry: "auto",
+  geoIpLookup: function(success, failure) {
+    $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "";
+      success(countryCode);
+    });
+  }
+});
+
+
