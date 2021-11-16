@@ -716,6 +716,13 @@ var iti = window.intlTelInput(input, {
   
   // on blur: validate
   input.addEventListener('blur', function() {
+    var phone_input = $("#phone_input");
+    var phone_line = $("#phone_input");
+    var error_message_phone_empty = $("#error_message_phone_empty");
+    var error_message_phone_short = $("#error_message_phone_short");
+    var error_message_phone_plugin = $("#error_message_phone_plugin");
+    var error_message_phone_long = $("#error_message_phone_long");
+    var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
     reset();
     if (input.value.trim()) {
       if (iti.isValidNumber()) {
