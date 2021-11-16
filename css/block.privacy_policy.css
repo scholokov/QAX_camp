@@ -32,3 +32,14 @@
 .privacy_qax_link:hover{
    color: #EF5B48; 
 }
+@media screen and (max-width: 600px){
+    .privacy_policy_main_block  {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+}
