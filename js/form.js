@@ -676,8 +676,31 @@ $("#phone_input").intlTelInput({
 //console.log= function() {};
 var input = document.querySelector("#phone_input");
 $("#phone_input").intlTelInput({
+    allowDropdown:true,
     
-    preferredCountries: ["ua"],
+    autoHideDialCode:true,
+    
+    autoPlaceholder:"polite",
+    
+    customPlaceholder:null,
+    
+    dropdownContainer:null,
+    
+    excludeCountries: [],
+    
+    formatOnDisplay:true,
+    
+    hiddenInput:"",
+    
+    localizedCountries:null,
+    
+    nationalMode:true,
+    
+    onlyCountries: [],
+    
+    placeholderNumberType:"MOBILE",
+    
+    preferredCountries: [],
 
     initialCountry: "auto",
 
