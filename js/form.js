@@ -663,9 +663,11 @@ $("#phone_input").intlTelInput({
     customPlaceholder:null,
     
     dropdownContainer:null,
+
+    excludeCountries: [],
     
     formatOnDisplay:true,
-    
+
     hiddenInput:"",
     
     initialCountry:"",
@@ -673,6 +675,8 @@ $("#phone_input").intlTelInput({
     geoIpLookup:null,
     
     localizedCountries:null,
+
+    onlyCountries: [],
     
     nationalMode:true,
     
