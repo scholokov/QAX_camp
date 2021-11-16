@@ -664,7 +664,6 @@ console.log= function() {};
 
 var input = document.querySelector("#phone_input");
 window.intlTelInput(input, {
-    allowDropdown:true,
     initialCountry: "auto",
     geoIpLookup: function(success, failure) {
         $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
