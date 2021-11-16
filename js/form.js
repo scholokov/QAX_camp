@@ -720,17 +720,17 @@ $("#phone_input").intlTelInput("loadUtils", "js/utils.js");
 
 var countryData = window.intlTelInputGlobals.getCountryData(),
   input = document.querySelector("#phone_input");
-  var iti = window.intlTelInput(input, {
+var iti = window.intlTelInput(input, {
     utilsScript: "js/utils.js" // just for formatting/placeholders etc
   });
-  for (var i = 0; i < countryData.length; i++) {
+for (var i = 0; i < countryData.length; i++) {
     var country = countryData[i];
     var optionNode = document.createElement("option");
     optionNode.value = country.iso2;
     var textNode = document.createTextNode(country.name);
     optionNode.appendChild(textNode);
-  }
-  input.addEventListener('change', function() {
+};
+input.addEventListener('change', function() {
     iti.setCountry(this.value);
   });
   
