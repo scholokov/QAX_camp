@@ -397,7 +397,7 @@
 										</div>
 										<div id="success-cases-info-block3">
 											<div class="feedback-text">L1 support engineer </div>
-											<div class="feedback-text">5 year of overall NON-IT Experiance</div>
+											<div class="feedback-text">5 year of overall NON-IT Experience</div>
 										</div>
 									</div>
 								</div>
@@ -422,7 +422,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Заступник директору <br>магазину елекроніки </div>
-												<div class="feedback-text">3 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">3 year of overall NON-IT Experience</div>
 											</div>
 										</div>
 									</div>
@@ -447,7 +447,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Інженер-конструктор</div>
-												<div class="feedback-text">4 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">4 year of overall NON-IT Experience</div>
 											</div>
 										</div>
 									</div>
@@ -473,7 +473,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Керуючий банківським<br> відділенням</div>
-												<div class="feedback-text">22 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">22 year of overall NON-IT Experience</div>
 											</div>
 										</div>
 									</div>
@@ -499,7 +499,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Офіціант - адміністратор</div>
-												<div class="feedback-text">4 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">4 year of overall NON-IT Experience</div>
 											</div>
 										</div>
 									</div>
@@ -543,7 +543,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">L1 support engineer </div>
-												<div class="feedback-text">5 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">5 year of overall NON-IT Experience</div>
 										</div>
 								</div>
 							</div>
@@ -570,7 +570,7 @@
 									</div>
 									<div id="success-cases-info-block3">
 										<div class="feedback-text">Заступник директору <br>магазину елекроніки </div>
-										<div class="feedback-text">3 year of overall NON-IT Experiance</div>
+										<div class="feedback-text">3 year of overall NON-IT Experience</div>
 									</div>
                 			</div>
 						</div>
@@ -599,7 +599,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Інженер-конструктор</div>
-												<div class="feedback-text">4 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">4 year of overall NON-IT Experience</div>
 										</div>
 								</div>
 							</div>
@@ -628,7 +628,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Керуючий банківським<br> відділенням</div>
-												<div class="feedback-text">22 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">22 year of overall NON-IT Experience</div>
 										</div>
 								</div>
 							</div>
@@ -656,7 +656,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Офіціант - адміністратор</div>
-												<div class="feedback-text">4 year of overall NON-IT Experiance</div>
+												<div class="feedback-text">4 year of overall NON-IT Experience</div>
 											</div>
 										</div>	
 							</div>			
