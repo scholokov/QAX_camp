@@ -531,6 +531,7 @@
 									</div>
 							</div>
 
+							<div class="feedbackSlides">
 							<div id="success-cases-block">
 										<div id="success-cases-duration">4 місяці</div>
 										
