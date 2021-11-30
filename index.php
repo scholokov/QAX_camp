@@ -528,7 +528,7 @@
 												<div class="feedback-text">12 year of overall NON-IT Experience</div>
 											</div>
 										</div>
-									</div>
+									
 							</div>
 
 							<div class="feedbackSlides">
@@ -553,7 +553,7 @@
 												<div class="feedback-text">Гірничий інженер ( добуток корисних копалин)</div>
 												<div class="feedback-text">9 year of overall NON-IT Experience</div>
 											</div>
-										</div>
+										
 									</div>
 							</div>
 
@@ -579,7 +579,7 @@
 												<div class="feedback-text">Бухгалтер в області міжнародної логістики</div>
 												<div class="feedback-text">8 year of overall NON-IT Experience</div>
 											</div>
-										</div>
+										
 									</div>
 							</div>
 							<div class="feedbackSlides">
@@ -606,7 +606,7 @@
 											</div>
 										</div>
 									</div>
-									</div>
+									
 							</div>
 						</div>
 							<!----<ul id="dots">   
