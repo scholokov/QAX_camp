@@ -606,6 +606,7 @@
 											</div>
 										</div>
 									</div>
+									</div>
 							</div>
 						</div>
 							<!----<ul id="dots">   
