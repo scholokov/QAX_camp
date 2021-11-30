@@ -34,7 +34,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>QAX Camp - About Us</title>
+	<title>QAX Camp - Our Trainers</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<script>
