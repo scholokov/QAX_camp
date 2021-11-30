@@ -512,7 +512,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Olesia Tychynina
-												<a target="_blank" href="https://www.linkedin.com/in/olesia-tychynina-05470b1b7/">
+												<a target="_blank" href="https://www.linkedin.com/in/olesia-tychynina-05470b1b7/" class="feedback_linkedin_icon_link">
 												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 											</a>
 												</div>
@@ -538,7 +538,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Dmytro Hranovskyi
-												<a target="_blank" href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%B3%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-7bba0a1b0/">
+												<a target="_blank" href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%B3%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-7bba0a1b0/" class="feedback_linkedin_icon_link">
 												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 											</a>
 												</div>
@@ -564,7 +564,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Iurii Bugar
-												<a target="_blank" href="https://www.linkedin.com/in/iurii-bugar-ba76b553/">
+												<a target="_blank" href="https://www.linkedin.com/in/iurii-bugar-ba76b553/" class="feedback_linkedin_icon_link">
 												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 											</a>
 												</div>
@@ -589,7 +589,7 @@
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
 												<div class="feedback-author">Julia Rabovich
-												<a target="_blank" href="https://www.linkedin.com/in/julia-rabovich-522b3820b/">
+												<a target="_blank" href="https://www.linkedin.com/in/julia-rabovich-522b3820b/" class="feedback_linkedin_icon_link">
 												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 											</a>
 												</div>
