@@ -838,6 +838,7 @@
 												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 													</a>
 												</div>
+												</div>
 												<div class="feedback-job">JQA Engineer</div>
 												<div class="feedback-text">PJSC BANK VOSTOK</div>
 											</div>
@@ -853,7 +854,7 @@
 									
 								</div>
 
-								<div id="success-cases-block">
+							<div id="success-cases-block">
 										<div id="success-cases-duration">4 місяці</div>
 										<div id="success-cases-arrow-mob">
 											<img src="images/Arrow_success.svg" alt=arrow>
@@ -866,6 +867,7 @@
 													<a target="_blank" href="https://www.linkedin.com/in/julia-rabovich-522b3820b/" class="feedback_linkedin_link">
 												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 													</a>
+												</div>
 												</div>
 												<div class="feedback-job">QA engineer</div>
 												<div class="feedback-text">Playtech</div>
