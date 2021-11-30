@@ -791,7 +791,7 @@
 												<div class="feedback-text">12 year of overall NON-IT Experience</div>
 											</div>
 										</div>
-									</div>
+									
 							</div>	
 							
 							<div id="success-cases-block">
@@ -821,7 +821,7 @@
 													<div class="feedback-text">9 year of overall NON-IT Experience</div>
 												</div>
 											</div>
-										</div>
+										
 							</div>
 							
 							<div id="success-cases-block">
@@ -850,7 +850,7 @@
 												<div class="feedback-text">8 year of overall NON-IT Experience</div>
 											</div>
 										</div>
-									</div>
+									
 								</div>
 
 								<div id="success-cases-block">
