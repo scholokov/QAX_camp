@@ -605,8 +605,7 @@
 												<div class="feedback-text">9 year of overall NON-IT Experience</div>
 											</div>
 										</div>
-									</div>
-									</div>
+									
 							</div>
 						</div>
 							<!----<ul id="dots">   
