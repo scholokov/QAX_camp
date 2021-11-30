@@ -529,7 +529,7 @@ function check_phone() {
         return false;
     }*/
     else if ($.trim(phone_input.val())) {
-          if (phone_input.intlTelInput("isValidNumber")) {
+          if (isValid) {
             phone_line.css({ "border-color": "#212121" });
             error_message_phone_empty.hide();
             error_message_phone_plugin.hide();
