@@ -504,6 +504,108 @@
 										</div>
 									</div>
 							</div>
+
+							<div class="feedbackSlides">
+							<div id="success-cases-block">
+										<div id="success-cases-duration">5 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Olesia Tychynina
+												<a target="_blank" href="https://www.linkedin.com/in/olesia-tychynina-05470b1b7/">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+											</a>
+												</div>
+												<div class="feedback-job">Manual QA</div>
+												<div class="feedback-text">Kevuru Games</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Спеціаліст - подолог</div>
+												<div class="feedback-text">12 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+							</div>
+
+							<div id="success-cases-block">
+										<div id="success-cases-duration">4 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Dmytro Hranovskyi
+												<a target="_blank" href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%B3%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-7bba0a1b0/">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+											</a>
+												</div>
+												<div class="feedback-job">QA engineer</div>
+												<div class="feedback-text">	Playtech</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Гірничий інженер ( добуток корисних копалин)</div>
+												<div class="feedback-text">9 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+							</div>
+
+							<div class="feedbackSlides">
+							<div id="success-cases-block">
+										<div id="success-cases-duration">4 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Iurii Bugar
+												<a target="_blank" href="https://www.linkedin.com/in/iurii-bugar-ba76b553/">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+											</a>
+												</div>
+												<div class="feedback-job">JQA Engineer</div>
+												<div class="feedback-text">PJSC BANK VOSTOK</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Бухгалтер в області міжнародної логістики</div>
+												<div class="feedback-text">8 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+							</div>
+							<div class="feedbackSlides">
+							<div id="success-cases-block">
+										<div id="success-cases-duration">4 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Julia Rabovich
+												<a target="_blank" href="https://www.linkedin.com/in/julia-rabovich-522b3820b/">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+											</a>
+												</div>
+												<div class="feedback-job">QA engineer</div>
+												<div class="feedback-text">Playtech</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Інженер-електронщик</div>
+												<div class="feedback-text">9 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+							</div>
 						</div>
 							<!----<ul id="dots">   
 								<li class="active"></li>
@@ -659,10 +761,125 @@
 												<div class="feedback-text">4 year of overall NON-IT Experience</div>
 											</div>
 										</div>	
-							</div>			
+							</div>	
+
+							<div id="success-cases-block">
+										<div id="success-cases-duration">5 місяці</div>
+										<div id="success-cases-arrow-mob">
+											<img src="images/Arrow_success.svg" alt=arrow>
+										</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+											<div class="feedback-author">
+												<div class="feedback_linkedin_name">Olesia Tychynina</div>
+												<div class="feedback_linkedin_link_block">
+													<a target="_blank" href="https://www.linkedin.com/in/olesia-tychynina-05470b1b7/">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+													</a>
+												</div>
+											</div>
+												<div class="feedback-job">Manual QA</div>
+												<div class="feedback-text">Kevuru Games</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Спеціаліст - подолог</div>
+												<div class="feedback-text">12 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+							</div>	
 							
+							<div id="success-cases-block">
+										<div id="success-cases-duration">4 місяці</div>
+										<div id="success-cases-arrow-mob">
+											<img src="images/Arrow_success.svg" alt=arrow>
+										</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">
+													<div class="feedback_linkedin_name">Dmytro Hranovskyi</div>
+													<div class="feedback_linkedin_link_block">
+														<a target="_blank" href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%B3%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-7bba0a1b0/">
+													<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+														</a>
+													</div>
+												</div>
+												<div class="feedback-job">QA engineer</div>
+													<div class="feedback-text">	Playtech</div>
+												</div>
+												<div id="success-cases-info-block2">
+													<div class="feedback-text">QA Manual</div>
+													<div class="feedback-text">QAX Camp</div>
+												</div>
+												<div id="success-cases-info-block3">
+													<div class="feedback-text">Гірничий інженер ( добуток корисних копалин)</div>
+													<div class="feedback-text">9 year of overall NON-IT Experience</div>
+												</div>
+											</div>
+										</div>
+							</div>
 							
-							
+							<div id="success-cases-block">
+										<div id="success-cases-duration">4 місяці</div>
+										<div id="success-cases-arrow-mob">
+											<img src="images/Arrow_success.svg" alt=arrow>
+										</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+											<div class="feedback-author">
+												<div class="feedback_linkedin_name">Iurii Bugar</div>
+												<div class="feedback_linkedin_link_block">
+													<a target="_blank" href="https://www.linkedin.com/in/iurii-bugar-ba76b553/">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+													</a>
+												</div>
+												<div class="feedback-job">JQA Engineer</div>
+												<div class="feedback-text">PJSC BANK VOSTOK</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Бухгалтер в області міжнародної логістики</div>
+												<div class="feedback-text">8 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div id="success-cases-block">
+										<div id="success-cases-duration">4 місяці</div>
+										<div id="success-cases-arrow-mob">
+											<img src="images/Arrow_success.svg" alt=arrow>
+										</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+											<div class="feedback-author">
+												<div class="feedback_linkedin_name">Julia Rabovich</div>
+												<div class="feedback_linkedin_link_block">
+													<a target="_blank" href="https://www.linkedin.com/in/julia-rabovich-522b3820b/">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+													</a>
+												</div>
+												<div class="feedback-job">QA engineer</div>
+												<div class="feedback-text">Playtech</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Інженер-електронщик</div>
+												<div class="feedback-text">9 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+								</div>
 						
 
 						</div>	
