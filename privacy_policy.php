@@ -36,7 +36,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>QAX Camp - About Us</title>
+	<title>QAX Camp - Privacy Policy</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<script>
