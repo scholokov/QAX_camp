@@ -471,7 +471,59 @@ function check_email() {
 
 
 
+$("#phone_input").intlTelInput({
+    allowDropdown:true,
+    
+    autoHideDialCode:true,
+    
+    autoPlaceholder:"polite",
+    
+    customPlaceholder:null,
+    
+    dropdownContainer:null,
+    
+    excludeCountries: [],
+    
+    formatOnDisplay:true,
+    
+    hiddenInput:"",
+    
+    localizedCountries:null,
+    
+    nationalMode:true,
+    
+    onlyCountries: [],
+    
+    placeholderNumberType:"MOBILE",
+    
+    preferredCountries: [],
 
+    initialCountry: "auto",
+
+    geoIpLookup: function(success, failure) {
+        $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
+        var countryCode = (resp && resp.country) ? resp.country : "ua";
+        success(countryCode);
+        });
+    },
+    utilsScript:"js/utils.js"
+});
+// Получить код страны
+var extension = $("#phone_input").intlTelInput("getExtension");
+
+// Получить текущий номер в данном формате
+var intlNumber = $("#phone_input").intlTelInput("getNumber");
+
+// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
+//var numberType = $("#demo").intlTelInput("getNumberType");
+
+// Получить данные по стране для выбранного флага.
+//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
+
+// Получить более подробную информацию об ошибке валидации. 
+
+
+var isValid = $("#phone_input").intlTelInput("isValidNumber");
 function check_phone() {
     var phone_input = $("#phone_input");
     var phone_line = $("#phone_input");
@@ -675,59 +727,7 @@ $("#phone_input").intlTelInput({
 });*/
 //console.log= function() {};
 var input = document.querySelector("#phone_input");
-$("#phone_input").intlTelInput({
-    allowDropdown:true,
-    
-    autoHideDialCode:true,
-    
-    autoPlaceholder:"polite",
-    
-    customPlaceholder:null,
-    
-    dropdownContainer:null,
-    
-    excludeCountries: [],
-    
-    formatOnDisplay:true,
-    
-    hiddenInput:"",
-    
-    localizedCountries:null,
-    
-    nationalMode:true,
-    
-    onlyCountries: [],
-    
-    placeholderNumberType:"MOBILE",
-    
-    preferredCountries: [],
 
-    initialCountry: "auto",
-
-    geoIpLookup: function(success, failure) {
-        $.get('https://ipinfo.io',function () { }, "jsonp").always(function(resp) {
-        var countryCode = (resp && resp.country) ? resp.country : "ua";
-        success(countryCode);
-        });
-    },
-    utilsScript:"js/utils.js"
-});
-// Получить код страны
-var extension = $("#phone_input").intlTelInput("getExtension");
-
-// Получить текущий номер в данном формате
-var intlNumber = $("#phone_input").intlTelInput("getNumber");
-
-// Получить тип (фиксированный/мобильный/бесплатный и т.д.) текущего номера. 
-//var numberType = $("#demo").intlTelInput("getNumberType");
-
-// Получить данные по стране для выбранного флага.
-//var countryData = $("#demo").intlTelInput("getSelectedCountryData");
-
-// Получить более подробную информацию об ошибке валидации. 
-
-
-var isValid = $("#phone_input").intlTelInput("isValidNumber");
 
 // Загрузить скрипт utils.js (находится в каталоге lib) для всключения форматирования\валидации и др.
 
