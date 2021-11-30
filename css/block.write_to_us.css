@@ -292,6 +292,7 @@ div#error_message_agree_empty {
      background-color: #212121 !important;
   }
   #agree-checkbox {
+    margin-bottom: 18px;
     display: flex;
     text-transform: inherit;
     height: 54px;
