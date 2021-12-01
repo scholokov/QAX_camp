@@ -48,8 +48,8 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="favicon-114x114.png" />
 
 	<link rel="apple-touch-icon" sizes="144x144" href="favicon-144x144.png" />
-	<script src="https://unpkg.com/spacingjs" defer></script>
-		<script src="//cdn.jsdelivr.net/npm/spacingjs" defer></script>
+		<script src="https://unpkg.com/spacingjs" defer></script>
+		<script src="https://cdn.jsdelivr.net/npm/spacingjs" defer></script>
 	<script>
 		function readTextFile(file, callback) {
 			var rawFile = new XMLHttpRequest();
