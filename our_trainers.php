@@ -337,6 +337,115 @@
 
 									</div>
                             </div>
+                        </div>
+						</div>
+
+
+
+						<div class="trainer">
+                            <div class="trainer-photo">
+                                <img class="trainer-img" src="images/OK-trainer.png"  alt="trainer">
+                            </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/OK-trainer-mob.svg"  alt="trainer">
+                            </div>
+                            <div class="trainer-info" >
+								<div class="linkedin-logo">
+									<a target="_blank" href="https://www.linkedin.com/in/olga-kompanets/" class="trainers_linkedin_icon_link">
+									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+								</a>
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name">Ольга Компанець </div>
+									<div class="trainer-post">Trainer</div>
+										<div class="trainer-name-block-tab">
+											<div class="linkedin-logo-tablet">
+												<a target="_blank" href="https://www.linkedin.com/in/olga-kompanets/" class="trainers_linkedin_icon_link">
+													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+												</a>
+											</div>
+											<div class="">
+												<div class="trainer-name-tab">Ольга Компанець</div>
+												<div class="trainer-post-tab">Trainer</div>
+											</div>
+										</div>
+									<div class="trainer-experience">
+									<p class="trainer-experience-title">Досвід роботи 6 років:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+										<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Senior Technical Recruiter в UPC<br></td></tr>
+										<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td> <td>–</td> <td>Team Lead of Technical Recruitment в Squro<br></td></tr>
+										<tr class="experience-tr"><td>2019</td> <td>–</td> <td>2019</td> <td>–</td> <td>Recruitment Consultant в Ciklum<br></td></tr>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2019</td> <td>– </td><td>Team Lead of Recruitment Department в Ignite LLC<br></td></tr>
+										<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2018</td> <td>– </td><td>Head of HR в Zakaz.ua<br></td></tr>
+										<tr class="experience-tr"><td>2015</td> <td>–</td> <td>2016</td> <td>– </td><td>Business and HR administrator в GVMachines Inc.</td></tr>
+									</table>
+									</p>
+									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+									<tr class="experience-tr"><td>2021</td> <td>–</td>  <td>зараз</td>  <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									</table>
+								</p>
+									</p>
+									</div>
+                            </div>
+						</div>
+                        </div>
+
+
+						<div class="trainer ">
+                            <div class="trainer-photo">
+                                <img class="trainer-img" src="images/DK-trainer.svg"  alt="trainer">
+                            </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/DK-trainer-mob.svg"  alt="trainer">
+                            </div>
+                            <div class="trainer-info ">
+							<div class="linkedin-logo">
+									<a target="_blank" href="https://www.linkedin.com/in/dariyakazarinova/" class="trainers_linkedin_icon_link">
+									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+								</a>
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name">Дарія Казарінова</div>
+									<div class="trainer-post">Trainer</div>
+									<div class="trainer-name-block-tab">
+										<div class="linkedin-logo-tablet">
+												<a target="_blank" href="https://www.linkedin.com/in/dariyakazarinova/" class="trainers_linkedin_icon_link">
+													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+												</a>
+											</div>
+											<div class="">
+												<div class="trainer-name-tab">Дарія Казарінова</div>
+												<div class="trainer-post-tab">Trainer</div>
+											</div>
+										</div>
+									<div class="trainer-experience">
+									<p class="trainer-experience-title">Досвід роботи 10 років:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table"><tr class="experience-tr">
+										<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>Recruitment Team Lead в Tango Me <br></td></tr>
+										<tr class="experience-tr"><td>2021</td> <td>–</td> <td>2021 </td> <td>–</td> <td>Team Lead of Product & Marketing Recruitment team в Squro<br></td></tr>
+
+										<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td><td>–</td> <td>Talent Acquisition Team Lead Art Division в Room 8 Studio<br></td></tr>
+
+										<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2020</td><td>–</td><td>Senior IT Recruiter та Talent Acquisition Team Lead в 8allocate <br></td></tr>
+										<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2017</td><td>–</td> <td>Senior IT Recruiter в Playtini  <br></td></tr>
+										<tr class="experience-tr"><td>2015</td> <td>–</td> <td>2016</td><td>–</td> <td>Recruitment Specialist в Kyivstar  <br></td></tr>
+										<tr class="experience-tr"><td>2014</td> <td>–</td> <td>2014</td><td>–</td> <td>HR Manager в OMD Ukraine  <br></td></tr>
+										<tr class="experience-tr"><td>2010</td> <td>–</td> <td>2014</td><td>–</td> <td>Research Analyst та Recruitment Officer в Ward Howell International  <br></td></tr>
+									</table>
+								</p>
+									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									</table>
+								</p>
+
+									</div>
+                            </div>
                             
 
                         </div>
