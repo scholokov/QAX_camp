@@ -935,7 +935,7 @@
 											</div>
 											<div id="success-cases-info-block3">
 												<div class="feedback-text">Chief Legal Officer</div>
-												<div class="feedback-text">9 year of overall NON-IT Experience</div>
+												<div class="feedback-text">13 year of overall NON-IT Experience</div>
 											</div>
 										</div>
 									</div>
