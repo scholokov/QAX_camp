@@ -441,7 +441,7 @@
 													<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
 												</a></div>
 												<div class="feedback-job">QA Engineer</div>
-												<div class="feedback-text">Playtech</div>
+												<div class="feedback-text">PixelTeh</div>
 											</div>
 											<div id="success-cases-info-block2">
 												<div class="feedback-text">QA Manual</div>
@@ -721,7 +721,7 @@
 													</div>
 												</div>
 												<div class="feedback-job">QA Engineer</div>
-												<div class="feedback-text">Playtech</div>
+												<div class="feedback-text">PixelTeh</div>
 											</div>
 											<div id="success-cases-info-block2">
 												<div class="feedback-text">QA Manual</div>
