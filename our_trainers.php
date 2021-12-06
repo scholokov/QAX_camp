@@ -344,7 +344,7 @@
 
 						<div class="trainer">
                             <div class="trainer-photo">
-                                <img class="trainer-img" src="images/OK-trainer.png"  alt="trainer">
+                                <img class="trainer-img" src="images/OK-trainer.svg"  alt="trainer">
                             </div>
 							<div class="trainer-photo-mob">
                                 <img class="trainer-img-mob" src="images/OK-trainer-mob.svg"  alt="trainer">
