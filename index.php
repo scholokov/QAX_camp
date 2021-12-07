@@ -380,6 +380,31 @@
 										<img src="images/Arrow_success.svg" alt=arrow id="success-cases-arrow-img">
 						</div>
 						<div class="slick-slider-desktop">
+						<div class="feedbackSlides">
+							<div id="success-cases-block">
+										<div id="success-cases-duration">3 місяці</div>
+										
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+												<div class="feedback-author">Valentyna Tipaieva
+												<a target="_blank" href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" class="feedback_linkedin_icon_link">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+											</a>
+												</div>
+												<div class="feedback-job">QA engineer</div>
+												<div class="feedback-text">PNN Soft</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Chief Legal Officer</div>
+												<div class="feedback-text">13 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+							</div>
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
 										<div id="success-cases-duration">5 місяців</div>
@@ -482,31 +507,7 @@
 										</div>
 									</div>
 							</div>
-							<div class="feedbackSlides">
-							<div id="success-cases-block">
-										<div id="success-cases-duration">3 місяці</div>
-										
-										<div id="success-cases-info">
-											<div id="success-cases-info-block1">
-												<div class="feedback-author">Valentyna Tipaieva
-												<a target="_blank" href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" class="feedback_linkedin_icon_link">
-												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
-											</a>
-												</div>
-												<div class="feedback-job">QA engineer</div>
-												<div class="feedback-text">PNN Soft</div>
-											</div>
-											<div id="success-cases-info-block2">
-												<div class="feedback-text">QA Manual</div>
-												<div class="feedback-text">QAX Camp</div>
-											</div>
-											<div id="success-cases-info-block3">
-												<div class="feedback-text">Chief Legal Officer</div>
-												<div class="feedback-text">13 year of overall NON-IT Experience</div>
-											</div>
-										</div>
-									</div>
-							</div>
+						
 							<div class="feedbackSlides">
 								<div id="success-cases-block">
 									<div id="success-cases-duration">4 місяці</div>
@@ -650,6 +651,34 @@
 						<!----<img src="images/Arrow_success.svg" alt=arrow class="success-cases-arrow-mob">-->
 						<div class="slick-slider-mob col-md-10 offset-md-1">
 						<div id="success-cases-block">
+										<div id="success-cases-duration">3 місяці</div>
+										<div id="success-cases-arrow-mob">
+											<img src="images/Arrow_success.svg" alt=arrow>
+										</div>
+										<div id="success-cases-info">
+											<div id="success-cases-info-block1">
+											<div class="feedback-author">
+												<div class="feedback_linkedin_name">Valentyna Tipaieva</div>
+												<div class="feedback_linkedin_link_block">
+													<a target="_blank" href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" class="feedback_linkedin_link">
+												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
+													</a>
+												</div>
+												</div>
+												<div class="feedback-job">QA engineer</div>
+												<div class="feedback-text">PNN Soft</div>
+											</div>
+											<div id="success-cases-info-block2">
+												<div class="feedback-text">QA Manual</div>
+												<div class="feedback-text">QAX Camp</div>
+											</div>
+											<div id="success-cases-info-block3">
+												<div class="feedback-text">Chief Legal Officer</div>
+												<div class="feedback-text">13 year of overall NON-IT Experience</div>
+											</div>
+										</div>
+									</div>
+						<div id="success-cases-block">
 										<div id="success-cases-duration">5 місяців</div>
 										<div id="success-cases-arrow-mob">
 											<img src="images/Arrow_success.svg" alt=arrow>
@@ -769,34 +798,6 @@
 									</div>
 								
 						
-									<div id="success-cases-block">
-										<div id="success-cases-duration">3 місяці</div>
-										<div id="success-cases-arrow-mob">
-											<img src="images/Arrow_success.svg" alt=arrow>
-										</div>
-										<div id="success-cases-info">
-											<div id="success-cases-info-block1">
-											<div class="feedback-author">
-												<div class="feedback_linkedin_name">Valentyna Tipaieva</div>
-												<div class="feedback_linkedin_link_block">
-													<a target="_blank" href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" class="feedback_linkedin_link">
-												<!--<img src="images/LinkedIn.svg" class="feedback_linkedin_icon" alt="linkedin">-->
-													</a>
-												</div>
-												</div>
-												<div class="feedback-job">QA engineer</div>
-												<div class="feedback-text">PNN Soft</div>
-											</div>
-											<div id="success-cases-info-block2">
-												<div class="feedback-text">QA Manual</div>
-												<div class="feedback-text">QAX Camp</div>
-											</div>
-											<div id="success-cases-info-block3">
-												<div class="feedback-text">Chief Legal Officer</div>
-												<div class="feedback-text">13 year of overall NON-IT Experience</div>
-											</div>
-										</div>
-									</div>
 						<div class="success-cases-block">
 								<div id="success-cases-duration">4 місяці</div>
 								<div id="success-cases-arrow-mob">
