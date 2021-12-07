@@ -509,7 +509,7 @@
 
 							<div class="feedbackSlides">
 							<div id="success-cases-block">
-										<div id="success-cases-duration">5 місяці</div>
+										<div id="success-cases-duration">5 місяців</div>
 										
 										<div id="success-cases-info">
 											<div id="success-cases-info-block1">
@@ -792,7 +792,7 @@
 							</div>	
 
 							<div id="success-cases-block">
-										<div id="success-cases-duration">5 місяці</div>
+										<div id="success-cases-duration">5 місяців</div>
 										<div id="success-cases-arrow-mob">
 											<img src="images/Arrow_success.svg" alt=arrow>
 										</div>
