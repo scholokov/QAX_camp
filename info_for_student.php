@@ -92,9 +92,9 @@
                    
                     <ol id="info_for_student_steps_block">
                             <li>1.Для спілкування з командою, а також, щоб 
-                                не пропустити важливі повідомлення, приєднуйся до нашого Telegram-чату</li>
+                                не пропустити важливі повідомлення, приєднуйся до нашого <a target="_blank" href="https://t.me/+IFd8fztXs1_FXSfq">Telegram-чату<a></li>
                             <li>2.Відправ свій Gmail в особисті повідомлення Denis Scholokov.
-                                (Важко знайти? Тоді клікай Denis Scholokov)</li>
+                                (Важко знайти? Тоді клікай <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a>)</li>
                             <li>3.Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
                                 <img class="info_for_student_steps_img" src="images/info1.png"></li>
                             <li>4.В своєму Google-акаунті відкрий меню сервісів Google
@@ -105,18 +105,18 @@
                                 Тепер Календар синхронізовано!
                                 <img class="info_for_student_steps_img" src="images/info4.svg"></li>
                             <li>7.Щоб спілкування було комфортним, не забудь перевірити свою камеру та мікрофон перед підключенням. 
-                                Зручно це зробити тут: Webcam test - Check camera online   </li>
+                                Зручно це зробити тут: <a target="_blank" href="https://webcammictest.com/">Webcam test - Check camera online </a>  </li>
                             <li>8.У відповідний час клікай на зустріч у Календарі та вибирай “Приєднатися” через Google Meet. 
                                 Кожна зустріч має свій окремий лінк! <br>
                                 Після закінчення зустрічі повернись в Google Календар та обирай наступну зустріч. 
-                                (Докладніше про Google Meet можеш почитати тут: Google Meet Довідка )
+                                (Докладніше про Google Meet можеш почитати тут: <a target="_blank" href="https://support.google.com/meet/?hl=uk#topic=7306097">Google Meet Довідка</a> )
                                 <img class="info_for_student_steps_img" src="images/info5.svg"></li>
                             <li>9.Бажано відвідати всі зустрічі, але якщо не можеш бути присутнім, не хвилюйся, після тестового періоду у   
                                 тебе буде доступ до всіх архівів зустрічей.</li>
                                 
                     </ol>
                     
-                    <p>Сподіваємось, в тебе все вийшло! До зустрічі! Якщо ні, звернись до Denis Scholokov</p>
+                    <p>Сподіваємось, в тебе все вийшло! До зустрічі! Якщо ні, звернись до <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a></p>
 					</div>
                     
 					
