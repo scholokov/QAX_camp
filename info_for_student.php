@@ -67,7 +67,7 @@
 		============================================= -->
 		<header>
 			<div class="header-menu" id="header-block">
-				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
+				<a href="index.php"><img src="images/new_logo.svg" alt="Logo" id="logo"></a>
 			</div>
 		</header><!-- #header end -->
 
