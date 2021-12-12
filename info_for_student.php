@@ -21,17 +21,7 @@
 
 	
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
-	<link rel="stylesheet" href="css/footer.css" type="text/css" />
 	<link rel="stylesheet" href="css/header.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.about_us.css" type="text/css" />
-	<link rel="stylesheet" href="css/intlTelInput.css">
 	<link rel="stylesheet" href="css/block.privacy_policy.css" type="text/css" />
     <link rel="stylesheet" href="css/info_for_student.css" type="text/css" />
 
@@ -90,15 +80,17 @@
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap" id="privacy_policy">
-				<div class="privacy_policy_main_block container clearfix">
+				<div class="info_for_student_main_block container clearfix">
 					<div id="privacy_policy_content">
-						
+
+					<img src="images/stud_info_main.svg">
+
 					 <p><b>Вітаємо тебе у нашій крутій команді QAX! </b></p>
 
                      <p>Аби зробити твій старт максимально комфортним ми підготували докладну інструкцію! </p>
 
                    
-                     <img src="images/stud_info_main.svg">
+                     
 
                      <ol>
                          <li>Для спілкування з командою, а також, щоб 
@@ -106,7 +98,7 @@
                          <li>Відправ свій Gmail в особисті повідомлення Denis Scholokov.
                              (Важко знайти? Тоді клікай Denis Scholokov)</li>
                          <li>Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
-                             <img src="images/info1.svg"></li>
+                             <img src="images/info1.png"></li>
                          <li></li>
                          <li></li>
                          <li></li>
