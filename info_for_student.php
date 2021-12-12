@@ -92,7 +92,7 @@
                    
                     <ol id="info_for_student_steps_block">
                             <li>1.Для спілкування з командою, а також, щоб 
-                                не пропустити важливі повідомлення, приєднуйся до нашого <a target="_blank" href="https://t.me/+IFd8fztXs1_FXSfq">Telegram-чату<a></li>
+                                не пропустити важливі повідомлення, приєднуйся до нашого <a target="_blank" href="https://t.me/+IFd8fztXs1_FXSfq">Telegram-чату</a></li>
                             <li>2.Відправ свій Gmail в особисті повідомлення Denis Scholokov.
                                 (Важко знайти? Тоді клікай <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a>)</li>
                             <li>3.Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
