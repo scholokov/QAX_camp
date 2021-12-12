@@ -100,7 +100,7 @@
                          <li>Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
                              <img src="images/info1.png"></li>
                          <li>В своєму Google-акаунті відкрий меню сервісів Google
-                            <img src="images/info1.svg"> </li>
+                            <img src="images/info2.svg"> </li>
                          <li>Перейди у додаток Google Календар</li>
                          <li></li>
                          <li></li>
