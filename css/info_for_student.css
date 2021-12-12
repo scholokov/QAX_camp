@@ -11,6 +11,18 @@
     line-height: 140%;
 }
 
+#info_for_student_main_img{
+    margin-bottom: 80px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#info_for_student_steps_block{
+    margin-top: 50px;
+}
+
 #info_for_student_content {
     padding-left: 27px;
     padding-right: 27px;

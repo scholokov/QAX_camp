@@ -83,14 +83,14 @@
 				<div class="info_for_student_main_block container clearfix">
 					<div id="info_for_student_content">
 
-					<img src="images/stud_info_main.svg">
+					<img id="info_for_student_main_img" src="images/stud_info_main.svg">
 
-					 <p><b>Вітаємо тебе у нашій крутій команді QAX! </b></p>
+					 <p ><b>Вітаємо тебе у нашій крутій команді QAX! </b></p>
 
                      <p>Аби зробити твій старт максимально комфортним ми підготували докладну інструкцію! </p>
 
                    
-                    <p>
+                    <div id="info_for_student_steps_block">
                         <ol>
                             <li>Для спілкування з командою, а також, щоб 
                                 не пропустити важливі повідомлення, приєднуйся до нашого Telegram-чату</li>
@@ -115,7 +115,7 @@
                                 тебе буде доступ до всіх архівів зустрічей.</li>
                                 
                         </ol>
-                    </p>
+                    </div>
                     <p>Сподіваємось, в тебе все вийшло! До зустрічі! Якщо ні, звернись до Denis Scholokov</p>
 					</div>
                     
