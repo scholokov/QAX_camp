@@ -33,6 +33,7 @@
 	<link rel="stylesheet" href="css/block.about_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 	<link rel="stylesheet" href="css/block.privacy_policy.css" type="text/css" />
+    <link rel="stylesheet" href="css/info_for_student.css" type="text/css" />
 
 	<!-- Document Title
 	============================================= -->
@@ -92,12 +93,30 @@
 				<div class="privacy_policy_main_block container clearfix">
 					<div id="privacy_policy_content">
 						
-					 <p>Конфіденційність користувачів нашого веб-сайту має велике значення для нас 
-						 і ми докладаємо всіх зусиль для забезпечення її захисту. 
-						 Дані правила пояснюють, як ми використовуємо вашу персональну інформацію.</p>
+					 <p><b>Вітаємо тебе у нашій крутій команді QAX! </b></p>
+
+                     <p>Аби зробити твій старт максимально комфортним ми підготували докладну інструкцію! </p>
 
                    
+                     <img src="images/stud_info_main.svg">
+
+                     <ol>
+                         <li>Для спілкування з командою, а також, щоб 
+                             не пропустити важливі повідомлення, приєднуйся до нашого Telegram-чату</li>
+                         <li>Відправ свій Gmail в особисті повідомлення Denis Scholokov.
+                             (Важко знайти? Тоді клікай Denis Scholokov)</li>
+                         <li>Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
+                             <img src="images/info1.svg"></li>
+                         <li></li>
+                         <li></li>
+                         <li></li>
+                         <li></li>
+                         <li></li>
+                         <li></li>
+                     </ol>
+                     
 					</div>
+                    
 					
 				</div>
 			
