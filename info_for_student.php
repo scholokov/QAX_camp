@@ -79,9 +79,9 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
-			<div class="content-wrap" id="privacy_policy">
+			<div class="content-wrap" id="info_for_student">
 				<div class="info_for_student_main_block container clearfix">
-					<div id="privacy_policy_content">
+					<div id="info_for_student_content">
 
 					<img src="images/stud_info_main.svg">
 
@@ -99,8 +99,9 @@
                              (Важко знайти? Тоді клікай Denis Scholokov)</li>
                          <li>Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
                              <img src="images/info1.png"></li>
-                         <li></li>
-                         <li></li>
+                         <li>В своєму Google-акаунті відкрий меню сервісів Google
+                            <img src="images/info1.svg"> </li>
+                         <li>Перейди у додаток Google Календар</li>
                          <li></li>
                          <li></li>
                          <li></li>
