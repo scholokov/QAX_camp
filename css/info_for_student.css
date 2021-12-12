@@ -36,6 +36,12 @@ p {
     margin-bottom: 20px;
 }
 
+a{
+    text-decoration-line: underline !important;
+    color: #FFFFFF;
+
+}
+
 #info_for_student_steps_block{
     margin-top: 50px;
 }
