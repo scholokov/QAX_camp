@@ -26,8 +26,7 @@ p {
 .info_for_student_steps_img{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: -28px;
-    max-width: 100%;
+    width: 100%;
 }
 
 #info_for_student_content {
@@ -48,5 +47,5 @@ p {
 }
 li {
     margin-bottom: 20px;
-    margin-left: 28px;
+    list-style-type: none;
 }
