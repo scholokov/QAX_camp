@@ -97,21 +97,21 @@
                             <li>Відправ свій Gmail в особисті повідомлення Denis Scholokov.
                                 (Важко знайти? Тоді клікай Denis Scholokov)</li>
                             <li>Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
-                                <img src="images/info1.png"></li>
+                                <img class="info_for_student_steps_img" src="images/info1.png"></li>
                             <li>В своєму Google-акаунті відкрий меню сервісів Google
-                                <img src="images/info2.svg"> </li>
+                                <img class="info_for_student_steps_img" src="images/info2.svg"> </li>
                             <li>Перейди у додаток Google Календар</li>
                             <li>Обов’язково перевір, чи є відмітка навпроти QAX Camp Schedule. Вітаємо! 
                                 Тепер Календар синхронізовано!
-                                <img src="images/info3.svg"></li>
+                                <img class="info_for_student_steps_img" src="images/info3.svg"></li>
                             <li>Щоб спілкування було комфортним, не забудь перевірити свою камеру та мікрофон перед підключенням. 
                                 Зручно це зробити тут: Webcam test - Check camera online   </li>
-                            <li>8. У відповідний час клікай на зустріч у Календарі та вибирай “Приєднатися” через Google Meet. 
+                            <li>У відповідний час клікай на зустріч у Календарі та вибирай “Приєднатися” через Google Meet. 
                                 Кожна зустріч має свій окремий лінк! <br>
                                 Після закінчення зустрічі повернись в Google Календар та обирай наступну зустріч. 
                                 (Докладніше про Google Meet можеш почитати тут: Google Meet Довідка )
-                                <img src="images/info4.svg"></li>
-                            <li>9. Бажано відвідати всі зустрічі, але якщо не можеш бути присутнім, не хвилюйся, після тестового періоду у   
+                                <img class="info_for_student_steps_img" src="images/info4.svg"></li>
+                            <li>Бажано відвідати всі зустрічі, але якщо не можеш бути присутнім, не хвилюйся, після тестового періоду у   
                                 тебе буде доступ до всіх архівів зустрічей.</li>
                                 
                         </ol>
