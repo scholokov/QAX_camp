@@ -27,7 +27,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>QAX Camp - Information For Student</title>
+	<title>QAX Camp - Information For Student </title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<script>
