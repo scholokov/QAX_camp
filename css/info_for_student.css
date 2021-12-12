@@ -9,6 +9,10 @@
     
 }
 
+.stretched #wrapper {
+    background-color: #2C2A3F;
+}
+
 #logo {
     display: block;
     float: left;
