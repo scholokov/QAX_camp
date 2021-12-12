@@ -108,7 +108,7 @@
 
 		<!-- Footer
 		============================================= -->
-		<?php include 'components/footer.html'?>
+	
 
 	</div><!-- #wrapper end -->
 
