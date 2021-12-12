@@ -6,9 +6,7 @@
     margin-right: auto;
     margin-left: auto;
     color: #FFFFFF;
-    font-family: "Raleway";
-    font-size: 24px;
-    line-height: 140%;
+    
 }
 
 #logo {
@@ -23,6 +21,9 @@
 }
 
 p {
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 140%;
     margin-bottom: 20px;
 }
 
