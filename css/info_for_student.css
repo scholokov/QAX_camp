@@ -72,3 +72,10 @@ li {
     margin-bottom: 20px;
     list-style-type: none;
 }
+
+@media(max-width: 767px){
+    .info_for_student_main_block{
+        font-size: 16px;
+    }
+    
+}
