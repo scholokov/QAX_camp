@@ -117,7 +117,7 @@
                     </ol>
                     
                     <p>Сподіваємось, в тебе все вийшло! До зустрічі! Якщо ні, звернись до <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a></p>
-					</div>
+					</div >
                     
 					
 				</div>
