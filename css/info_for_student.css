@@ -24,13 +24,14 @@ dt {
     overflow: hidden;
     opacity: 0;
     transition: max-height 0.3s ease-out, opacity 0.4s ease;
-    background: #eee;
     padding: 0.5em;
   }
   
   div.active dd {
     max-height: 500px; /* хреновый хак, не тащите это в прод */
     opacity: 1;
+    display: flex;
+    justify-content: center;
   }
 .stretched #wrapper {
     background-color: #2C2A3F;
@@ -68,6 +69,7 @@ a{
 .info_for_student_steps_img{
     margin-top: 50px;
     margin-bottom: 30px;
+    max-width: 800px;
     width: 100%;
 }
 
