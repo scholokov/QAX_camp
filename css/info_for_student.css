@@ -14,7 +14,8 @@
 }
 dt {
     margin: 0.5em;
-    border-bottom: dashed 1px gray;
+    display: flex;
+    justify-content: flex-end;
   }
   
   dd {
