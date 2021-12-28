@@ -16,6 +16,7 @@ dt {
     margin: 0.5em;
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
   }
   
   dd {
