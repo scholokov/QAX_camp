@@ -104,7 +104,7 @@
 									</div>
 							</li>
                             <li>4. В своєму Google-акаунті відкрий меню сервісів Google
-									<div class="cont">
+									<div class="cont1">
 										<div class="list-question">
 											<dt>Детальніше</dt>	
 											<dd><img class="info_for_student_steps_img" src="images/info2.svg"></dd>
@@ -112,7 +112,7 @@
 									</div>
                                  </li>
                             <li>5. Перейди у додаток Google Календар
-							<div class="cont">
+							<div class="cont2">
 										<div class="list-question">
 											<dt>Детальніше</dt>	
 											<dd><img class="info_for_student_steps_img" src="images/info3.svg"></dd>
@@ -182,6 +182,18 @@
 
 
 function spoilerClickHandler(evt) {
+  const spoilerSwitchElem = evt.target.closest('dt')
+  if (spoilerSwitchElem) { // если клик по dt
+    spoilerSwitchElem.closest('.list-question')
+      .classList.toggle('active') // обертке переключаем active
+  }
+}
+
+document.querySelector('.cont1')
+  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
+
+
+function spoilerClickHandler1(evt) {
   const spoilerSwitchElem = evt.target.closest('dt')
   if (spoilerSwitchElem) { // если клик по dt
     spoilerSwitchElem.closest('.list-question')
