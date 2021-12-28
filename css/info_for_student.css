@@ -12,24 +12,23 @@
     margin-bottom: 50px;
     
 }
-.accordion-item-header {
-    padding: 10px 15px;
-    background: #ed5565;
-    color: #fff;
-    cursor: pointer;
+dt {
+    margin: 0.5em;
+    border-bottom: dashed 1px gray;
   }
-  .accordion-item-content {
-    background: #383838;
-    color: #fff;
-    display: none;
+  
+  dd {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.4s ease;
+    background: #eee;
+    padding: 0.5em;
   }
-  .accordion-item.show .accordion-item-content {
-    padding: 10px 15px;
-    display: block;
-  }
-  .accordion-item.show .accordion-item-header {
-    background: #da4453;
-    color: #fff;
+  
+  div.active dd {
+    max-height: 500px; /* хреновый хак, не тащите это в прод */
+    opacity: 1;
   }
 .stretched #wrapper {
     background-color: #2C2A3F;
