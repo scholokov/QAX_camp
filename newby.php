@@ -97,7 +97,7 @@
                                 (Важко знайти? Тоді клікай <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a>)</li>
                             <li>3. Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
 												<div id="accordion" class="accordion">
-													<div class="accordion-item show">
+													<div class="accordion-item">
 														<div class="accordion-item-header">
 														Заголовок 1
 														</div>
