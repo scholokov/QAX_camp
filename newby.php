@@ -121,14 +121,26 @@
                                 </li>
                             <li>6. Обов’язково перевір, чи є відмітка навпроти QAX Camp Schedule. Вітаємо! 
                                 Тепер Календар синхронізовано!
-                                <img class="info_for_student_steps_img" src="images/info4.svg"></li>
+								<div class="cont3">
+										<div class="list-question">
+											<dt>Детальніше</dt>	
+											<dd><img class="info_for_student_steps_img" src="images/info4.svg"></dd>
+										</div>
+									</div>
+                                </li>
                             <li>7. Щоб спілкування було комфортним, не забудь перевірити свою камеру та мікрофон перед підключенням. 
                                 Зручно це зробити тут: <a target="_blank" href="https://webcammictest.com/">Webcam test - Check camera online </a>  </li>
                             <li>8. У відповідний час клікай на зустріч у Календарі та вибирай “Приєднатися” через Google Meet. 
                                 Кожна зустріч має свій окремий лінк! <br>
                                 Після закінчення зустрічі повернись в Google Календар та обирай наступну зустріч. 
                                 (Докладніше про Google Meet можеш почитати тут: <a target="_blank" href="https://support.google.com/meet/?hl=uk#topic=7306097">Google Meet Довідка</a> )
-                                <img class="info_for_student_steps_img" src="images/info5.svg"></li>
+								<div class="cont4">
+										<div class="list-question">
+											<dt>Детальніше</dt>	
+											<dd><img class="info_for_student_steps_img" src="images/info5.svg"></dd>
+										</div>
+									</div>
+								</li>
                             <li>9. Бажано відвідати всі зустрічі, але якщо не можеш бути присутнім, не хвилюйся, після тестового періоду у   
                                 тебе буде доступ до всіх архівів зустрічей.</li>
                                 
@@ -194,6 +206,39 @@ document.querySelector('.cont1')
 
 
 function spoilerClickHandler1(evt) {
+  const spoilerSwitchElem = evt.target.closest('dt')
+  if (spoilerSwitchElem) { // если клик по dt
+    spoilerSwitchElem.closest('.list-question')
+      .classList.toggle('active') // обертке переключаем active
+  }
+}
+document.querySelector('.cont2')
+  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
+
+
+function spoilerClickHandler2(evt) {
+  const spoilerSwitchElem = evt.target.closest('dt')
+  if (spoilerSwitchElem) { // если клик по dt
+    spoilerSwitchElem.closest('.list-question')
+      .classList.toggle('active') // обертке переключаем active
+  }
+}
+document.querySelector('.cont3')
+  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
+
+
+function spoilerClickHandler3(evt) {
+  const spoilerSwitchElem = evt.target.closest('dt')
+  if (spoilerSwitchElem) { // если клик по dt
+    spoilerSwitchElem.closest('.list-question')
+      .classList.toggle('active') // обертке переключаем active
+  }
+}
+document.querySelector('.cont4')
+  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
+
+
+function spoilerClickHandler4(evt) {
   const spoilerSwitchElem = evt.target.closest('dt')
   if (spoilerSwitchElem) { // если клик по dt
     spoilerSwitchElem.closest('.list-question')
