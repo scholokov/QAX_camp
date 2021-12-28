@@ -104,7 +104,13 @@
 									</div>
 							</li>
                             <li>4. В своєму Google-акаунті відкрий меню сервісів Google
-                                <img class="info_for_student_steps_img" src="images/info2.svg"> </li>
+									<div class="cont">
+										<div class="list-question">
+											<dt>Детальніше</dt>	
+											<dd><img class="info_for_student_steps_img" src="images/info2.svg"></dd>
+										</div>
+									</div>
+                                 </li>
                             <li>5. Перейди у додаток Google Календар
                                 <img class="info_for_student_steps_img" src="images/info3.svg"></li>
                             <li>6. Обов’язково перевір, чи є відмітка навпроти QAX Camp Schedule. Вітаємо! 
