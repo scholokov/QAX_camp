@@ -12,12 +12,12 @@
     margin-bottom: 50px;
     
 }
-.spoiler-title {
+dt {
     margin: 0.5em;
     border-bottom: dashed 1px gray;
   }
   
-  .spoiler-img {
+  dd {
     max-height: 0;
     overflow: hidden;
     opacity: 0;
@@ -26,7 +26,7 @@
     padding: 0.5em;
   }
   
-  div.active .spoiler-img {
+  div.active dd {
     max-height: 500px; /* хреновый хак, не тащите это в прод */
     opacity: 1;
   }

@@ -98,8 +98,8 @@
                             <li>3. Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
 									<div class="cont">
 										<div class="list-question">
-											<div class="spoiler-title">Детальніше</div>	
-											<div class="spoiler-img"><img class="info_for_student_steps_img" src="images/info1.png"></div>
+											<dt><a>Детальніше</a></dt>	
+											<dd><img class="info_for_student_steps_img" src="images/info1.png"></dd>
 										</div>
 									</div>
 							</li>
