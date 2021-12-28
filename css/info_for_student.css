@@ -25,6 +25,8 @@ dt {
     opacity: 0;
     transition: max-height 0.3s ease-out, opacity 0.4s ease;
     padding: 0.5em;
+    display: flex;
+    justify-content: center;
   }
   
   div.active dd {
