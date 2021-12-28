@@ -99,7 +99,7 @@
 									<div class="cont">
 										<div class="list-question">
 											<dt>Детальніше</dt>	
-											<dd><img class="info_for_student_steps_img" src="images/info1.svg"></dd>
+											<dd><img class="info_for_student_steps_img" src="images/info1.png"></dd>
 										</div>
 									</div>
 							</li>
