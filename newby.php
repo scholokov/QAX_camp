@@ -112,7 +112,13 @@
 									</div>
                                  </li>
                             <li>5. Перейди у додаток Google Календар
-                                <img class="info_for_student_steps_img" src="images/info3.svg"></li>
+							<div class="cont">
+										<div class="list-question">
+											<dt>Детальніше</dt>	
+											<dd><img class="info_for_student_steps_img" src="images/info3.svg"></dd>
+										</div>
+									</div>
+                                </li>
                             <li>6. Обов’язково перевір, чи є відмітка навпроти QAX Camp Schedule. Вітаємо! 
                                 Тепер Календар синхронізовано!
                                 <img class="info_for_student_steps_img" src="images/info4.svg"></li>
@@ -172,7 +178,7 @@
 	<script src="js/functions.js"></script>
 			<script>
 				document.querySelector('.cont')
-  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
+.addEventListener('click', spoilerClickHandler) // слушаем клики по section
 
 
 function spoilerClickHandler(evt) {
