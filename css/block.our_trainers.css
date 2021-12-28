@@ -163,6 +163,13 @@ td:nth-child(3), td:nth-child(5){
     width: 610px;
 }
 
+@media (min-width:1300px){
+    .experience-tr {
+        width: 716px;
+    }
+}
+
+
 .trainer-img{
     display: block;
     margin: 0 auto;
