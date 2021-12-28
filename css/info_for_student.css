@@ -12,7 +12,25 @@
     margin-bottom: 50px;
     
 }
-
+.accordion-item-header {
+    padding: 10px 15px;
+    background: #ed5565;
+    color: #fff;
+    cursor: pointer;
+  }
+  .accordion-item-content {
+    background: #383838;
+    color: #fff;
+    display: none;
+  }
+  .accordion-item.show .accordion-item-content {
+    padding: 10px 15px;
+    display: block;
+  }
+  .accordion-item.show .accordion-item-header {
+    background: #da4453;
+    color: #fff;
+  }
 .stretched #wrapper {
     background-color: #2C2A3F;
 }

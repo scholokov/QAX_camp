@@ -96,7 +96,17 @@
                             <li>2. Відправ свій Gmail в особисті повідомлення Denis Scholokov.
                                 (Важко знайти? Тоді клікай <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a>)</li>
                             <li>3. Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
-                                <img class="info_for_student_steps_img" src="images/info1.png"></li>
+												<div id="accordion" class="accordion">
+													<div class="accordion-item show">
+														<div class="accordion-item-header">
+														Заголовок 1
+														</div>
+														<div class="accordion-item-content">
+															<img class="info_for_student_steps_img" src="images/info1.png">
+														</div>
+													</div>
+												</div>
+							</li>
                             <li>4. В своєму Google-акаунті відкрий меню сервісів Google
                                 <img class="info_for_student_steps_img" src="images/info2.svg"> </li>
                             <li>5. Перейди у додаток Google Календар
@@ -158,6 +168,57 @@
 	<script src="js/intlTelInput.min.js"></script>
 	<script src="js/intlTelInput-jquery.min.js"></script>
 	<script src="js/functions.js"></script>
+			<script>
+				var accordion = (function (element) {
+  var _getItem = function (elements, className) { // функция для получения элемента с указанным классом
+    var element = undefined;
+    elements.forEach(function (item) {
+      if (item.classList.contains(className)) {
+        element = item;
+      }
+    });
+    return element;
+  };
+  return function () {
+    var _mainElement = {}, // .accordion
+      _items = {}, // .accordion-item
+      _contents = {}; // .accordion-item-content
+    var _actionClick = function (e) {
+      if (!e.target.classList.contains('accordion-item-header')) { // прекращаем выполнение функции если кликнули не по заголовку
+        return;
+      }
+      e.preventDefault(); // отменям стандартное действие
+      // получаем необходимые данные
+      var header = e.target,
+        item = header.parentElement,
+        itemActive = _getItem(_items, 'show');
+      if (itemActive === undefined) { // добавляем класс show к элементу (в зависимости от выбранного заголовка)
+        item.classList.add('show');
+      } else {
+        // удаляем класс show у ткущего элемента
+        itemActive.classList.remove('show');
+        // если следующая вкладка не равна активной
+        if (itemActive !== item) {
+          // добавляем класс show к элементу (в зависимости от выбранного заголовка)
+          item.classList.add('show');
+        }
+      }
+    },
+    _setupListeners = function () {
+      // добавим к элементу аккордиона обработчик события click
+      _mainElement.addEventListener('click', _actionClick);
+    };
+
+    return {
+      init: function (element) {
+        _mainElement = (typeof element === 'string' ? document.querySelector(element) : element);
+        _items = _mainElement.querySelectorAll('.accordion-item');
+        _setupListeners();
+      }
+    }
+  }
+})();
+			</script>
 
 </body>
 
