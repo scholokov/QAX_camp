@@ -1,4 +1,4 @@
-#road-block{
+#finish-block{
     margin: 0 100px;
     width: 100%;
     max-width: 1480px;
@@ -8,13 +8,13 @@
     justify-content: center;
 }
 
-#road-img-block{
+#finish-img-block{
     max-width: 800px;
     width: 100%;
     margin-left: 125px;
 }
 
-#road-text-block{
+#finish-text-block{
     max-width: 554px;
     width: 100%;
     display: flex;
@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-#road-title{
+#finish-title{
     margin-bottom: 16px;
     font-size: 32px;
     line-height: 38px;
@@ -31,7 +31,7 @@
     text-align: left;
 }
 
-#road-text{
+#finish-text{
     font-size: 21px;
     line-height: 27px;
     font-weight: 400;

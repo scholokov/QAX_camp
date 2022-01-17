@@ -230,6 +230,25 @@
 					</section>
 
 
+					<section id="finish">
+						
+						<div id="finish-block" >
+							
+							<div id="finish-text-block">
+								<h3 id="finish-title">ОФЕР</h3>
+								<h4 id="finish-text">
+								Наш успіх це твій офер , ми докладаємо максимально зусиль аби ти
+								 отримав найкращі знання у своїй сфері 
+								 та міг випробувати їх у справжній роботі .
+								</h4>
+								<img src="images/Counter.svg">
+							</div>
+							<div id="finish-img-block">
+								<img src="images/finish.svg">
+							</div>
+						</div>
+
+					</section>
 					<!-- ========================================== -->
 					<section id=feedback>
 
