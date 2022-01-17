@@ -1,0 +1,40 @@
+#resoult-block{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1310px;
+    margin-top: 144px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+#resoult-img-block{
+    max-width: 600px;
+    width: 100%;
+    margin-right: 200px;
+}
+
+#resoult-text-block{
+    max-width: 510px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resoult-title{
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#resoult-text{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+}

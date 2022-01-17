@@ -26,7 +26,7 @@
 	<link rel="stylesheet" href="css/footer.css" type="text/css" />
 	<link rel="stylesheet" href="css/header.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.resoult.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.start.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
