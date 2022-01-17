@@ -8,14 +8,14 @@
     justify-content: center;
 }
 
-#success-stories-block{
-    max-width: 800px;
+#success-stories-img-block{
+    max-width: 360px;
     width: 100%;
-    margin-left: 125px;
+    margin-left: 50px;
 }
 
-#success-stories-block{
-    max-width: 554px;
+#success-stories-text-block{
+    max-width: 1071px;
     width: 100%;
     display: flex;
     justify-content: center;
