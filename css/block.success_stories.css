@@ -54,11 +54,11 @@ tr.success-stories-student{
     width: 1071px;
 }
 
-tr:nth-child(1) {
+tr td:nth-child(1) {
     padding-right: 15px;
 } 
 
-tr:nth-child(2) {
+tr td:nth-child(2) {
     max-width: 194px;
     width: 100%;
     padding-right: 89px;
