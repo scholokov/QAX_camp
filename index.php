@@ -266,31 +266,31 @@
 										<tr class="success-stories-student">
 											<td><img src="images/linkedin_logo_home.svg"></td>
 											<td>Alexander Bezeliuk</td> 
-											<td> 
-												Працював 3 роки на посаді “Заступника дероктора магазину електроніки”<br>
-												Навчався у нас протягом 3 місяців на курсі : QA Практика<br>
-												Зараз працює на позиції QA engineer в компанії Playtech<br>
-											</td> 
+											<td><ul>
+												<li>Працював 3 роки на посаді “Заступника дероктора магазину електроніки”<br></li>
+												<li>Навчався у нас протягом 3 місяців на курсі : QA Практика<br></li>
+												<li>Зараз працює на позиції QA engineer в компанії Playtech<br></li>
+											</ul></td> 
 										</tr>
 
 										<tr class="success-stories-student">
 											<td><img src="images/linkedin_logo_home.svg"></td>
 											<td>Max Lapaichuk</td> 
-											<td> 
-												Працював 4 роки на посаді “Офіціант - адміністратор”<br>
-												Навчався у нас протягом 3 місяців на курсі : QA Практика <br>
-												Зараз працює на позиції Manual QA в компанії Leeloo<br>
-											</td> 
+											<td> <ul>
+												<li>Працював 4 роки на посаді “Офіціант - адміністратор”<br></li>
+												<li>Навчався у нас протягом 3 місяців на курсі : QA Практика <br></li>
+												<li>Зараз працює на позиції Manual QA в компанії Leeloo<br></li>
+											</ul></td> 
 										</tr>
 										
 										<tr class="success-stories-student">
 											<td><img src="images/linkedin_logo_home.svg"></td>
 											<td>Pavel Karnasenko</td> 
-											<td> 
-												Працював 4 роки на посаді “Інженер-конструктор”<br>
-												Навчався у нас протягом 1,5 місяців на курсі : QA Практика <br>
-												Зараз працює на позиції QA Engineer в компанії 	PixelTeh<br>
-											</td> 
+											<td><ul>
+												<li>Працював 4 роки на посаді “Інженер-конструктор”<br></li>
+												<li>Навчався у нас протягом 1,5 місяців на курсі : QA Практика <br></li>
+												<li>Зараз працює на позиції QA Engineer в компанії 	PixelTeh<br></li>
+											</ul></td> 
 										</tr>
 								</table>
 							</div>

@@ -49,6 +49,7 @@
 }
 
 tr.success-stories-student{
+    margin-bottom: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
