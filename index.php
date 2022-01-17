@@ -27,6 +27,7 @@
 	<link rel="stylesheet" href="css/header.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.finish.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.cards.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.resoult.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.start.css" type="text/css" />
@@ -296,6 +297,23 @@
 							</div>
 							<div id="success-stories-img-block">
 								<img src="images/success_stories.svg">
+							</div>
+						</div>
+
+					</section>
+					<!-- ========================================== -->
+					<section id="cards">
+						
+						<div id="cards-block" >
+							
+							<div id="cards-text-block">
+								<h3 id="cards-title">Обери свій напрямок</h3>
+							</div>
+							<div id="cards-img-block">
+								<div><img src="images/QA_card.svg"></div>
+								<div><img src="images/PM_card.svg"></div>
+								<div><img src="images/BA_card.svg"></div>
+								<div><img src="images/HR_card.svg"></div>
 							</div>
 						</div>
 
