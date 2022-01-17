@@ -135,11 +135,12 @@
 				<h1 id="hero-text">
 					До оферу залишився один QAX
 				</h1>
-			</div>
-			<div>
 				<h4 id="hero-text-longread">
 				Вдосконалення через практику на реальних проєктах та менторство 
 				</h4>
+			</div>
+			<div>
+				<img src="images/Image_1.svg">
 			</div>
 		</div>
 
