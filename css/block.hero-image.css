@@ -10,6 +10,7 @@
     height: 100%;
     padding-left: 120px;
     padding-right: 120px;
+    justify-content: center;
 }
 
 #hero-text {
