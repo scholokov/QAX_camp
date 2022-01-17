@@ -9,3 +9,24 @@
     padding-right: 330px;
     justify-content: center;
 }
+
+#start-img-block{
+    max-width: 600px;
+    width: 100%;
+}
+
+#start-title{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#start-text{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+}
