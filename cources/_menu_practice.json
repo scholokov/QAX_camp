@@ -13,5 +13,10 @@
         "courseName": "Project Manager",
         "courseFileName": "pm_practice",
         "availability": "1"
+    },
+    "hr_practice": {
+        "courseName": "Recruitment",
+        "courseFileName": "hr_practice",
+        "availability": "1"
     }
 }
