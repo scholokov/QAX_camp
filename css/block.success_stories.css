@@ -19,6 +19,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 #success-stories-title{
@@ -38,7 +39,7 @@
     text-align: left;
 }
 
-.success-stories-table{
+#success-stories-table{
     font-size: 21px;
     line-height: 27px;
     font-weight: 400;
