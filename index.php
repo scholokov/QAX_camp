@@ -132,7 +132,20 @@
 		
 
 		
-			
+			<div id="heroImage-block">
+						
+						<div id="hero-text-block">
+							<h1 id="hero-text">
+								До оферу залишився один QAX
+							</h1>
+							<h4 id="hero-text-longread">
+							Вдосконалення через практику на реальних<br> проєктах та менторство 
+							</h4>
+						</div>
+						<div id="hero-img-block">
+							<img src="images/Image_1.svg">
+						</div>
+					</div>
 			
 		
 
@@ -146,37 +159,29 @@
 		<h3 id="content-title">Title</h3>
 			<div class="content-wrap">
 				<div class="container clearfix" >
-			<div id="heroImage-block">
-						<!-- ============================================ -->
-						<div id="hero-text-block">
-							<h1 id="hero-text">
-								До оферу залишився один QAX
-							</h1>
-							<h4 id="hero-text-longread">
-							Вдосконалення через практику на реальних<br> проєктах та менторство 
-							</h4>
-						</div>
-						<div id="hero-img-block">
-							<img src="images/Image_1.svg">
-						</div>
-					</div>
+					
+			
 
-					<div id="start-block" >
+					<!-- ========================================= -->
+					<section id="start">
 
-						<div id="start-img-block">
-							<img src="images/start.svg">
+						<div id="start-block" >
+							<div id="start-img-block">
+								<img src="images/start.svg">
+							</div>
+							<div id="start-text-block">
+								<h3 id="start-title">СТАРТ</h3>
+								<h4 id="start-text">Раді вітати тебе у нашому наметному містечку.
+									Тут ти зможеш випробувати свої знання , знайти нових друзів , 
+									збагатити свій досвід та кинутися в бій у реальному житті. 
+								</h4>
+							</div>
 						</div>
-						<div id="start-text-block">
-							<h3 id="start-title">СТАРТ</h3>
-							<h4 id="start-text">Раді вітати тебе у нашому наметному містечку.
-								Тут ти зможеш випробувати свої знання , знайти нових друзів , 
-								збагатити свій досвід та кинутися в бій у реальному житті. 
-							</h4>
-						</div>
-						
-					</div>
+
+					</section>
+					<!-- ============================================ -->
 					<section id="cources">
-						<!-- ========================================= -->
+						
 						<div id="cources-block">
 
 							<div class="text-center">
