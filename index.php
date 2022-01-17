@@ -252,7 +252,27 @@
 					</section>
 					<!-- ========================================== -->
 						
+					<section id="success-stories">
+						
+						<div id="success-stories-block" >
+							
+							<div id="success-stories-text-block">
+								<h3 id="success-stories-title">Історії успіху</h3>
+								<h4 id="success-stories-text">
+								Хочемо розповісти тобі про людей 
+								які довірились нам і досягли поставлених цілей :
+								</h4>
+								<table id="success-stories-table">
+										<tr class="success-stories-student"><td><img src="images/linkedin_logo_home.svg"></td> <td>Alexander Bezeliuk</td> <td>Працював 3 роки на посаді “Заступника дероктора магазину електроніки”<br>Навчався у нас протягом 3 місяців на курсі : QA Практика </td> </tr>
+										
+								</table>
+							</div>
+							<div id="success-stories-img-block">
+								<img src="images/success_stories.svg">
+							</div>
+						</div>
 
+					</section>
 					<?php include 'components/form.html'?>
 
 				</div>
