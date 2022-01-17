@@ -18,7 +18,6 @@
     max-width: 554px;
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
@@ -32,6 +31,14 @@
 }
 
 #success-stories-text{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.success-stories-table{
     font-size: 21px;
     line-height: 27px;
     font-weight: 400;
