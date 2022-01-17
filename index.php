@@ -156,7 +156,6 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
-		<h3 id="content-title">Title</h3>
 			<div class="content-wrap">
 				<div class="container clearfix" >
 					
