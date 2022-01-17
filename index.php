@@ -144,56 +144,19 @@
 			</div>
 		</div>
 
-		<div id="offer-obtention-main-block" >
+		<div id="start-block" >
+
+			<div id="start-img-block">
+				<img src="images/start.svg">
+			</div>
+			<div id="start-text-block">
+				<h3 id="start-title">СТАРТ</h3>
+				<h4 id="start-text">Раді вітати тебе у нашому наметному містечку.
+					Тут ти зможеш випробувати свої знання , знайти нових друзів , 
+					збагатити свій досвід та кинутися в бій у реальному житті. 
+				</h4>
+			</div>
 			
-			<!-- ============================================ -->
-			<div id="offer-obtention-img-block">
-				<img src="images/Walking_Around.svg" alt="hero-img">
-			</div>
-			<div id="offer-obtention-text-block">
-				<div id="offer-obtention-text-qa" class="offer-obtention-text">
-					QA Engineer
-				</div>
-
-				<div class>
-					<img src="images/Arrow-big1.svg" id="offer-obtention-arrow1" alt="arrow1">
-						
-				</div>
-
-				<div class="offer-obtention-text offer-obtention-text-duration" >
-						4 місяці
-				</div>
-
-				<div >
-					<img src="images/Arrow-big2.svg" id="offer-obtention-arrow2" alt="arrow2">
-						
-				</div>
-
-				<div id="offer-obtention-text-exp" class="offer-obtention-text">
-				Досвід НЕ в ІТ
-				</div>
-			</div>
-
-			<div id="offer-obtention-text-block-mob">
-						
-						<div id="offer-obtention-img-mob">
-							<img src="images/Arrow_13.svg" id="offer-obtention-arrow-mob" alt="arrow_mobile">	
-						</div>
-
-						<div id="offer-obtention-text-mob">
-							<div class="offer-obtention-text">
-							Досвід <br> НЕ в ІТ 
-							</div>
-
-							<div  class="offer-obtention-text offer-obtention-text-duration">
-								4<br> місяці
-							</div>
-
-							<div class="offer-obtention-text">
-								QA <br>Engineer
-							</div>
-						</div>
-			</div>
 		</div>
 
 		

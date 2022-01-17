@@ -1,0 +1,11 @@
+#start-block{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 144px;
+    display: flex;
+    height: 100%;
+    padding-left: 330px;
+    padding-right: 330px;
+    justify-content: center;
+}
