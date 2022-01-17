@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.offer_obtention.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.start.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
