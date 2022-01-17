@@ -212,62 +212,21 @@
 					</section>
 
 					<!-- ================================== -->
+					<section id="resoult">
 
-					<section id=why_we>
-						<div id="why_we-box">
-							<div class="text-center">
-								<h2>
-									Чому круто з нами?
-								</h2>
+						<div id="resoult-block" >
+							<div id="resoult-img-block">
+								<img src="images/start.svg">
 							</div>
-
-							<div id="why_we-card-box">
-								<div id="why-we-block" class="row col-mb-50 mb-1">
-									<div class="col-md-4 wy_we_card">
-										
-										<h3 class="why_we-subtitle">1. На хвилі з усім світом</h3>
-										<h4 class="why_we-text">
-										Використовуємо як нові, так і перевірені часом інструменти та підходи
-										</h4>
-									</div>
-									<div class="col-md-4 wy_we_card">
-										
-										<h3 class="why_we-subtitle">2. Тут і зараз</h3>
-										<h4 class="why_we-text">
-										Давно хотів працювати по-іншому? Застосовуй і спостерігай результат, одразу!
-										</h4>
-									</div>
-									<div class="col-md-4 wy_we_card">
-										
-										<h3 class="why_we-subtitle">3. Менторство</h3>
-										<h4 class="why_we-text">
-											Наші ментори допомагатимуть тобі зростати швидше 
-										</h4>
-									</div>
-									<div class="col-md-4 wy_we_card">
-										
-										<h3 class="why_we-subtitle">4. Командний дух</h3>
-										<h4 class="why_we-text">
-											Великі справи робляться командами. Приєднуйся до однієї з наших!
-										</h4>
-									</div>
-									<div class="col-md-4 wy_we_card">
-										
-										<h3 class="why_we-subtitle">5. Орієнтованість на результат </h3>
-										<h4 class="why_we-text">
-											Всі наші зустрічі спрямовані на досягнення певного результату
-										</h4>
-									</div>
-									<div class="col-md-4 wy_we_card">
-										
-										<h3 class="why_we-subtitle">6. Не словом, а ділом</h3>
-										<h4 class="why_we-text">
-											Наша найкраща пропозиція досвід, який працевлаштовує
-										</h4>
-									</div>
-								</div>
+							<div id="resoult-text-block">
+								<h3 id="resoult-title">СТАРТ</h3>
+								<h4 id="resoult-text">Раді вітати тебе у нашому наметному містечку.
+									Тут ти зможеш випробувати свої знання , знайти нових друзів , 
+									збагатити свій досвід та кинутися в бій у реальному житті. 
+								</h4>
 							</div>
 						</div>
+
 					</section>
 
 
