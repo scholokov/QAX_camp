@@ -131,7 +131,7 @@
 		
 		<div id="heroImage-block">
 			<!-- ============================================ -->
-			<div>
+			<div id="hero-text-block">
 				<h1 id="hero-text">
 					До оферу залишився один QAX
 				</h1>
