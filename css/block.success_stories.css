@@ -47,6 +47,23 @@
     text-align: left;
 }
 
+tr.success-stories-student{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1071px;
+}
+
+tr:nth-child(1) {
+    padding-right: 15px;
+} 
+
+tr:nth-child(2) {
+    max-width: 194px;
+    width: 100%;
+    padding-right: 89px;
+}    
+
 @media (max-width: 1440px) {
     #success-stories-block{
         margin: 0 50px;
