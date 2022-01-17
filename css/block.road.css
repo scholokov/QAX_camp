@@ -1,0 +1,40 @@
+#road-block{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1480px;
+    margin-top: 184px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+#start-img-block{
+    max-width: 800px;
+    width: 100%;
+    margin-right: 125px;
+}
+
+#start-text-block{
+    max-width: 554px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#start-title{
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#start-text{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+}

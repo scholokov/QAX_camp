@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.road.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
 	<link rel="stylesheet" href="css/footer.css" type="text/css" />
 	<link rel="stylesheet" href="css/header.css" type="text/css" />
@@ -180,102 +180,36 @@
 
 					</section>
 					<!-- ============================================ -->
-					<section id="cources">
+					<section id="road">
 						
-						<div id="cources-block">
-
-							<div class="text-center">
-								<h2>
-									Обери професію майбутнього
-								</h2>
+						<div id="road-block" >
+							
+							<div id="road-text-block">
+								<h3 id="road-title">Напрямок</h3>
+								<div id="road-text">
+									<p class="road-p">
+										Ми розробили для тебе два напрямки навчання 
+										які допоможуть покращити твої навички 
+										та відшукати роботу про яку ти так довго мріяв 
+									</p>
+									<h4 class="road-small-title">Практичні курси</h4>
+									<p class="road-p">
+										Ми розробили для тебе два напрямки навчання які 
+										допоможуть покращити твої навички та відшукати 
+										роботу про яку ти так довго мріяв
+									</p>
+									<h4 class="road-small-title">Класичні курси</h4>
+									<p class="road-p"> 
+										Курс, що складається з основ програмування на Java, 
+										а також базових засад написання UI-автотестів для Web-додатків. 
+									</p>
+								</div>
 							</div>
-
-							<div id="cources-cards-block" class="row col-mb-50 mb-1">
-								<div class="col-md-4 cources-cards-flex">
-									<div class="cources-qa-block">
-										<a class="courses-block-a" href="cources.php?cource=qa&name=qa_practice" id="card-qa">
-											<div>
-												<h3 class="cources-qa-block-title">
-														QA Engineer
-												</h3>
-											</div>
-											<div class="line"></div>
-
-											<div >
-												<h4 class="cources-qa-text">
-													QA займається поліпшенням процесу розробки ПО, 
-													запобіганням появи недоліків і виявленням помилок в кінцевому продукті.
-												</h4>
-											</div>
-
-											<!--<div class="cources-cards-buttons-block">
-											<h5 class="cources-cards-buttons">
-												1 Курс
-											</h5>
-											</div>-->
-										</a>
-									</div>
-								</div>
-
-								<div class="col-md-4 cources-cards-flex">
-									<div class="cources-qa-block">
-										<a class="courses-block-a" href="cources.php?cource=ba&name=ba_practice" id="card-ba">
-											<div>
-												<h3 class="cources-qa-block-title">
-													Business Analyst
-												</h3>
-											</div>
-											<div class="line"></div>
-
-											<div>
-												<h4 class="cources-qa-text">
-													BA досліджує запит замовника,
-													 шукає найбільш оптимальне рішення і оформлює його у вигляді вимог,
-													 яких дотримуватимуться інші учасники проєкту.
-												</h4>
-											</div>
-
-
-											<!--<div class="cources-cards-buttons-block">
-												<h5 class="cources-cards-buttons">
-													1 Курс
-												</h5>
-											</div>-->
-										</a>
-									</div>
-								</div>
-
-								<div class="col-md-4 cources-cards-flex">
-									<div class="cources-qa-block">
-										<a class="courses-block-a" href="cources.php?cource=pm&name=pm_practice">
-											<div>
-												<h3 class="cources-qa-block-title">
-													Project Manager
-												</h3>
-											</div>
-											<div class="line"></div>
-
-											<div>
-												<h4 class="cources-qa-text">
-													PM керує проєктом. Його основне завдання – 
-													побудувати процес роботи над проєктом з наявними ресурсами в 
-													рамках визначених термінів і з обумовленою якістю. 
-												</h4>
-											</div>
-
-
-											<!--<div class="cources-cards-buttons-block">
-											<h5 class="cources-cards-buttons">
-													1 Курс
-											</h5>
-											</div>--->
-										</a>
-									</div>
-								</div>
-
-
+							<div id="road-img-block">
+								<img src="images/road.svg">
 							</div>
 						</div>
+
 					</section>
 
 					<!-- ================================== -->
