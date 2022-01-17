@@ -139,7 +139,7 @@
 				Вдосконалення через практику на реальних<br> проєктах та менторство 
 				</h4>
 			</div>
-			<div>
+			<div id="hero-img-block">
 				<img src="images/Image_1.svg">
 			</div>
 		</div>
