@@ -6584,7 +6584,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 .content-wrap {
 /*	padding: 80px 0; */
 	/*overflow: hidden;*/
-	background-color:#212121;
+	background-color:#2C2A3F;
 	;
 }
 
@@ -15154,7 +15154,7 @@ label.checkbox { padding-left: 20px; }
 	width: 100%;
 	margin: 0;
 	box-shadow: none;
-	background-color: #212121;
+	background-color: #2C2A3F;
 }
 
 
