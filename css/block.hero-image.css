@@ -5,9 +5,10 @@
 #heroImage-block {
     margin-top: 0px;
     background-color: #2C2A3F;
-    background-position: center;
+    display: flex;
+    /*background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     height: 100%;
 }
 
