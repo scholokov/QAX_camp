@@ -363,19 +363,19 @@ input[type=text] {
 */
 
 input[type=text] {
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #FFFFFF;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    color: #222222;
+    color: #FFFFFF;
 }
 
 input[type=tel] {
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #FFFFFF;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    color: #222222;
+    color: #FFFFFF;
 }
 
 
@@ -384,7 +384,7 @@ input[type=tel] {
 }
 
 input::-webkit-input-placeholder {
-    color: #222222;
+    color: #FFFFFF;
 }
 
 input::-webkit-input-placeholder {
@@ -432,15 +432,15 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: #222222;
+    -webkit-text-fill-color: #FFFFFF;
 }
 
 textarea::-webkit-input-placeholder {
-    color: #222222;
+    color: #FFFFFF;
 }
 
 textarea:-moz-placeholder {
-    color: #222222;
+    color: #FFFFFF;
 }
 
 
@@ -452,12 +452,12 @@ textarea:-moz-placeholder {
     overflow: hidden;
     resize: both;
     margin-top: 10px;
-    color: #222222;
+    color: #FFFFFF;
 }
 
 #comment_input p,span{
     background-color: transparent !important; 
-    color: #222222 !important;
+    color: #FFFFFF !important;
 
 }
 
