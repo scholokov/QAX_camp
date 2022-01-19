@@ -53,7 +53,8 @@ tr.success-stories-student{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 1071px;
+    max-width: 1071px;
+    width: 100%;
 }
 
 tr td:nth-child(1) {

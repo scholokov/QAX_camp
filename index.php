@@ -318,6 +318,7 @@
 						</div>
 
 					</section>
+					
 					<?php include 'components/form.html'?>
 
 				</div>
