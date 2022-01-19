@@ -15,7 +15,7 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content
+    justify-content: space-between;
 }
 
 #cards-text-block{
