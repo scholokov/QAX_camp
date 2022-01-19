@@ -321,7 +321,9 @@ div#error_message_agree_empty {
   }
   #form-pp{
       text-decoration-line: underline !important;
+      color: #FFFFFF !important;
   }
+
   #checkbox-icon {
     position: absolute;
     top: 22%;
@@ -333,7 +335,7 @@ div#error_message_agree_empty {
   #checkbox-custom {
     height: 24px;
     width: 24px;
-    border: 1px solid #212121;
+    border: 1px solid #FFFFFF;
     display: inline-block;
     position: relative;
     border-radius: 4px;
@@ -507,7 +509,7 @@ textarea:-moz-placeholder {
 #comment_line {
     margin-top: 0px;
     border-width: 1px;
-    border-color: #212121;
+    border-color: #FFFFFF;
     margin-bottom: 0px;
 }
 
