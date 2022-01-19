@@ -2,6 +2,7 @@
 	write to us
 ------------------------------------------------------------------*/
 #write_to_us{
+    height: 800px;
     display:flex ;
     justify-content: center;
 }
