@@ -1,7 +1,10 @@
 /* ----------------------------------------------------------------
 	write to us
 ------------------------------------------------------------------*/
-.write_to_us-block {
+#write_to_us{
+    display:flex ;
+}
+#write_to_us-block {
     margin-top: -704px;
     margin-left: auto;
     margin-right: auto;
@@ -224,7 +227,7 @@ div#error_message_agree_empty {
         margin-right: -15px;
         margin-left: -15px;
     }
-    .write_to_us-block{
+    #write_to_us-block{
         width: auto;
         margin-right: -15px;
         margin-left: -15px;
