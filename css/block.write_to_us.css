@@ -5,9 +5,10 @@
     height: 800px;
     display:flex ;
     justify-content: center;
+    flex-direction: column;
 }
 
-#write_to_us-main-block{
+#write_to_us-form-block{
     max-width: 870px;
     width: 100%;
 }
