@@ -13,6 +13,8 @@
     max-width: 360px;
     width: 100%;
     margin-left: 50px;
+    display: flex;
+    align-items: flex-end;
 }
 
 #success-stories-text-block{
@@ -78,12 +80,12 @@ ul{
     }
     
     #success-stories-img-block{
-        max-width: 550px;
-        margin-left: 190px;
+        max-width: 290px;
+        margin-left: 11px;
     }
     
     #success-stories-text-block{
-        max-width: 450px;
+        max-width: 930px;
     }
     
     #success-stories-title{
