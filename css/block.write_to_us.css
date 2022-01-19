@@ -9,7 +9,9 @@
     max-width: 860px;
     width: 100%;
     padding-bottom: 10px;
-    background-color: #E8E8E8;
+    
+    background: #35324B;
+    border-radius: 40px;
 }
 
 .write_to_us-error-message {
@@ -124,6 +126,11 @@ div#error_message_agree_empty {
     box-sizing: border-box;
 
     color: #222222;
+}
+
+#write_to_us_bg_block{
+    background: #894A4D;
+    border-radius: 40px;
 }
 
 .write_to_us-button-send:hover {
