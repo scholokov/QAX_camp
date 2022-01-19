@@ -5,6 +5,27 @@
     display:flex ;
     justify-content: center;
 }
+
+.write_to_us-main-block{
+    max-width: 870px;
+    width: 100%;
+}
+
+#write_to_us-person{
+    margin-left: -40px;
+    margin-bottom: -179px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+#write_to_us-plant{
+    margin-right: 50px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
 #write_to_us-block {
     margin-top: -704px;
     margin-left: auto;
