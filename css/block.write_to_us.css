@@ -8,6 +8,11 @@
     flex-direction: column;
 }
 
+#write_to_us-main {
+    display: flex;
+    justify-content: center;
+}
+
 #write_to_us-form-block{
     max-width: 870px;
     width: 100%;
@@ -22,6 +27,8 @@
 }
 
 #write_to_us-plant{
+    position: relative;
+    margin-bottom: -179px;
     margin-right: 50px;
     display: flex;
     align-items: flex-end;
