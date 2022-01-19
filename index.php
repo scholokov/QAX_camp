@@ -230,7 +230,7 @@
 						</div>
 
 					</section>
-					
+
 					<!-- ========================================== -->
 
 					<section id="finish">
@@ -311,10 +311,10 @@
 								<h3 id="cards-title">Обери свій напрямок</h3>
 							</div>
 							<div id="cards-img-block">
-								<div><img src="images/QA_card.svg"></div>
-								<div><img src="images/PM_card.svg"></div>
-								<div><img src="images/BA_card.svg"></div>
-								<div><img src="images/HR_card.svg"></div>
+								<div class="course-card"><img src="images/QA_card.svg"></div>
+								<div class="course-card"><img src="images/PM_card.svg"></div>
+								<div class="course-card"><img src="images/BA_card.svg"></div>
+								<div class="course-card"><img src="images/HR_card.svg"></div>
 							</div>
 						</div>
 

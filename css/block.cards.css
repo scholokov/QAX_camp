@@ -13,6 +13,7 @@
 
 #cards-img-block{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -33,6 +34,10 @@
     font-weight: 700;
     color: #FFFFFF;
     text-align: left;
+}
+
+.course-card{
+    margin-bottom: 30px;
 }
 
 
