@@ -2,17 +2,19 @@
     font-family: 'Raleway' !important; 
     margin: 0 auto;
     width: 100%;
-    max-width: 1310px;
+    max-width: 1490px;
     margin-top: 144px;
     display: flex;
+    flex-direction: column;
     height: 100%;
     justify-content: center;
+    flex-direction: column;
 }
 
 #cards-img-block{
-    max-width: 600px;
+    display: flex;
     width: 100%;
-    margin-right: 200px;
+    flex-direction: row;
 }
 
 #cards-text-block{
