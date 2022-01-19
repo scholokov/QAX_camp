@@ -3,6 +3,7 @@
 ------------------------------------------------------------------*/
 #write_to_us{
     display:flex ;
+    justify-content: center;
 }
 #write_to_us-block {
     margin-top: -704px;
