@@ -1,3 +1,6 @@
+#start{
+    background-image: url(images/sastr_bg.svg);
+}
 #start-block{
     font-family: 'Raleway' !important; 
     margin: 0 auto;
