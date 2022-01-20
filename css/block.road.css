@@ -40,7 +40,7 @@
     text-align: left;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1200px) {
     #road-block{
         margin: 0 auto ;
         max-width: 1190px;

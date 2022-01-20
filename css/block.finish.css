@@ -40,7 +40,7 @@
     text-align: left;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1200px) {
     #finish-block{
         max-width: 1100px;
         margin-top: 210px;

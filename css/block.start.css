@@ -44,7 +44,7 @@
 }
 
 
-@media (max-width: 1440px) {
+@media (min-width: 1200px) {
     #start-block{
         max-width: 1100px;
         margin-top: 106px;
