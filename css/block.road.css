@@ -42,7 +42,7 @@
 
 @media (max-width: 1440px) {
     #road-block{
-        margin: 0 auto 0 140px;
+        margin: 0 auto ;
         max-width: 1190px;
         margin-top: 130px;
     }
