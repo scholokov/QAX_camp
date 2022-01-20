@@ -44,6 +44,6 @@
 @media (max-width: 1440px) {
     #cards-block{
         margin-top: 260px;
-        
+        max-width: 1190px;
     }
 }

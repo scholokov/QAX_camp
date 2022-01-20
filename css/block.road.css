@@ -42,14 +42,14 @@
 
 @media (max-width: 1440px) {
     #road-block{
-        margin: 0 20px;
+        margin: 0 auto 0 140px;
         max-width: 1190px;
         margin-top: 130px;
     }
     
     #road-img-block{
         max-width: 550px;
-        margin-left: 180px;
+        margin-left: 190px;
     }
     
     #road-text-block{
