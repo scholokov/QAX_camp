@@ -57,6 +57,7 @@
 }
 
 tr.success-stories-student{
+    white-space: nowrap;
     margin-bottom: 60px;
     display: flex;
     flex-direction: row;
@@ -84,13 +85,14 @@ ul{
     #success-stories-block{
         margin: 0 auto;
         max-width: 1220px;
-        margin-top: 286px;
+        margin-top: 40px;
         padding-left: 50px;
     }
     
     #success-stories-img-block{
         max-width: 290px;
-        margin-left: 11px;
+        margin-left: -52px;
+        margin-bottom: 100px;
     }
     
     #success-stories-text-block{
