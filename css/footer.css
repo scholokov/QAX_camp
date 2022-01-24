@@ -6,6 +6,12 @@ footer {
     margin-top: 280px;
 }
 
+#footer-main-block{
+    max-width: 1029px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #footer-top-block {
     padding-left: 140px;
     max-width: 1000px;
@@ -30,13 +36,12 @@ footer {
     height: 190px;
     background-color: #262438;
     border-radius: 50%/10%;
-    position: relative;
+    margin-bottom: -400px;
 }
 
 #footer-img{
     position: relative;
-    margin-left: 12%;
-    margin-top: -406px;
+    margin-bottom: -288px;
 }
 
 .footer-contacts {
