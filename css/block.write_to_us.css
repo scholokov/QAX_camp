@@ -182,6 +182,17 @@ div#error_message_agree_empty {
     border: 1px solid #FFFFFF;
     color: #35324B;
 }
+
+
+@media (max-width: 1440px) {
+    
+    #write_to_us {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+}
+
 @media (max-width: 400px) {
     
     #write_to_us-block-small {
