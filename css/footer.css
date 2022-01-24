@@ -32,6 +32,12 @@ footer {
 
 }
 
+#footer-bottom{
+    height: 190px;
+    background-color: #2C2A3F;
+    margin-bottom: -400px;
+}
+
 #footer-bottom-block{
     height: 190px;
     background-color: #262438;
@@ -84,9 +90,11 @@ footer {
 }
 
 .footer-box {
+    padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
+    color: #DADADA;
     
 }
 
