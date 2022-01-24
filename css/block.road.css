@@ -43,8 +43,9 @@
 @media (max-width: 1440px) {
     #road-block{
         padding-left: 50px;
+        padding-right: 30px;
         margin: 0 auto;
-        max-width: 1190px;
+        max-width: 1220px;
     }
     
     #road-img-block{
