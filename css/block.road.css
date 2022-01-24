@@ -40,11 +40,11 @@
     text-align: left;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1440px) {
     #road-block{
-        margin: 0 auto ;
-        max-width: 1190px;
-        margin-top: 130px;
+        padding-left: 50px;
+        margin: 0 auto;
+        max-width: 1240px;
     }
     
     #road-img-block{
