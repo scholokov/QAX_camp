@@ -108,5 +108,10 @@ ul{
         font-size: 18px;
         line-height: 23px;
     }
+    tr td:nth-child(2) {
+        max-width: 230px;
+        width: 100%;
+        padding-right: 40px;
+    }
     
 }
