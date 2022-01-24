@@ -25,7 +25,6 @@
 }
 
 #cards-title{
-    margin-bottom: 109px;
     font-size: 42px;
     line-height: 49px;
     font-weight: 700;
@@ -40,11 +39,16 @@
 
 @media (max-width: 1440px) {
     #cards-block{
-        margin-top: 260px;
+        margin-top: 120px;
         max-width: 1110px;
     }
+    
+    #cards-text-block{
+        width: 100%;
+        margin-bottom: 109px;
+    }
+
     #cards-title{
-        margin-bottom: 113px;
         font-size: 36px;
         line-height: 42px;
         font-weight: 700;
