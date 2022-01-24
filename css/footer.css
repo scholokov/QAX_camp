@@ -17,9 +17,6 @@ footer {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
-    color: #FFFFFF;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -33,6 +30,9 @@ footer {
 }
 
 .footer-contatcs-item {
+    font-size: 18px;
+    line-height: 27px;
+    color: #E9E8EA;
     display: flex;
     padding-top: 8px;
     white-space: nowrap;
