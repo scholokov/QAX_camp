@@ -83,3 +83,35 @@
     }
     
 }
+
+@media (max-width: 1200px) {
+    #start{
+        height: 510px;
+    }
+    #start-block{
+        max-width: 1160px;
+        margin-top: 45px;
+        padding-top: 61px;
+        height: 381px;
+    }
+    
+    #start-img-block{
+        max-width: 400px;
+        margin-right: 100px;
+    }
+    
+    #start-text-block{
+        max-width: 450px;
+    }
+    
+    #start-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    #start-text{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+}

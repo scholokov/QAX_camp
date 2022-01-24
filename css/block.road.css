@@ -68,3 +68,32 @@
     }
     
 }
+
+@media (max-width: 1200px) {
+    #road-block{
+        padding-left: 50px;
+        padding-right: 30px;
+        margin: 0 auto;
+        max-width: 1220px;
+    }
+    
+    #road-img-block{
+        max-width: 500px;
+        margin-left: 50px;
+    }
+    
+    #road-text-block{
+        max-width: 450px;
+    }
+    
+    #road-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    #road-text{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+}

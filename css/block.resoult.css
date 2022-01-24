@@ -78,3 +78,34 @@
     }
     
 }
+
+@media (max-width: 1200px) {
+    #resoult{
+        height: 600px;
+    }
+    #resoult-block{
+        max-width: 1160px;
+        margin-top: 125px;
+    }
+    
+    #resoult-img-block{
+        padding-top: 125px;
+        max-width: 360px;
+        margin-right: 90px;
+    }
+    
+    #resoult-text-block{
+        max-width: 500px;
+    }
+    
+    #resoult-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    #resoult-text{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+}

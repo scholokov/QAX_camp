@@ -115,3 +115,39 @@ ul{
     }
     
 }
+
+
+@media (max-width: 1200px) {
+    #success-stories-block{
+        margin: 0 auto;
+        max-width: 1220px;
+        margin-top: 40px;
+        padding-left: 50px;
+    }
+    
+    #success-stories-img-block{
+        max-width: 290px;
+        margin-left: -210px;
+        margin-bottom: 100px;
+    }
+    
+    #success-stories-text-block{
+        max-width: 930px;
+    }
+    
+    #success-stories-title{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    #success-stories-text{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    tr td:nth-child(2) {
+        max-width: 202px;
+        width: 100%;
+        padding-right: 40px;
+    }
+    
+}
