@@ -20,20 +20,17 @@
 }
 
 #cards-text-block{
-    max-width: 510px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-bottom: 113px;
 }
 
 #cards-title{
-    margin-bottom: 16px;
-    font-size: 32px;
-    line-height: 38px;
+    margin-bottom: 109px;
+    font-size: 42px;
+    line-height: 49px;
     font-weight: 700;
     color: #FFFFFF;
-    text-align: left;
+    text-align: center;
 }
 
 .course-card{
@@ -44,6 +41,12 @@
 @media (max-width: 1440px) {
     #cards-block{
         margin-top: 260px;
-        max-width: 1190px;
+        max-width: 1110px;
+    }
+    #cards-title{
+        margin-bottom: 113px;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 700;
     }
 }
