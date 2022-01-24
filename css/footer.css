@@ -7,12 +7,13 @@ footer {
 }
 
 #footer-top-block {
-    transform: matrix(-1, 0, 0, 1, 0, 0);
     max-width: 1000px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border-radius: 100px;
+    border: 25.5px solid #47426C;
     background: #262438;
     font-family: Montserrat;
     font-style: normal;
@@ -21,7 +22,6 @@ footer {
     line-height: 150%;
     color: #FFFFFF;
     padding-top: 5%;
-
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -35,14 +35,13 @@ footer {
 }
 
 .footer-contatcs-item {
-    padding-top: 8px;
-    white-space: nowrap;
     display: flex;
     padding-top: 8px;
     white-space: nowrap;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -94,7 +93,6 @@ a#footer-facebook:hover{
 
 #powered_logo{
     display: flex;
-    justify-content: flex-end;
     
 }
 
