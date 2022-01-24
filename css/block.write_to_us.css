@@ -184,14 +184,7 @@ div#error_message_agree_empty {
 }
 
 
-@media (max-width: 1440px) {
-    
-    #write_to_us {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    
-}
+
 
 @media (max-width: 400px) {
     
