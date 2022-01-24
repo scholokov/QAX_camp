@@ -1,4 +1,4 @@
-@media (min-width: 1441px) {
+
 #start{
     height: 680px;
     background: url(images/start_bg.svg) no-repeat center;
@@ -47,7 +47,6 @@
     text-align: left;
 }
 
-}
 
 @media (max-width: 1440px) {
     #start-block{
