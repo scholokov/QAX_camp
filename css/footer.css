@@ -7,6 +7,7 @@ footer {
 }
 
 #footer-top-block {
+    padding-left: 140px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -30,6 +31,12 @@ footer {
     background-color: #262438;
     border-radius: 50%/10%;
     position: relative;
+}
+
+#footer-img{
+    position: relative;
+    margin-left: 12%;
+    margin-top: -406px;
 }
 
 .footer-contacts {
