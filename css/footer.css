@@ -20,6 +20,8 @@ footer {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 
 }
 
@@ -30,6 +32,8 @@ footer {
 }
 
 .footer-contatcs-item {
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 18px;
     line-height: 27px;
     color: #E9E8EA;
