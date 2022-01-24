@@ -57,7 +57,6 @@
 }
 
 tr.success-stories-student{
-    white-space: nowrap;
     margin-bottom: 60px;
     display: flex;
     flex-direction: row;
@@ -65,6 +64,7 @@ tr.success-stories-student{
     max-width: 1071px;
     width: 100%;
 }
+
 
 tr td:nth-child(1) {
     padding-right: 15px;
