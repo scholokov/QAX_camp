@@ -1,6 +1,9 @@
 #start{
-    background-image: url(images/start_bg.svg);
+    height: 680px;
+    background: url(images/start_bg.svg) no-repeat center;
+    background-size: 100%;
 }
+
 #start-block{
     font-family: 'Raleway' !important; 
     margin: 0 auto;
