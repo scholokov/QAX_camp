@@ -25,6 +25,13 @@ footer {
 
 }
 
+#footer-bottom-block{
+    height: 190px;
+    background-color: #262438;
+    border-radius: 50%/10%;
+    position: relative;
+}
+
 .footer-contacts {
     padding-top: 8px;
     color: #ffffff;
