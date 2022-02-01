@@ -135,10 +135,12 @@
 
 .bl {
     float: left;
-    width: 150px;
+    width: 460px;
+    height: 257px;
+    background: #35324B;
+    border-radius: 6px;
     margin: 0 15px;
-    background: #ffec5c;
-    padding: 50px 10px;
+    padding: 80px 76px 56px 76px;
   }
   
   .mid {
