@@ -365,34 +365,7 @@
 				e.stopPropagation()
 		})
 	</script>
-	<script>
-		$(document).ready(function(){
-      $('.slick-slider-mob').slick({
-		dots: true,
-		infinite: true,
-		speed: 1000,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		adaptiveHeight: true,
-		mobileFirst:true,
-		arrows: false
-      });
-    });
-				
-	</script>
 
-
-	<script>
-		
-	</script>
-
-	<!-- Feedback -->
-	<script>
-	
-	</script>
-	<script>
-		
-		</script>
 
 	<script>
 function myFunction(x) {
@@ -439,7 +412,7 @@ function goToForm(){
 	<script src="js/functions.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-	
+
 	<script>
 		var controller = new ScrollMagic.Controller();
 		new ScrollMagic.Scene({
