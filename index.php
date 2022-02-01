@@ -244,7 +244,15 @@
 								 отримав найкращі знання у своїй сфері 
 								 та міг випробувати їх у справжній роботі .
 								</h4>
-								<img src="images/Counter.svg">
+								<div id="counter">
+
+								<div class="bl">
+									<div data-num="39" class="number">0</div>
+									<div class="text">лет на рынке</div>
+								</div>
+								
+
+								</div>
 							</div>
 							<div id="finish-img-block">
 								<img src="images/finish.svg">
