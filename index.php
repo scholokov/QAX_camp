@@ -515,6 +515,19 @@ function goToForm(){
 
 	</script>
 
+	<script>
+		var controller = new ScrollMagic.Controller();
+		new ScrollMagic.Scene({
+							triggerElement: ".viz",
+							triggerHook: 0.9, // show, when scrolled 10% into view
+							duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+							offset: 50,
+							reverse: false // move trigger to center of element
+						})
+						.setClassToggle(".viz", "animation-fade-in") // add class to reveal
+						.addTo(controller);
+	</script>
+
 	<!-- Footer Scripts
 	============================================= -->
 	<!-- for phone mask -->
@@ -524,8 +537,10 @@ function goToForm(){
 	<script src="js/intlTelInput-jquery.min.js"></script>
 	<script src="js/form.js"></script>
 	<script src="js/functions.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 	
-	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	
 </body>
 
 </html>
