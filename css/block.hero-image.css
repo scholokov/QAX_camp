@@ -99,3 +99,37 @@
     }
 }
 
+@media (max-width: 420px) {
+    #heroImage-block {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+    }
+    
+    #hero-text {
+        white-space: wrap;
+        font-size: 26px;
+        line-height: 34px;
+        text-align: left;
+        margin: 0 auto;
+        float: none;
+    }
+    
+    #hero-text-longread {
+        font-size: 14px;
+        padding-top: 15px;
+        line-height: 18px;
+        text-align: left;
+        max-width: 252px;
+        margin: 0 auto;
+        float: none;
+    }
+    #hero-img-block{
+        max-width: 280px;
+        width: 100%;
+    }
+    
+}
