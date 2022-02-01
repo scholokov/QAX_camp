@@ -24,7 +24,7 @@ function scrollTracking(){
 					block_show = true;
 					var time = 2,
 					cc = 1;
-					$(window).scroll(function() {
+					
 					$('#counter').each(function() {
 						var
 						cPos = $(this).offset().top,
@@ -51,7 +51,7 @@ function scrollTracking(){
 						}
 						}
 					});
-					});
+					
 				}
 			}
 	$(window).scroll(function(){
