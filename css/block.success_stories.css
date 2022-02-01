@@ -190,6 +190,14 @@ ul{
         line-height: 18px;
         font-weight: 400;
     }
+    tr.success-stories-student {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 320px;
+        width: 100%;
+    }
     
     
 }
