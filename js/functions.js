@@ -52,7 +52,7 @@ function scrollTracking(){
 						}
 					});
 					});
-				
+				}
 			}
 	$(window).scroll(function(){
 				scrollTracking();
