@@ -189,6 +189,7 @@
   
   .viz {
     opacity: 1;
+    transition: 0s;
   }
  
   .clearfix:before,
