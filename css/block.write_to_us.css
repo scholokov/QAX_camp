@@ -192,7 +192,7 @@ div#error_message_agree_empty {
         display: none;
     }
     #write_to_us-block {
-        width: auto;
+        width: 320px;
         margin-right: auto !important;
         margin-left: auto !important;
     }
