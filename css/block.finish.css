@@ -141,11 +141,15 @@
     line-height: 28px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #counter-numbers{
     display: flex;
     flex-direction: row;
+    width: 318px;
+    justify-content: space-evenly;
 }
 
 .bl {
@@ -159,8 +163,8 @@
     background: #35324B;
     border-radius: 6px;
     margin: 0 15px;
-    padding: 80px 76px 56px 76px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
   
   .mid {
@@ -177,7 +181,7 @@
     align-items: center;
     justify-content: center;
     line-height: 96px;
-    font-size: 96px;
+    font-size: 113px;;
     font-weight: bold;
     opacity: 0;
     color: #F66F5D;
