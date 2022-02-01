@@ -6,16 +6,21 @@
 var $ = jQuery.noConflict();
 
 
-var block_show = null;
+
+function is_fully_shown(target) {
+	var wt = $(window).scrollTop(); 
+	var wh = $(window).height();    
+	var eh = $(target).height();  
+	var et = $(target).offset().top;
  
-function scrollTracking(){
-	var wt = $(window).scrollTop();
-	var wh = $(window).height();
-	var et = $('#finish').offset().top;
-	var eh = $('#finish').outerHeight();
+	if (et >= wt && et + eh <= wh + wt){
+		return true;
+	} else {
+		return false;    
+	}
+}
  
-	if (wt + wh >= et && wt + wh - eh * 2 <= et + (wh - eh)){
-		if (block_show == null || block_show == false) {
+if (is_fully_shown('#finish')) {
 					var time = 2,
 					cc = 1;
 					$(window).scroll(function() {
@@ -46,23 +51,7 @@ function scrollTracking(){
 						}
 					});
 					});
-		}
-		block_show = true;
-	} else {
-		if (block_show == null || block_show == true) {
-			console.log('Блок active скрыт');
-		}
-		block_show = false;
-	}
 }
- 
-$(window).scroll(function(){
-	scrollTracking();
-});
-	
-$(document).ready(function(){ 
-	scrollTracking();
-});
 //counter
 var time = 2,
   cc = 1;
