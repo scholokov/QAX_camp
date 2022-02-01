@@ -170,7 +170,6 @@ ul{
     
     #success-stories-block{
         padding-top: 40px;
-        max-width: 320px;
         width: 100%;
         margin-left: 0px;
     }
@@ -190,6 +189,7 @@ ul{
         line-height: 18px;
     }
     #success-stories-table {
+        margin-bottom: 0;
         font-size: 14px;
         line-height: 18px;
         font-weight: 400;
@@ -205,7 +205,7 @@ ul{
     #success-stories-img-block {
         max-width: 150px;
         margin-left: 0px;
-        margin-bottom: 100px;
+        margin-bottom: 0px;
     }
     
     
