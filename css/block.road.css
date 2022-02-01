@@ -97,3 +97,33 @@
     }
     
 }
+
+@media (max-width: 420px) {
+    #road-block{
+        flex-flow: revert;
+        flex-direction: column;
+    }
+    
+    #road-img-block{
+        order: 2;
+        max-width: 360px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    #road-text-block{
+        order: 1;
+        max-width: 320px;
+    }
+    
+    #road-title{
+        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    #road-text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
