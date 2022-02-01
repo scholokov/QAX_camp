@@ -383,104 +383,15 @@
 
 
 	<script>
-		$('.accordion__answer:first').show();
-		$('.accordion__question:first').addClass('expanded');
-
-		$('.accordion__question').on('click', function () {
-			var content = $(this).next();
-
-			$('.accordion__answer').not(content).slideUp(400);
-			$('.accordion__question').not(this).removeClass('expanded');
-			$(this).toggleClass('expanded');
-			content.slideToggle(400);
-		});
+		
 	</script>
 
 	<!-- Feedback -->
 	<script>
-	$(document).ready(function(){
-      $('.slick-slider-desktop').slick({
-		dots: true,
-		infinite: true,
-		speed: 0,
-		slidesToShow: 1,
-		arrows: true,
-		draggable: false,
-		//autoplay: true,
-		//autoplaySpeed:  3000
-      });
-    });
-		/*var change_img_time=1000;
-		var transition_speed=1000;
-		var slideIndex = 1;
-		showSlides(slideIndex);
-		function plusSlides(n) {
-			showSlides(slideIndex += n);
-		}
-		function currentSlide(n) {
-			showSlides(slideIndex = n);
-		}
-		function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("feedbackSlides");
-			if (n > slides.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = slides.length }
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			slides[slideIndex - 1].style.display = "block";
-		}
-		
-				var listItems = $(".feedback-slideshow-container").children('div'),
-					dotItems = $('#dots').children('li'),
-					listLen = listItems.length,
-					current,
-					changeTimeout;
-
-				function moveTo(newIndex) {
-
-				var i = newIndex;
-
-				if (newIndex == 'prev') {
-					i = (current > 0) ? (current - 1) : (listLen - 1);
-				}
-
-				if (newIndex == 'next') {
-					i = (current < listLen - 1) ? (current + 1) : 0;
-				}
-
-				dotItems.removeClass('active')
-						.eq(i).addClass('active');
-
-				/*listItems.fadeOut(transition_speed)
-						.eq(i).fadeIn(transition_speed);*/
-
-				/*current = i;*/
-
-				//resets time interval if user clicks on slider dot; then begin automated slider
-				/*clearTimeout(changeTimeout);
-				changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);
-				}; 
-*/
-				
+	
 	</script>
 	<script>
-		// Event handlers
-				/*$("#dots li").click(function () {
-				var li = $('#dots li').index(this);
-				moveTo(i);
-				});
-
-				$(".prev").click(function () {
-				moveTo('prev');
-				});
-
-				$(".next").click(function () {
-				moveTo('next');
-				});
-
-				//initialize slider on load
-				moveTo('next');*/
+		
 		</script>
 
 	<script>
@@ -515,18 +426,7 @@ function goToForm(){
 
 	</script>
 
-	<script>
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({
-							triggerElement: ".viz",
-							triggerHook: 0.9, // show, when scrolled 10% into view
-							duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
-							offset: 50,
-							reverse: false // move trigger to center of element
-						})
-						.setClassToggle(".viz", "animation-fade-in") // add class to reveal
-						.addTo(controller);
-	</script>
+	
 
 	<!-- Footer Scripts
 	============================================= -->
@@ -540,6 +440,18 @@ function goToForm(){
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 	
+	<script>
+		var controller = new ScrollMagic.Controller();
+		new ScrollMagic.Scene({
+							triggerElement: ".viz",
+							triggerHook: 0.9, // show, when scrolled 10% into view
+							duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+							offset: 50,
+							reverse: false // move trigger to center of element
+						})
+						.setClassToggle(".viz", "animation-fade-in") // add class to reveal
+						.addTo(controller);
+	</script>
 	
 </body>
 
