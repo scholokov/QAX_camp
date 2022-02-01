@@ -198,7 +198,7 @@ div#error_message_agree_empty {
         display: none;
     }
     #write_to_us-block {
-        width: 320px;
+        width: 320px !important;
         margin-right: auto !important;
         margin-left: auto !important;
     }
