@@ -7,20 +7,21 @@ var $ = jQuery.noConflict();
 
 
 
-function is_fully_shown(target) {
-	var wt = $(window).scrollTop(); 
-	var wh = $(window).height();    
-	var eh = $(target).height();  
-	var et = $(target).offset().top;
+var block_show = false;
  
-	if (et >= wt && et + eh <= wh + wt){
-		return true;
-	} else {
-		return false;    
+function scrollTracking(){
+	if (block_show) {
+		return false;
 	}
-}
  
-if (is_fully_shown('#finish')) {
+	var wt = $(window).scrollTop();
+	var wh = $(window).height();
+	var et = $('#finish').offset().top;
+	var eh = $('#finish').outerHeight();
+	var dh = $(document).height();   
+ 
+	if (wt + wh >= et || wh + wt == dh || eh + et < wh){
+					block_show = true;
 					var time = 2,
 					cc = 1;
 					$(window).scroll(function() {
@@ -51,7 +52,16 @@ if (is_fully_shown('#finish')) {
 						}
 					});
 					});
-}
+				}
+			}
+			$(window).scroll(function(){
+				scrollTracking();
+			});
+				
+			$(document).ready(function(){ 
+				scrollTracking();
+			});
+
 //counter
 var time = 2,
   cc = 1;
