@@ -134,9 +134,12 @@
     #start-img-block{
         max-width: 300px;
         width: 100%;
+        order: 2;
+        margin-right: 0px;
     }
     
     #start-text-block{
+        order: 1;
         max-width: 320px;
         width: 100%;
         display: flex;
