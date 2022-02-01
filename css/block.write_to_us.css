@@ -225,7 +225,15 @@ div#error_message_agree_empty {
     }
     
     #write_to_us-block-small {
-        max-width: 315px !important;
+        max-width: 280px !important;
+    }
+    .write_to_us-title-form {
+        padding-top: 30px;
+        margin-bottom: 30px;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
     }
     
 }
