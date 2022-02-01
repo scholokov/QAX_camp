@@ -143,10 +143,15 @@
     align-items: center;
 }
 
+#counter-numbers{
+    display: flex;
+    flex-direction: row;
+}
+
 .bl {
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     float: left;
     width: 460px;

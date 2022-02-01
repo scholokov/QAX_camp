@@ -246,10 +246,12 @@
 								</h4>
 								<div id="counter">
 								<div class="bl">
-									<div id="counter-text">Кількість підготовлених бійців<div>
-									<div data-num="0" class="number">0</div>
-									<div data-num="3" class="number">0</div>
-									<div data-num="9" class="number">0</div>
+									<div id="counter-text">Кількість підготовлених бійців</div>
+									<div id="counter-numbers">
+										<div data-num="0" class="number">0</div>
+										<div data-num="3" class="number">0</div>
+										<div data-num="9" class="number">0</div>
+									</div>
 								</div>
 								
 
