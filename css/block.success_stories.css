@@ -207,6 +207,10 @@ ul{
         margin-left: 0px;
         margin-bottom: 0px;
     }
+
+    tr td:nth-child(1) img{
+        max-width: 16px;
+    } 
     
     
 }
