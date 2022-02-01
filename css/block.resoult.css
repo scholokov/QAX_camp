@@ -109,3 +109,41 @@
     }
     
 }
+
+@media (max-width: 420px) {
+    #resoult {
+        background-size: auto;
+    }
+
+    #resoult-block{
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-flow: revert;
+        flex-direction: column;
+    }
+    
+    #resoult-img-block{
+        order: 2;
+        max-width: 360px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    #resoult-text-block{
+        order: 1;
+        max-width: 250px;
+    }
+
+    #resoult-title{
+        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    #resoult-text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    
+}
