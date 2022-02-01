@@ -151,3 +151,40 @@ ul{
     }
     
 }
+
+@media (max-width: 420px) {
+
+    #success-stories-block{
+        margin-top: 0;
+        margin-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #success-stories-block{
+        padding-top: 40px;
+        max-width: 300px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    #success-stories-text-block{
+        max-width: 320px;
+    }
+
+    #success-stories-title{
+        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    #success-stories-text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    
+}
