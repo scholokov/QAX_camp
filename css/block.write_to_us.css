@@ -235,6 +235,17 @@ div#error_message_agree_empty {
         text-align: center;
         color: #FFFFFF;
     }
+    .write_to_us-button-send {
+        margin-top: 45px;
+        width: 160px;
+        height: 43px;
+        font-size: 16px;
+        font-weight: 500;
+        display: block;
+        margin: 10px auto;
+        padding: 12px 36px;
+        -webkit-appearance: none;
+    }
     
 }
 
