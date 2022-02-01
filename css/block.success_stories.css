@@ -185,6 +185,11 @@ ul{
         font-size: 14px;
         line-height: 18px;
     }
+    #success-stories-table {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+    }
     
     
 }
