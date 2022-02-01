@@ -187,6 +187,12 @@ div#error_message_agree_empty {
 
 
 @media (max-width: 420px) {
+    #write_to_us-main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
     #write_to_us-plant {
         display: none;
