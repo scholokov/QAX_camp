@@ -248,7 +248,6 @@
 
 								<div class="bl">
 									<div data-num="39" class="number">0</div>
-									<div class="text">лет на рынке</div>
 								</div>
 								
 
