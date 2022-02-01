@@ -7,60 +7,6 @@ var $ = jQuery.noConflict();
 
 
 
-var block_show = false;
- 
-function scrollTracking(){
-	if (block_show) {
-		return false;
-	}
- 
-	var wt = $(window).scrollTop();
-	var wh = $(window).height();
-	var et = $('#finish').offset().top;
-	var eh = $('#finish').outerHeight();
-	var dh = $(document).height();   
- 
-	if (wt + wh >= et || wh + wt == dh || eh + et < wh){
-					block_show = true;
-					var time = 2,
-					cc = 1;
-					$(window).scroll(function() {
-					$('#counter').each(function() {
-						var
-						cPos = $(this).offset().top,
-						topWindow = $(window).scrollTop();
-						if (cPos < topWindow + 200) {
-						if (cc < 2) {
-							$(".number").addClass("viz");
-							$('div').each(function() {
-							var
-								i = 1,
-								num = $(this).data('num'),
-								step = 500 * time / num,
-								that = $(this),
-								int = setInterval(function() {
-								if (i <= num) {
-									that.html(i);
-								} else {
-									cc = cc + 2;
-									clearInterval(int);
-								}
-								i++;
-								}, step);
-							});
-						}
-						}
-					});
-					});
-				}
-			}
-	$(window).scroll(function(){
-				scrollTracking();
-			});
-				
-			$(document).ready(function(){ 
-				scrollTracking();
-			});		
 
 //counter
 /*var time = 2,
