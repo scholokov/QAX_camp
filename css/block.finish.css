@@ -153,7 +153,7 @@
   }
   
   .number {
-    font-family: Roboto;
+    font-family: Roboto !important;
     width: 96px;
     background: #453B60;
     display: flex;
@@ -169,7 +169,6 @@
   
   .viz {
     opacity: 1;
-    transition: 1s;
   }
  
   .clearfix:before,
