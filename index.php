@@ -245,7 +245,7 @@
 								 та міг випробувати їх у справжній роботі .
 								</h4>
 								<div id="counter">
-
+								<div id="counter-text">Кількість підготовлених бійців<div>
 								<div class="bl">
 									<div data-num="0" class="number">0</div>
 									<div data-num="3" class="number">0</div>
