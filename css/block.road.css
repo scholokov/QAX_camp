@@ -102,6 +102,8 @@
     #road-block{
         flex-flow: revert;
         flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     #road-img-block{
