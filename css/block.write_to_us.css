@@ -188,6 +188,9 @@ div#error_message_agree_empty {
 
 @media (max-width: 420px) {
 
+    #write_to_us-plant {
+        display: none;
+    }
     #write_to_us-block {
         width: auto;
         margin-right: auto;
