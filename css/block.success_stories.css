@@ -154,6 +154,10 @@ ul{
 
 @media (max-width: 420px) {
 
+    #success-stories{
+        background-size: auto;
+    }
+
     #success-stories-block{
         margin-top: 0;
         margin-top: 60px;
