@@ -142,7 +142,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    margin-bottom: 20px;
+    color: #E9E8EA;
 }
 
 #counter-numbers{
@@ -180,8 +180,8 @@
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    line-height: 96px;
-    font-size: 113px;;
+    line-height: 113px;
+    font-size: 96px;;
     font-weight: bold;
     opacity: 0;
     color: #F66F5D;
