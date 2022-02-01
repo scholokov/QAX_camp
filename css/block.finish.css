@@ -144,6 +144,7 @@
     border-radius: 6px;
     margin: 0 15px;
     padding: 80px 76px 56px 76px;
+    justify-content: space-between;
   }
   
   .mid {
@@ -152,6 +153,13 @@
   }
   
   .number {
+    font-family: Roboto;
+    width: 96px;
+    background: #453B60;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
     line-height: 96px;
     font-size: 96px;
     font-weight: bold;
