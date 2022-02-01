@@ -57,3 +57,23 @@
     }
 }
 
+
+@media (max-width: 420px) {
+    #cards-block{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 70px;
+    }
+    
+    #cards-text-block{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    #cards-title{
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+}
+
