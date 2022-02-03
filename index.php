@@ -423,7 +423,7 @@ function goToForm(){
   
 	 var wt = $(window).scrollTop();//количество пикселей, прокрученных от верха 
 	 var wh = $(window).height();//высота окна
-	 var et = $('#finish').offset().top;//позволяет получить текущее положение элемента относительно документа.
+	 var et = $('#finish').offset().top+200;//позволяет получить текущее положение элемента относительно документа.
 	 var eh = $('#finish').outerHeight();//высота блока с/без отступов
 	 var dh = $(document).height();//высота документа 
   
