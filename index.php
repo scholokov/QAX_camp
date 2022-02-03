@@ -436,7 +436,7 @@ function goToForm(){
 						 var
 						 cPos = $(this).offset().top,
 						 topWindow = $(window).scrollTop();
-						 if (cPos < topWindow + 500) {
+						 if (cPos < topWindow + 400) {
 						 if (cc < 2) {
 							 $(".number").addClass("viz");
 							 $('div').each(function() {
