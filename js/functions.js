@@ -53,9 +53,7 @@ function scrollTracking(){
 					
 				}
 			}
-   $(window).scroll(function(){
-				scrollTracking();
-   });
+   $(window).scroll(scrollTracking());
 				
    $(document).ready(function(){ 
 				scrollTracking();
