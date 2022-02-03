@@ -23,12 +23,12 @@ function scrollTracking(){
 					block_show = true;
 					var time = 2,
 					cc = 1;
-					
+					$(window).scroll(function() {
 					$('#counter').each(function() {
 						var
 						cPos = $(this).offset().top,
 						topWindow = $(window).scrollTop();
-						if (cPos < topWindow + 300) {
+						if (cPos < topWindow + 400) {
 						if (cc < 2) {
 							$(".number").addClass("viz");
 							$('div').each(function() {
@@ -50,10 +50,11 @@ function scrollTracking(){
 						}
 						}
 					});
+					});
 					
 				}
 			}
-   $(window).scroll(scrollTracking());
+   
 				
    $(document).ready(function(){ 
 				scrollTracking();
