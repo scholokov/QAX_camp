@@ -6,7 +6,7 @@
 var $ = jQuery.noConflict();
 
 
-var block_show = false;
+/*var block_show = false;
  
 function scrollTracking(){
 	if (block_show) {
@@ -23,12 +23,12 @@ function scrollTracking(){
 					block_show = true;
 					var time = 2,
 					cc = 1;
-					$(window).scroll(function() {
+					
 					$('#counter').each(function() {
 						var
 						cPos = $(this).offset().top,
 						topWindow = $(window).scrollTop();
-						if (cPos < topWindow + 400) {
+						if (cPos < topWindow + 300) {
 						if (cc < 2) {
 							$(".number").addClass("viz");
 							$('div').each(function() {
@@ -50,15 +50,16 @@ function scrollTracking(){
 						}
 						}
 					});
-					});
 					
 				}
 			}
-   
+   $(window).scroll(function(){
+				scrollTracking();
+   });
 				
    $(document).ready(function(){ 
 				scrollTracking();
-   });		
+   });	*/	
 
 
 /*var time = 2,
