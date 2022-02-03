@@ -62,7 +62,7 @@ function scrollTracking(){
    });		
 
 
-var time = 2,
+/*var time = 2,
   cc = 1;
 $(window).scroll(function() {
   $('#counter').each(function() {
@@ -91,7 +91,7 @@ $(window).scroll(function() {
       }
     }
   });
-});
+});*/
 //curses functions
 
 //Telegram footer link
