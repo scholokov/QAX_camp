@@ -6,7 +6,7 @@
     margin-bottom: 30px;
 }
 
-.trainers-start-block{
+#trainers-start-block{
     display: flex;
     flex-direction: row;
 }
