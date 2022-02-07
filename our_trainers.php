@@ -123,9 +123,15 @@
 		<section id="content">
 			<div class="content-wrap">
 				<div class="container clearfix trainers-main-block">
-                    <h3 id="trainers-main-title">Наші тренери</h3>
-                    <div class="trainers-main-description">Команда справжніх професіоналів, яка допоможе тобі здобути новітні знання та практичні навички, 
+					<div id="trainers-main-text">
+						<h3 id="trainers-main-title">Наші тренери</h3>
+                   		<div class="trainers-main-description">Команда справжніх професіоналів, яка допоможе тобі здобути новітні знання та практичні навички, 
 						що стануть вирішальними для отримання оферу твоєї мрії!</div>
+					</div>
+					<div id="trainers-main-img">
+						<img src="images/trainers.svg" alt="main_img">
+					</div>
+                    
                     <div class="trainers-block ">
 					    <div class="trainer ">
                             <div class="trainer-photo">
