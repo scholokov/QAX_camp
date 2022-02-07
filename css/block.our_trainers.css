@@ -7,8 +7,11 @@
 }
 
 #trainers-start-block{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #trainers-main-title{
@@ -16,16 +19,26 @@
     color: #F66F5D;
     font-size: 36px;
     margin-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 
+}
+
+div#trainers-main-text {
+    max-width: 480px;
+    width: 100%;
+}
+
+div#trainers-main-img{
+    max-width: 480px;
+    width: 100%;
 }
 
 .trainers-main-description{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 100px;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 500;
-    line-height: 31px;
+    line-height: 27px;
 
 }
 
