@@ -6,6 +6,11 @@
     margin-bottom: 30px;
 }
 
+.trainers-start-block{
+    display: flex;
+    flex-direction: row;
+}
+
 #trainers-main-title{
     font-family: 'Raleway', sans-serif;
     color: #F66F5D;
