@@ -12,6 +12,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 #trainers-main-title{
@@ -35,7 +36,6 @@ div#trainers-main-img{
 
 .trainers-main-description{
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 100px;
     font-size: 21px;
     font-weight: 500;
     line-height: 27px;
