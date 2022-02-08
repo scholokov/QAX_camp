@@ -183,6 +183,19 @@ a#footer-facebook:hover{
         max-width: 68px;
     }
 
+    #footer-bottom {
+        height: -1px;
+        background-color: #2C2A3F;
+        margin-bottom: 0px; 
+    }
+
+    #footer-bottom-block {
+        height: -1px;
+        background-color: #262438;
+        border-radius: 50%/10%;
+        margin-bottom: -140px;
+    }
+
     #footer-img{
         display: none;
     }
