@@ -80,7 +80,7 @@
 
 				<a href="about_us.php" class="header-menu header-menu-links ">про нас</a>
 
-				<a href="our_trainers.php" class="header-menu header-menu-links" id="menu-link-our-trainers">наші тренери<div id="menu-line-our-trainers"></div></a>
+				<a href="our_trainers.php" class="header-menu header-menu-links" id="menu-link-our-trainers">наші тренери</a>
 
 				
 				<!--
@@ -490,6 +490,24 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
 
+	<script>
+		var pages=window.location.pathname.slice(1);
+	var url="cources.php?cource=qa&name=qa_practice";
+	var link = $('a.header-menu.header-menu-links').attr('href');
+
+	if (link==url && pages=="cources.php"){
+		document.getElementById("menu-link-courses").style.color='#F66F5D';
+	}else if(pages=="about_us.php"){
+		document.getElementById("menu-link-about-us").style.color='#F66F5D';
+	}else if(pages=="our_trainers.php"){
+		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
+	}else{
+
+		document.getElementById("menu-link-courses").style.color='white';
+		document.getElementById("menu-link-about-us").style.color='white';
+		document.getElementById("menu-link-our-trainers").style.color='white';
+	};
+	</script>
 
 <script>
 		function footerlink(){
