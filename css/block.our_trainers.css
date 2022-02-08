@@ -364,12 +364,12 @@ td:nth-child(3), td:nth-child(5){
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 58px;
     }
     .trainer-photo-mob {
         max-width: 360px;
         width: 100%;
-        margin-bottom: 58px;
+        margin-bottom: 0px;
     }
     .trainer-img {
         max-width: 360px;
