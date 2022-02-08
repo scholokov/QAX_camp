@@ -8,8 +8,6 @@
 
 #trainers-start-block{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -327,6 +325,18 @@ td:nth-child(3), td:nth-child(5){
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    #trainers-start-block {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 56px;
+        margin-top: 36px;
+    }
     .experience-tr{
         width: 320px;
     }
