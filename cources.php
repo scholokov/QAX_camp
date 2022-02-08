@@ -276,30 +276,33 @@
 	
 	<script>
 		function myFunction(x) {
-			x.classList.toggle("change");
-			var y = document.getElementById("header-block");
-				if (y.className === "header-menu") {
-					y.className += " responsive";
-					$("body").css({ "overflow": "hidden" });
-					$("#footer-block").css({ "display": "none" });
-					$("#content").css({ "display": "none" });
-					$("#comments-course").css({ "display": "none" });
-					
-				} else {
-					y.className = "header-menu";
-					$("body").css({ "overflow": "visible" });
-					$("#footer-block").css({ "display": "flex" });
-					$("#content").css({ "display": "block" });
-					$("#comments-course").css({ "display": "block" });
-				}
-			}
-		function goToForm(){
-				$(".burger-icon").removeClass("change");
-				$("#header-block").removeClass("responsive");
-				$("body").css({ "overflow": "visible" });
-				$("#footer-block").css({ "display": "flex" });
-				$("#content").css({ "display": "block" });
-		}
+  x.classList.toggle("change");
+  var y = document.getElementById("header-block");
+    if (y.className === "header-menu") {
+        y.className += " responsive";
+		$("body").css({ "overflow": "hidden" });
+		$("footer").css({ "display": "none" });
+		$("#cources").css({ "display": "none" });
+		$("#content").css({ "display": "none" });
+		
+    } else {
+        y.className = "header-menu";
+		$("body").css({ "overflow": "visible" });
+		$("footer").css({ "display": "block" });
+		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
+    }
+}
+function goToForm(){
+		$(".burger-icon").removeClass("change");
+		$("#header-block").removeClass("responsive");
+	    $("body").css({ "overflow": "visible" });
+		$("footer").css({ "display": "block" });
+		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
+		
+
+}
 
 	</script>
 	<!-- Footer Scripts
