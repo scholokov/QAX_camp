@@ -150,6 +150,9 @@ a#footer-facebook:hover{
 }*/
 
 @media (min-width:768px) and (max-width: 992px) {
+    #footer-img{
+        display: none;
+    }
 
     .footer-contatcs-item{
         display: none;
@@ -162,6 +165,10 @@ a#footer-facebook:hover{
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    #footer-img{
+        display: none;
+    }
+
     .footer-contatcs-item{
         display: none;
     }
