@@ -461,7 +461,7 @@ var block_show = false;
 								 }, step);
 							 });
 						 }
-						 }
+						 
 					 });
 					 
 				 }
