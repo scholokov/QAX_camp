@@ -32,6 +32,7 @@
 }
 
 #success-stories-title{
+    text-transform: uppercase;
     margin-bottom: 16px;
     font-size: 32px;
     line-height: 38px;
@@ -153,14 +154,17 @@ ul{
 }
 
 @media (max-width: 420px) {
+    
 
     #success-stories{
+        background: url(images/success_stories_bg_mob.svg) no-repeat;
         background-size: auto;
+        background-position: left;
     }
 
     #success-stories-block{
         margin-top: 0;
-        margin-top: 60px;
+        margin-top: 10px;
         padding-left: 20px;
         padding-right: 20px;
         flex-direction: column;
@@ -185,6 +189,7 @@ ul{
     }
     
     #success-stories-text{
+        margin-bottom: 30px;
         font-size: 14px;
         line-height: 18px;
     }
