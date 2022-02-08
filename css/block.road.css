@@ -104,8 +104,9 @@
         flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
+        align-items: center;
     }
-    
+
     #road-img-block{
         order: 2;
         max-width: 360px;
