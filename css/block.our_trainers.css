@@ -7,6 +7,8 @@
 }
 
 #trainers-start-block{
+    padding-left: 0px;
+    padding-right: 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
