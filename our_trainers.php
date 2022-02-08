@@ -126,8 +126,9 @@
 					<div id="trainers-start-block">
 						<div id="trainers-main-text">
 							<h3 id="trainers-main-title">Наші тренери</h3>
-							<div class="trainers-main-description">Команда справжніх професіоналів, яка допоможе тобі здобути новітні знання та практичні навички, 
-							що стануть вирішальними для отримання оферу твоєї мрії!</div>
+							<div class="trainers-main-description">Майстри своєї справи які будуть разом 
+								з тобою протягом усієї дороги навчання
+								 та радо дадуть ключі на усі твої запитання які ти так довго шукав сам.</div>
 						</div>
 						<div id="trainers-main-img">
 							<img src="images/trainers.svg" alt="main_img">
