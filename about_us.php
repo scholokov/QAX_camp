@@ -216,11 +216,11 @@
 					</div>
 					
 				</div>
-			<?php include 'components/form.html'?>
+			
 			</div>
 		</section><!-- #content end -->
 
-		
+		<?php include 'components/form.html'?>
 
 		<!-- Footer
 		============================================= -->
