@@ -287,8 +287,8 @@
 		$("#content").css({ "display": "none" });
 		
     } else {
-		$("#header-block").css({ "background": "#3E3B5E" });
         y.className = "header-menu";
+		$("#header-block").css({ "background": "#3E3B5E" });
 		$("body").css({ "overflow": "visible" });
 		$("footer").css({ "display": "block" });
 		$("#cources").css({ "display": "block" });
