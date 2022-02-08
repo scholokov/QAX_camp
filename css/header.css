@@ -3,7 +3,7 @@
 ------------------------------------------------------------------*/
 #header-block {
     display:block;
-    height: 80px;
+    height: 79px;
     width: 100%;
     background: #3E3B5E;
     align-items: center;
@@ -119,7 +119,7 @@ a#menuCources:hover{
     left: 0;
     top: 80px;
     bottom: 0;
-    background-color: #212121;
+    background-color: #2C2A3F;
     min-height: 100vh;
     width: 100vw;
     position: absolute;
