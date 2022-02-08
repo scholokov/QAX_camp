@@ -91,11 +91,11 @@
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">курси</a>
+				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">Курси</a>
 
-				<a href="about_us.php"  class="header-menu header-menu-links ">про нас</a>
+				<a href="about_us.php"  class="header-menu header-menu-links ">Про нас</a>
 
-				<a href="our_trainers.php"  class="header-menu header-menu-links">наші тренери</a>
+				<a href="our_trainers.php"  class="header-menu header-menu-links">Наші Тренери</a>
 
 				
 				<!--
