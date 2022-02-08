@@ -98,6 +98,19 @@
 
 @media (max-width: 420px) {
 
+    .bl {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        float: left;
+        width: 320px;
+        height: 200px;
+        
+        margin-top: 50px;
+       
+    }
+
     #finish-block{
         margin-top: 0;
         margin-top: 60px;
