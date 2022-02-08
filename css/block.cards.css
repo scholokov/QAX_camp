@@ -59,6 +59,10 @@
 
 
 @media (max-width: 420px) {
+    #cards-img-block {
+        justify-content: center;
+    }
+
     #cards-block{
         padding-left: 20px;
         padding-right: 20px;
