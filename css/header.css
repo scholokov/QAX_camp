@@ -57,13 +57,13 @@ a#menuCources:hover{
 
 #sendButtonText:hover {
     background: #E9E8EA;
-    color: transparent;
+    color: #3E3B5E;
     border-color: #E9E8EA;
 }
 
 #sendButtonText:focus {
     background: #E9E8EA;
-    color: transparent;
+    color: #3E3B5E;
     border-color: #E9E8EA;
 }
 
