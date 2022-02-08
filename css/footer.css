@@ -126,6 +126,10 @@ a#footer-facebook:hover{
     
 }
 
+.footer-contatcs-item-mob{
+    display: none;
+}
+/*
 @media (max-width:991px){
     #footer-block {
         max-width: 690px;
@@ -143,4 +147,28 @@ a#footer-facebook:hover{
         padding-right: 30px;
         
     }
+}*/
+
+@media (min-width:768px) and (max-width: 992px) {
+
+    .footer-contatcs-item{
+        display: none;
+    }
+
+    .footer-contatcs-item-mob{
+        display: block;
+    }
+
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+    .footer-contatcs-item{
+        display: none;
+    }
+
+    .footer-contatcs-item-mob{
+        display: block;
+    }
+
+
 }
