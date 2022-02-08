@@ -280,12 +280,14 @@
   var y = document.getElementById("header-block");
     if (y.className === "header-menu") {
         y.className += " responsive";
+		$("#header-block").css({ "background": "#2C2A3F" });
 		$("body").css({ "overflow": "hidden" });
 		$("footer").css({ "display": "none" });
 		$("#cources").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
 		
     } else {
+		$("#header-block").css({ "background": "#3E3B5E" });
         y.className = "header-menu";
 		$("body").css({ "overflow": "visible" });
 		$("footer").css({ "display": "block" });
