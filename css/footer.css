@@ -160,11 +160,29 @@ a#footer-facebook:hover{
 
     .footer-contatcs-item-mob{
         display: block;
+        max-width: 42px;
     }
 
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    #footer-top-block {
+        padding: 10px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-radius: 100px;
+        border: 10px solid #47426C;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    div#powered_logo-block{
+        margin-left: 15px;
+        max-width: 68px;
+    }
+
     #footer-img{
         display: none;
     }
@@ -175,6 +193,7 @@ a#footer-facebook:hover{
 
     .footer-contatcs-item-mob{
         display: block;
+        max-width: 42px;
     }
 
 
