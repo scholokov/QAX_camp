@@ -277,7 +277,9 @@
 								</h4>
 								<table id="success-stories-table">
 										<tr class="success-stories-student">
-											<td><img src="images/linkedin_logo_home.svg"></td>
+											<td><a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua">
+												<img src="images/linkedin_logo_home.svg">
+											</a></td>
 											<td>Alexander Bezeliuk</td> 
 											<td><ul>
 												<li>Працював 3 роки на посаді “Заступника дероктора магазину електроніки”<br></li>
@@ -287,7 +289,8 @@
 										</tr>
 
 										<tr class="success-stories-student">
-											<td><img src="images/linkedin_logo_home.svg"></td>
+											<td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
+												<img src="images/linkedin_logo_home.svg"></a></td>
 											<td>Max Lapaichuk</td> 
 											<td> <ul>
 												<li>Працював 4 роки на посаді “Офіціант - адміністратор”<br></li>
@@ -297,7 +300,8 @@
 										</tr>
 										
 										<tr class="success-stories-student">
-											<td><img src="images/linkedin_logo_home.svg"></td>
+											<td><a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
+												<img src="images/linkedin_logo_home.svg"></a></td>
 											<td>Pavel Karnasenko</td> 
 											<td><ul>
 												<li>Працював 4 роки на посаді “Інженер-конструктор”<br></li>
