@@ -96,6 +96,40 @@
     
 }
 
+@media (max-width: 768px){
+    #finish-title{
+        font-size: 21px;
+        line-height: 25px;
+    }
+    #finish-text{
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    #finish-img-block{
+        max-width: 330px;
+        margin-left: -20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #finish-text-block{
+        max-width: 423px;
+    }
+
+    .number {
+        width: 77px;
+    }
+
+    .bl {
+        margin-top: 40px;
+        width: 320px !important;
+        height: 200px !important;
+        
+       
+    }
+}
+
 @media (max-width: 420px) {
     .number {
         font-family: 'Roboto', sans-serif !important;

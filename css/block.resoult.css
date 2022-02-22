@@ -110,6 +110,27 @@
     
 }
 
+@media (max-width: 768px){
+    #resoult-title{
+        font-size: 21px;
+        line-height: 25px;
+    }
+    #resoult-text{
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    #resoult-img-block{
+        padding-top: 125px;
+        max-width: 250px;
+        margin-right: 60px;
+    }
+    
+    #resoult-text-block{
+        max-width: 372px;
+    }
+}
+
 @media (max-width: 420px) {
     #resoult {
         background-size: auto;
