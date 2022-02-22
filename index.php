@@ -322,9 +322,21 @@
 								<h3 id="cards-title">Обери свій напрямок</h3>
 							</div>
 							<div id="cards-img-block">
-								<div class="course-card"><img src="images/QA_card.svg"></div>
-								<div class="course-card"><img src="images/PM_card.svg"></div>
-								<div class="course-card"><img src="images/BA_card.svg"></div>
+								<div class="course-card">
+									<a class="courses-block-a" href="cources.php?cource=qa&name=qa_practice" id="card-qa">
+										<img src="images/QA_card.svg">
+									</a>
+								</div>
+								<div class="course-card">
+									<a class="courses-block-a" href="cources.php?cource=pm&name=pm_practice">
+										<img src="images/PM_card.svg">
+									</a>
+								</div>
+								<div class="course-card">
+									<a class="courses-block-a" href="cources.php?cource=ba&name=ba_practice" id="card-ba">
+										<img src="images/BA_card.svg">
+									</a>
+								</div>
 								<div class="course-card"><img src="images/HR_card.svg"></div>
 							</div>
 						</div>
