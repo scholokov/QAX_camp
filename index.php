@@ -337,7 +337,11 @@
 										<img src="images/BA_card.svg">
 									</a>
 								</div>
-								<div class="course-card"><img src="images/HR_card.svg"></div>
+								<div class="course-card">
+									<a class="courses-block-a" href="cources.php?cource=hr&name=hr_practice">
+										<img src="images/HR_card.svg">
+									</a>
+								</div>
 							</div>
 						</div>
 
