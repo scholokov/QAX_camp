@@ -153,6 +153,23 @@ ul{
     
 }
 
+
+@media (max-width: 768px) {
+    #success-stories-text{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    #success-stories-table{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    #success-stories-img-block{
+        max-width: 250px;
+        margin-left: -210px;
+        margin-bottom: 100px;
+    }
+}
+
 @media (max-width: 420px) {
     
 
