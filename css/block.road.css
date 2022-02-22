@@ -23,6 +23,11 @@
     justify-content: center;
 }
 
+.road-small-title {
+    color: #F66F5D;
+    font-weight: 700;
+}
+
 #road-title{
     margin-bottom: 16px;
     font-size: 32px;
@@ -96,6 +101,27 @@
         line-height: 23px;
     }
     
+}
+
+
+@media (max-width: 768px){
+    #road-title{
+        font-size: 21px;
+        line-height: 25px;
+    }
+    #road-text{
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    #road-img-block{
+        max-width: 350px;
+        margin-left: -20px;
+    }
+
+    #road-text-block{
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 420px) {
