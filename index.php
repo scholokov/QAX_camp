@@ -277,7 +277,7 @@
 								</h4>
 								<table id="success-stories-table">
 										<tr class="success-stories-student">
-											<td><a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua">
+											<td><a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua" target="_blank">
 												<img src="images/linkedin_logo_home.svg">
 											</a></td>
 											<td>Alexander Bezeliuk</td> 
@@ -289,7 +289,7 @@
 										</tr>
 
 										<tr class="success-stories-student">
-											<td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua">
+											<td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" target="_blank">
 												<img src="images/linkedin_logo_home.svg"></a></td>
 											<td>Max Lapaichuk</td> 
 											<td> <ul>
@@ -300,7 +300,7 @@
 										</tr>
 										
 										<tr class="success-stories-student">
-											<td><a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua">
+											<td><a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua" target="_blank">
 												<img src="images/linkedin_logo_home.svg"></a></td>
 											<td>Pavel Karnasenko</td> 
 											<td><ul>
