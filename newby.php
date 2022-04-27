@@ -57,19 +57,15 @@
 
 </head>
 
-<body class="stretched">
+<body class="">
 
 	<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix">
+
 
 		<!-- Header
 		============================================= -->
-		<header>
-			<div class="header-menu" id="header-block">
-				<a href="index.php"><img src="images/new_logo.svg" alt="Logo" id="logo"></a>
-			</div>
-		</header><!-- #header end -->
+
 
 		<!-- Page Title
 		============================================= -->
@@ -78,174 +74,17 @@
 
 		<!-- Content
 		============================================= -->
-		<section id="content">
-			<div class="content-wrap" id="info_for_student">
-				<div class="info_for_student_main_block container clearfix">
-					<div id="info_for_student_content">
 
-					<img id="info_for_student_main_img" src="images/stud_info_main.svg">
-
-					 <p ><b>Вітаємо тебе у нашій крутій команді QAX! </b></p>
-
-                     <p>Аби зробити твій старт максимально комфортним ми підготували докладну інструкцію! </p>
-
-                   
-                    <ol id="info_for_student_steps_block">
-                            <li>1. Для спілкування з командою, а також, щоб 
-                                не пропустити важливі повідомлення, приєднуйся до нашого <a target="_blank" href="https://t.me/+IFd8fztXs1_FXSfq">Telegram-чату</a></li>
-                            <li>2. Відправ свій Gmail в особисті повідомлення Denis Scholokov.
-                                (Важко знайти? Тоді клікай <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a>)</li>
-                            <li>3. Перевір свою Gmail – пошту, знайди лист з інвайтом на календар QAX та клікай додати Google Календар
-									<div class="cont">
-										<div class="list-question">
-											<dt>Детальніше</dt>	
-											<dd><img class="info_for_student_steps_img" src="images/info1.svg"></dd>
-										</div>
-									</div>
-							</li>
-                            <li>4. В своєму Google-акаунті відкрий меню сервісів Google
-									<div class="cont1">
-										<div class="list-question">
-											<dt>Детальніше</dt>	
-											<dd><img class="info_for_student_steps_img" src="images/info2.svg"></dd>
-										</div>
-									</div>
-                                 </li>
-                            <li>5. Перейди у додаток Google Календар
-							<div class="cont2">
-										<div class="list-question">
-											<dt>Детальніше</dt>	
-											<dd><img class="info_for_student_steps_img" src="images/info3.svg"></dd>
-										</div>
-									</div>
-                                </li>
-                            <li>6. Обов’язково перевір, чи є відмітка навпроти QAX Camp Schedule. Вітаємо! 
-                                Тепер Календар синхронізовано!
-								<div class="cont3">
-										<div class="list-question">
-											<dt>Детальніше</dt>	
-											<dd><img class="info_for_student_steps_img" src="images/info4.svg"></dd>
-										</div>
-									</div>
-                                </li>
-                            <li>7. Щоб спілкування було комфортним, не забудь перевірити свою камеру та мікрофон перед підключенням. 
-                                Зручно це зробити тут: <a target="_blank" href="https://webcammictest.com/">Webcam test - Check camera online </a>  </li>
-                            <li>8. У відповідний час клікай на зустріч у Календарі та вибирай “Приєднатися” через Google Meet. 
-                                Кожна зустріч має свій окремий лінк! <br>
-                                Після закінчення зустрічі повернись в Google Календар та обирай наступну зустріч. 
-                                (Докладніше про Google Meet можеш почитати тут: <a target="_blank" href="https://support.google.com/meet/?hl=uk#topic=7306097">Google Meet Довідка</a> )
-								<div class="cont4">
-										<div class="list-question">
-											<dt>Детальніше</dt>	
-											<dd><img class="info_for_student_steps_img" src="images/info5.svg"></dd>
-										</div>
-									</div>
-								</li>
-                            <li>9. Бажано відвідати всі зустрічі, але якщо не можеш бути присутнім, не хвилюйся, після тестового періоду у   
-                                тебе буде доступ до всіх архівів зустрічей.</li>
-                                
-                    </ol>
+	
+					<iframe src="https://forms.monday.com/forms/embed/7907437eb478113f6d5159033607ed0e?r=use1" width="650" height="900" style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
                     
-                    <p>Сподіваємось, в тебе все вийшло! До зустрічі! Якщо ні, звернись до <a target="_blank" href="https://t.me/scholokovdenis">Denis Scholokov</a></p>
-					</div >
-                    
-					
-				</div>
-			
-			</div>
-		</section><!-- #content end -->
 
-		
+
 
 		<!-- Footer
 		============================================= -->
 	
 
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-line-chevron-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/include.js"></script>
-
-	<!-- <script src="js/jquery.js"></script> -->
-
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-			
-
-	<!-- Footer Scripts
-	============================================= -->
-	<!-- for phone mask -->
-
-	<script src="js/intlTelInput.min.js"></script>
-	<script src="js/intlTelInput-jquery.min.js"></script>
-	<script src="js/functions.js"></script>
-			<script>
-				document.querySelector('.cont')
-.addEventListener('click', spoilerClickHandler) // слушаем клики по section
-
-
-function spoilerClickHandler(evt) {
-  const spoilerSwitchElem = evt.target.closest('dt')
-  if (spoilerSwitchElem) { // если клик по dt
-    spoilerSwitchElem.closest('.list-question')
-      .classList.toggle('active') // обертке переключаем active
-  }
-}
-
-document.querySelector('.cont1')
-  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
-
-
-function spoilerClickHandler1(evt) {
-  const spoilerSwitchElem = evt.target.closest('dt')
-  if (spoilerSwitchElem) { // если клик по dt
-    spoilerSwitchElem.closest('.list-question')
-      .classList.toggle('active') // обертке переключаем active
-  }
-}
-document.querySelector('.cont2')
-  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
-
-
-function spoilerClickHandler2(evt) {
-  const spoilerSwitchElem = evt.target.closest('dt')
-  if (spoilerSwitchElem) { // если клик по dt
-    spoilerSwitchElem.closest('.list-question')
-      .classList.toggle('active') // обертке переключаем active
-  }
-}
-document.querySelector('.cont3')
-  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
-
-
-function spoilerClickHandler3(evt) {
-  const spoilerSwitchElem = evt.target.closest('dt')
-  if (spoilerSwitchElem) { // если клик по dt
-    spoilerSwitchElem.closest('.list-question')
-      .classList.toggle('active') // обертке переключаем active
-  }
-}
-document.querySelector('.cont4')
-  .addEventListener('click', spoilerClickHandler) // слушаем клики по section
-
-
-function spoilerClickHandler4(evt) {
-  const spoilerSwitchElem = evt.target.closest('dt')
-  if (spoilerSwitchElem) { // если клик по dt
-    spoilerSwitchElem.closest('.list-question')
-      .classList.toggle('active') // обертке переключаем active
-  }
-}
-			</script>
 
 </body>
 
