@@ -1,3 +1,6 @@
+html,body{
+    overflow-y: hidden;
+}
 #header-block {
     display: block;
     height: 81px;
