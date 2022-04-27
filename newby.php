@@ -57,6 +57,7 @@
 
 </head>
 
+
 <body class="">
 
 	<!-- Document Wrapper
@@ -65,7 +66,11 @@
 
 		<!-- Header
 		============================================= -->
-
+		<header>
+			<div class="header-menu" id="header-block">
+				<a href="index.php"><img src="images/new_logo.svg" alt="Logo" id="logo"></a>
+			</div>
+		</header><!-- #header end -->
 
 		<!-- Page Title
 		============================================= -->
