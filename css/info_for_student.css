@@ -6,3 +6,7 @@
     background: rgb(24, 25, 26);
     align-items: center;
 }
+
+iframe {
+    box-shadow: none !important;
+}
