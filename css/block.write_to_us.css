@@ -261,9 +261,22 @@ div#error_message_agree_empty {
         margin-top: 25px;
     }
     #agree-checkbox {
-        height: 81px !important;
+        height: 47px !important;
     }
+
+    #checkbox-custom {
+        height: 20px;
+        width: 20px;
+        border: 1px solid #FFFFFF;
+        display: inline-block;
+        position: relative;
+        border-radius: 4px;
+        padding: 3px;
+    }
+
     #checkbox-text {
+        max-width: 226px;
+        width: 100%;
         height: 81px;
         font-family: Montserrat;
         font-size: 12px;
@@ -274,9 +287,25 @@ div#error_message_agree_empty {
         text-align: left;
     }
     
+    .write_to_us-button-send {
+        display: block;
+        margin: 40px auto;
+        padding: 12px 36px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        max-width: 160px;
+        max-height: 43px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        color: #FFFFFF;
+    }
+
     #div-phone, #div-email {
         padding-bottom: 30px;
-        max-width: 440px !important;
+        max-width: 200px !important;
         width: 100%;
     }
 
@@ -350,6 +379,7 @@ div#error_message_agree_empty {
         max-width: 200px; 
         width: 100%;
     }
+
 
 
     
