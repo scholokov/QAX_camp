@@ -339,6 +339,7 @@ div#error_message_agree_empty {
     }
 
     #write_to_us-block {
+        margin-top: -591px;
         margin-left: auto;
         margin-right: auto;
         max-width: 530px;
@@ -357,7 +358,7 @@ div#error_message_agree_empty {
 
     #write_to_us_bg_block {
         position: relative;
-        margin-top: 500px;
+        margin-top: 300px;
         max-width: 708px;
         width: 100%;
         background: #894A4D;
