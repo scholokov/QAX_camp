@@ -351,12 +351,6 @@ div#error_message_agree_empty {
         width: 100%;
     }
 
-    #div-name, #div-phone-email, #div-comment, #div-data-button {
-        display: flex;
-        margin-left: 0;
-        margin-right: 0;
-        flex-direction: column;
-    }
 
     
 }
