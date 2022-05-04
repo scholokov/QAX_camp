@@ -381,6 +381,7 @@ div#error_message_agree_empty {
     }
 
     #write_to_us_bg_block {
+        margin-top: 170px;
         position: relative;
         margin-bottom: 0px;
         max-width: 708px;
