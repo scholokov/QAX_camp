@@ -27,6 +27,7 @@
 }
 
 #write_to_us-plant{
+    z-index: 9999;
     position: relative;
     margin-bottom: -179px;
     margin-right: 50px;
@@ -294,6 +295,19 @@ div#error_message_agree_empty {
 
     .form-group {
         display: block !important;
+    }
+
+    #write_to_us-plant {
+        position: relative;
+        margin-right: 0px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #write_to_us-block {
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     
