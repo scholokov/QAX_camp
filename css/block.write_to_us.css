@@ -309,7 +309,7 @@ div#error_message_agree_empty {
     #write_to_us-block {
         margin-left: -50px;
         margin-right: -115px;
-        max-width: 708px;
+        max-width: 503px;
         width: 100%;
     }
 
@@ -324,7 +324,7 @@ div#error_message_agree_empty {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     #write_to_us-person {
         margin-left: -95px;
         margin-bottom: -179px;
@@ -359,11 +359,11 @@ div#error_message_agree_empty {
         margin-right: -15px;
         margin-left: -15px;
     }
-    #write_to_us-block{
+   /* #write_to_us-block{
         width: auto;
         margin-right: -15px;
         margin-left: -15px;
-        }
+        }*/
     .write_to_us-button-send {
         display: block;
         margin: 30px auto;
