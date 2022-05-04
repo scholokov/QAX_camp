@@ -593,6 +593,7 @@
 		$("footer").css({ "display": "none" });
 		$("#cources").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
+		$("#write_to_us").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
@@ -601,6 +602,7 @@
 		$("footer").css({ "display": "block" });
 		$("#cources").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
+		$("#write_to_us").css({ "display": "flex" });
     }
 }
 function goToForm(){
