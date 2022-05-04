@@ -276,17 +276,17 @@ div#error_message_agree_empty {
     
     #div-phone, #div-email {
         padding-bottom: 30px;
-        max-width: 354px !important;
+        max-width: 440px !important;
         width: 100%;
     }
 
     .iti.iti--allow-dropdown{
-        max-width: 354px;
+        max-width: 440px;
         width: 100%;
     }
 
     #write_to_us-block-small {
-        max-width: 354px;
+        max-width: 440px;
     }
 
     .write_to_us-personal-data {
@@ -307,10 +307,20 @@ div#error_message_agree_empty {
     }
 
     #write_to_us-block {
-        margin-left: -50px;
-        margin-right: -115px;
-        max-width: 503px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 530px;
         width: 100%;
+    }
+    
+
+    .write_to_us-title-form {
+        padding-top: 40px;
+        margin-bottom: 49px;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
     }
 
     #write_to_us_bg_block {
@@ -333,6 +343,19 @@ div#error_message_agree_empty {
         width: 100%;
         align-items: flex-end;
         position: relative;
+    }
+
+    #div-phone, #div-email {
+        padding-bottom: 30px;
+        max-width: 440px; 
+        width: 100%;
+    }
+
+    #div-name, #div-phone-email, #div-comment, #div-data-button {
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
     }
 
     
@@ -621,8 +644,11 @@ textarea:-moz-placeholder {
 }
 
 #div-name,#div-phone-email,#div-comment,#div-data-button{
+    display: flex;
     margin-left: 0;
     margin-right: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 #div-phone,#div-email {
