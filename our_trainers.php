@@ -496,7 +496,7 @@
 
 									<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2019</td><td>–</td> <td>Recruitment Specialist в GlobalLogic<br></td></tr>
 
-									<tr class="experience-tr"><td>2015</td> <td>–</td> <td>2016</td><td>–</td><td>Recruitment Specialist в <a href="http://wargaming.net/" target="_blank">Wargaming.net</a> <br></td></tr>
+									<tr class="experience-tr"><td>2015</td> <td>–</td> <td>2016</td><td>–</td><td>Recruitment Specialist в Wargaming.net <br></td></tr>
 									
 								</tbody></table>
 								<p></p>
