@@ -261,6 +261,8 @@ div#error_message_agree_empty {
         width: 100%;
     }
     #send_but_chekbox{
+        margin-bottom: 0;
+        padding-bottom: 0;
         flex-direction: column !important;
     }
     #div-phone-email {
@@ -338,7 +340,7 @@ div#error_message_agree_empty {
     }
     .write_to_us-button-send {
         align-self: flex-end;
-        margin-top: 45px;
+        margin-top: 35px;
         width: 160px;
         height: 43px;
         font-size: 16px;
