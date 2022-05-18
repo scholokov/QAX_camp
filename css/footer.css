@@ -234,7 +234,7 @@ a#footer-facebook:hover{
 
 
 
-@media (min-width: 220px) and (max-width: 600px) {
+@media (min-width: 220px) and (max-width: 767px) {
     #footer-top-block {
         padding: 10px 20px;
         margin-left: auto;
