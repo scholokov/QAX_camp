@@ -39,6 +39,7 @@
 }
 
 #about_us_quotation1{
+    text-align: center;
     max-width: 517px;
     width: 100%;
     margin: 12px auto;
@@ -50,12 +51,14 @@
 }
 
 #about_us_quotation2{
+    text-align: center;
     max-width: 251px;
     width: 100%;
     margin: 12px auto;
 }
 
 #about_us_quotation3 {
+    text-align: center;
     max-width: 750px;
     width: 100%;
     margin: 12px auto;
