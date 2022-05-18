@@ -700,7 +700,11 @@ textarea:-moz-placeholder {
 }
 
 .write_to_us-block-thanks {
+    height: 332px;
     background: url(images/thank-you-bg.svg) no-repeat center;
+    z-index: 9999;
+    margin-top: -518px;
+    position: relative;
 }
 
 #write_to_us-done-img {
@@ -712,7 +716,9 @@ textarea:-moz-placeholder {
 }
 
 .write_to_us-thanks-top-text {
+    padding-top: 38px;
     text-align: center;
+    margin-bottom: 28px;
     color: #E9E8EA;
 }
 
