@@ -21,15 +21,15 @@
 
 	
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.courses.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
 	<link rel="stylesheet" href="css/footer.css" type="text/css" />
 	<link rel="stylesheet" href="css/header.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.courses_detailes.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.courses_detailes.accordion.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.about_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 	<link rel="stylesheet" href="css/block.privacy_policy.css" type="text/css" />
@@ -78,7 +78,7 @@
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">курси</a>
+				<a href="courses.php?course=qa&name=qa_practice" class="header-menu header-menu-links">курси</a>
 
 				<a href="about_us.php"  class="header-menu header-menu-links ">про нас</a>
 
@@ -99,7 +99,7 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-					<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
+					<a href="courses.php?course=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
 
 					<a href="about_us.php" class="header-menu-mobile">Про нас</a>
 

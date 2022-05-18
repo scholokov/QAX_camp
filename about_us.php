@@ -20,15 +20,15 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.courses.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
 	<link rel="stylesheet" href="css/footer.css" type="text/css" />
 	<link rel="stylesheet" href="css/header.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.courses_detailes.css" type="text/css" />
+	<link rel="stylesheet" href="css/block.courses_detailes.accordion.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.about_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 
@@ -77,7 +77,7 @@
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">Курси</a>
+				<a href="courses.php?course=qa&name=qa_practice" class="header-menu header-menu-links">Курси</a>
 
 				<a href="about_us.php"  class="header-menu header-menu-links" id="menu-link-about-us">Про нас</a>
 
@@ -103,7 +103,7 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
+				<a href="courses.php?course=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
 
 					<a href="about_us.php" class="header-menu-mobile">Про нас</a>
 
@@ -246,10 +246,10 @@
 
 	<script>
 		var pages=window.location.pathname.slice(1);
-	var url="cources.php?cource=qa&name=qa_practice";
+	var url="courses.php?course=qa&name=qa_practice";
 	var link = $('a.header-menu.header-menu-links').attr('href');
 
-	if (link==url && pages=="cources.php"){
+	if (link==url && pages=="courses.php"){
 		document.getElementById("menu-link-courses").style.color='#F66F5D';
 	}else if(pages=="about_us.php"){
 		document.getElementById("menu-link-about-us").style.color='#F66F5D';
@@ -290,7 +290,7 @@
 		$("#header-block").css({ "background": "#2C2A3F" });
 		$("body").css({ "overflow": "hidden" });
 		$("footer").css({ "display": "none" });
-		$("#cources").css({ "display": "none" });
+		$("#courses").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
 		$("#write_to_us").css({ "display": "none" });
 		
@@ -299,7 +299,7 @@
 		$("#header-block").css({ "background": "#3E3B5E" });
 		$("body").css({ "overflow": "visible" });
 		$("footer").css({ "display": "block" });
-		$("#cources").css({ "display": "block" });
+		$("#courses").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
 		$("#write_to_us").css({ "display": "flex" });
     }
@@ -309,7 +309,7 @@ function goToForm(){
 		$("#header-block").removeClass("responsive");
 	    $("body").css({ "overflow": "visible" });
 		$("footer").css({ "display": "block" });
-		$("#cources").css({ "display": "block" });
+		$("#courses").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
 		
 

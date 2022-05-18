@@ -16,23 +16,23 @@ $('form').submit(function (e) {
     //    console.log('chech_agree: ' + chech_agree_flag);
 
     /*switch(url){
-        case "?cource=qa&name=qa_practice":
+        case "?course=qa&name=qa_practice":
             var userUrl="Курс QA-практика";
             break;
     
-        case "?cource=qa&name=qa_theory": 
+        case "?course=qa&name=qa_theory": 
             var userUrl="Курс QA-менторство";
             break;
     
-        case "?cource=qa&name=qa_automation": 
+        case "?course=qa&name=qa_automation": 
             var userUrl="Курс QA-автоматизація";
             break;
     
-        case "?cource=ba&name=ba_practice":
+        case "?course=ba&name=ba_practice":
             var userUrl="Курс BA-практика";
             break;
     
-        case "?cource=pm&name=pm_practice":
+        case "?course=pm&name=pm_practice":
             var userUrl="Курс PM-практика";
             break;
         case "":

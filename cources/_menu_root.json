@@ -1,15 +1,15 @@
 {
     "practice": {
-        "courceTabName": "Практичні курси",
+        "courseTabName": "Практичні курси",
         "availability": "1",
-        "courcefile": "_menu_practice.json",
-        "cource": "practice"
+        "coursefile": "_menu_practice.json",
+        "course": "practice"
     },
     "theory": {
-        "courceTabName": "Класичні курси",
+        "courseTabName": "Класичні курси",
         "availability": "0",
-        "courcefile": "_menu_theory.json",
-        "cource": "theory"
+        "coursefile": "_menu_theory.json",
+        "course": "theory"
     }
 }
 

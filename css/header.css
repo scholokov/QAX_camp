@@ -15,7 +15,7 @@
     font-family: Raleway;
 }
 
-#menu-line-cources{
+#menu-line-courses{
   border: 1px solid white;
   margin-bottom: 42px;
   width: 75%;
@@ -51,7 +51,7 @@
 
 
 
-a#menuCources:hover{
+a#menucourses:hover{
   color: #F66F5D;
 }
 

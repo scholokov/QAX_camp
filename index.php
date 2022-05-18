@@ -91,7 +91,7 @@
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu header-menu-links">Курси</a>
+				<a href="courses.php?course=qa&name=qa_practice" class="header-menu header-menu-links">Курси</a>
 
 				<a href="about_us.php"  class="header-menu header-menu-links ">Про нас</a>
 
@@ -115,7 +115,7 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-					<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
+					<a href="courses.php?course=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
 
 					<a href="about_us.php" class="header-menu-mobile">Про нас</a>
 
@@ -328,22 +328,22 @@
 							</div>
 							<div id="cards-img-block">
 								<div class="course-card">
-									<a class="courses-block-a" href="cources.php?cource=qa&name=qa_practice" id="card-qa">
+									<a class="courses-block-a" href="courses.php?course=qa&name=qa_practice" id="card-qa">
 										<img src="images/QA_card.svg">
 									</a>
 								</div>
 								<div class="course-card">
-									<a class="courses-block-a" href="cources.php?cource=pm&name=pm_practice">
+									<a class="courses-block-a" href="courses.php?course=pm&name=pm_practice">
 										<img src="images/PM_card.svg">
 									</a>
 								</div>
 								<div class="course-card">
-									<a class="courses-block-a" href="cources.php?cource=ba&name=ba_practice" id="card-ba">
+									<a class="courses-block-a" href="courses.php?course=ba&name=ba_practice" id="card-ba">
 										<img src="images/BA_card.svg">
 									</a>
 								</div>
 								<div class="course-card">
-									<a class="courses-block-a" href="cources.php?cource=hr&name=hr_practice">
+									<a class="courses-block-a" href="courses.php?course=hr&name=hr_practice">
 										<img src="images/HR_card.svg">
 									</a>
 								</div>
@@ -397,7 +397,7 @@ function myFunction(x) {
 		$("#header-block").css({ "background": "#2C2A3F" });
 		$("body").css({ "overflow": "hidden" });
 		$("footer").css({ "display": "none" });
-		$("#cources").css({ "display": "none" });
+		$("#courses").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
 		
     } else {
@@ -405,7 +405,7 @@ function myFunction(x) {
 		$("#header-block").css({ "background": "#3E3B5E" });
 		$("body").css({ "overflow": "visible" });
 		$("footer").css({ "display": "block" });
-		$("#cources").css({ "display": "block" });
+		$("#courses").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
     }
 }
@@ -414,7 +414,7 @@ function goToForm(){
 		$("#header-block").removeClass("responsive");
 	    $("body").css({ "overflow": "visible" });
 		$("footer").css({ "display": "block" });
-		$("#cources").css({ "display": "block" });
+		$("#courses").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
 		
 

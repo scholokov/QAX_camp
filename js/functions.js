@@ -122,7 +122,7 @@ window.onload=function(){
 		console.log(pages);
         if (pages == link ) {
             $(this).addClass('current');
-        }else if(link==url && pages=="cources.php"){
+        }else if(link==url && pages=="courses.php"){
 			$(this).addClass('current');
 		}else{
 			$(this).removeClass('current');
