@@ -289,9 +289,10 @@
 										</tr>
 
 										<tr class="success-stories-student">
-											<td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" target="_blank">
+											<div><td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" target="_blank">
 												<img src="images/linkedin_logo_home.svg"></a></td>
 											<td>Max Lapaichuk</td> 
+											</div>
 											<td> <ul>
 												<li>Працював 4 роки на посаді “Офіціант - адміністратор”<br></li>
 												<li>Навчався у нас протягом 3 місяців на курсі : QA Практика <br></li>

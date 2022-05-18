@@ -97,6 +97,24 @@
 }
 
 @media (max-width: 768px){
+    .number {
+        font-family: 'Roboto', sans-serif !important;
+        width: 77px;
+        background: #453B60;
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        line-height: 114px;
+        font-size: 64px;
+        font-weight: bold;
+        opacity: 0;
+        color: #F66F5D;
+    }
+    #counter-text {
+        font-size: 18px;
+        line-height: 21px;
+    }
     #finish-title{
         font-size: 21px;
         line-height: 25px;
