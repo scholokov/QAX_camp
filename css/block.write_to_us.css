@@ -452,28 +452,7 @@ div#error_message_agree_empty {
         width: 100%;
     }
 
-    #footer-main-block {
-        position: relative;
-        z-index: 9999;
-        max-width: 1029px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #footer-bottom {
-        position: relative;
-        margin-top: -20px;
-        background-color: #2C2A3F;
-        margin-bottom: 0px;
-        z-index: 0;
-    }
-
-    footer {
-        height: 150px;
-        overflow: hidden;
-        background: #2C2A3F;
-        margin-top: 50px;
-    }
+    
     
 
     .write_to_us-title-form {

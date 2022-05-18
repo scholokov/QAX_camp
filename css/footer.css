@@ -152,8 +152,38 @@ a#footer-facebook:hover{
 }*/
 
 @media (min-width:768px) and (max-width: 992px) {
+    #footer-main-block {
+        position: relative;
+        z-index: 9999;
+        max-width: 1029px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footer-bottom {
+        position: relative;
+        margin-top: -20px;
+        background-color: #2C2A3F;
+        margin-bottom: 0px;
+        z-index: 0;
+    }
+
+    footer {
+        height: 150px;
+        overflow: hidden;
+        background: #2C2A3F;
+        margin-top: 50px;
+    }
+    #footer-img {
+        position: relative;
+        margin-bottom: -195px;
+    }
     #footer-img{
         display: none;
+    }
+
+    #footer-img img{
+        width: 148px;
     }
 
     .footer-contatcs-item{
@@ -164,6 +194,34 @@ a#footer-facebook:hover{
         display: block;
         max-width: 42px;
     }
+    #footer-top-block {
+        /* padding-left: 140px; */
+        height: 146px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-radius: 100px;
+        border: 25.5px solid #47426C;
+        background: #262438;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #footer-main-block {
+        position: relative;
+        z-index: 9999;
+        max-width: 1029px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 
 }
 
