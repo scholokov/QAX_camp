@@ -1,3 +1,7 @@
+body {
+    background-color: #2C2A3F;
+}
+
 .trainer{
     display: flex;
     flex-direction: row;
