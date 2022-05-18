@@ -188,6 +188,14 @@ div#error_message_agree_empty {
 
 /*Mobile*/
 @media (min-width: 220px) and (max-width: 600px) {
+    #send_but_chekbox{
+        flex-direction: column;
+    }
+    #div-phone-email {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
     #write_to_us-main {
         display: flex;
         justify-content: center;
