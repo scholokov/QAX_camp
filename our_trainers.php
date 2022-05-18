@@ -528,7 +528,7 @@
 								</a>
 								</div>
 								<div class="trainer-info_text">
-								<div class="trainer-name">Олена Волохонська</div>
+								<div class="trainer-name">Ольга Лавриненко</div>
 								<div class="trainer-post">Trainer</div>
 								<div class="trainer-name-block-tab">
 									<div class="linkedin-logo-tablet">
