@@ -22,6 +22,11 @@ html,body{
     width: 100%;
 }
 
+div#write_to_us_shadow {
+    width: 1920px;
+    align-self: center;
+}
+
 #write_to_us-person{
     margin-left: -40px;
     margin-bottom: -179px;
@@ -239,6 +244,11 @@ div#error_message_agree_empty {
 
 /*Mobile*/
 @media (min-width: 220px) and (max-width: 767px) {
+    div#write_to_us_shadow {
+        width: 940px;
+        align-self: center;
+        margin-top: -147px;
+    }
     #div-name, #div-phone-email, #div-comment, #div-data-button {
         max-width: 280px;
     }
@@ -359,6 +369,12 @@ div#error_message_agree_empty {
 }
 
 @media (min-width:768px) and (max-width: 992px)  {
+    div#write_to_us_shadow {
+        width: 1920px;
+        align-self: center;
+        margin-top: -115px;
+    }
+
     div#error_message_agree_empty {
         margin-left: 39px;
     }
@@ -435,7 +451,7 @@ div#error_message_agree_empty {
     }*/
 
     #write_to_us-plant {
-        margin-bottom: 0px;
+        margin-bottom: -105px;
         position: relative;
         margin-right: -50px;
         display: flex;
@@ -479,7 +495,7 @@ div#error_message_agree_empty {
 
     #write_to_us-person {
         margin-left: -95px;
-        margin-bottom: 0px;
+        margin-bottom: -110px;
         display: flex;
         max-width: 176px;
         width: 100%;

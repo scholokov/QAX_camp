@@ -3,7 +3,7 @@
 ------------------------------------------------------------------*/
 footer {
     background: #2C2A3F;
-    margin-top: 550px;
+    margin-top: 370px;
 }
 
 #footer-main-block{
@@ -152,6 +152,10 @@ a#footer-facebook:hover{
 }*/
 
 @media (min-width:768px) and (max-width: 992px) {
+    footer {
+        background: #2C2A3F;
+        margin-top: 320px;
+    }
     #footer-main-block {
         position: relative;
         z-index: 9999;
