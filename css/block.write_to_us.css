@@ -698,7 +698,11 @@ textarea:-moz-placeholder {
 .textarea[contenteditable]:empty::before {
     content: "Коментар";
 }
-
+div#write_to_us-thanks-block{
+    z-index: 9999;
+    position: relative;
+    background: url(images/thank-you-bg.svg) no-repeat center;
+}
 .write_to_us-block-thanks {
     height: 332px;
     background: url(images/thank-you-bg.svg) no-repeat center;
