@@ -1,6 +1,10 @@
 /* ----------------------------------------------------------------
 	write to us
 ------------------------------------------------------------------*/
+html{
+    overflow-x: hidden;
+}
+
 #write_to_us{
     height: 800px;
     display:flex ;
@@ -274,14 +278,33 @@ div#error_message_agree_empty {
     #write_to_us-plant {
         display: none;
     }
+    form {
+        margin-bottom: 0;
+    }
+
+    div#write_to_us_shadow {
+        height: 250px;
+        width: 700px;
+        align-self: center;
+        margin-top: -129px;
+    }
+
+    div#write_to_us_shadow img{
+        z-index: 0;
+        height: 100%;
+    }
+
     #write_to_us-block {
+        margin-top: -616px;
+        padding-bottom: 21px;
+        border-radius: 20px;
         width: 320px !important;
         margin-right: auto !important;
         margin-left: auto !important;
     }
     #write_to_us_bg_block {
         position: relative;
-        margin-top: 500px;
+        margin-top: 270px;
         max-width: 870px;
         width: 100vw;
         background: #894A4D;
@@ -294,7 +317,7 @@ div#error_message_agree_empty {
         transform: scale(-1,1);
         max-width: 100px;
         margin-left: 32px;
-        margin-top: -118px;
+        margin-top: -88px;
         margin-bottom: 41px;
         display: flex;
         align-items: flex-end;
@@ -313,6 +336,7 @@ div#error_message_agree_empty {
         color: #FFFFFF;
     }
     .write_to_us-button-send {
+        align-self: flex-end;
         margin-top: 45px;
         width: 160px;
         height: 43px;
@@ -320,11 +344,14 @@ div#error_message_agree_empty {
         font-weight: 500;
         display: block;
         margin: 10px auto;
-        padding: 12px 36px;
+        padding: 8px 36px;
         -webkit-appearance: none;
     }
-    div#write_to_us_shadow{
-        
+    #agree-checkbox {
+        margin-bottom: 0px;
+    }
+    #checkbox-block {
+        margin-bottom: 0px;
     }
     
 }
