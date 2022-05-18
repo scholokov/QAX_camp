@@ -63,14 +63,12 @@
 }
 
 @media (max-width: 1200px) {
-    #heroImage-block {
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
-        justify-content: center;
-        align-items: flex-end;
+    #hero-img-block{
+        max-width: 350px;
+        width: 100%;
+        margin-top: 70px;
+        margin-left: -259px;
+        
     }
     #hero-img-block{
         max-width: 500px;
@@ -114,14 +112,12 @@
     #hero-text-longread {
        max-width: 100%;
     }
-    #heroImage-block {
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
-        justify-content: center;
-        align-items: flex-end;
+    #hero-img-block{
+        max-width: 350px;
+        width: 100%;
+        margin-top: 70px;
+        margin-left: -259px;
+        
     }
 }
 
