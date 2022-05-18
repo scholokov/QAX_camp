@@ -193,7 +193,7 @@ div#error_message_agree_empty {
     }
     #div-phone-email {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         flex-wrap: nowrap;
     }
     #write_to_us-main {
