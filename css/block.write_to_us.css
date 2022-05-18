@@ -700,11 +700,10 @@ textarea:-moz-placeholder {
 }
 
 .write_to_us-block-thanks {
-   
+    background: url(images/thank-you-bg.svg) no-repeat center;
 }
 
 #write_to_us-done-img {
-    padding-top: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -714,14 +713,13 @@ textarea:-moz-placeholder {
 
 .write_to_us-thanks-top-text {
     text-align: center;
-    color: #222222;
-    padding-top: 45px;
+    color: #E9E8EA;
 }
 
 .write_to_us-thanks-bottom-text {
     text-align: center;
-    color: #222222;
-    padding-top: 90px;
+    color: #E9E8EA;
+    padding-top: 30px;
 }
 
 .write_to_us-field {
