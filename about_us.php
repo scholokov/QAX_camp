@@ -155,7 +155,7 @@
 								PO, BA, PM, Dev, UI-UX, QA.<br><br>
 							
 							
-							<div id="about_us_quotation2" >Наша ДНК  -  це практика</div>
+							<div id="about_us_quotation2" ><span>Наша ДНК  -  це практика</span></div>
 							
 							<br>
 							Кожен відповідає за свою ділянку роботи. Тут немає “вигаданих” завдань, домашок… 
