@@ -295,7 +295,7 @@
 											</div>
 											<td> <ul>
 												<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Офіціант - адміністратор”<br></li>
-												<li>Навчався у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі :<span class="success-stories-red">QA Практика</span> <br></li>
+												<li>Навчався у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
 												<li>Зараз працює на позиції <span class="success-stories-bold">Manual QA</span> в компанії <span class="success-stories-bold">Leeloo</span><br></li>
 											</ul></td> 
 										</tr>
