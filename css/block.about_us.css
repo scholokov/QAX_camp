@@ -44,6 +44,10 @@
     margin: 12px auto;
 }
 
+#about_us_quotation1 span,#about_us_quotation2 span,#about_us_quotation3 span{
+background: rgba(246, 111, 93, 0.5);
+}
+
 #about_us_quotation2{
     max-width: 251px;
     width: 100%;

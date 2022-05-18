@@ -135,9 +135,9 @@
 							Обирай професію, ставай частиною продуктової команди і вперед за результатом! :) <br><br>
 							
 
-							<div class="about_us_line"></div>
-							<div id="about_us_quotation1" class="about_us_italic"><span>Томас Едісон зробив більш ніж 1000 невдалих спроб перед</span> <span>тим, як винайти лампочку розжарювання</span></div>
-							<div class="about_us_line"></div>
+							
+							<div id="about_us_quotation1"><span>Томас Едісон зробив більш ніж 1000 невдалих спроб перед</span> <span>тим, як винайти лампочку розжарювання</span></div>
+							
 							<br>
 							Camp - це тренувальна платформа, де ти можеш відшліфувати навички до досконалості, 
 							при цьому не боячись робити помилок! 
@@ -154,9 +154,9 @@
 								Над проєктами працюють продуктові команди у складі 
 								PO, BA, PM, Dev, UI-UX, QA.<br><br>
 							
-							<div class="about_us_line"></div>
-							<div id="about_us_quotation2" class="about_us_italic">Наша ДНК  -  це практика</div>
-							<div class="about_us_line"></div>
+							
+							<div id="about_us_quotation2" >Наша ДНК  -  це практика</div>
+							
 							<br>
 							Кожен відповідає за свою ділянку роботи. Тут немає “вигаданих” завдань, домашок… 
 							а є лише реальні задачі на проєкті - це твоя робота, від якої залежать інші учасники команди 
@@ -196,13 +196,13 @@
 							
 
 							QAX Camp - це дочірня компанія QAX, одним із співзасновників якої є Денис Щолоков.<br><br>
-							<div class="about_us_line"></div>
-							<div id="about_us_quotation3" class="about_us_italic">
-								QAX - Quality Assurance eXperts - аутсорсингова компанія, 
-								заснована групою професійних фахівців із забезпечення якості 
-								з метою вийти за межі стандартних процесів тестування. 
+							
+							<div id="about_us_quotation3" >
+								<span>QAX - Quality Assurance eXperts - аутсорсингова компанія, </span>
+								<span>заснована групою професійних фахівців із забезпечення якості </span>
+								<span>з метою вийти за межі стандартних процесів тестування. </span>
 							</div>
-							<div class="about_us_line"></div>
+							
 							<br>
 							<img id="about_us_img" src="images/about_us.svg" alt="image">
 							Ідея розмістити Camp у зв'язці з QAX полягає в тому, аби об'єднати зусилля для відповіді 
