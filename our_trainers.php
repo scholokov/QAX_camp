@@ -514,7 +514,71 @@
 										</div>
 							</div>
                     </div>
-					
+					<div class="trainer ">
+											<div class="trainer-photo">
+												<img class="trainer-img" src="images/OL-trainer.svg" alt="trainer">
+											</div>
+							<div class="trainer-photo-mob">
+												<img class="trainer-img-mob" src="images/OL-trainer-mob.svg" alt="trainer">
+											</div>
+											<div class="trainer-info ">
+							<div class="linkedin-logo">
+								<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
+								<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+								</a>
+								</div>
+								<div class="trainer-info_text">
+								<div class="trainer-name">Олена Волохонська</div>
+								<div class="trainer-post">Trainer</div>
+								<div class="trainer-name-block-tab">
+									<div class="linkedin-logo-tablet">
+										<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
+										<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+										</a>
+									</div>
+									<div class="">
+										<div class="trainer-name-tab">Ольга Лавриненко</div>
+										<div class="trainer-post-tab">Trainer</div>
+									</div>
+									</div>
+								<div class="trainer-experience">
+								<p class="trainer-experience-title">Досвід роботи 6 років:</p>
+								<p class="trainer-experience">
+								</p><table id="trainer-experience-table"><tbody>
+														
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
+									
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>2021 </td> <td>–</td> <td>General QA Engineer в Rozetka<br></td></tr>
+
+									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td><td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
+
+									<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td><td>–</td><td>Manual QA Engineer в AutoDoc<br></td></tr>
+									
+									<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2018</td><td>–</td><td>Manual QA Engineer в CryptoAce<br></td></tr>
+
+									<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2017</td><td>–</td><td> Manual QA Engineer в Freelance<br></td></tr>
+								</tbody></table>
+								<p></p>
+								<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+								<p class="trainer-experience">
+								</p><table id="trainer-experience-table">
+								<tbody>
+									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+
+									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>2022</td> <td>–</td> <td>Персональний ментор</td></tr>
+
+									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td> <td>–</td> <td>Trainer в ActPro</td></tr>
+								</tbody></table>
+								<p></p>
+
+								</div>
+											</div>
+											
+
+										</div>
+							</div>
+                    </div>
+					<!-- #trainer end -->
 				</div>
 			</div>
 		</section>
