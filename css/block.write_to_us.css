@@ -222,7 +222,7 @@ div#error_message_agree_empty {
     padding: 3px;
   }
   .checkbox-custom-background{
-     background-color: #212121 !important;
+     background-color: #FFFFFF !important;
   }
   #agree-checkbox {
     margin-bottom: 18px;
@@ -700,15 +700,7 @@ textarea:-moz-placeholder {
 }
 
 .write_to_us-block-thanks {
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-
-    max-width: 860px;
-    width: 100%;
-    padding-bottom: 60px;
-    background: #F0F0F0;
-    min-height: 494px;
+   
 }
 
 #write_to_us-done-img {

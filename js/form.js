@@ -152,7 +152,7 @@ var intlNumber = input.intlTelInput("getNumber");
             text: sum_text
         },
         success: function () {
-            document.getElementById("write_to_us").setAttribute("class", "no-display");
+            document.getElementById("write_to_us-block-small").setAttribute("class", "no-display");
             document.getElementById("write_to_us-thanks-block").setAttribute("class", "");
 
             /* alert('your message has been sent!'); */
