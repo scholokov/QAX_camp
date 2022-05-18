@@ -358,7 +358,7 @@ div#error_message_agree_empty {
     
 }
 
-@media (min-width:768px) and (max-width: 900px)  {
+@media (min-width:768px) and (max-width: 992px)  {
     div#error_message_agree_empty {
         margin-left: 39px;
     }

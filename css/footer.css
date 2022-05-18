@@ -179,11 +179,18 @@ a#footer-facebook:hover{
         margin-bottom: -195px;
     }
     #footer-img{
+        left: 10.88%;
         width: 148px;
     }
 
     #footer-img img{
         width: 148px;
+    }
+
+    div#powered_logo-block {
+        margin-left: 135px;
+        width: 100%;
+        max-width: 100px;
     }
 
     .footer-contatcs-item{
@@ -192,7 +199,7 @@ a#footer-facebook:hover{
 
     .footer-contatcs-item-mob{
         display: block;
-        max-width: 42px;
+        max-width: 54px;
     }
     #footer-top-block {
         /* padding-left: 140px; */
