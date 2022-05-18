@@ -253,7 +253,7 @@ div#error_message_agree_empty {
     
 }
 
-@media (max-width: 768px) {
+@media (min-width:768px) and (max-width: 900px)  {
     div#error_message_agree_empty {
         margin-left: 39px;
     }
