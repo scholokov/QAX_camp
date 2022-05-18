@@ -282,9 +282,9 @@
 											</a></td>
 											<td>Alexander Bezeliuk</td> 
 											<td><ul>
-												<li>Працював 3 роки на посаді “Заступника дероктора магазину електроніки”<br></li>
-												<li>Навчався у нас протягом 3 місяців на курсі : QA Практика<br></li>
-												<li>Зараз працює на позиції QA engineer в компанії Playtech<br></li>
+												<li>Працював <span class="success-stories-bold">3 роки</span> на посаді “Заступника дероктора магазину електроніки”<br></li>
+												<li>Навчався у нас протягом <span class="success-stories-bold">3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+												<li>Зараз працює на позиції <span class="success-stories-bold">QA engineer</span> в компанії <span class="success-stories-bold">Playtech</span><br></li>
 											</ul></td> 
 										</tr>
 
@@ -294,9 +294,9 @@
 											<td>Max Lapaichuk</td> 
 											</div>
 											<td> <ul>
-												<li>Працював 4 роки на посаді “Офіціант - адміністратор”<br></li>
-												<li>Навчався у нас протягом 3 місяців на курсі : QA Практика <br></li>
-												<li>Зараз працює на позиції Manual QA в компанії Leeloo<br></li>
+												<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Офіціант - адміністратор”<br></li>
+												<li>Навчався у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі :<span class="success-stories-red">QA Практика</span> <br></li>
+												<li>Зараз працює на позиції <span class="success-stories-bold">Manual QA</span> в компанії <span class="success-stories-bold">Leeloo</span><br></li>
 											</ul></td> 
 										</tr>
 										
@@ -305,9 +305,9 @@
 												<img src="images/linkedin_logo_home.svg"></a></td>
 											<td>Pavel Karnasenko</td> 
 											<td><ul>
-												<li>Працював 4 роки на посаді “Інженер-конструктор”<br></li>
-												<li>Навчався у нас протягом 1,5 місяців на курсі : QA Практика <br></li>
-												<li>Зараз працює на позиції QA Engineer в компанії 	PixelTeh<br></li>
+												<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Інженер-конструктор”<br></li>
+												<li>Навчався у нас протягом <span class="success-stories-bold">1,5 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+												<li>Зараз працює на позиції<span class="success-stories-bold"> QA Engineer</span> в компанії 	<span class="success-stories-bold">PixelTeh</span><br></li>
 											</ul></td> 
 										</tr>
 								</table>

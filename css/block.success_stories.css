@@ -15,6 +15,15 @@
     justify-content: center;
 }
 
+.success-stories-red{
+    font-weight: bold;
+    color: #F66F5D;
+}
+
+.success-stories-bold{
+    font-weight: bold;
+}
+
 #success-stories-img-block{
     max-width: 360px;
     width: 100%;
@@ -157,12 +166,9 @@ ul{
 @media (max-width: 768px) {
     tr td:nth-child(1) {
         padding-right: 12px;
-        /* padding-bottom: 8px; */
         border: none;
         width: 34px;
         height: 30px;
-        /* width: 21px; */
-        /* height: 21px; */
     }
     tr.success-stories-student {
         margin-bottom: 60px;
