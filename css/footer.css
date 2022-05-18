@@ -169,7 +169,7 @@ a#footer-facebook:hover{
     }
 
     footer {
-        height: 150px;
+        height: 230px;
         overflow: hidden;
         background: #2C2A3F;
         margin-top: 50px;
@@ -179,7 +179,7 @@ a#footer-facebook:hover{
         margin-bottom: -195px;
     }
     #footer-img{
-        display: none;
+        width: 148px;
     }
 
     #footer-img img{
