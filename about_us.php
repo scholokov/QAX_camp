@@ -136,7 +136,7 @@
 							
 
 							<div class="about_us_line"></div>
-							<div id="about_us_quotation1" class="about_us_italic">Томас Едісон зробив більш ніж 1000 невдалих спроб перед тим, як винайти лампочку розжарювання</div>
+							<div id="about_us_quotation1" class="about_us_italic"><span>Томас Едісон зробив більш ніж 1000 невдалих спроб перед</span> <span>тим, як винайти лампочку розжарювання</span></div>
 							<div class="about_us_line"></div>
 							<br>
 							Camp - це тренувальна платформа, де ти можеш відшліфувати навички до досконалості, 
