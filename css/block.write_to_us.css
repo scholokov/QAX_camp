@@ -188,6 +188,10 @@ div#error_message_agree_empty {
 
 /*Mobile*/
 @media (min-width: 220px) and (max-width: 600px) {
+    .iti {
+        max-width: 280px;
+        width: 100%;
+    }
     #send_but_chekbox{
         flex-direction: column !important;
     }
