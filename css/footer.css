@@ -7,9 +7,11 @@ footer {
 }
 
 #footer-main-block{
+    z-index: 9999;
     max-width: 1029px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 #footer-top-block {
@@ -165,7 +167,9 @@ a#footer-facebook:hover{
 
 }
 
-@media (min-width:320px) and (max-width: 767px) {
+
+
+@media (min-width: 220px) and (max-width: 600px) {
     #footer-top-block {
         padding: 10px 20px;
         margin-left: auto;
@@ -183,14 +187,8 @@ a#footer-facebook:hover{
         max-width: 68px;
     }
 
-    #footer-bottom {
-        height: -1px;
-        background-color: #2C2A3F;
-        margin-bottom: 0px; 
-    }
 
     #footer-bottom-block {
-        height: -1px;
         background-color: #262438;
         border-radius: 50%/10%;
         margin-bottom: -140px;
@@ -209,5 +207,15 @@ a#footer-facebook:hover{
         max-width: 42px;
     }
 
-
+    #footer-bottom {
+        margin-top: -10px;
+        background-color: #2C2A3F;
+        margin-bottom: 0px;
+        z-index: 0;
+        position: relative;
+    }
+    footer {
+        background: #2C2A3F;
+        margin-top: 92px;
+    }
 }

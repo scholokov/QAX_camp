@@ -314,6 +314,7 @@ div#error_message_agree_empty {
         margin-right: auto;
     }
     #write_to_us-person {
+        z-index: 9999;
         transform: scale(-1,1);
         max-width: 100px;
         margin-left: 32px;
