@@ -1,6 +1,11 @@
 /* ----------------------------------------------------------------
 	header block
 ------------------------------------------------------------------*/
+.content-wrap {
+    /* padding: 80px 0; */
+    /* overflow: hidden; */
+    background-color: #212121;
+}
 #header-block {
     display:block;
     height: 80px;

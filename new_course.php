@@ -122,9 +122,7 @@
 								з тобою протягом усієї дороги навчання
 								 та радо дадуть ключі на усі твої запитання які ти так довго шукав сам.</div>
 						</div>
-						<div id="trainers-main-img">
-							<img src="images/trainers.svg" alt="main_img">
-						</div>
+						
 					</div>
 
                     <div class="trainers-block ">
