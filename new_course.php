@@ -20,16 +20,8 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.feedback.css" type="text/css" />
 	<link rel="stylesheet" href="css/footer.css" type="text/css" />
-	<link rel="stylesheet" href="css/header.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.hero-image.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.why_we.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.css" type="text/css" />
-	<link rel="stylesheet" href="css/block.cources_detailes.accordion.css" type="text/css" />
-    <link rel="stylesheet" href="css/block.our_trainers.css" type="text/css" />
+	<link rel="stylesheet" href="css/header_black.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 
 	<!-- Document Title
@@ -206,7 +198,6 @@
 			</div>
 		</section>
         
-        <?php include 'components/form.html'?>
 
 
         <!-- #content end -->
