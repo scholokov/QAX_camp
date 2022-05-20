@@ -117,7 +117,7 @@
 				<div class="container clearfix new-course-main-block">
 					<div id="new-course-start-block">
 						<div id="new-course-main-text">
-							<h3 id="new-course-title">Курс "Практичні інструменти"</h3>
+							<h3 id="new-course-main-title">Курс "Практичні інструменти"</h3>
 							<div class="new-courses-main-description">Майстри своєї справи які будуть разом 
 								з тобою протягом усієї дороги навчання
 								 та радо дадуть ключі на усі твої запитання які ти так довго шукав сам.</div>

@@ -251,6 +251,10 @@ a#menuCources:hover{
     background-color: #212121 !important;
 }
 
+
+/*--------------------trainer---------------*/
+
+
 .trainer{
     display: flex;
     flex-direction: row;
@@ -262,6 +266,7 @@ a#menuCources:hover{
 #new-course-main-title{
     font-family: 'Raleway', sans-serif;
     color: #F66F5D;
+    font-weight: 700;
     font-size: 36px;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -269,11 +274,13 @@ a#menuCources:hover{
 }
 
 .new-course-main-description{
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 100px;
+    font-family: Montserrat;
     font-size: 24px;
-    font-weight: 500;
-    line-height: 31px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #E8E8E8;
+    margin-bottom: 40px;
 
 }
 
