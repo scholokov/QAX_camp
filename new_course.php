@@ -76,11 +76,11 @@
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
-				<a href="cources.php?cource=qa&name=qa_practice"  class="header-menu header-menu-links">курси</a>
+				<a href="courses.php?course=qa&name=qa_practice"  class="header-menu header-menu-links">Курси</a>
 
-				<a href="about_us.php" class="header-menu header-menu-links ">про нас</a>
+				<a href="about_us.php" class="header-menu header-menu-links ">Про нас</a>
 
-				<a href="our_trainers.php" class="header-menu header-menu-links" id="menu-link-our-trainers">наші тренери<div id="menu-line-our-trainers"></div></a>
+				<a href="our_trainers.php" class="header-menu header-menu-links" id="menu-link-our-trainers">Наші Тренери</a>
 
 				
 				<!--
@@ -100,7 +100,7 @@
 				</div>
 
 				<div id="mobile-menu-fullscreen">
-				<a href="cources.php?cource=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
+				<a href="courses.php?course=qa&name=qa_practice" class="header-menu-mobile">Курси</a>
 
 					<a href="about_us.php" class="header-menu-mobile">Про нас</a>
 
@@ -123,87 +123,90 @@
 		<section id="content">
 			<div class="content-wrap">
 				<div class="container clearfix trainers-main-block">
+					<div id="trainers-start-block">
+						<div id="trainers-main-text">
+							<h3 id="trainers-main-title">Наші тренери</h3>
+							<div class="trainers-main-description">Майстри своєї справи які будуть разом 
+								з тобою протягом усієї дороги навчання
+								 та радо дадуть ключі на усі твої запитання які ти так довго шукав сам.</div>
+						</div>
+						<div id="trainers-main-img">
+							<img src="images/trainers.svg" alt="main_img">
+						</div>
+					</div>
+
                     <div class="trainers-block ">
-					    
-			            <div class="trainer ">
-                                <div class="trainer-photo">
-                                    <img class="trainer-img" src="images/OL-trainer.svg" alt="trainer">
-                                </div>
-                        <div class="trainer-photo-mob">
-                                    <img class="trainer-img-mob" src="images/OL-trainer-mob.svg" alt="trainer">
-                                </div>
-                                <div class="trainer-info ">
-                        <div class="linkedin-logo">
-                            <a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
-                            <!--<img src="images/LinkedIn.svg" alt="trainer">-->
-                            </a>
-                            </div>
-                            <div class="trainer-info_text">
-                            <div class="trainer-name">Ольга Лавриненко</div>
-                            <div class="trainer-post">Trainer</div>
-                            <div class="trainer-name-block-tab">
-                            <div class="linkedin-logo-tablet">
-                                <a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
-                                <!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
-                                </a>
-                            </div>
-                            <div class="">
-                                <div class="trainer-name-tab">Ольга Лавриненко</div>
-                                <div class="trainer-post-tab">Trainer</div>
-                            </div>
-                            </div>
-                            <div class="trainer-experience">
-                            <p class="trainer-experience-title">Досвід роботи 6 років:</p>
-                            <p class="trainer-experience">
-                            </p><table id="trainer-experience-table"><tbody>
-                                        
-                            <tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
-                            
-                            <tr class="experience-tr"><td>2021</td> <td>–</td> <td>2021 </td> <td>–</td> <td>General QA Engineer в Rozetka<br></td></tr>
+					  
+					<div class="trainer ">
+											<div class="trainer-photo">
+												<img class="trainer-img" src="images/OL-trainer.svg" alt="trainer">
+											</div>
+							<div class="trainer-photo-mob">
+												<img class="trainer-img-mob" src="images/OL-trainer-mob.svg" alt="trainer">
+											</div>
+											<div class="trainer-info ">
+							<div class="linkedin-logo">
+								<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
+								<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+								</a>
+								</div>
+								<div class="trainer-info_text">
+								<div class="trainer-name">Ольга Лавриненко</div>
+								<div class="trainer-post">Trainer</div>
+								<div class="trainer-name-block-tab">
+									<div class="linkedin-logo-tablet">
+										<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
+										<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+										</a>
+									</div>
+									<div class="">
+										<div class="trainer-name-tab">Ольга Лавриненко</div>
+										<div class="trainer-post-tab">Trainer</div>
+									</div>
+									</div>
+								<div class="trainer-experience">
+								<p class="trainer-experience-title">Досвід роботи 6 років:</p>
+								<p class="trainer-experience">
+								</p><table id="trainer-experience-table"><tbody>
+														
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
+									
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>2021 </td> <td>–</td> <td>General QA Engineer в Rozetka<br></td></tr>
 
-                            <tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td><td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
+									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td><td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
 
-                            <tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td><td>–</td><td>Manual QA Engineer в AutoDoc<br></td></tr>
-                            
-                            <tr class="experience-tr"><td>2017</td> <td>–</td> <td>2018</td><td>–</td><td>Manual QA Engineer в CryptoAce<br></td></tr>
+									<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td><td>–</td><td>Manual QA Engineer в AutoDoc<br></td></tr>
+									
+									<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2018</td><td>–</td><td>Manual QA Engineer в CryptoAce<br></td></tr>
 
-                            <tr class="experience-tr"><td>2016</td> <td>–</td> <td>2017</td><td>–</td><td> Manual QA Engineer в Freelance<br></td></tr>
-                            </tbody></table>
-                            <p></p>
-                            <p class="trainer-experience-title">Досвід викладацької діяльності:</p>
-                            <p class="trainer-experience">
-                            </p><table id="trainer-experience-table">
-                            <tbody>
-                            <tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2017</td><td>–</td><td> Manual QA Engineer в Freelance<br></td></tr>
+								</tbody></table>
+								<p></p>
+								<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+								<p class="trainer-experience">
+								</p><table id="trainer-experience-table">
+								<tbody>
+									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
 
-                            <tr class="experience-tr"><td>2022</td> <td>–</td> <td>2022</td> <td>–</td> <td>Персональний ментор</td></tr>
+									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>2022</td> <td>–</td> <td>Персональний ментор</td></tr>
 
-                            <tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td> <td>–</td> <td>Trainer в ActPro</td></tr>
-                            </tbody></table>
-                            <p></p>
+									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td> <td>–</td> <td>Trainer в ActPro</td></tr>
+								</tbody></table>
+								<p></p>
 
-                            </div>
-                                </div>
-                      
+								</div>
+											</div>
+											
 
+										</div>
+							</div>
                     </div>
-              </div>
-						
-						
-						
-						
-						
-						
-						
-						
-						
-                    </div>
-					<?php include 'components/form.html'?>
+					<!-- #trainer end -->
 				</div>
 			</div>
 		</section>
         
-        
+        <?php include 'components/form.html'?>
 
 
         <!-- #content end -->
@@ -230,22 +233,16 @@
 
 	<script>
 		var pages=window.location.pathname.slice(1);
-	var url="cources.php?cource=qa&name=qa_practice";
+	var url="courses.php?course=qa&name=qa_practice";
 	var link = $('a.header-menu.header-menu-links').attr('href');
 
-	if (link==url && pages=="cources.php"){
-		document.getElementById("menu-line-cources").style.display="block";
+	if (link==url && pages=="courses.php"){
 		document.getElementById("menu-link-courses").style.color='#F66F5D';
 	}else if(pages=="about_us.php"){
-		document.getElementById("menu-line-about-us").style.display="block";
 		document.getElementById("menu-link-about-us").style.color='#F66F5D';
 	}else if(pages=="our_trainers.php"){
-		document.getElementById("menu-line-our-trainers").style.display="block";
 		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
 	}else{
-		document.getElementById("menu-line-cources").style.display="none";
-		document.getElementById("menu-line-about-us").style.display="none";
-		document.getElementById("menu-line-our-trainers").style.display="none";
 
 		document.getElementById("menu-link-courses").style.color='white';
 		document.getElementById("menu-link-about-us").style.color='white';
@@ -278,26 +275,31 @@
   var y = document.getElementById("header-block");
     if (y.className === "header-menu") {
         y.className += " responsive";
+		$("#header-block").css({ "background": "#2C2A3F" });
 		$("body").css({ "overflow": "hidden" });
-		$("#footer-block").css({ "display": "none" });
+		$("footer").css({ "display": "none" });
+		$("#courses").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
 		$("#write_to_us").css({ "display": "none" });
 		
     } else {
         y.className = "header-menu";
+		$("#header-block").css({ "background": "#3E3B5E" });
 		$("body").css({ "overflow": "visible" });
-		$("#footer-block").css({ "display": "flex" });
+		$("footer").css({ "display": "block" });
+		$("#courses").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
-		$("#write_to_us").css({ "display": "block" });
+		$("#write_to_us").css({ "display": "flex" });
     }
 }
 function goToForm(){
 		$(".burger-icon").removeClass("change");
 		$("#header-block").removeClass("responsive");
 	    $("body").css({ "overflow": "visible" });
-		$("#footer-block").css({ "display": "flex" });
+		$("footer").css({ "display": "block" });
+		$("#courses").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
-		$("#write_to_us").css({ "display": "block" });
+		
 
 }
 
