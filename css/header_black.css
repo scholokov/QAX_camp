@@ -520,7 +520,13 @@ h5.title-step {
     line-height: 28px;
 }
 
-.spoiler_body { display: none; }
+.spoiler_body { 
+    display: none; 
+}
+
+.spoiler_body li{
+    list-style-position:inside;
+}
 
 .spoiler_links { 
     color: #FFFFFF;
