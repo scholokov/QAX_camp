@@ -197,10 +197,15 @@
 					<!-- #trainer end -->
 
                     <div id="course-plan-block">
-                        <h3 id="course-plan-main-title">Курс "Практичні інструменти"</h3>
+                        <h3 id="course-plan-main-title">Програма курсу</h3>
 						<div id="course-plan-steps">
                             <div class="course-step">
-                                
+                                <div class="img-step"><img src="images/step1.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 1. Інструменти для роботи з документацією. Trello, MindMap (Miro), Confluence.</h5>
+                                    <p class="descriotion-step">Зрозуміємо, для чого потрібен Trello, які в нього є можливості. Створимо Dashboard, To Do лист. 
+                                        Створимо задачу та оформимо її, а також перемістимо задачу по дошці...</p>
+                                </div>
 
                             </div>
                          </div>
