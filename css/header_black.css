@@ -554,6 +554,9 @@ h5.title-step {
     cursor: pointer; 
 }
 
+.form-titles.form-content {
+    display: none;
+}
 
 
 @media (min-width:768px) and (max-width: 992px) {
