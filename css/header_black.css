@@ -466,7 +466,19 @@ div#course-plan-steps {
     flex-direction: column;
 }
 
+h3#course-plan-main-title {
+    color: #F66F5D;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.text-step {
+    max-width: 1000px;
+    width: 100%;
+}
+
 .course-step {
+    padding: 20px;
     border-radius: 5px;
     background-color: rgb(255,255,255,0.07);
     display: flex;
@@ -479,6 +491,7 @@ div#course-plan-steps {
 }
 
 h5.title-step {
+    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
 }

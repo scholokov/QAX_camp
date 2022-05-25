@@ -203,8 +203,10 @@
                                 <div class="img-step"><img src="images/step1.svg" alt="step"></div>
                                 <div class="text-step">
                                     <h5 class="title-step">Заняття 1. Інструменти для роботи з документацією. Trello, MindMap (Miro), Confluence.</h5>
-                                    <p class="descriotion-step">Зрозуміємо, для чого потрібен Trello, які в нього є можливості. Створимо Dashboard, To Do лист. 
-                                        Створимо задачу та оформимо її, а також перемістимо задачу по дошці...</p>
+                                    <div class="descriotion-step">Зрозуміємо, для чого потрібен Trello, які в нього є можливості. Створимо Dashboard, To Do лист. 
+                                        Створимо задачу та оформимо її, а також перемістимо задачу по дошці...</div>
+                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                        <div class="spoiler_body">afswaegawgeg ragag а також перемістимо задачу по дошці...</div>
                                 </div>
 
                             </div>
@@ -241,6 +243,31 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
+
+    <script>
+        /*function showMore() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("btn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Показать больше";
+        moreText.style.display = "none";
+    } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Показать меньше";
+      moreText.style.display = "inline";
+    }
+    }*/
+    $(document).ready(function(){
+        $('.spoiler_links').click(function(){
+            $(this).parent().children('div.spoiler_body').toggle('normal');
+            return false;
+        });
+    });
+        
+    </script>
 
 	<script>
 		var pages=window.location.pathname.slice(1);
