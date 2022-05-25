@@ -522,7 +522,13 @@ h5.title-step {
 
 .spoiler_body { display: none; }
 
-.spoiler_links { cursor: pointer; }
+.spoiler_links { 
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer; 
+}
 
 
 
