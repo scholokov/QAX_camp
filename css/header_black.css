@@ -466,14 +466,18 @@ div#course-plan-steps {
 }
 
 h3#course-plan-main-title {
+    margin-bottom: 40px;
     color: #F66F5D;
     font-size: 36px;
     line-height: 50px;
 }
 
 .text-step {
+    display: flex;
     max-width: 1000px;
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .course-step {
@@ -523,6 +527,7 @@ list-style-position:inside;
 }
 
 h5.title-step {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -537,6 +542,7 @@ h5.title-step {
 }
 
 .spoiler_links { 
+    margin-top: 10px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 18px;
