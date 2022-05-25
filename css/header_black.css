@@ -537,6 +537,10 @@ h5.title-step {
     display: none; 
 }
 
+.spoiler_body ol{
+    margin-bottom: 0;
+}
+
 .spoiler_body li{
     list-style-position:inside;
 }
