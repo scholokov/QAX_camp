@@ -487,6 +487,14 @@ h3#course-plan-main-title {
     flex-wrap: nowrap;
 }
 
+.descriotion-step ol{
+    margin-bottom: 0;
+}
+
+.descriotion-step p{
+    margin-bottom: 0;
+}
+
 .img-step {
     margin-right: 20px;
 }
