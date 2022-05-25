@@ -192,7 +192,23 @@
 										</div>
 							</div>
                     </div>
+
+
 					<!-- #trainer end -->
+
+                    <div id="course-plan-block">
+                        <h3 id="course-plan-main-title">Курс "Практичні інструменти"</h3>
+						<div id="course-plan-steps">
+                            <div class="course-step">
+                                
+
+                            </div>
+                         </div>
+                    
+                    </div>
+
+
+
 				</div>
 			</div>
 		</section>
