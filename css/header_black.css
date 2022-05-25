@@ -478,6 +478,7 @@ h3#course-plan-main-title {
 }
 
 .course-step {
+    margin-bottom: 40px;
     padding: 20px;
     border-radius: 5px;
     background-color: rgb(255,255,255,0.07);
