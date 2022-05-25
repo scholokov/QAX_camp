@@ -279,24 +279,7 @@
         
     </script>
 
-	<script>
-		var pages=window.location.pathname.slice(1);
-	var url="courses.php?course=qa&name=qa_practice";
-	var link = $('a.header-menu.header-menu-links').attr('href');
-
-	if (link==url && pages=="courses.php"){
-		document.getElementById("menu-link-courses").style.color='#F66F5D';
-	}else if(pages=="about_us.php"){
-		document.getElementById("menu-link-about-us").style.color='#F66F5D';
-	}else if(pages=="our_trainers.php"){
-		document.getElementById("menu-link-our-trainers").style.color='#F66F5D';
-	}else{
-
-		document.getElementById("menu-link-courses").style.color='white';
-		document.getElementById("menu-link-about-us").style.color='white';
-		document.getElementById("menu-link-our-trainers").style.color='white';
-	};
-	</script>
+	
 
 <script>
 		function footerlink(){
