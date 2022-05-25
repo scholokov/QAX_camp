@@ -487,6 +487,10 @@ h3#course-plan-main-title {
     flex-wrap: nowrap;
 }
 
+.descriotion-step li{
+list-style-position:inside;
+}
+
 .descriotion-step ol{
     margin-bottom: 0;
 }
