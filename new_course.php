@@ -294,10 +294,7 @@
                                 <div class="img-step"><img src="images/step5.svg" alt="step"></div>
                                 <div class="text-step">
                                     <h5 class="title-step">Заняття 5. Інструменти для тестування back-end. Основи Postman.</h5>
-                                    <div class="descriotion-step">Поговоримо трохи про клієнт-сервер. Згадаємо CRUD.
-                                        Згадаємо статус - коди відповідей. Встановимо Postman...</div>
-                                        <a href="" class="spoiler_links">Читати повністю</a>
-                                    <div class="spoiler_body">
+                                    <div class="descriotion-step">
                                         <p>Поговоримо трохи про клієнт-сервер. Згадаємо CRUD. Згадаємо статус - коди відповідей. Встановимо Postman. 
                                             Навчимося відправляти запити на тестову API. Також створимо колекцію запитів. 
                                             Завантажимо колекцію запитів Trello. 
