@@ -206,7 +206,15 @@
                                     <div class="descriotion-step">Зрозуміємо, для чого потрібен Trello, які в нього є можливості. Створимо Dashboard, To Do лист. 
                                         Створимо задачу та оформимо її, а також перемістимо задачу по дошці...</div>
                                         <a href="" class="spoiler_links">Читати повністю</a>
-                                        <div class="spoiler_body">afswaegawgeg ragag а також перемістимо задачу по дошці...</div>
+                                    <div class="spoiler_body">
+                                            1.Зрозуміємо, для чого потрібен Trello, які в нього є можливості. 
+                                            Створимо Dashboard, To Do лист. Створимо задачу та оформимо її, а також перемістимо задачу по дошці.
+
+                                            2.Дізнаємося для чого потрібен Confluence. Розглянемо приклад опису вимог. 
+                                            Також спробуємо основні функції в Confluence.
+
+                                            3.Розберемося з можливостями Miro. Розглянемо, що таке MindMap та як правильно її складати. 
+                                            Зробимо це у Miro на прикладі відомого сайту.</div>
                                 </div>
 
                             </div>
@@ -263,6 +271,8 @@
     $(document).ready(function(){
         $('.spoiler_links').click(function(){
             $(this).parent().children('div.spoiler_body').toggle('normal');
+            $(this).attr({"display":"none"});
+            $(this).parent("div.descriotion-step").attr({"display":"none"});
             return false;
         });
     });
