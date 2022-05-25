@@ -496,6 +496,9 @@ h5.title-step {
     line-height: 28px;
 }
 
+.spoiler_body { display: none; }
+.spoiler_links { cursor: pointer; }
+
 
 
 @media (min-width:768px) and (max-width: 992px) {
