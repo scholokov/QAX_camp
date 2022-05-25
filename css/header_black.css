@@ -460,7 +460,6 @@ td:nth-child(3), td:nth-child(5){
 div#course-plan-steps {
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -478,6 +477,7 @@ h3#course-plan-main-title {
 }
 
 .course-step {
+    color: #FFFFFF;
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 5px;
@@ -485,6 +485,12 @@ h3#course-plan-main-title {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.course-step:hover{
+    background-color: #FFFFFF;
+    backdrop-filter: blur(40px);
+    color: #161616;
 }
 
 .descriotion-step li{
