@@ -497,6 +497,10 @@ h3#course-plan-main-title {
     color: #161616;
 }
 
+.course-step:hover .descriotion-step{
+    color: #3E3E3E;
+}
+
 #bonus-lesson{
     background: #F66F5D;
     color: #FFFFFF;
