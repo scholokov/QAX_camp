@@ -493,6 +493,11 @@ h3#course-plan-main-title {
     color: #161616;
 }
 
+#bonus-lesson{
+    background: #F66F5D;
+    color: #FFFFFF;
+}
+
 .descriotion-step li{
 list-style-position:inside;
 }

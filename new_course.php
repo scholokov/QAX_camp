@@ -337,8 +337,8 @@
                             </div>
 
 
-                            <div class="course-step">
-                                <div class="img-step"><img src="images/step6.svg" alt="step"></div>
+                            <div class="course-step" id="bonus-lesson">
+                                <div class="img-step"><img src="images/bonus.svg" alt="step"></div>
                                 <div class="text-step">
                                     <h5 class="title-step">Бонусне заняття. Ще корисні інструменти для тестувальника.</h5>
                                     <div class="descriotion-step">
