@@ -228,7 +228,7 @@
                                 <div class="text-step">
                                     <h5 class="title-step">Заняття 2. Інструменти для управління тестуванням програмного забезпечення. Jira, TestRail.</h5>
                                     <div class="descriotion-step">Дізнаємось, що таке Jira. Які основні функції має. Створимо проєкт. Розберемося з Kanban-дошкою. Додамо тип issue. 
-                                        Створимо task, bug. Додамо скриншот. Навчимося редагувати задачу та переміщати її у інший проєкт....</div>
+                                        Створимо task, bug...</div>
                                         <a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
@@ -248,7 +248,7 @@
                             <div class="course-step">
                                 <div class="img-step"><img src="images/step3.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Інструменти для тестування. Figma, Pict, DataGrip.</h5>
+                                    <h5 class="title-step">Заняття 3.Інструменти для тестування. Figma, Pict, DataGrip.</h5>
                                     <div class="descriotion-step">Дізнаємося, що таке Figma. Розглянемо макет сайту та навчимося тестувати верстку.
                                         Розглянемо, що таке PICT. Дізнаємось, де його можна знайти та вирішимо задачу за допомогою PICT.....</div>
                                         <a href="" class="spoiler_links">Читати повністю</a>
@@ -261,6 +261,123 @@
                                             <li>Розберемося, що таке DataGrip та для чого потрібен. Встановимо DataGrip. 
                                                 Підключимося до DB. Дізнаємось про основні можливості цього інструменту.</li>
                                         </ol>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/step4.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 4. Інструменти для Web тестування: ChromeDevTools, Swagg</h5>
+                                    <div class="descriotion-step">Дізнаємось, для чого нам потрібен DevTools. Як в нього потрапити у різних браузерах. 
+                                        Розглянемо можливості кожної таби. Таби Elements, Console та Network розглянемо детально.....</div>
+                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                    <div class="spoiler_body">
+                                        <ol>
+                                            <li>Дізнаємось, для чого нам потрібен DevTools. Як в нього потрапити у різних браузерах. Розглянемо можливості кожної таби. 
+                                                Таби Elements, Console та Network розглянемо детально.</li>
+
+                                            <li>Розберемося, що таке Swagger та як використовується. На практиці відправимо запити.</li>
+
+                                        </ol>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/step5.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 5. Інструменти для тестування back-end. Основи Postman.</h5>
+                                    <div class="descriotion-step">Поговоримо трохи про клієнт-сервер. Згадаємо CRUD.
+                                        Згадаємо статус - коди відповідей. Встановимо Postman...</div>
+                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                    <div class="spoiler_body">
+                                        <p>Поговоримо трохи про клієнт-сервер. Згадаємо CRUD. Згадаємо статус - коди відповідей. Встановимо Postman. 
+                                            Навчимося відправляти запити на тестову API. Також створимо колекцію запитів. 
+                                            Завантажимо колекцію запитів Trello. 
+                                            Напишемо декілька простих тестів (Snippets). Навчимося запускати колекцію.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/step5.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 5. Інструменти для тестування back-end. Основи Postman.</h5>
+                                    <div class="descriotion-step">
+                                        <p>Поговоримо трохи про клієнт-сервер. Згадаємо CRUD. Згадаємо статус - коди відповідей. Встановимо Postman. 
+                                            Навчимося відправляти запити на тестову API. Також створимо колекцію запитів. 
+                                            Завантажимо колекцію запитів Trello. 
+                                            Напишемо декілька простих тестів (Snippets). Навчимося запускати колекцію.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/step6.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 6. Git. Робота в терміналі.</h5>
+                                    <div class="descriotion-step">
+                                        <p>Розберемося, що таке Git. Для чого він потрібен. Які є основні команди та подивимось джерело інших команд Git. 
+                                            А також на практиці спробуємо основні команди Git в терміналі та встановимо Git Bash.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/step6.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Бонусне заняття. Ще корисні інструменти для тестувальника.</h5>
+                                    <div class="descriotion-step">
+                                        <ol>
+                                            <li>Скриншотери</li>
+
+                                            <li>Генерація тестових даних</li>
+
+                                            <li>Grammarly</li>
+                                        </ol>
+                                    </div>
+                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                    <div class="spoiler_body">
+                                        <ol>
+                                            <li>Скриншотери</li>
+
+                                            <li>Генерація тестових даних</li>
+
+                                            <li>Grammarly</li>
+
+                                            <li>Лінійка та Pixel Perfect</li>
+
+                                            <li>Page load time</li>
+
+                                            <li>Генерація зображень</li>
+
+                                            <li>Готові чек-листи</li>
+
+                                            <li>Заповнити web-форми</li>
+
+                                            <li>Зрівняння тексту</li>
+
+                                            <li>Lipsum - генератор випадкового тексту.</li>
+                                        </ol>
+                                        Та інші
+                                        
                                     </div>
                                 </div>
 
