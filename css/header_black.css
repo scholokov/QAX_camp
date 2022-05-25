@@ -457,6 +457,25 @@ td:nth-child(3), td:nth-child(5){
     width: 100%;
 }
 
+div#course-plan-steps {
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.img-step {
+    margin-right: 20px;
+}
+
+h5.title-step {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+
 @media (min-width:768px) and (max-width: 992px) {
     .experience-tr{
         width: 400px;
