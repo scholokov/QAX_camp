@@ -379,7 +379,7 @@
 
 
 				</div>
-                <iframe src="https://forms.monday.com/forms/embed/7907437eb478113f6d5159033607ed0e?r=use1"  style="min-height: 1940px; height: 100%; border: 0;"></iframe>
+                <iframe name="iframe1" id="iframe1" src="https://forms.monday.com/forms/embed/7907437eb478113f6d5159033607ed0e?r=use1"  style="min-height: 1940px; height: 100%; border: 0;"></iframe>
 			</div>
 		</section>
         
@@ -402,7 +402,13 @@
 
 	<!-- <script src="js/jquery.js"></script> -->
 
-
+	<script> 
+	var cssLink = document.createElement("link");
+	cssLink.href = "header_black.css"; 
+	cssLink.rel = "stylesheet"; 
+	cssLink.type = "text/css"; 
+	frames['iframe1'].document.head.appendChild(cssLink);
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
