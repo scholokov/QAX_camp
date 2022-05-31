@@ -402,17 +402,18 @@
 
 	<!-- <script src="js/jquery.js"></script> -->
 
-	<script> 
-	var cssLink = document.createElement("link");
-	cssLink.href = "header_black.css"; 
-	cssLink.rel = "stylesheet"; 
-	cssLink.type = "text/css"; 
-	frames['iframe1'].document.head.appendChild(cssLink);
-	</script>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="js/plugins.min.js"></script>
-
+	
+	<script> 
+		var cssLink = document.createElement("link");
+		cssLink.href = "header_black.css"; 
+		cssLink.rel = "stylesheet"; 
+		cssLink.type = "text/css"; 
+		frames['iframe1'].document.head.appendChild(cssLink);
+		</script>
     <script>
         /*function showMore() {
     var dots = document.getElementById("dots");
