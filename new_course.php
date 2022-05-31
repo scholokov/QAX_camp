@@ -408,12 +408,14 @@
 	<script src="js/plugins.min.js"></script>
 	
 	<script> 
+	window.onload = function() {
 		var cssLink = document.createElement("link");
 		cssLink.href = "css/header_black.css"; 
 		cssLink.rel = "stylesheet"; 
 		cssLink.type = "text/css"; 
 		frames['iframe1'].document.head.appendChild(cssLink);
-		</script>
+	}
+	</script>
     <script>
         /*function showMore() {
     var dots = document.getElementById("dots");
