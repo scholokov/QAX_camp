@@ -408,11 +408,11 @@
 	<script src="js/plugins.min.js"></script>
 	
 	<script> 
-		var cssLink = document.createElement("link");
-		cssLink.href = "header_black.css"; 
-		cssLink.rel = "stylesheet"; 
-		cssLink.type = "text/css"; 
-		frames['iframe1'].document.head.appendChild(cssLink);
+		window.onload = function() {
+			let myiFrame = document.getElementById("iframe1");
+			let doc = myiFrame.contentDocument;
+			doc.body.innerHTML = doc.body.innerHTML + '<style>.form-title{display: none !important;}</style>';
+			}
 		</script>
     <script>
         /*function showMore() {
