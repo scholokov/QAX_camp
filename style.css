@@ -12556,7 +12556,6 @@ blockquote.float-right {
 .owl-dot,
 .owl-dots button {
 	cursor: pointer;
-	cursor: hand;
 	padding: 0;
 	border: 0;
 	-webkit-user-select: none;
