@@ -118,83 +118,17 @@
 					<div id="new-course-start-block">
 						<div id="new-course-main-text">
 							<h3 id="new-course-main-title">Курс "Практичні інструменти"</h3>
-							<div class="new-course-main-description">Нам, як і вам дуже важко, але не треба казати вже після війни, в якій ми 100% переможемо. Команда QAX Camp пропонує тобі абсолютно безкоштовне навчання 
-                            за допомогою нашої ексклюзивної бази знань. Ти можеш відволіктись від думок та  присвятити 
-                            себе вивченню нового. 
+							<div class="new-course-main-description">Друзі, привіт!
+Якщо ви на цій сторінці, то ми маємо, що вам розповісти цікавого про курс “Практичні інструменти“!
+На курсі Вас чекає 10% теорії (без неї ніяк) та 90% практики.
+Окрім теоретичних знань дуже важливо опанувати практичні інструменти, які допомагають швидше та якісніше  виконувати поставлене завдання.
+На курсі Ви опануєте базові інструменти та спробуєте їх на практиці. Також щоразу Ви будете отримувати домашнє завдання та мати можливість ставити питання викладачу під час уроку.
+Вже уявили, який крутий вигляд буде мати Ваше резюме після проходження курсу?
                             </div>
 						</div>
 						
 					</div>
 
-                    <div class="trainers-block ">
-					  
-					<div class="trainer ">
-											<div class="trainer-photo">
-												<img class="trainer-img" src="images/OL-trainer.svg" alt="trainer">
-											</div>
-							<div class="trainer-photo-mob">
-												<img class="trainer-img-mob" src="images/OL-trainer-mob.svg" alt="trainer">
-											</div>
-											<div class="trainer-info ">
-							<div class="linkedin-logo">
-								<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
-								<!--<img src="images/LinkedIn.svg" alt="trainer">-->
-								</a>
-								</div>
-								<div class="trainer-info_text">
-								<div class="trainer-name">Ольга Лавриненко</div>
-								<div class="trainer-post">Trainer</div>
-								<div class="trainer-name-block-tab">
-									<div class="linkedin-logo-tablet">
-										<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
-										<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
-										</a>
-									</div>
-									<div class="">
-										<div class="trainer-name-tab">Ольга Лавриненко</div>
-										<div class="trainer-post-tab">Trainer</div>
-									</div>
-									</div>
-								<div class="trainer-experience">
-								<p class="trainer-experience-title">Досвід роботи 6 років:</p>
-								<p class="trainer-experience">
-								</p><table id="trainer-experience-table"><tbody>
-														
-									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
-									
-									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>2021 </td> <td>–</td> <td>General QA Engineer в Rozetka<br></td></tr>
-
-									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td><td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
-
-									<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td><td>–</td><td>Manual QA Engineer в AutoDoc<br></td></tr>
-									
-									<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2018</td><td>–</td><td>Manual QA Engineer в CryptoAce<br></td></tr>
-
-									<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2017</td><td>–</td><td> Manual QA Engineer в Freelance<br></td></tr>
-								</tbody></table>
-								<p></p>
-								<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
-								<p class="trainer-experience">
-								</p><table id="trainer-experience-table">
-								<tbody>
-									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
-
-									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>2022</td> <td>–</td> <td>Персональний ментор</td></tr>
-
-									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td> <td>–</td> <td>Trainer в ActPro</td></tr>
-								</tbody></table>
-								<p></p>
-
-								</div>
-											</div>
-											
-
-										</div>
-							</div>
-                    </div>
-
-
-					<!-- #trainer end -->
 
                     <div id="course-plan-block">
                         <h3 id="course-plan-main-title">Програма курсу</h3>
@@ -365,6 +299,7 @@
                                 </div>
 
                             </div>
+							
 
 
 
@@ -373,7 +308,76 @@
                     
                     </div>
 
+					
+                    <div class="trainers-block ">
+					  
+					<div class="trainer ">
+											<div class="trainer-photo">
+												<img class="trainer-img" src="images/OL-trainer.svg" alt="trainer">
+											</div>
+							<div class="trainer-photo-mob">
+												<img class="trainer-img-mob" src="images/OL-trainer-mob.svg" alt="trainer">
+											</div>
+											<div class="trainer-info ">
+							<div class="linkedin-logo">
+								<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
+								<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+								</a>
+								</div>
+								<div class="trainer-info_text">
+								<div class="trainer-name">Ольга Лавриненко</div>
+								<div class="trainer-post">Trainer</div>
+								<div class="trainer-name-block-tab">
+									<div class="linkedin-logo-tablet">
+										<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
+										<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+										</a>
+									</div>
+									<div class="">
+										<div class="trainer-name-tab">Ольга Лавриненко</div>
+										<div class="trainer-post-tab">Trainer</div>
+									</div>
+									</div>
+								<div class="trainer-experience">
+								<p class="trainer-experience-title">Досвід роботи 6 років:</p>
+								<p class="trainer-experience">
+								</p><table id="trainer-experience-table"><tbody>
+														
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
+									
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>2021 </td> <td>–</td> <td>General QA Engineer в Rozetka<br></td></tr>
 
+									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td><td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
+
+									<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td><td>–</td><td>Manual QA Engineer в AutoDoc<br></td></tr>
+									
+									<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2018</td><td>–</td><td>Manual QA Engineer в CryptoAce<br></td></tr>
+
+									<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2017</td><td>–</td><td> Manual QA Engineer в Freelance<br></td></tr>
+								</tbody></table>
+								<p></p>
+								<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+								<p class="trainer-experience">
+								</p><table id="trainer-experience-table">
+								<tbody>
+									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+
+									<tr class="experience-tr"><td>2022</td> <td>–</td> <td>2022</td> <td>–</td> <td>Персональний ментор</td></tr>
+
+									<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td> <td>–</td> <td>Trainer в ActPro</td></tr>
+								</tbody></table>
+								<p></p>
+
+								</div>
+											</div>
+											
+
+										</div>
+							</div>
+                    </div>
+
+
+					<!-- #trainer end -->
                    
 
 
