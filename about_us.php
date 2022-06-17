@@ -35,7 +35,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>QAX Camp - About Us123</title>
+	<title>QAX Camp - About Us</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<script>
