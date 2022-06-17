@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -34,7 +35,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>QAX Camp - About Us</title>
+	<title>QAX Camp - About Us1</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<script>
