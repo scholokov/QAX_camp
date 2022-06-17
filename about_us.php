@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
