@@ -457,6 +457,11 @@ td:nth-child(3), td:nth-child(5){
     width: 100%;
 }
 
+
+.new-course-main-block {
+    max-width: 1296px;
+}
+
 div#course-plan-steps {
     font-size: 18px;
     line-height: 27px;
