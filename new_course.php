@@ -407,7 +407,7 @@
 								<h3 class="course-plan-main-title">Реєстрація та оплата</h3>
 
 								<div id="course-price-text">
-									<div id="course-price-circle"></div>
+									<div id="course-price-circle">!</div>
 									Вартість курсу становить 100 доларів США				 
 									(сплачується у грн. за курсом на день оплати).
 								</div>																
