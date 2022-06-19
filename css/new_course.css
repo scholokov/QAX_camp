@@ -613,6 +613,11 @@ h5.title-step {
 
 
 @media (min-width:768px) and (max-width: 992px) {
+    .course-step {
+        max-height: 280px;
+        height: 100%;
+    }
+
     .new-course-main-block {
         max-width: 708px;
     }
