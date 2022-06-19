@@ -404,12 +404,19 @@
                     </div>
 
 					<div  id="course-price">
+						<div id="course-price-circle">
+							<svg viewBox="0 0 80 80" width="80" height="80">
+							<circle class="circle" cx="40" cy="40" r="38"/>
+							</svg>
+						</div>
+						<div>
 								<h3 class="course-plan-main-title">Реєстрація та оплата</h3>
 
-									<div id="course-price-text">
-										Вартість курсу становить 100 доларів США				 
-										(сплачується у грн. за курсом на день оплати).
-									</div>																
+								<div id="course-price-text">
+									Вартість курсу становить 100 доларів США				 
+									(сплачується у грн. за курсом на день оплати).
+								</div>	
+						</div>															
 
 					</div>
 
