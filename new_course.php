@@ -228,7 +228,7 @@
 
 
 
-                            <div class="course-step">
+                            <div class="course-step" id="step-5">
                                 <div class="img-step"><img src="images/step5.svg" alt="step"></div>
                                 <div class="text-step">
                                     <h5 class="title-step">Заняття 5. Інструменти для тестування back-end. Основи Postman.</h5>
@@ -237,6 +237,26 @@
                                             Навчимося відправляти запити на тестову API. Також створимо колекцію запитів. 
                                             Завантажимо колекцію запитів Trello. 
                                             Напишемо декілька простих тестів (Snippets). Навчимося запускати колекцію.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+							<div class="course-step-tab">
+                                <div class="img-step"><img src="images/step5.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 5. Інструменти для тестування back-end. Основи Postman.</h5>
+                                    <div class="descriotion-step">
+                                        <p>Поговоримо трохи про клієнт-сервер. Згадаємо CRUD. Згадаємо статус - коди відповідей. Встановимо Postman. 
+                                            Навчимося відправляти запити на тестову API... <a href="" class="spoiler_links">Читати повністю</a>
+											<div class="spoiler_body">
+											Поговоримо трохи про клієнт-сервер. Згадаємо CRUD. Згадаємо статус - коди відповідей. Встановимо Postman. 
+                                            Навчимося відправляти запити на тестову API.
+												Також створимо колекцію запитів. 
+													Завантажимо колекцію запитів Trello. 
+													Напишемо декілька простих тестів (Snippets). Навчимося запускати колекцію.
+                                    		</div> 
                                         </p>
                                     </div>
                                 </div>

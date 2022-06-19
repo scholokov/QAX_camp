@@ -587,6 +587,7 @@ h5.title-step {
     margin-bottom: 100px;
 }
 
+
 #course-price-text{
         width: 100%;
         border-radius: 5px;
@@ -605,6 +606,10 @@ h5.title-step {
         text-align: center;
 }
 
+.course-step-tab{
+    display: none;
+}
+
 @media (min-width:1439px) {
     .new-course-main-block {
         max-width: 1296px;
@@ -613,6 +618,15 @@ h5.title-step {
 
 
 @media (min-width:768px) and (max-width: 992px) {
+
+    .course-step-tab{
+        display: block;
+    }
+
+    #step-5{
+        display: none;
+    }
+
     .course-step {
         max-height: 280px;
         height: 100%;
