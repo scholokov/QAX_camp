@@ -1,0 +1,751 @@
+
+.trainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+#new-course-main-title{
+    font-family: 'Raleway', sans-serif;
+    color: #F66F5D;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+}
+
+.new-course-main-description{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #E8E8E8;
+    margin-bottom: 40px;
+
+}
+
+.trainers_linkedin_icon_link{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(icons/LinkedIn.svg);
+    background-size: 40px;
+}
+
+.trainers_linkedin_icon_link:hover{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("icons/LinkedIn_hover.svg");
+    background-size: 40px;
+}
+
+.trainer-photo{
+    max-width: 400px;
+    width: 100%;
+}
+
+#trainer-experience-table{
+    color: white !important;
+}
+td{
+    color: white !important; 
+    padding-top: 0;
+    padding-bottom: 0;
+}
+th:first-child, td:first-child{
+    padding-left: 0;
+    padding-right: 6px;
+}
+td:nth-child(2) , td:nth-child(4){
+    padding-left: 0;
+}
+td:nth-child(3), td:nth-child(5){
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+
+.our-trainers-line{
+    border: 1px solid #F66F5D;
+    margin-bottom: 42px;
+    max-width: 203px;
+    margin-left: 15px;
+}
+
+.trainers-block{
+   
+    margin-bottom: 110px;
+    
+}
+
+.trainer-info{
+    max-width: 882px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 27px;
+    background-color: rgb(255,255,255,0.07);
+    border-radius: 5px;
+    box-sizing: border-box; 
+    border-radius: 8px;
+    margin-left: 18px;
+
+}
+
+.trainer-teaching-experience{
+    margin-top: 20px;
+    color: #E9E8EA;
+}
+
+.trainer-name{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 29px;
+}
+
+.trainer-post{
+    font-size: 16px;
+    color: #E9E8EA;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.trainer-experience-title{
+    font-weight: 400;
+    font-size: 18px;
+    color: #F66F5D;
+    margin-top: 12px;
+    margin-bottom: 0;
+    line-height: 27px !important;
+}
+
+.trainer-experience{
+    font-size: 18px;
+    color: #E9E8EA;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 27px;
+
+}
+
+.trainer-teaching-title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.trainer-teaching{
+    font-size: 18px;
+    color: #989898;
+    font-weight: 400;
+
+}
+
+.linkedin-logo{
+    max-width: 35px;
+    width: 100%;
+    margin-right: 25px;
+}
+
+.our-trainers-line2{
+    display: none;
+    margin: 30px auto;
+    border: 1px solid #F66F5D;
+    max-width: 180px;
+    width: 100%;
+}
+
+.experience-tr{
+    width: 610px;
+}
+
+.trainer-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.trainer-name-block-tab{
+    display: none;
+}
+
+.trainer-photo-mob{
+    display: none;
+}
+/*@media screen and (max-width: 600px) {
+    .our-trainers-line2{
+        display: block;
+    }
+}*/
+.experience-tr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.experience-tr td:first-child{
+    max-width: 50px;
+    width: 100%;
+}
+.experience-tr td:nth-child(3){
+    max-width: 63px;
+    width: 100%;
+}
+
+.trainers-block {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+div#course-plan-steps {
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+h3.course-plan-main-title {
+    margin-bottom: 40px;
+    color: #F66F5D;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.text-step {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.course-step {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255,255,255,0.07);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.course-step:hover{
+    background-color: #FFFFFF;
+   /* backdrop-filter: blur(40px);*/
+    color: #161616;
+}
+
+#bonus-lesson:hover{
+    background-color: #FFFFFF;
+    color: #161616;
+}
+
+.course-step:hover a{
+    color: #161616;
+}
+
+.course-step:hover .descriotion-step{
+    color: #3E3E3E;
+}
+
+#bonus-lesson{
+    margin-bottom: 0px;
+    background: #F66F5D;
+    color: #FFFFFF;
+}
+
+.descriotion-step{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.descriotion-step li{
+list-style-position:inside;
+}
+
+.descriotion-step ol{
+    margin-bottom: 0;
+}
+
+.descriotion-step p{
+    margin-bottom: 0;
+}
+
+.img-step {
+    display: flex;
+    max-width: 200px;
+    margin-right: 20px;
+    width: 100%;
+    align-content: center;
+}
+
+h5.title-step {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.spoiler_body { 
+    display: none; 
+}
+
+.spoiler_body ol{
+    margin-bottom: 0;
+}
+
+.spoiler_body li{
+    list-style-position:inside;
+}
+
+.spoiler_links { 
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer; 
+}
+
+.form-wrapper-component {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #965772 !important;
+}
+
+.form-title{
+    display: none !important;
+}
+
+.form-wrapper-component {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #212121 !important;
+}
+
+#course-price{
+    margin-bottom: 100px;
+}
+
+#course-price-circle{
+    display: none;
+}
+
+#course-price-text{
+        
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 5px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        padding: 24px 27px;
+        background-color: rgb(255,255,255,0.07);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        /* or 54px */
+
+        text-align: center;
+}
+
+#step-5-tab{
+    display: none;
+}
+
+@media (min-width:1439px) {
+    .new-course-main-block {
+        max-width: 1296px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    #course-price-text {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 5px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        padding: 24px 27px;
+        background-color: rgb(255,255,255,0.07);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    #course-price-circle{
+        display: block;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 50px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+        margin-top: -50px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #F66F5D;
+    }
+
+    h3.course-plan-main-title {
+        margin-bottom: 65px;
+        color: #F66F5D;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .descriotion-step{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+    #step-5-tab{
+        display: flex;
+    }
+
+    #step-5{
+        display: none;
+    }
+
+    .course-step {
+        min-height: 280px;
+        height: 100%;
+    }
+
+    .new-course-main-block {
+        max-width: 708px;
+    }
+    .experience-tr{
+        width: 400px;
+    }
+    .experience-tr td:first-child{
+        width: 100%;
+    }
+    .experience-tr td:nth-child(3){
+        max-width: 59px;
+        width: 100%;
+    }
+    .trainers-main-block{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .trainer-post, .trainer-name, .linkedin-logo{
+        display: none;
+    }
+    .trainer-name-block-tab{
+        color: #E9E8EA;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .trainer-photo{
+        max-width: 240px;
+        width: 100%;
+    }
+    .trainer-img{
+        max-width: 240px;
+        width: 100%;
+    }
+
+    .linked-logo-img-tab{
+        width: 40px;
+        height: 40px;
+    }
+
+    .trainer-info{
+        font-family: 'Raleway', sans-serif;
+        max-width: 458px;
+        width: 100%;
+        padding: 18px 20px;
+        margin-left: 10px;
+    }    
+    .trainer-name-tab{
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25px;
+
+    }
+    .trainer-post-tab{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .trainer-experience-title{
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 3px;
+        line-height: 24px !important;
+    }
+    .trainer-experience{
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        margin-bottom: 0;
+        line-height: 24px;
+    
+    }
+    .linkedin-logo-tablet{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .trainers-main-description {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 89px;
+    }
+    #trainers-main-title {
+        font-family: 'Raleway', sans-serif;
+        color: #F66F5D;
+        font-size: 28px;
+        line-height: 33px;
+        margin-top: 60px;
+        margin-bottom: 12px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+
+    #new-course-main-title {
+        font-family: 'Raleway', sans-serif;
+        color: #F66F5D;
+        font-weight: 700;
+        line-height: 34px;
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    h3.course-plan-main-title {
+        margin-bottom: 20px;
+        color: #F66F5D;
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+
+    }
+
+    .new-course-main-description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+
+    #course-price-text {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 5px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        padding: 24px 27px;
+        background-color: rgb(255,255,255,0.07);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    #course-price-circle{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 50px;
+        display: block;
+        text-align: center;
+
+        color: #FFFFFF;
+        margin-top: -50px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #F66F5D;
+    }
+
+    .img-step {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    #bonus-lesson .descriotion-step{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+    .course-step {
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: rgb(255,255,255,0.07);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .descriotion-step{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+    }
+
+    .course-step {
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: rgb(255,255,255,0.07);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+
+    .new-course-main-block{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .experience-tr{
+        min-width: 230px;
+        max-width: 320px;
+        width: 100%;
+    }
+    .trainers_linkedin_icon_link{
+        margin-right: 20px;
+    }
+    .experience-tr td:first-child{
+        max-width: 33px;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .experience-tr td:nth-child(3){
+        max-width: 42px;
+        width: 100%;
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+    .trainer-photo{
+        display: none;
+    }
+    .trainer-photo-mob{
+        display: block;
+
+    }
+    .trainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .trainer-photo-mob {
+        max-width: 360px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .trainer-img {
+        max-width: 360px;
+        width: 100%;
+    }
+    .trainer-post, .trainer-name, .linkedin-logo{
+        display: none;
+    }
+    .trainer-name-block-tab{
+        color: #E9E8EA;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .trainer-info {
+        max-width: 360px;
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: row;
+        border: 0px;
+        box-sizing: border-box;
+        margin-left: 0;
+    }
+    img.linked-logo-img-tab{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .trainer-name-tab{
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25px;
+
+    }
+    .trainer-post-tab{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .trainers-main-description {
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-bottom: 50px;
+    }
+    #trainers-main-title {
+        font-family: 'Raleway', sans-serif;
+        color: #F66F5D;
+        font-size: 26px;
+        line-height: 23px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+    .trainer-experience {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+}

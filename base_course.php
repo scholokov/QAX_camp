@@ -117,17 +117,20 @@
 				<div class="container clearfix new-course-main-block">
 					<div id="new-course-start-block">
 						<div id="new-course-main-text">
-							<h3 id="new-course-main-title">Курс "Практичні інструменти"</h3>
-							<div class="new-course-main-description">Друзі, привіт!<br>
-								Якщо ви на цій сторінці, то ми маємо, що вам розповісти цікавого про курс 
-								“Практичні інструменти“!<br>
-								На курсі Вас чекає 10% теорії (без неї ніяк) та 90% практики.
-								Окрім теоретичних знань дуже важливо опанувати практичні інструменти, 
-								які допомагають швидше та якісніше  виконувати поставлене завдання.<br>
-								На курсі Ви опануєте базові інструменти та спробуєте їх на практиці. 
-								Також щоразу Ви будете отримувати домашнє завдання та мати можливість 
-								ставити питання викладачу під час уроку.
-								Вже уявили, який крутий вигляд буде мати Ваше резюме після проходження курсу?
+							<h3 id="new-course-main-title">Базовий курс QA</h3>
+							<div class="new-course-main-description">Друзі!
+                                Маємо, що вам розповісти цікавого про курс “Теорія QA“
+                                На курсі Вас чекає:
+                                <ul>
+                                    <li>первинне знайомство з тим що таке quality assurance;</li>
+                                    <li>види тестування;</li>
+                                    <li>як працювати з вимогами та документами;</li>
+                                    <li>які існують ролі в проектних командах;</li>
+                                </ul>
+                                І ще багато цікавого.
+                                Після проходження курсу “Теорія QA“ Ви зможете повністю зрозуміти 
+                                з чого складається напрям тестування
+                                програмного забезпечення та пройти до практичних занять з QA.
                             </div>
 						</div>
 						
@@ -138,12 +141,13 @@
                         <h3 class="course-plan-main-title">Програма курсу</h3>
 						<div id="course-plan-steps">
                             <div class="course-step">
-                                <div class="img-step"><img src="images/step1.svg" alt="step"></div>
+                                <div class="img-step"><img src="images/lesson1.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Заняття 1. Інструменти для роботи з документацією. Trello, MindMap (Miro), Confluence.</h5>
-                                    <div class="descriotion-step">Зрозуміємо, для чого потрібен Trello, які в нього є можливості. Створимо Dashboard, To Do лист. 
-                                        Створимо задачу та оформимо її, а також перемістимо задачу по дошці...</div>
-                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                    <h5 class="title-step">Заняття 1.Тестувальник. Хто це?</h5>
+                                    <div class="descriotion-step">Дізнаємось хто такий тестувальник, чим він займається кожного дня, 
+                                        які перспективи розвитку, оцінка рівня зарплат,
+                                         які є плюси і мінуси даної професії.</div>
+                                       <!-- <a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
                                             <li>Зрозуміємо, для чого потрібен Trello, які в нього є можливості. 
@@ -155,19 +159,20 @@
                                             <li>Розберемося з можливостями Miro. Розглянемо, що таке MindMap та як правильно її складати. 
                                             Зробимо це у Miro на прикладі відомого сайту. </li>
                                         </ol>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                             </div>
 
 
                             <div class="course-step">
-                                <div class="img-step"><img src="images/step2.svg" alt="step"></div>
+                                <div class="img-step"><img src="images/lesson2.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Заняття 2. Інструменти для управління тестуванням програмного забезпечення. Jira, TestRail.</h5>
-                                    <div class="descriotion-step">Дізнаємось, що таке Jira. Які основні функції має. Створимо проєкт. Розберемося з Kanban-дошкою. Додамо тип issue. 
-                                        Створимо task, bug...</div>
-                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                    <h5 class="title-step">Заняття 2. Види тестування.</h5>
+                                    <div class="descriotion-step">Поспілкуємось про види тестування, які 
+                                        вони бувають, за яким принципом їх розділяють, чим вони відрізняються 
+                                        один від одного.</div>
+                                       <!-- <a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
                                             <li>Дізнаємось, що таке Jira. Які основні функції має. Створимо проєкт. 
@@ -177,19 +182,19 @@
                                             <li>Дізнаємось, що таке TestRail. Які основні функції має. 
                                                 Створимо тест-кейс у проєкті. Навчимося запускати тест-кейси.</li>
                                         </ol>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                             </div>
 
 
                             <div class="course-step">
-                                <div class="img-step"><img src="images/step3.svg" alt="step"></div>
+                                <div class="img-step"><img src="images/lesson3.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Заняття 3.Інструменти для тестування. Figma, Pict, DataGrip.</h5>
-                                    <div class="descriotion-step">Дізнаємося, що таке Figma. Розглянемо макет сайту та навчимося тестувати верстку.
-                                        Розглянемо, що таке PICT. Дізнаємось, де його можна знайти та вирішимо задачу за допомогою PICT.....</div>
-                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                    <h5 class="title-step">Заняття 3. Рівні тестування.</h5>
+                                    <div class="descriotion-step">Ознайомимось з рівнями тестування, розглянемо на прикладі що вони означають, 
+                                        Дізнаємось які тесті входять до кожного рівня.</div>
+                                       <!-- <a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
                                             <li>Дізнаємося, що таке Figma. Розглянемо макет сайту та навчимося тестувати верстку.</li>
@@ -199,7 +204,7 @@
                                             <li>Розберемося, що таке DataGrip та для чого потрібен. Встановимо DataGrip. 
                                                 Підключимося до DB. Дізнаємось про основні можливості цього інструменту.</li>
                                         </ol>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                             </div>
@@ -207,11 +212,14 @@
 
 
                             <div class="course-step">
-                                <div class="img-step"><img src="images/step4.svg" alt="step"></div>
+                                <div class="img-step"><img src="images/lesson4.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Заняття 4. Інструменти для Web тестування: ChromeDevTools, Swagg</h5>
-                                    <div class="descriotion-step">Дізнаємось, для чого нам потрібен DevTools. Як в нього потрапити у різних браузерах. Розглянемо можливості кожної таби. Таби Elements, Console та Network розглянемо детально.....</div>
-                                        <a href="" class="spoiler_links">Читати повністю</a>
+                                    <h5 class="title-step">Заняття 4. Дефект</h5>
+                                    <div class="descriotion-step">Дізнаємось що таке дефект, що є важливим при
+                                         оформленні баг репорту, структуру баг репорта, що і як 
+                                         варто зазначати в ньому.
+</div>
+                                        <!--<a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
                                             <li>Дізнаємось, для чого нам потрібен DevTools. Як в нього потрапити у різних браузерах. Розглянемо можливості кожної таби. 
@@ -220,7 +228,7 @@
                                             <li>Розберемося, що таке Swagger та як використовується. На практиці відправимо запити.</li>
 
                                         </ol>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                             </div>
@@ -228,22 +236,21 @@
 
 
                             <div class="course-step" id="step-5">
-							<div class="img-step"><img src="images/step5.svg" alt="step"></div>
+							<div class="img-step"><img src="images/lesson5.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Заняття 5. Інструменти для тестування back-end. Основи Postman.</h5>
-                                    <div class="descriotion-step">Поговоримо трохи про клієнт-сервер. Згадаємо CRUD. Згадаємо статус - коди відповідей. Встановимо Postman. 
-                                            Навчимося відправляти запити на тестову API.
-												Також створимо колекцію запитів. 
-													Завантажимо колекцію запитів Trello. 
-													Напишемо декілька простих тестів (Snippets). Навчимося запускати колекцію.</div>
-											<a href="" class="spoiler_links">Читати повністю</a>
+                                    <h5 class="title-step">Заняття 5. Тестова документація: тест-кейси та чеклісти</h5>
+                                    <div class="descriotion-step">Обговоримо для чого потрібна тестова документація, 
+                                        дізнаємось що таке тест-кейс, які його особливості, яка структура тест-кейсу. 
+                                        Також, поговорим про чеклісти, коли варто їх використовувати, 
+                                        в чому різниця чеклістів і тест-кейсів.</div>
+											<!--<a href="" class="spoiler_links">Читати повністю</a>
 										<div class="spoiler_body">
 											Поговоримо трохи про клієнт-сервер. Згадаємо CRUD. Згадаємо статус - коди відповідей. Встановимо Postman. 
                                             Навчимося відправляти запити на тестову API.
 												Також створимо колекцію запитів. 
 													Завантажимо колекцію запитів Trello. 
 													Напишемо декілька простих тестів (Snippets). Навчимося запускати колекцію.
-                                    	</div> 
+                                    	</div> -->
                                        
                                 </div>
 
@@ -253,77 +260,78 @@
 
 
                             <div class="course-step">
-                                <div class="img-step"><img src="images/step6.svg" alt="step"></div>
+                                <div class="img-step"><img src="images/lesson6.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Заняття 6. Git. Робота в терміналі.</h5>
+                                    <h5 class="title-step">Заняття 6. Вимоги: навіщо їх тестувати?</h5>
                                     <div class="descriotion-step">
-                                        <p>Розберемося, що таке Git. Для чого він потрібен. Які є основні команди та подивимось джерело інших команд Git. 
-                                            А також на практиці спробуємо основні команди Git в терміналі та встановимо Git Bash.
+                                        <p>На занятті визначимо які бувають вимоги, як проходить процес
+                                             збору вимог, чому добре описані вимоги економлять час і
+                                              гроші, як це впливає на команду розробки, дізнаємось що
+                                               таке гарні і погані вимоги.
+
                                         </p>
                                     </div>
                                 </div>
 
                             </div>
 
-
-                            <div class="course-step" id="bonus-lesson">
-                                <div class="img-step"><img src="images/bonus.svg" alt="step"></div>
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/lesson7.svg" alt="step"></div>
                                 <div class="text-step">
-                                    <h5 class="title-step">Бонусне заняття. Ще корисні інструменти для тестувальника.</h5>
+                                    <h5 class="title-step">Заняття 7. Тестування вимог</h5>
                                     <div class="descriotion-step">
-                                        <ol>
-										<li>Скриншотери</li>
+                                        <p>Розглянемо види тестування вимог, як ми можемо їх протестувати, 
+                                            розглянемо приклади, коли маємо найбільші 
+                                            помилки і як ці помилки впливають на роботу команди і продукт.
 
-										<li>Генерація тестових даних</li>
-
-										<li>Grammarly</li>
-
-										<li>Лінійка та Pixel Perfect</li>
-
-										<li>Page load time</li>
-
-										<li>Генерація зображень</li>
-
-										<li>Готові чек-листи</li>
-
-										<li>Заповнити web-форми</li>
-
-										<li>Зрівняння тексту</li>
-
-										<li>Lipsum - генератор випадкового тексту.</li>
-                                        </ol>
-                                    </div>
-                                        <a href="" class="spoiler_links">Читати повністю</a>
-                                    <div class="spoiler_body">
-                                        <ol>
-                                            <li>Скриншотери</li>
-
-                                            <li>Генерація тестових даних</li>
-
-                                            <li>Grammarly</li>
-
-                                            <li>Лінійка та Pixel Perfect</li>
-
-                                            <li>Page load time</li>
-
-                                            <li>Генерація зображень</li>
-
-                                            <li>Готові чек-листи</li>
-
-                                            <li>Заповнити web-форми</li>
-
-                                            <li>Зрівняння тексту</li>
-
-                                            <li>Lipsum - генератор випадкового тексту.</li>
-                                        </ol>
-                                        Та інші<br>
-                                        Отримаєте список корисних інструментів.
-                                        
+                                        </p>
                                     </div>
                                 </div>
 
                             </div>
-							
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/lesson8.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 8. Ролі та артефакти в проєктній команді.</h5>
+                                    <div class="descriotion-step">
+                                        <p>Дізнаємось, хто ще працює в команді, чим вони займаються і за що відповідають. 
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/lesson9.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 9. Task/issue flow</h5>
+                                    <div class="descriotion-step">
+                                        <p>Дізнаємось що таке задача, який її життєвий цикл. Які етапи задача проходить 
+                                            від її відкриття (створення) до закриття.
+                                             В яких випадках задача може повертатися на інший етап.
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="course-step">
+                                <div class="img-step"><img src="images/lesson10.svg" alt="step"></div>
+                                <div class="text-step">
+                                    <h5 class="title-step">Заняття 10. SDLC/STLC</h5>
+                                    <div class="descriotion-step">
+                                        <p>Познайомимось з процесом розробки, дізнаємось які основні
+                                             етапи виділяють, що відбувається на кожному з етапів. А також, поспілкуємось 
+                                            про процес тестування і дізнаємось як можна розробляти програмне забезпечення. 
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
 
 							
 
@@ -332,6 +340,25 @@
                          </div>
                     
                     </div>
+
+
+                    <div  id="course-price">
+								<h3 class="course-plan-main-title">Оплата</h3>
+                                <div  id="course-price-text"></div>
+								<div class="course-price-block">
+									Вартість курсу становить 100 доларів США				 
+									(сплачується у грн. за курсом на день оплати).
+								</div>			
+                                <div id="course-price-text">
+									Вартість курсу становить 100 доларів США				 
+									(сплачується у грн. за курсом на день оплати).
+								</div>	
+                                <div id="course-price-text">
+									Вартість курсу становить 100 доларів США				 
+									(сплачується у грн. за курсом на день оплати).
+								</div>														
+
+					</div>
 
 					
                     <div class="trainers-block ">
