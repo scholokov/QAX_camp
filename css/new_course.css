@@ -574,6 +574,8 @@ h5.title-step {
 
 #course-price-text{
         width: 100%;
+        border-radius: 5px;
+        color: #FFFFFF;
         display: flex;
         flex-direction: row;
         padding: 24px 27px;
