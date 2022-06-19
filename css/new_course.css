@@ -751,6 +751,10 @@ h5.title-step {
 
 @media (min-width:320px) and (max-width: 767px) {
 
+    .img-step {
+        margin-right: 0px;
+    }
+
     .course-step {
         color: #FFFFFF;
         margin-bottom: 40px;
