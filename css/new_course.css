@@ -829,7 +829,7 @@ h5.title-step {
         margin-right: 0px;
     }
     
-    #bonus-lesson{
+    #bonus-lesson .descriotion-step{
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
