@@ -457,6 +457,11 @@ td:nth-child(3), td:nth-child(5){
     width: 100%;
 }
 
+.trainers-block {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
 
 div#course-plan-steps {
     font-size: 18px;
@@ -507,6 +512,7 @@ h3.course-plan-main-title {
 }
 
 #bonus-lesson{
+    margin-bottom: 0px;
     background: #F66F5D;
     color: #FFFFFF;
 }
@@ -574,7 +580,7 @@ h5.title-step {
 }
 
 #course-price{
-    
+
 }
 
 #course-price-text{
