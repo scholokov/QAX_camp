@@ -373,6 +373,24 @@ h5.title-step {
     display: none;
 }
 
+.course-price-block{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 5px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        padding: 24px 27px;
+        background-color: rgb(255,255,255,0.07);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+}
+
 @media (min-width:1439px) {
     .new-course-main-block {
         max-width: 1296px;

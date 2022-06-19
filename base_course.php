@@ -217,8 +217,7 @@
                                     <h5 class="title-step">Заняття 4. Дефект</h5>
                                     <div class="descriotion-step">Дізнаємось що таке дефект, що є важливим при
                                          оформленні баг репорту, структуру баг репорта, що і як 
-                                         варто зазначати в ньому.
-</div>
+                                         варто зазначати в ньому.</div>
                                         <!--<a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
@@ -344,16 +343,16 @@
 
                     <div  id="course-price">
 								<h3 class="course-plan-main-title">Оплата</h3>
-                                <div  id="course-price-text"></div>
+                                <div  id="course-price-main-text"></div>
 								<div class="course-price-block">
 									Вартість курсу становить 100 доларів США				 
 									(сплачується у грн. за курсом на день оплати).
 								</div>			
-                                <div id="course-price-text">
+                                <div class="course-price-block">
 									Вартість курсу становить 100 доларів США				 
 									(сплачується у грн. за курсом на день оплати).
 								</div>	
-                                <div id="course-price-text">
+                                <div class="course-price-block">
 									Вартість курсу становить 100 доларів США				 
 									(сплачується у грн. за курсом на день оплати).
 								</div>														
