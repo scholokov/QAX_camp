@@ -626,6 +626,13 @@ h5.title-step {
 
 @media (min-width:768px) and (max-width: 992px) {
 
+    h3.course-plan-main-title {
+        margin-bottom: 65px;
+        color: #F66F5D;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
     .descriotion-step{
         overflow: hidden;
         text-overflow: ellipsis;
@@ -668,6 +675,7 @@ h5.title-step {
         display: none;
     }
     .trainer-name-block-tab{
+        color: #E9E8EA;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -742,19 +750,27 @@ h5.title-step {
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+    .new-course-main-block{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .experience-tr{
-        width: 320px;
+        width: 230px;
     }
     .trainers_linkedin_icon_link{
         margin-right: 20px;
     }
     .experience-tr td:first-child{
-        max-width: 40px;
+        max-width: 33px;
         width: 100%;
+        padding-right: 0px;
     }
     .experience-tr td:nth-child(3){
-        max-width: 53px;
-        width: 100%;}
+        max-width: 42px;
+        width: 100%;
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
     .trainer-photo{
         display: none;
     }
