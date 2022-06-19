@@ -381,18 +381,17 @@
 
 													</div>
 							</div>
-
-							<div  id="course-price">
-								<h3 class="course-plan-main-title">Тренер курсу</h3>
-
-								<div id="course-price-text">
-									Вартість курсу становить 100 доларів США 
-									(сплачується у грн. за курсом на день оплати).
-								</div>
-
-							</div>
                     </div>
 
+					<div  id="course-price">
+								<h3 class="course-plan-main-title">Тренер курсу</h3>
+
+									<div id="course-price-text">
+										Вартість курсу становить 100 доларів США				 
+										(сплачується у грн. за курсом на день оплати).
+									</div>																
+
+					</div>
 
 					<!-- #trainer end -->
                    
