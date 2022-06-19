@@ -465,7 +465,7 @@ div#course-plan-steps {
     flex-direction: column;
 }
 
-h3#course-plan-main-title {
+h3.course-plan-main-title {
     margin-bottom: 40px;
     color: #F66F5D;
     font-size: 36px;
