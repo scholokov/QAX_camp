@@ -595,6 +595,9 @@ h5.title-step {
     margin-bottom: 100px;
 }
 
+#course-price-circle{
+    display: none;
+}
 
 #course-price-text{
         
@@ -647,6 +650,7 @@ h5.title-step {
     }
 
     #course-price-circle{
+        display: block;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -810,7 +814,7 @@ h5.title-step {
         font-weight: 700;
         font-size: 24px;
         line-height: 50px;
-
+        display: block;
         text-align: center;
 
         color: #FFFFFF;
