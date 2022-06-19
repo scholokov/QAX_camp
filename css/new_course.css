@@ -499,13 +499,12 @@ h3.course-plan-main-title {
 
 .course-step:hover{
     background-color: #FFFFFF;
-    backdrop-filter: blur(40px);
+   /* backdrop-filter: blur(40px);*/
     color: #161616;
 }
 
 .bonus-lesson:hover{
     background-color: #FFFFFF;
-    backdrop-filter: blur(40px);
     color: #161616;
 }
 
