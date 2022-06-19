@@ -21,7 +21,6 @@
 
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
 	<link rel="stylesheet" href="css/footer.css" type="text/css" />
-	<link rel="stylesheet" href="css/new_course.css" type="text/css" />
 	<link rel="stylesheet" href="css/base_course.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 
@@ -435,13 +434,7 @@
                     </div>
 
 					<div  id="course-price">
-								<h3 class="course-plan-main-title">Реєстрація та оплата</h3>
-
-								<div id="course-price-text">
-									<div id="course-price-circle">!</div>
-									Вартість курсу становить 100 доларів США				 
-									(сплачується у грн. за курсом на день оплати).
-								</div>																
+																					
 
 					</div>
 
