@@ -754,6 +754,14 @@ h5.title-step {
     .img-step {
         margin-right: 0px;
     }
+    
+    #bonus-lesson{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
 
     .course-step {
         color: #FFFFFF;
