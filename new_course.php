@@ -210,8 +210,7 @@
                                 <div class="img-step"><img src="images/step4.svg" alt="step"></div>
                                 <div class="text-step">
                                     <h5 class="title-step">Заняття 4. Інструменти для Web тестування: ChromeDevTools, Swagg</h5>
-                                    <div class="descriotion-step">Дізнаємось, для чого нам потрібен DevTools. Як в нього потрапити у різних браузерах. 
-                                        Розглянемо можливості кожної таби. Таби Elements, Console та Network розглянемо детально.....</div>
+                                    <div class="descriotion-step">Дізнаємось, для чого нам потрібен DevTools. Як в нього потрапити у різних браузерах. Розглянемо можливості кожної таби. Таби Elements, Console та Network розглянемо детально.....</div>
                                         <a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
