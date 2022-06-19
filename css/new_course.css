@@ -755,7 +755,9 @@ h5.title-step {
         padding-right: 30px;
     }
     .experience-tr{
-        width: 230px;
+        min-width: 230px;
+        max-width: 320px;
+        width: 100%;
     }
     .trainers_linkedin_icon_link{
         margin-right: 20px;
@@ -798,6 +800,7 @@ h5.title-step {
         display: none;
     }
     .trainer-name-block-tab{
+        color: #E9E8EA;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
