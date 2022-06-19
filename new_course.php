@@ -287,11 +287,25 @@
                                     <h5 class="title-step">Бонусне заняття. Ще корисні інструменти для тестувальника.</h5>
                                     <div class="descriotion-step">
                                         <ol>
-                                            <li>Скриншотери</li>
+										<li>Скриншотери</li>
 
-                                            <li>Генерація тестових даних</li>
+										<li>Генерація тестових даних</li>
 
-                                            <li>Grammarly</li>
+										<li>Grammarly</li>
+
+										<li>Лінійка та Pixel Perfect</li>
+
+										<li>Page load time</li>
+
+										<li>Генерація зображень</li>
+
+										<li>Готові чек-листи</li>
+
+										<li>Заповнити web-форми</li>
+
+										<li>Зрівняння тексту</li>
+
+										<li>Lipsum - генератор випадкового тексту.</li>
                                         </ol>
                                     </div>
                                         <a href="" class="spoiler_links">Читати повністю</a>
