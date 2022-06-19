@@ -503,7 +503,7 @@ h3.course-plan-main-title {
     color: #161616;
 }
 
-.bonus-lesson:hover{
+#bonus-lesson:hover{
     background-color: #FFFFFF;
     color: #161616;
 }
