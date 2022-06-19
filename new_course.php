@@ -26,7 +26,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>QAX Camp - Our Trainers</title>
+	<title>QAX Camp - New Course</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<script>
