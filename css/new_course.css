@@ -628,7 +628,7 @@ h5.title-step {
     }
 
     .course-step {
-        max-height: 280px;
+        min-height: 280px;
         height: 100%;
     }
 
