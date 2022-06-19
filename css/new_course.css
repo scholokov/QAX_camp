@@ -606,7 +606,7 @@ h5.title-step {
         text-align: center;
 }
 
-.course-step-tab{
+#step-5-tab{
     display: none;
 }
 
@@ -619,7 +619,7 @@ h5.title-step {
 
 @media (min-width:768px) and (max-width: 992px) {
 
-    .course-step-tab{
+    #step-5-tab{
         display: block;
     }
 

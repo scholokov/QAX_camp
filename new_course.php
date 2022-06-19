@@ -243,7 +243,7 @@
 
                             </div>
 
-							<div class="course-step-tab">
+							<div class="course-step" id="step-5-tab">
                                 <div class="img-step"><img src="images/step5.svg" alt="step"></div>
                                 <div class="text-step">
                                     <h5 class="title-step">Заняття 5. Інструменти для тестування back-end. Основи Postman.</h5>
