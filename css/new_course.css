@@ -530,7 +530,11 @@ list-style-position:inside;
 }
 
 .img-step {
+    display: flex;
+    max-width: 200px;
     margin-right: 20px;
+    width: 100%;
+    align-content: center;
 }
 
 h5.title-step {
@@ -607,7 +611,11 @@ h5.title-step {
     }
 }
 
+
 @media (min-width:768px) and (max-width: 992px) {
+    .new-course-main-block {
+        max-width: 708px;
+    }
     .experience-tr{
         width: 400px;
     }
