@@ -369,67 +369,54 @@
 						<h3 class="course-plan-main-title">Тренер курсу</h3>
 					  
 								<div class="trainer ">
-														<div class="trainer-photo">
-															<img class="trainer-img" src="images/OL-trainer.svg" alt="trainer">
-														</div>
-										<div class="trainer-photo-mob">
-															<img class="trainer-img-mob" src="images/OL-trainer-mob.svg" alt="trainer">
-														</div>
-														<div class="trainer-info ">
-										<div class="linkedin-logo">
-											<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
-											<!--<img src="images/LinkedIn.svg" alt="trainer">-->
-											</a>
-											</div>
-											<div class="trainer-info_text">
-											<div class="trainer-name">Ольга Лавриненко</div>
-											<div class="trainer-post">Trainer</div>
-											<div class="trainer-name-block-tab">
-												<div class="linkedin-logo-tablet">
-													<a target="_blank" href="https://www.linkedin.com/in/olga-lavrinenko/" class="trainers_linkedin_icon_link">
+                                <div class="trainer-photo">
+                                <img class="trainer-img" src="images/UR-trainer.svg"  alt="trainer">
+                            </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/UR-trainer-mob.svg"  alt="trainer">
+                            </div>
+                            <div class="trainer-info ">
+							<div class="linkedin-logo">
+									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
+									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+								</a>
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name">Юлія Рудченко</div>
+									<div class="trainer-post">Trainer</div>
+									<div class="trainer-name-block-tab">
+										<div class="linkedin-logo-tablet">
+												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
 													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
-													</a>
-												</div>
-												<div class="">
-													<div class="trainer-name-tab">Ольга Лавриненко</div>
-													<div class="trainer-post-tab">Trainer</div>
-												</div>
-												</div>
-											<div class="trainer-experience">
-											<p class="trainer-experience-title">Досвід роботи 6 років:</p>
-											<p class="trainer-experience">
-											</p><table id="trainer-experience-table"><tbody>
-																	
-												<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
-												
-												<tr class="experience-tr"><td>2021</td> <td>–</td> <td>2021 </td> <td>–</td> <td>General QA Engineer в Rozetka<br></td></tr>
-
-												<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td><td>–</td> <td>Automation QA Engineer в AutoDoc <br></td></tr>
-
-												<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2020</td><td>–</td><td>Manual QA Engineer в AutoDoc<br></td></tr>
-												
-												<tr class="experience-tr"><td>2017</td> <td>–</td> <td>2018</td><td>–</td><td>Manual QA Engineer в CryptoAce<br></td></tr>
-
-												<tr class="experience-tr"><td>2016</td> <td>–</td> <td>2017</td><td>–</td><td> Manual QA Engineer в Freelance<br></td></tr>
-											</tbody></table>
-											<p></p>
-											<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
-											<p class="trainer-experience">
-											</p><table id="trainer-experience-table">
-											<tbody>
-												<tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
-
-												<tr class="experience-tr"><td>2022</td> <td>–</td> <td>2022</td> <td>–</td> <td>Персональний ментор</td></tr>
-
-												<tr class="experience-tr"><td>2020</td> <td>–</td> <td>2021</td> <td>–</td> <td>Trainer в ActPro</td></tr>
-											</tbody></table>
-											<p></p>
-
+												</a>
 											</div>
-														</div>
-														
+											<div class="">
+												<div class="trainer-name-tab">Юлія Рудченко</div>
+												<div class="trainer-post-tab">Trainer</div>
+											</div>
+										</div>
+									<div class="trainer-experience">
+									<p class="trainer-experience-title">Досвід роботи 4 роки:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table"><tr class="experience-tr">
+										<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>QA Team Lead в компанії Innovecs <br></td></tr>
+										<tr class="experience-tr"><td>2019</td> <td>–</td> <td>2021 </td> <td>–</td> <td>Middle+ QA Engineer в компанії Innovecs <br></td></tr>
 
-													</div>
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в компанії DOIT Software  <br></td></tr>
+
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2018</td><td>–</td><td>QA Engineer в компанії TSI </td></tr>
+									</table>
+								</p>
+									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									</table>
+								</p>
+
+									</div>
+                            </div>
+                        </div>
 							</div>
                     </div>
 
