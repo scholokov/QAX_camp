@@ -477,7 +477,11 @@
                     </div>
 
 					<div  id="course-price">
-																					
+							<h3 class="course-plan-main-title">Реєстрація</h3>
+                                <div class="new-course-main-description">
+                                    Заповніть, будь ласка, форму нижче:
+                                </div>								
+					</div>														
 
 					</div>
 
