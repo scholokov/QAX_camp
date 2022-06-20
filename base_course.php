@@ -483,7 +483,7 @@
                                 </div>								
 					</div>														
 
-					</div>
+					
 
 					<!-- #trainer end -->
                    
