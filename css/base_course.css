@@ -458,6 +458,15 @@ td:nth-child(3), td:nth-child(5){
     margin-top: 100px;
 }
 
+.new-course-main-description ul{
+    list-style: none;
+}
+
+li::before {
+    content: "•"; 
+    width: 1em;
+    color: #F66F5D;
+}
 
 div#course-plan-steps {
     font-size: 18px;
