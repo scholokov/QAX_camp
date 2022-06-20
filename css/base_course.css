@@ -852,6 +852,26 @@ h5.title-step {
 @media (min-width:320px) and (max-width: 767px) {
 
     
+.course-price-block {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 27px;
+    background-color: rgb(255,255,255,0.07);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+    
 .course-price-main-title{
     margin-bottom: 20px;
     color: #F66F5D;
