@@ -645,6 +645,11 @@ h5.title-step {
         justify-content: center;
 }
 
+.course-price-block:hover {
+    color: #252525;
+    background-color: #FFFFFF;
+}
+
 @media (min-width:1439px) {
     .new-course-main-block {
         max-width: 1296px;
