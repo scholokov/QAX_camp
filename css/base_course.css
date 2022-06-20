@@ -469,6 +469,29 @@ td:nth-child(3), td:nth-child(5){
     color: #F66F5D;
 }
 
+
+.course-price-main-title{
+    margin-bottom: 40px;
+    color: #F66F5D;
+    font-size: 36px;
+    line-height: 10px;
+}
+
+.course-trainer-main-title{
+    margin-bottom: 40px;
+    color: #F66F5D;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+.course-registrarion-main-title{
+    margin-bottom: 40px;
+    color: #F66F5D;
+    font-size: 36px;
+    line-height: 10px;
+}
+
+
 div#course-plan-steps {
     font-size: 18px;
     line-height: 27px;
@@ -827,6 +850,34 @@ h5.title-step {
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+
+    
+.course-price-main-title{
+    margin-bottom: 20px;
+    color: #F66F5D;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.course-trainer-main-title{
+    margin-bottom: 20px;
+    color: #F66F5D;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.course-registrarion-main-title{
+    margin-bottom: 20px;
+    color: #F66F5D;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
 
     #new-course-main-title {
         font-family: 'Raleway', sans-serif;

@@ -342,7 +342,7 @@
 
 
                     <div  id="course-price">
-								<h3 class="course-plan-main-title">Оплата</h3>
+								<h3 class="course-price-main-title">Оплата</h3>
                                 <div class="new-course-main-description">
                                         Всі ми пристосовуємось до нових реалій і робимо максимально можливий 
                                         внесок до наближення нашої перемоги. На сьогоднішній день ми хочемо ще 
@@ -366,7 +366,7 @@
 					
                     <div class="trainers-block ">
 
-						<h3 class="course-plan-main-title">Тренер курсу</h3>
+						<h3 class="course-trainer-main-title">Тренер курсу</h3>
 					  <div class="trainer ">
                       <div class="trainer-photo">
                         <img class="trainer-img" src="images/MP-trainer.svg" alt="trainer">
@@ -477,7 +477,7 @@
                     </div>
 
 					<div  id="course-registrarion">
-							<h3 class="course-plan-main-title">Реєстрація</h3>
+							<h3 class="course-registrarion-main-title">Реєстрація</h3>
                                 <div class="new-course-main-description">
                                     Заповніть, будь ласка, форму нижче:
                                 </div>								
