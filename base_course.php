@@ -367,9 +367,65 @@
                     <div class="trainers-block ">
 
 						<h3 class="course-plan-main-title">Тренер курсу</h3>
-					  
-								<div class="trainer ">
-                                <div class="trainer-photo">
+					  <div class="trainer ">
+                      <div class="trainer-photo">
+                        <img class="trainer-img" src="images/MP-trainer.svg" alt="trainer">
+                      </div>
+              <div class="trainer-photo-mob">
+                        <img class="trainer-img-mob" src="images/MP-trainer-mob.svg" alt="trainer">
+                      </div>
+                      <div class="trainer-info ">
+              <div class="linkedin-logo">
+                <a target="_blank" href="https://www.linkedin.com/in/maksplaksa/" class="trainers_linkedin_icon_link">
+                <!--<img src="images/LinkedIn.svg" alt="trainer">-->
+                </a>
+                </div>
+                <div class="trainer-info_text">
+                <div class="trainer-name">Максим Плакса</div>
+                <div class="trainer-post">Trainer</div>
+                <div class="trainer-name-block-tab">
+                  <div class="linkedin-logo-tablet">
+                    <a target="_blank" href="https://www.linkedin.com/in/maksplaksa/" class="trainers_linkedin_icon_link">
+                    <!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+                    </a>
+                  </div>
+                  <div class="">
+                    <div class="trainer-name-tab">Максим Плакса</div>
+                    <div class="trainer-post-tab">Trainer</div>
+                  </div>
+                  </div>
+                <div class="trainer-experience">
+                <p class="trainer-experience-title">Досвід роботи 10 років:</p>
+                <p class="trainer-experience">
+                </p><table id="trainer-experience-table"><tbody>
+                            
+                  <tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз </td> <td>–</td> <td>QA Engineer в King David <br></td></tr>
+                  
+                  <tr class="experience-tr"><td>2020</td> <td>–</td> <td>2022 </td> <td>–</td> <td>Project manager в ModXart<br></td></tr>
+
+                  <tr class="experience-tr"><td>2018</td> <td>–</td> <td>2022</td><td>–</td> <td>QA Engineer в ModXart<br></td></tr>
+
+                  <tr class="experience-tr"><td>2014</td> <td>–</td> <td>2018</td><td>–</td><td>Assistant Manager в Montazhka<br></td></tr>
+                  
+                  <tr class="experience-tr"><td>2012</td> <td>–</td> <td>2014</td><td>–</td><td>Web developer, PHP<br></td></tr>
+
+        
+                </tbody></table>
+                <p></p>
+                <p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+                <p class="trainer-experience">
+                </p><table id="trainer-experience-table">
+                <tbody>
+                  <tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+                </tbody></table>
+                <p></p>
+
+                </div>
+                      </div>
+                      
+
+                    </div>
+								<!--<div class="trainer-photo">
                                 <img class="trainer-img" src="images/UR-trainer.svg"  alt="trainer">
                             </div>
 							<div class="trainer-photo-mob">
@@ -377,18 +433,18 @@
                             </div>
                             <div class="trainer-info ">
 							<div class="linkedin-logo">
-									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
+									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">-->
 									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
-								</a>
+								<!--</a>
 								</div>
 								<div class="trainer-info_text">
 									<div class="trainer-name">Юлія Рудченко</div>
 									<div class="trainer-post">Trainer</div>
 									<div class="trainer-name-block-tab">
 										<div class="linkedin-logo-tablet">
-												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
+												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">-->
 													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
-												</a>
+												<!--</a>
 											</div>
 											<div class="">
 												<div class="trainer-name-tab">Юлія Рудченко</div>
@@ -416,7 +472,7 @@
 
 									</div>
                             </div>
-                        </div>
+                        </div>-->
 							</div>
                     </div>
 
