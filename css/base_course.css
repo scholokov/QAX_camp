@@ -270,7 +270,7 @@ a#menuCources:hover{
 }
 
 .new-course-main-description{
-    font-family: Montserrat;
+    font-family: Montserrat !important;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
