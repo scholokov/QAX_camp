@@ -463,7 +463,7 @@ td:nth-child(3), td:nth-child(5){
 }
 
 .new-course-main-description li::before {
-    content: "•"; 
+    content: "⬤"; 
     width: 1em;
     color: #F66F5D;
 }
