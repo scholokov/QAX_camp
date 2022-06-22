@@ -21,7 +21,6 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/common.css" type="text/css" />
-	<link rel="stylesheet" href="css/footer.css" type="text/css" />
 	<link rel="stylesheet" href="css/base_course.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 
