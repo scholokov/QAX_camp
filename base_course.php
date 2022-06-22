@@ -460,13 +460,18 @@
 					<div  id="course-registrarion">
 							<h3 class="course-registrarion-main-title">Реєстрація</h3>
                                 <div class="new-course-main-description">
-                                    Заповніть, будь ласка, форму нижче:
+                                    Заповніть, будь ласка, форму нижче : 
                                 </div>								
 					</div>														
-
+                    <div  id="course-registrarion">
+							<h3 class="course-registrarion-main-title">Реєстрація</h3>
+                                <div class="new-course-main-description">
+                                    Заповніть, будь ласка, форму нижче : 
+                                </div>								
+					</div>			
 					
 
-					<!-- #trainer end -->
+					<!-- #trainer ddd end -->
                    
 
 
@@ -475,6 +480,8 @@
                <iframe name="iframe1" id="iframe1" src="https://forms.monday.com/forms/embed/7907437eb478113f6d5159033607ed0e?r=use1"  style="min-height: 2150px; height: 100%; border: 0;"></iframe>
 			</div>
 		</section>
+
+
         
 
 
@@ -527,7 +534,7 @@
 	</div><!-- #wrapper end -->
 
 
-    
+
 	<!-- Go To Top
 	============================================= -->
 	<div id="gotoTop" class="icon-line-chevron-up"></div>
