@@ -341,27 +341,7 @@
                     </div>
 
 
-                    <div  id="course-price">
-								<h3 class="course-price-main-title">Оплата</h3>
-                                <div class="new-course-main-description">
-                                        Всі ми пристосовуємось до нових реалій і робимо максимально можливий 
-                                        внесок до наближення нашої перемоги. На сьогоднішній день ми хочемо ще 
-                                        більше збільшувати кількість курсів і, як наслідок, кваліфікованих спеціалістів в сфері ІТ. 
-                                        Тому повна вартість курсу складатиме 100$, але
-                                        остаточна вартість буде залежити від Ваших можливостей!<br><br>
-                                        Ми пропонуємо наступні варіанти:
-                                </div>
-								<div class="course-price-block">
-                                     Я можу оплатити повну вартість  - 100$
-								</div>			
-                                <div class="course-price-block">
-                                    Я можу оплатити половину - 50$
-								</div>	
-                                <div class="course-price-block">
-								    Я можу оплатити частину - 25$
-								</div>														
-
-					</div>
+                   
 
 					
                     <div class="trainers-block ">
@@ -500,7 +480,48 @@
         <!-- #content end -->
 		<!-- Footer
 		============================================= -->
-		<?php include 'components/footer.html'?>
+		<footer>
+	
+
+		<div id="footer-block" class="row justify-content-between col-mb-30">
+
+			<div class="col-8 col-8 col-sm-4  footer-box">
+				<div class="footer-contatcs-item ">
+					<a target="_blank" href="https://t.me/RecrutMan" id="footer-telegram" class="footer-links">
+						<!--<img src="images/Telegram.svg" alt="Telegram" id="Telegram-img">-->
+				    </a>
+					<a target="_blank" href="https://www.facebook.com/qax.camp/" class="footer-links" id="footer-facebook">
+						<!--<img src="images/Facebook.svg" alt="Facebook" id="Facebook-img">-->
+					</a>
+			    </div>
+			    <div class="footer-contatcs-item ">
+				    <a target="_blank" href="tel:+380933647038" class="footer-links">
+				    +38 (093) 364 70 38
+			        </a>
+				</div>
+				<div class="footer-contatcs-item ">
+					<a target="_blank" href="mailto:info@qax-camp.com.ua" class="footer-links"> 
+					info@qax-camp.com.ua
+					</a>
+				</div>
+			</div>
+
+			<div class="col-4 col-sm-4  footer-box" id="powered_logo-block">
+
+				<div class="footer-powered d-flex align-items-center" id="powered_logo">
+					<a target="_blank" href="https://qax.com.ua/ "><img src="images/Powered.svg" alt="powered"></a>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-12 footer-box">
+				<div class="footer-years d-flex align-items-center">
+					<div id="footer-years">2020-2022 © QAX Camp</div>
+				</div>
+			</div>
+
+
+	</div>
+</footer>
 
 	</div><!-- #wrapper end -->
 
