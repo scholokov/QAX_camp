@@ -73,6 +73,55 @@ footer {
     
 }
 
+
+a#footer-telegram{
+    background: url(icons/Telegram.svg);
+    display: block;
+    width: 22px;
+    height: 19px;
+    margin-right: 22px;
+}
+
+a#footer-telegram:hover{
+    background: url(icons/Telegram-hover.svg);
+}
+
+a#footer-facebook{
+    background: url(icons/Facebook.svg);
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+a#footer-facebook:hover{
+    background: url(icons/Facebook-hover.svg);
+}
+
+#powered_logo{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+@media (max-width:991px){
+    #footer-block {
+        max-width: 690px;
+    }
+}
+
+@media (max-width:731px){
+    .footer-box {
+        padding-left: 30px;
+        padding-right: 57px;
+        
+    }
+    #powered_logo-block{
+        padding-left: 0;
+        padding-right: 30px;
+        
+    }
+}
+
 #header-block {
     display:block;
     height: 80px;
