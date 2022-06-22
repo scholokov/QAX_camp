@@ -526,11 +526,13 @@
 
 	</div><!-- #wrapper end -->
 
+
+    
 	<!-- Go To Top
 	============================================= -->
 	<div id="gotoTop" class="icon-line-chevron-up"></div>
 
-    
+
 	<!-- JavaScripts
 	============================================= -->
 	<script src="js/include.js"></script>
