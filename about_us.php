@@ -287,7 +287,8 @@
 	function myFunction(x) {
   x.classList.toggle("change");
   var y = document.getElementById("header-block");
-    if (    y.className += " responsive"; ){
+    if (y.className === "header-menu") {
+        y.className += " responsive"; 
 		$("#header-block").css({ "background": "#2C2A3F" });
 		$("body").css({ "overflow": "hidden" });
 		$("footer").css({ "display": "none" });
