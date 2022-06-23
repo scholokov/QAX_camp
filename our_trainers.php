@@ -513,7 +513,7 @@
 
 										</div>
 							</div>
-                    </div>
+                    
 					<div class="trainer ">
 											<div class="trainer-photo">
 												<img class="trainer-img" src="images/OL-trainer.svg" alt="trainer">
@@ -577,7 +577,135 @@
 
 										</div>
 							</div>
+
+
+
+							<div class="trainer ">
+                      <div class="trainer-photo">
+                        <img class="trainer-img" src="images/MP-trainer.svg" alt="trainer">
+                      </div>
+              <div class="trainer-photo-mob">
+                        <img class="trainer-img-mob" src="images/MP-trainer-mob.svg" alt="trainer">
+                      </div>
+                      <div class="trainer-info ">
+              <div class="linkedin-logo">
+                <a target="_blank" href="https://www.linkedin.com/in/maksplaksa/" class="trainers_linkedin_icon_link">
+                <!--<img src="images/LinkedIn.svg" alt="trainer">-->
+                </a>
+                </div>
+                <div class="trainer-info_text">
+                <div class="trainer-name">Максим Плакса</div>
+                <div class="trainer-post">Trainer</div>
+                <div class="trainer-name-block-tab">
+                  <div class="linkedin-logo-tablet">
+                    <a target="_blank" href="https://www.linkedin.com/in/maksplaksa/" class="trainers_linkedin_icon_link">
+                    <!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+                    </a>
+                  </div>
+                  <div class="">
+                    <div class="trainer-name-tab">Максим Плакса</div>
+                    <div class="trainer-post-tab">Trainer</div>
+                  </div>
+                  </div>
+                <div class="trainer-experience">
+                <p class="trainer-experience-title">Досвід роботи 10 років:</p>
+                <p class="trainer-experience">
+                </p><table id="trainer-experience-table"><tbody>
+                            
+                  <tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз </td> <td>–</td> <td>QA Engineer в King David <br></td></tr>
+                  
+                  <tr class="experience-tr"><td>2020</td> <td>–</td> <td>2022 </td> <td>–</td> <td>Project manager в ModXart<br></td></tr>
+
+                  <tr class="experience-tr"><td>2018</td> <td>–</td> <td>2022</td><td>–</td> <td>QA Engineer в ModXart<br></td></tr>
+
+                  <tr class="experience-tr"><td>2014</td> <td>–</td> <td>2018</td><td>–</td><td>Assistant Manager в Montazhka<br></td></tr>
+                  
+                  <tr class="experience-tr"><td>2012</td> <td>–</td> <td>2014</td><td>–</td><td>Web developer, PHP<br></td></tr>
+
+        
+                </tbody></table>
+                <p></p>
+                <p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+                <p class="trainer-experience">
+                </p><table id="trainer-experience-table">
+                <tbody>
+                  <tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+                </tbody></table>
+                <p></p>
+
+                </div>
+                      </div>
+                      
+
                     </div>
+              </div>
+						
+				
+			  			
+			<div class="trainer ">
+                      <div class="trainer-photo">
+                        <img class="trainer-img" src="images/KK-trainer.svg" alt="trainer">
+                      </div>
+              <div class="trainer-photo-mob">
+                        <img class="trainer-img-mob" src="images/KK-trainer-mob.svg" alt="trainer">
+                      </div>
+                      <div class="trainer-info ">
+              <div class="linkedin-logo">
+                <a target="_blank" href="https://www.linkedin.com/in/kateryna-koteleva-11391b1ab/?midToken=AQHlPupaJBU3Vg&midSig=2QVB2aMzJ2Yag1&trk=eml-email_job_alert_digest_01-header-48-profile&trkEmail=eml-email_job_alert_digest_01-header-48-profile-null-dm8usf%7El4dxrpdy%7En7-null-neptune%2Fprofile%7Evanity%2Eview" class="trainers_linkedin_icon_link">
+                <!--<img src="images/LinkedIn.svg" alt="trainer">-->
+                </a>
+                </div>
+                <div class="trainer-info_text">
+                <div class="trainer-name">Катерина Котелева</div>
+                <div class="trainer-post">English trainer </div>
+                <div class="trainer-name-block-tab">
+                  <div class="linkedin-logo-tablet">
+                    <a target="_blank" href="https://www.linkedin.com/in/kateryna-koteleva-11391b1ab/?midToken=AQHlPupaJBU3Vg&midSig=2QVB2aMzJ2Yag1&trk=eml-email_job_alert_digest_01-header-48-profile&trkEmail=eml-email_job_alert_digest_01-header-48-profile-null-dm8usf%7El4dxrpdy%7En7-null-neptune%2Fprofile%7Evanity%2Eview" class="trainers_linkedin_icon_link">
+                    <!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+                    </a>
+                  </div>
+                  <div class="">
+                    <div class="trainer-name-tab">Катерина Котелева</div>
+                    <div class="trainer-post-tab">English trainer </div>
+                  </div>
+                  </div>
+                <div class="trainer-experience">
+				<p class="trainer-experience-title">Кваліфікація:</p>
+                <p class="trainer-experience">
+                </p><table id="trainer-experience-table"><tbody>
+                            
+                  <tr class="experience-tr"><td>2021</td> <td>–</td> <td style="max-width:750px">Cambridge Certificate of Proficiency in English (Level C2)<br></td></tr>
+                  
+                  <tr class="experience-tr"><td>2013</td> <td>–</td> <td style="max-width:750px">Doctor of Philosophy in Linguistics (the English language)<br></td></tr>
+
+                  <tr class="experience-tr"><td>2006</td> <td>–</td> <td style="max-width:750px">Master’s Degree in Teaching English <br></td></tr>
+        
+                </tbody></table>
+                <p></p>
+                <p class="trainer-experience-title">Досвід викладацької діяльності 16 років:</p>
+                <p class="trainer-experience">
+                </p><table id="trainer-experience-table">
+                <tbody>
+                  <tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>English Teacher в QAX Camp</td></tr>
+				  <tr class="experience-tr"><td>2022</td> <td>–</td> <td>зараз</td> <td>–</td> <td>English Teacher в SLVC ‘English 4 Refugees’</td></tr>
+				  <tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>English Teacher, ICAO Rater в Flight School ‘Chas Aero’</td></tr>
+				  <tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>English Teacher в Cargo Air Charter ‘Avem Aero’</td></tr>
+				  <tr class="experience-tr"><td>2014</td> <td>–</td> <td>зараз</td> <td>–</td> <td>English Teacher в UkSATSE (Ukrainian State Air Traffic Service Enterprise)</td></tr>
+				  <tr class="experience-tr"><td>2014</td> <td>–</td> <td>2022</td> <td>–</td> <td>English Teacher, ICAO Rater в Flight School ‘Condor’</td></tr>
+				  <tr class="experience-tr"><td>2014</td> <td>–</td> <td>2014</td> <td>–</td> <td> English Teacher в National Aviation University</td></tr>
+				  <tr class="experience-tr"><td>2013</td> <td>–</td> <td>2014</td> <td>–</td> <td>Deputy Director, English Teacher в Dniproavia Airlines Training Center</td></tr>
+				  <tr class="experience-tr"><td>2009</td> <td>–</td> <td>2013</td> <td>–</td> <td>English Teacher в Dniproavia Airlines Training Center</td></tr>
+				  <tr class="experience-tr"><td>2006</td> <td>–</td> <td>2008</td> <td>–</td> <td>English Teacher в State Flight Academy of Ukraine</td></tr>
+
+                </tbody></table>
+                <p></p>
+
+                </div>
+                      </div>
+                      
+
+                    </div>
+              </div>
 					<!-- #trainer end -->
 				</div>
 			</div>
