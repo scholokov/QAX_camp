@@ -13,7 +13,7 @@
 		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap"
 		rel="stylesheet">
 
-        
+
 	<!-- Stylesheets
 	============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -129,6 +129,8 @@
                                     <li>як працювати з вимогами та документами;</li>
                                     <li>які існують ролі в проектних командах;</li>
                                 </ul>
+
+                                
                                 І ще багато цікавого.<br>
                                 Після проходження курсу “Теорія QA“ Ви зможете повністю зрозуміти 
                                 з чого складається напрям тестування
