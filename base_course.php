@@ -68,7 +68,7 @@
 			<div class="header-menu" id="header-block">
 				<a href="index.php"><img src="images/Logo_Small.svg" alt="Logo" id="logo"></a>
 
-				<a href="courses.php?course=qa&name=qa_practice"  class="header-menu header-menu-links">Курси</a>
+				<a href="cources.php?cource=qa&name=qa_practice"  class="header-menu header-menu-links">Курси</a>
 
 				<a href="about_us.php" class="header-menu header-menu-links ">Про нас</a>
 
@@ -119,7 +119,7 @@
 						<div id="new-course-main-text">
 							<h3 id="new-course-main-title">Базовий курс QA</h3>
 							<div class="new-course-main-description">Друзі!<br>
-                                Маємо, що вам розповісти цікавого про курс “Теорія QA“<br>
+                                Маємо, що вам розповісти цікавого про курс “Теорія QA“.<br>
                                 На курсі Вас чекає:
                                 <ul>
                                     <li>первинне знайомство з тим що таке quality assurance;</li>
@@ -130,7 +130,7 @@
                                 І ще багато цікавого.<br>
                                 Після проходження курсу “Теорія QA“ Ви зможете повністю зрозуміти 
                                 з чого складається напрям тестування
-                                програмного забезпечення та пройти до практичних занять з QA.
+                                програмного забезпечення та пройти до практичних занять з тестування.
                             </div>
 						</div>
 						
@@ -193,7 +193,7 @@
                                 <div class="text-step">
                                     <h5 class="title-step">Заняття 3. Рівні тестування.</h5>
                                     <div class="descriotion-step">Ознайомимось з рівнями тестування, розглянемо на прикладі що вони означають, 
-                                        Дізнаємось які тесті входять до кожного рівня.</div>
+                                        Дізнаємось які тести входять до кожного рівня.</div>
                                        <!-- <a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
                                         <ol>
