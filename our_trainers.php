@@ -706,6 +706,8 @@
 
                     </div>
               </div>
+
+
 					<!-- #trainer end -->
 				</div>
 			</div>
