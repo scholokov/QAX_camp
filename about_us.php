@@ -129,7 +129,6 @@
 					<div id="about_us_content">
 						<h3 class="about_us_titles">Що таке Camp?</h3>
 							<div class="about_us_text">
-								ббыыыб
 
 							Camp - це простір для розвитку, де учасники навчаються кожен своїй ролі. Ким ти хотів стати: 
 							BA, PM, QA, Recruitment.. ? 
