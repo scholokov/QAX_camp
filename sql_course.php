@@ -28,7 +28,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>QAX Camp - Base Course</title>
+	<title>QAX Camp - SQL Course</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<script>
