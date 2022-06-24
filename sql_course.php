@@ -276,8 +276,8 @@
                     <div class="trainers-block ">
 
 						<h3 class="course-trainer-main-title">Тренер курсу</h3>
-					  
-								<div class="trainer-photo">
+					  <div class="trainer ">
+                      <div class="trainer-photo">
                                 <img class="trainer-img" src="images/UR-trainer.svg"  alt="trainer">
                             </div>
 							<div class="trainer-photo-mob">
@@ -286,6 +286,7 @@
                             <div class="trainer-info ">
 							<div class="linkedin-logo">
 									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
+									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
 								</a>
 								</div>
 								<div class="trainer-info_text">
@@ -294,7 +295,7 @@
 									<div class="trainer-name-block-tab">
 										<div class="linkedin-logo-tablet">
 												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">
-													
+													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
 												</a>
 											</div>
 											<div class="">
@@ -324,6 +325,54 @@
 									</div>
                             </div>
                         </div>
+								<!--<div class="trainer-photo">
+                                <img class="trainer-img" src="images/UR-trainer.svg"  alt="trainer">
+                            </div>
+							<div class="trainer-photo-mob">
+                                <img class="trainer-img-mob" src="images/UR-trainer-mob.svg"  alt="trainer">
+                            </div>
+                            <div class="trainer-info ">
+							<div class="linkedin-logo">
+									<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">-->
+									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+								<!--</a>
+								</div>
+								<div class="trainer-info_text">
+									<div class="trainer-name">Юлія Рудченко</div>
+									<div class="trainer-post">Trainer</div>
+									<div class="trainer-name-block-tab">
+										<div class="linkedin-logo-tablet">
+												<a target="_blank" href="https://www.linkedin.com/in/yuliya-rudchenko-94317a152" class="trainers_linkedin_icon_link">-->
+													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+												<!--</a>
+											</div>
+											<div class="">
+												<div class="trainer-name-tab">Юлія Рудченко</div>
+												<div class="trainer-post-tab">Trainer</div>
+											</div>
+										</div>
+									<div class="trainer-experience">
+									<p class="trainer-experience-title">Досвід роботи 4 роки:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table"><tr class="experience-tr">
+										<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз </td> <td>–</td> <td>QA Team Lead в компанії Innovecs <br></td></tr>
+										<tr class="experience-tr"><td>2019</td> <td>–</td> <td>2021 </td> <td>–</td> <td>Middle+ QA Engineer в компанії Innovecs <br></td></tr>
+
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2019</td><td>–</td> <td>QA Engineer в компанії DOIT Software  <br></td></tr>
+
+										<tr class="experience-tr"><td>2018</td> <td>–</td> <td>2018</td><td>–</td><td>QA Engineer в компанії TSI </td></tr>
+									</table>
+								</p>
+									<p class="trainer-experience-title">Досвід викладацької діяльності:</p>
+									<p class="trainer-experience">
+									<table id="trainer-experience-table">
+									<tr class="experience-tr"><td>2021</td> <td>–</td> <td>зараз</td> <td>–</td> <td>Trainer в QAX Camp</td></tr>
+									</table>
+								</p>
+
+									</div>
+                            </div>
+                        </div>-->
                         
 							</div>
                     </div>
@@ -342,7 +391,7 @@
 
 
 				</div>
-               <iframe name="iframe1" id="iframe1" src="https://forms.monday.com/forms/69b9a1562e54e5c9222bb5c4b3bf902a?r=use1"  style="min-height: 2150px; height: 100%; border: 0; margin-bottom: -10px;"></iframe>
+               <iframe name="iframe1" id="iframe1" src="https://forms.monday.com/forms/embed/7907437eb478113f6d5159033607ed0e?r=use1"  style="min-height: 2150px; height: 100%; border: 0; margin-bottom: -10px;"></iframe>
 			</div>
 		</section>
 
