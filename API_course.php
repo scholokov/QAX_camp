@@ -206,7 +206,7 @@
                                                                 </ul>
                                                                    
                                                                     Практика: показую тестовий Swagger http://65.109.0.233:8080/swagger-ui/index.html<br>
-                                                                    <i>Домашнє завдання: заюзати всі ендпоінти звідси <a href="https://superhero.qa-test.csssr.com/swagger-ui.html#/superhero-controller/getAllUsingGET" style="color: #FFFFFF">Swagger UI</a> </i>
+                                                                    <i>Домашнє завдання: заюзати всі ендпоінти звідси <a href="https://superhero.qa-test.csssr.com/swagger-ui.html#/superhero-controller/getAllUsingGET" style="color: #F66F5D">Swagger UI</a> </i>
                                     </div>
                                 </div>
 
@@ -224,7 +224,7 @@
                                                                     – Тестуємо GET запит.</li>
 
                                                                     <li>Параметризований та не параметризований GET – запит.<br>
-                                                                    Практика: показую як завантажити Postman. Показую простий запит на реєстрацію для ресурсу <a href="http://users.bugred.ru/">Users</a></li> 
+                                                                    Практика: показую як завантажити Postman. Показую простий запит на реєстрацію для ресурсу <a href="http://users.bugred.ru/" style="color: #F66F5D">Users</a></li> 
 
                                                                     Показую як тестувати GET, DELETE - запити (параметризований та ні).<br>
                                                                 </ul>
