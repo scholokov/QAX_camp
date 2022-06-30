@@ -132,7 +132,7 @@
 		
 
 		
-			<div id="heroImage-block">
+					<div id="heroImage-block">
 						
 						<div id="hero-text-block">
 							<h1 id="hero-text">
