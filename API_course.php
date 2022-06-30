@@ -205,8 +205,8 @@
 
                                                                 </ul>
                                                                    
-                                                                    <i>Практика: показую тестовий Swagger http://65.109.0.233:8080/swagger-ui/index.html<br>
-                                                                    Домашнє завдання: заюзати всі ендпоінти звідси <a href="https://superhero.qa-test.csssr.com/swagger-ui.html#/superhero-controller/getAllUsingGET">Swagger UI</a> </i>
+                                                                    Практика: показую тестовий Swagger http://65.109.0.233:8080/swagger-ui/index.html<br>
+                                                                    <i>Домашнє завдання: заюзати всі ендпоінти звідси <a href="https://superhero.qa-test.csssr.com/swagger-ui.html#/superhero-controller/getAllUsingGET" style="color: #FFFFFF">Swagger UI</a> </i>
                                     </div>
                                 </div>
 
