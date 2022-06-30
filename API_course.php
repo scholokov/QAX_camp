@@ -261,7 +261,8 @@
                                 <div class="img-step"><img src="images/lesson4.svg" alt="step"></div>
                                 <div class="text-step">
                                     <h5 class="title-step">Урок 4. Тіло повідомлення (Body). Тестуємо POST, PUT запити.</h5>
-                                    <div class="descriotion-step">– Розглянемо формати body.
+                                    <div class="descriotion-step">
+                                        – Розглянемо формати body.
                                         <ul>
                                             <li>Що ми тестуємо у body?</li>
 
@@ -279,6 +280,7 @@
                                     </div>
                                         <a href="" class="spoiler_links">Читати повністю</a>
                                     <div class="spoiler_body">
+                                    – Розглянемо формати body.
                                     <ul>
                                             <li>Що ми тестуємо у body?</li>
 
@@ -286,7 +288,7 @@
 
                                             <li> Валідатори json та xml.</li>
                                         </ul>
-                                         Показую як тестувати POST – запити.
+                                         Показую як тестувати POST – запити.<br>
 
                                             <i>Домашнє завдання: <br>                             
 
