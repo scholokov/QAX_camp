@@ -521,7 +521,7 @@
 			    </div>
 			    <div class="footer-contatcs-item ">
 				    <a target="_blank" href="tel:+380933647038" class="footer-links">
-				    +38 (093) 364 70 38
+				    +38 (063) 428 35 96
 			        </a>
 				</div>
 				<div class="footer-contatcs-item ">
