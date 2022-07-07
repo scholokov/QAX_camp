@@ -500,7 +500,7 @@
 					</a>
 			    </div>
 			    <div class="footer-contatcs-item ">
-				    <a target="_blank" href="tel:+380933647038" class="footer-links">
+				    <a target="_blank" href="tel:+380634283596" class="footer-links">
                     +38 (063) 428 35 96
 			        </a>
 				</div>
