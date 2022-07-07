@@ -57,6 +57,10 @@ A:visited {
     /*border-radius: 2px; */
 }
 
+#gotoTop::before{
+    content: url(images/arrow.svg);
+}
+
 body:not(.device-touch) #gotoTop {
     transition: background-color .2s linear;
     -webkit-transition: background-color .2s linear;
