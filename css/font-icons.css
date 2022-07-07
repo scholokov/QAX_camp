@@ -6460,7 +6460,7 @@
 .icon-line-chevron-right:before {
 	content: "\e930";
 }
-.icon-line-chevron-up:before {
+.icon-line-chevron-up::before {
 	content: "\e931";
 }
 .icon-line-chevrons-down:before {
