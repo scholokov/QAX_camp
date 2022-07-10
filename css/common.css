@@ -38,14 +38,14 @@ A:visited {
 -----------------------------------------------------------------*/
 #gotoTop {
     background: #F66F5D;
+    opacity: 0.5;
     display: none;
     z-index: 599;
     position: fixed;
-    width: 40px;
-    height: 40px;
-    background-color: #333;
-    background-color: rgba(212, 17, 17, 0.219);
+    width: 50px;
+    height: 50px;
     font-size: 1.25rem;
+    padding-top: 9px;
     line-height: 36px;
     text-align: center;
     color: #FFF;
