@@ -1,7 +1,7 @@
 <div class="courses_details" id="courses_details">
 	<div id="courses_details-menu-block" class="row col-mb-50 mb-1">
 
-		<div class="col-lg-3">
+		<div class="col-lg-3 col-xl-3">
 			<aside class="sidebar">
 
 				<div id="leftside-navigation">
@@ -67,7 +67,7 @@ foreach ($json_data as $course_file => $course_tab) {
 			</aside>
 		</div>
 
-		<div class="col-xl-9">
+		<div class="col-xl-9 col-lg-9">
 			<div class="courses_details-text">
 			
 			<?php
