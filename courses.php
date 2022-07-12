@@ -308,6 +308,19 @@ function goToForm(){
 }
 
 	</script>
+	
+	<script>
+        
+		$(document).ready(function(){
+			$('.spoiler_links').click(function(){
+				$(this).next('.spoiler_body').toggle('normal');
+				$(this).css('display', 'none');
+				$(this).prev('.descriotion-step').css('display', 'none');
+				return false;
+			});
+		});
+        
+	</script>
 	<!-- Footer Scripts
 	============================================= -->
 	<!-- for phone mask -->
