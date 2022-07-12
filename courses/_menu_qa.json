@@ -1,17 +1,22 @@
 {
-    "auto": {
-        "courseName": "Автоматизація",
-        "courseFileName": "qa_automation",
+    "qa_practice": {
+        "courseName": "Практика",
+        "courseFileName": "qa_practice",
         "availability": "1"
     },
-    "practice-theory": {
-        "courseName": "Менторство",
+    "qa_theory": {
+        "courseName": "Базовий курс QA",
         "courseFileName": "qa_theory",
         "availability": "1"
     },
-    "practice": {
-        "courseName": "Практика",
-        "courseFileName": "qa_practice",
+    "qa_api": {
+        "courseName": "API",
+        "courseFileName": "qa_api",
+        "availability": "1"
+    },
+    "qa_sql": {
+        "courseName": "SQL",
+        "courseFileName": "qa_sql",
         "availability": "1"
     }
 }

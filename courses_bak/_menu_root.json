@@ -1,0 +1,16 @@
+{
+    "practice": {
+        "courseTabName": "Практичні курси",
+        "availability": "1",
+        "coursefile": "_menu_practice.json",
+        "course": "practice"
+    },
+    "theory": {
+        "courseTabName": "Класичні курси",
+        "availability": "0",
+        "coursefile": "_menu_theory.json",
+        "course": "theory"
+    }
+}
+
+ 

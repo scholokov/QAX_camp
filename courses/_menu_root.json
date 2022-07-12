@@ -1,7 +1,7 @@
 {
     "practice": {
         "courseTabName": "Практичні курси",
-        "availability": "1",
+        "availability": "0",
         "coursefile": "_menu_practice.json",
         "course": "practice"
     },
@@ -10,7 +10,32 @@
         "availability": "0",
         "coursefile": "_menu_theory.json",
         "course": "theory"
+    },
+	    "qa": {
+        "courseTabName": "QA Engineer",
+        "availability": "1",
+        "coursefile": "_menu_qa.json",
+        "course": "qa"
+    },
+	    "pm": {
+        "courseTabName": "Project Manager",
+        "availability": "1",
+        "coursefile": "_menu_pm.json",
+        "course": "pm"
+    },
+	    "ba": {
+        "courseTabName": "Business Analyst",
+        "availability": "1",
+        "coursefile": "_menu_ba.json",
+        "course": "ba"
+    },
+	    "hr": {
+        "courseTabName": "Recruitment",
+        "availability": "1",
+        "coursefile": "_menu_hr.json",
+        "course": "hr"
     }
+	
 }
 
  

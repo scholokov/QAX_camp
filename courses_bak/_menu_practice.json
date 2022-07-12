@@ -1,0 +1,22 @@
+{
+    "qa_practice": {
+        "courseName": "QA Engineer",
+        "courseFileName": "qa_practice",
+        "availability": "1"
+    },
+    "ba_practice": {
+        "courseName": "Business Analyst",
+        "courseFileName": "ba_practice",
+        "availability": "1"
+    },
+    "pm_practice": {
+        "courseName": "Project Manager",
+        "courseFileName": "pm_practice",
+        "availability": "1"
+    },
+    "hr_practice": {
+        "courseName": "Recruitment",
+        "courseFileName": "hr_practice",
+        "availability": "1"
+    }
+}
