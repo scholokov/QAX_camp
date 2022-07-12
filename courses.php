@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="css/block.write_to_us.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.courses_detailes.css" type="text/css" />
 	<link rel="stylesheet" href="css/block.courses_detailes.accordion.css" type="text/css" />
+	<link rel="stylesheet" href="css/base_course.css" type="text/css" />
 	<link rel="stylesheet" href="css/intlTelInput.css">
 
 	<meta property="fb:admins" content="denis.scholokov" />
