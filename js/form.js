@@ -502,7 +502,7 @@ function check_phone() {
     
     else if (phone == false) {
         phone_line.css({ "border-color": "red" });
-        error_message_phone_only_numbers.show();
+        error_message_phone_plugin.show();
         error_message_phone_empty.hide();
         error_message_phone_short.hide();
         error_message_phone_long.hide();
