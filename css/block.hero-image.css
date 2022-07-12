@@ -13,6 +13,32 @@
     justify-content: center;
 }
 
+#hero-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+
+    position: absolute;
+    width: 251px;
+    height: 48px;
+    left: calc(50% - 251px/2 - 714.5px);
+    top: 440px;
+
+    border: 1.5px solid #E9E8EA;
+    border-radius: 3px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
 #hero-text {
     white-space: nowrap;
     font-size: 64px;

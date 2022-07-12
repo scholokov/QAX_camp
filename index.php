@@ -141,6 +141,7 @@
 							<h4 id="hero-text-longread">
 							Вдосконалення через практику на реальних<br> проєктах та менторство 
 							</h4>
+							<div id="hero-button">Дізнатися більше</div>
 						</div>
 						<div id="hero-img-block">
 							<img src="images/Image_1.svg">
