@@ -437,6 +437,13 @@ h5.title-step {
 }
 
 @media (min-width:768px) and (max-width: 992px) {
+    h5.title-step {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
     #course-price-text {
         text-align: center;
         align-items: center;
