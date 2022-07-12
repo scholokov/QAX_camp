@@ -423,6 +423,19 @@ function goToForm(){
 
 	</script>
 
+	<script>
+		let textArea = document.getElementById("comment_input");
+let characterCounter = document.getElementById("char_count");
+const maxNumOfChars = 100;
+
+const countCharacters = () => {
+    let numOfEnteredChars = textArea.value.length;
+    let counter = maxNumOfChars - numOfEnteredChars;
+    characterCounter.textContent = counter + "/100";
+};
+textArea.addEventListener("input", countCharacters);
+	</script>
+
 	
 
 	<!-- Footer Scripts
