@@ -48,6 +48,8 @@ body {
 
 .sidebar #leftside-navigation ul li a {
   color: #FFFFFF;
+  border-radius: 4px;
+  background: #3E3B5E;
   text-decoration: none;
   display: block;
   padding: 8px 0 8px 25px;
@@ -203,6 +205,8 @@ body {
   cursor: pointer;
   color: #222222;
   font-family: Raleway, sans-serif;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 .accordion__question::before {
   content: "";
