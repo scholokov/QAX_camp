@@ -146,6 +146,7 @@
 						<div id="hero-img-block">
 							<img src="images/Image_1.svg">
 						</div>
+						
 					</div>
 			
 		
