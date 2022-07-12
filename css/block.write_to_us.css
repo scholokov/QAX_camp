@@ -296,7 +296,7 @@ div#error_message_agree_empty {
 
     div#write_to_us_shadow {
         height: 250px;
-        width: 100%;
+        width: 100vw;
         align-self: center;
         margin-top: -129px;
     }
@@ -318,7 +318,7 @@ div#error_message_agree_empty {
         position: relative;
         margin-top: 270px;
         max-width: 870px;
-        width: 100vw;
+        width: 100%;
         background: #894A4D;
         border-radius: 40px;
         height: 405px;
