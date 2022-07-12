@@ -474,10 +474,11 @@ h5.title-step {
     }
 
     h3.course-plan-main-title {
-        margin-bottom: 65px;
-        color: #F66F5D;
-        font-size: 36px;
-        line-height: 50px;
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25px;
+
     }
 
     .descriotion-step{
