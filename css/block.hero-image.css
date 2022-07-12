@@ -142,6 +142,25 @@
 }
 
 @media (max-width: 420px) and (max-width: 767px) {
+    #hero-button{
+        padding: 10px 16px;
+    
+        width: 155px;
+        height: 36px;
+    
+        border: 1.5px solid #E9E8EA;
+        border-radius: 3px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+    
+        color: #E9E8EA;
+    }
     #heroImage-block {
         margin-top: 40px;
         display: flex;
