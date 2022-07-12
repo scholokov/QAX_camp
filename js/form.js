@@ -482,10 +482,10 @@ function check_phone() {
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
 
     //    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
-    // var patternPhone = new RegExp(/^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$/);
+    var patternPhone = new RegExp(/^[0-9]*$/gm);
 
     var phone_clear = phone_input.val().trim();
-//    let phone = patternPhone.test(phone_clear);
+    var phone = patternPhone.test(phone_clear);
     var phone_length_all = phone_clear.length;
     console.log('phone-length: ' + phone_length_all);
 //    console.log('phone-correctness: ' + phone);
@@ -499,7 +499,7 @@ function check_phone() {
         error_message_phone_plugin.hide();
         return false;
     }
-    /*
+    
     else if (phone == false) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_only_numbers.show();
@@ -508,7 +508,7 @@ function check_phone() {
         error_message_phone_long.hide();
         return false;
     }
-    */
+    
    /*
     else if (phone_length_all > 22) {
         phone_line.css({ "border-color": "red" });
