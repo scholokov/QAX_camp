@@ -48,6 +48,8 @@ body {
 
 .sidebar #leftside-navigation ul li a {
   color: #FFFFFF;
+  border-radius: 4px;
+  background: #3E3B5E;
   text-decoration: none;
   display: block;
   padding: 8px 0 8px 25px;
@@ -135,7 +137,7 @@ body {
   /*
   font-weight: bold;
   */
-  background: #F66F5D;
+  background: #F66F5D !important;
   color: #222222;
 }
 
