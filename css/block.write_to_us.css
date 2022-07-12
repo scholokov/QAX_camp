@@ -20,9 +20,10 @@
 }
 
 div#write_to_us_shadow {
-    
-    background: url(images/form_shadow.svg);
-    width: 1920px;
+    width: 100%;
+    background: url(images/form_shadow.svg) no-repeat center;
+    background-size: cover;
+    height: 320px;
     align-self: center;
 }
 
@@ -295,7 +296,7 @@ div#error_message_agree_empty {
 
     div#write_to_us_shadow {
         height: 250px;
-        width: 900px;
+        width: 100%;
         align-self: center;
         margin-top: -129px;
     }
@@ -369,7 +370,7 @@ div#error_message_agree_empty {
 
 @media (min-width:768px) and (max-width: 992px)  {
     div#write_to_us_shadow {
-        width: 1920px;
+        width: 100%;
         align-self: center;
         margin-top: -115px;
     }
