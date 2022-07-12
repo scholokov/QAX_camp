@@ -424,16 +424,16 @@ function goToForm(){
 	</script>
 
 	<script>
-		var textArea = document.getElementById("comment_input");
+	/*var textArea = document.getElementById("comment_input");
 	var characterCounter = document.getElementById("char_count");
 	const maxNumOfChars = 100;
 
 	const countCharacters = () => {
-    var numOfEnteredChars = textArea.value.length;
-    var counter = maxNumOfChars - numOfEnteredChars;
-    characterCounter.textContent = counter + "/100";
-};
-		textArea.addEventListener("input", countCharacters);
+    	var numOfEnteredChars = textArea.value.length;
+    	var counter = maxNumOfChars - numOfEnteredChars;
+    	characterCounter.textContent = counter + "/100";
+	};
+		textArea.addEventListener("input", countCharacters);*/
 	</script>
 
 	
