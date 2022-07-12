@@ -8106,6 +8106,11 @@ body:not(.device-touch) .entry-link {
 	height: 80px;
 	background-color:  #262438;
 }
+@media(min-width:993px){
+	#fb-comments-title-block {
+		margin-top: 410px;
+	}
+}
 
 #fb-comments-title{
 	font-family: Raleway;
