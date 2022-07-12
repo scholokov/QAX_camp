@@ -20,6 +20,7 @@
 }
 
 div#write_to_us_shadow {
+    background: url(images/form_shadow.svg)
     width: 1920px;
     align-self: center;
 }
