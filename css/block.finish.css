@@ -96,6 +96,78 @@
     
 }
 
+
+#counter-text{
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #E9E8EA;
+}
+
+#counter-numbers{
+    display: flex;
+    flex-direction: row;
+    width: 318px;
+    justify-content: space-evenly;
+}
+
+.bl {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: left;
+    width: 460px;
+    height: 257px;
+    background: #35324B;
+    border-radius: 6px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mid {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .number {
+    font-family: 'Roboto', sans-serif !important;
+    width: 96px;
+    background: #453B60;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    line-height: 113px;
+    font-size: 96px;;
+    font-weight: bold;
+    opacity: 0;
+    color: #F66F5D;
+  }
+  
+  .viz {
+    opacity: 1;
+    transition: 0s;
+  }
+ 
+  .clearfix:before,
+  .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+  
+  .clearfix:after {
+    clear: both;
+  }
+  
 @media (min-width: 460px) and (max-width: 768px){
     .number {
         font-family: 'Roboto', sans-serif !important;
@@ -223,75 +295,3 @@
     
     
 }
-
-#counter-text{
-    font-family: 'Roboto', sans-serif !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    color: #E9E8EA;
-}
-
-#counter-numbers{
-    display: flex;
-    flex-direction: row;
-    width: 318px;
-    justify-content: space-evenly;
-}
-
-.bl {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    float: left;
-    width: 460px;
-    height: 257px;
-    background: #35324B;
-    border-radius: 6px;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .mid {
-    width: 1000px;
-    margin: 0 auto;
-  }
-  
-  .number {
-    font-family: 'Roboto', sans-serif !important;
-    width: 96px;
-    background: #453B60;
-    display: flex;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    line-height: 113px;
-    font-size: 96px;;
-    font-weight: bold;
-    opacity: 0;
-    color: #F66F5D;
-  }
-  
-  .viz {
-    opacity: 1;
-    transition: 0s;
-  }
- 
-  .clearfix:before,
-  .clearfix:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
-  }
-  
-  .clearfix:after {
-    clear: both;
-  }
-  
