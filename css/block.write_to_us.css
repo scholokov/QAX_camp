@@ -21,9 +21,10 @@
 
 div#write_to_us_shadow {
     width: 100%;
+    overflow: hidden;
     background: url(images/form_shadow.svg) no-repeat center;
     background-size: cover;
-    height: 320px;
+    height: 100%;
     align-self: center;
 }
 
