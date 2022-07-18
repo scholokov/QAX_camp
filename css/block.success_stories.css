@@ -114,7 +114,7 @@ ul{
 .spoiler_links{
     padding: 10px 25px;
 
-    width: 205px;
+    width: 175px;
     height: 41px;
 
     border: 1.5px solid #E9E8EA;
@@ -376,10 +376,16 @@ ul{
         max-width: 320px;
         width: 100%;
     }
+
     #success-stories-img-block {
-        max-width: 150px;
+        max-width: 500px;
         margin-left: 0px;
         margin-bottom: 0px;
+        align-items: flex-end;
+    }
+
+    #success-stories-img-block img{
+        width: 150px;
     }
 
     tr td:nth-child(1) img{
