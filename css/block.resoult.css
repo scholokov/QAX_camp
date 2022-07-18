@@ -1,7 +1,7 @@
 #resoult{
     height: 726px;
     background: url(images/resoult_bg.svg) no-repeat center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #resoult-block{
