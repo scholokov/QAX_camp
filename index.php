@@ -276,7 +276,7 @@
 								Хочемо розповісти тобі про людей 
 								які довірились нам і досягли поставлених цілей :
 								</h4>
-								<table id="success-stories-table">
+								<table class="success-stories-table">
 
 										<tr class="success-stories-student">
 											<div><td><a href="https://www.linkedin.com/in/mykhailo-borovikov-3180a070/" target="_blank">
@@ -318,7 +318,7 @@
 
 								<a href="" class="spoiler_links">Дивитися усіх</a>
                                     <div class="spoiler_body">
-										<table id="success-stories-table">
+										<table class="success-stories-table">
 											<tr class="success-stories-student">
 												<td><a href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" target="_blank">
 													<img src="images/linkedin_logo_home.svg">
