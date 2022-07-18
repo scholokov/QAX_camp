@@ -312,8 +312,27 @@
 											</ul></td> 
 										</tr>
 								</table>
+								<a href="" class="spoiler_links">Дивитися усіх</a>
+                                    <div class="spoiler_body">
+										<table id="success-stories-table">
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" target="_blank">
+													<img src="images/linkedin_logo_home.svg">
+												</a></td>
+												<td>Valentyna Tipaieva</td> 
+												<td><ul>
+													<li>Працюваkf <span class="success-stories-bold">13 років</span> на посаді “Chief Legal Officer”<br></li>
+													<li>Навчалася у нас протягом <span class="success-stories-bold">3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">QA engineer</span> в компанії <span class="success-stories-bold">PNN Soft</span><br></li>
+												</ul></td> 
+											</tr>
+
+										</table>
+                       
+                                    </div>
 							</div>
-							<div id="success-stories-img-block">
+								
+								<div id="success-stories-img-block">
 								<img src="images/success_stories.svg">
 							</div>
 						</div>
@@ -386,6 +405,17 @@
 			$("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(),
 				e.stopPropagation()
 		})
+	</script>
+	
+	<script>
+		$(document).ready(function(){
+        $('.spoiler_links').click(function(){
+            $(this).next('.spoiler_body').toggle('normal');
+            $(this).css('display', 'none');
+            return false;
+        });
+    });
+        
 	</script>
 
 
