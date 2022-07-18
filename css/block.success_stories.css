@@ -318,7 +318,7 @@ ul{
 
 }
 
-@media (max-width: 459px) {
+@media (min-width: 220px) and (max-width: 459px) {
     .success-stories-linkedin{
         width: 16px;
         height: 16px;
