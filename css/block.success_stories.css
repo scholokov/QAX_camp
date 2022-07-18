@@ -240,6 +240,12 @@ ul{
         padding-right: 40px;
     }
 
+    .success-stories-linkedin{
+        width: 21px;
+        height: 21px;
+        background-size: 21px;
+    }
+
     #success-stories-text{
         margin-bottom: 40px;
         font-size: 16px;
@@ -257,6 +263,11 @@ ul{
 }
 
 @media (max-width: 459px) {
+    .success-stories-linkedin{
+        width: 16px;
+        height: 16px;
+        background-size: 16px;
+    }
     
 
     #success-stories{
