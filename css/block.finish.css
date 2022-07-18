@@ -148,7 +148,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (min-width: 220px) and (max-width: 420px) {
     .number {
         font-family: 'Roboto', sans-serif !important;
         width: 77px;
