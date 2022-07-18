@@ -3,6 +3,22 @@
     background-size: 100%;
 }
 
+.success-stories-linkedin{
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url(icons/LinkedIn.svg);
+    background-size: 23px;
+}
+
+.success-stories-linkedin:hover{
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url("icons/LinkedIn_hover.svg");
+    background-size: 23px;
+}
+
 
 #success-stories-block{
     font-family: 'Raleway' !important;

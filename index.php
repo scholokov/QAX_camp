@@ -279,8 +279,8 @@
 								<table class="success-stories-table">
 
 										<tr class="success-stories-student">
-											<div><td><a href="https://www.linkedin.com/in/mykhailo-borovikov-3180a070/" target="_blank">
-												<img src="images/linkedin_logo_home.svg"></a></td>
+											<div><td><a href="https://www.linkedin.com/in/mykhailo-borovikov-3180a070/" target="_blank" class="success-stories-linkedin">
+												</a></td>
 											<td>Mykhailo Borovikov</td> 
 											</div>
 											<td> <ul>
@@ -291,8 +291,8 @@
 										</tr>
 
 										<tr class="success-stories-student">
-											<div><td><a href="https://www.linkedin.com/in/natalia-kutashenko-737b221a3/" target="_blank">
-												<img src="images/linkedin_logo_home.svg"></a></td>
+											<div><td><a href="https://www.linkedin.com/in/natalia-kutashenko-737b221a3/" target="_blank" class="success-stories-linkedin">
+												</a></td>
 											<td>Natalia Kutashenko</td> 
 											</div>
 											<td> <ul>
@@ -303,8 +303,8 @@
 										</tr>
 
 										<tr class="success-stories-student">
-											<div><td><a href="https://www.linkedin.com/in/igor-konushevsky-804556218/" target="_blank">
-												<img src="images/linkedin_logo_home.svg"></a></td>
+											<div><td><a href="https://www.linkedin.com/in/igor-konushevsky-804556218/" target="_blank" class="success-stories-linkedin">
+												</a></td>
 											<td>Igor Konushevsky</td> 
 											</div>
 											<td> <ul>
@@ -320,8 +320,7 @@
                                     <div class="spoiler_body">
 										<table class="success-stories-table">
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" target="_blank">
-													<img src="images/linkedin_logo_home.svg">
+												<td><a href="https://www.linkedin.com/in/valentyna-tipaieva-a2316b221/" target="_blank" class="success-stories-linkedin">
 												</a></td>
 												<td>Valentyna Tipaieva</td> 
 												<td><ul>
@@ -332,8 +331,7 @@
 											</tr> 
 
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/olesia-tychynina-05470b1b7/" target="_blank">
-													<img src="images/linkedin_logo_home.svg">
+												<td><a href="https://www.linkedin.com/in/olesia-tychynina-05470b1b7/" target="_blank" class="success-stories-linkedin">
 												</a></td>
 												<td>Olesia Tychynina</td> 
 												<td><ul>
@@ -344,8 +342,7 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%B3%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-7bba0a1b0/" target="_blank">
-													<img src="images/linkedin_logo_home.svg">
+												<td><a href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%B3%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-7bba0a1b0/" target="_blank" class="success-stories-linkedin">
 												</a></td>
 												<td>Dmytro Hranovskyi</td> 
 												<td><ul>
@@ -356,8 +353,7 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/iurii-bugar-ba76b553/" target="_blank">
-													<img src="images/linkedin_logo_home.svg">
+												<td><a href="https://www.linkedin.com/in/iurii-bugar-ba76b553/" target="_blank" class="success-stories-linkedin">
 												</a></td>
 												<td>Iurii Bugar</td> 
 												<td><ul>
@@ -368,8 +364,7 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/julia-rabovich-522b3820b/" target="_blank">
-													<img src="images/linkedin_logo_home.svg">
+												<td><a href="https://www.linkedin.com/in/julia-rabovich-522b3820b/" target="_blank" class="success-stories-linkedin">
 												</a></td>
 												<td>Julia Rabovich</td> 
 												<td><ul>
@@ -380,8 +375,7 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" target="_blank">
-													<img src="images/linkedin_logo_home.svg">
+												<td><a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" target="_blank" class="success-stories-linkedin">
 												</a></td>
 												<td>Andrey Hryhorchuk</td> 
 												<td><ul>
@@ -392,8 +386,7 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua" target="_blank">
-													<img src="images/linkedin_logo_home.svg">
+												<td><a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua" target="_blank" class="success-stories-linkedin">
 												</a></td>
 												<td>Alexander Bezeliuk</td> 
 												<td><ul>
@@ -404,8 +397,8 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<td><a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua" target="_blank">
-													<img src="images/linkedin_logo_home.svg"></a></td>
+												<td><a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua" target="_blank" class="success-stories-linkedin">
+													</a></td>
 												<td>Pavel Karnasenko</td> 
 												<td><ul>
 													<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Інженер-конструктор”<br></li>
@@ -415,8 +408,8 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<div><td><a href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/" target="_blank">
-													<img src="images/linkedin_logo_home.svg"></a></td>
+												<div><td><a href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/" target="_blank" class="success-stories-linkedin">
+													</a></td>
 												<td>Natali Sorokina</td> 
 												</div>
 												<td> <ul>
@@ -427,8 +420,8 @@
 											</tr>
 
 											<tr class="success-stories-student">
-												<div><td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" target="_blank">
-													<img src="images/linkedin_logo_home.svg"></a></td>
+												<div><td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" target="_blank" class="success-stories-linkedin">
+													</a></td>
 												<td>Max Lapaichuk</td> 
 												</div>
 												<td> <ul>
