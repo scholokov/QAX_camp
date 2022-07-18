@@ -319,6 +319,21 @@ ul{
 }
 
 @media (min-width: 220px) and (max-width: 459px) {
+    .spoiler_links{
+        padding: 10px 25px;
+        width: 149px;
+        height: 38px;
+        border: 1.5px solid #E9E8EA;
+        border-radius: 3px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #E9E8EA;
+    }
     .success-stories-linkedin{
         width: 16px;
         height: 16px;
@@ -382,6 +397,7 @@ ul{
         margin-left: 0px;
         margin-bottom: 0px;
         align-items: flex-end;
+        justify-content: flex-end;
     }
 
     #success-stories-img-block img{
