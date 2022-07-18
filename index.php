@@ -468,7 +468,7 @@
 								</div>
 								<div class="course-card">
 									<a class="courses-block-a" href="courses.php?course=hr&name=hr_practice">
-										<img src="images/HR_card.svg">
+										<img src="images/Rec_card.svg">
 									</a>
 								</div>
 							</div>
