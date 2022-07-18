@@ -277,41 +277,45 @@
 								які довірились нам і досягли поставлених цілей :
 								</h4>
 								<table id="success-stories-table">
+
 										<tr class="success-stories-student">
-											<td><a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua" target="_blank">
-												<img src="images/linkedin_logo_home.svg">
-											</a></td>
-											<td>Alexander Bezeliuk</td> 
-											<td><ul>
-												<li>Працював <span class="success-stories-bold">3 роки</span> на посаді “Заступника дероктора магазину електроніки”<br></li>
-												<li>Навчався у нас протягом <span class="success-stories-bold">3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
-												<li>Зараз працює на позиції <span class="success-stories-bold">QA engineer</span> в компанії <span class="success-stories-bold">Playtech</span><br></li>
+											<div><td><a href="https://www.linkedin.com/in/mykhailo-borovikov-3180a070/" target="_blank">
+												<img src="images/linkedin_logo_home.svg"></a></td>
+											<td>Mykhailo Borovikov</td> 
+											</div>
+											<td> <ul>
+												<li>Працював <span class="success-stories-bold">4,5 роки</span> на посаді “Керівник ресторану”<br></li>
+												<li>Навчався у нас протягом<span class="success-stories-bold"> 2 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
+												<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold">Wallet Factory</span><br></li>
 											</ul></td> 
 										</tr>
 
 										<tr class="success-stories-student">
-											<div><td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" target="_blank">
+											<div><td><a href="https://www.linkedin.com/in/natalia-kutashenko-737b221a3/" target="_blank">
 												<img src="images/linkedin_logo_home.svg"></a></td>
-											<td>Max Lapaichuk</td> 
+											<td>Natalia Kutashenko</td> 
 											</div>
 											<td> <ul>
-												<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Офіціант - адміністратор”<br></li>
-												<li>Навчався у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
-												<li>Зараз працює на позиції <span class="success-stories-bold">Manual QA</span> в компанії <span class="success-stories-bold">Leeloo</span><br></li>
+												<li>Працювала <span class="success-stories-bold">12 років</span> на посаді “Помічник нотаріуса”<br></li>
+												<li>Навчалась у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
+												<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold">Kevuru Games</span><br></li>
+											</ul></td> 
+										</tr>
+
+										<tr class="success-stories-student">
+											<div><td><a href="https://www.linkedin.com/in/igor-konushevsky-804556218/" target="_blank">
+												<img src="images/linkedin_logo_home.svg"></a></td>
+											<td>Igor Konushevsky</td> 
+											</div>
+											<td> <ul>
+												<li>Працював <span class="success-stories-bold">7 років</span> на посаді “Бухгалтер”<br></li>
+												<li>Навчався у нас протягом<span class="success-stories-bold"> 7 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
+												<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold">PJSC Bank Vostok</span><br></li>
 											</ul></td> 
 										</tr>
 										
-										<tr class="success-stories-student">
-											<td><a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua" target="_blank">
-												<img src="images/linkedin_logo_home.svg"></a></td>
-											<td>Pavel Karnasenko</td> 
-											<td><ul>
-												<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Інженер-конструктор”<br></li>
-												<li>Навчався у нас протягом <span class="success-stories-bold">1,5 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
-												<li>Зараз працює на позиції<span class="success-stories-bold"> QA Engineer</span> в компанії 	<span class="success-stories-bold">PixelTeh</span><br></li>
-											</ul></td> 
-										</tr>
 								</table>
+
 								<a href="" class="spoiler_links">Дивитися усіх</a>
                                     <div class="spoiler_body">
 										<table id="success-stories-table">
@@ -321,9 +325,116 @@
 												</a></td>
 												<td>Valentyna Tipaieva</td> 
 												<td><ul>
-													<li>Працюваkf <span class="success-stories-bold">13 років</span> на посаді “Chief Legal Officer”<br></li>
+													<li>Працювала <span class="success-stories-bold">13 років</span> на посаді “Chief Legal Officer”<br></li>
 													<li>Навчалася у нас протягом <span class="success-stories-bold">3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
 													<li>Зараз працює на позиції <span class="success-stories-bold">QA engineer</span> в компанії <span class="success-stories-bold">PNN Soft</span><br></li>
+												</ul></td> 
+											</tr> 
+
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/olesia-tychynina-05470b1b7/" target="_blank">
+													<img src="images/linkedin_logo_home.svg">
+												</a></td>
+												<td>Olesia Tychynina</td> 
+												<td><ul>
+													<li>Працювала <span class="success-stories-bold">12 років</span> на посаді “Спеціаліст - подолог”<br></li>
+													<li>Навчалася у нас протягом <span class="success-stories-bold">5 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">Manual QA</span> в компанії <span class="success-stories-bold">Kevuru Games</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%B3%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-7bba0a1b0/" target="_blank">
+													<img src="images/linkedin_logo_home.svg">
+												</a></td>
+												<td>Dmytro Hranovskyi</td> 
+												<td><ul>
+													<li>Працював <span class="success-stories-bold">9 років</span> на посаді “Гірничий інженер”<br></li>
+													<li>Навчався у нас протягом <span class="success-stories-bold">4 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold">Playtech</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/iurii-bugar-ba76b553/" target="_blank">
+													<img src="images/linkedin_logo_home.svg">
+												</a></td>
+												<td>Iurii Bugar</td> 
+												<td><ul>
+													<li>Працював <span class="success-stories-bold">8 років</span> на посаді “Бухгалтер”<br></li>
+													<li>Навчався у нас протягом <span class="success-stories-bold">4 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">JQA Engineer</span> в компанії <span class="success-stories-bold">PJSC Bank Vostok</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/julia-rabovich-522b3820b/" target="_blank">
+													<img src="images/linkedin_logo_home.svg">
+												</a></td>
+												<td>Julia Rabovich</td> 
+												<td><ul>
+													<li>Працював <span class="success-stories-bold">9 років</span> на посаді “Інженер - електронщик”<br></li>
+													<li>Навчався у нас протягом <span class="success-stories-bold">4 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold"> Playtech</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/andrey-hryhorchuk-940a58205/?originalSubdomain=ua" target="_blank">
+													<img src="images/linkedin_logo_home.svg">
+												</a></td>
+												<td>Andrey Hryhorchuk</td> 
+												<td><ul>
+													<li>Працював <span class="success-stories-bold">5 років</span> на посаді “L1 support engineer”<br></li>
+													<li>Навчався у нас протягом <span class="success-stories-bold">4 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">JQA Engineer</span> в компанії <span class="success-stories-bold">Zakaz.ua</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/bezeliuk-alex/?originalSubdomain=ua" target="_blank">
+													<img src="images/linkedin_logo_home.svg">
+												</a></td>
+												<td>Alexander Bezeliuk</td> 
+												<td><ul>
+													<li>Працював <span class="success-stories-bold">3 роки</span> на посаді “Заступника дероктора магазину електроніки”<br></li>
+													<li>Навчався у нас протягом <span class="success-stories-bold">3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">QA engineer</span> в компанії <span class="success-stories-bold">Playtech</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<td><a href="https://www.linkedin.com/in/pavel-karnasenko-a66632207/?originalSubdomain=ua" target="_blank">
+													<img src="images/linkedin_logo_home.svg"></a></td>
+												<td>Pavel Karnasenko</td> 
+												<td><ul>
+													<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Інженер-конструктор”<br></li>
+													<li>Навчався у нас протягом <span class="success-stories-bold">1,5 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Зараз працює на позиції<span class="success-stories-bold"> QA Engineer</span> в компанії 	<span class="success-stories-bold">PixelTeh</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<div><td><a href="https://www.linkedin.com/in/natalya-sorokina-a74a7b1a9/" target="_blank">
+													<img src="images/linkedin_logo_home.svg"></a></td>
+												<td>Natali Sorokina</td> 
+												</div>
+												<td> <ul>
+													<li>Працювала <span class="success-stories-bold">22 роки</span> на посаді “Керуючий банківським відділенням”<br></li>
+													<li>Навчався у нас протягом<span class="success-stories-bold"> 5 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">Junior QA</span> в компанії <span class="success-stories-bold">FireKass</span><br></li>
+												</ul></td> 
+											</tr>
+
+											<tr class="success-stories-student">
+												<div><td><a href="https://www.linkedin.com/in/lapaichukmax/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=ua" target="_blank">
+													<img src="images/linkedin_logo_home.svg"></a></td>
+												<td>Max Lapaichuk</td> 
+												</div>
+												<td> <ul>
+													<li>Працював <span class="success-stories-bold">4 роки</span> на посаді “Офіціант - адміністратор”<br></li>
+													<li>Навчався у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
+													<li>Зараз працює на позиції <span class="success-stories-bold">Manual QA</span> в компанії <span class="success-stories-bold">Leeloo</span><br></li>
 												</ul></td> 
 											</tr>
 
