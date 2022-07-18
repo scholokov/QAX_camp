@@ -91,6 +91,42 @@ ul{
 }
 
 
+.spoiler_body { 
+    display: none; 
+}
+
+.spoiler_links{
+    padding: 10px 25px;
+
+    width: 205px;
+    height: 41px;
+
+    border: 1.5px solid #E9E8EA;
+    border-radius: 3px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #E9E8EA;
+}
+
+.spoiler_links:hover {
+    background: #E9E8EA;
+    color: #3E3B5E;
+    border-color: #E9E8EA;
+}
+
+.spoiler_links:focus {
+    background: #E9E8EA;
+    color: #3E3B5E;
+    border-color: #E9E8EA;
+}
+
 
 @media (max-width: 1440px) {
     #success-stories-block{
