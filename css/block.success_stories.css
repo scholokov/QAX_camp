@@ -327,9 +327,8 @@ ul{
     
 
     #success-stories{
-        background: url(images/success_stories_bg_mob.svg) no-repeat;
-        background-size: auto;
-        background-position: left;
+        background: url(images/success_stories_bg_mob.svg) no-repeat center;
+        background-size: cover;
     }
 
     #success-stories-block{
@@ -363,7 +362,7 @@ ul{
         font-size: 14px;
         line-height: 18px;
     }
-    #success-stories-table {
+    .success-stories-table {
         margin-bottom: 0;
         font-size: 14px;
         line-height: 18px;
