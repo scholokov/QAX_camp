@@ -216,6 +216,51 @@ ul{
     
 }
 
+@media (min-width: 769px) and (max-width: 1200px) {
+    tr td:nth-child(1) {
+        padding-right: 12px;
+        border: none;
+        width: 34px;
+        height: 30px;
+    }
+    tr.success-stories-student {
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        max-width: 1071px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    tr td:nth-child(2) {
+        max-width: 366px;
+        margin-bottom: 8px;
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    .success-stories-linkedin{
+        width: 21px;
+        height: 21px;
+        background-size: 21px;
+    }
+
+    #success-stories-text{
+        margin-bottom: 40px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .success-stories-table{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    #success-stories-img-block{
+        max-width: 250px;
+        margin-left: -210px;
+        margin-bottom: 95px;
+    }
+}
+
 
 @media (min-width: 460px) and (max-width: 768px) {
     tr td:nth-child(1) {
