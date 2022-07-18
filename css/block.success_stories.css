@@ -244,7 +244,7 @@ ul{
         font-size: 16px;
         line-height: 21px;
     }
-    #success-stories-table{
+    .success-stories-table{
         font-size: 16px;
         line-height: 21px;
     }
@@ -255,7 +255,7 @@ ul{
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 459px) {
     
 
     #success-stories{
