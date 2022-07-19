@@ -368,7 +368,7 @@
 												</a></td>
 												<td>Julia Rabovich</td> 
 												<td><ul>
-													<li>Працював <span class="success-stories-bold">9 років</span> на посаді “Інженер - електронщик”<br></li>
+													<li>Працювала <span class="success-stories-bold">9 років</span> на посаді “Інженер - електронщик”<br></li>
 													<li>Навчалася у нас протягом <span class="success-stories-bold">4 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
 													<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold"> Playtech</span><br></li>
 												</ul></td> 
