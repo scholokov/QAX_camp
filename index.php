@@ -369,7 +369,7 @@
 												<td>Julia Rabovich</td> 
 												<td><ul>
 													<li>Працював <span class="success-stories-bold">9 років</span> на посаді “Інженер - електронщик”<br></li>
-													<li>Навчався у нас протягом <span class="success-stories-bold">4 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
+													<li>Навчалася у нас протягом <span class="success-stories-bold">4 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
 													<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold"> Playtech</span><br></li>
 												</ul></td> 
 											</tr>
@@ -414,7 +414,7 @@
 												</div>
 												<td> <ul>
 													<li>Працювала <span class="success-stories-bold">22 роки</span> на посаді “Керуючий банківським відділенням”<br></li>
-													<li>Навчався у нас протягом<span class="success-stories-bold"> 5 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
+													<li>Навчалася у нас протягом<span class="success-stories-bold"> 5 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
 													<li>Зараз працює на позиції <span class="success-stories-bold">Junior QA</span> в компанії <span class="success-stories-bold">FireKass</span><br></li>
 												</ul></td> 
 											</tr>
