@@ -284,7 +284,7 @@
 											<td>Mykhailo Borovikov</td> 
 											</div>
 											<td> <ul>
-												<li>Працював <span class="success-stories-bold">4,5 роки</span> на посаді “Керівник ресторану”<br></li>
+												<li>Працював <span class="success-stories-bold">4,5 роки</span> на посаді “Директор ресторану”<br></li>
 												<li>Навчався у нас протягом<span class="success-stories-bold"> 2 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
 												<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold">Wallet Factory</span><br></li>
 											</ul></td> 
@@ -297,7 +297,7 @@
 											</div>
 											<td> <ul>
 												<li>Працювала <span class="success-stories-bold">12 років</span> на посаді “Помічник нотаріуса”<br></li>
-												<li>Навчалась у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
+												<li>Навчалася у нас протягом<span class="success-stories-bold"> 3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span> <br></li>
 												<li>Зараз працює на позиції <span class="success-stories-bold">QA Engineer</span> в компанії <span class="success-stories-bold">Kevuru Games</span><br></li>
 											</ul></td> 
 										</tr>
@@ -390,7 +390,7 @@
 												</a></td>
 												<td>Alexander Bezeliuk</td> 
 												<td><ul>
-													<li>Працював <span class="success-stories-bold">3 роки</span> на посаді “Заступника дероктора магазину електроніки”<br></li>
+													<li>Працював <span class="success-stories-bold">3 роки</span> на посаді “Заступника дероктора магазину”<br></li>
 													<li>Навчався у нас протягом <span class="success-stories-bold">3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
 													<li>Зараз працює на позиції <span class="success-stories-bold">QA engineer</span> в компанії <span class="success-stories-bold">Playtech</span><br></li>
 												</ul></td> 
