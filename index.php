@@ -390,7 +390,7 @@
 												</a></td>
 												<td>Alexander Bezeliuk</td> 
 												<td><ul>
-													<li>Працював <span class="success-stories-bold">3 роки</span> на посаді “Заступника дероктора магазину”<br></li>
+													<li>Працював <span class="success-stories-bold">3 роки</span> на посаді “Заступник директора магазину”<br></li>
 													<li>Навчався у нас протягом <span class="success-stories-bold">3 місяців</span> на курсі : <span class="success-stories-red">QA Практика</span><br></li>
 													<li>Зараз працює на позиції <span class="success-stories-bold">QA engineer</span> в компанії <span class="success-stories-bold">Playtech</span><br></li>
 												</ul></td> 
