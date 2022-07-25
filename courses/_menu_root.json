@@ -36,7 +36,7 @@
         "course": "hr"
     },
         "en": {
-        "courseTabName": "English for QA",
+        "courseTabName": "English courses",
         "availability": "1",
         "coursefile": "_menu_en.json",
         "course": "en"
