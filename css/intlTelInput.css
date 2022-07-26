@@ -67,7 +67,8 @@
     border-bottom: 1px solid #CCC; }
   .iti__country {
     padding: 5px 10px;
-    outline: none; }
+    outline: none;
+    color: #212529 !important; }
   .iti__dial-code {
     color: #999; }
   .iti__country.iti__highlight {
