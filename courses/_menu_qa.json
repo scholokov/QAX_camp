@@ -1,12 +1,13 @@
 {
+    
+    "qa_theory": {
+        "courseName": "Базовий курс",
+        "courseFileName": "qa_theory",
+        "availability": "1"
+    },
     "qa_practice": {
         "courseName": "Практика",
         "courseFileName": "qa_practice",
-        "availability": "1"
-    },
-    "qa_theory": {
-        "courseName": "Базовий курс QA",
-        "courseFileName": "qa_theory",
         "availability": "1"
     },
     "qa_api": {
