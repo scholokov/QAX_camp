@@ -306,6 +306,14 @@ h3.course-plan-main-title {
     -webkit-box-orient: vertical;
 }
 
+.descriotion-step-sql{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
 .descriotion-step li{
 list-style-position:inside;
 }
