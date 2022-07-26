@@ -689,7 +689,7 @@ textarea:-moz-placeholder {
 
 #comment_input p,span{
     background-color: transparent !important; 
-    color: #FFFFFF !important;
+   /* color: #FFFFFF !important;*/
 
 }
 
