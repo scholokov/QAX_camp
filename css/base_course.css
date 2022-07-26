@@ -504,6 +504,14 @@ h5.title-step {
         -webkit-box-orient: vertical;
     }
 
+    .descriotion-step-sql{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
     #step-5-tab{
         display: flex;
     }
@@ -749,6 +757,14 @@ h5.title-step {
     }
 
     .descriotion-step{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+    }
+
+    .descriotion-step-sql{
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
