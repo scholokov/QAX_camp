@@ -120,7 +120,7 @@
 .iti-mobile .iti__country {
     padding: 10px 10px;
     line-height: 1.5em;
-    color: #212529;
+    color: #212529 !important;
 }
 
 .iti__flag {
