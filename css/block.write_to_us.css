@@ -37,7 +37,7 @@ div#write_to_us_shadow {
 }
 
 #write_to_us-plant{
-    z-index: 9999;
+    z-index: 999;
     position: relative;
     margin-bottom: -179px;
     margin-right: 50px;
