@@ -118,8 +118,10 @@
   width: 100%; }
 
 .iti-mobile .iti__country {
-  padding: 10px 10px;
-  line-height: 1.5em; }
+    padding: 10px 10px;
+    line-height: 1.5em;
+    color: #212529;
+}
 
 .iti__flag {
   width: 20px; }
