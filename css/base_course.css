@@ -209,12 +209,6 @@ td:nth-child(3), td:nth-child(5){
     list-style: none;
 }
 
-.new-course-main-description li::before {
-    content: "●"; 
-    margin-right: 20px;
-    width: 1em;
-    color: #F66F5D;
-}
 
 
 .course-price-main-title{
