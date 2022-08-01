@@ -141,7 +141,7 @@
 							<h4 id="hero-text-longread">
 							Вдосконалення через практику на реальних<br> проєктах та менторство 
 							</h4>
-							<a href="https://test.qax-camp.com.ua/courses.php?course=practice&name=qa_practice" id="hero-button">Дізнатися більше</a>
+							<a href="https://qax-camp.com.ua/courses.php?course=qa&name=qa_practice" id="hero-button">Дізнатися більше</a>
 						</div>
 						<div id="hero-img-block">
 							<img src="images/Image_1.svg">
