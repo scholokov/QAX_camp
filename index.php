@@ -221,7 +221,7 @@
 							<div id="resoult-text-block">
 								<h3 id="resoult-title">РЕЗУЛЬТАТ</h3>
 								<h4 id="resoult-text">Пам’ятай, навіть якщо ти не маєш базових навичок, щоб потрапити у світ IT, ми допоможемо тобі 
-									з цим! Після чого ти впевнено зможеш отримати “job offer” і залишити наш Кемп справжнім воїном. 
+									з цим! Після чого ти впевнено зможеш отримати “job offer” і залишити наш Кемп справжнім спеціалістом. 
 								</h4>
 							</div>
 						</div>
@@ -242,7 +242,7 @@
 								
 								<div id="counter">
 								<div class="bl">
-									<div id="counter-text">Кількість підготовлених бійців</div>
+									<div id="counter-text">Кількість підготовлених фахівців</div>
 									<div id="counter-numbers">
 										<div data-num="0" class="number">0</div>
 										<div data-num="3" class="number">0</div>

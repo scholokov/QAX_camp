@@ -296,6 +296,14 @@ h3.course-plan-main-title {
     -webkit-box-orient: vertical;
 }
 
+.descriotion-step-api{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
 .descriotion-step-sql{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -499,6 +507,14 @@ h5.title-step {
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+    .descriotion-step-sql{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
     }
 
@@ -752,6 +768,15 @@ h5.title-step {
         display: -webkit-box;
         -webkit-line-clamp: 8;
         -webkit-box-orient: vertical;
+    }
+
+    .descriotion-step-api{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+
     }
 
     .descriotion-step-sql{
