@@ -502,7 +502,7 @@ h5.title-step {
         -webkit-box-orient: vertical;
     }
 
-    .descriotion-step-sql{
+    .descriotion-step-api{
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
