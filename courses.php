@@ -316,13 +316,6 @@ function goToForm(){
 				$(this).next('.spoiler_body').toggle('normal');
 				$(this).css('display', 'none');
 				$(this).prev('.descriotion-step').css('display', 'none');
-				return false;
-			});
-		});
-		$(document).ready(function(){
-			$('.spoiler_links').click(function(){
-				$(this).next('.spoiler_body').toggle('normal');
-				$(this).css('display', 'none');
 				$(this).prev('.descriotion-step-api').css('display', 'none');
 				return false;
 			});
