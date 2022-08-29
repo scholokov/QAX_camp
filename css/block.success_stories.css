@@ -107,12 +107,37 @@ ul{
     list-style-type: none;
 }
 
+#success-stories-buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
 .spoiler_body { 
     display: none; 
 }
 
 .spoiler_links{
+    padding: 10px 25px;
+
+    width: 175px;
+    height: 41px;
+
+    border: 1.5px solid #E9E8EA;
+    border-radius: 3px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #E9E8EA;
+}
+
+#feedback_link{
     padding: 10px 25px;
 
     width: 175px;
