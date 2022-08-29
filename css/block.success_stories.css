@@ -152,9 +152,10 @@ ul{
     font-size: 18px;
     line-height: 21px;
     display: flex;
-    align-items: center;
-
     color: #E9E8EA;
+    align-items: center;
+    margin-top: -36px;
+    align-self: flex-end;
 }
 
 .spoiler_links:hover {
