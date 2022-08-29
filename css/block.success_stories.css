@@ -170,6 +170,17 @@ ul{
     border-color: #E9E8EA;
 }
 
+#feedback-link:hover {
+    background: #E9E8EA;
+    color: #3E3B5E;
+    border-color: #E9E8EA;
+}
+
+#feedback-link:focus {
+    background: #E9E8EA;
+    color: #3E3B5E;
+    border-color: #E9E8EA;
+}
 
 
 @media (max-width: 1440px) {
