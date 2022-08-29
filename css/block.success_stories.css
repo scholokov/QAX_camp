@@ -154,7 +154,7 @@ ul{
     display: flex;
     color: #E9E8EA;
     align-items: center;
-    margin-top: -36px;
+    margin-bottom: -36px;
     align-self: flex-end;
 }
 
