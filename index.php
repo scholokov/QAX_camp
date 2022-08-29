@@ -312,7 +312,7 @@
 								</table>
 
 								
-									<a href="courses.php?course=qa&name=qa_practice#comments-course-main-block" id="feedback-link">Відгуки</a>
+									
 									<a href="" class="spoiler_links">Дивитися усіх</a>
 									
 								
