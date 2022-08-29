@@ -310,10 +310,10 @@
 										</tr>
 										
 								</table>
-								<div id="success-stories-buttons">
+								
 									<a href="" class="spoiler_links">Дивитися усіх</a>
 									<a href="courses.php?course=qa&name=qa_practice#comments-course-main-block" id="feedback-link">Відгуки</a>
-								</div>
+								
 								
                                     <div class="spoiler_body">
 										<table class="success-stories-table">
