@@ -312,6 +312,7 @@
 								</table>
 
 								<a href="" class="spoiler_links">Дивитися усіх</a>
+								<a href="courses.php?course=qa&name=qa_practice#comments-course-main-block" >Відгуки</a>
                                     <div class="spoiler_body">
 										<table class="success-stories-table">
 											<tr class="success-stories-student">
