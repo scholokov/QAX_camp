@@ -245,7 +245,7 @@
 		</div>
 
                         </div>
-                        <div class="trainer">
+                        <!--<div class="trainer">
                             <div class="trainer-photo">
                                 <img class="trainer-img" src="images/AL-trainer.png"  alt="trainer">
                             </div>
@@ -255,7 +255,7 @@
                             <div class="trainer-info" >
 								<div class="linkedin-logo">
 									<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/" class="trainers_linkedin_icon_link">
-									<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+									
 								</a>
 								</div>
 								<div class="trainer-info_text">
@@ -264,7 +264,7 @@
 										<div class="trainer-name-block-tab">
 											<div class="linkedin-logo-tablet">
 												<a target="_blank" href="https://www.linkedin.com/in/alesya-lomenko/" class="trainers_linkedin_icon_link">
-													<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+													
 												</a>
 											</div>
 											<div class="">
@@ -293,7 +293,7 @@
 									</div>
                             </div>
 						</div>
-                        </div>
+                        </div>-->
 
                         <div class="our-trainers-line2"></div>
 
@@ -459,7 +459,7 @@
 
                         </div>
 						</div>
-										<div class="trainer ">
+									<!--	<div class="trainer ">
 											<div class="trainer-photo">
 												<img class="trainer-img" src="images/EV-trainer.png" alt="trainer">
 											</div>
@@ -469,7 +469,7 @@
 											<div class="trainer-info ">
 							<div class="linkedin-logo">
 								<a target="_blank" href="https://www.linkedin.com/in/elenavolokhonskaya/" class="trainers_linkedin_icon_link">
-								<!--<img src="images/LinkedIn.svg" alt="trainer">-->
+							
 								</a>
 								</div>
 								<div class="trainer-info_text">
@@ -478,7 +478,7 @@
 								<div class="trainer-name-block-tab">
 									<div class="linkedin-logo-tablet">
 										<a target="_blank" href="https://www.linkedin.com/in/elenavolokhonskaya/" class="trainers_linkedin_icon_link">
-										<!--<img class="linked-logo-img-tab" src="images/LinkedIn.svg" alt="trainer">-->
+										
 										</a>
 									</div>
 									<div class="">
@@ -511,7 +511,7 @@
 											
 
 										</div>
-							</div>
+							</div> -->
                     
 					<div class="trainer ">
 											<div class="trainer-photo">
