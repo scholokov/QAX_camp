@@ -34,13 +34,8 @@
         "availability": "1",
         "coursefile": "_menu_hr.json",
         "course": "hr"
-    },
-        "en": {
-        "courseTabName": "English courses",
-        "availability": "1",
-        "coursefile": "_menu_en.json",
-        "course": "en"
     }
+        
 	
 }
 
