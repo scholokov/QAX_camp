@@ -21,7 +21,7 @@
         "availability": "1"
     },
     "qa_en":{
-        "courseTabName": "English for QA",
+        "courseName": "English for QA",
         "courseFileName": "en_practice",
         "availability": "1"
     }
