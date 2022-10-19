@@ -712,10 +712,10 @@
 					
 					<div class="trainer ">
                       <div class="trainer-photo">
-                        <img class="trainer-img" src="images/DM-trainer.jfif" alt="trainer">
+                        <img class="trainer-img" src="images/DM-trainer.png" alt="trainer">
                       </div>
               <div class="trainer-photo-mob">
-                        <img class="trainer-img-mob" src="images/DM-trainer.jfif" alt="trainer">
+                        <img class="trainer-img-mob" src="images/DM-trainer-mob.png" alt="trainer">
                       </div>
                       <div class="trainer-info ">
               <div class="linkedin-logo">
