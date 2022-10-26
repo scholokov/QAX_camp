@@ -441,7 +441,7 @@ function check_email() {
         name_line.css({ "border-color": "red" });
         error_message_email_empty.show();
         error_message_email_invalid.hide();
-        error_message_email_long.show();
+        error_message_email_long.hide();
         return false;
     }else if (email_length !=0){
         if (email_length > 50 ) {
