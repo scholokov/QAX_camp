@@ -438,7 +438,7 @@ function check_email() {
     console.log('email-length: ' + email_length);
     console.log('email-correctness: ' + email_clear);
     if (email_length == 0) {
-        name_line.css({ "border-color": "red" });
+        email_line.css({ "border-color": "red" });
         error_message_email_empty.show();
         error_message_email_invalid.hide();
         error_message_email_long.hide();
