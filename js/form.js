@@ -439,10 +439,9 @@ function check_email() {
     console.log('email-correctness: ' + email_clear);
     if (email_length == 0) {
         name_line.css({ "border-color": "red" });
-        error_message_name_empty.show();
-        error_message_name_short.hide();
-        error_message_name_long.hide();
-        error_message_name_only_numbers.hide();
+        error_message_email_empty.show();
+        error_message_email_invalid.hide();
+        error_message_email_long.show();
         return false;
     }else if (email_length !=0){
         if (email_length > 50 ) {
